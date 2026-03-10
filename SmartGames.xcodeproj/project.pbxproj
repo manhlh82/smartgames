@@ -26,6 +26,7 @@
 		41DFA69F421CB29B82A35652 /* SmartGamesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A61C1CCA23233D1C898F37 /* SmartGamesTests.swift */; };
 		43D4E2B4DB3426B4F5D2F0CD /* SudokuGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108FB779F3B369A5528D966A /* SudokuGameView.swift */; };
 		487345ACCB1B7CD54339F268 /* SudokuNumberPadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2A44074EFCB7F482536C79 /* SudokuNumberPadView.swift */; };
+		4DA44045AE4A7465B4D33705 /* AnalyticsServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAB33221F8D2506CE4E467A /* AnalyticsServiceTests.swift */; };
 		536CB5AB2BEDB01DDEB0AC87 /* InterstitialAdCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFAF4DA4988850B344DD535 /* InterstitialAdCoordinator.swift */; };
 		57371D9CD64A5F2CDC8502CF /* puzzles.json in Resources */ = {isa = PBXBuildFile; fileRef = 43BEDF0CE812C0E30BB9E76C /* puzzles.json */; };
 		5E3F02D29DB4E4791A0357DE /* PersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD05E2AC7298D41683CB6ABE /* PersistenceService.swift */; };
@@ -37,6 +38,7 @@
 		70ED93386A8F5C08D23C27C4 /* AnalyticsEvent+AppLifecycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B389E53132A4A2CBE7743A5D /* AnalyticsEvent+AppLifecycle.swift */; };
 		7558E84B7FA0D7F731D47653 /* SettingsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E073A34C16A632ADDBE4DC /* SettingsService.swift */; };
 		7A1E9413A64DC07CF329DCEB /* SudokuBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EE0520412AF65F106387E2 /* SudokuBoardView.swift */; };
+		7BBD1C0D8668FC2EF120100D /* AnalyticsEvent+Ads.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67902B032B3383DE930640CB /* AnalyticsEvent+Ads.swift */; };
 		8255CB5E0F6AB9DA701D30EC /* SudokuToolbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F94856F9E05CA5624B9C15 /* SudokuToolbarView.swift */; };
 		8E0FD29FFDCEDE01F405F402 /* SudokuCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566BFCDD234B38BAEAC47534 /* SudokuCellView.swift */; };
 		8EE02D512DFA23FD9D1035F9 /* SudokuGameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABC119B05A87032BBD2D3B6 /* SudokuGameState.swift */; };
@@ -78,6 +80,7 @@
 		07A61C1CCA23233D1C898F37 /* SmartGamesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartGamesTests.swift; sourceTree = "<group>"; };
 		09D45EF3BD087B1841436567 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
 		09F4ADECD00CB45C55C0D6F4 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		0CAB33221F8D2506CE4E467A /* AnalyticsServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsServiceTests.swift; sourceTree = "<group>"; };
 		0EC0B60E3DDD4CA8F6809B43 /* SmartGamesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartGamesApp.swift; sourceTree = "<group>"; };
 		108FB779F3B369A5528D966A /* SudokuGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudokuGameView.swift; sourceTree = "<group>"; };
 		17CFE49782BCB436768FAD14 /* AnalyticsEvent+Sudoku.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AnalyticsEvent+Sudoku.swift"; sourceTree = "<group>"; };
@@ -95,6 +98,7 @@
 		6108A261450FA8404766CA1D /* HubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HubView.swift; sourceTree = "<group>"; };
 		626E068858FAD34210DB5B6B /* GameCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCardView.swift; sourceTree = "<group>"; };
 		62E073A34C16A632ADDBE4DC /* SettingsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsService.swift; sourceTree = "<group>"; };
+		67902B032B3383DE930640CB /* AnalyticsEvent+Ads.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AnalyticsEvent+Ads.swift"; sourceTree = "<group>"; };
 		6862FC1DF2AFDF9FBEFF90FA /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
 		6ABC119B05A87032BBD2D3B6 /* SudokuGameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudokuGameState.swift; sourceTree = "<group>"; };
 		6DDB851C70C2A2AE144D55A5 /* AnalyticsEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsEvent.swift; sourceTree = "<group>"; };
@@ -206,6 +210,7 @@
 			isa = PBXGroup;
 			children = (
 				6DDB851C70C2A2AE144D55A5 /* AnalyticsEvent.swift */,
+				67902B032B3383DE930640CB /* AnalyticsEvent+Ads.swift */,
 				B389E53132A4A2CBE7743A5D /* AnalyticsEvent+AppLifecycle.swift */,
 				17CFE49782BCB436768FAD14 /* AnalyticsEvent+Sudoku.swift */,
 				386FA7F547BE9A50E454AB40 /* AnalyticsService.swift */,
@@ -350,6 +355,7 @@
 		EB9B3F382776496721ECB5F1 /* SmartGamesTests */ = {
 			isa = PBXGroup;
 			children = (
+				0CAB33221F8D2506CE4E467A /* AnalyticsServiceTests.swift */,
 				85826F9585A6FE3A8D46476B /* PersistenceServiceTests.swift */,
 				8EFBDE92D4C9431B87662A18 /* SettingsServiceTests.swift */,
 				07A61C1CCA23233D1C898F37 /* SmartGamesTests.swift */,
@@ -467,6 +473,7 @@
 			files = (
 				6BE576D0B810A4F9F5D1BE46 /* AdsConfig.swift in Sources */,
 				F6A9AC9BE3A34AA32F3529EC /* AdsService.swift in Sources */,
+				7BBD1C0D8668FC2EF120100D /* AnalyticsEvent+Ads.swift in Sources */,
 				70ED93386A8F5C08D23C27C4 /* AnalyticsEvent+AppLifecycle.swift in Sources */,
 				F4F2F21FB3C3FE38768CB039 /* AnalyticsEvent+Sudoku.swift in Sources */,
 				6FEC07213292E933C6C08421 /* AnalyticsEvent.swift in Sources */,
@@ -518,6 +525,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DA44045AE4A7465B4D33705 /* AnalyticsServiceTests.swift in Sources */,
 				69119893D585D4FD4690FEEE /* PersistenceServiceTests.swift in Sources */,
 				1783FBE9AD173CDC9D617FC7 /* SettingsServiceTests.swift in Sources */,
 				41DFA69F421CB29B82A35652 /* SmartGamesTests.swift in Sources */,

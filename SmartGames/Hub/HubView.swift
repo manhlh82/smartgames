@@ -4,6 +4,7 @@ import SwiftUI
 struct HubView: View {
     @StateObject private var viewModel = HubViewModel()
     @EnvironmentObject private var router: AppRouter
+    @EnvironmentObject private var analytics: AnalyticsService
     @State private var showSettings = false
 
     var body: some View {
@@ -11,6 +12,7 @@ struct HubView: View {
             VStack(spacing: 12) {
                 ForEach(viewModel.games) { game in
                     GameCardView(game: game) {
+                        analytics.log(.gameSelected(gameId: game.id))
                         if let route = game.route {
                             router.navigate(to: route)
                         }
@@ -20,12 +22,16 @@ struct HubView: View {
             }
             .padding(.vertical, AppTheme.standardPadding)
         }
+        .onAppear {
+            analytics.log(.hubViewed)
+        }
         .background(Color.appBackground.ignoresSafeArea())
         .navigationTitle("SmartGames")
         .navigationBarTitleDisplayMode(.large)
         .toolbar {
             ToolbarItem(placement: .navigationBarTrailing) {
                 Button {
+                    analytics.log(.settingsOpened)
                     showSettings = true
                 } label: {
                     Image(systemName: "gearshape")

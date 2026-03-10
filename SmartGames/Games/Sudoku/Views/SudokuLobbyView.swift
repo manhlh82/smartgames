@@ -50,7 +50,7 @@ struct SudokuLobbyView: View {
             }
         }
         .onAppear {
-            analytics.log(AnalyticsEvent(name: "sudoku_lobby_viewed"))
+            analytics.log(.sudokuLobbyViewed)
         }
     }
 

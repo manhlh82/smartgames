@@ -72,8 +72,7 @@ final class SudokuGameViewModel: ObservableObject {
         self.hintsRemaining = persistence.load(Int.self, key: PersistenceService.Keys.sudokuHintsRemaining)
                               ?? puzzle.difficulty.freeHints
         startTimer()
-        analytics.log(AnalyticsEvent(name: "sudoku_game_started",
-            parameters: ["difficulty": puzzle.difficulty.rawValue, "is_resume": false]))
+        analytics.log(.sudokuGameStarted(difficulty: puzzle.difficulty.rawValue, isResume: false))
     }
 
     // MARK: - Cell Selection
@@ -133,20 +132,20 @@ final class SudokuGameViewModel: ObservableObject {
             clearPencilMarks(value: n, peers: SudokuBoardUtils.peers(for: pos.row, col: pos.col))
             sound.playTap()
             haptics.impact(.medium)
-            analytics.log(AnalyticsEvent(name: "sudoku_number_placed",
-                parameters: ["difficulty": puzzle.difficulty.rawValue, "is_correct": true,
-                             "elapsed_seconds": elapsedSeconds]))
+            analytics.log(.sudokuNumberPlaced(difficulty: puzzle.difficulty.rawValue,
+                isCorrect: true, elapsedSeconds: elapsedSeconds))
             checkWin()
         } else {
             mistakeCount += 1
             sound.playError()
             haptics.notification(.error)
-            analytics.log(AnalyticsEvent(name: "sudoku_number_placed",
-                parameters: ["difficulty": puzzle.difficulty.rawValue, "is_correct": false,
-                             "elapsed_seconds": elapsedSeconds]))
+            analytics.log(.sudokuNumberPlaced(difficulty: puzzle.difficulty.rawValue,
+                isCorrect: false, elapsedSeconds: elapsedSeconds))
             if mistakeCount >= mistakeLimit {
                 gamePhase = .lost
                 stopTimer()
+                analytics.log(.sudokuGameFailed(difficulty: puzzle.difficulty.rawValue,
+                    elapsedSeconds: elapsedSeconds, mistakes: mistakeCount))
             }
         }
         scheduleAutoSave()
@@ -161,6 +160,7 @@ final class SudokuGameViewModel: ObservableObject {
         puzzle.board[pos.row][pos.col].pencilMarks = []
         puzzle.board[pos.row][pos.col].hasError = false
         haptics.impact(.light)
+        analytics.log(.sudokuEraserUsed(difficulty: puzzle.difficulty.rawValue))
         scheduleAutoSave()
     }
 
@@ -170,8 +170,7 @@ final class SudokuGameViewModel: ObservableObject {
         puzzle.board = snapshot.board
         mistakeCount = snapshot.mistakeCount
         haptics.impact(.light)
-        analytics.log(AnalyticsEvent(name: "sudoku_undo_used",
-            parameters: ["difficulty": puzzle.difficulty.rawValue]))
+        analytics.log(.sudokuUndoUsed(difficulty: puzzle.difficulty.rawValue))
         scheduleAutoSave()
     }
 
@@ -182,8 +181,7 @@ final class SudokuGameViewModel: ObservableObject {
             applyHint()
         } else {
             gamePhase = .needsHintAd
-            analytics.log(AnalyticsEvent(name: "sudoku_hint_exhausted",
-                parameters: ["difficulty": puzzle.difficulty.rawValue]))
+            analytics.log(.sudokuHintExhausted(difficulty: puzzle.difficulty.rawValue))
         }
     }
 
@@ -211,9 +209,8 @@ final class SudokuGameViewModel: ObservableObject {
         selectedCell = pos
         sound.playHint()
         haptics.impact(.medium)
-        analytics.log(AnalyticsEvent(name: "sudoku_hint_used",
-            parameters: ["difficulty": puzzle.difficulty.rawValue,
-                         "hints_remaining_before": hintsRemaining + 1]))
+        analytics.log(.sudokuHintUsed(difficulty: puzzle.difficulty.rawValue,
+            hintsRemainingBefore: hintsRemaining + 1))
         clearPencilMarks(value: value, peers: SudokuBoardUtils.peers(for: pos.row, col: pos.col))
         checkWin()
         scheduleAutoSave()
@@ -223,8 +220,7 @@ final class SudokuGameViewModel: ObservableObject {
     func togglePencilMode() {
         isPencilMode.toggle()
         haptics.selection()
-        analytics.log(AnalyticsEvent(name: "sudoku_pencil_mode_toggled",
-            parameters: ["enabled": isPencilMode]))
+        analytics.log(.sudokuPencilModeToggled(enabled: isPencilMode))
     }
 
     // MARK: - Pause / Resume
@@ -233,16 +229,15 @@ final class SudokuGameViewModel: ObservableObject {
         gamePhase = .paused
         stopTimer()
         autoSave()
-        analytics.log(AnalyticsEvent(name: "sudoku_game_paused",
-            parameters: ["elapsed_seconds": elapsedSeconds, "difficulty": puzzle.difficulty.rawValue]))
+        analytics.log(.sudokuGamePaused(difficulty: puzzle.difficulty.rawValue,
+            elapsedSeconds: elapsedSeconds))
     }
 
     func resume() {
         guard gamePhase == .paused else { return }
         gamePhase = .playing
         startTimer()
-        analytics.log(AnalyticsEvent(name: "sudoku_game_resumed",
-            parameters: ["difficulty": puzzle.difficulty.rawValue]))
+        analytics.log(.sudokuGameResumed(difficulty: puzzle.difficulty.rawValue))
     }
 
     // MARK: - Restart
@@ -256,8 +251,7 @@ final class SudokuGameViewModel: ObservableObject {
         selectedCell = nil
         gamePhase = .playing
         startTimer()
-        analytics.log(AnalyticsEvent(name: "sudoku_game_restarted",
-            parameters: ["difficulty": puzzle.difficulty.rawValue]))
+        analytics.log(.sudokuGameRestarted(difficulty: puzzle.difficulty.rawValue))
     }
 
     // MARK: - Win Check
@@ -269,12 +263,9 @@ final class SudokuGameViewModel: ObservableObject {
         haptics.notification(.success)
         saveStats()
         persistence.delete(key: PersistenceService.Keys.sudokuActiveGame)
-        analytics.log(AnalyticsEvent(name: "sudoku_game_completed",
-            parameters: ["difficulty": puzzle.difficulty.rawValue,
-                         "elapsed_seconds": elapsedSeconds,
-                         "mistakes": mistakeCount,
-                         "hints_used": hintsUsedTotal,
-                         "stars": starRating]))
+        analytics.log(.sudokuGameCompleted(difficulty: puzzle.difficulty.rawValue,
+            elapsedSeconds: elapsedSeconds, mistakes: mistakeCount,
+            hintsUsed: hintsUsedTotal, stars: starRating))
     }
 
     // MARK: - Star Rating
