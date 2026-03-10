@@ -1,4 +1,5 @@
 import Foundation
+import SwiftUI
 
 @MainActor
 final class HubViewModel: ObservableObject {
@@ -8,7 +9,9 @@ final class HubViewModel: ObservableObject {
             id: "sudoku",
             displayName: "Sudoku",
             iconAsset: "icon-sudoku",
-            isAvailable: true
+            isAvailable: true,
+            route: .sudokuLobby
         )
+        // Future: Add more GameEntry items here for each new game
     ]
 }

@@ -11,10 +11,25 @@ final class SmartGamesTests: XCTestCase {
         XCTAssertNotNil(env.ads)
     }
 
-    func testHubViewModelHasSudoku() {
-        let vm = HubViewModel()
-        XCTAssertFalse(vm.games.isEmpty)
-        XCTAssertTrue(vm.games.contains { $0.id == "sudoku" })
-        XCTAssertTrue(vm.games.first { $0.id == "sudoku" }?.isAvailable == true)
+    func testHubViewModelHasSudoku() async {
+        let vm = await HubViewModel()
+        await MainActor.run {
+            XCTAssertFalse(vm.games.isEmpty)
+            let sudoku = vm.games.first { $0.id == "sudoku" }
+            XCTAssertNotNil(sudoku)
+            XCTAssertTrue(sudoku?.isAvailable == true)
+            XCTAssertNotNil(sudoku?.route)
+        }
+    }
+
+    func testAppRouterNavigate() async {
+        let router = await AppRouter()
+        await MainActor.run {
+            XCTAssertTrue(router.path.isEmpty)
+            router.navigate(to: .sudokuLobby)
+            XCTAssertEqual(router.path.count, 1)
+            router.pop()
+            XCTAssertTrue(router.path.isEmpty)
+        }
     }
 }
