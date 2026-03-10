@@ -1,8 +1,26 @@
 import UIKit
 
-/// Haptic feedback service. Full implementation in PR-02.
+/// Provides haptic feedback. Respects SettingsService.isHapticsEnabled.
 final class HapticsService: ObservableObject {
-    func impact(_ style: UIImpactFeedbackGenerator.FeedbackStyle = .medium) {}
-    func notification(_ type: UINotificationFeedbackGenerator.FeedbackType) {}
-    func selection() {}
+    private var settingsService: SettingsService?
+
+    /// Inject settings after init.
+    func configure(settings: SettingsService) {
+        self.settingsService = settings
+    }
+
+    func impact(_ style: UIImpactFeedbackGenerator.FeedbackStyle = .medium) {
+        guard settingsService?.isHapticsEnabled ?? true else { return }
+        UIImpactFeedbackGenerator(style: style).impactOccurred()
+    }
+
+    func notification(_ type: UINotificationFeedbackGenerator.FeedbackType) {
+        guard settingsService?.isHapticsEnabled ?? true else { return }
+        UINotificationFeedbackGenerator().notificationOccurred(type)
+    }
+
+    func selection() {
+        guard settingsService?.isHapticsEnabled ?? true else { return }
+        UISelectionFeedbackGenerator().selectionChanged()
+    }
 }

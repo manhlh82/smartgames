@@ -1,8 +1,42 @@
 import Foundation
 
-/// Handles saving and loading of all game state. Full implementation in PR-02.
+/// Handles saving and loading of Codable game state using UserDefaults + JSON encoding.
+/// All game progress, stats, and settings are stored here.
 final class PersistenceService: ObservableObject {
-    func save<T: Codable>(_ value: T, key: String) {}
-    func load<T: Codable>(_ type: T.Type, key: String) -> T? { nil }
-    func delete(key: String) {}
+    private let defaults = UserDefaults.standard
+    private let encoder = JSONEncoder()
+    private let decoder = JSONDecoder()
+
+    /// Save any Codable value under the given key.
+    func save<T: Codable>(_ value: T, key: String) {
+        guard let data = try? encoder.encode(value) else { return }
+        defaults.set(data, forKey: key)
+    }
+
+    /// Load and decode a Codable value for the given key. Returns nil if missing or decode fails.
+    func load<T: Codable>(_ type: T.Type, key: String) -> T? {
+        guard let data = defaults.data(forKey: key) else { return nil }
+        return try? decoder.decode(type, from: data)
+    }
+
+    /// Remove a saved value.
+    func delete(key: String) {
+        defaults.removeObject(forKey: key)
+    }
+
+    /// Check if a key exists.
+    func exists(key: String) -> Bool {
+        defaults.object(forKey: key) != nil
+    }
+}
+
+/// Keys used throughout the app — centralised to prevent typos.
+extension PersistenceService {
+    enum Keys {
+        static let sudokuActiveGame = "sudoku.activeGame"
+        static let sudokuHintsRemaining = "sudoku.hints.remaining"
+        static let sudokuPlayedPuzzleIDs = "sudoku.playedPuzzleIDs"
+        static func sudokuStats(difficulty: String) -> String { "sudoku.stats.\(difficulty)" }
+        static let appSettings = "app.settings"
+    }
 }
