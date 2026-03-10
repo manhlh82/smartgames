@@ -1,0 +1,43 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode user-specific files
+*.xcuserstate
+xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xccheckout
+*.xcscmblueprint
+
+# Build artifacts
+DerivedData/
+.build/
+build/
+*.ipa
+*.dSYM.zip
+*.dSYM
+*.xcresult
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Swift Package Manager (local overrides only)
+.swiftpm/config/registries.json
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+
+# Sensitive files
+GoogleService-Info.plist
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Editor/IDE
+*.swp
+*.swo
+.idea/
+*.sublime-workspace

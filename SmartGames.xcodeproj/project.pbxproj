@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C9F5603776FADB70335A7C6 /* SmartGamesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC0B60E3DDD4CA8F6809B43 /* SmartGamesApp.swift */; };
+		1AB89D37D3F206DCE5393BF6 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E669A032F1BD63F9CD4E9AF4 /* PrimaryButton.swift */; };
+		262496ED99FF0C60F3446E16 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6862FC1DF2AFDF9FBEFF90FA /* AppTheme.swift */; };
+		26D79B7770F1C9E96F7CEFBC /* GameEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81A6AA432CBC5928E605D3F /* GameEntry.swift */; };
+		2A2478205867AFF7E5C089FA /* HubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6108A261450FA8404766CA1D /* HubView.swift */; };
+		30ED91B8A059250E037B9DF2 /* GameCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626E068858FAD34210DB5B6B /* GameCardView.swift */; };
+		3FA7D1A6CB7AF082CEEA80E6 /* AnalyticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386FA7F547BE9A50E454AB40 /* AnalyticsService.swift */; };
+		41DFA69F421CB29B82A35652 /* SmartGamesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A61C1CCA23233D1C898F37 /* SmartGamesTests.swift */; };
+		5E3F02D29DB4E4791A0357DE /* PersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD05E2AC7298D41683CB6ABE /* PersistenceService.swift */; };
+		638540EC77823F316C601CDA /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30D3B8C1E089C80972F5904 /* AppColors.swift */; };
+		6F706E79783F5A9C93131A50 /* HapticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8F39FA270744170E1ED75C /* HapticsService.swift */; };
+		6FEC07213292E933C6C08421 /* AnalyticsEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDB851C70C2A2AE144D55A5 /* AnalyticsEvent.swift */; };
+		7558E84B7FA0D7F731D47653 /* SettingsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E073A34C16A632ADDBE4DC /* SettingsService.swift */; };
+		99E1D4FBF6647B6CB6489185 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D45EF3BD087B1841436567 /* AppRouter.swift */; };
+		A03B7F4D9BCE8B19D6260EA8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D11518254CD2A784C592E0 /* ContentView.swift */; };
+		A624085D125A0DBECEC24F01 /* AppFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCCE4BD407E85EB6D16B795 /* AppFonts.swift */; };
+		CF1932514C4FC7F0A560180E /* HubViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D98D47714A3BDC944935A59 /* HubViewModel.swift */; };
+		D51783C662EC23E7DED3FF33 /* AppRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F123205B88FD4A7B877679 /* AppRoutes.swift */; };
+		E1596EB2ADE7258013DC78B5 /* SudokuLobbyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFEF1ECCCF555E74F942824 /* SudokuLobbyView.swift */; };
+		E90F32A056D96ABFA12A80B6 /* SoundService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5175BD2DF63D5C465E969303 /* SoundService.swift */; };
+		EC950F5CECF9721E7790BE90 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731F8E4C824B4253F2D3B6E9 /* AppEnvironment.swift */; };
+		ECA3A3D8CC5D275E25A4B711 /* SudokuModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC871B5B9344E445807120A3 /* SudokuModule.swift */; };
+		F6A9AC9BE3A34AA32F3529EC /* AdsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572BEF208087CE8C3522EE7F /* AdsService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D621A317CECD27BDE60E3F97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A427CA5DB647E68A22F1BDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D19C8231A7ADB2C861E5953;
+			remoteInfo = SmartGames;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07A61C1CCA23233D1C898F37 /* SmartGamesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartGamesTests.swift; sourceTree = "<group>"; };
+		09D45EF3BD087B1841436567 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		0EC0B60E3DDD4CA8F6809B43 /* SmartGamesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartGamesApp.swift; sourceTree = "<group>"; };
+		1D98D47714A3BDC944935A59 /* HubViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HubViewModel.swift; sourceTree = "<group>"; };
+		386FA7F547BE9A50E454AB40 /* AnalyticsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsService.swift; sourceTree = "<group>"; };
+		5175BD2DF63D5C465E969303 /* SoundService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundService.swift; sourceTree = "<group>"; };
+		572BEF208087CE8C3522EE7F /* AdsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsService.swift; sourceTree = "<group>"; };
+		5D8F39FA270744170E1ED75C /* HapticsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsService.swift; sourceTree = "<group>"; };
+		6108A261450FA8404766CA1D /* HubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HubView.swift; sourceTree = "<group>"; };
+		626E068858FAD34210DB5B6B /* GameCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCardView.swift; sourceTree = "<group>"; };
+		62E073A34C16A632ADDBE4DC /* SettingsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsService.swift; sourceTree = "<group>"; };
+		6862FC1DF2AFDF9FBEFF90FA /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		6DDB851C70C2A2AE144D55A5 /* AnalyticsEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsEvent.swift; sourceTree = "<group>"; };
+		731F8E4C824B4253F2D3B6E9 /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
+		80D62BBB422F391FFC049C23 /* SmartGames.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = SmartGames.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DCCE4BD407E85EB6D16B795 /* AppFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFonts.swift; sourceTree = "<group>"; };
+		9B291E283C3AAE46AF4E4EFD /* SmartGamesTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = SmartGamesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABFEF1ECCCF555E74F942824 /* SudokuLobbyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudokuLobbyView.swift; sourceTree = "<group>"; };
+		C5D11518254CD2A784C592E0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C7F123205B88FD4A7B877679 /* AppRoutes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRoutes.swift; sourceTree = "<group>"; };
+		CD05E2AC7298D41683CB6ABE /* PersistenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceService.swift; sourceTree = "<group>"; };
+		D880D5F57DB44AE5DC7F8CF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DC871B5B9344E445807120A3 /* SudokuModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudokuModule.swift; sourceTree = "<group>"; };
+		E669A032F1BD63F9CD4E9AF4 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		E81A6AA432CBC5928E605D3F /* GameEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameEntry.swift; sourceTree = "<group>"; };
+		F30D3B8C1E089C80972F5904 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		03D1B1A8B46138E1E0D79A15 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				CD05E2AC7298D41683CB6ABE /* PersistenceService.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		121EE544964E2A5970245483 = {
+			isa = PBXGroup;
+			children = (
+				8D7801E4AA7C2C84B7CD2B70 /* SmartGames */,
+				EB9B3F382776496721ECB5F1 /* SmartGamesTests */,
+				916A9A813E4E2DCD0BC81EEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		123F251C0F14BE1C735729AA /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				F30D3B8C1E089C80972F5904 /* AppColors.swift */,
+				8DCCE4BD407E85EB6D16B795 /* AppFonts.swift */,
+				6862FC1DF2AFDF9FBEFF90FA /* AppTheme.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		248D30D1FEB8772A360F9FE4 /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				5C78827513F881B8631A451A /* Sudoku */,
+			);
+			path = Games;
+			sourceTree = "<group>";
+		};
+		2B16084E5E45260227FC1D6E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				626E068858FAD34210DB5B6B /* GameCardView.swift */,
+				E669A032F1BD63F9CD4E9AF4 /* PrimaryButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		3BDF9F406EC82D57A6612D69 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ABFEF1ECCCF555E74F942824 /* SudokuLobbyView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		59F1EC7160FBEE6CC074745F /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				6DDB851C70C2A2AE144D55A5 /* AnalyticsEvent.swift */,
+				386FA7F547BE9A50E454AB40 /* AnalyticsService.swift */,
+			);
+			path = Analytics;
+			sourceTree = "<group>";
+		};
+		5C78827513F881B8631A451A /* Sudoku */ = {
+			isa = PBXGroup;
+			children = (
+				DC871B5B9344E445807120A3 /* SudokuModule.swift */,
+				3BDF9F406EC82D57A6612D69 /* Views */,
+			);
+			path = Sudoku;
+			sourceTree = "<group>";
+		};
+		5E84803FC7C25AF24B571B20 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E81A6AA432CBC5928E605D3F /* GameEntry.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		64B3B6F827EE6CAA8086B0C3 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				62E073A34C16A632ADDBE4DC /* SettingsService.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		668CBF77B121BB927B701B08 /* Ads */ = {
+			isa = PBXGroup;
+			children = (
+				572BEF208087CE8C3522EE7F /* AdsService.swift */,
+			);
+			path = Ads;
+			sourceTree = "<group>";
+		};
+		69DAF1F1D13E2566F8A327E9 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2B16084E5E45260227FC1D6E /* Components */,
+				123F251C0F14BE1C735729AA /* UI */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		8D7801E4AA7C2C84B7CD2B70 /* SmartGames */ = {
+			isa = PBXGroup;
+			children = (
+				731F8E4C824B4253F2D3B6E9 /* AppEnvironment.swift */,
+				C5D11518254CD2A784C592E0 /* ContentView.swift */,
+				D880D5F57DB44AE5DC7F8CF2 /* Info.plist */,
+				0EC0B60E3DDD4CA8F6809B43 /* SmartGamesApp.swift */,
+				69DAF1F1D13E2566F8A327E9 /* Common */,
+				248D30D1FEB8772A360F9FE4 /* Games */,
+				F82716D01E911B23DA83A600 /* Hub */,
+				E3F8236B17D1488C7CCB5A48 /* Navigation */,
+				D73453012F045C03D2C66EA9 /* SharedServices */,
+			);
+			path = SmartGames;
+			sourceTree = "<group>";
+		};
+		916A9A813E4E2DCD0BC81EEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80D62BBB422F391FFC049C23 /* SmartGames.app */,
+				9B291E283C3AAE46AF4E4EFD /* SmartGamesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D73453012F045C03D2C66EA9 /* SharedServices */ = {
+			isa = PBXGroup;
+			children = (
+				668CBF77B121BB927B701B08 /* Ads */,
+				59F1EC7160FBEE6CC074745F /* Analytics */,
+				03D1B1A8B46138E1E0D79A15 /* Persistence */,
+				64B3B6F827EE6CAA8086B0C3 /* Settings */,
+				EFAFAC8358F14246AA87F594 /* Sound */,
+			);
+			path = SharedServices;
+			sourceTree = "<group>";
+		};
+		E3F8236B17D1488C7CCB5A48 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				09D45EF3BD087B1841436567 /* AppRouter.swift */,
+				C7F123205B88FD4A7B877679 /* AppRoutes.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		EB9B3F382776496721ECB5F1 /* SmartGamesTests */ = {
+			isa = PBXGroup;
+			children = (
+				07A61C1CCA23233D1C898F37 /* SmartGamesTests.swift */,
+			);
+			path = SmartGamesTests;
+			sourceTree = "<group>";
+		};
+		EFAFAC8358F14246AA87F594 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				5D8F39FA270744170E1ED75C /* HapticsService.swift */,
+				5175BD2DF63D5C465E969303 /* SoundService.swift */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		F82716D01E911B23DA83A600 /* Hub */ = {
+			isa = PBXGroup;
+			children = (
+				6108A261450FA8404766CA1D /* HubView.swift */,
+				1D98D47714A3BDC944935A59 /* HubViewModel.swift */,
+				5E84803FC7C25AF24B571B20 /* Models */,
+			);
+			path = Hub;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D19C8231A7ADB2C861E5953 /* SmartGames */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E38272BDE209B104135CC559 /* Build configuration list for PBXNativeTarget "SmartGames" */;
+			buildPhases = (
+				214FC8B997190E1974127F1C /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartGames;
+			packageProductDependencies = (
+			);
+			productName = SmartGames;
+			productReference = 80D62BBB422F391FFC049C23 /* SmartGames.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F691214FB067D7E8E2E86AA4 /* SmartGamesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87F37BA5C6FE222C56A4C8A8 /* Build configuration list for PBXNativeTarget "SmartGamesTests" */;
+			buildPhases = (
+				E637DAA0943CAFBE557EDBBD /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34561493DE00EC3F3A5467B4 /* PBXTargetDependency */,
+			);
+			name = SmartGamesTests;
+			packageProductDependencies = (
+			);
+			productName = SmartGamesTests;
+			productReference = 9B291E283C3AAE46AF4E4EFD /* SmartGamesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A427CA5DB647E68A22F1BDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 3A4CA06A94DD4A322A969C41 /* Build configuration list for PBXProject "SmartGames" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 121EE544964E2A5970245483;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 916A9A813E4E2DCD0BC81EEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D19C8231A7ADB2C861E5953 /* SmartGames */,
+				F691214FB067D7E8E2E86AA4 /* SmartGamesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		214FC8B997190E1974127F1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6A9AC9BE3A34AA32F3529EC /* AdsService.swift in Sources */,
+				6FEC07213292E933C6C08421 /* AnalyticsEvent.swift in Sources */,
+				3FA7D1A6CB7AF082CEEA80E6 /* AnalyticsService.swift in Sources */,
+				638540EC77823F316C601CDA /* AppColors.swift in Sources */,
+				EC950F5CECF9721E7790BE90 /* AppEnvironment.swift in Sources */,
+				A624085D125A0DBECEC24F01 /* AppFonts.swift in Sources */,
+				99E1D4FBF6647B6CB6489185 /* AppRouter.swift in Sources */,
+				D51783C662EC23E7DED3FF33 /* AppRoutes.swift in Sources */,
+				262496ED99FF0C60F3446E16 /* AppTheme.swift in Sources */,
+				A03B7F4D9BCE8B19D6260EA8 /* ContentView.swift in Sources */,
+				30ED91B8A059250E037B9DF2 /* GameCardView.swift in Sources */,
+				26D79B7770F1C9E96F7CEFBC /* GameEntry.swift in Sources */,
+				6F706E79783F5A9C93131A50 /* HapticsService.swift in Sources */,
+				2A2478205867AFF7E5C089FA /* HubView.swift in Sources */,
+				CF1932514C4FC7F0A560180E /* HubViewModel.swift in Sources */,
+				5E3F02D29DB4E4791A0357DE /* PersistenceService.swift in Sources */,
+				1AB89D37D3F206DCE5393BF6 /* PrimaryButton.swift in Sources */,
+				7558E84B7FA0D7F731D47653 /* SettingsService.swift in Sources */,
+				0C9F5603776FADB70335A7C6 /* SmartGamesApp.swift in Sources */,
+				E90F32A056D96ABFA12A80B6 /* SoundService.swift in Sources */,
+				E1596EB2ADE7258013DC78B5 /* SudokuLobbyView.swift in Sources */,
+				ECA3A3D8CC5D275E25A4B711 /* SudokuModule.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E637DAA0943CAFBE557EDBBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41DFA69F421CB29B82A35652 /* SmartGamesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34561493DE00EC3F3A5467B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D19C8231A7ADB2C861E5953 /* SmartGames */;
+			targetProxy = D621A317CECD27BDE60E3F97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04DF13915369619633E69B6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SmartGames/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D8A3966374B38E564608515 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SmartGames/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		33520E4CC06AD416590D59D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = SmartGames/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartgames.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		49EC6C59C370087722198809 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartGames.app/SmartGames";
+			};
+			name = Debug;
+		};
+		5C01A78F2C181FEE9F9AB175 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = SmartGames/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartgames.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		63A57392AA1FCAB9D03070D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartGames.app/SmartGames";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A4CA06A94DD4A322A969C41 /* Build configuration list for PBXProject "SmartGames" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C01A78F2C181FEE9F9AB175 /* Debug */,
+				33520E4CC06AD416590D59D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		87F37BA5C6FE222C56A4C8A8 /* Build configuration list for PBXNativeTarget "SmartGamesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49EC6C59C370087722198809 /* Debug */,
+				63A57392AA1FCAB9D03070D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E38272BDE209B104135CC559 /* Build configuration list for PBXNativeTarget "SmartGames" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DF13915369619633E69B6A /* Debug */,
+				2D8A3966374B38E564608515 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A427CA5DB647E68A22F1BDA /* Project object */;
+}

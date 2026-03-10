@@ -1,0 +1,49 @@
+name: SmartGames
+options:
+  bundleIdPrefix: com.smartgames
+  deploymentTarget:
+    iOS: "16.0"
+  xcodeVersion: "15.0"
+  generateEmptyDirectories: true
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: 5.9
+    MARKETING_VERSION: 1.0.0
+    CURRENT_PROJECT_VERSION: 1
+    TARGETED_DEVICE_FAMILY: 1
+    SUPPORTS_MACCATALYST: false
+    INFOPLIST_FILE: SmartGames/Info.plist
+    PRODUCT_BUNDLE_IDENTIFIER: com.smartgames.app
+    SWIFT_OPTIMIZATION_LEVEL: -Onone
+targets:
+  SmartGames:
+    type: application
+    platform: iOS
+    sources:
+      - path: SmartGames
+        excludes:
+          - "**/*.md"
+    info:
+      path: SmartGames/Info.plist
+      properties:
+        CFBundleName: SmartGames
+        CFBundleDisplayName: SmartGames
+        CFBundleShortVersionString: "$(MARKETING_VERSION)"
+        CFBundleVersion: "$(CURRENT_PROJECT_VERSION)"
+        UILaunchStoryboardName: ""
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
+    settings:
+      base:
+        INFOPLIST_FILE: SmartGames/Info.plist
+    dependencies: []
+  SmartGamesTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - SmartGamesTests
+    dependencies:
+      - target: SmartGames
