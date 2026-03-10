@@ -36,6 +36,13 @@ targets:
           - UIInterfaceOrientationPortrait
         UIApplicationSceneManifest:
           UIApplicationSupportsMultipleScenes: false
+        # AdMob: Replace with real App ID from AdMob console before App Store submission
+        GADApplicationIdentifier: "ca-app-pub-3940256099942544~1458002511"
+        # User Tracking: Required for ATT prompt
+        NSUserTrackingUsageDescription: "We use this to show you more relevant ads and improve your experience."
+        # SKAdNetwork: Required for AdMob
+        SKAdNetworkItems:
+          - SKAdNetworkIdentifier: "cstr6suwn9.skadnetwork"
     settings:
       base:
         INFOPLIST_FILE: SmartGames/Info.plist
