@@ -29,6 +29,8 @@ Podfile.lock
 
 # Sensitive files
 GoogleService-Info.plist
+*.xcconfig.local
+Release.xcconfig
 
 # Fastlane
 fastlane/report.xml

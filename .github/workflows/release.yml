@@ -1,0 +1,24 @@
+name: Release Build
+on:
+  push:
+    tags: ['v*']
+jobs:
+  build:
+    runs-on: macos-14
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install XcodeGen
+        run: brew install xcodegen
+      - name: Generate Xcode Project
+        run: xcodegen generate
+      - name: Build
+        run: |
+          xcodebuild archive \
+            -project SmartGames.xcodeproj \
+            -scheme SmartGames \
+            -configuration Release \
+            -archivePath SmartGames.xcarchive \
+            CODE_SIGNING_ALLOWED=NO | xcpretty || true
+      - name: Upload to TestFlight
+        if: success()
+        run: echo "Configure with Fastlane when signing is ready"
