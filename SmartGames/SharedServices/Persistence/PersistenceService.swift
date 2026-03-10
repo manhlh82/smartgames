@@ -36,6 +36,7 @@ extension PersistenceService {
         static let sudokuActiveGame = "sudoku.activeGame"
         static let sudokuHintsRemaining = "sudoku.hints.remaining"
         static let sudokuPlayedPuzzleIDs = "sudoku.playedPuzzleIDs"
+        static let sudokuPendingPuzzle = "sudoku.pendingPuzzle"
         static func sudokuStats(difficulty: String) -> String { "sudoku.stats.\(difficulty)" }
         static let appSettings = "app.settings"
     }

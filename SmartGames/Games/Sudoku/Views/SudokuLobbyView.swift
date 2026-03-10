@@ -1,9 +1,195 @@
 import SwiftUI
 
-/// Sudoku difficulty selection screen. Full implementation in PR-05.
+/// Sudoku game entry point — difficulty selection and optional resume.
 struct SudokuLobbyView: View {
+    @EnvironmentObject private var router: AppRouter
+    @EnvironmentObject private var persistence: PersistenceService
+    @EnvironmentObject private var analytics: AnalyticsService
+    @EnvironmentObject private var sound: SoundService
+    @EnvironmentObject private var haptics: HapticsService
+    @EnvironmentObject private var ads: AdsService
+
+    @StateObject private var viewModel: SudokuLobbyViewModel
+    @State private var isLoadingGame = false
+
+    init() {
+        // Temporary persistence instance; real one injected via onAppear update.
+        // StateObject is initialized once — we replace the dependency inside the Task.
+        _viewModel = StateObject(wrappedValue: SudokuLobbyViewModel(persistence: PersistenceService()))
+    }
+
     var body: some View {
-        Text("Sudoku Lobby — Coming in PR-05")
-            .navigationTitle("Sudoku")
+        ZStack {
+            Color.appBackground.ignoresSafeArea()
+
+            VStack(spacing: 0) {
+                Spacer()
+                titleSection
+                    .padding(.bottom, 32)
+
+                if viewModel.hasSavedGame, let diff = viewModel.savedGameDifficulty {
+                    resumeCard(difficulty: diff)
+                        .padding(.horizontal, AppTheme.standardPadding)
+                        .padding(.bottom, 16)
+                }
+
+                difficultySheet
+            }
+        }
+        .navigationBarBackButtonHidden(false)
+        .toolbar {
+            ToolbarItem(placement: .navigationBarTrailing) {
+                Image(systemName: "trophy")
+                    .foregroundColor(.appTextSecondary)
+                    .accessibilityLabel("Leaderboard — coming soon")
+            }
+        }
+        .overlay {
+            if isLoadingGame {
+                loadingOverlay
+            }
+        }
+        .onAppear {
+            analytics.log(AnalyticsEvent(name: "sudoku_lobby_viewed"))
+        }
+    }
+
+    // MARK: - Subviews
+
+    private var titleSection: some View {
+        VStack(spacing: 6) {
+            Text("Sudoku")
+                .font(.system(size: 42, weight: .bold))
+                .foregroundColor(.appTextPrimary)
+            Text("Unlock your brain.")
+                .font(.appBody)
+                .foregroundColor(.appTextSecondary)
+        }
+    }
+
+    private func resumeCard(difficulty: SudokuDifficulty) -> some View {
+        VStack(spacing: 8) {
+            Text("Resume \(difficulty.displayName)")
+                .font(.appHeadline)
+                .foregroundColor(.appTextPrimary)
+            HStack(spacing: 12) {
+                Button("Resume") { resumeSavedGame() }
+                    .buttonStyle(.borderedProminent)
+                    .accessibilityLabel("Resume \(difficulty.displayName) game")
+                Button("New Game") { viewModel.clearSavedGame() }
+                    .buttonStyle(.bordered)
+                    .accessibilityLabel("Discard saved game and start new")
+            }
+        }
+        .padding()
+        .background(Color.white)
+        .cornerRadius(AppTheme.cardCornerRadius)
+        .shadow(color: .black.opacity(0.08), radius: AppTheme.cardShadowRadius, x: 0, y: 2)
+    }
+
+    private var difficultySheet: some View {
+        VStack(alignment: .leading, spacing: 0) {
+            Text("NEW GAME")
+                .font(.appCaption)
+                .foregroundColor(.appTextSecondary)
+                .padding(.horizontal, AppTheme.standardPadding)
+                .padding(.top, AppTheme.standardPadding)
+                .padding(.bottom, 8)
+
+            ForEach(SudokuDifficulty.allCases) { difficulty in
+                difficultyRow(difficulty)
+                if difficulty != SudokuDifficulty.allCases.last {
+                    Divider()
+                        .padding(.leading, AppTheme.standardPadding + 48)
+                }
+            }
+        }
+        .background(Color.white)
+        .cornerRadius(24, corners: [.topLeft, .topRight])
+        .shadow(color: .black.opacity(0.1), radius: 20, x: 0, y: -4)
+    }
+
+    private func difficultyRow(_ difficulty: SudokuDifficulty) -> some View {
+        Button {
+            startNewGame(difficulty: difficulty)
+        } label: {
+            HStack(spacing: 16) {
+                difficultyIcon(difficulty)
+                    .frame(width: 32)
+                Text(difficulty.displayName)
+                    .font(.appBody)
+                    .foregroundColor(.appTextPrimary)
+                Spacer()
+            }
+            .padding(.horizontal, AppTheme.standardPadding)
+            .padding(.vertical, 18)
+        }
+        .buttonStyle(.plain)
+        .accessibilityLabel("Start \(difficulty.displayName) game")
+    }
+
+    private func difficultyIcon(_ difficulty: SudokuDifficulty) -> some View {
+        let bars: Int
+        switch difficulty {
+        case .easy:   bars = 1
+        case .medium: bars = 2
+        case .hard:   bars = 3
+        case .expert: bars = 4
+        }
+        return HStack(alignment: .bottom, spacing: 2) {
+            ForEach(1...4, id: \.self) { i in
+                RoundedRectangle(cornerRadius: 2)
+                    .fill(i <= bars ? Color.appTextPrimary : Color.gray.opacity(0.3))
+                    .frame(width: 5, height: CGFloat(4 + i * 4))
+            }
+        }
+    }
+
+    private var loadingOverlay: some View {
+        Color.black.opacity(0.2)
+            .ignoresSafeArea()
+            .overlay(
+                ProgressView()
+                    .scaleEffect(1.5)
+            )
+    }
+
+    // MARK: - Actions
+
+    private func startNewGame(difficulty: SudokuDifficulty) {
+        isLoadingGame = true
+        Task {
+            let puzzle = await viewModel.getPuzzle(for: difficulty)
+            persistence.save(puzzle, key: PersistenceService.Keys.sudokuPendingPuzzle)
+            isLoadingGame = false
+            router.navigate(to: .sudokuGame(difficulty: difficulty))
+        }
+    }
+
+    private func resumeSavedGame() {
+        guard let state = viewModel.loadSavedGame() else { return }
+        persistence.save(state.puzzle, key: PersistenceService.Keys.sudokuPendingPuzzle)
+        router.navigate(to: .sudokuGame(difficulty: state.puzzle.difficulty))
+    }
+}
+
+// MARK: - Selective corner radius helper
+
+private extension View {
+    func cornerRadius(_ radius: CGFloat, corners: UIRectCorner) -> some View {
+        clipShape(RoundedCorner(radius: radius, corners: corners))
+    }
+}
+
+private struct RoundedCorner: Shape {
+    let radius: CGFloat
+    let corners: UIRectCorner
+
+    func path(in rect: CGRect) -> Path {
+        Path(UIBezierPath(
+            roundedRect: rect,
+            byRoundingCorners: corners,
+            cornerRadii: CGSize(width: radius, height: radius)
+        ).cgPath)
     }
 }
