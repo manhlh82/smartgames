@@ -57,10 +57,16 @@ snake_case names, dot-namespaced params. Add factories to `AnalyticsEvent+{Domai
 Dot-separated in `PersistenceService.Keys`. Never hardcode strings at call sites.
 Examples: `sudoku.stats.easy`, `sudoku.daily.state`, `store.adsRemoved`
 
-## New Game Checklist
+## New Game Checklist (Modular Architecture)
 
-- [ ] `Games/{Name}/` folder with Engine/, Models/, ViewModels/, Views/
-- [ ] No shared-service imports in Engine files
-- [ ] `GameEntry` added to `HubViewModel.games`
-- [ ] Route added to `AppRoute` enum
-- [ ] Analytics events added to `AnalyticsEvent+{Name}.swift`
+1. Create `Games/{Name}/` folder with: `Engine/`, `Models/`, `ViewModels/`, `Views/`
+2. Implement `{Name}GameModule: GameModule` protocol in game module root
+   - Set `id`, `displayName`, `iconName`, `isAvailable`
+   - Implement `makeLobbyView(environment:)` → return AnyView
+   - Implement `navigationDestination(for:environment:)` → return AnyView? for routes
+3. Create game-specific services (e.g., `ThemeService`, `StatisticsService`) owned by the module
+4. No shared-service imports in Engine files (Engine is pure game logic)
+5. Register module in `AppEnvironment.init()`: `registry.register({Name}GameModule(...))`
+6. Add game routes to `AppRoute` enum (e.g., `.gameLobby(gameId:)`, `.gamePlay(gameId:context:)`)
+7. Add analytics events: `AnalyticsEvent+{Name}.swift` with snake_case event names
+8. Update navigation: `HubView` reads games from `GameRegistry`, no hardcoding

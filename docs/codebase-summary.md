@@ -15,10 +15,17 @@ MVVM + EnvironmentObject. All services injected at root via `AppEnvironment`.
 | `Navigation/AppRouter.swift` | NavigationPath router |
 | `Hub/HubViewModel.swift` | Reads games from GameRegistry |
 
-## Sudoku Module
+## Sudoku Game Module
+
+Registered via `SudokuGameModule` conforming to `GameModule` protocol.
+
+**Sudoku owns:**
+- `ThemeService` — Board themes (persisted via SettingsService)
+- `StatisticsService` — Per-difficulty stats (persisted via PersistenceService)
 
 | File | Purpose |
 |------|---------|
+| `SudokuGameModule.swift` | Implements GameModule contract; owns theme + stats services |
 | `Engine/SudokuGenerator.swift` | Random/seeded backtracking generation |
 | `Engine/SudokuSolver.swift` | MRV solver + uniqueness check |
 | `Engine/SudokuValidator.swift` | Move validation, hint, win check |
@@ -31,24 +38,29 @@ MVVM + EnvironmentObject. All services injected at root via `AppEnvironment`.
 | `Views/SudokuStatisticsView.swift` | Per-difficulty stats screen |
 | `Views/SudokuStatsCardsGrid.swift` | Stats metric cards (win rate, streaks, times) |
 | `Views/DailyChallengeView.swift` | Daily challenge play screen |
-| `Views/PaywallView.swift` | In-app purchase display (Remove Ads, Hint Pack) |
+| `Views/PaywallView.swift` | IAP display (Remove Ads, Hint Pack) |
 | `Views/ThemePickerView.swift` | Board theme selector with previews |
 
-## Shared Services
+## Shared Cross-Game Services (AppEnvironment)
 
-| Service | Purpose |
-|---------|---------|
-| `PersistenceService` | UserDefaults+JSON, Keys enum |
-| `SettingsService` | Persists app preferences on change |
-| `SoundService` | AVAudioPlayer, settings-gated |
-| `HapticsService` | UIFeedbackGenerator, settings-gated |
-| `AdsService` | AdMob rewarded + interstitial; see admob-integration-guide.md |
-| `AnalyticsService` | os.log; see firebase-analytics-guide.md |
-| `ThemeService` | Board themes (Classic/Dark/Sepia), persisted preference |
-| `StatisticsService` | Per-difficulty stats (win rate, streaks, best time) |
-| `DailyChallengeService` | Daily puzzle (seeded), streak, push notifications |
-| `GameCenterService` | GKLocalPlayer auth, leaderboard submission |
-| `StoreService` | StoreKit 2, Remove Ads + Hint Pack IAP |
+| Service | Purpose | Scope |
+|---------|---------|-------|
+| `PersistenceService` | UserDefaults+JSON, Keys enum | Shared |
+| `SettingsService` | App-wide settings (persisted) | Shared |
+| `SoundService` | AVAudioPlayer, settings-gated | Shared |
+| `HapticsService` | UIFeedbackGenerator, settings-gated | Shared |
+| `AdsService` | AdMob rewarded + interstitial | Shared |
+| `AnalyticsService` | Event logging | Shared |
+| `DailyChallengeService` | Cross-game daily feature | Shared |
+| `GameCenterService` | GKLocalPlayer auth, leaderboards | Shared |
+| `StoreService` | StoreKit 2, IAP (Remove Ads, Hint Pack) | Shared |
+| `GameRegistry` | Game module registration | Shared |
+
+## Game-Specific Services (Inside GameModule)
+
+**Sudoku** owns its own:
+- `ThemeService` — Board themes (Classic/Dark/Sepia)
+- `StatisticsService` — Per-difficulty stats
 
 ## Game State Machine
 
