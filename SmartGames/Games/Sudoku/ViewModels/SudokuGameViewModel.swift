@@ -40,8 +40,17 @@ final class SudokuGameViewModel: ObservableObject {
     let sound: SoundService
     let haptics: HapticsService
     let ads: AdsService
+    let statisticsService: StatisticsService
+    let gameCenterService: GameCenterService
+    /// Non-nil only when this game is today's daily challenge.
+    let dailyChallengeService: DailyChallengeService?
+    /// Optional StoreService — when provided, observes hint pack purchases.
+    weak var storeService: StoreService? {
+        didSet { observeHintGrants() }
+    }
 
     private var timerTask: Task<Void, Never>?
+    private var hintGrantTask: Task<Void, Never>?
     private let validator = SudokuValidator()
     private let maxUndoDepth = 50
     private var autoSaveTask: Task<Void, Never>?
@@ -62,13 +71,18 @@ final class SudokuGameViewModel: ObservableObject {
 
     // MARK: - Init
     init(puzzle: SudokuPuzzle, persistence: PersistenceService, analytics: AnalyticsService,
-         sound: SoundService, haptics: HapticsService, ads: AdsService) {
+         sound: SoundService, haptics: HapticsService, ads: AdsService,
+         statisticsService: StatisticsService, gameCenterService: GameCenterService,
+         dailyChallengeService: DailyChallengeService? = nil) {
         self.puzzle = puzzle
         self.persistence = persistence
         self.analytics = analytics
         self.sound = sound
         self.haptics = haptics
         self.ads = ads
+        self.statisticsService = statisticsService
+        self.gameCenterService = gameCenterService
+        self.dailyChallengeService = dailyChallengeService
         self.hintsRemaining = persistence.load(Int.self, key: PersistenceService.Keys.sudokuHintsRemaining)
                               ?? puzzle.difficulty.freeHints
         startTimer()
@@ -144,6 +158,7 @@ final class SudokuGameViewModel: ObservableObject {
             if mistakeCount >= mistakeLimit {
                 gamePhase = .lost
                 stopTimer()
+                statisticsService.recordLoss(difficulty: puzzle.difficulty)
                 analytics.log(.sudokuGameFailed(difficulty: puzzle.difficulty.rawValue,
                     elapsedSeconds: elapsedSeconds, mistakes: mistakeCount))
             }
@@ -261,7 +276,20 @@ final class SudokuGameViewModel: ObservableObject {
         stopTimer()
         sound.playWin()
         haptics.notification(.success)
-        saveStats()
+        statisticsService.recordWin(difficulty: puzzle.difficulty,
+                                    elapsedSeconds: elapsedSeconds,
+                                    mistakes: mistakeCount)
+        // Mark daily challenge complete when applicable
+        dailyChallengeService?.markCompleted(
+            elapsedSeconds: elapsedSeconds,
+            mistakes: mistakeCount,
+            stars: starRating
+        )
+        // Submit score to Game Center only if this is a personal best
+        let currentBest = statisticsService.stats(for: puzzle.difficulty).bestTimeSeconds
+        if elapsedSeconds <= currentBest {
+            gameCenterService.submitScore(elapsedSeconds, difficulty: puzzle.difficulty)
+        }
         persistence.delete(key: PersistenceService.Keys.sudokuActiveGame)
         analytics.log(.sudokuGameCompleted(difficulty: puzzle.difficulty.rawValue,
             elapsedSeconds: elapsedSeconds, mistakes: mistakeCount,
@@ -321,18 +349,42 @@ final class SudokuGameViewModel: ObservableObject {
         }
     }
 
-    private func saveStats() {
-        let key = PersistenceService.Keys.sudokuStats(difficulty: puzzle.difficulty.rawValue)
-        var stats = persistence.load(SudokuStats.self, key: key) ?? SudokuStats()
-        stats.gamesPlayed += 1
-        stats.gamesWon += 1
-        stats.totalMistakes += mistakeCount
-        if elapsedSeconds < stats.bestTimeSeconds { stats.bestTimeSeconds = elapsedSeconds }
-        persistence.save(stats, key: key)
+    // MARK: - Hint Grant (IAP)
+
+    /// Grants 10 hints when a Hint Pack is purchased. Called via StoreService.pendingHintGrant.
+    func grantHintsFromPurchase() {
+        hintsRemaining += 10
+        persistence.save(hintsRemaining, key: PersistenceService.Keys.sudokuHintsRemaining)
+        // If game was waiting for an ad-based hint, resume automatically
+        if gamePhase == .needsHintAd {
+            gamePhase = .playing
+            applyHint()
+        }
+    }
+
+    /// Watches StoreService.pendingHintGrant — grants hints and resets the flag.
+    private func observeHintGrants() {
+        hintGrantTask?.cancel()
+        guard let store = storeService else { return }
+        hintGrantTask = Task { [weak self, weak store] in
+            guard let store else { return }
+            // Observe via polling (Combine not available on actor-isolated ObservableObject easily)
+            var previous = store.pendingHintGrant
+            while !Task.isCancelled {
+                try? await Task.sleep(nanoseconds: 200_000_000)
+                let current = store.pendingHintGrant
+                if current && !previous {
+                    self?.grantHintsFromPurchase()
+                    store.pendingHintGrant = false
+                }
+                previous = current
+            }
+        }
     }
 
     deinit {
         timerTask?.cancel()
         autoSaveTask?.cancel()
+        hintGrantTask?.cancel()
     }
 }

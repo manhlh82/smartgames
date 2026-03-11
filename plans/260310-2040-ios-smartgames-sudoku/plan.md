@@ -26,6 +26,7 @@ Primary revenue: Google AdMob (rewarded + light interstitial). Priority v1: game
 | 06 | Ads Integration (AdMob Rewarded + Interstitial) | ✅ Done | High | M |
 | 07 | Analytics Events | ✅ Done | Medium | S |
 | 08 | Polish, Testing & App Store Prep | ✅ Done | High | M |
+| **09** | **Phase 2: Retention & Monetization** | **✅ Done** | **High** | **M** |
 
 ---
 
@@ -80,13 +81,28 @@ Phase 01 → Phase 02 → Phase 03
 
 ---
 
+## Post-Phase 1 Enhancements (Phase 2)
+
+**Status:** ✅ Complete as of 2026-03-11
+
+Phase 2 (Retention & Monetization) successfully implemented all planned features:
+- Dark mode + 3 board themes (ThemeService)
+- Statistics screen per difficulty (StatisticsService)
+- Daily challenge with deterministic seeding (DailyChallengeService, SeededRandomNumberGenerator)
+- Game Center leaderboards per difficulty (GameCenterService)
+- In-App Purchases: Remove Ads ($2.99) + Hint Pack ($0.99) (StoreService, StoreKit 2)
+
+New services, views, and engine components documented in `codebase-summary.md` and `code-standards.md`.
+
+---
+
 ## Assumptions
 
 1. Target iOS 16+ (SwiftData requires iOS 17 — use UserDefaults+JSON fallback for iOS 16 support, or target iOS 17+ for simplicity).
 2. Sudoku puzzles pre-generated at build time (large JSON bundle) + on-device generation as fallback.
-3. Daily Challenge deferred to Phase 2.
+3. Daily Challenge deferred to Phase 2. ✅ Completed
 4. Sound/haptics: basic only in v1 (tap, error, win).
-5. No user accounts or leaderboards in v1.
+5. No user accounts or leaderboards in v1. ✅ Game Center leaderboards added in Phase 2
 6. AdMob test IDs used during dev; real IDs injected via CI env vars.
 7. App name: "SmartGames" (subject to App Store availability check).
 8. Mistake limit: 3 per game (as seen in reference screenshots).

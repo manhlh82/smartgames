@@ -10,16 +10,24 @@ struct SudokuGameView: View {
 
     init(difficulty: SudokuDifficulty, puzzle: SudokuPuzzle,
          persistence: PersistenceService, analytics: AnalyticsService,
-         sound: SoundService, haptics: HapticsService, ads: AdsService) {
+         sound: SoundService, haptics: HapticsService, ads: AdsService,
+         statisticsService: StatisticsService, gameCenterService: GameCenterService,
+         dailyChallengeService: DailyChallengeService? = nil,
+         storeService: StoreService? = nil) {
         self.difficulty = difficulty
-        _viewModel = StateObject(wrappedValue: SudokuGameViewModel(
+        let vm = SudokuGameViewModel(
             puzzle: puzzle,
             persistence: persistence,
             analytics: analytics,
             sound: sound,
             haptics: haptics,
-            ads: ads
-        ))
+            ads: ads,
+            statisticsService: statisticsService,
+            gameCenterService: gameCenterService,
+            dailyChallengeService: dailyChallengeService
+        )
+        vm.storeService = storeService
+        _viewModel = StateObject(wrappedValue: vm)
     }
 
     var body: some View {
@@ -179,7 +187,7 @@ struct SudokuGameView: View {
             }
         }
         .padding(24)
-        .background(Color.white)
+        .background(Color.appCard)
         .cornerRadius(24)
         .shadow(color: .black.opacity(0.15), radius: 20)
         .padding(AppTheme.standardPadding)

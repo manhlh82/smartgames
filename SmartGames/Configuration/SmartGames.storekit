@@ -1,0 +1,48 @@
+{
+  "identifier" : "6B8A4E5C-F2D1-4A9B-8C3E-7F1D2B5A9C4E",
+  "nonConsumableProducts" : [
+    {
+      "displayPrice" : "2.99",
+      "familyShareable" : false,
+      "internalID" : "1A2B3C4D-5E6F-7A8B-9C0D-1E2F3A4B5C6D",
+      "localizations" : [
+        {
+          "description" : "Remove all ads permanently. One-time purchase.",
+          "displayName" : "Remove Ads",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.smartgames.removeads",
+      "referenceName" : "Remove Ads",
+      "type" : "NonConsumable"
+    }
+  ],
+  "consumableProducts" : [
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "2B3C4D5E-6F7A-8B9C-0D1E-2F3A4B5C6D7E",
+      "localizations" : [
+        {
+          "description" : "Get 10 hints to use whenever you're stuck.",
+          "displayName" : "Hint Pack (10 Hints)",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.smartgames.hintpack",
+      "referenceName" : "Hint Pack",
+      "type" : "Consumable"
+    }
+  ],
+  "settings" : {
+    "_askToBuyEnabled" : false,
+    "_billingGracePeriodEnabled" : false,
+    "_locale" : "en_US",
+    "_storefront" : "USA",
+    "_storeKitErrors" : []
+  },
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}

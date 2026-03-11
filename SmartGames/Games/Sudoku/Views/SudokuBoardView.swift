@@ -2,6 +2,7 @@ import SwiftUI
 
 /// Renders the full 9x9 Sudoku grid with correct thick/thin borders.
 struct SudokuBoardView: View {
+    @EnvironmentObject private var themeService: ThemeService
     @ObservedObject var viewModel: SudokuGameViewModel
 
     var body: some View {
@@ -10,8 +11,13 @@ struct SudokuBoardView: View {
             let cellSize = size / 9
 
             ZStack {
+                themeService.current.boardBackground
                 cellGrid(cellSize: cellSize)
-                BoardGridLinesView(size: size)
+                BoardGridLinesView(
+                    size: size,
+                    thinColor: themeService.current.gridLine,
+                    thickColor: themeService.current.thickGridLine
+                )
             }
             .frame(width: size, height: size)
         }
@@ -37,14 +43,15 @@ struct SudokuBoardView: View {
 }
 
 /// Draws Sudoku grid lines — thin between cells, thick between 3x3 boxes.
+/// Colors are passed in from the active BoardTheme.
 private struct BoardGridLinesView: View {
     let size: CGFloat
+    let thinColor: Color
+    let thickColor: Color
 
     var body: some View {
         Canvas { context, _ in
             let cellSize = size / 9
-            let thinColor = Color.gray.opacity(0.3)
-            let thickColor = Color(UIColor.label).opacity(0.7)
 
             for i in 0...9 {
                 let x = CGFloat(i) * cellSize

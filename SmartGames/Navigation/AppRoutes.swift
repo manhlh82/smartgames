@@ -4,5 +4,7 @@ import Foundation
 enum AppRoute: Hashable {
     case sudokuLobby
     case sudokuGame(difficulty: SudokuDifficulty)
+    case sudokuDailyChallenge
     case settings
+    case sudokuStatistics
 }

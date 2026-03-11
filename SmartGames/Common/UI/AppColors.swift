@@ -1,14 +1,21 @@
 import SwiftUI
 
 /// App-wide color palette.
+/// App-level colors use UIColor system colors so they automatically adapt
+/// to system light/dark mode. Board-specific colors are driven by BoardTheme.
 extension Color {
     static let appAccent = Color(hex: "#007AFF")
+    /// Adapts to system dark mode automatically.
     static let appBackground = Color(UIColor.systemGroupedBackground)
-    static let appCard = Color.white
-    static let appTextPrimary = Color(hex: "#1C1C1E")
-    static let appTextSecondary = Color(hex: "#8E8E93")
+    /// Adapts to system dark mode automatically (white in light, dark surface in dark).
+    static let appCard = Color(UIColor.secondarySystemGroupedBackground)
+    /// Adapts to system dark mode automatically.
+    static let appTextPrimary = Color(UIColor.label)
+    /// Adapts to system dark mode automatically.
+    static let appTextSecondary = Color(UIColor.secondaryLabel)
 
-    // Sudoku cell highlight colors
+    // Sudoku cell highlight fallback colors (Classic theme values).
+    // Prefer BoardTheme palette in Sudoku views — these remain for any non-themed usage.
     static let sudokuSelected = Color(hex: "#1565C0")
     static let sudokuRelated = Color(hex: "#E3F2FD")
     static let sudokuSameNumber = Color(hex: "#B2EBF2")

@@ -2,6 +2,8 @@ import SwiftUI
 
 /// Renders a single Sudoku cell with its value, pencil marks, and highlight state.
 struct SudokuCellView: View {
+    @EnvironmentObject private var themeService: ThemeService
+
     let cell: SudokuCell
     let highlightState: CellHighlightState
     let onTap: () -> Void
@@ -25,22 +27,26 @@ struct SudokuCellView: View {
         .accessibilityHint(cell.isGiven ? "Given clue, cannot be changed" : "")
     }
 
+    private var theme: BoardTheme { themeService.current }
+
+    /// Maps CellHighlightState to the theme's cell background color.
     private var backgroundColor: Color {
         switch highlightState {
-        case .normal:        return Color.white
-        case .selected:      return Color.sudokuSelected
-        case .selectedEmpty: return Color.sudokuSelectedEmpty
-        case .related:       return Color.sudokuRelated
-        case .sameNumber:    return Color.sudokuSameNumber
-        case .error:         return Color.sudokuError
+        case .normal:        return theme.cellBackground
+        case .selected:      return theme.selectedCell
+        case .selectedEmpty: return theme.selectedEmptyCell
+        case .related:       return theme.relatedCell
+        case .sameNumber:    return theme.sameNumberCell
+        case .error:         return theme.errorCell
         }
     }
 
+    /// Maps highlight state and cell type to the theme's text color.
     private var textColor: Color {
         switch highlightState {
         case .selected: return .white
         case .error:    return .red
-        default:        return cell.isGiven ? .appTextPrimary : Color.appAccent
+        default:        return cell.isGiven ? theme.givenText : theme.cellText
         }
     }
 
@@ -53,7 +59,7 @@ struct SudokuCellView: View {
             ForEach(1...9, id: \.self) { n in
                 Text(sorted.contains(n) ? "\(n)" : " ")
                     .font(.system(size: 8, weight: .regular))
-                    .foregroundColor(.gray)
+                    .foregroundColor(theme.pencilMarkText)
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
             }
         }

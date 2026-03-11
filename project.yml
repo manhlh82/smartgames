@@ -46,6 +46,10 @@ targets:
     settings:
       base:
         INFOPLIST_FILE: SmartGames/Info.plist
+    entitlements:
+      path: SmartGames/SmartGames.entitlements
+    capabilities:
+      - gameCenter
     dependencies: []
   SmartGamesTests:
     type: bundle.unit-test

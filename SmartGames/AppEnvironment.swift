@@ -10,6 +10,11 @@ final class AppEnvironment: ObservableObject {
     let haptics: HapticsService
     let analytics: AnalyticsService
     let ads: AdsService
+    let theme: ThemeService
+    let statistics: StatisticsService
+    let gameCenter: GameCenterService
+    let dailyChallenge: DailyChallengeService
+    let store: StoreService
 
     init() {
         let persistence = PersistenceService()
@@ -26,6 +31,14 @@ final class AppEnvironment: ObservableObject {
         self.sound = sound
         self.haptics = haptics
         self.analytics = AnalyticsService()
-        self.ads = AdsService()
+        let adsService = AdsService()
+        self.ads = adsService
+        self.theme = ThemeService(persistence: persistence)
+        self.statistics = StatisticsService(persistence: persistence)
+        self.gameCenter = GameCenterService()
+        self.dailyChallenge = DailyChallengeService(persistence: persistence)
+        self.store = StoreService()
+        // Wire store into ads so ads are skipped when Remove Ads is purchased
+        adsService.storeService = self.store
     }
 }

@@ -8,6 +8,8 @@ struct SudokuLobbyView: View {
     @EnvironmentObject private var sound: SoundService
     @EnvironmentObject private var haptics: HapticsService
     @EnvironmentObject private var ads: AdsService
+    @EnvironmentObject private var gameCenterService: GameCenterService
+    @EnvironmentObject private var dailyChallenge: DailyChallengeService
 
     @StateObject private var viewModel: SudokuLobbyViewModel
     @State private var isLoadingGame = false
@@ -25,7 +27,11 @@ struct SudokuLobbyView: View {
             VStack(spacing: 0) {
                 Spacer()
                 titleSection
-                    .padding(.bottom, 32)
+                    .padding(.bottom, 16)
+
+                dailyChallengeCard
+                    .padding(.horizontal, AppTheme.standardPadding)
+                    .padding(.bottom, 16)
 
                 if viewModel.hasSavedGame, let diff = viewModel.savedGameDifficulty {
                     resumeCard(difficulty: diff)
@@ -39,9 +45,24 @@ struct SudokuLobbyView: View {
         .navigationBarBackButtonHidden(false)
         .toolbar {
             ToolbarItem(placement: .navigationBarTrailing) {
-                Image(systemName: "trophy")
-                    .foregroundColor(.appTextSecondary)
-                    .accessibilityLabel("Leaderboard — coming soon")
+                HStack(spacing: 4) {
+                    if gameCenterService.isAuthenticated {
+                        Button {
+                            gameCenterService.showLeaderboard()
+                        } label: {
+                            Image(systemName: "trophy")
+                                .foregroundColor(.appTextPrimary)
+                        }
+                        .accessibilityLabel("View leaderboards")
+                    }
+                    Button {
+                        router.navigate(to: .sudokuStatistics)
+                    } label: {
+                        Image(systemName: "chart.bar")
+                            .foregroundColor(.appTextPrimary)
+                    }
+                    .accessibilityLabel("View statistics")
+                }
             }
         }
         .overlay {
@@ -82,9 +103,38 @@ struct SudokuLobbyView: View {
             }
         }
         .padding()
-        .background(Color.white)
+        .background(Color.appCard)
         .cornerRadius(AppTheme.cardCornerRadius)
         .shadow(color: .black.opacity(0.08), radius: AppTheme.cardShadowRadius, x: 0, y: 2)
+    }
+
+    private var dailyChallengeCard: some View {
+        Button { router.navigate(to: .sudokuDailyChallenge) } label: {
+            HStack(spacing: 12) {
+                Image(systemName: dailyChallenge.isCompletedToday() ? "checkmark.seal.fill" : "calendar")
+                    .font(.title2)
+                    .foregroundColor(dailyChallenge.isCompletedToday() ? .green : .accentColor)
+                VStack(alignment: .leading, spacing: 2) {
+                    Text("Daily Challenge")
+                        .font(.appHeadline)
+                        .foregroundColor(.appTextPrimary)
+                    Text(dailyChallenge.isCompletedToday()
+                         ? "Completed — streak \(dailyChallenge.streak.currentStreak)"
+                         : "\(dailyChallenge.todayDifficulty().displayName) · Streak \(dailyChallenge.streak.currentStreak)")
+                        .font(.appCaption)
+                        .foregroundColor(.appTextSecondary)
+                }
+                Spacer()
+                Image(systemName: "chevron.right")
+                    .foregroundColor(.appTextSecondary)
+            }
+            .padding()
+            .background(Color.appCard)
+            .cornerRadius(AppTheme.cardCornerRadius)
+            .shadow(color: .black.opacity(0.08), radius: AppTheme.cardShadowRadius, x: 0, y: 2)
+        }
+        .buttonStyle(.plain)
+        .accessibilityLabel("Open daily challenge")
     }
 
     private var difficultySheet: some View {
@@ -104,7 +154,7 @@ struct SudokuLobbyView: View {
                 }
             }
         }
-        .background(Color.white)
+        .background(Color.appCard)
         .cornerRadius(24, corners: [.topLeft, .topRight])
         .shadow(color: .black.opacity(0.1), radius: 20, x: 0, y: -4)
     }

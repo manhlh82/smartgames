@@ -22,4 +22,8 @@ struct SudokuStats: Codable {
     var gamesWon: Int = 0
     var bestTimeSeconds: Int = Int.max
     var totalMistakes: Int = 0
+    // Added in v2 — defaults ensure backward-compatible decoding of existing data
+    var totalTimeSeconds: Int = 0
+    var currentStreak: Int = 0
+    var bestStreak: Int = 0
 }

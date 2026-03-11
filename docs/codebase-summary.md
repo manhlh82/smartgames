@@ -17,25 +17,36 @@ MVVM + EnvironmentObject. All services injected at root via `AppEnvironment`.
 
 | File | Purpose |
 |------|---------|
-| `Engine/SudokuGenerator.swift` | Random backtracking generation |
+| `Engine/SudokuGenerator.swift` | Random/seeded backtracking generation |
 | `Engine/SudokuSolver.swift` | MRV solver + uniqueness check |
 | `Engine/SudokuValidator.swift` | Move validation, hint, win check |
 | `Engine/PuzzleBank.swift` | JSON puzzle pool + played tracking |
+| `Engine/SeededRandomNumberGenerator.swift` | xorshift64 PRNG for deterministic daily puzzles |
 | `ViewModels/SudokuGameViewModel.swift` | 5-phase game state machine |
 | `Views/SudokuGameView.swift` | Main gameplay screen |
 | `Views/SudokuBoardView.swift` | 9x9 grid + Canvas lines |
 | `Views/SudokuCellView.swift` | Cell with 6 highlight states |
+| `Views/SudokuStatisticsView.swift` | Per-difficulty stats screen |
+| `Views/SudokuStatsCardsGrid.swift` | Stats metric cards (win rate, streaks, times) |
+| `Views/DailyChallengeView.swift` | Daily challenge play screen |
+| `Views/PaywallView.swift` | In-app purchase display (Remove Ads, Hint Pack) |
+| `Views/ThemePickerView.swift` | Board theme selector with previews |
 
 ## Shared Services
 
-| Service | Notes |
-|---------|-------|
+| Service | Purpose |
+|---------|---------|
 | `PersistenceService` | UserDefaults+JSON, Keys enum |
-| `SettingsService` | Persists on change |
+| `SettingsService` | Persists app preferences on change |
 | `SoundService` | AVAudioPlayer, settings-gated |
 | `HapticsService` | UIFeedbackGenerator, settings-gated |
-| `AdsService` | Stub; see admob-integration-guide.md |
+| `AdsService` | AdMob rewarded + interstitial; see admob-integration-guide.md |
 | `AnalyticsService` | os.log; see firebase-analytics-guide.md |
+| `ThemeService` | Board themes (Classic/Dark/Sepia), persisted preference |
+| `StatisticsService` | Per-difficulty stats (win rate, streaks, best time) |
+| `DailyChallengeService` | Daily puzzle (seeded), streak, push notifications |
+| `GameCenterService` | GKLocalPlayer auth, leaderboard submission |
+| `StoreService` | StoreKit 2, Remove Ads + Hint Pack IAP |
 
 ## Game State Machine
 

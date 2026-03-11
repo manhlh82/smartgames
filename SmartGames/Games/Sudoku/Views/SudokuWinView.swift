@@ -9,6 +9,8 @@ struct SudokuWinView: View {
     let onNextPuzzle: () -> Void
     let onBackToMenu: () -> Void
 
+    @EnvironmentObject private var gameCenterService: GameCenterService
+
     var body: some View {
         VStack(spacing: 24) {
             Text("Puzzle Solved!")
@@ -42,10 +44,23 @@ struct SudokuWinView: View {
                     .font(.appBody)
                     .foregroundColor(.appTextSecondary)
                     .accessibilityLabel("Back to menu")
+                if gameCenterService.isAuthenticated {
+                    Button {
+                        gameCenterService.showLeaderboard(for: difficulty)
+                    } label: {
+                        HStack(spacing: 6) {
+                            Image(systemName: "trophy")
+                            Text("View Leaderboard")
+                        }
+                        .font(.appBody)
+                        .foregroundColor(.appAccent)
+                    }
+                    .accessibilityLabel("View \(difficulty.displayName) leaderboard")
+                }
             }
         }
         .padding(AppTheme.standardPadding * 1.5)
-        .background(Color.white)
+        .background(Color.appCard)
         .cornerRadius(24)
         .shadow(color: .black.opacity(0.15), radius: 20, x: 0, y: 8)
         .padding(AppTheme.standardPadding)

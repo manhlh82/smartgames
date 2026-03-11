@@ -12,6 +12,9 @@ final class AdsService: ObservableObject {
     @Published var isRewardedAdReady: Bool = false
     private var cancellables = Set<AnyCancellable>()
 
+    /// Weak reference to StoreService — set by AppEnvironment after init.
+    weak var storeService: StoreService?
+
     init() {
         // Propagate rewarded ready state
         rewarded.$isAdReady
@@ -27,7 +30,12 @@ final class AdsService: ObservableObject {
     }
 
     /// Show a rewarded ad. Calls completion(true) if reward was earned, (false) otherwise.
+    /// If the user has purchased Remove Ads, the reward is granted immediately without showing an ad.
     func showRewardedAd(completion: @escaping (Bool) -> Void) {
+        if storeService?.hasRemovedAds == true {
+            completion(true)
+            return
+        }
         guard let rootVC = rootViewController else {
             completion(false)
             return
@@ -39,7 +47,9 @@ final class AdsService: ObservableObject {
 
     /// Show an interstitial ad at a natural break point (post-win).
     /// Respects rate limits — safe to call and will no-op if not appropriate.
+    /// Skipped entirely when the user has purchased Remove Ads.
     func showInterstitialIfReady() {
+        guard storeService?.hasRemovedAds != true else { return }
         guard let rootVC = rootViewController else { return }
         interstitial.showIfReady(from: rootVC)
     }

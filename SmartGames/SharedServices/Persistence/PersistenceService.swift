@@ -38,6 +38,13 @@ extension PersistenceService {
         static let sudokuPlayedPuzzleIDs = "sudoku.playedPuzzleIDs"
         static let sudokuPendingPuzzle = "sudoku.pendingPuzzle"
         static func sudokuStats(difficulty: String) -> String { "sudoku.stats.\(difficulty)" }
+        static func sudokuStatsV2(difficulty: String) -> String { "sudoku.stats.v2.\(difficulty)" }
         static let appSettings = "app.settings"
+        static let appTheme = "app.theme"
+        static let sudokuDailyState = "sudoku.daily.state"
+        static let sudokuDailyStreak = "sudoku.daily.streak"
+        /// Set to true when the pending puzzle is the daily challenge.
+        /// Cleared after the game view consumes it.
+        static let sudokuPendingIsDailyChallenge = "sudoku.pending.isDailyChallenge"
     }
 }

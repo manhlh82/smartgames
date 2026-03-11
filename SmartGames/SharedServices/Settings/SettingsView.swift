@@ -3,6 +3,10 @@ import SwiftUI
 /// App settings screen — accessible from hub gear icon.
 struct SettingsView: View {
     @EnvironmentObject var settings: SettingsService
+    @EnvironmentObject var themeService: ThemeService
+    @EnvironmentObject var store: StoreService
+
+    @State private var showPaywall = false
 
     var body: some View {
         NavigationStack {
@@ -16,6 +20,30 @@ struct SettingsView: View {
                     Toggle("Highlight Related Cells", isOn: $settings.highlightRelatedCells)
                     Toggle("Highlight Same Numbers", isOn: $settings.highlightSameNumbers)
                     Toggle("Show Timer", isOn: $settings.showTimer)
+                }
+
+                Section("Board Theme") {
+                    ThemePickerView()
+                        .listRowInsets(EdgeInsets())
+                        .listRowBackground(Color.clear)
+                }
+
+                Section("Premium") {
+                    if store.hasRemovedAds {
+                        Label("Ads Removed", systemImage: "checkmark.circle.fill")
+                            .foregroundColor(.green)
+                    } else {
+                        Button {
+                            showPaywall = true
+                        } label: {
+                            Label("Remove Ads", systemImage: "nosign")
+                        }
+                    }
+                    Button {
+                        showPaywall = true
+                    } label: {
+                        Label("Get Hint Pack (10 Hints)", systemImage: "lightbulb.fill")
+                    }
                 }
 
                 Section("Legal") {
@@ -35,6 +63,10 @@ struct SettingsView: View {
             }
             .navigationTitle("Settings")
             .navigationBarTitleDisplayMode(.inline)
+            .sheet(isPresented: $showPaywall) {
+                PaywallView()
+                    .environmentObject(store)
+            }
         }
     }
 }
