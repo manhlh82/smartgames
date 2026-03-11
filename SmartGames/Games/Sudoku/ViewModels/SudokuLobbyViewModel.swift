@@ -29,7 +29,7 @@ final class SudokuLobbyViewModel: ObservableObject {
         savedGameDifficulty = nil
     }
 
-    private func checkForSavedGame() {
+    func checkForSavedGame() {
         if let state = persistence.load(SudokuGameState.self,
                                         key: PersistenceService.Keys.sudokuActiveGame) {
             hasSavedGame = true

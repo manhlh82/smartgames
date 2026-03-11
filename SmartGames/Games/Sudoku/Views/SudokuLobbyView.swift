@@ -71,6 +71,7 @@ struct SudokuLobbyView: View {
         }
         .onAppear {
             analytics.log(.sudokuLobbyViewed)
+            viewModel.checkForSavedGame()
         }
     }
 
