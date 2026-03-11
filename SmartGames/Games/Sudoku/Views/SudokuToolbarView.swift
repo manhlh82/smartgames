@@ -10,7 +10,8 @@ struct SudokuToolbarView: View {
                        isDisabled: !viewModel.isUndoAvailable) {
                 viewModel.undo()
             }
-            toolButton(icon: "eraser", label: "Eraser") {
+            toolButton(icon: "eraser", label: "Eraser",
+                       isDisabled: !viewModel.isEraseAvailable) {
                 viewModel.eraseSelected()
             }
             toolButton(icon: "pencil", label: "Pencil",

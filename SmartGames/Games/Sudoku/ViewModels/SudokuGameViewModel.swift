@@ -58,6 +58,13 @@ final class SudokuGameViewModel: ObservableObject {
     var mistakeLimit: Int { puzzle.difficulty.mistakeLimit }
     var isUndoAvailable: Bool { !undoStack.isEmpty }
 
+    /// True when erase has something to clear — used to visually disable the Erase button.
+    var isEraseAvailable: Bool {
+        guard let pos = selectedCell else { return false }
+        let cell = puzzle.board[pos.row][pos.col]
+        return !cell.isGiven && (cell.value != nil || !cell.pencilMarks.isEmpty)
+    }
+
     /// Numbers fully placed (all 9 of that digit on board) — used to dim number pad.
     var completedNumbers: Set<Int> {
         var counts = [Int: Int]()
@@ -255,6 +262,15 @@ final class SudokuGameViewModel: ObservableObject {
         analytics.log(.sudokuGameResumed(difficulty: puzzle.difficulty.rawValue))
     }
 
+    /// Resumes game after a rewarded ad on the lose screen.
+    /// Cannot use `resume()` here because gamePhase is `.lost`, not `.paused`.
+    func continueAfterAd() {
+        mistakeCount = mistakeLimit - 1
+        gamePhase = .playing
+        startTimer()
+        scheduleAutoSave()
+    }
+
     // MARK: - Restart
     func restart() {
         puzzle = SudokuPuzzle(id: puzzle.id, difficulty: puzzle.difficulty,
@@ -299,7 +315,7 @@ final class SudokuGameViewModel: ObservableObject {
     // MARK: - Star Rating
     var starRating: Int {
         if mistakeCount == 0 && elapsedSeconds < 300 { return 3 }
-        if mistakeCount <= 1 || elapsedSeconds < 600 { return 2 }
+        if mistakeCount <= 1 && elapsedSeconds < 600 { return 2 }
         return 1
     }
 

@@ -102,7 +102,11 @@ struct SudokuGameView: View {
     @ToolbarContentBuilder
     private var gameToolbar: some ToolbarContent {
         ToolbarItem(placement: .navigationBarLeading) {
-            Button { router.pop() } label: {
+            Button {
+                // Save state before navigating away — debounced auto-save may not have fired yet
+                viewModel.autoSave()
+                router.pop()
+            } label: {
                 Image(systemName: "chevron.left")
                     .foregroundColor(.appTextPrimary)
             }
@@ -174,11 +178,7 @@ struct SudokuGameView: View {
 
                 Button("Watch Ad to Continue") {
                     viewModel.ads.showRewardedAd { granted in
-                        if granted {
-                            viewModel.mistakeCount = viewModel.mistakeLimit - 1
-                            viewModel.gamePhase = .playing
-                            viewModel.resume()
-                        }
+                        if granted { viewModel.continueAfterAd() }
                     }
                 }
                 .font(.appBody)
