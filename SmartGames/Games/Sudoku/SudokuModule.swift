@@ -19,7 +19,7 @@ final class SudokuGameModule: GameModule {
 
     func makeLobbyView(environment: AppEnvironment) -> AnyView {
         AnyView(
-            SudokuLobbyView()
+            SudokuLobbyView(persistence: environment.persistence)
                 .environmentObject(themeService)
                 .environmentObject(statisticsService)
         )

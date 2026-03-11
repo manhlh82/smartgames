@@ -3,7 +3,6 @@ import SwiftUI
 /// Sudoku game entry point — difficulty selection and optional resume.
 struct SudokuLobbyView: View {
     @EnvironmentObject private var router: AppRouter
-    @EnvironmentObject private var persistence: PersistenceService
     @EnvironmentObject private var analytics: AnalyticsService
     @EnvironmentObject private var sound: SoundService
     @EnvironmentObject private var haptics: HapticsService
@@ -12,12 +11,12 @@ struct SudokuLobbyView: View {
     @EnvironmentObject private var dailyChallenge: DailyChallengeService
 
     @StateObject private var viewModel: SudokuLobbyViewModel
+    private let persistence: PersistenceService
     @State private var isLoadingGame = false
 
-    init() {
-        // Temporary persistence instance; real one injected via onAppear update.
-        // StateObject is initialized once — we replace the dependency inside the Task.
-        _viewModel = StateObject(wrappedValue: SudokuLobbyViewModel(persistence: PersistenceService()))
+    init(persistence: PersistenceService) {
+        self.persistence = persistence
+        _viewModel = StateObject(wrappedValue: SudokuLobbyViewModel(persistence: persistence))
     }
 
     var body: some View {

@@ -18,6 +18,7 @@ struct SudokuBoardView: View {
                     thinColor: themeService.current.gridLine,
                     thickColor: themeService.current.thickGridLine
                 )
+                .allowsHitTesting(false)
             }
             .frame(width: size, height: size)
         }
