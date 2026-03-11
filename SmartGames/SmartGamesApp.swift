@@ -11,6 +11,7 @@ struct SmartGamesApp: App {
                 .environmentObject(environment.persistence)
                 .environmentObject(environment.settings)
                 .environmentObject(environment.sound)
+                .environmentObject(environment.haptics)
                 .environmentObject(environment.analytics)
                 .environmentObject(environment.ads)
                 .environmentObject(environment.theme)
