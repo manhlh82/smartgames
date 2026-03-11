@@ -25,6 +25,7 @@ struct SudokuCellView: View {
             }
         }
         .buttonStyle(.plain)
+        .contentShape(Rectangle())  // ensures full cell area is tappable, even when empty
         .aspectRatio(1, contentMode: .fit)
         .scaleEffect(isPulsing ? 1.12 : 1.0)
         .animation(.easeInOut(duration: 0.15), value: isPulsing)
