@@ -18,7 +18,9 @@ final class SudokuGameViewModelTests: XCTestCase {
             analytics: AnalyticsService(),
             sound: SoundService(),
             haptics: HapticsService(),
-            ads: AdsService()
+            ads: AdsService(),
+            statisticsService: StatisticsService(persistence: persistence),
+            gameCenterService: GameCenterService()
         )
     }
 
@@ -216,6 +218,126 @@ final class SudokuGameViewModelTests: XCTestCase {
         sut.mistakeCount = 3
         sut.elapsedSeconds = 1200
         XCTAssertEqual(sut.starRating, 1)
+    }
+
+    // MARK: - Interaction Rules: Pre-filled Cell Tap
+
+    /// Tapping a given cell returns `.selected` (deep blue), NOT `.selectedEmpty` (yellow).
+    func testSelectGivenCell_HighlightState_IsSelected_NotSelectedEmpty() {
+        guard let (row, col) = findGivenCell() else { return }
+        sut.selectCell(row: row, col: col)
+        XCTAssertEqual(sut.highlightState(for: row, col: col), .selected)
+        XCTAssertNotEqual(sut.highlightState(for: row, col: col), .selectedEmpty)
+    }
+
+    /// Peers of a given cell receive `.related` or `.sameNumber`, never `.selectedEmpty`.
+    func testSelectGivenCell_Peers_AreRelated() {
+        guard let (row, col) = findGivenCell() else { return }
+        sut.selectCell(row: row, col: col)
+        // Check one peer in the same row
+        let peerCol = (col + 1) % 9
+        let peerState = sut.highlightState(for: row, col: peerCol)
+        XCTAssertTrue(
+            peerState == .related || peerState == .sameNumber || peerState == .error,
+            "Peer of given cell must be .related, .sameNumber, or .error — got \(peerState)"
+        )
+    }
+
+    /// Cells sharing the same digit as a selected given cell get `.sameNumber` highlight.
+    func testSelectGivenCell_SameDigitCells_AreSameNumber() {
+        guard let (row, col) = findGivenCell() else { return }
+        let givenValue = sut.puzzle.board[row][col].value
+        sut.selectCell(row: row, col: col)
+        // Find a different cell with the same value
+        for r in 0..<9 {
+            for c in 0..<9 {
+                guard (r, c) != (row, col) else { continue }
+                guard sut.puzzle.board[r][c].value == givenValue else { continue }
+                let state = sut.highlightState(for: r, col: c)
+                XCTAssertEqual(state, .sameNumber,
+                    "Cell (\(r),\(c)) with same digit should be .sameNumber")
+                return  // one confirmation is sufficient
+            }
+        }
+    }
+
+    // MARK: - Interaction Rules: Keypad Guards
+
+    /// Placing a number on a given cell is a no-op — value must not change.
+    func testPlaceNumber_OnGivenCell_IsNoOp() {
+        guard let (row, col) = findGivenCell() else { return }
+        let originalValue = sut.puzzle.board[row][col].value
+        sut.selectCell(row: row, col: col)
+        sut.placeNumber(9)
+        XCTAssertEqual(sut.puzzle.board[row][col].value, originalValue,
+            "Given cell value must be unchanged after placeNumber")
+        XCTAssertFalse(sut.isUndoAvailable, "No snapshot should be pushed for given cell")
+    }
+
+    /// Placing a number with no cell selected is a no-op — board must not change.
+    func testPlaceNumber_WithNoSelection_IsNoOp() {
+        sut.selectedCell = nil
+        // Snapshot of all values before
+        let valuesBefore = sut.puzzle.board.map { $0.map(\.value) }
+        sut.placeNumber(5)
+        let valuesAfter = sut.puzzle.board.map { $0.map(\.value) }
+        XCTAssertEqual(valuesBefore, valuesAfter, "Board must not change when no cell is selected")
+        XCTAssertFalse(sut.isUndoAvailable, "No snapshot should be pushed when no cell selected")
+    }
+
+    /// Placing the correct digit on an empty editable cell updates the board.
+    func testPlaceNumber_OnEmptyEditableCell_PlacesValue() {
+        guard let (row, col) = findEmptyCell() else {
+            XCTSkip("No empty cell found in puzzle")
+            return
+        }
+        let correctDigit = sut.puzzle.solution[row][col]
+        sut.selectCell(row: row, col: col)
+        sut.placeNumber(correctDigit)
+        XCTAssertEqual(sut.puzzle.board[row][col].value, correctDigit,
+            "Correct digit must be placed in the editable empty cell")
+        XCTAssertFalse(sut.puzzle.board[row][col].hasError,
+            "Correct placement must not set hasError")
+    }
+
+    // MARK: - Interaction Rules: Highlight Priority
+
+    /// An empty selected cell's peers are `.related`, never `.sameNumber` (cell has no digit).
+    func testSelectEmptyCell_Peers_CannotBeSameNumber() {
+        guard let (row, col) = findEmptyCell() else {
+            XCTSkip("No empty cell found in puzzle")
+            return
+        }
+        sut.selectCell(row: row, col: col)
+        let peers = SudokuBoardUtils.peers(for: row, col: col)
+        for peer in peers {
+            let state = sut.highlightState(for: peer.row, col: peer.col)
+            XCTAssertNotEqual(state, .sameNumber,
+                "Peer (\(peer.row),\(peer.col)) of empty cell must not be .sameNumber")
+        }
+    }
+
+    /// The selected cell itself is always `.selected` or `.selectedEmpty`, never `.sameNumber`.
+    func testHighlightPriority_SelectedCell_NeverReturnsSameNumber() {
+        guard let (row, col) = findGivenCell() else { return }
+        sut.selectCell(row: row, col: col)
+        let state = sut.highlightState(for: row, col: col)
+        XCTAssertNotEqual(state, .sameNumber,
+            "Selected cell must be .selected or .selectedEmpty, never .sameNumber")
+        XCTAssertTrue(state == .selected || state == .selectedEmpty,
+            "Selected cell state should be .selected or .selectedEmpty")
+    }
+
+    /// A cell with `hasError` returns `.error` even when it is also a peer of the selected cell.
+    func testHighlightPriority_ErrorBeforeRelated() {
+        guard let (selRow, selCol) = findGivenCell() else { return }
+        sut.selectCell(row: selRow, col: selCol)
+        // Inject an error into a peer cell (same row, different col)
+        let peerCol = (selCol + 1) % 9
+        sut.puzzle.board[selRow][peerCol].hasError = true
+        let state = sut.highlightState(for: selRow, col: peerCol)
+        XCTAssertEqual(state, .error,
+            "Error state must take priority over .related")
     }
 
     // MARK: - Helpers
