@@ -30,6 +30,18 @@ enum SudokuBoardUtils {
         })
     }
 
+    /// Returns values already placed in the same row, column, and 3×3 box for a SudokuCell board.
+    static func usedValues(in board: [[SudokuCell]], row: Int, col: Int) -> Set<Int> {
+        var used = Set<Int>()
+        for c in 0..<9 { if let v = board[row][c].value { used.insert(v) } }
+        for r in 0..<9 { if let v = board[r][col].value { used.insert(v) } }
+        let boxRow = (row / 3) * 3, boxCol = (col / 3) * 3
+        for r in boxRow..<boxRow+3 {
+            for c in boxCol..<boxCol+3 { if let v = board[r][c].value { used.insert(v) } }
+        }
+        return used
+    }
+
     /// Returns the set of values already used in the row, col, and box of the given position.
     static func usedValues(row: Int, col: Int, in board: [[Int]]) -> Set<Int> {
         let positions = rowIndices(for: row) + colIndices(for: col) + boxIndices(for: row, col: col)

@@ -14,12 +14,10 @@ struct SudokuToolbarView: View {
                        isDisabled: !viewModel.isEraseAvailable) {
                 viewModel.eraseSelected()
             }
-            toolButton(icon: "pencil", label: "Pencil",
-                       isActive: viewModel.isPencilMode) {
-                viewModel.togglePencilMode()
-            }
+            pencilButton
             hintButton
         }
+        .disabled(viewModel.gamePhase != .playing)
     }
 
     private func toolButton(
@@ -51,6 +49,29 @@ struct SudokuToolbarView: View {
         return .appTextPrimary
     }
 
+    // MARK: - Pencil Button (tap = toggle mode, long-press = auto-fill)
+    private var pencilButton: some View {
+        Button { viewModel.togglePencilMode() } label: {
+            VStack(spacing: 6) {
+                Image(systemName: "pencil")
+                    .font(.system(size: 22))
+                    .foregroundColor(viewModel.isPencilMode ? Color.appAccent : .appTextPrimary)
+                Text("Pencil")
+                    .font(.appCaption)
+                    .foregroundColor(.appTextSecondary)
+            }
+            .frame(maxWidth: .infinity)
+        }
+        .buttonStyle(.plain)
+        .simultaneousGesture(
+            LongPressGesture(minimumDuration: 0.5).onEnded { _ in
+                viewModel.autoFillPencilMarks()
+            }
+        )
+        .accessibilityLabel("Pencil mode")
+    }
+
+    // MARK: - Hint Button
     private var hintButton: some View {
         let hintLabel = viewModel.hintsRemaining == 0
             ? "Hint, watch ad for hints"
@@ -65,6 +86,11 @@ struct SudokuToolbarView: View {
                     if viewModel.hintsRemaining == 0 {
                         Image(systemName: "play.fill")
                             .font(.system(size: 9))
+                            .foregroundColor(.appAccent)
+                            .offset(x: 6, y: -4)
+                    } else {
+                        Text("×\(viewModel.hintsRemaining)")
+                            .font(.system(size: 10))
                             .foregroundColor(.appAccent)
                             .offset(x: 6, y: -4)
                     }

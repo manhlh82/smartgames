@@ -32,6 +32,7 @@ struct SudokuBoardView: View {
                         SudokuCellView(
                             cell: viewModel.puzzle.board[row][col],
                             highlightState: viewModel.highlightState(for: row, col: col),
+                            lastCompletedNumber: viewModel.lastCompletedNumber,
                             onTap: { viewModel.selectCell(row: row, col: col) }
                         )
                         .frame(width: cellSize, height: cellSize)

@@ -7,6 +7,7 @@ struct SudokuGameView: View {
 
     let difficulty: SudokuDifficulty
     @StateObject private var viewModel: SudokuGameViewModel
+    @State private var showRestartConfirm = false
 
     init(difficulty: SudokuDifficulty, puzzle: SudokuPuzzle,
          persistence: PersistenceService, analytics: AnalyticsService,
@@ -42,7 +43,11 @@ struct SudokuGameView: View {
                     .padding(.horizontal, AppTheme.standardPadding)
                 SudokuNumberPadView(
                     onNumberTap: { viewModel.placeNumber($0) },
-                    completedNumbers: viewModel.completedNumbers
+                    completedNumbers: viewModel.completedNumbers,
+                    selectedNumber: viewModel.selectedCell.flatMap {
+                        viewModel.puzzle.board[$0.row][$0.col].value
+                    },
+                    remainingCounts: viewModel.remainingCounts
                 )
                 .padding(.horizontal, AppTheme.standardPadding)
                 Spacer(minLength: 8)
@@ -67,6 +72,10 @@ struct SudokuGameView: View {
             }
             Button("Cancel", role: .cancel) { viewModel.cancelHintAd() }
         }
+        .confirmationDialog("Restart this puzzle?", isPresented: $showRestartConfirm) {
+            Button("Restart", role: .destructive) { viewModel.restart() }
+            Button("Cancel", role: .cancel) {}
+        }
         .animation(.easeInOut(duration: 0.25), value: viewModel.gamePhase)
     }
 
@@ -87,12 +96,11 @@ struct SudokuGameView: View {
 
             Spacer()
 
-            if viewModel.gamePhase != .paused {
-                Text(formatTime(viewModel.elapsedSeconds))
-                    .font(.appMono)
-                    .foregroundColor(.appTextSecondary)
-                    .accessibilityLabel("Elapsed time \(formatTime(viewModel.elapsedSeconds))")
-            }
+            Text(formatTime(viewModel.elapsedSeconds))
+                .font(.appMono)
+                .foregroundColor(.appTextSecondary)
+                .opacity(viewModel.gamePhase == .paused ? 0.4 : 1.0)
+                .accessibilityLabel("Elapsed time \(formatTime(viewModel.elapsedSeconds))")
         }
         .padding(.horizontal, AppTheme.standardPadding)
     }
@@ -131,7 +139,7 @@ struct SudokuGameView: View {
         if viewModel.gamePhase == .paused {
             SudokuPauseOverlayView(
                 onResume: { viewModel.resume() },
-                onRestart: { viewModel.restart() },
+                onRestart: { showRestartConfirm = true },
                 onQuit: { router.popToRoot() }
             )
             .transition(.opacity)

@@ -10,6 +10,7 @@ struct SudokuWinView: View {
     let onBackToMenu: () -> Void
 
     @EnvironmentObject private var gameCenterService: GameCenterService
+    @State private var showStars: Bool = false
 
     var body: some View {
         VStack(spacing: 24) {
@@ -17,15 +18,22 @@ struct SudokuWinView: View {
                 .font(.appTitle)
                 .foregroundColor(.appTextPrimary)
 
-            // Star rating
+            // Star rating with entrance animation
             HStack(spacing: 8) {
                 ForEach(1...3, id: \.self) { i in
                     Image(systemName: i <= stars ? "star.fill" : "star")
                         .font(.system(size: 36))
                         .foregroundColor(i <= stars ? .yellow : .gray.opacity(0.4))
                         .accessibilityLabel(i <= stars ? "Star awarded" : "Star not awarded")
+                        .scaleEffect(showStars ? 1.0 : 0.0)
+                        .animation(
+                            .spring(response: 0.4, dampingFraction: 0.6)
+                                .delay(Double(i) * 0.15),
+                            value: showStars
+                        )
                 }
             }
+            .onAppear { showStars = true }
 
             // Stats card
             VStack(spacing: 8) {

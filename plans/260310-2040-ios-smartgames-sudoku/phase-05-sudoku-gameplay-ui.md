@@ -92,34 +92,92 @@ struct SudokuBoardView: View {
 
 ### SudokuCellView — Highlight States
 
-From reference screenshots, 5 visual states:
+Visual priority order (highest wins when states overlap):
 
-| State | Background | Text Color |
-|-------|-----------|------------|
-| Default | White / clear | Dark gray |
-| Given (clue) | Clear | Black, semibold |
-| Selected | Deep blue `#1565C0` | White |
-| Related (same row/col/box) | Light blue `#E3F2FD` | Dark gray |
-| Same number highlight | Teal `#B2EBF2` | Dark gray |
-| Selected cell (empty, active) | Yellow `#FFF9C4` | — |
-| Error | Light red `#FFEBEE` | Red |
-| Pencil marks | Clear | Blue, small grid |
+| Priority | State | `CellHighlightState` | Background | Text Color | Notes |
+|----------|-------|----------------------|------------|------------|-------|
+| 1 | Error | `.error` | Light red `#FFEBEE` | Red | Wrong player placement |
+| 2 | Selected (filled) | `.selected` | Deep blue `#1565C0` | White | Pre-filled or player-filled cell tapped |
+| 3 | Selected (empty) | `.selectedEmpty` | Yellow `#FFF9C4` | Dark gray | Editable empty cell tapped — keypad active |
+| 4 | Same number | `.sameNumber` | Teal `#B2EBF2` | Dark gray | Same digit as selected cell's value |
+| 5 | Related | `.related` | Light blue `#E3F2FD` | Dark gray | Same row / col / 3x3 box as selected |
+| 6 | Default | `.normal` | White / clear | Dark gray | No selection context |
+| — | Given text style | (modifier, not state) | — | Black, semibold | `isGiven == true` |
+| — | Pencil marks | (modifier, not state) | Clear | Blue, small | Candidate marks inside cell |
 
-**Cell tap → selection logic (in ViewModel):**
-1. Set `selectedCell = (row, col)`
-2. Highlight all cells in same row, col, box → `.related`
-3. Highlight all cells with same value as selected → `.sameNumber`
-4. If selected is filled, also highlight same-number cells in number pad
+---
+
+### Interaction Rules — Cell Tap
+
+#### Tapping a pre-filled digit cell (`cell.isGiven == true` OR `cell.isPlayerFilled == true`)
+
+1. Set `selectedCell = (row, col)` → state `.selected`
+2. Highlight row/col/box peers → `.related`
+3. Highlight all board cells with the same digit → `.sameNumber`
+4. **Keypad is NOT activated** — `placeNumber` is a no-op for given cells (`guard !cell.isGiven else { return }`)
+5. Number pad button for the selected digit is visually highlighted (same as same-number highlight)
+
+> Visual hierarchy: selected cell (deep blue, strongest) > same-number cells (teal) > related cells (light blue)
+
+#### Tapping an empty editable cell (`cell.isEmpty == true`)
+
+1. Set `selectedCell = (row, col)` → state `.selectedEmpty`
+2. Highlight row/col/box peers → `.related` (light blue)
+3. No same-number highlight (cell has no value yet)
+4. **Keypad IS activated** — next number pad tap places digit in this cell
+5. Selected cell (yellow) is visually distinct from related cells (light blue) — never the same color
+
+> Visual hierarchy: selected cell (yellow, strongest) > related cells (light blue)
+
+---
+
+### Interaction Rules — Keypad Input
+
+```
+placeNumber(_ n: Int):
+  guard selectedCell != nil else { return }   // no-op: nothing selected
+  guard !cell.isGiven else { return }         // no-op: pre-filled cell selected
+  // proceed with pencil or value placement
+```
+
+| Scenario | Expected Behavior |
+|----------|-------------------|
+| No cell selected | Keypad tap → no-op (ignored) |
+| Pre-filled cell selected | Keypad tap → no-op (ignored) |
+| Player-filled cell selected | Keypad tap → replaces value (or toggles pencil mark) |
+| Empty editable cell selected | Keypad tap → places digit (or adds pencil mark) |
+
+**These guards are enforced in `SudokuGameViewModel.placeNumber()` — NOT in the view layer.**
+
+---
+
+### State Model — `CellHighlightState`
+
+```swift
+enum CellHighlightState {
+    case normal        // no selection context
+    case selected      // tapped cell — has a value (given or player-filled)
+    case selectedEmpty // tapped cell — empty, editable; keypad now active
+    case related       // same row / col / 3x3 box as selected
+    case sameNumber    // contains same digit as the selected cell's value
+    case error         // wrong player placement
+}
+```
+
+`highlightState(for:col:)` priority logic:
+1. If this cell is the selected cell → `.selectedEmpty` if empty, `.selected` if has value
+2. If `cell.hasError` → `.error`
+3. If selected cell has a value AND this cell has the same value → `.sameNumber`
+4. If this cell is a peer of selected (row / col / box) → `.related`
+5. Otherwise → `.normal`
+
+---
 
 ```swift
 struct SudokuCellView: View {
     let cell: SudokuCell
     let highlightState: CellHighlightState
     let onTap: () -> Void
-}
-
-enum CellHighlightState {
-    case normal, selected, related, sameNumber, selectedEmpty, error
 }
 ```
 
@@ -140,8 +198,12 @@ enum CellHighlightState {
 
 ### Acceptance Criteria PR-05
 - [ ] Board renders correct 9x9 grid with thick 3x3 box borders
-- [ ] Cell tap → correct highlight states (selected, related, same-number)
-- [ ] Given cells visually distinct from empty cells
+- [ ] Tapping a pre-filled cell → `.selected` (deep blue), peers → `.related` (light blue), same-digit cells → `.sameNumber` (teal)
+- [ ] Tapping an empty editable cell → `.selectedEmpty` (yellow), peers → `.related` (light blue); selected cell color is distinct from related cells
+- [ ] Tapping pre-filled cell does NOT enable keypad (placeNumber is a no-op for given cells)
+- [ ] Tapping with no cell selected → keypad tap is a no-op
+- [ ] Visual priority: selected > same-number > related > normal (no state bleed)
+- [ ] Given cells display semibold black text; empty cells display gray
 - [ ] Lobby bottom sheet shows 4 difficulty options
 - [ ] Board is square and fills screen width on all iPhone sizes
 
@@ -283,9 +345,12 @@ hintsRemaining == 0:
 | `Games/Sudoku/ViewModels/SudokuGameViewModel.swift` | Extend (full logic) |
 
 ### Acceptance Criteria PR-06
-- [ ] Tapping a number fills the selected cell
-- [ ] Pencil mode toggles and draws mini marks in cells
-- [ ] Eraser clears value and pencil marks
+- [ ] Keypad tap fills the selected empty editable cell with the chosen digit
+- [ ] Keypad tap on a pre-filled selected cell → no-op (cell value unchanged, no crash)
+- [ ] Keypad tap with no cell selected → no-op (no crash, no state change)
+- [ ] Player-filled cell re-tap + keypad → replaces value (not a given-cell guard)
+- [ ] Pencil mode toggles and draws 3x3 mini marks inside cell
+- [ ] Eraser clears value and pencil marks from selected editable cell; no-op on given cells
 - [ ] Undo restores previous board state
 - [ ] Mistake counter increments on wrong placement
 - [ ] Hint reveals correct value and decrements counter

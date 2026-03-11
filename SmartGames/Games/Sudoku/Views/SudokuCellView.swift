@@ -6,7 +6,10 @@ struct SudokuCellView: View {
 
     let cell: SudokuCell
     let highlightState: CellHighlightState
+    let lastCompletedNumber: Int?
     let onTap: () -> Void
+
+    @State private var isPulsing: Bool = false
 
     var body: some View {
         Button(action: onTap) {
@@ -23,8 +26,18 @@ struct SudokuCellView: View {
         }
         .buttonStyle(.plain)
         .aspectRatio(1, contentMode: .fit)
+        .scaleEffect(isPulsing ? 1.12 : 1.0)
+        .animation(.easeInOut(duration: 0.15), value: isPulsing)
         .accessibilityLabel(accessibilityLabel)
         .accessibilityHint(cell.isGiven ? "Given clue, cannot be changed" : "")
+        .onChange(of: lastCompletedNumber) { completed in
+            guard let completed, cell.value == completed else { return }
+            isPulsing = true
+            Task {
+                try? await Task.sleep(nanoseconds: 150_000_000)
+                isPulsing = false
+            }
+        }
     }
 
     private var theme: BoardTheme { themeService.current }

@@ -16,6 +16,81 @@ Production-ready build: all tests green, accessibility labels, App Store screens
 
 ---
 
+## 0. Unit Test Spec — Cell Interaction Rules
+
+These tests MUST exist in `SudokuGameViewModelTests.swift` to verify the interaction contract.
+
+### selectCell — pre-filled cell
+
+```swift
+// Tapping a given cell: highlight states correct, keypad guard active
+func test_selectGivenCell_highlightsSameDigitAndPeers() {
+    // given cell at (0,0) has value 5
+    sut.selectCell(row: 0, col: 0)
+    // selected cell → .selected (not .selectedEmpty)
+    XCTAssertEqual(sut.highlightState(for: 0, col: 0), .selected)
+    // all other cells with value 5 → .sameNumber
+    // all row/col/box peers → .related (or .sameNumber if they also share digit)
+}
+
+func test_placeNumber_onGivenCell_isNoOp() {
+    sut.selectCell(row: 0, col: 0)  // given cell
+    let before = sut.puzzle.board[0][0].value
+    sut.placeNumber(9)
+    XCTAssertEqual(sut.puzzle.board[0][0].value, before)  // unchanged
+}
+```
+
+### selectCell — empty editable cell
+
+```swift
+func test_selectEmptyCell_highlightState_isSelectedEmpty() {
+    // find an empty cell
+    sut.selectCell(row: emptyRow, col: emptyCol)
+    XCTAssertEqual(sut.highlightState(for: emptyRow, col: emptyCol), .selectedEmpty)
+}
+
+func test_selectEmptyCell_peersAreRelated_notSameNumber() {
+    sut.selectCell(row: emptyRow, col: emptyCol)
+    // peers must be .related; cannot be .sameNumber (cell has no value)
+    for peer in peers(emptyRow, emptyCol) {
+        XCTAssertEqual(sut.highlightState(for: peer.row, col: peer.col), .related)
+    }
+}
+
+func test_placeNumber_onEmptyEditableCell_placesValue() {
+    sut.selectCell(row: emptyRow, col: emptyCol)
+    let correctDigit = sut.puzzle.solution[emptyRow][emptyCol]
+    sut.placeNumber(correctDigit)
+    XCTAssertEqual(sut.puzzle.board[emptyRow][emptyCol].value, correctDigit)
+}
+```
+
+### placeNumber — no selection guard
+
+```swift
+func test_placeNumber_withNoSelection_isNoOp() {
+    sut.selectedCell = nil
+    let boardBefore = sut.puzzle.board
+    sut.placeNumber(5)
+    XCTAssertEqual(sut.puzzle.board, boardBefore)  // board unchanged
+}
+```
+
+### highlightState — priority ordering
+
+```swift
+func test_highlightPriority_errorBeforeRelated() {
+    // place wrong digit in a peer cell → error takes priority over .related
+}
+
+func test_highlightPriority_selectedBeforeSameNumber() {
+    // selected cell always returns .selected/.selectedEmpty, never .sameNumber
+}
+```
+
+---
+
 ## 1. Accessibility
 
 | Element | Requirement |
@@ -59,6 +134,11 @@ Profiling tools: Instruments → Time Profiler + Allocations.
 | Undo past game start (empty stack) | Undo button disabled/greyed |
 | Device rotation | Layout stable (lock to portrait via Info.plist) |
 | iOS 16 vs iOS 17 | Test both — no SwiftData APIs used without fallback |
+| Tap pre-filled cell, then tap keypad | Cell value unchanged; no crash |
+| Tap keypad with nothing selected | No state change; no crash |
+| Tap pre-filled cell | Same-digit cells highlighted (`.sameNumber`); row/col/box highlighted (`.related`); selected cell is deep blue (`.selected`) |
+| Tap empty editable cell | Selected cell is yellow (`.selectedEmpty`); row/col/box highlighted (`.related`); no same-number highlight |
+| Re-tap same cell | Keeps selection; highlight states unchanged |
 
 ---
 

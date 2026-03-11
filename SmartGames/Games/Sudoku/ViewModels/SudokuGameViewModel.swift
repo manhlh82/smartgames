@@ -33,6 +33,7 @@ final class SudokuGameViewModel: ObservableObject {
     @Published var hintsRemaining: Int
     @Published var hintsUsedTotal: Int = 0
     @Published private(set) var undoStack: [BoardSnapshot] = []
+    @Published var lastCompletedNumber: Int?
 
     // MARK: - Services
     let persistence: PersistenceService
@@ -144,6 +145,7 @@ final class SudokuGameViewModel: ObservableObject {
 
         pushSnapshot()
 
+        let wasCompleted = completedNumbers.contains(n)
         let isCorrect = n == puzzle.solution[pos.row][pos.col]
         puzzle.board[pos.row][pos.col].value = n
         puzzle.board[pos.row][pos.col].pencilMarks = []
@@ -155,6 +157,14 @@ final class SudokuGameViewModel: ObservableObject {
             haptics.impact(.medium)
             analytics.log(.sudokuNumberPlaced(difficulty: puzzle.difficulty.rawValue,
                 isCorrect: true, elapsedSeconds: elapsedSeconds))
+            // Trigger completion pulse when a number reaches all 9 placements
+            if !wasCompleted && completedNumbers.contains(n) {
+                lastCompletedNumber = n
+                Task { @MainActor [weak self] in
+                    try? await Task.sleep(nanoseconds: 800_000_000)
+                    self?.lastCompletedNumber = nil
+                }
+            }
             checkWin()
         } else {
             mistakeCount += 1
@@ -168,6 +178,14 @@ final class SudokuGameViewModel: ObservableObject {
                 statisticsService.recordLoss(difficulty: puzzle.difficulty)
                 analytics.log(.sudokuGameFailed(difficulty: puzzle.difficulty.rawValue,
                     elapsedSeconds: elapsedSeconds, mistakes: mistakeCount))
+            }
+            // Auto-clear incorrect value after 1.5s to reduce friction
+            Task { @MainActor [weak self] in
+                try? await Task.sleep(nanoseconds: 1_500_000_000)
+                guard let self, self.puzzle.board[pos.row][pos.col].hasError else { return }
+                self.puzzle.board[pos.row][pos.col].value = nil
+                self.puzzle.board[pos.row][pos.col].hasError = false
+                self.scheduleAutoSave()
             }
         }
         scheduleAutoSave()
@@ -238,11 +256,34 @@ final class SudokuGameViewModel: ObservableObject {
         scheduleAutoSave()
     }
 
+    // MARK: - Remaining Counts (for number pad display)
+    var remainingCounts: [Int: Int] {
+        var counts = [Int: Int]()
+        for n in 1...9 {
+            let placed = puzzle.board.flatMap { $0 }.filter { $0.value == n }.count
+            counts[n] = max(0, 9 - placed)
+        }
+        return counts
+    }
+
     // MARK: - Pencil Mode
     func togglePencilMode() {
         isPencilMode.toggle()
         haptics.selection()
         analytics.log(.sudokuPencilModeToggled(enabled: isPencilMode))
+    }
+
+    /// Auto-fills all valid pencil mark candidates for every empty cell. Undoable.
+    func autoFillPencilMarks() {
+        pushSnapshot()
+        for row in 0..<9 {
+            for col in 0..<9 where puzzle.board[row][col].isEmpty {
+                let used = SudokuBoardUtils.usedValues(in: puzzle.board, row: row, col: col)
+                puzzle.board[row][col].pencilMarks = Set(1...9).subtracting(used)
+            }
+        }
+        haptics.impact(.medium)
+        scheduleAutoSave()
     }
 
     // MARK: - Pause / Resume
