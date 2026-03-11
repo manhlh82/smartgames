@@ -5,6 +5,7 @@ struct HubView: View {
     @StateObject private var viewModel = HubViewModel()
     @EnvironmentObject private var router: AppRouter
     @EnvironmentObject private var analytics: AnalyticsService
+    @EnvironmentObject private var gameRegistry: GameRegistry
     @State private var showSettings = false
 
     var body: some View {
@@ -13,9 +14,7 @@ struct HubView: View {
                 ForEach(viewModel.games) { game in
                     GameCardView(game: game) {
                         analytics.log(.gameSelected(gameId: game.id))
-                        if let route = game.route {
-                            router.navigate(to: route)
-                        }
+                        router.navigate(to: .gameLobby(gameId: game.id))
                     }
                     .padding(.horizontal, AppTheme.standardPadding)
                 }
@@ -23,6 +22,7 @@ struct HubView: View {
             .padding(.vertical, AppTheme.standardPadding)
         }
         .onAppear {
+            viewModel.loadGames(from: gameRegistry)
             analytics.log(.hubViewed)
         }
         .background(Color.appBackground.ignoresSafeArea())

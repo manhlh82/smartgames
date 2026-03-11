@@ -56,7 +56,7 @@ struct SudokuLobbyView: View {
                         .accessibilityLabel("View leaderboards")
                     }
                     Button {
-                        router.navigate(to: .sudokuStatistics)
+                        router.navigate(to: .gamePlay(gameId: "sudoku", context: "statistics"))
                     } label: {
                         Image(systemName: "chart.bar")
                             .foregroundColor(.appTextPrimary)
@@ -109,7 +109,7 @@ struct SudokuLobbyView: View {
     }
 
     private var dailyChallengeCard: some View {
-        Button { router.navigate(to: .sudokuDailyChallenge) } label: {
+        Button { router.navigate(to: .gamePlay(gameId: "sudoku", context: "daily")) } label: {
             HStack(spacing: 12) {
                 Image(systemName: dailyChallenge.isCompletedToday() ? "checkmark.seal.fill" : "calendar")
                     .font(.title2)
@@ -212,14 +212,14 @@ struct SudokuLobbyView: View {
             let puzzle = await viewModel.getPuzzle(for: difficulty)
             persistence.save(puzzle, key: PersistenceService.Keys.sudokuPendingPuzzle)
             isLoadingGame = false
-            router.navigate(to: .sudokuGame(difficulty: difficulty))
+            router.navigate(to: .gamePlay(gameId: "sudoku", context: difficulty.rawValue))
         }
     }
 
     private func resumeSavedGame() {
         guard let state = viewModel.loadSavedGame() else { return }
         persistence.save(state.puzzle, key: PersistenceService.Keys.sudokuPendingPuzzle)
-        router.navigate(to: .sudokuGame(difficulty: state.puzzle.difficulty))
+        router.navigate(to: .gamePlay(gameId: "sudoku", context: state.puzzle.difficulty.rawValue))
     }
 }
 

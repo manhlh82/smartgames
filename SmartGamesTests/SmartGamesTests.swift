@@ -9,16 +9,28 @@ final class SmartGamesTests: XCTestCase {
         XCTAssertNotNil(env.sound)
         XCTAssertNotNil(env.analytics)
         XCTAssertNotNil(env.ads)
+        XCTAssertNotNil(env.gameRegistry)
     }
 
-    func testHubViewModelHasSudoku() async {
+    func testGameRegistryHasSudoku() async {
+        let env = await AppEnvironment()
+        await MainActor.run {
+            let sudoku = env.gameRegistry.module(for: "sudoku")
+            XCTAssertNotNil(sudoku)
+            XCTAssertEqual(sudoku?.id, "sudoku")
+            XCTAssertTrue(sudoku?.isAvailable == true)
+        }
+    }
+
+    func testHubViewModelLoadsFromRegistry() async {
+        let env = await AppEnvironment()
         let vm = await HubViewModel()
         await MainActor.run {
+            vm.loadGames(from: env.gameRegistry)
             XCTAssertFalse(vm.games.isEmpty)
             let sudoku = vm.games.first { $0.id == "sudoku" }
             XCTAssertNotNil(sudoku)
             XCTAssertTrue(sudoku?.isAvailable == true)
-            XCTAssertNotNil(sudoku?.route)
         }
     }
 
@@ -26,7 +38,7 @@ final class SmartGamesTests: XCTestCase {
         let router = await AppRouter()
         await MainActor.run {
             XCTAssertTrue(router.path.isEmpty)
-            router.navigate(to: .sudokuLobby)
+            router.navigate(to: .gameLobby(gameId: "sudoku"))
             XCTAssertEqual(router.path.count, 1)
             router.pop()
             XCTAssertTrue(router.path.isEmpty)

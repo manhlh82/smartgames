@@ -1,7 +1,7 @@
 import Foundation
 
-/// Central dependency container — all shared services live here.
-/// Injected as EnvironmentObjects at app root.
+/// Central dependency container — truly shared services (cross-game).
+/// Game-specific services live in their respective GameModule.
 @MainActor
 final class AppEnvironment: ObservableObject {
     let persistence: PersistenceService
@@ -10,11 +10,10 @@ final class AppEnvironment: ObservableObject {
     let haptics: HapticsService
     let analytics: AnalyticsService
     let ads: AdsService
-    let theme: ThemeService
-    let statistics: StatisticsService
     let gameCenter: GameCenterService
     let dailyChallenge: DailyChallengeService
     let store: StoreService
+    let gameRegistry: GameRegistry
 
     init() {
         let persistence = PersistenceService()
@@ -33,12 +32,16 @@ final class AppEnvironment: ObservableObject {
         self.analytics = AnalyticsService()
         let adsService = AdsService()
         self.ads = adsService
-        self.theme = ThemeService(persistence: persistence)
-        self.statistics = StatisticsService(persistence: persistence)
         self.gameCenter = GameCenterService()
         self.dailyChallenge = DailyChallengeService(persistence: persistence)
         self.store = StoreService()
         // Wire store into ads so ads are skipped when Remove Ads is purchased
         adsService.storeService = self.store
+
+        // Register game modules
+        let registry = GameRegistry()
+        let sudoku = SudokuGameModule(persistence: persistence)
+        registry.register(sudoku)
+        self.gameRegistry = registry
     }
 }

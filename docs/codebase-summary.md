@@ -9,9 +9,11 @@ MVVM + EnvironmentObject. All services injected at root via `AppEnvironment`.
 | File | Purpose |
 |------|---------|
 | `SmartGamesApp.swift` | App entry, env injection, ATT |
-| `AppEnvironment.swift` | Central DI container |
+| `AppEnvironment.swift` | Central DI container; wires shared & game modules |
+| `Core/GameModule.swift` | Protocol defining game module contract |
+| `Core/GameRegistry.swift` | Holds all registered game modules |
 | `Navigation/AppRouter.swift` | NavigationPath router |
-| `Hub/HubViewModel.swift` | Game registry |
+| `Hub/HubViewModel.swift` | Reads games from GameRegistry |
 
 ## Sudoku Module
 

@@ -11,8 +11,8 @@ struct GameCardView: View {
             HStack(spacing: 16) {
                 // Game icon — circle with asset or placeholder
                 Group {
-                    if UIImage(named: game.iconAsset) != nil {
-                        Image(game.iconAsset)
+                    if UIImage(named: game.iconName) != nil {
+                        Image(game.iconName)
                             .resizable()
                             .scaledToFill()
                     } else {

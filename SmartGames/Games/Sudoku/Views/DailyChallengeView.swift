@@ -176,7 +176,7 @@ struct DailyChallengeView: View {
             // can wire DailyChallengeService into SudokuGameViewModel.
             persistence.save(true, key: PersistenceService.Keys.sudokuPendingIsDailyChallenge)
             isLoading = false
-            router.navigate(to: .sudokuGame(difficulty: puzzle.difficulty))
+            router.navigate(to: .gamePlay(gameId: "sudoku", context: puzzle.difficulty.rawValue))
         }
     }
 

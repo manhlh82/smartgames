@@ -3,15 +3,16 @@ import SwiftUI
 
 @MainActor
 final class HubViewModel: ObservableObject {
-    /// All registered games. Add entries here as new games ship.
-    @Published var games: [GameEntry] = [
-        GameEntry(
-            id: "sudoku",
-            displayName: "Sudoku",
-            iconAsset: "icon-sudoku",
-            isAvailable: true,
-            route: .sudokuLobby
-        )
-        // Future: Add more GameEntry items here for each new game
-    ]
+    @Published var games: [GameEntry] = []
+
+    func loadGames(from registry: GameRegistry) {
+        games = registry.allGames.map { module in
+            GameEntry(
+                id: module.id,
+                displayName: module.displayName,
+                iconName: module.iconName,
+                isAvailable: module.isAvailable
+            )
+        }
+    }
 }
