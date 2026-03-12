@@ -49,6 +49,8 @@ final class SudokuGameViewModel: ObservableObject {
     weak var storeService: StoreService? {
         didSet { observeHintGrants() }
     }
+    /// Per-game monetization settings.
+    let monetizationConfig: MonetizationConfig
 
     private var timerTask: Task<Void, Never>?
     private var hintGrantTask: Task<Void, Never>?
@@ -81,7 +83,8 @@ final class SudokuGameViewModel: ObservableObject {
     init(puzzle: SudokuPuzzle, persistence: PersistenceService, analytics: AnalyticsService,
          sound: SoundService, haptics: HapticsService, ads: AdsService,
          statisticsService: StatisticsService, gameCenterService: GameCenterService,
-         dailyChallengeService: DailyChallengeService? = nil) {
+         dailyChallengeService: DailyChallengeService? = nil,
+         monetizationConfig: MonetizationConfig = MonetizationConfig()) {
         self.puzzle = puzzle
         self.persistence = persistence
         self.analytics = analytics
@@ -91,6 +94,7 @@ final class SudokuGameViewModel: ObservableObject {
         self.statisticsService = statisticsService
         self.gameCenterService = gameCenterService
         self.dailyChallengeService = dailyChallengeService
+        self.monetizationConfig = monetizationConfig
         self.hintsRemaining = persistence.load(Int.self, key: PersistenceService.Keys.sudokuHintsRemaining)
                               ?? puzzle.difficulty.freeHints
         startTimer()

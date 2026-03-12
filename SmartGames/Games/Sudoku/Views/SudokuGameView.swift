@@ -7,15 +7,22 @@ struct SudokuGameView: View {
 
     let difficulty: SudokuDifficulty
     @StateObject private var viewModel: SudokuGameViewModel
+    @StateObject private var bannerCoordinator: BannerAdCoordinator
     @State private var showRestartConfirm = false
+
+    private let monetizationConfig: MonetizationConfig
+    private let storeService: StoreService?
 
     init(difficulty: SudokuDifficulty, puzzle: SudokuPuzzle,
          persistence: PersistenceService, analytics: AnalyticsService,
          sound: SoundService, haptics: HapticsService, ads: AdsService,
          statisticsService: StatisticsService, gameCenterService: GameCenterService,
          dailyChallengeService: DailyChallengeService? = nil,
-         storeService: StoreService? = nil) {
+         storeService: StoreService? = nil,
+         monetizationConfig: MonetizationConfig = MonetizationConfig()) {
         self.difficulty = difficulty
+        self.storeService = storeService
+        self.monetizationConfig = monetizationConfig
         let vm = SudokuGameViewModel(
             puzzle: puzzle,
             persistence: persistence,
@@ -25,10 +32,12 @@ struct SudokuGameView: View {
             ads: ads,
             statisticsService: statisticsService,
             gameCenterService: gameCenterService,
-            dailyChallengeService: dailyChallengeService
+            dailyChallengeService: dailyChallengeService,
+            monetizationConfig: monetizationConfig
         )
         vm.storeService = storeService
         _viewModel = StateObject(wrappedValue: vm)
+        _bannerCoordinator = StateObject(wrappedValue: ads.makeBannerCoordinator())
     }
 
     var body: some View {
@@ -51,6 +60,15 @@ struct SudokuGameView: View {
                 )
                 .padding(.horizontal, AppTheme.standardPadding)
                 Spacer(minLength: 8)
+
+                // Banner ad — visible during active gameplay only, hidden when ads removed
+                if monetizationConfig.bannerEnabled
+                    && storeService?.hasRemovedAds != true
+                    && (viewModel.gamePhase == .playing || viewModel.gamePhase == .paused) {
+                    BannerAdView(coordinator: bannerCoordinator)
+                        .frame(height: bannerCoordinator.isBannerLoaded ? bannerCoordinator.bannerHeight : 50)
+                        .animation(.easeInOut(duration: 0.3), value: bannerCoordinator.isBannerLoaded)
+                }
             }
             .padding(.top, 8)
 

@@ -98,7 +98,8 @@ final class SudokuGameModule: GameModule {
                 statisticsService: statisticsService,
                 gameCenterService: environment.gameCenter,
                 dailyChallengeService: dcService,
-                storeService: environment.store
+                storeService: environment.store,
+                monetizationConfig: monetizationConfig
             )
             .environmentObject(themeService)
             .onAppear {

@@ -46,12 +46,17 @@ final class AdsService: ObservableObject {
     }
 
     /// Show an interstitial ad at a natural break point (post-win).
-    /// Respects rate limits — safe to call and will no-op if not appropriate.
     /// Skipped entirely when the user has purchased Remove Ads.
     func showInterstitialIfReady() {
         guard storeService?.hasRemovedAds != true else { return }
         guard let rootVC = rootViewController else { return }
         interstitial.showIfReady(from: rootVC)
+    }
+
+    /// Creates a banner coordinator configured with the given ad unit ID.
+    /// The coordinator is owned by the game view — it lives only while the game screen is active.
+    func makeBannerCoordinator() -> BannerAdCoordinator {
+        BannerAdCoordinator(adUnitID: AdsConfig.bannerAdUnitID)
     }
 
     // MARK: - Private
