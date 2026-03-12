@@ -355,6 +355,14 @@ final class SudokuGameViewModel: ObservableObject {
         analytics.log(.sudokuGameCompleted(difficulty: puzzle.difficulty.rawValue,
             elapsedSeconds: elapsedSeconds, mistakes: mistakeCount,
             hintsUsed: hintsUsedTotal, stars: starRating))
+
+        // Configure interstitial frequency and show post-level ad if appropriate
+        ads.interstitial.configure(frequency: monetizationConfig.interstitialFrequency)
+        if monetizationConfig.interstitialEnabled
+            && storeService?.hasRemovedAds != true
+            && ads.interstitial.shouldShowAfterLevelComplete() {
+            ads.showInterstitialIfReady()
+        }
     }
 
     // MARK: - Star Rating
