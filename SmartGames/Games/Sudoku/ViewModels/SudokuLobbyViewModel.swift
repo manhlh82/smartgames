@@ -12,7 +12,6 @@ final class SudokuLobbyViewModel: ObservableObject {
     init(persistence: PersistenceService) {
         self.persistence = persistence
         self.puzzleBank = PuzzleBank(persistence: persistence)
-        checkForSavedGame()
     }
 
     func getPuzzle(for difficulty: SudokuDifficulty) async -> SudokuPuzzle {
@@ -34,6 +33,9 @@ final class SudokuLobbyViewModel: ObservableObject {
                                         key: PersistenceService.Keys.sudokuActiveGame) {
             hasSavedGame = true
             savedGameDifficulty = state.puzzle.difficulty
+        } else {
+            hasSavedGame = false
+            savedGameDifficulty = nil
         }
     }
 }

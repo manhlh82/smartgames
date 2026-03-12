@@ -87,7 +87,6 @@ final class SudokuGameViewModel: ObservableObject {
          statisticsService: StatisticsService, gameCenterService: GameCenterService,
          dailyChallengeService: DailyChallengeService? = nil,
          monetizationConfig: MonetizationConfig = MonetizationConfig()) {
-        self.puzzle = puzzle
         self.persistence = persistence
         self.analytics = analytics
         self.sound = sound
@@ -97,10 +96,28 @@ final class SudokuGameViewModel: ObservableObject {
         self.gameCenterService = gameCenterService
         self.dailyChallengeService = dailyChallengeService
         self.monetizationConfig = monetizationConfig
-        self.hintsRemaining = persistence.load(Int.self, key: PersistenceService.Keys.sudokuHintsRemaining)
-                              ?? puzzle.difficulty.freeHints
+
+        // Restore full saved state when resuming the same puzzle
+        let isResume: Bool
+        if let saved = persistence.load(SudokuGameState.self, key: PersistenceService.Keys.sudokuActiveGame),
+           saved.puzzle.id == puzzle.id {
+            self.puzzle = saved.puzzle
+            self.elapsedSeconds = saved.elapsedSeconds
+            self.mistakeCount = saved.mistakeCount
+            self.hintsRemaining = saved.hintsRemaining
+            self.hintsUsedTotal = saved.hintsUsedTotal
+            self.undoStack = saved.undoStack
+            self.mistakeResetUsesThisLevel = saved.mistakeResetUsesThisLevel
+            isResume = true
+        } else {
+            self.puzzle = puzzle
+            self.hintsRemaining = persistence.load(Int.self, key: PersistenceService.Keys.sudokuHintsRemaining)
+                                  ?? puzzle.difficulty.freeHints
+            isResume = false
+        }
+
         startTimer()
-        analytics.log(.sudokuGameStarted(difficulty: puzzle.difficulty.rawValue, isResume: false))
+        analytics.log(.sudokuGameStarted(difficulty: self.puzzle.difficulty.rawValue, isResume: isResume))
     }
 
     // MARK: - Cell Selection

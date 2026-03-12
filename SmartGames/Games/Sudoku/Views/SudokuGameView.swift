@@ -190,6 +190,7 @@ struct SudokuGameView: View {
                 Image(systemName: viewModel.gamePhase == .paused ? "play" : "pause")
                     .foregroundColor(.appTextPrimary)
             }
+            .disabled(viewModel.gamePhase != .playing && viewModel.gamePhase != .paused)
             .accessibilityLabel(viewModel.gamePhase == .paused ? "Resume" : "Pause")
         }
     }
@@ -247,6 +248,11 @@ struct SudokuGameView: View {
                     .accessibilityLabel("Back to lobby for new game")
 
                 Button("Watch Ad to Continue") {
+                    guard viewModel.ads.isRewardedAdReady else {
+                        viewModel.analytics.log(.adUnavailable(adType: "rewarded", reason: "not_loaded", context: "continue"))
+                        showAdUnavailableAlert = true
+                        return
+                    }
                     viewModel.ads.showRewardedAd { granted in
                         if granted { viewModel.continueAfterAd() }
                     }
