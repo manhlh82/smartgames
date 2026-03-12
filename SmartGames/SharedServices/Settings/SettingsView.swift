@@ -3,7 +3,6 @@ import SwiftUI
 /// App settings screen — accessible from hub gear icon.
 struct SettingsView: View {
     @EnvironmentObject var settings: SettingsService
-    @EnvironmentObject var themeService: ThemeService
     @EnvironmentObject var store: StoreService
 
     @State private var showPaywall = false
@@ -20,12 +19,6 @@ struct SettingsView: View {
                     Toggle("Highlight Related Cells", isOn: $settings.highlightRelatedCells)
                     Toggle("Highlight Same Numbers", isOn: $settings.highlightSameNumbers)
                     Toggle("Show Timer", isOn: $settings.showTimer)
-                }
-
-                Section("Board Theme") {
-                    ThemePickerView()
-                        .listRowInsets(EdgeInsets())
-                        .listRowBackground(Color.clear)
                 }
 
                 Section("Premium") {

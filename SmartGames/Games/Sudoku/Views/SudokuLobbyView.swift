@@ -9,10 +9,12 @@ struct SudokuLobbyView: View {
     @EnvironmentObject private var ads: AdsService
     @EnvironmentObject private var gameCenterService: GameCenterService
     @EnvironmentObject private var dailyChallenge: DailyChallengeService
+    @EnvironmentObject private var themeService: ThemeService
 
     @StateObject private var viewModel: SudokuLobbyViewModel
     private let persistence: PersistenceService
     @State private var isLoadingGame = false
+    @State private var showThemePicker = false
 
     init(persistence: PersistenceService) {
         self.persistence = persistence
@@ -61,8 +63,18 @@ struct SudokuLobbyView: View {
                             .foregroundColor(.appTextPrimary)
                     }
                     .accessibilityLabel("View statistics")
+                    Button {
+                        showThemePicker = true
+                    } label: {
+                        Image(systemName: "paintpalette")
+                            .foregroundColor(.appTextPrimary)
+                    }
+                    .accessibilityLabel("Change board theme")
                 }
             }
+        }
+        .sheet(isPresented: $showThemePicker) {
+            boardThemeSheet
         }
         .overlay {
             if isLoadingGame {
@@ -76,6 +88,30 @@ struct SudokuLobbyView: View {
     }
 
     // MARK: - Subviews
+
+    /// Sheet presented when the user taps the palette toolbar button.
+    private var boardThemeSheet: some View {
+        NavigationStack {
+            VStack(alignment: .leading, spacing: 16) {
+                Text("Pick a color theme for the Sudoku board.")
+                    .font(.appBody)
+                    .foregroundColor(.appTextSecondary)
+                    .padding(.horizontal)
+                ThemePickerView()
+                    .padding(.horizontal)
+                Spacer()
+            }
+            .padding(.top, 24)
+            .navigationTitle("Board Theme")
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button("Done") { showThemePicker = false }
+                }
+            }
+        }
+        .presentationDetents([.medium])
+    }
 
     private var titleSection: some View {
         VStack(spacing: 6) {
