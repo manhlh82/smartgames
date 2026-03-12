@@ -42,7 +42,7 @@ struct SettingsView: View {
                     Button {
                         showPaywall = true
                     } label: {
-                        Label("Get Hint Pack (10 Hints)", systemImage: "lightbulb.fill")
+                        Label("Get Hint Pack (12 Hints)", systemImage: "lightbulb.fill")
                     }
                 }
 

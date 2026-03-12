@@ -219,25 +219,58 @@ final class SudokuGameViewModel: ObservableObject {
     }
 
     // MARK: - Hint
+
+    /// True when hints are below cap and an ad can be offered to earn more.
+    var canWatchAdForHints: Bool {
+        hintsRemaining < monetizationConfig.maxHintCap
+    }
+
     func useHint() {
         guard gamePhase == .playing else { return }
         if hintsRemaining > 0 {
             applyHint()
         } else {
-            gamePhase = .needsHintAd
+            // Only offer ad if hints are below cap (cap may be exceeded from IAP)
+            if canWatchAdForHints {
+                gamePhase = .needsHintAd
+            }
             analytics.log(.sudokuHintExhausted(difficulty: puzzle.difficulty.rawValue))
         }
     }
 
     func grantHintsAfterAd() {
-        hintsRemaining += 3
-        persistence.save(hintsRemaining, key: PersistenceService.Keys.sudokuHintsRemaining)
+        let granted = grantHints(monetizationConfig.rewardedHintAmount)
         gamePhase = .playing
-        applyHint()
+        if granted > 0 {
+            analytics.log(.hintEarnedFromAd(
+                difficulty: puzzle.difficulty.rawValue,
+                hintsAfter: hintsRemaining
+            ))
+            applyHint()
+        }
     }
 
     func cancelHintAd() {
         gamePhase = .playing
+    }
+
+    /// Grants hints up to the configured cap. IAP grants bypass the cap (user paid real money).
+    /// Returns the actual number of hints granted.
+    @discardableResult
+    private func grantHints(_ amount: Int, bypassCap: Bool = false) -> Int {
+        let effectiveAmount: Int
+        if bypassCap {
+            effectiveAmount = amount
+        } else {
+            effectiveAmount = min(amount, monetizationConfig.maxHintCap - hintsRemaining)
+        }
+        guard effectiveAmount > 0 else {
+            analytics.log(.hintCapReached(currentHints: hintsRemaining, maxCap: monetizationConfig.maxHintCap))
+            return 0
+        }
+        hintsRemaining += effectiveAmount
+        persistence.save(hintsRemaining, key: PersistenceService.Keys.sudokuHintsRemaining)
+        return effectiveAmount
     }
 
     private func applyHint() {
@@ -356,6 +389,15 @@ final class SudokuGameViewModel: ObservableObject {
             elapsedSeconds: elapsedSeconds, mistakes: mistakeCount,
             hintsUsed: hintsUsedTotal, stars: starRating))
 
+        // Grant level-completion hint reward (capped at maxHintCap)
+        let levelHintGranted = grantHints(monetizationConfig.levelCompleteHintReward)
+        if levelHintGranted > 0 {
+            analytics.log(.hintEarnedFromLevel(
+                difficulty: puzzle.difficulty.rawValue,
+                hintsAfter: hintsRemaining
+            ))
+        }
+
         // Configure interstitial frequency and show post-level ad if appropriate
         ads.interstitial.configure(frequency: monetizationConfig.interstitialFrequency)
         if monetizationConfig.interstitialEnabled
@@ -420,10 +462,11 @@ final class SudokuGameViewModel: ObservableObject {
 
     // MARK: - Hint Grant (IAP)
 
-    /// Grants 10 hints when a Hint Pack is purchased. Called via StoreService.pendingHintGrant.
+    /// Grants 12 hints when a Hint Pack is purchased. Bypasses cap — user paid real money.
+    /// Called via StoreService.pendingHintGrant.
     func grantHintsFromPurchase() {
-        hintsRemaining += 10
-        persistence.save(hintsRemaining, key: PersistenceService.Keys.sudokuHintsRemaining)
+        grantHints(12, bypassCap: true)
+        analytics.log(.hintEarnedFromIAP(hintsAfter: hintsRemaining))
         // If game was waiting for an ad-based hint, resume automatically
         if gamePhase == .needsHintAd {
             gamePhase = .playing

@@ -84,4 +84,31 @@ extension AnalyticsEvent {
     static func sudokuHintExhausted(difficulty: String) -> AnalyticsEvent {
         AnalyticsEvent("sudoku_hint_exhausted", ["difficulty": difficulty])
     }
+
+    // MARK: - Hint Source Tracking
+
+    static func hintEarnedFromAd(difficulty: String, hintsAfter: Int) -> AnalyticsEvent {
+        AnalyticsEvent("hint_earned_from_ad", [
+            "difficulty": difficulty,
+            "hints_after": hintsAfter
+        ])
+    }
+
+    static func hintEarnedFromLevel(difficulty: String, hintsAfter: Int) -> AnalyticsEvent {
+        AnalyticsEvent("hint_earned_from_level", [
+            "difficulty": difficulty,
+            "hints_after": hintsAfter
+        ])
+    }
+
+    static func hintEarnedFromIAP(hintsAfter: Int) -> AnalyticsEvent {
+        AnalyticsEvent("hint_earned_from_iap", ["hints_after": hintsAfter])
+    }
+
+    static func hintCapReached(currentHints: Int, maxCap: Int) -> AnalyticsEvent {
+        AnalyticsEvent("hint_cap_reached", [
+            "current_hints": currentHints,
+            "max_cap": maxCap
+        ])
+    }
 }
