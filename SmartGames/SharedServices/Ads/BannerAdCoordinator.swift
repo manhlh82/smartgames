@@ -9,6 +9,10 @@ final class BannerAdCoordinator: NSObject, ObservableObject {
     @Published var bannerHeight: CGFloat = 0
 
     private let adUnitID: String
+    /// Game ID used for analytics — set after init via SudokuModule.
+    var gameId: String = "sudoku"
+    /// Analytics service — injected after init (optional to keep init simple).
+    weak var analytics: AnalyticsService?
 
     init(adUnitID: String = AdsConfig.bannerAdUnitID) {
         self.adUnitID = adUnitID
@@ -33,10 +37,14 @@ final class BannerAdCoordinator: NSObject, ObservableObject {
     func didReceiveAd(height: CGFloat = 50) {
         isBannerLoaded = true
         bannerHeight = height
+        analytics?.log(.adBannerLoaded(gameId: gameId))
+        analytics?.log(.adBannerImpression(gameId: gameId))
     }
 
-    func didFailToReceiveAd() {
+    func didFailToReceiveAd(errorCode: Int = 0) {
         isBannerLoaded = false
         bannerHeight = 0
+        analytics?.log(.adBannerLoadFailed(gameId: gameId, errorCode: errorCode))
+        analytics?.log(.adUnavailable(adType: "banner", reason: "load_failed", context: "gameplay"))
     }
 }

@@ -9,6 +9,7 @@ struct SudokuGameView: View {
     @StateObject private var viewModel: SudokuGameViewModel
     @StateObject private var bannerCoordinator: BannerAdCoordinator
     @State private var showRestartConfirm = false
+    @State private var showAdUnavailableAlert = false
 
     private let monetizationConfig: MonetizationConfig
     private let storeService: StoreService?
@@ -37,7 +38,7 @@ struct SudokuGameView: View {
         )
         vm.storeService = storeService
         _viewModel = StateObject(wrappedValue: vm)
-        _bannerCoordinator = StateObject(wrappedValue: ads.makeBannerCoordinator())
+        _bannerCoordinator = StateObject(wrappedValue: ads.makeBannerCoordinator(gameId: "sudoku", analytics: analytics))
     }
 
     var body: some View {
@@ -83,6 +84,12 @@ struct SudokuGameView: View {
         }
         .alert("Watch an ad for 3 more hints?", isPresented: hintAdBinding) {
             Button("Watch Ad") {
+                guard viewModel.ads.isRewardedAdReady else {
+                    viewModel.cancelHintAd()
+                    viewModel.analytics.log(.adUnavailable(adType: "rewarded", reason: "not_loaded", context: "hints"))
+                    showAdUnavailableAlert = true
+                    return
+                }
                 viewModel.ads.showRewardedAd { granted in
                     if granted { viewModel.grantHintsAfterAd() }
                     else { viewModel.cancelHintAd() }
@@ -92,6 +99,12 @@ struct SudokuGameView: View {
         }
         .alert("Reset Mistakes?", isPresented: mistakeResetAdBinding) {
             Button("Watch Ad") {
+                guard viewModel.ads.isRewardedAdReady else {
+                    viewModel.cancelMistakeResetAd()
+                    viewModel.analytics.log(.adUnavailable(adType: "rewarded", reason: "not_loaded", context: "mistake_reset"))
+                    showAdUnavailableAlert = true
+                    return
+                }
                 viewModel.ads.showRewardedAd { granted in
                     if granted { viewModel.grantMistakeResetAfterAd() }
                     else { viewModel.cancelMistakeResetAd() }
@@ -100,6 +113,11 @@ struct SudokuGameView: View {
             Button("Cancel", role: .cancel) { viewModel.cancelMistakeResetAd() }
         } message: {
             Text("Watch a short video to reset your mistakes to zero.")
+        }
+        .alert("Ad Not Available", isPresented: $showAdUnavailableAlert) {
+            Button("OK", role: .cancel) {}
+        } message: {
+            Text("No ad is available right now. Please try again in a moment.")
         }
         .confirmationDialog("Restart this puzzle?", isPresented: $showRestartConfirm) {
             Button("Restart", role: .destructive) { viewModel.restart() }

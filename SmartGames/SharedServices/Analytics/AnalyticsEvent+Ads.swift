@@ -3,6 +3,46 @@ import Foundation
 /// Monetization / ads analytics events.
 extension AnalyticsEvent {
 
+    // MARK: - Banner Events
+
+    static func adBannerLoaded(gameId: String) -> AnalyticsEvent {
+        AnalyticsEvent("ad_banner_loaded", ["game_id": gameId])
+    }
+
+    static func adBannerLoadFailed(gameId: String, errorCode: Int = 0) -> AnalyticsEvent {
+        AnalyticsEvent("ad_banner_load_failed", [
+            "game_id": gameId,
+            "error_code": errorCode
+        ])
+    }
+
+    static func adBannerClicked(gameId: String) -> AnalyticsEvent {
+        AnalyticsEvent("ad_banner_clicked", ["game_id": gameId])
+    }
+
+    static func adBannerImpression(gameId: String) -> AnalyticsEvent {
+        AnalyticsEvent("ad_banner_impression", ["game_id": gameId])
+    }
+
+    // MARK: - Ad Unavailable
+
+    static func adUnavailable(adType: String, reason: String, context: String) -> AnalyticsEvent {
+        AnalyticsEvent("ad_unavailable", [
+            "ad_type": adType,    // "rewarded", "interstitial", "banner"
+            "reason": reason,     // "not_loaded", "load_failed"
+            "context": context    // "hints", "mistake_reset", "continue", "post_level"
+        ])
+    }
+
+    // MARK: - Interstitial Skipped
+
+    static func adInterstitialSkipped(reason: String) -> AnalyticsEvent {
+        AnalyticsEvent("ad_interstitial_skipped", ["reason": reason])
+        // reason: "not_ready", "ads_removed", "frequency_not_met"
+    }
+
+    // MARK: - Rewarded
+
     static func adRewardedPromptShown(reason: String, difficulty: String) -> AnalyticsEvent {
         AnalyticsEvent("ad_rewarded_prompt_shown", [
             "reason": reason,

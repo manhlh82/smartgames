@@ -53,10 +53,13 @@ final class AdsService: ObservableObject {
         interstitial.showIfReady(from: rootVC)
     }
 
-    /// Creates a banner coordinator configured with the given ad unit ID.
+    /// Creates a banner coordinator configured with the given game ID and analytics service.
     /// The coordinator is owned by the game view — it lives only while the game screen is active.
-    func makeBannerCoordinator() -> BannerAdCoordinator {
-        BannerAdCoordinator(adUnitID: AdsConfig.bannerAdUnitID)
+    func makeBannerCoordinator(gameId: String = "sudoku", analytics: AnalyticsService? = nil) -> BannerAdCoordinator {
+        let coordinator = BannerAdCoordinator(adUnitID: AdsConfig.bannerAdUnitID)
+        coordinator.gameId = gameId
+        coordinator.analytics = analytics
+        return coordinator
     }
 
     // MARK: - Private
