@@ -1,19 +1,29 @@
 import Foundation
 import UIKit
 
-/// Manages interstitial ad lifecycle with rate limiting.
-/// V1: max 1 interstitial per session, only shown at natural break points (post-win).
+/// Manages interstitial ad lifecycle.
+/// Shows at natural break points (post-win), frequency controlled by MonetizationConfig.
 @MainActor
 final class InterstitialAdCoordinator: ObservableObject {
     @Published var isAdReady: Bool = false
-    private var showCount: Int = 0
-    private var lastShowTime: Date = .distantPast
+    private var completedLevelCount: Int = 0
+    private var interstitialFrequency: Int = 1
 
-    /// Whether an interstitial can be shown right now (rate limit check).
-    var canShowAd: Bool {
-        isAdReady
-        && showCount < AdsConfig.maxInterstitialsPerSession
-        && Date().timeIntervalSince(lastShowTime) > Double(AdsConfig.interstitialCooldownSeconds)
+    /// Configure frequency from MonetizationConfig. Call once when game module loads.
+    func configure(frequency: Int) {
+        self.interstitialFrequency = max(1, frequency)
+    }
+
+    /// Call after every level completion. Returns true if interstitial should be shown.
+    @discardableResult
+    func shouldShowAfterLevelComplete() -> Bool {
+        completedLevelCount += 1
+        return isAdReady && (completedLevelCount % interstitialFrequency == 0)
+    }
+
+    /// Reset level counter (e.g., on new session or game module change).
+    func resetLevelCounter() {
+        completedLevelCount = 0
     }
 
     func loadAd() async {
@@ -22,12 +32,10 @@ final class InterstitialAdCoordinator: ObservableObject {
         isAdReady = true
     }
 
-    /// Show the interstitial if all rate limit conditions are met.
+    /// Show the interstitial if an ad is ready.
     func showIfReady(from viewController: UIViewController) {
-        guard canShowAd else { return }
+        guard isAdReady else { return }
         isAdReady = false
-        showCount += 1
-        lastShowTime = Date()
 
         // Stub: simulate interstitial
         // TODO: Replace with GADInterstitialAd.present() when SDK integrated

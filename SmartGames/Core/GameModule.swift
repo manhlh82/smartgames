@@ -10,8 +10,15 @@ protocol GameModule: AnyObject {
     var iconName: String { get }
     /// false = "Coming Soon" badge
     var isAvailable: Bool { get }
+    /// Per-game monetization settings — override to customize ad behavior per game.
+    var monetizationConfig: MonetizationConfig { get }
     /// Returns the lobby/entry view, injecting game-specific services as needed
     func makeLobbyView(environment: AppEnvironment) -> AnyView
     /// Returns nil if this module doesn't handle the given route
     func navigationDestination(for route: AppRoute, environment: AppEnvironment) -> AnyView?
+}
+
+extension GameModule {
+    /// Default monetization config — games override this to provide custom values.
+    var monetizationConfig: MonetizationConfig { MonetizationConfig() }
 }

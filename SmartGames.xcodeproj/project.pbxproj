@@ -31,6 +31,7 @@
 		4DA44045AE4A7465B4D33705 /* AnalyticsServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAB33221F8D2506CE4E467A /* AnalyticsServiceTests.swift */; };
 		4DDA35A693B4810F1E791B6F /* GameCenterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8683868971E1152D64430816 /* GameCenterService.swift */; };
 		536CB5AB2BEDB01DDEB0AC87 /* InterstitialAdCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFAF4DA4988850B344DD535 /* InterstitialAdCoordinator.swift */; };
+		AA11BB22CC33DD44EE55FF66 /* MonetizationConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA11BB22CC33DD44EE55FF67 /* MonetizationConfig.swift */; };
 		55E9AE56BE26DB61FAFB91AE /* SeededRandomNumberGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE0801550B61C7C8A81BB43 /* SeededRandomNumberGenerator.swift */; };
 		57371D9CD64A5F2CDC8502CF /* puzzles.json in Resources */ = {isa = PBXBuildFile; fileRef = 43BEDF0CE812C0E30BB9E76C /* puzzles.json */; };
 		5E3F02D29DB4E4791A0357DE /* PersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD05E2AC7298D41683CB6ABE /* PersistenceService.swift */; };
@@ -136,6 +137,7 @@
 		8E3AC6111FA36D0428FDD141 /* SudokuPauseOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudokuPauseOverlayView.swift; sourceTree = "<group>"; };
 		8EFBDE92D4C9431B87662A18 /* SettingsServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsServiceTests.swift; sourceTree = "<group>"; };
 		923BB59D4C01DED3AC742312 /* AdsConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsConfig.swift; sourceTree = "<group>"; };
+		AA11BB22CC33DD44EE55FF67 /* MonetizationConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonetizationConfig.swift; sourceTree = "<group>"; };
 		94DBB458F57F080B4C15B2AF /* SmartGames.storekit */ = {isa = PBXFileReference; path = SmartGames.storekit; sourceTree = "<group>"; };
 		9B291E283C3AAE46AF4E4EFD /* SmartGamesTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = SmartGamesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BF0EFBE736639CD8808DAFA /* SudokuDifficulty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudokuDifficulty.swift; sourceTree = "<group>"; };
@@ -325,6 +327,7 @@
 				923BB59D4C01DED3AC742312 /* AdsConfig.swift */,
 				572BEF208087CE8C3522EE7F /* AdsService.swift */,
 				9CFAF4DA4988850B344DD535 /* InterstitialAdCoordinator.swift */,
+				AA11BB22CC33DD44EE55FF67 /* MonetizationConfig.swift */,
 				5845117A01489368C0358171 /* RewardedAdCoordinator.swift */,
 			);
 			path = Ads;
@@ -605,6 +608,7 @@
 				2A2478205867AFF7E5C089FA /* HubView.swift in Sources */,
 				CF1932514C4FC7F0A560180E /* HubViewModel.swift in Sources */,
 				536CB5AB2BEDB01DDEB0AC87 /* InterstitialAdCoordinator.swift in Sources */,
+				AA11BB22CC33DD44EE55FF66 /* MonetizationConfig.swift in Sources */,
 				AFC7F383CCBDDF4C23A68535 /* PaywallView.swift in Sources */,
 				5E3F02D29DB4E4791A0357DE /* PersistenceService.swift in Sources */,
 				1AB89D37D3F206DCE5393BF6 /* PrimaryButton.swift in Sources */,

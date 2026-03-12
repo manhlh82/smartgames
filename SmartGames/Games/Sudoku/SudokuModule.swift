@@ -9,6 +9,20 @@ final class SudokuGameModule: GameModule {
     let iconName = "icon-sudoku"
     let isAvailable = true
 
+    var monetizationConfig: MonetizationConfig {
+        MonetizationConfig(
+            bannerEnabled: true,
+            interstitialEnabled: true,
+            interstitialFrequency: 1,
+            rewardedHintsEnabled: true,
+            rewardedHintAmount: 3,
+            levelCompleteHintReward: 1,
+            maxHintCap: 3,
+            mistakeResetEnabled: true,
+            mistakeResetUsesPerLevel: 1
+        )
+    }
+
     let themeService: ThemeService
     let statisticsService: StatisticsService
 
