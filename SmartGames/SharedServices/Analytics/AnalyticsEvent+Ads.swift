@@ -34,4 +34,24 @@ extension AnalyticsEvent {
     static func adInterstitialDismissed(watchedSeconds: Int) -> AnalyticsEvent {
         AnalyticsEvent("ad_interstitial_dismissed", ["watched_seconds": watchedSeconds])
     }
+
+    // MARK: - Mistake Reset Events
+
+    static func mistakeResetPromptShown(difficulty: String, mistakeCount: Int) -> AnalyticsEvent {
+        AnalyticsEvent("mistake_reset_prompt_shown", [
+            "difficulty": difficulty,
+            "mistake_count": mistakeCount
+        ])
+    }
+
+    static func mistakeResetUsed(difficulty: String, usesThisLevel: Int) -> AnalyticsEvent {
+        AnalyticsEvent("mistake_reset_used", [
+            "difficulty": difficulty,
+            "uses_this_level": usesThisLevel
+        ])
+    }
+
+    static func mistakeResetDeclined(difficulty: String) -> AnalyticsEvent {
+        AnalyticsEvent("mistake_reset_declined", ["difficulty": difficulty])
+    }
 }

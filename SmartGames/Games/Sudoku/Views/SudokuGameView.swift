@@ -90,6 +90,17 @@ struct SudokuGameView: View {
             }
             Button("Cancel", role: .cancel) { viewModel.cancelHintAd() }
         }
+        .alert("Reset Mistakes?", isPresented: mistakeResetAdBinding) {
+            Button("Watch Ad") {
+                viewModel.ads.showRewardedAd { granted in
+                    if granted { viewModel.grantMistakeResetAfterAd() }
+                    else { viewModel.cancelMistakeResetAd() }
+                }
+            }
+            Button("Cancel", role: .cancel) { viewModel.cancelMistakeResetAd() }
+        } message: {
+            Text("Watch a short video to reset your mistakes to zero.")
+        }
         .confirmationDialog("Restart this puzzle?", isPresented: $showRestartConfirm) {
             Button("Restart", role: .destructive) { viewModel.restart() }
             Button("Cancel", role: .cancel) {}
@@ -101,10 +112,25 @@ struct SudokuGameView: View {
 
     private var statsBar: some View {
         HStack {
-            Text("Mistakes: \(viewModel.mistakeCount)/\(viewModel.mistakeLimit)")
-                .font(.appCaption)
-                .foregroundColor(.appTextSecondary)
-                .accessibilityLabel("Mistakes: \(viewModel.mistakeCount) of \(viewModel.mistakeLimit)")
+            // Mistakes counter + optional reset button
+            HStack(spacing: 6) {
+                Text("Mistakes: \(viewModel.mistakeCount)/\(viewModel.mistakeLimit)")
+                    .font(.appCaption)
+                    .foregroundColor(.appTextSecondary)
+                    .accessibilityLabel("Mistakes: \(viewModel.mistakeCount) of \(viewModel.mistakeLimit)")
+
+                if viewModel.canResetMistakes {
+                    Button(action: { viewModel.requestMistakeReset() }) {
+                        Label("Reset", systemImage: "arrow.counterclockwise")
+                            .font(.system(size: 10, weight: .medium))
+                            .labelStyle(.titleAndIcon)
+                    }
+                    .buttonStyle(.bordered)
+                    .tint(.orange)
+                    .controlSize(.mini)
+                    .accessibilityLabel("Watch ad to reset mistakes")
+                }
+            }
 
             Spacer()
 
@@ -225,6 +251,13 @@ struct SudokuGameView: View {
         Binding(
             get: { viewModel.gamePhase == .needsHintAd },
             set: { if !$0 { viewModel.cancelHintAd() } }
+        )
+    }
+
+    private var mistakeResetAdBinding: Binding<Bool> {
+        Binding(
+            get: { viewModel.gamePhase == .needsMistakeResetAd },
+            set: { if !$0 { viewModel.cancelMistakeResetAd() } }
         )
     }
 

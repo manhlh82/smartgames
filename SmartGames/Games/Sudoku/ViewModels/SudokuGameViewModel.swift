@@ -8,6 +8,7 @@ enum GamePhase: Equatable {
     case won
     case lost
     case needsHintAd
+    case needsMistakeResetAd
 }
 
 /// Visual highlight state for a Sudoku cell.
@@ -34,6 +35,7 @@ final class SudokuGameViewModel: ObservableObject {
     @Published var hintsUsedTotal: Int = 0
     @Published private(set) var undoStack: [BoardSnapshot] = []
     @Published var lastCompletedNumber: Int?
+    @Published var mistakeResetUsesThisLevel: Int = 0
 
     // MARK: - Services
     let persistence: PersistenceService
@@ -254,6 +256,44 @@ final class SudokuGameViewModel: ObservableObject {
         gamePhase = .playing
     }
 
+    // MARK: - Mistake Reset
+
+    /// True when the mistake reset feature is available for use.
+    var canResetMistakes: Bool {
+        mistakeCount > 0
+        && gamePhase == .playing
+        && monetizationConfig.mistakeResetEnabled
+        && mistakeResetUsesThisLevel < monetizationConfig.mistakeResetUsesPerLevel
+    }
+
+    /// Request a mistake reset — transitions to .needsMistakeResetAd to trigger ad prompt.
+    func requestMistakeReset() {
+        guard canResetMistakes else { return }
+        gamePhase = .needsMistakeResetAd
+        analytics.log(.mistakeResetPromptShown(
+            difficulty: puzzle.difficulty.rawValue,
+            mistakeCount: mistakeCount
+        ))
+    }
+
+    /// Called after ad successfully completes — resets mistakes to 0.
+    func grantMistakeResetAfterAd() {
+        mistakeCount = 0
+        mistakeResetUsesThisLevel += 1
+        gamePhase = .playing
+        scheduleAutoSave()
+        analytics.log(.mistakeResetUsed(
+            difficulty: puzzle.difficulty.rawValue,
+            usesThisLevel: mistakeResetUsesThisLevel
+        ))
+    }
+
+    /// Called when user cancels the mistake reset ad prompt.
+    func cancelMistakeResetAd() {
+        gamePhase = .playing
+        analytics.log(.mistakeResetDeclined(difficulty: puzzle.difficulty.rawValue))
+    }
+
     /// Grants hints up to the configured cap. IAP grants bypass the cap (user paid real money).
     /// Returns the actual number of hints granted.
     @discardableResult
@@ -356,6 +396,7 @@ final class SudokuGameViewModel: ObservableObject {
         elapsedSeconds = 0
         mistakeCount = 0
         hintsUsedTotal = 0
+        mistakeResetUsesThisLevel = 0
         undoStack = []
         selectedCell = nil
         gamePhase = .playing
@@ -433,9 +474,10 @@ final class SudokuGameViewModel: ObservableObject {
 
     // MARK: - Auto Save
     func autoSave() {
-        let state = SudokuGameState(puzzle: puzzle, elapsedSeconds: elapsedSeconds,
+        var state = SudokuGameState(puzzle: puzzle, elapsedSeconds: elapsedSeconds,
                                    mistakeCount: mistakeCount, hintsRemaining: hintsRemaining,
                                    hintsUsedTotal: hintsUsedTotal, undoStack: undoStack)
+        state.mistakeResetUsesThisLevel = mistakeResetUsesThisLevel
         persistence.save(state, key: PersistenceService.Keys.sudokuActiveGame)
     }
 

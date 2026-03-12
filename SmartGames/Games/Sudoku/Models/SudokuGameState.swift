@@ -8,6 +8,8 @@ struct SudokuGameState: Codable {
     let hintsRemaining: Int
     let hintsUsedTotal: Int
     let undoStack: [BoardSnapshot]
+    // Added for mistake reset feature — defaults to 0 for backward-compatible decoding
+    var mistakeResetUsesThisLevel: Int = 0
 }
 
 /// A snapshot of the board at a point in time — used for undo.
