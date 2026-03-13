@@ -4,13 +4,18 @@ import SwiftUI
 struct SettingsView: View {
     @EnvironmentObject var settings: SettingsService
     @EnvironmentObject var store: StoreService
+    @EnvironmentObject var localization: LocalizationService
+    @EnvironmentObject var gold: GoldService
+    @EnvironmentObject var themeService: ThemeService
 
     @State private var showPaywall = false
+    @State private var showThemePicker = false
 
     var body: some View {
         NavigationStack {
             Form {
-                Section("Gameplay") {
+                Section("Audio") {
+                    Toggle("Music", isOn: $settings.isMusicEnabled)
                     Toggle("Sound Effects", isOn: $settings.isSoundEnabled)
                     Toggle("Haptics", isOn: $settings.isHapticsEnabled)
                 }
@@ -19,6 +24,44 @@ struct SettingsView: View {
                     Toggle("Highlight Related Cells", isOn: $settings.highlightRelatedCells)
                     Toggle("Highlight Same Numbers", isOn: $settings.highlightSameNumbers)
                     Toggle("Show Timer", isOn: $settings.showTimer)
+                }
+
+                Section {
+                    NavigationLink {
+                        ThemePickerView()
+                            .environmentObject(themeService)
+                            .environmentObject(gold)
+                            .navigationTitle("Themes")
+                            .navigationBarTitleDisplayMode(.inline)
+                    } label: {
+                        HStack {
+                            Text("Theme")
+                            Spacer()
+                            Text(themeService.themeName.displayName)
+                                .foregroundColor(.appTextSecondary)
+                        }
+                    }
+                    HStack {
+                        Text("Gold")
+                        Spacer()
+                        GoldBalanceView()
+                    }
+                } header: {
+                    Text("Appearance")
+                }
+
+                Section("Language") {
+                    NavigationLink {
+                        LanguagePickerView()
+                            .environmentObject(localization)
+                    } label: {
+                        HStack {
+                            Text("App Language")
+                            Spacer()
+                            Text(localization.currentDisplayName)
+                                .foregroundColor(.appTextSecondary)
+                        }
+                    }
                 }
 
                 Section("Premium") {

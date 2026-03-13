@@ -10,6 +10,11 @@ final class GameCenterService: ObservableObject {
 
     // MARK: - Leaderboard IDs
 
+    /// Drop Rush cumulative leaderboard IDs.
+    enum DropRushLeaderboardID {
+        static let cumulative = "com.smartgames.dropRush.leaderboard.cumulative"
+    }
+
     /// Leaderboard IDs configured in App Store Connect.
     /// Sort order: ascending (lower time = better).
     enum LeaderboardID {
@@ -74,6 +79,24 @@ final class GameCenterService: ObservableObject {
         }
     }
 
+    /// Submits a score to any leaderboard by ID. Fire-and-forget.
+    func submitScore(_ score: Int, leaderboardID: String) {
+        guard isAuthenticated, score > 0 else { return }
+        Task {
+            do {
+                try await GKLeaderboard.submitScore(
+                    score, context: 0,
+                    player: GKLocalPlayer.local,
+                    leaderboardIDs: [leaderboardID]
+                )
+            } catch {
+                #if DEBUG
+                print("[GameCenter] Score submission failed for \(leaderboardID): \(error.localizedDescription)")
+                #endif
+            }
+        }
+    }
+
     // MARK: - Leaderboard Display
 
     /// Presents the native Game Center leaderboard UI.
@@ -84,6 +107,15 @@ final class GameCenterService: ObservableObject {
         if let difficulty {
             gcVC.leaderboardIdentifier = LeaderboardID.id(for: difficulty)
         }
+        gcVC.gameCenterDelegate = GameCenterDismissDelegate.shared
+        presentViewController(gcVC)
+    }
+
+    /// Presents the Drop Rush cumulative score leaderboard.
+    func showDropRushLeaderboard() {
+        guard isAuthenticated else { return }
+        let gcVC = GKGameCenterViewController(state: .leaderboards)
+        gcVC.leaderboardIdentifier = DropRushLeaderboardID.cumulative
         gcVC.gameCenterDelegate = GameCenterDismissDelegate.shared
         presentViewController(gcVC)
     }

@@ -19,6 +19,11 @@ struct SudokuBoardView: View {
                     thickColor: themeService.current.thickGridLine
                 )
                 .allowsHitTesting(false)
+                // Subgrid celebration overlay — rendered above grid lines, non-blocking
+                if let idx = viewModel.celebratingSubgrid {
+                    SubgridCelebrationOverlay(subgridIndex: idx, cellSize: cellSize)
+                        .allowsHitTesting(false)
+                }
             }
             .frame(width: size, height: size)
         }
@@ -41,6 +46,42 @@ struct SudokuBoardView: View {
                 }
             }
         }
+    }
+}
+
+/// Short celebration animation overlay for a single 3×3 subgrid.
+/// Renders a soft gold tint with a spring scale pulse over the target box.
+private struct SubgridCelebrationOverlay: View {
+    let subgridIndex: Int
+    let cellSize: CGFloat
+
+    @State private var scale: CGFloat = 1.0
+    @State private var opacity: Double = 0.0
+
+    private var boxRow: Int { subgridIndex / 3 }
+    private var boxCol: Int { subgridIndex % 3 }
+
+    var body: some View {
+        let boxSize = cellSize * 3
+        let xOffset = CGFloat(boxCol) * boxSize + boxSize / 2
+        let yOffset = CGFloat(boxRow) * boxSize + boxSize / 2
+
+        RoundedRectangle(cornerRadius: 4)
+            .fill(Color.yellow.opacity(0.28))
+            .frame(width: boxSize - 2, height: boxSize - 2)
+            .scaleEffect(scale)
+            .opacity(opacity)
+            .position(x: xOffset, y: yOffset)
+            .onAppear {
+                withAnimation(.spring(response: 0.3, dampingFraction: 0.6)) {
+                    scale = 1.04
+                    opacity = 1.0
+                }
+                withAnimation(.easeOut(duration: 0.4).delay(0.4)) {
+                    scale = 1.0
+                    opacity = 0.0
+                }
+            }
     }
 }
 

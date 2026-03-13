@@ -14,6 +14,9 @@ final class AppEnvironment: ObservableObject {
     let dailyChallenge: DailyChallengeService
     let store: StoreService
     let gameRegistry: GameRegistry
+    let localization: LocalizationService
+    let gold: GoldService
+    let themeService: ThemeService
 
     init() {
         let persistence = PersistenceService()
@@ -38,10 +41,19 @@ final class AppEnvironment: ObservableObject {
         // Wire store into ads so ads are skipped when Remove Ads is purchased
         adsService.storeService = self.store
 
+        self.localization = LocalizationService(persistence: persistence)
+
+        // Shared Gold and theme services (cross-game)
+        let gold = GoldService(persistence: persistence)
+        self.gold = gold
+        self.themeService = ThemeService(persistence: persistence, goldService: gold)
+
         // Register game modules
         let registry = GameRegistry()
         let sudoku = SudokuGameModule(persistence: persistence)
         registry.register(sudoku)
+        let dropRush = DropRushModule(persistence: persistence)
+        registry.register(dropRush)
         self.gameRegistry = registry
     }
 }

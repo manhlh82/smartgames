@@ -21,8 +21,9 @@ struct SmartGamesApp: App {
                 .environmentObject(environment.dailyChallenge)
                 .environmentObject(environment.store)
                 .environmentObject(environment.gameRegistry)
-                // Note: themeService and statisticsService are now injected
-                // by SudokuGameModule per-view, not globally
+                .environmentObject(environment.localization)
+                .environmentObject(environment.gold)
+                .environmentObject(environment.themeService)
                 .task {
                     // Authenticate Game Center silently on launch
                     environment.gameCenter.authenticate()
@@ -37,8 +38,15 @@ struct SmartGamesApp: App {
                 }
         }
         .onChange(of: scenePhase) { phase in
-            if phase == .background {
-                // TODO: Trigger auto-save via notification center if needed
+            switch phase {
+            case .background, .inactive:
+                // Pause background music when app leaves foreground
+                environment.sound.pauseBackgroundMusic()
+            case .active:
+                // Resume background music when app returns to foreground
+                environment.sound.resumeBackgroundMusic()
+            default:
+                break
             }
         }
     }

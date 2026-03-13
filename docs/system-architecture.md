@@ -60,8 +60,10 @@ Central dependency injection container. Wired at app launch.
 | `SettingsService` | App settings (sound, haptics toggle) | AppEnvironment |
 | `SoundService` | AVAudioPlayer (settings-gated) | AppEnvironment |
 | `HapticsService` | UIFeedbackGenerator (settings-gated) | AppEnvironment |
-| `AnalyticsService` | Event logging (os.log) | AppEnvironment |
-| `AdsService` | AdMob rewarded + interstitial | AppEnvironment |
+| `AnalyticsService` | Event logging (os.log); 14 ad/monetization events | AppEnvironment |
+| `AdsService` | AdMob rewarded + interstitial coordinators | AppEnvironment |
+| `BannerAdCoordinator` | Banner ad lifecycle (load, impression, failure) | AppEnvironment |
+| `InterstitialAdCoordinator` | Interstitial after N levels (no session cap) | AppEnvironment |
 | `DailyChallengeService` | Daily puzzle feature (cross-game) | AppEnvironment |
 | `GameCenterService` | GKLocalPlayer auth + leaderboards | AppEnvironment |
 | `StoreService` | StoreKit 2, IAP (Remove Ads, Hint Pack) | AppEnvironment |
@@ -78,12 +80,13 @@ protocol GameModule: AnyObject {
     var displayName: String { get }                                 // e.g., "Sudoku"
     var iconName: String { get }                                    // SF Symbol or asset
     var isAvailable: Bool { get }                                   // false = "Coming Soon"
+    var monetizationConfig: MonetizationConfig { get }              // Per-game ad settings
     func makeLobbyView(environment: AppEnvironment) -> AnyView      // Lobby/menu view
     func navigationDestination(for route: AppRoute, environment: AppEnvironment) -> AnyView?  // Game play view
 }
 ```
 
-**Purpose:** Decouples app shell from game implementations. New games require only a new `GameModule` conformance.
+**Purpose:** Decouples app shell from game implementations. New games require only a new `GameModule` conformance. `monetizationConfig` allows per-game customization of ad frequency, hint rewards, and mistake reset features.
 
 ## GameRegistry
 
@@ -130,11 +133,11 @@ ContentView
    └─ SettingsView
 ```
 
-## Sudoku Game Module (Example Implementation)
+## Game Module Implementations
 
-Demonstrates how a game conforms to `GameModule`.
+### Sudoku (Example 1)
 
-### Structure
+Demonstrates basic game conformance to `GameModule`.
 
 ```
 Games/Sudoku/
@@ -147,7 +150,7 @@ Games/Sudoku/
 │   └── SeededRandomNumberGenerator.swift
 ├── Models/
 ├── ViewModels/
-│   └── SudokuGameViewModel.swift   (5-phase state machine)
+│   └── SudokuGameViewModel.swift   (7-phase state machine)
 └── Views/
     ├── SudokuGameView.swift        (main play screen)
     ├── SudokuBoardView.swift
@@ -158,40 +161,84 @@ Games/Sudoku/
     └── ThemePickerView.swift
 ```
 
-### Game-Specific Services (Owned by SudokuGameModule)
-
+**Game-Specific Services:**
 | Service | Responsibility |
 |---------|-----------------|
 | `ThemeService` | Board themes (Classic, Dark, Sepia); persisted preference |
 | `StatisticsService` | Per-difficulty stats (wins, streaks, best times) |
 
-These are **not** in AppEnvironment. They're initialized by SudokuGameModule and injected into views as needed.
-
-### Game State Machine
-
+**Game State Machine:**
 ```
 playing ↔ paused
-playing → won | lost | needsHintAd
+playing → won | lost | needsHintAd | needsMistakeResetAd
 ```
 
-Managed by `SudokuGameViewModel`.
+### Drop Rush (Example 2)
+
+Extends pattern with real-time engine, haptics/SFX, and ad-prompted continue flow.
+
+```
+Games/DropRush/
+├── DropRushModule.swift            (GameModule conformance)
+├── Engine/                         (pure logic, no UIKit/SwiftUI)
+│   ├── DropRushEngine.swift        (tick-based game loop)
+│   ├── SpawnScheduler.swift        (wave-based spawning)
+│   └── LevelDefinitions.swift      (30 level configs)
+├── Models/
+│   ├── DropRushGameState.swift
+│   ├── LevelConfig.swift
+│   ├── DropRushStats.swift
+│   └── FallingObject.swift
+├── Services/
+│   └── DropRushAudioConfig.swift
+├── ViewModels/
+│   ├── DropRushGameViewModel.swift (6-phase state machine)
+│   └── DropRushGameViewModel+Actions.swift
+└── Views/
+    ├── DropRushGameView.swift      (main play screen + watchingAd overlay)
+    ├── DropRushLobbyView.swift
+    ├── DropRushResultOverlay.swift
+    ├── DropRushHUDView.swift
+    ├── DropRushInputBarView.swift
+    └── DropRushPauseOverlay.swift
+```
+
+**Game State Machine:**
+```
+countdown → playing ↔ paused
+playing → watchingAd → (continue) → playing | gameOver
+playing → levelComplete | gameOver
+```
+
+**New Pattern: ViewModel+Actions Extension**
+- Separates state transitions from UI rendering
+- `DropRushGameViewModel+Actions.swift` handles `requestContinue()` with rewarded ad flow
+- Enables 1 continue per attempt (tracked in `continueUsedThisAttempt`)
 
 ## Persistence Strategy
 
 ### Shared Keys (PersistenceService)
 
 ```
-app.settings              → SettingsData
-store.adsRemoved         → Bool
-store.hintPackCount      → Int
-sudoku.activeGame        → SudokuGameState
-sudoku.hints.remaining   → Int
-sudoku.playedPuzzleIDs   → Set<String>
-sudoku.stats.{difficulty}  → SudokuStats
-sudoku.daily.state       → DailyChallengeState
+app.settings                    → SettingsData
+store.adsRemoved               → Bool
+store.hintPackCount            → Int
+sudoku.activeGame              → SudokuGameState
+sudoku.hints.remaining         → Int
+sudoku.playedPuzzleIDs         → Set<String>
+sudoku.stats.{difficulty}      → SudokuStats
+sudoku.daily.state             → DailyChallengeState
 ```
 
 Game-specific stats are persisted as `sudoku.stats.*`. Future games use their own namespace (e.g., `chess.stats.*`).
+
+### Monetization Persistence
+
+Hint balance tracked per-game:
+- `sudoku.hints.remaining` — Int, capped at `monetizationConfig.maxHintCap` (default 3)
+- Rewarded ad grants +3 hints; level completion grants +1 (both capped)
+- IAP hint pack (+12 hints) bypasses cap, stored in `store.hintPackCount`
+- Mistake reset uses tracked per-level in `SudokuGameState.mistakeResetUsesThisLevel` (max 1 per level)
 
 ## Analytics Events
 
@@ -201,14 +248,24 @@ All events logged via `AnalyticsService` (os.log currently; Firebase integration
 
 **Event Factories:**
 - `AnalyticsEvent+Sudoku.swift` — Sudoku gameplay events
+- `AnalyticsEvent+Ads.swift` — 14 monetization events (new in Phase 2.5)
 - `AnalyticsEvent+App.swift` — App-level events (app_launch, settings_changed)
+
+**Monetization Events (14 new):**
+- Banner: `ad_banner_loaded`, `ad_banner_load_failed`, `ad_banner_clicked`, `ad_banner_impression`
+- Interstitial: `ad_interstitial_shown`, `ad_interstitial_dismissed`, `ad_interstitial_skipped`
+- Hints: `hint_requested`, `hint_granted_from_ad`, `hint_granted_from_level_complete`
+- Mistake Reset: `mistake_reset_prompt_shown`, `mistake_reset_used`, `mistake_reset_declined`
+- Unavailable: `ad_unavailable` (load failures, no fill)
 
 Example:
 ```
 sudoku_game_started(difficulty: "easy", mode: "classic")
 sudoku_move_made(cell: "A1", candidate_mode: false)
-sudoku_hint_requested(remaining_hints: 2)
+hint_requested(remaining_hints: 2)
 sudoku_game_won(duration_seconds: 300, difficulty: "medium")
+ad_banner_loaded(gameId: "sudoku")
+mistake_reset_used(difficulty: "hard", uses_this_level: 1)
 ```
 
 ## Dependency Injection Flow
@@ -286,9 +343,50 @@ Views receive game-specific services via `@EnvironmentObject`.
 - **Analytics**: No PII logged (only gameplay metrics)
 - **ATT**: Requested on app launch (if needed for IDFA)
 
+## Shared Audio & Localization
+
+### SoundService
+
+Settings-gated AVAudioPlayer. Games define `AudioConfig` with SFX mappings:
+
+```swift
+struct AudioConfig {
+    let cellTapSFX: String       // e.g., "sudoku-pencil"
+    let correctMoveSFX: String   // e.g., "sudoku-correct"
+    let wrongMoveSFX: String     // e.g., "dropRush-wrong"
+    let levelCompleteSFX: String // e.g., "dropRush-level-complete"
+    let gameOverSFX: String      // e.g., "dropRush-gameover"
+}
+```
+
+SoundService plays audio when triggered by game events (validated move, level complete, etc.). Users can mute via SettingsView toggle.
+
+### LocalizationService
+
+Manages multi-language strings. Supports English, Spanish, Vietnamese, Portuguese (Brazil), Japanese, Chinese (Simplified).
+
+```swift
+enum AppLanguage: String, CaseIterable {
+    case en = "English"
+    case es = "Español"
+    case vi = "Tiếng Việt"
+    case ptBR = "Português (Brasil)"
+    case ja = "日本語"
+    case zhHans = "简体中文"
+}
+```
+
+Resources stored in `SmartGames/Resources/Localizations/{lang}.lproj/`. String keys follow convention: `game.feature.action` (e.g., `sudoku.pause.resume`, `drop_rush.continue.prompt`).
+
 ## Version History
 
 - **Phase 1:** Single-game (Sudoku) scaffold, services, hub, gameplay
 - **Phase 2:** Analytics, ads, retention features (daily challenges, statistics)
 - **Phase 2.5:** Modular architecture refactor — GameModule protocol, GameRegistry, service decoupling
-- **Phase 3+:** New games, monetization improvements, content expansion
+- **Phase 2.6:** Monetization features — per-game MonetizationConfig, banner ads, rewarded hints, mistake reset ads, 14 monetization events, IAP hint pack UI
+- **Phase 3:** Drop Rush game module (30 levels, real-time engine, spawn scheduler, haptics, SFX)
+- **Phase 3.1-3.3:** Drop Rush gameplay UI (countdown, HUD, input, pause/result overlays, phase state machine)
+- **Phase 3.4-3.6:** Drop Rush monetization (banner ads, interstitials every 2 levels, rewarded continue, 7 new analytics events)
+- **Phase 3.7-3.9:** Drop Rush testing (engine tests, progress tests, level definitions validation)
+- **Phase 4-4.2:** Sudoku audio & localization (SoundService integration, 6 language support, DropRush+Sudoku SFX configs)
+- **Phase 5+:** Advanced monetization (A/B testing), new games, social features

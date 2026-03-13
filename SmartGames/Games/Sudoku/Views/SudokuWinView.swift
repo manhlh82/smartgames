@@ -6,14 +6,20 @@ struct SudokuWinView: View {
     let mistakes: Int
     let stars: Int
     let difficulty: SudokuDifficulty
+    /// Hints granted on completion (0 = cap reached, 1 = rewarded).
+    let hintsGranted: Int
+    /// Gold earned this completion — shown as animated toast.
+    let goldEarned: Int
     let onNextPuzzle: () -> Void
     let onBackToMenu: () -> Void
 
     @EnvironmentObject private var gameCenterService: GameCenterService
     @State private var showStars: Bool = false
+    @State private var showGoldToast: Bool = false
 
     var body: some View {
-        VStack(spacing: 24) {
+        ZStack(alignment: .top) {
+            VStack(spacing: 24) {
             Text("Puzzle Solved!")
                 .font(.appTitle)
                 .foregroundColor(.appTextPrimary)
@@ -33,13 +39,29 @@ struct SudokuWinView: View {
                         )
                 }
             }
-            .onAppear { showStars = true }
+            .onAppear {
+                showStars = true
+                if goldEarned > 0 {
+                    Task { @MainActor in
+                        try? await Task.sleep(nanoseconds: 600_000_000)
+                        showGoldToast = true
+                    }
+                }
+            }
 
             // Stats card
             VStack(spacing: 8) {
                 statRow(icon: "clock", label: "Time", value: formatTime(elapsedSeconds))
                 statRow(icon: "xmark.circle", label: "Mistakes",
                         value: "\(mistakes)/\(difficulty.mistakeLimit)")
+                Divider()
+                if hintsGranted > 0 {
+                    statRow(icon: "lightbulb.fill", label: "Hint Earned", value: "+\(hintsGranted)")
+                        .foregroundColor(.yellow)
+                } else {
+                    statRow(icon: "lightbulb", label: "Hint Reward", value: "Inventory Full")
+                        .foregroundColor(.appTextSecondary)
+                }
             }
             .padding()
             .background(Color.appBackground)
@@ -66,12 +88,20 @@ struct SudokuWinView: View {
                     .accessibilityLabel("View \(difficulty.displayName) leaderboard")
                 }
             }
+            }
+            .padding(AppTheme.standardPadding * 1.5)
+            .background(Color.appCard)
+            .cornerRadius(24)
+            .shadow(color: .black.opacity(0.15), radius: 20, x: 0, y: 8)
+            .padding(AppTheme.standardPadding)
+
+            // Coin reward toast — floats above the card
+            if showGoldToast && goldEarned > 0 {
+                GoldRewardToast(amount: goldEarned)
+                    .padding(.top, 12)
+                    .transition(.scale.combined(with: .opacity))
+            }
         }
-        .padding(AppTheme.standardPadding * 1.5)
-        .background(Color.appCard)
-        .cornerRadius(24)
-        .shadow(color: .black.opacity(0.15), radius: 20, x: 0, y: 8)
-        .padding(AppTheme.standardPadding)
     }
 
     private func statRow(icon: String, label: String, value: String) -> some View {

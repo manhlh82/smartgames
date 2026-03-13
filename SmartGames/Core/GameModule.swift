@@ -12,6 +12,8 @@ protocol GameModule: AnyObject {
     var isAvailable: Bool { get }
     /// Per-game monetization settings — override to customize ad behavior per game.
     var monetizationConfig: MonetizationConfig { get }
+    /// Per-game audio configuration — nil means no background music for this game.
+    var audioConfig: (any AudioConfig)? { get }
     /// Returns the lobby/entry view, injecting game-specific services as needed
     func makeLobbyView(environment: AppEnvironment) -> AnyView
     /// Returns nil if this module doesn't handle the given route
@@ -21,4 +23,6 @@ protocol GameModule: AnyObject {
 extension GameModule {
     /// Default monetization config — games override this to provide custom values.
     var monetizationConfig: MonetizationConfig { MonetizationConfig() }
+    /// Default: no audio config (future games opt in by overriding).
+    var audioConfig: (any AudioConfig)? { nil }
 }

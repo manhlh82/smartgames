@@ -20,7 +20,9 @@ struct SudokuGameView: View {
          statisticsService: StatisticsService, gameCenterService: GameCenterService,
          dailyChallengeService: DailyChallengeService? = nil,
          storeService: StoreService? = nil,
-         monetizationConfig: MonetizationConfig = MonetizationConfig()) {
+         monetizationConfig: MonetizationConfig = MonetizationConfig(),
+         audioConfig: (any AudioConfig)? = nil,
+         goldService: GoldService) {
         self.difficulty = difficulty
         self.storeService = storeService
         self.monetizationConfig = monetizationConfig
@@ -34,7 +36,9 @@ struct SudokuGameView: View {
             statisticsService: statisticsService,
             gameCenterService: gameCenterService,
             dailyChallengeService: dailyChallengeService,
-            monetizationConfig: monetizationConfig
+            monetizationConfig: monetizationConfig,
+            audioConfig: audioConfig,
+            goldService: goldService
         )
         vm.storeService = storeService
         _viewModel = StateObject(wrappedValue: vm)
@@ -124,6 +128,8 @@ struct SudokuGameView: View {
             Button("Cancel", role: .cancel) {}
         }
         .animation(.easeInOut(duration: 0.25), value: viewModel.gamePhase)
+        .onAppear { viewModel.startGameAudio() }
+        .onDisappear { viewModel.stopGameAudio() }
     }
 
     // MARK: - Stats Bar
@@ -215,6 +221,8 @@ struct SudokuGameView: View {
                 mistakes: viewModel.mistakeCount,
                 stars: viewModel.starRating,
                 difficulty: difficulty,
+                hintsGranted: viewModel.hintsGrantedOnWin,
+                goldEarned: viewModel.goldEarnedOnWin,
                 onNextPuzzle: { router.pop() },
                 onBackToMenu: { router.popToRoot() }
             )

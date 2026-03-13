@@ -46,5 +46,14 @@ extension PersistenceService {
         /// Set to true when the pending puzzle is the daily challenge.
         /// Cleared after the game view consumes it.
         static let sudokuPendingIsDailyChallenge = "sudoku.pending.isDailyChallenge"
+        /// BCP-47 language code override, e.g. "vi", "ja". nil = follow system locale.
+        static let appLanguageCode = "app.languageCode"
+        // MARK: - Drop Rush
+        static let dropRushProgress = "dropRush.progress"
+        static let dropRushActiveGame = "dropRush.activeGame"
+        // MARK: - Gold
+        static let goldBalance = "app.gold.balance"
+        // MARK: - Themes
+        static let unlockedThemes = "app.themes.unlocked"
     }
 }

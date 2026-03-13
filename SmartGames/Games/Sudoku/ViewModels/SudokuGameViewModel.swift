@@ -36,6 +36,10 @@ final class SudokuGameViewModel: ObservableObject {
     @Published private(set) var undoStack: [BoardSnapshot] = []
     @Published var lastCompletedNumber: Int?
     @Published var mistakeResetUsesThisLevel: Int = 0
+    /// Index (0–8) of the subgrid currently celebrating; nil = no active celebration.
+    @Published var celebratingSubgrid: Int? = nil
+    /// Hints granted on puzzle completion — used by win overlay to show reward message.
+    @Published private(set) var hintsGrantedOnWin: Int = 0
 
     // MARK: - Services
     let persistence: PersistenceService
@@ -53,8 +57,16 @@ final class SudokuGameViewModel: ObservableObject {
     }
     /// Per-game monetization settings.
     let monetizationConfig: MonetizationConfig
+    /// Per-game audio configuration — drives background music and SFX names.
+    let audioConfig: (any AudioConfig)?
+    /// Shared Gold service — receives Gold rewards on puzzle completion.
+    let goldService: GoldService
+    /// Gold earned on the most recent win — 0 until puzzle is solved.
+    @Published private(set) var goldEarnedOnWin: Int = 0
 
     private var timerTask: Task<Void, Never>?
+    /// Tracks which subgrids (0–8) have already celebrated this session — prevents re-firing.
+    private var celebratedSubgrids: Set<Int> = []
     private var hintGrantTask: Task<Void, Never>?
     private let validator = SudokuValidator()
     private let maxUndoDepth = 50
@@ -86,7 +98,9 @@ final class SudokuGameViewModel: ObservableObject {
          sound: SoundService, haptics: HapticsService, ads: AdsService,
          statisticsService: StatisticsService, gameCenterService: GameCenterService,
          dailyChallengeService: DailyChallengeService? = nil,
-         monetizationConfig: MonetizationConfig = MonetizationConfig()) {
+         monetizationConfig: MonetizationConfig = MonetizationConfig(),
+         audioConfig: (any AudioConfig)? = nil,
+         goldService: GoldService) {
         self.persistence = persistence
         self.analytics = analytics
         self.sound = sound
@@ -96,6 +110,8 @@ final class SudokuGameViewModel: ObservableObject {
         self.gameCenterService = gameCenterService
         self.dailyChallengeService = dailyChallengeService
         self.monetizationConfig = monetizationConfig
+        self.audioConfig = audioConfig
+        self.goldService = goldService
 
         // Restore full saved state when resuming the same puzzle
         let isResume: Bool
@@ -124,6 +140,7 @@ final class SudokuGameViewModel: ObservableObject {
     func selectCell(row: Int, col: Int) {
         selectedCell = CellPosition(row: row, col: col)
         haptics.selection()
+        sound.playSFX(audioConfig?.cellTapSFX)
     }
 
     // MARK: - Highlight States
@@ -188,6 +205,7 @@ final class SudokuGameViewModel: ObservableObject {
                     self?.lastCompletedNumber = nil
                 }
             }
+            checkSubgridCompletion(at: pos)
             checkWin()
         } else {
             mistakeCount += 1
@@ -265,7 +283,6 @@ final class SudokuGameViewModel: ObservableObject {
                 difficulty: puzzle.difficulty.rawValue,
                 hintsAfter: hintsRemaining
             ))
-            applyHint()
         }
     }
 
@@ -416,6 +433,10 @@ final class SudokuGameViewModel: ObservableObject {
         mistakeResetUsesThisLevel = 0
         undoStack = []
         selectedCell = nil
+        celebratedSubgrids = []
+        celebratingSubgrid = nil
+        hintsGrantedOnWin = 0
+        goldEarnedOnWin = 0
         gamePhase = .playing
         startTimer()
         analytics.log(.sudokuGameRestarted(difficulty: puzzle.difficulty.rawValue))
@@ -426,7 +447,12 @@ final class SudokuGameViewModel: ObservableObject {
         guard validator.isSolved(puzzle.board, solution: puzzle.solution) else { return }
         gamePhase = .won
         stopTimer()
-        sound.playWin()
+        // Play puzzle-complete SFX via audioConfig if available, otherwise default win sound
+        if let sfx = audioConfig?.puzzleCompleteSFX {
+            sound.playSFX(sfx)
+        } else {
+            sound.playWin()
+        }
         haptics.notification(.success)
         statisticsService.recordWin(difficulty: puzzle.difficulty,
                                     elapsedSeconds: elapsedSeconds,
@@ -448,13 +474,27 @@ final class SudokuGameViewModel: ObservableObject {
             hintsUsed: hintsUsedTotal, stars: starRating))
 
         // Grant level-completion hint reward (capped at maxHintCap)
-        let levelHintGranted = grantHints(monetizationConfig.levelCompleteHintReward)
-        if levelHintGranted > 0 {
-            analytics.log(.hintEarnedFromLevel(
-                difficulty: puzzle.difficulty.rawValue,
-                hintsAfter: hintsRemaining
-            ))
+        if monetizationConfig.levelCompleteHintReward > 0 {
+            let levelHintGranted = grantHints(monetizationConfig.levelCompleteHintReward)
+            hintsGrantedOnWin = levelHintGranted
+            if levelHintGranted > 0 {
+                analytics.log(.hintEarnedFromLevel(
+                    difficulty: puzzle.difficulty.rawValue,
+                    hintsAfter: hintsRemaining
+                ))
+            } else {
+                analytics.log(.completionHintBlocked(reason: "cap_reached"))
+            }
         }
+
+        // Grant Gold reward for puzzle completion
+        let baseGold = GoldReward.sudokuComplete
+        let bonusGold = starRating >= 3 ? GoldReward.sudokuThreeStarBonus : 0
+        let totalGold = baseGold + bonusGold
+        goldEarnedOnWin = totalGold
+        goldService.earn(amount: totalGold)
+        analytics.log(.goldEarned(amount: totalGold, source: "sudoku",
+                                  balanceAfter: goldService.balance))
 
         // Configure interstitial frequency and show post-level ad if appropriate
         ads.interstitial.configure(frequency: monetizationConfig.interstitialFrequency)
@@ -504,6 +544,52 @@ final class SudokuGameViewModel: ObservableObject {
             try? await Task.sleep(nanoseconds: 500_000_000)
             guard !Task.isCancelled else { return }
             self?.autoSave()
+        }
+    }
+
+    // MARK: - Audio Lifecycle
+
+    /// Start background music. Called by the game view's onAppear.
+    func startGameAudio() {
+        guard let fileName = audioConfig?.backgroundMusicFileName else { return }
+        sound.startBackgroundMusic(fileName: fileName)
+    }
+
+    /// Stop background music. Called by the game view's onDisappear.
+    func stopGameAudio() {
+        sound.stopBackgroundMusic()
+    }
+
+    // MARK: - Subgrid Celebration
+
+    /// Checks if the subgrid containing `position` is fully and correctly filled.
+    /// Fires at most once per subgrid per game session.
+    private func checkSubgridCompletion(at position: CellPosition) {
+        let subgridIndex = (position.row / 3) * 3 + (position.col / 3)
+        guard !celebratedSubgrids.contains(subgridIndex) else { return }
+
+        let startRow = (subgridIndex / 3) * 3
+        let startCol = (subgridIndex % 3) * 3
+        for r in startRow..<startRow + 3 {
+            for c in startCol..<startCol + 3 {
+                guard let value = puzzle.board[r][c].value,
+                      value == puzzle.solution[r][c],
+                      !puzzle.board[r][c].hasError else { return }
+            }
+        }
+
+        celebratedSubgrids.insert(subgridIndex)
+        sound.playSFX(audioConfig?.subgridCompleteSFX)
+        analytics.log(.subgridCompleted(subgridIndex: subgridIndex,
+                                        difficulty: puzzle.difficulty.rawValue))
+
+        // Trigger visual celebration then auto-clear
+        Task { @MainActor [weak self] in
+            self?.celebratingSubgrid = subgridIndex
+            try? await Task.sleep(nanoseconds: 850_000_000)
+            if self?.celebratingSubgrid == subgridIndex {
+                self?.celebratingSubgrid = nil
+            }
         }
     }
 

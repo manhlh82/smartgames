@@ -20,7 +20,8 @@ final class SudokuGameViewModelTests: XCTestCase {
             haptics: HapticsService(),
             ads: AdsService(),
             statisticsService: StatisticsService(persistence: persistence),
-            gameCenterService: GameCenterService()
+            gameCenterService: GameCenterService(),
+            goldService: GoldService(persistence: persistence)
         )
     }
 

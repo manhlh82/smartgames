@@ -1,13 +1,15 @@
 import SwiftUI
 
 /// Sudoku game module — conforms to GameModule protocol.
-/// Owns Sudoku-specific services (ThemeService, StatisticsService).
+/// Owns Sudoku-specific services (StatisticsService). ThemeService now lives in AppEnvironment.
 @MainActor
 final class SudokuGameModule: GameModule {
     let id = "sudoku"
     let displayName = "Sudoku"
     let iconName = "icon-sudoku"
     let isAvailable = true
+
+    var audioConfig: (any AudioConfig)? { SudokuAudioConfig() }
 
     var monetizationConfig: MonetizationConfig {
         MonetizationConfig(
@@ -23,18 +25,16 @@ final class SudokuGameModule: GameModule {
         )
     }
 
-    let themeService: ThemeService
     let statisticsService: StatisticsService
 
     init(persistence: PersistenceService) {
-        self.themeService = ThemeService(persistence: persistence)
         self.statisticsService = StatisticsService(persistence: persistence)
     }
 
     func makeLobbyView(environment: AppEnvironment) -> AnyView {
         AnyView(
             SudokuLobbyView(persistence: environment.persistence)
-                .environmentObject(themeService)
+                .environmentObject(environment.themeService)
                 .environmentObject(statisticsService)
         )
     }
@@ -63,7 +63,7 @@ final class SudokuGameModule: GameModule {
                     statistics: statisticsService,
                     gameCenter: environment.gameCenter
                 )
-                .environmentObject(themeService)
+                .environmentObject(environment.themeService)
                 .environmentObject(statisticsService)
             )
         }
@@ -71,7 +71,7 @@ final class SudokuGameModule: GameModule {
         if context == "statistics" {
             return AnyView(
                 SudokuStatisticsView()
-                    .environmentObject(themeService)
+                    .environmentObject(environment.themeService)
                     .environmentObject(statisticsService)
             )
         }
@@ -99,9 +99,11 @@ final class SudokuGameModule: GameModule {
                 gameCenterService: environment.gameCenter,
                 dailyChallengeService: dcService,
                 storeService: environment.store,
-                monetizationConfig: monetizationConfig
+                monetizationConfig: monetizationConfig,
+                audioConfig: audioConfig,
+                goldService: environment.gold
             )
-            .environmentObject(themeService)
+            .environmentObject(environment.themeService)
             .onAppear {
                 if isDailyChallenge {
                     environment.persistence.delete(key: PersistenceService.Keys.sudokuPendingIsDailyChallenge)
