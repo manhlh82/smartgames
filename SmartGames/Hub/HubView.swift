@@ -29,6 +29,9 @@ struct HubView: View {
         .navigationTitle("SmartGames")
         .navigationBarTitleDisplayMode(.large)
         .toolbar {
+            ToolbarItem(placement: .navigationBarLeading) {
+                GoldBalanceView()
+            }
             ToolbarItem(placement: .navigationBarTrailing) {
                 Button {
                     analytics.log(.settingsOpened)
