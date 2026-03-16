@@ -1,7 +1,7 @@
 ---
 phase: 1
 title: "Button Audit & Fixes"
-status: pending
+status: completed
 effort: 3h
 ---
 
@@ -141,12 +141,12 @@ if mistakeCount <= 1 && elapsedSeconds < 600 { return 2 }
 ---
 
 ## Todo List
-- [ ] Fix back button to call `autoSave()` before `pop()`
-- [ ] Add `isEraseAvailable` computed property + disable erase button
-- [ ] Add `continueAfterAd()` method to ViewModel
-- [ ] Update lost overlay to use `continueAfterAd()`
-- [ ] Fix star rating `||` to `&&`
-- [ ] Verify all fixes compile
+- [x] Fix back button to call `autoSave()` before `pop()`
+- [x] Add `isEraseAvailable` computed property + disable erase button
+- [x] Add `continueAfterAd()` method to ViewModel
+- [x] Update lost overlay to use `continueAfterAd()`
+- [x] Fix star rating `||` to `&&`
+- [x] Verify all fixes compile
 
 ## Success Criteria
 - All 5 fixes implemented and compiling

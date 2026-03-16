@@ -1,7 +1,7 @@
 ---
 phase: 3
 title: "New Features"
-status: pending
+status: completed
 effort: 2h
 ---
 
@@ -111,10 +111,10 @@ func autoFillPencilMarks() {
 ---
 
 ## Todo List
-- [ ] Implement auto-remove error after delay
-- [ ] Implement smart pencil auto-fill (long-press)
-- [ ] Add remaining count badges to number pad
-- [ ] (Optional) Double-tap pencil shortcut
+- [x] Implement auto-remove error after delay
+- [x] Implement smart pencil auto-fill (long-press)
+- [x] Add remaining count badges to number pad
+- [x] (Optional) Double-tap pencil shortcut
 
 ## Priority Order
 1. Auto-remove error (biggest UX friction reduction)

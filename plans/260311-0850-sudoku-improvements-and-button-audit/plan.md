@@ -1,7 +1,7 @@
 ---
 title: "Sudoku Improvements & Button Audit"
 description: "Systematic audit of all interactive elements + UX polish + new features"
-status: pending
+status: completed
 priority: P2
 effort: 8h
 branch: main
@@ -18,9 +18,9 @@ Sudoku gameplay is functionally complete (10 PRs shipped). This plan audits ever
 
 | Phase | File | Status | Effort |
 |-------|------|--------|--------|
-| 1 - Button Audit & Fixes | `phase-01-button-audit-and-fixes.md` | pending | 3h |
-| 2 - UX Improvements | `phase-02-ux-improvements.md` | pending | 3h |
-| 3 - New Features | `phase-03-new-features.md` | pending | 2h |
+| 1 - Button Audit & Fixes | `phase-01-button-audit-and-fixes.md` | completed | 3h |
+| 2 - UX Improvements | `phase-02-ux-improvements.md` | completed | 3h |
+| 3 - New Features | `phase-03-new-features.md` | completed | 2h |
 
 ## Audit Summary (Key Findings)
 

@@ -111,4 +111,17 @@ extension AnalyticsEvent {
             "max_cap": maxCap
         ])
     }
+
+    // MARK: - Completion Feedback
+
+    static func subgridCompleted(subgridIndex: Int, difficulty: String) -> AnalyticsEvent {
+        AnalyticsEvent("sudoku_subgrid_completed", [
+            "subgrid_index": subgridIndex,
+            "difficulty": difficulty
+        ])
+    }
+
+    static func completionHintBlocked(reason: String) -> AnalyticsEvent {
+        AnalyticsEvent("sudoku_completion_hint_blocked", ["reason": reason])
+    }
 }

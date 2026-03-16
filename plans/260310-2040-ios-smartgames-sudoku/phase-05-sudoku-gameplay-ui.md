@@ -99,11 +99,25 @@ Visual priority order (highest wins when states overlap):
 | 1 | Error | `.error` | Light red `#FFEBEE` | Red | Wrong player placement |
 | 2 | Selected (filled) | `.selected` | Deep blue `#1565C0` | White | Pre-filled or player-filled cell tapped |
 | 3 | Selected (empty) | `.selectedEmpty` | Yellow `#FFF9C4` | Dark gray | Editable empty cell tapped — keypad active |
-| 4 | Same number | `.sameNumber` | Teal `#B2EBF2` | Dark gray | Same digit as selected cell's value |
+| 4 | Same number | `.sameNumber` | **Soft amber `#FFE0B2`** | Dark gray | Same digit as selected cell's value — **warm color, distinct from related blue** |
 | 5 | Related | `.related` | Light blue `#E3F2FD` | Dark gray | Same row / col / 3x3 box as selected |
 | 6 | Default | `.normal` | White / clear | Dark gray | No selection context |
 | — | Given text style | (modifier, not state) | — | Black, semibold | `isGiven == true` |
 | — | Pencil marks | (modifier, not state) | Clear | Blue, small | Candidate marks inside cell |
+
+**Visual hierarchy design principle:**
+- `.selected` uses a **cool, saturated** color (blue) → strongest signal, anchors the eye
+- `.sameNumber` uses a **warm** color (amber/orange) → clearly distinct from the cool context highlight
+- `.related` uses a **cool, desaturated** color (light blue) → subtle context, does not compete with sameNumber
+- The warm/cool contrast between `.sameNumber` and `.related` ensures they are never confused at a glance
+
+**Dark mode equivalents:**
+| State | Dark bg | Notes |
+|-------|---------|-------|
+| `.sameNumber` | `#5D4037` (dark amber-brown) | Warm, readable on dark surface |
+| `.related` | `#1E3A5F` (dark blue) | Stays cool, same palette shift |
+
+> ⚠️ **Implementation note (2026-03-11):** Current `BoardTheme.swift` uses teal (`#B2EBF2`) for `sameNumberCell`. This must be updated to amber (`#FFE0B2` light / `#5D4037` dark / `#D7C5B0` sepia). See PR in phase-06 (theme update).
 
 ---
 
@@ -117,7 +131,7 @@ Visual priority order (highest wins when states overlap):
 4. **Keypad is NOT activated** — `placeNumber` is a no-op for given cells (`guard !cell.isGiven else { return }`)
 5. Number pad button for the selected digit is visually highlighted (same as same-number highlight)
 
-> Visual hierarchy: selected cell (deep blue, strongest) > same-number cells (teal) > related cells (light blue)
+> Visual hierarchy: selected cell (deep blue, strongest) > same-number cells (**warm amber**, clearly distinct) > related cells (light blue, cool and subtle)
 
 #### Tapping an empty editable cell (`cell.isEmpty == true`)
 

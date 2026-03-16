@@ -45,6 +45,9 @@ struct SudokuLobbyView: View {
         }
         .navigationBarBackButtonHidden(false)
         .toolbar {
+            ToolbarItem(placement: .navigationBarLeading) {
+                GoldBalanceView()
+            }
             ToolbarItem(placement: .navigationBarTrailing) {
                 HStack(spacing: 4) {
                     if gameCenterService.isAuthenticated {

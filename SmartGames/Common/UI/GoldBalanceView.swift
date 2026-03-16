@@ -8,10 +8,13 @@ struct GoldBalanceView: View {
     var body: some View {
         HStack(spacing: 4) {
             Image(systemName: "dollarsign.circle.fill")
+                .font(.system(size: 15, weight: .semibold))
                 .foregroundColor(.yellow)
             Text("\(gold.balance)")
-                .font(.appHeadline)
+                .font(.system(size: 15, weight: .semibold))
                 .foregroundColor(.appTextPrimary)
+                .lineLimit(1)
+                .fixedSize(horizontal: true, vertical: false)
         }
         .accessibilityLabel("\(gold.balance) Gold")
     }

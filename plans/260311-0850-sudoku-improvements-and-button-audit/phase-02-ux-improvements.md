@@ -1,7 +1,7 @@
 ---
 phase: 2
 title: "UX Improvements"
-status: pending
+status: completed
 effort: 3h
 ---
 
@@ -114,13 +114,13 @@ if completedNumbers.contains(n) && !previousCompleted.contains(n) {
 ---
 
 ## Todo List
-- [ ] Add number completion celebration animation
-- [ ] Add number pad selection highlight
-- [ ] Disable toolbar during non-playing phases
-- [ ] Add restart confirmation dialog
-- [ ] Show paused timer (grayed out)
-- [ ] Add star entrance animation on win screen
-- [ ] Add hint count badge
+- [x] Add number completion celebration animation
+- [x] Add number pad selection highlight
+- [x] Disable toolbar during non-playing phases
+- [x] Add restart confirmation dialog
+- [x] Show paused timer (grayed out)
+- [x] Add star entrance animation on win screen
+- [x] Add hint count badge
 
 ## Priority Order
 1. Toolbar disable during non-playing (prevents edge-case bugs)
