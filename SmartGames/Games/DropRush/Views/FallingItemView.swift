@@ -36,16 +36,43 @@ struct FallingItemView: View {
     /// Ring is only shown while the armor shield is intact (not yet hit).
     private var showArmorRing: Bool { object.hitsRequired > 1 && object.hitsReceived == 0 }
 
+    /// Metallic gradient when fully armored; normal symbol color after first hit.
+    private var digitBackground: AnyShapeStyle {
+        if object.isArmored && object.hitsReceived == 0 {
+            return AnyShapeStyle(LinearGradient(
+                colors: [Color(white: 0.85), Color(white: 0.55)],
+                startPoint: .topLeading,
+                endPoint: .bottomTrailing
+            ))
+        }
+        return AnyShapeStyle(DropRushColors.color(for: object.symbol))
+    }
+
+    /// Dark text on metallic background; white on colored background.
+    private var digitForeground: Color {
+        object.isArmored && object.hitsReceived == 0 ? Color(white: 0.15) : .white
+    }
+
+    /// Shadow color: grey when armored, symbol color otherwise.
+    private var shadowColor: Color {
+        object.isArmored && object.hitsReceived == 0
+            ? Color.gray.opacity(0.5)
+            : DropRushColors.color(for: object.symbol).opacity(0.4)
+    }
+
     var body: some View {
         ZStack {
             // Digit circle
             Text(object.symbol)
                 .font(.system(size: 24, weight: .bold, design: .rounded))
                 .frame(width: 48, height: 48)
-                .foregroundStyle(.white)
-                .background(DropRushColors.color(for: object.symbol))
+                .foregroundStyle(digitForeground)
+                .animation(.easeOut(duration: 0.2), value: object.hitsReceived)
+                .background(digitBackground)
+                .animation(.easeOut(duration: 0.2), value: object.hitsReceived)
                 .clipShape(Circle())
-                .shadow(color: DropRushColors.color(for: object.symbol).opacity(0.4), radius: 6, y: 3)
+                .shadow(color: shadowColor, radius: 6, y: 3)
+                .animation(.easeOut(duration: 0.2), value: object.hitsReceived)
                 .overlay(
                     Circle()
                         .stroke(Color.red.opacity(isDanger ? 0.85 : 0), lineWidth: 3)

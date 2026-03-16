@@ -12,6 +12,8 @@ struct DropRushResultOverlay: View {
     let levelNumber: Int
     /// Gold earned on level complete (0 for game over).
     let goldEarned: Int
+    /// Current gold balance to display in result card.
+    let goldBalance: Int
     let onNextLevel: () -> Void
     let onRetry: () -> Void
     let onLobby: () -> Void
@@ -20,6 +22,7 @@ struct DropRushResultOverlay: View {
     @State private var revealedStars: Int = 0
     @State private var starAnimTask: Task<Void, Never>?
     @State private var showGoldToast: Bool = false
+    @State private var showGoldBalance: Bool = false
 
     var body: some View {
         ZStack(alignment: .top) {
@@ -44,11 +47,10 @@ struct DropRushResultOverlay: View {
                     }
                     .onAppear {
                         animateStars()
-                        if goldEarned > 0 {
-                            Task { @MainActor in
-                                try? await Task.sleep(nanoseconds: 800_000_000)
-                                showGoldToast = true
-                            }
+                        Task { @MainActor in
+                            try? await Task.sleep(nanoseconds: 800_000_000)
+                            showGoldBalance = true
+                            if goldEarned > 0 { showGoldToast = true }
                         }
                     }
                     .onDisappear { starAnimTask?.cancel() }
@@ -88,6 +90,31 @@ struct DropRushResultOverlay: View {
                         .font(.system(size: 12))
                         .foregroundStyle(.secondary)
                 }
+
+                // Gold balance display
+                HStack(spacing: 8) {
+                    Image(systemName: "dollarsign.circle.fill")
+                        .font(.system(size: 20))
+                        .foregroundStyle(.yellow)
+                        .scaleEffect(showGoldBalance ? 1.0 : 0.3)
+                        .animation(.spring(response: 0.4, dampingFraction: 0.6).delay(isGameOver ? 0.3 : 1.2), value: showGoldBalance)
+                    Text("\(goldBalance) Gold")
+                        .font(.system(size: 16, weight: .semibold, design: .rounded))
+                        .foregroundStyle(.primary)
+                        .opacity(showGoldBalance ? 1.0 : 0)
+                        .animation(.easeOut(duration: 0.4).delay(isGameOver ? 0.3 : 1.2), value: showGoldBalance)
+                    if goldEarned > 0 {
+                        Text("+\(goldEarned)")
+                            .font(.system(size: 13, weight: .medium))
+                            .foregroundStyle(.green)
+                            .opacity(showGoldBalance ? 1.0 : 0)
+                            .animation(.easeOut(duration: 0.4).delay(isGameOver ? 0.5 : 1.4), value: showGoldBalance)
+                    }
+                }
+                .padding(.vertical, 6)
+                .padding(.horizontal, 14)
+                .background(Color.yellow.opacity(0.12))
+                .clipShape(Capsule())
 
                 // Buttons
                 VStack(spacing: 10) {
@@ -138,6 +165,14 @@ struct DropRushResultOverlay: View {
             .clipShape(RoundedRectangle(cornerRadius: 24))
             .shadow(color: .black.opacity(0.2), radius: 24)
             .padding(.horizontal, 28)
+            .onAppear {
+                if isGameOver {
+                    Task { @MainActor in
+                        try? await Task.sleep(nanoseconds: 300_000_000)
+                        showGoldBalance = true
+                    }
+                }
+            }
 
             // Coin reward toast (level complete only)
             if showGoldToast && !isGameOver && goldEarned > 0 {
