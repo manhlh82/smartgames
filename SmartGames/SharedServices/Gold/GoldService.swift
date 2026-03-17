@@ -8,6 +8,8 @@ enum GoldReward {
     static let sudokuThreeStarBonus = 10
     static let dropRushComplete = 10
     static let dropRushThreeStarBonus = 10
+    static let stack2048GameOver = 10
+    static let stack2048HighScoreBonus = 15
 }
 
 // MARK: - GoldService

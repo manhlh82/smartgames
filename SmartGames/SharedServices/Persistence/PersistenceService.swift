@@ -51,6 +51,8 @@ extension PersistenceService {
         // MARK: - Drop Rush
         static let dropRushProgress = "dropRush.progress"
         static let dropRushActiveGame = "dropRush.activeGame"
+        // MARK: - Stack 2048
+        static let stack2048Progress = "stack2048.progress"
         // MARK: - Gold
         static let goldBalance = "app.gold.balance"
         // MARK: - Themes

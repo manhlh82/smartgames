@@ -54,6 +54,8 @@ final class AppEnvironment: ObservableObject {
         registry.register(sudoku)
         let dropRush = DropRushModule(persistence: persistence)
         registry.register(dropRush)
+        let stack2048 = Stack2048Module(persistence: persistence)
+        registry.register(stack2048)
         self.gameRegistry = registry
     }
 }

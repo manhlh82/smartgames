@@ -78,6 +78,42 @@ Registered via `DropRushModule` conforming to `GameModule` protocol.
 **Game Center:**
 - Leaderboard: com.smartgames.dropRush.leaderboard.cumulative (cumulative score)
 
+## Stack 2048 Game Module
+
+Registered via `Stack2048Module` conforming to `GameModule` protocol.
+
+**Stack 2048 is an endless merge puzzle:**
+- 5 columns × 10 rows grid; tiles stack top-to-bottom (newest at top)
+- Drop tiles into columns; same-value tiles chain-merge (2048-style doubling)
+- Power-ups: Hammer (destroy tile, 150 Gold), Shuffle (new tile, 200 Gold)
+- Rewarded ad: +100 Gold; game over = all columns full
+
+| File | Purpose |
+|------|---------|
+| `Stack2048Module.swift` | Implements GameModule contract |
+| `Engine/Stack2048Engine.swift` | Pure-logic engine: dropTile, chain-merge, hammer, shuffle |
+| `Models/Stack2048Tile.swift` | Tile model (value, id, merge animation flag) |
+| `Models/Stack2048GameState.swift` | State snapshot + EngineEvent enum |
+| `Models/Stack2048Progress.swift` | Persisted progress (high score, best tile, games played) |
+| `ViewModels/Stack2048GameViewModel.swift` | 5-phase state machine (playing/paused/hammerMode/watchingAd/gameOver) |
+| `Services/Stack2048AudioConfig.swift` | Audio config (no BGM; SFX played by name) |
+| `Views/Stack2048Colors.swift` | Tile color scheme (2→sky blue … 2048→gold) |
+| `Views/Stack2048TileView.swift` | Tile with merge pulse animation |
+| `Views/Stack2048BoardView.swift` | 5-column grid; column-tap + hammer tile-tap |
+| `Views/Stack2048HUDView.swift` | Gold balance, score, high score, pause |
+| `Views/Stack2048ControlBarView.swift` | Hammer, Shuffle, next tile display, Ad button |
+| `Views/Stack2048PauseOverlay.swift` | Pause menu |
+| `Views/Stack2048GameOverOverlay.swift` | Game over with score, gold earned, retry |
+| `Views/Stack2048GameView.swift` | Main gameplay screen with all overlays |
+| `Views/Stack2048LobbyView.swift` | Lobby with best score stats + Play button |
+
+**Analytics Events:**
+- `stack2048_game_started`, `stack2048_game_over`
+- `stack2048_milestone_tile` (512, 1024, 2048, 4096)
+- `stack2048_power_up_used`, `stack2048_paused`, `stack2048_quit`
+
+**Persistence Key:** `stack2048.progress`
+
 ## Shared Cross-Game Services (AppEnvironment)
 
 | Service | Purpose | Scope |
