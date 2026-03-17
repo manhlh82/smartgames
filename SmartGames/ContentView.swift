@@ -39,10 +39,16 @@ struct ContentView: View {
             // Daily login reward popup
             if let reward = dailyLogin.pendingReward {
                 DailyLoginPopupView(reward: reward) {
+                    analytics.log(.dailyLoginClaimed(
+                        streakDay: reward.streakDay,
+                        goldAmount: reward.goldAmount,
+                        diamondAmount: reward.diamondAmount
+                    ))
                     dailyLogin.clearPendingReward()
                 }
                 .transition(.scale.combined(with: .opacity))
                 .zIndex(10)
+                .onAppear { analytics.log(.popupShown(type: "daily_login")) }
             }
 
             // Starter pack offer popup
@@ -50,6 +56,10 @@ struct ContentView: View {
                 StarterPackPopupView()
                     .transition(.scale.combined(with: .opacity))
                     .zIndex(20)
+                    .onAppear {
+                        analytics.log(.popupShown(type: "starter_pack"))
+                        analytics.log(.starterPackShown)
+                    }
             }
 
             // Timed sale popup (after consecutive losses)
@@ -58,27 +68,40 @@ struct ContentView: View {
                     expiresAt: expiry,
                     discountLabel: "30% OFF",
                     onShop: {
+                        analytics.log(.ctaClicked(type: "timed_sale", action: "shop_now"))
+                        analytics.log(.timedSalePurchased)
                         showTimedSale = false
                         consecutiveLoss.dismissSale()
                         router.navigate(to: .settings)
                     },
                     onDismiss: {
+                        analytics.log(.popupDismissed(type: "timed_sale"))
                         showTimedSale = false
                         consecutiveLoss.dismissSale()
                     }
                 )
                 .transition(.scale.combined(with: .opacity))
                 .zIndex(15)
+                .onAppear {
+                    analytics.log(.timedSaleShown(
+                        trigger: "consecutive_losses",
+                        consecutiveLosses: consecutiveLoss.count
+                    ))
+                }
             }
 
             // Skip-ads banner (non-intrusive, bottom)
             if showSkipAdsBanner {
                 SkipAdsBannerView(
                     onRemoveAds: {
+                        analytics.log(.ctaClicked(type: "skip_ads_banner", action: "shop_now"))
                         showSkipAdsBanner = false
                         router.navigate(to: .settings)
                     },
-                    onDismiss: { showSkipAdsBanner = false }
+                    onDismiss: {
+                        analytics.log(.popupDismissed(type: "skip_ads_banner"))
+                        showSkipAdsBanner = false
+                    }
                 )
                 .padding(.bottom, 8)
                 .transition(.move(edge: .bottom).combined(with: .opacity))

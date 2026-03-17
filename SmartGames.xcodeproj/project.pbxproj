@@ -54,12 +54,14 @@
 		40D240F17B4EBCC070691B5C /* RewardedAdCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5845117A01489368C0358171 /* RewardedAdCoordinator.swift */; };
 		414E98E16D6F0D22743EE9B6 /* DropRushGameViewModel+Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611DCB6D75909B7114BC8784 /* DropRushGameViewModel+Actions.swift */; };
 		41DFA69F421CB29B82A35652 /* SmartGamesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A61C1CCA23233D1C898F37 /* SmartGamesTests.swift */; };
+		42D9B26CE7A174813444795D /* AnalyticsEvent+Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AA9DD8DC9439BAF1E9EF5B /* AnalyticsEvent+Conversion.swift */; };
 		432223F02677ECA1A0EA4F31 /* DailyLoginRewardService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBD33FE6AC3BAB1D0BC8AAA /* DailyLoginRewardService.swift */; };
 		43D4E2B4DB3426B4F5D2F0CD /* SudokuGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108FB779F3B369A5528D966A /* SudokuGameView.swift */; };
 		45E5AF199FE77CA92E6D0F1F /* DailyLoginPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE8922C02D37CBB5FEE6858 /* DailyLoginPopupView.swift */; };
 		487345ACCB1B7CD54339F268 /* SudokuNumberPadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2A44074EFCB7F482536C79 /* SudokuNumberPadView.swift */; };
 		4952917DD01F406EEC019AF8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17434D31191C5439ED781B30 /* Localizable.strings */; };
 		4985C1063A1014D75764562E /* GoldBalanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787C48C84A7ACCCDF836B170 /* GoldBalanceView.swift */; };
+		4BE41F8A986C565DFA398A05 /* RemoteEconomyConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68E26AD39F083084799B11C /* RemoteEconomyConfig.swift */; };
 		4BE57EFB7A409690B1A016DF /* DropRushEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1133E4D185142996F4229A /* DropRushEngine.swift */; };
 		4D28B282F80DBA45F15DAAE6 /* DropRushAudioConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316C2369E8733C7AC2C19BAD /* DropRushAudioConfig.swift */; };
 		4DA44045AE4A7465B4D33705 /* AnalyticsServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAB33221F8D2506CE4E467A /* AnalyticsServiceTests.swift */; };
@@ -113,6 +115,7 @@
 		A624085D125A0DBECEC24F01 /* AppFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCCE4BD407E85EB6D16B795 /* AppFonts.swift */; };
 		A81FF3C628B4CD96D1F95BFC /* StatisticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6115922B7EE6EB9E62411F /* StatisticsService.swift */; };
 		A9D1FE27302A5DFA5CB5273A /* LevelDefinitionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2E36518B56B0CBE6F507E6 /* LevelDefinitionsTests.swift */; };
+		A9E146603240B890A474710F /* AnalyticsEvent+Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380C1223A7B8AC5CC730E905 /* AnalyticsEvent+Store.swift */; };
 		AA2F49E0A321C4485AF2E1DE /* Stack2048GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1662413E4A0538E72FAB0125 /* Stack2048GameViewModel.swift */; };
 		AA3885FE920CD35B097EBCD0 /* SudokuStatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D958F19AB1F2395C8EEDB0 /* SudokuStatisticsView.swift */; };
 		ADF6AEAEEF8FF2E6A5BC283F /* DropRushResultOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A5971D3A5CE44F6DEB7831 /* DropRushResultOverlay.swift */; };
@@ -185,6 +188,7 @@
 		316C2369E8733C7AC2C19BAD /* DropRushAudioConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropRushAudioConfig.swift; sourceTree = "<group>"; };
 		3487A1ED39FFB5A9171166C3 /* Stack2048GameViewModel+GameEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Stack2048GameViewModel+GameEvents.swift"; sourceTree = "<group>"; };
 		357F2465DE0E355B26BF54CA /* BannerAdCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerAdCoordinator.swift; sourceTree = "<group>"; };
+		380C1223A7B8AC5CC730E905 /* AnalyticsEvent+Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AnalyticsEvent+Store.swift"; sourceTree = "<group>"; };
 		386FA7F547BE9A50E454AB40 /* AnalyticsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsService.swift; sourceTree = "<group>"; };
 		3BB62B3B479EE88A1264C285 /* GoldRewardToast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldRewardToast.swift; sourceTree = "<group>"; };
 		3E4D3F00F0351AF8FEBF7DA6 /* LanguagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguagePickerView.swift; sourceTree = "<group>"; };
@@ -250,6 +254,7 @@
 		8DCCE4BD407E85EB6D16B795 /* AppFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFonts.swift; sourceTree = "<group>"; };
 		8E3AC6111FA36D0428FDD141 /* SudokuPauseOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudokuPauseOverlayView.swift; sourceTree = "<group>"; };
 		8EFBDE92D4C9431B87662A18 /* SettingsServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsServiceTests.swift; sourceTree = "<group>"; };
+		91AA9DD8DC9439BAF1E9EF5B /* AnalyticsEvent+Conversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AnalyticsEvent+Conversion.swift"; sourceTree = "<group>"; };
 		923BB59D4C01DED3AC742312 /* AdsConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsConfig.swift; sourceTree = "<group>"; };
 		94DBB458F57F080B4C15B2AF /* SmartGames.storekit */ = {isa = PBXFileReference; path = SmartGames.storekit; sourceTree = "<group>"; };
 		955CE554DD7FA95973DED911 /* DropRushStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropRushStats.swift; sourceTree = "<group>"; };
@@ -303,6 +308,7 @@
 		E5CDEA1C24491CE62BE62B3B /* GoldService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldService.swift; sourceTree = "<group>"; };
 		E6331006868D540F8437B567 /* LevelConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelConfig.swift; sourceTree = "<group>"; };
 		E669A032F1BD63F9CD4E9AF4 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		E68E26AD39F083084799B11C /* RemoteEconomyConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteEconomyConfig.swift; sourceTree = "<group>"; };
 		E698575D3274FF62EEC03882 /* AnalyticsEvent+DropRush.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AnalyticsEvent+DropRush.swift"; sourceTree = "<group>"; };
 		E81A6AA432CBC5928E605D3F /* GameEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameEntry.swift; sourceTree = "<group>"; };
 		E908C4EEE4DDE778BC22A246 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -484,10 +490,12 @@
 				6DDB851C70C2A2AE144D55A5 /* AnalyticsEvent.swift */,
 				67902B032B3383DE930640CB /* AnalyticsEvent+Ads.swift */,
 				B389E53132A4A2CBE7743A5D /* AnalyticsEvent+AppLifecycle.swift */,
+				91AA9DD8DC9439BAF1E9EF5B /* AnalyticsEvent+Conversion.swift */,
 				8D600EECEC9EAB77703A66B2 /* AnalyticsEvent+Diamond.swift */,
 				E698575D3274FF62EEC03882 /* AnalyticsEvent+DropRush.swift */,
 				5A83EB2C51EED2627081760A /* AnalyticsEvent+Gold.swift */,
 				BC7565D5583F96D63D3154BC /* AnalyticsEvent+Stack2048.swift */,
+				380C1223A7B8AC5CC730E905 /* AnalyticsEvent+Store.swift */,
 				17CFE49782BCB436768FAD14 /* AnalyticsEvent+Sudoku.swift */,
 				386FA7F547BE9A50E454AB40 /* AnalyticsService.swift */,
 			);
@@ -830,6 +838,7 @@
 				AFBD33FE6AC3BAB1D0BC8AAA /* DailyLoginRewardService.swift */,
 				547972F07FDBD578FA21E6E2 /* EconomyConfig.swift */,
 				D142D06519396488738C0EA0 /* PiggyBankService.swift */,
+				E68E26AD39F083084799B11C /* RemoteEconomyConfig.swift */,
 				F004BE52EA3F739EA1FE2ADC /* StarterPackService.swift */,
 			);
 			path = Economy;
@@ -960,10 +969,12 @@
 				F6A9AC9BE3A34AA32F3529EC /* AdsService.swift in Sources */,
 				7BBD1C0D8668FC2EF120100D /* AnalyticsEvent+Ads.swift in Sources */,
 				70ED93386A8F5C08D23C27C4 /* AnalyticsEvent+AppLifecycle.swift in Sources */,
+				42D9B26CE7A174813444795D /* AnalyticsEvent+Conversion.swift in Sources */,
 				E637A6BEDFEF800C77E80779 /* AnalyticsEvent+Diamond.swift in Sources */,
 				9C9FF9D95733785F638C6CD5 /* AnalyticsEvent+DropRush.swift in Sources */,
 				9B52E09BEBB76CE4A4EF611D /* AnalyticsEvent+Gold.swift in Sources */,
 				3F9464E480756C56AE50B339 /* AnalyticsEvent+Stack2048.swift in Sources */,
+				A9E146603240B890A474710F /* AnalyticsEvent+Store.swift in Sources */,
 				F4F2F21FB3C3FE38768CB039 /* AnalyticsEvent+Sudoku.swift in Sources */,
 				6FEC07213292E933C6C08421 /* AnalyticsEvent.swift in Sources */,
 				3FA7D1A6CB7AF082CEEA80E6 /* AnalyticsService.swift in Sources */,
@@ -1031,6 +1042,7 @@
 				409609BD7B9994A2214CD950 /* PiggyBankService.swift in Sources */,
 				1AB89D37D3F206DCE5393BF6 /* PrimaryButton.swift in Sources */,
 				1032D031FD56E9EB1DBEC0D7 /* PuzzleBank.swift in Sources */,
+				4BE41F8A986C565DFA398A05 /* RemoteEconomyConfig.swift in Sources */,
 				40D240F17B4EBCC070691B5C /* RewardedAdCoordinator.swift in Sources */,
 				93AE7B27F671508277F14E91 /* RewardedAdOutcome.swift in Sources */,
 				55E9AE56BE26DB61FAFB91AE /* SeededRandomNumberGenerator.swift in Sources */,

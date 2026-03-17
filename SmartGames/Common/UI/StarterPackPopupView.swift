@@ -9,6 +9,7 @@ struct StarterPackPopupView: View {
     @EnvironmentObject var diamonds: DiamondService
     @EnvironmentObject var themeService: ThemeService
     @EnvironmentObject var store: StoreService
+    @EnvironmentObject var analytics: AnalyticsService
 
     @State private var isPurchasing = false
 
@@ -103,6 +104,8 @@ struct StarterPackPopupView: View {
                 .disabled(isPurchasing || starterProduct == nil)
 
                 Button("No thanks") {
+                    analytics.log(.starterPackDismissed)
+                    analytics.log(.popupDismissed(type: "starter_pack"))
                     starterPack.dismissOffer()
                 }
                 .font(.system(size: 14))
@@ -122,12 +125,21 @@ struct StarterPackPopupView: View {
         isPurchasing = true
         defer { isPurchasing = false }
         do {
+            analytics.log(.iapPurchaseInitiated(productId: StoreService.starterPackID))
             let success = try await store.purchase(product)
             if success {
                 starterPack.claimRewards(diamondService: diamonds, themeService: themeService)
+                analytics.log(.starterPackPurchased)
+                analytics.log(.iapPurchaseCompleted(
+                    productId: StoreService.starterPackID,
+                    price: product.displayPrice,
+                    currency: product.priceFormatStyle.currencyCode ?? "USD"
+                ))
+            } else {
+                analytics.log(.iapPurchaseFailed(productId: StoreService.starterPackID, reason: "user_cancelled"))
             }
         } catch {
-            // Purchase cancelled or failed — leave popup open
+            analytics.log(.iapPurchaseFailed(productId: StoreService.starterPackID, reason: "unknown"))
         }
     }
 }

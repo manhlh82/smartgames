@@ -31,6 +31,12 @@ struct SmartGamesApp: App {
                 .environmentObject(environment.consecutiveLoss)
                 .environmentObject(environment.themeService)
                 .task {
+                    // Fetch remote economy config overrides (no-op until Firebase integrated)
+                    await RemoteEconomyConfig.shared.fetchAndActivate()
+                    // Log A/B test assignments on first launch
+                    let rc = RemoteEconomyConfig.shared
+                    environment.analytics.log(.abTestAssigned(testName: "continue_price", variant: rc.continuePriceVariant))
+                    environment.analytics.log(.abTestAssigned(testName: "starter_pack_price", variant: rc.starterPackPriceVariant))
                     // Check daily login reward on each app launch / foreground
                     environment.dailyLogin.checkAndGrantLoginReward()
                     // Authenticate Game Center silently on launch
