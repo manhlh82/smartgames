@@ -30,10 +30,10 @@ struct Stack2048TileView: View {
         .scaleEffect(pulsed ? 1.18 : 1.0)
         .onChange(of: tile.isMergedThisTurn) { merged in
             guard merged else { return }
-            withAnimation(.spring(response: 0.15, dampingFraction: 0.4)) {
+            withAnimation(.spring(response: 0.12, dampingFraction: 0.35)) {
                 pulsed = true
             }
-            withAnimation(.spring(response: 0.15, dampingFraction: 0.4).delay(0.15)) {
+            withAnimation(.spring(response: 0.12, dampingFraction: 0.35).delay(0.12)) {
                 pulsed = false
             }
         }

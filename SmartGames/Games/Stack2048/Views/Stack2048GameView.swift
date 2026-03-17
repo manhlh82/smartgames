@@ -6,6 +6,7 @@ struct Stack2048GameView: View {
     @Environment(\.scenePhase) private var scenePhase
 
     @StateObject private var viewModel: Stack2048GameViewModel
+    @State private var boardFrame: CGRect = .zero
 
     init(
         persistence: PersistenceService,
@@ -41,6 +42,8 @@ struct Stack2048GameView: View {
                 Stack2048BoardView(
                     gameState: viewModel.gameState,
                     phase: viewModel.phase,
+                    dragTargetColumn: viewModel.dragTargetColumn,
+                    ghostTile: viewModel.gameState.nextTile,
                     onColumnTap: { col in
                         viewModel.dropTile(into: col)
                     },
@@ -51,16 +54,36 @@ struct Stack2048GameView: View {
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
                 .padding(.horizontal, 8)
                 .padding(.vertical, 4)
+                .background(
+                    GeometryReader { geo in
+                        Color.clear
+                            .onAppear { boardFrame = geo.frame(in: .global) }
+                            .onChange(of: geo.frame(in: .global)) { frame in
+                                boardFrame = frame
+                            }
+                    }
+                )
 
                 Stack2048ControlBarView(
                     nextTile: viewModel.gameState.nextTile,
                     goldBalance: viewModel.goldService.balance,
                     phase: viewModel.phase,
                     isAdReady: viewModel.ads.isRewardedAdReady,
+                    boardFrame: boardFrame,
                     onHammer: viewModel.useHammer,
                     onShuffle: viewModel.useShuffle,
                     onCancelHammer: viewModel.cancelHammer,
-                    onRequestAd: viewModel.requestAdGold
+                    onRequestAd: viewModel.requestAdGold,
+                    onDragChanged: { col in
+                        viewModel.setDragTarget(col)
+                    },
+                    onDragEnded: { col in
+                        if let col {
+                            viewModel.confirmDrop(into: col)
+                        } else {
+                            viewModel.setDragTarget(nil)
+                        }
+                    }
                 )
                 .padding(.bottom, 8)
             }
@@ -126,6 +149,17 @@ struct Stack2048GameView: View {
                     viewModel.quit()
                     router.pop()
                 }
+            )
+            .transition(.scale.combined(with: .opacity))
+        }
+
+        if viewModel.phase == .won {
+            Stack2048WinOverlay(
+                score: viewModel.gameState.score,
+                goldEarned: GoldReward.stack2048Win,
+                goldBalance: viewModel.goldService.balance,
+                onKeepPlaying: viewModel.keepPlaying,
+                onNewGame: viewModel.retry
             )
             .transition(.scale.combined(with: .opacity))
         }

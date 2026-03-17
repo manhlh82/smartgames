@@ -1,15 +1,20 @@
 import SwiftUI
 
-/// Bottom action bar: Hammer | Shuffle | CurrentTile | AdButton.
+/// Bottom action bar: Hammer | Shuffle | CurrentTile (draggable) | AdButton.
 struct Stack2048ControlBarView: View {
     let nextTile: Stack2048Tile
     let goldBalance: Int
     let phase: Stack2048Phase
     let isAdReady: Bool
+    let boardFrame: CGRect
     let onHammer: () -> Void
     let onShuffle: () -> Void
     let onCancelHammer: () -> Void
     let onRequestAd: () -> Void
+    let onDragChanged: (Int?) -> Void
+    let onDragEnded: (Int?) -> Void
+
+    @State private var isDragging = false
 
     var body: some View {
         HStack(spacing: 10) {
@@ -31,8 +36,8 @@ struct Stack2048ControlBarView: View {
                 action: onShuffle
             )
 
-            // Current tile display (center, larger)
-            currentTileDisplay
+            // Current tile display (center, larger) — draggable in .playing phase
+            draggableTileDisplay
 
             // Ad button — earn +100 Gold
             adButton
@@ -78,13 +83,32 @@ struct Stack2048ControlBarView: View {
         .disabled(disabled)
     }
 
-    private var currentTileDisplay: some View {
+    private var draggableTileDisplay: some View {
+        tileShape
+            .scaleEffect(isDragging ? 1.1 : 1.0)
+            .animation(.spring(response: 0.2, dampingFraction: 0.6), value: isDragging)
+            .gesture(
+                phase == .playing
+                    ? DragGesture(minimumDistance: 5, coordinateSpace: .global)
+                        .onChanged { value in
+                            isDragging = true
+                            onDragChanged(columnIndex(for: value.location))
+                        }
+                        .onEnded { value in
+                            isDragging = false
+                            onDragEnded(columnIndex(for: value.location))
+                        }
+                    : nil
+            )
+    }
+
+    private var tileShape: some View {
         ZStack {
             RoundedRectangle(cornerRadius: 16)
                 .fill(Stack2048Colors.background(for: nextTile.value))
                 .overlay(
                     RoundedRectangle(cornerRadius: 16)
-                        .strokeBorder(.white.opacity(0.3), lineWidth: 2)
+                        .strokeBorder(.white.opacity(isDragging ? 0.6 : 0.3), lineWidth: 2)
                 )
 
             Text(nextTile.value >= 1000 ? "\(nextTile.value / 1000)K" : "\(nextTile.value)")
@@ -125,5 +149,15 @@ struct Stack2048ControlBarView: View {
         }
         .buttonStyle(.plain)
         .disabled(!isAdReady || phase != .playing)
+    }
+
+    // MARK: - Column Detection
+
+    /// Converts a global x position into a column index (0–4), or nil if outside the board.
+    private func columnIndex(for location: CGPoint) -> Int? {
+        guard boardFrame.width > 0 else { return nil }
+        guard location.x >= boardFrame.minX, location.x <= boardFrame.maxX else { return nil }
+        let col = Int((location.x - boardFrame.minX) / (boardFrame.width / CGFloat(Stack2048GameState.columnCount)))
+        return max(0, min(Stack2048GameState.columnCount - 1, col))
     }
 }

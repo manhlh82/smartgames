@@ -8,6 +8,7 @@ enum Stack2048Phase: Equatable {
     case hammerMode     // player selects a tile to destroy
     case watchingAd     // waiting for rewarded ad to complete
     case gameOver
+    case won            // player created a 2048 tile
 }
 
 /// Lightweight merge animation trigger — consumed by the board view.
@@ -21,12 +22,14 @@ struct MergeEffect: Identifiable {
 /// Drives Stack 2048 gameplay: state machine, power-ups, persistence, analytics, gold rewards.
 @MainActor
 final class Stack2048GameViewModel: ObservableObject {
-    @Published private(set) var phase: Stack2048Phase = .playing
+    // phase, highScore, isNewHighScore, goldEarnedOnEnd are also mutated by the +GameEvents extension
+    @Published var phase: Stack2048Phase = .playing
     @Published private(set) var gameState: Stack2048GameState
-    @Published private(set) var highScore: Int = 0
-    @Published private(set) var isNewHighScore: Bool = false
-    @Published private(set) var goldEarnedOnEnd: Int = 0
+    @Published var highScore: Int = 0
+    @Published var isNewHighScore: Bool = false
+    @Published var goldEarnedOnEnd: Int = 0
     @Published var mergeEffects: [MergeEffect] = []
+    @Published var dragTargetColumn: Int? = nil
 
     let persistence: PersistenceService
     let sound: SoundService
@@ -35,8 +38,9 @@ final class Stack2048GameViewModel: ObservableObject {
     let analytics: AnalyticsService
     let goldService: GoldService
 
-    private var engine = Stack2048Engine()
-    private var milestonesTileLogged = Set<Int>()
+    var engine = Stack2048Engine()
+    var milestonesTileLogged = Set<Int>()
+    var hasWonThisSession = false
 
     // MARK: - Init
 
@@ -58,6 +62,17 @@ final class Stack2048GameViewModel: ObservableObject {
         let progress = persistence.load(Stack2048Progress.self, key: PersistenceService.Keys.stack2048Progress) ?? Stack2048Progress()
         self.highScore = progress.highScore
         analytics.log(.stack2048GameStarted())
+    }
+
+    // MARK: - Drag-and-Drop
+
+    func setDragTarget(_ column: Int?) {
+        dragTargetColumn = column
+    }
+
+    func confirmDrop(into column: Int) {
+        dropTile(into: column)
+        dragTargetColumn = nil
     }
 
     // MARK: - Player Input
@@ -151,74 +166,18 @@ final class Stack2048GameViewModel: ObservableObject {
         isNewHighScore = false
         goldEarnedOnEnd = 0
         milestonesTileLogged = []
+        hasWonThisSession = false
         phase = .playing
         analytics.log(.stack2048GameStarted())
+    }
+
+    func keepPlaying() {
+        guard phase == .won else { return }
+        phase = .playing
     }
 
     func quit() {
         analytics.log(.stack2048Quit(score: gameState.score))
     }
 
-    // MARK: - Engine Events
-
-    private func handleEngineEvent(_ event: Stack2048EngineEvent) {
-        switch event {
-        case .tilePlaced:
-            sound.playSFX("stack2048-place")
-            haptics.impact(.light)
-
-        case .tileMerged(let column, let row, let newValue):
-            let sfx = newValue >= 512 ? "stack2048-merge-big" : "stack2048-merge"
-            sound.playSFX(sfx)
-            haptics.impact(.medium)
-            spawnMergeEffect(column: column, row: row, value: newValue)
-            logMilestoneTileIfNeeded(newValue)
-
-        case .gameOver:
-            handleGameOver()
-        }
-    }
-
-    private func handleGameOver() {
-        phase = .gameOver
-        sound.playSFX("stack2048-gameover")
-        haptics.notification(.error)
-
-        let score = gameState.score
-        let maxTile = gameState.maxTileValue
-        var progress = persistence.load(Stack2048Progress.self, key: PersistenceService.Keys.stack2048Progress) ?? Stack2048Progress()
-        let wasHighScore = score > progress.highScore
-        progress.recordResult(score: score, maxTile: maxTile)
-        persistence.save(progress, key: PersistenceService.Keys.stack2048Progress)
-
-        isNewHighScore = wasHighScore
-        if wasHighScore { highScore = score }
-
-        let base = GoldReward.stack2048GameOver
-        let bonus = wasHighScore ? GoldReward.stack2048HighScoreBonus : 0
-        let total = base + bonus
-        goldEarnedOnEnd = total
-        goldService.earn(amount: total)
-        analytics.log(.goldEarned(amount: total, source: "stack2048", balanceAfter: goldService.balance))
-        analytics.log(.stack2048GameOver(score: score, maxTile: maxTile, gamesPlayed: progress.gamesPlayed))
-    }
-
-    // MARK: - Helpers
-
-    private func spawnMergeEffect(column: Int, row: Int, value: Int) {
-        let effect = MergeEffect(column: column, row: row, value: value)
-        mergeEffects.append(effect)
-        let eid = effect.id
-        Task { @MainActor in
-            try? await Task.sleep(nanoseconds: 400_000_000)
-            mergeEffects.removeAll { $0.id == eid }
-        }
-    }
-
-    private func logMilestoneTileIfNeeded(_ value: Int) {
-        let milestones: Set<Int> = [512, 1024, 2048, 4096]
-        guard milestones.contains(value), !milestonesTileLogged.contains(value) else { return }
-        milestonesTileLogged.insert(value)
-        analytics.log(.stack2048MilestoneTile(value: value))
-    }
 }
