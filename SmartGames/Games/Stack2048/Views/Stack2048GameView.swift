@@ -15,7 +15,8 @@ struct Stack2048GameView: View {
         ads: AdsService,
         analytics: AnalyticsService,
         goldService: GoldService,
-        diamondService: DiamondService
+        diamondService: DiamondService,
+        piggyBank: PiggyBankService
     ) {
         _viewModel = StateObject(wrappedValue: Stack2048GameViewModel(
             persistence: persistence,
@@ -24,7 +25,8 @@ struct Stack2048GameView: View {
             ads: ads,
             analytics: analytics,
             goldService: goldService,
-            diamondService: diamondService
+            diamondService: diamondService,
+            piggyBank: piggyBank
         ))
     }
 

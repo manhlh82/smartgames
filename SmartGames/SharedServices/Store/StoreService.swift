@@ -8,8 +8,14 @@ final class StoreService: ObservableObject {
 
     // MARK: - Product IDs
 
-    static let removeAdsID = "com.smartgames.removeads"
-    static let hintPackID  = "com.smartgames.hintpack"
+    static let removeAdsID      = "com.smartgames.removeads"
+    static let hintPackID       = "com.smartgames.hintpack"
+    // Diamond IAPs
+    static let starterPackID    = "com.smartgames.starterpack"     // 50 diamonds + aurora theme, one-time
+    static let diamondPack50ID  = "com.smartgames.diamonds.50"    // 50 diamonds
+    static let diamondPack100ID = "com.smartgames.diamonds.100"   // 100 diamonds (best value)
+    static let skipAds24hID     = "com.smartgames.skipads.24h"    // $0.99 consumable, 24h ad suppression
+    static let piggyBankUnlockID = "com.smartgames.piggybank"     // unlock accumulated diamonds
 
     // MARK: - Published State
 
@@ -18,6 +24,10 @@ final class StoreService: ObservableObject {
     @Published var pendingHintGrant: Bool = false
     @Published var isPurchasing: Bool = false
     @Published var purchaseError: String? = nil
+    /// Expiry date for the 24h skip-ads pass. nil = not active.
+    @Published private(set) var skipAdsExpiry: Date? = nil
+    /// Returns true while a skip-ads pass is active.
+    var isSkipAdsActive: Bool { skipAdsExpiry.map { $0 > Date() } ?? false }
 
     // MARK: - Private
 
@@ -37,10 +47,19 @@ final class StoreService: ObservableObject {
 
     func loadProducts() async {
         do {
-            let ids: [String] = [StoreService.removeAdsID, StoreService.hintPackID]
+            let ids: [String] = [
+                StoreService.removeAdsID, StoreService.hintPackID,
+                StoreService.starterPackID, StoreService.diamondPack50ID,
+                StoreService.diamondPack100ID, StoreService.skipAds24hID,
+                StoreService.piggyBankUnlockID
+            ]
             let fetched = try await Product.products(for: ids)
-            // Sort: removeAds first
-            products = fetched.sorted { a, _ in a.id == StoreService.removeAdsID }
+            // Sort: removeAds first, then by price ascending
+            products = fetched.sorted { a, b in
+                if a.id == StoreService.removeAdsID { return true }
+                if b.id == StoreService.removeAdsID { return false }
+                return (a.price as Decimal) < (b.price as Decimal)
+            }
         } catch {
             #if DEBUG
             print("[StoreService] loadProducts error: \(error)")
@@ -64,6 +83,9 @@ final class StoreService: ObservableObject {
             await updateEntitlements()
             if product.id == StoreService.hintPackID {
                 pendingHintGrant = true
+            }
+            if product.id == StoreService.skipAds24hID {
+                skipAdsExpiry = Date().addingTimeInterval(86400)
             }
             await transaction.finish()
             return true

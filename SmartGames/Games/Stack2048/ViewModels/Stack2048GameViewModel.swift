@@ -38,6 +38,7 @@ final class Stack2048GameViewModel: ObservableObject {
     let analytics: AnalyticsService
     let goldService: GoldService
     let diamondService: DiamondService
+    let piggyBank: PiggyBankService
 
     var engine = Stack2048Engine()
     var milestonesTileLogged = Set<Int>()
@@ -54,7 +55,8 @@ final class Stack2048GameViewModel: ObservableObject {
         ads: AdsService,
         analytics: AnalyticsService,
         goldService: GoldService,
-        diamondService: DiamondService
+        diamondService: DiamondService,
+        piggyBank: PiggyBankService
     ) {
         self.persistence = persistence
         self.sound = sound
@@ -63,6 +65,7 @@ final class Stack2048GameViewModel: ObservableObject {
         self.analytics = analytics
         self.goldService = goldService
         self.diamondService = diamondService
+        self.piggyBank = piggyBank
         self.gameState = engine.state
         let progress = persistence.load(Stack2048Progress.self, key: PersistenceService.Keys.stack2048Progress) ?? Stack2048Progress()
         self.highScore = progress.highScore

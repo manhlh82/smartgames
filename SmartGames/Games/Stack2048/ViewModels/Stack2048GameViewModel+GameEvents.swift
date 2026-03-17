@@ -49,6 +49,7 @@ extension Stack2048GameViewModel {
         goldService.earn(amount: total)
         analytics.log(.goldEarned(amount: total, source: "stack2048", balanceAfter: goldService.balance))
         analytics.log(.stack2048GameOver(score: score, maxTile: maxTile, gamesPlayed: progress.gamesPlayed))
+        piggyBank.recordGameCompleted()
     }
 
     func handleWin() {

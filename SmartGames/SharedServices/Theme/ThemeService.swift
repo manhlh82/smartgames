@@ -31,6 +31,8 @@ final class ThemeService: ObservableObject {
 
     private let persistence: PersistenceService
     private let goldService: GoldService
+    /// Weak ref to DiamondService for legendary theme purchases.
+    weak var diamondService: DiamondService?
 
     init(persistence: PersistenceService, goldService: GoldService) {
         self.persistence = persistence
@@ -77,6 +79,25 @@ final class ThemeService: ObservableObject {
         unlockedThemes.insert(name)
         saveUnlocked()
         return .success
+    }
+
+    /// Attempt to purchase a legendary theme with Diamonds.
+    /// Returns .alreadyOwned, .insufficientFunds, or .success.
+    @discardableResult
+    func purchaseWithDiamonds(_ name: BoardThemeName) -> PurchaseResult {
+        guard !isUnlocked(name) else { return .alreadyOwned }
+        guard let cost = name.diamondPrice else { return .insufficientFunds }
+        guard diamondService?.spend(amount: cost) == true else { return .insufficientFunds }
+        unlockedThemes.insert(name)
+        saveUnlocked()
+        return .success
+    }
+
+    /// Unlock a theme directly (used by IAP grants — Starter Pack, piggy bank).
+    func grantTheme(_ name: BoardThemeName) {
+        guard !isUnlocked(name) else { return }
+        unlockedThemes.insert(name)
+        saveUnlocked()
     }
 
     // MARK: - Private

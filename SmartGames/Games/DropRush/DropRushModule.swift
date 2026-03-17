@@ -53,7 +53,8 @@ final class DropRushModule: GameModule {
                 analytics: environment.analytics,
                 gameCenter: environment.gameCenter,
                 goldService: environment.gold,
-                diamondService: environment.diamonds
+                diamondService: environment.diamonds,
+                piggyBank: environment.piggyBank
             ))
         default:
             return nil

@@ -43,6 +43,7 @@ final class DropRushGameViewModel: ObservableObject {
     let gameCenter: GameCenterService
     let goldService: GoldService
     let diamondService: DiamondService
+    let piggyBank: PiggyBankService
     /// Gold earned on the most recent level complete — 0 until level is won.
     @Published private(set) var goldEarnedOnWin: Int = 0
 
@@ -57,7 +58,8 @@ final class DropRushGameViewModel: ObservableObject {
         analytics: AnalyticsService,
         gameCenter: GameCenterService,
         goldService: GoldService,
-        diamondService: DiamondService
+        diamondService: DiamondService,
+        piggyBank: PiggyBankService
     ) {
         self.levelNumber = levelNumber
         self.persistence = persistence
@@ -68,6 +70,7 @@ final class DropRushGameViewModel: ObservableObject {
         self.gameCenter = gameCenter
         self.goldService = goldService
         self.diamondService = diamondService
+        self.piggyBank = piggyBank
         let cfg = LevelDefinitions.level(levelNumber) ?? LevelDefinitions.levels[0]
         self.config = cfg
         self.engine = DropRushEngine(config: cfg)
@@ -148,6 +151,7 @@ final class DropRushGameViewModel: ObservableObject {
             if levelsCompletedThisSession % 2 == 0 {
                 ads.showInterstitialIfReady()
             }
+            piggyBank.recordGameCompleted()
             phase = .levelComplete
         case .gameOver:
             sound.playSFX("dropRush-gameover")

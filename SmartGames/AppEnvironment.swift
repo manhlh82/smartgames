@@ -19,6 +19,8 @@ final class AppEnvironment: ObservableObject {
     let diamonds: DiamondService
     let adRewardTracker: AdRewardTracker
     let dailyLogin: DailyLoginRewardService
+    let piggyBank: PiggyBankService
+    let starterPack: StarterPackService
     let themeService: ThemeService
 
     init() {
@@ -58,11 +60,16 @@ final class AppEnvironment: ObservableObject {
             goldService: gold,
             diamondService: diamonds
         )
-        self.themeService = ThemeService(persistence: persistence, goldService: gold)
+        self.piggyBank = PiggyBankService(persistence: persistence)
+        self.starterPack = StarterPackService(persistence: persistence)
+        let themeService = ThemeService(persistence: persistence, goldService: gold)
+        self.themeService = themeService
 
         // Wire economy services into ads (daily cap + diamond drops)
         adsService.adRewardTracker = self.adRewardTracker
         adsService.diamondService = diamonds
+        // Wire diamond service into theme service for legendary purchases
+        themeService.diamondService = diamonds
 
         // Register game modules
         let registry = GameRegistry()

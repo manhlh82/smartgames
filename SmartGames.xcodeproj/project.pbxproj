@@ -45,6 +45,7 @@
 		3F7D584590BF48775867C266 /* DropRushProgressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DA2CEB72DEB70CFF00E14E /* DropRushProgressTests.swift */; };
 		3F9464E480756C56AE50B339 /* AnalyticsEvent+Stack2048.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7565D5583F96D63D3154BC /* AnalyticsEvent+Stack2048.swift */; };
 		3FA7D1A6CB7AF082CEEA80E6 /* AnalyticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386FA7F547BE9A50E454AB40 /* AnalyticsService.swift */; };
+		409609BD7B9994A2214CD950 /* PiggyBankService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D142D06519396488738C0EA0 /* PiggyBankService.swift */; };
 		40B47614BF56C3C5F8472B67 /* LevelDefinitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578942E6A7B2B6B4EB625EC3 /* LevelDefinitions.swift */; };
 		40D240F17B4EBCC070691B5C /* RewardedAdCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5845117A01489368C0358171 /* RewardedAdCoordinator.swift */; };
 		414E98E16D6F0D22743EE9B6 /* DropRushGameViewModel+Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611DCB6D75909B7114BC8784 /* DropRushGameViewModel+Actions.swift */; };
@@ -129,6 +130,7 @@
 		DFBE2C6765EFCFFF9DDB7B8C /* LevelConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6331006868D540F8437B567 /* LevelConfig.swift */; };
 		E1596EB2ADE7258013DC78B5 /* SudokuLobbyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFEF1ECCCF555E74F942824 /* SudokuLobbyView.swift */; };
 		E3134DF3F9E4C7962AEF472B /* SudokuGameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BAA8798EF9DC59A1F69F84 /* SudokuGameViewModel.swift */; };
+		E51A47E1EE661B0CB138D66F /* StarterPackService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F004BE52EA3F739EA1FE2ADC /* StarterPackService.swift */; };
 		E58FF08814BC52D3462F26D7 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12D69E2612921267B7C8174 /* SettingsView.swift */; };
 		E637A6BEDFEF800C77E80779 /* AnalyticsEvent+Diamond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D600EECEC9EAB77703A66B2 /* AnalyticsEvent+Diamond.swift */; };
 		E90F32A056D96ABFA12A80B6 /* SoundService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5175BD2DF63D5C465E969303 /* SoundService.swift */; };
@@ -270,6 +272,7 @@
 		CED60D029271AA7B64656B90 /* DropRushInputBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropRushInputBarView.swift; sourceTree = "<group>"; };
 		D12D69E2612921267B7C8174 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		D13DB6BCE48FF7D05FBB7D1E /* DropRushPauseOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropRushPauseOverlay.swift; sourceTree = "<group>"; };
+		D142D06519396488738C0EA0 /* PiggyBankService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiggyBankService.swift; sourceTree = "<group>"; };
 		D2087603FA7FE424EDFE4F6C /* Stack2048GameOverOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack2048GameOverOverlay.swift; sourceTree = "<group>"; };
 		D253BE1CBD4D2C4040339A1A /* SudokuWinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudokuWinView.swift; sourceTree = "<group>"; };
 		D496DCD45796A8421B30757D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -293,6 +296,7 @@
 		ED1133E4D185142996F4229A /* DropRushEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropRushEngine.swift; sourceTree = "<group>"; };
 		EE85E1C3720E896AE1952804 /* Stack2048Engine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack2048Engine.swift; sourceTree = "<group>"; };
 		EF2E36518B56B0CBE6F507E6 /* LevelDefinitionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelDefinitionsTests.swift; sourceTree = "<group>"; };
+		F004BE52EA3F739EA1FE2ADC /* StarterPackService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterPackService.swift; sourceTree = "<group>"; };
 		F30003312D2F1D898BC50A42 /* Stack2048GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack2048GameState.swift; sourceTree = "<group>"; };
 		F30D3B8C1E089C80972F5904 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
 		F52B2AAA260BC203A59B36B3 /* SudokuLobbyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudokuLobbyViewModel.swift; sourceTree = "<group>"; };
@@ -804,6 +808,8 @@
 				75B705B3286804011E24CFB0 /* AdRewardTracker.swift */,
 				AFBD33FE6AC3BAB1D0BC8AAA /* DailyLoginRewardService.swift */,
 				547972F07FDBD578FA21E6E2 /* EconomyConfig.swift */,
+				D142D06519396488738C0EA0 /* PiggyBankService.swift */,
+				F004BE52EA3F739EA1FE2ADC /* StarterPackService.swift */,
 			);
 			path = Economy;
 			sourceTree = "<group>";
@@ -997,6 +1003,7 @@
 				78DC27F7F5F591BDFF1DA427 /* MonetizationConfig.swift in Sources */,
 				AFC7F383CCBDDF4C23A68535 /* PaywallView.swift in Sources */,
 				5E3F02D29DB4E4791A0357DE /* PersistenceService.swift in Sources */,
+				409609BD7B9994A2214CD950 /* PiggyBankService.swift in Sources */,
 				1AB89D37D3F206DCE5393BF6 /* PrimaryButton.swift in Sources */,
 				1032D031FD56E9EB1DBEC0D7 /* PuzzleBank.swift in Sources */,
 				40D240F17B4EBCC070691B5C /* RewardedAdCoordinator.swift in Sources */,
@@ -1025,6 +1032,7 @@
 				726CFB15B12A187D4F352061 /* Stack2048Tile.swift in Sources */,
 				2697E110C3DD578A9AF04635 /* Stack2048TileView.swift in Sources */,
 				18A7EDEF63E0B4B1E8DB6613 /* Stack2048WinOverlay.swift in Sources */,
+				E51A47E1EE661B0CB138D66F /* StarterPackService.swift in Sources */,
 				A81FF3C628B4CD96D1F95BFC /* StatisticsService.swift in Sources */,
 				74C45A439127DD1BEA636B82 /* StoreService.swift in Sources */,
 				DBD3760FA8B15D55E0A280B9 /* SudokuAudioConfig.swift in Sources */,

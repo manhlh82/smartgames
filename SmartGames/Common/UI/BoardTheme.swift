@@ -2,6 +2,17 @@ import SwiftUI
 
 // MARK: - Board Theme Name
 
+// MARK: - Cosmetic Rarity
+
+/// Controls how a theme is displayed in the store and which currency can purchase it.
+enum CosmeticRarity: Int {
+    case common     // Gold only (≤1000 gold)
+    case rare       // Gold or diamonds
+    case legendary  // Diamonds only — exclusive badge shown in store
+}
+
+// MARK: - Board Theme Name
+
 /// Identifiable theme names stored in persistence.
 /// Backward-compat: "classic" decodes as .light, "sepia" decodes as .brownishCalm.
 enum BoardThemeName: String, Codable, CaseIterable, Identifiable {
@@ -14,6 +25,9 @@ enum BoardThemeName: String, Codable, CaseIterable, Identifiable {
     case nature
     case cityscapes
     case snowy
+    // MARK: Legendary (diamonds only — premium exclusives)
+    case aurora         // deep blues + aurora greens
+    case neonCity       // dark neon synthwave palette
 
     var id: String { rawValue }
 
@@ -28,19 +42,41 @@ enum BoardThemeName: String, Codable, CaseIterable, Identifiable {
         case .nature:        return "Nature"
         case .cityscapes:    return "Cityscapes"
         case .snowy:         return "Snowy"
+        case .aurora:        return "Aurora"
+        case .neonCity:      return "Neon City"
         }
     }
 
     /// Free themes are always available; paid themes require Gold purchase.
     var isFree: Bool { self == .light || self == .dark }
 
-    /// Cost in Gold. Free themes cost 0.
+    /// Rarity tier — determines which currency can purchase the theme.
+    var rarity: CosmeticRarity {
+        switch self {
+        case .light, .dark:                                          return .common
+        case .cherry, .brownishCalm, .highContrast, .yellowPaper:   return .common
+        case .nature, .cityscapes, .snowy:                           return .rare
+        case .aurora, .neonCity:                                     return .legendary
+        }
+    }
+
+    /// Cost in Gold. 0 for free or legendary (diamond-only) themes.
     var price: Int {
         switch self {
-        case .light, .dark:                                  return 0
-        case .cherry, .brownishCalm, .highContrast, .yellowPaper: return 50
-        case .nature, .cityscapes:                           return 75
-        case .snowy:                                         return 100
+        case .light, .dark:                                          return 0
+        case .cherry, .brownishCalm, .highContrast, .yellowPaper:   return 500
+        case .nature, .cityscapes:                                   return 750
+        case .snowy:                                                 return 1000
+        case .aurora, .neonCity:                                     return 0   // diamonds only
+        }
+    }
+
+    /// Cost in Diamonds. nil for non-diamond themes.
+    var diamondPrice: Int? {
+        switch self {
+        case .aurora:    return 25
+        case .neonCity:  return 30
+        default:         return nil
         }
     }
 
@@ -99,6 +135,9 @@ extension BoardTheme {
         case .nature:       return .nature
         case .cityscapes:   return .cityscapes
         case .snowy:        return .snowy
+        // Legendary themes reuse existing palettes as placeholders until dedicated palettes are designed
+        case .aurora:       return .snowy
+        case .neonCity:     return .dark
         }
     }
 }

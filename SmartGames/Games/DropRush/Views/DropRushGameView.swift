@@ -19,7 +19,8 @@ struct DropRushGameView: View {
         analytics: AnalyticsService,
         gameCenter: GameCenterService,
         goldService: GoldService,
-        diamondService: DiamondService
+        diamondService: DiamondService,
+        piggyBank: PiggyBankService
     ) {
         _viewModel = StateObject(wrappedValue: DropRushGameViewModel(
             levelNumber: levelNumber,
@@ -30,7 +31,8 @@ struct DropRushGameView: View {
             analytics: analytics,
             gameCenter: gameCenter,
             goldService: goldService,
-            diamondService: diamondService
+            diamondService: diamondService,
+            piggyBank: piggyBank
         ))
     }
 

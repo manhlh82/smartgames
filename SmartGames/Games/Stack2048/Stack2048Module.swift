@@ -45,7 +45,8 @@ final class Stack2048Module: GameModule {
                 ads: environment.ads,
                 analytics: environment.analytics,
                 goldService: environment.gold,
-                diamondService: environment.diamonds
+                diamondService: environment.diamonds,
+                piggyBank: environment.piggyBank
             ))
         default:
             return nil
