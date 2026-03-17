@@ -1,0 +1,7894 @@
+{
+  "packId": "food-medium",
+  "title": "Flavor World",
+  "theme": "food",
+  "difficulty": "medium",
+  "boardSize": "standard",
+  "puzzleCount": 20,
+  "version": "1.0.0",
+  "createdAt": "2026-03-18",
+  "puzzles": [
+    {
+      "puzzleId": "food-medium-9x9-0001",
+      "seed": 1,
+      "theme": "food",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "R",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "T",
+          ""
+        ],
+        [
+          "H",
+          "A",
+          "M",
+          "B",
+          "U",
+          "R",
+          "G",
+          "E",
+          "R"
+        ],
+        [
+          "",
+          "S",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "P",
+          "",
+          "",
+          "",
+          "C",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "B",
+          "I",
+          "S",
+          "C",
+          "U",
+          "I",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "E",
+          "",
+          "",
+          "",
+          "R",
+          "",
+          "",
+          ""
+        ],
+        [
+          "A",
+          "R",
+          "R",
+          "O",
+          "W",
+          "R",
+          "O",
+          "O",
+          "T"
+        ],
+        [
+          "",
+          "R",
+          "",
+          "I",
+          "",
+          "Y",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Y",
+          "",
+          "L",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "BISCUIT",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "A cracker",
+          "softHints": {
+            "startsWith": "B",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "RASPBERRY",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 9,
+          "clue": "The plant Rubus idaeus",
+          "softHints": {
+            "startsWith": "R",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "ARROWROOT",
+          "direction": "across",
+          "row": 6,
+          "col": 0,
+          "length": 9,
+          "clue": "A starchy substance obtained from the rhizomes",
+          "softHints": {
+            "startsWith": "A",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "HAMBURGER",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 9,
+          "clue": "The patty used in such a sandwich",
+          "softHints": {
+            "startsWith": "H",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "CURRY",
+          "direction": "down",
+          "row": 3,
+          "col": 5,
+          "length": 5,
+          "clue": "A spiced sauce or relish, especially one flavored",
+          "softHints": {
+            "startsWith": "C",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "OIL",
+          "direction": "down",
+          "row": 6,
+          "col": 3,
+          "length": 3,
+          "clue": "Liquid fat",
+          "softHints": {
+            "startsWith": "O",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "TEA",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 3,
+          "clue": "The drink made by infusing these dried leaves",
+          "softHints": {
+            "startsWith": "T",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "The patty used in such a sandwich",
+            "answer": "HAMBURGER",
+            "length": 9
+          },
+          {
+            "number": 5,
+            "clue": "A cracker",
+            "answer": "BISCUIT",
+            "length": 7
+          },
+          {
+            "number": 6,
+            "clue": "A starchy substance obtained from the rhizomes",
+            "answer": "ARROWROOT",
+            "length": 9
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "The plant Rubus idaeus",
+            "answer": "RASPBERRY",
+            "length": 9
+          },
+          {
+            "number": 2,
+            "clue": "The drink made by infusing these dried leaves",
+            "answer": "TEA",
+            "length": 3
+          },
+          {
+            "number": 4,
+            "clue": "A spiced sauce or relish, especially one flavored",
+            "answer": "CURRY",
+            "length": 5
+          },
+          {
+            "number": 7,
+            "clue": "Liquid fat",
+            "answer": "OIL",
+            "length": 3
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "food",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 7,
+        "boardScore": 0.5363
+      }
+    },
+    {
+      "puzzleId": "food-medium-9x9-0002",
+      "seed": 2,
+      "theme": "food",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "R",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "T",
+          ""
+        ],
+        [
+          "H",
+          "A",
+          "M",
+          "B",
+          "U",
+          "R",
+          "G",
+          "E",
+          "R"
+        ],
+        [
+          "",
+          "S",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "P",
+          "",
+          "",
+          "",
+          "C",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "B",
+          "I",
+          "S",
+          "C",
+          "U",
+          "I",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "E",
+          "",
+          "",
+          "",
+          "R",
+          "",
+          "",
+          ""
+        ],
+        [
+          "A",
+          "R",
+          "R",
+          "O",
+          "W",
+          "R",
+          "O",
+          "O",
+          "T"
+        ],
+        [
+          "",
+          "R",
+          "",
+          "I",
+          "",
+          "Y",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Y",
+          "",
+          "L",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "BISCUIT",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "A cracker",
+          "softHints": {
+            "startsWith": "B",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "RASPBERRY",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 9,
+          "clue": "The plant Rubus idaeus",
+          "softHints": {
+            "startsWith": "R",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "ARROWROOT",
+          "direction": "across",
+          "row": 6,
+          "col": 0,
+          "length": 9,
+          "clue": "A starchy substance obtained from the rhizomes",
+          "softHints": {
+            "startsWith": "A",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "HAMBURGER",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 9,
+          "clue": "The patty used in such a sandwich",
+          "softHints": {
+            "startsWith": "H",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "CURRY",
+          "direction": "down",
+          "row": 3,
+          "col": 5,
+          "length": 5,
+          "clue": "A spiced sauce or relish, especially one flavored",
+          "softHints": {
+            "startsWith": "C",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "OIL",
+          "direction": "down",
+          "row": 6,
+          "col": 3,
+          "length": 3,
+          "clue": "Liquid fat",
+          "softHints": {
+            "startsWith": "O",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "TEA",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 3,
+          "clue": "The drink made by infusing these dried leaves",
+          "softHints": {
+            "startsWith": "T",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "The patty used in such a sandwich",
+            "answer": "HAMBURGER",
+            "length": 9
+          },
+          {
+            "number": 5,
+            "clue": "A cracker",
+            "answer": "BISCUIT",
+            "length": 7
+          },
+          {
+            "number": 6,
+            "clue": "A starchy substance obtained from the rhizomes",
+            "answer": "ARROWROOT",
+            "length": 9
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "The plant Rubus idaeus",
+            "answer": "RASPBERRY",
+            "length": 9
+          },
+          {
+            "number": 2,
+            "clue": "The drink made by infusing these dried leaves",
+            "answer": "TEA",
+            "length": 3
+          },
+          {
+            "number": 4,
+            "clue": "A spiced sauce or relish, especially one flavored",
+            "answer": "CURRY",
+            "length": 5
+          },
+          {
+            "number": 7,
+            "clue": "Liquid fat",
+            "answer": "OIL",
+            "length": 3
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "food",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 7,
+        "boardScore": 0.5363
+      }
+    },
+    {
+      "puzzleId": "food-medium-9x9-0003",
+      "seed": 3,
+      "theme": "food",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "R",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "T",
+          ""
+        ],
+        [
+          "H",
+          "A",
+          "M",
+          "B",
+          "U",
+          "R",
+          "G",
+          "E",
+          "R"
+        ],
+        [
+          "",
+          "S",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "P",
+          "",
+          "",
+          "",
+          "C",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "B",
+          "I",
+          "S",
+          "C",
+          "U",
+          "I",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "E",
+          "",
+          "",
+          "",
+          "R",
+          "",
+          "",
+          ""
+        ],
+        [
+          "A",
+          "R",
+          "R",
+          "O",
+          "W",
+          "R",
+          "O",
+          "O",
+          "T"
+        ],
+        [
+          "",
+          "R",
+          "",
+          "I",
+          "",
+          "Y",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Y",
+          "",
+          "L",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "BISCUIT",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "A cracker",
+          "softHints": {
+            "startsWith": "B",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "RASPBERRY",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 9,
+          "clue": "The plant Rubus idaeus",
+          "softHints": {
+            "startsWith": "R",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "ARROWROOT",
+          "direction": "across",
+          "row": 6,
+          "col": 0,
+          "length": 9,
+          "clue": "A starchy substance obtained from the rhizomes",
+          "softHints": {
+            "startsWith": "A",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "HAMBURGER",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 9,
+          "clue": "The patty used in such a sandwich",
+          "softHints": {
+            "startsWith": "H",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "CURRY",
+          "direction": "down",
+          "row": 3,
+          "col": 5,
+          "length": 5,
+          "clue": "A spiced sauce or relish, especially one flavored",
+          "softHints": {
+            "startsWith": "C",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "OIL",
+          "direction": "down",
+          "row": 6,
+          "col": 3,
+          "length": 3,
+          "clue": "Liquid fat",
+          "softHints": {
+            "startsWith": "O",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "TEA",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 3,
+          "clue": "The drink made by infusing these dried leaves",
+          "softHints": {
+            "startsWith": "T",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "The patty used in such a sandwich",
+            "answer": "HAMBURGER",
+            "length": 9
+          },
+          {
+            "number": 5,
+            "clue": "A cracker",
+            "answer": "BISCUIT",
+            "length": 7
+          },
+          {
+            "number": 6,
+            "clue": "A starchy substance obtained from the rhizomes",
+            "answer": "ARROWROOT",
+            "length": 9
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "The plant Rubus idaeus",
+            "answer": "RASPBERRY",
+            "length": 9
+          },
+          {
+            "number": 2,
+            "clue": "The drink made by infusing these dried leaves",
+            "answer": "TEA",
+            "length": 3
+          },
+          {
+            "number": 4,
+            "clue": "A spiced sauce or relish, especially one flavored",
+            "answer": "CURRY",
+            "length": 5
+          },
+          {
+            "number": 7,
+            "clue": "Liquid fat",
+            "answer": "OIL",
+            "length": 3
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "food",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 7,
+        "boardScore": 0.5363
+      }
+    },
+    {
+      "puzzleId": "food-medium-9x9-0004",
+      "seed": 4,
+      "theme": "food",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "I",
+          "",
+          "P",
+          "",
+          "H",
+          "",
+          ""
+        ],
+        [
+          "E",
+          "N",
+          "C",
+          "H",
+          "I",
+          "L",
+          "A",
+          "D",
+          "A"
+        ],
+        [
+          "",
+          "",
+          "E",
+          "",
+          "E",
+          "",
+          "M",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "B",
+          "",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "O",
+          "C",
+          "O",
+          "N",
+          "U",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "U",
+          "",
+          "",
+          "R",
+          "",
+          ""
+        ],
+        [
+          "",
+          "T",
+          "A",
+          "R",
+          "R",
+          "A",
+          "G",
+          "O",
+          "N"
+        ],
+        [
+          "",
+          "E",
+          "",
+          "R",
+          "",
+          "",
+          "E",
+          "",
+          ""
+        ],
+        [
+          "",
+          "A",
+          "",
+          "Y",
+          "",
+          "",
+          "R",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "COCONUT",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "The edible white flesh of this fruit",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "HAMBURGER",
+          "direction": "down",
+          "row": 0,
+          "col": 6,
+          "length": 9,
+          "clue": "The patty used in such a sandwich",
+          "softHints": {
+            "startsWith": "H",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "ENCHILADA",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 9,
+          "clue": "A Mexican dish made by wrapping a filling",
+          "softHints": {
+            "startsWith": "E",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "TARRAGON",
+          "direction": "across",
+          "row": 6,
+          "col": 1,
+          "length": 8,
+          "clue": "A perennial herb, the wormwood species Artemisia dracunculus,",
+          "softHints": {
+            "startsWith": "T",
+            "length": 8,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "CURRY",
+          "direction": "down",
+          "row": 4,
+          "col": 3,
+          "length": 5,
+          "clue": "A spiced sauce or relish, especially one flavored",
+          "softHints": {
+            "startsWith": "C",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "TEA",
+          "direction": "down",
+          "row": 6,
+          "col": 1,
+          "length": 3,
+          "clue": "The drink made by infusing these dried leaves",
+          "softHints": {
+            "startsWith": "T",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "ICE",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "clue": "Water in frozen form",
+          "softHints": {
+            "startsWith": "I",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "PIE",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "clue": "A pizza",
+          "softHints": {
+            "startsWith": "P",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "A Mexican dish made by wrapping a filling",
+            "answer": "ENCHILADA",
+            "length": 9
+          },
+          {
+            "number": 5,
+            "clue": "The edible white flesh of this fruit",
+            "answer": "COCONUT",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "A perennial herb, the wormwood species Artemisia dracunculus,",
+            "answer": "TARRAGON",
+            "length": 8
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Water in frozen form",
+            "answer": "ICE",
+            "length": 3
+          },
+          {
+            "number": 2,
+            "clue": "A pizza",
+            "answer": "PIE",
+            "length": 3
+          },
+          {
+            "number": 3,
+            "clue": "The patty used in such a sandwich",
+            "answer": "HAMBURGER",
+            "length": 9
+          },
+          {
+            "number": 6,
+            "clue": "A spiced sauce or relish, especially one flavored",
+            "answer": "CURRY",
+            "length": 5
+          },
+          {
+            "number": 7,
+            "clue": "The drink made by infusing these dried leaves",
+            "answer": "TEA",
+            "length": 3
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "food",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 8,
+        "intersections": 8,
+        "boardScore": 0.5663
+      }
+    },
+    {
+      "puzzleId": "food-medium-9x9-0005",
+      "seed": 5,
+      "theme": "food",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "I",
+          "",
+          "P",
+          "",
+          "H",
+          "",
+          ""
+        ],
+        [
+          "E",
+          "N",
+          "C",
+          "H",
+          "I",
+          "L",
+          "A",
+          "D",
+          "A"
+        ],
+        [
+          "",
+          "",
+          "E",
+          "",
+          "E",
+          "",
+          "M",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "B",
+          "",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "O",
+          "C",
+          "O",
+          "N",
+          "U",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "U",
+          "",
+          "",
+          "R",
+          "",
+          ""
+        ],
+        [
+          "",
+          "T",
+          "A",
+          "R",
+          "R",
+          "A",
+          "G",
+          "O",
+          "N"
+        ],
+        [
+          "",
+          "E",
+          "",
+          "R",
+          "",
+          "",
+          "E",
+          "",
+          ""
+        ],
+        [
+          "",
+          "A",
+          "",
+          "Y",
+          "",
+          "",
+          "R",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "COCONUT",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "The edible white flesh of this fruit",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "HAMBURGER",
+          "direction": "down",
+          "row": 0,
+          "col": 6,
+          "length": 9,
+          "clue": "The patty used in such a sandwich",
+          "softHints": {
+            "startsWith": "H",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "ENCHILADA",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 9,
+          "clue": "A Mexican dish made by wrapping a filling",
+          "softHints": {
+            "startsWith": "E",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "TARRAGON",
+          "direction": "across",
+          "row": 6,
+          "col": 1,
+          "length": 8,
+          "clue": "A perennial herb, the wormwood species Artemisia dracunculus,",
+          "softHints": {
+            "startsWith": "T",
+            "length": 8,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "CURRY",
+          "direction": "down",
+          "row": 4,
+          "col": 3,
+          "length": 5,
+          "clue": "A spiced sauce or relish, especially one flavored",
+          "softHints": {
+            "startsWith": "C",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "TEA",
+          "direction": "down",
+          "row": 6,
+          "col": 1,
+          "length": 3,
+          "clue": "The drink made by infusing these dried leaves",
+          "softHints": {
+            "startsWith": "T",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "ICE",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "clue": "Water in frozen form",
+          "softHints": {
+            "startsWith": "I",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "PIE",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "clue": "A pizza",
+          "softHints": {
+            "startsWith": "P",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "A Mexican dish made by wrapping a filling",
+            "answer": "ENCHILADA",
+            "length": 9
+          },
+          {
+            "number": 5,
+            "clue": "The edible white flesh of this fruit",
+            "answer": "COCONUT",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "A perennial herb, the wormwood species Artemisia dracunculus,",
+            "answer": "TARRAGON",
+            "length": 8
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Water in frozen form",
+            "answer": "ICE",
+            "length": 3
+          },
+          {
+            "number": 2,
+            "clue": "A pizza",
+            "answer": "PIE",
+            "length": 3
+          },
+          {
+            "number": 3,
+            "clue": "The patty used in such a sandwich",
+            "answer": "HAMBURGER",
+            "length": 9
+          },
+          {
+            "number": 6,
+            "clue": "A spiced sauce or relish, especially one flavored",
+            "answer": "CURRY",
+            "length": 5
+          },
+          {
+            "number": 7,
+            "clue": "The drink made by infusing these dried leaves",
+            "answer": "TEA",
+            "length": 3
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "food",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 8,
+        "intersections": 8,
+        "boardScore": 0.5663
+      }
+    },
+    {
+      "puzzleId": "food-medium-9x9-0006",
+      "seed": 6,
+      "theme": "food",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "I",
+          "",
+          "P",
+          "",
+          "H",
+          "",
+          ""
+        ],
+        [
+          "E",
+          "N",
+          "C",
+          "H",
+          "I",
+          "L",
+          "A",
+          "D",
+          "A"
+        ],
+        [
+          "",
+          "",
+          "E",
+          "",
+          "E",
+          "",
+          "M",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "B",
+          "",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "O",
+          "C",
+          "O",
+          "N",
+          "U",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "U",
+          "",
+          "",
+          "R",
+          "",
+          ""
+        ],
+        [
+          "",
+          "T",
+          "A",
+          "R",
+          "R",
+          "A",
+          "G",
+          "O",
+          "N"
+        ],
+        [
+          "",
+          "E",
+          "",
+          "R",
+          "",
+          "",
+          "E",
+          "",
+          ""
+        ],
+        [
+          "",
+          "A",
+          "",
+          "Y",
+          "",
+          "",
+          "R",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "COCONUT",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "The edible white flesh of this fruit",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "HAMBURGER",
+          "direction": "down",
+          "row": 0,
+          "col": 6,
+          "length": 9,
+          "clue": "The patty used in such a sandwich",
+          "softHints": {
+            "startsWith": "H",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "ENCHILADA",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 9,
+          "clue": "A Mexican dish made by wrapping a filling",
+          "softHints": {
+            "startsWith": "E",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "TARRAGON",
+          "direction": "across",
+          "row": 6,
+          "col": 1,
+          "length": 8,
+          "clue": "A perennial herb, the wormwood species Artemisia dracunculus,",
+          "softHints": {
+            "startsWith": "T",
+            "length": 8,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "CURRY",
+          "direction": "down",
+          "row": 4,
+          "col": 3,
+          "length": 5,
+          "clue": "A spiced sauce or relish, especially one flavored",
+          "softHints": {
+            "startsWith": "C",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "TEA",
+          "direction": "down",
+          "row": 6,
+          "col": 1,
+          "length": 3,
+          "clue": "The drink made by infusing these dried leaves",
+          "softHints": {
+            "startsWith": "T",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "ICE",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "clue": "Water in frozen form",
+          "softHints": {
+            "startsWith": "I",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "PIE",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "clue": "A pizza",
+          "softHints": {
+            "startsWith": "P",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "A Mexican dish made by wrapping a filling",
+            "answer": "ENCHILADA",
+            "length": 9
+          },
+          {
+            "number": 5,
+            "clue": "The edible white flesh of this fruit",
+            "answer": "COCONUT",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "A perennial herb, the wormwood species Artemisia dracunculus,",
+            "answer": "TARRAGON",
+            "length": 8
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Water in frozen form",
+            "answer": "ICE",
+            "length": 3
+          },
+          {
+            "number": 2,
+            "clue": "A pizza",
+            "answer": "PIE",
+            "length": 3
+          },
+          {
+            "number": 3,
+            "clue": "The patty used in such a sandwich",
+            "answer": "HAMBURGER",
+            "length": 9
+          },
+          {
+            "number": 6,
+            "clue": "A spiced sauce or relish, especially one flavored",
+            "answer": "CURRY",
+            "length": 5
+          },
+          {
+            "number": 7,
+            "clue": "The drink made by infusing these dried leaves",
+            "answer": "TEA",
+            "length": 3
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "food",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 8,
+        "intersections": 8,
+        "boardScore": 0.5663
+      }
+    },
+    {
+      "puzzleId": "food-medium-9x9-0007",
+      "seed": 7,
+      "theme": "food",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "I",
+          "",
+          "P",
+          "",
+          "H",
+          "",
+          ""
+        ],
+        [
+          "E",
+          "N",
+          "C",
+          "H",
+          "I",
+          "L",
+          "A",
+          "D",
+          "A"
+        ],
+        [
+          "",
+          "",
+          "E",
+          "",
+          "E",
+          "",
+          "M",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "B",
+          "",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "O",
+          "C",
+          "O",
+          "N",
+          "U",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "U",
+          "",
+          "",
+          "R",
+          "",
+          ""
+        ],
+        [
+          "",
+          "T",
+          "A",
+          "R",
+          "R",
+          "A",
+          "G",
+          "O",
+          "N"
+        ],
+        [
+          "",
+          "E",
+          "",
+          "R",
+          "",
+          "",
+          "E",
+          "",
+          ""
+        ],
+        [
+          "",
+          "A",
+          "",
+          "Y",
+          "",
+          "",
+          "R",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "COCONUT",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "The edible white flesh of this fruit",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "HAMBURGER",
+          "direction": "down",
+          "row": 0,
+          "col": 6,
+          "length": 9,
+          "clue": "The patty used in such a sandwich",
+          "softHints": {
+            "startsWith": "H",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "ENCHILADA",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 9,
+          "clue": "A Mexican dish made by wrapping a filling",
+          "softHints": {
+            "startsWith": "E",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "TARRAGON",
+          "direction": "across",
+          "row": 6,
+          "col": 1,
+          "length": 8,
+          "clue": "A perennial herb, the wormwood species Artemisia dracunculus,",
+          "softHints": {
+            "startsWith": "T",
+            "length": 8,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "CURRY",
+          "direction": "down",
+          "row": 4,
+          "col": 3,
+          "length": 5,
+          "clue": "A spiced sauce or relish, especially one flavored",
+          "softHints": {
+            "startsWith": "C",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "TEA",
+          "direction": "down",
+          "row": 6,
+          "col": 1,
+          "length": 3,
+          "clue": "The drink made by infusing these dried leaves",
+          "softHints": {
+            "startsWith": "T",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "ICE",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "clue": "Water in frozen form",
+          "softHints": {
+            "startsWith": "I",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "PIE",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "clue": "A pizza",
+          "softHints": {
+            "startsWith": "P",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "A Mexican dish made by wrapping a filling",
+            "answer": "ENCHILADA",
+            "length": 9
+          },
+          {
+            "number": 5,
+            "clue": "The edible white flesh of this fruit",
+            "answer": "COCONUT",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "A perennial herb, the wormwood species Artemisia dracunculus,",
+            "answer": "TARRAGON",
+            "length": 8
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Water in frozen form",
+            "answer": "ICE",
+            "length": 3
+          },
+          {
+            "number": 2,
+            "clue": "A pizza",
+            "answer": "PIE",
+            "length": 3
+          },
+          {
+            "number": 3,
+            "clue": "The patty used in such a sandwich",
+            "answer": "HAMBURGER",
+            "length": 9
+          },
+          {
+            "number": 6,
+            "clue": "A spiced sauce or relish, especially one flavored",
+            "answer": "CURRY",
+            "length": 5
+          },
+          {
+            "number": 7,
+            "clue": "The drink made by infusing these dried leaves",
+            "answer": "TEA",
+            "length": 3
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "food",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 8,
+        "intersections": 8,
+        "boardScore": 0.5663
+      }
+    },
+    {
+      "puzzleId": "food-medium-9x9-0008",
+      "seed": 8,
+      "theme": "food",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "P",
+          "",
+          "C",
+          "",
+          "T",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "I",
+          "",
+          "R",
+          "",
+          "A",
+          "",
+          ""
+        ],
+        [
+          "M",
+          "A",
+          "N",
+          "G",
+          "O",
+          "",
+          "N",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "E",
+          "",
+          "I",
+          "",
+          "G",
+          "",
+          ""
+        ],
+        [
+          "",
+          "P",
+          "A",
+          "R",
+          "S",
+          "L",
+          "E",
+          "Y",
+          ""
+        ],
+        [
+          "",
+          "",
+          "P",
+          "",
+          "S",
+          "",
+          "R",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "P",
+          "",
+          "A",
+          "",
+          "I",
+          "C",
+          "E"
+        ],
+        [
+          "M",
+          "E",
+          "L",
+          "O",
+          "N",
+          "",
+          "N",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "E",
+          "",
+          "T",
+          "",
+          "E",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "PARSLEY",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "A bright green, biennial herb, Petroselinum crispum, having many cultivars",
+          "softHints": {
+            "startsWith": "P",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "CROISSANT",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 9,
+          "clue": "A flaky roll or pastry in a form",
+          "softHints": {
+            "startsWith": "C",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "PINEAPPLE",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 9,
+          "clue": "A tropical plant, Ananas comosus, native to South",
+          "softHints": {
+            "startsWith": "P",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "TANGERINE",
+          "direction": "down",
+          "row": 0,
+          "col": 6,
+          "length": 9,
+          "clue": "A tree that produces tangerines",
+          "softHints": {
+            "startsWith": "T",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "MELON",
+          "direction": "across",
+          "row": 7,
+          "col": 0,
+          "length": 5,
+          "clue": "Some of the plants of the family Cucurbitaceae",
+          "softHints": {
+            "startsWith": "M",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "MANGO",
+          "direction": "across",
+          "row": 2,
+          "col": 0,
+          "length": 5,
+          "clue": "A tropical Asian fruit tree, Mangifera indica",
+          "softHints": {
+            "startsWith": "M",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "ICE",
+          "direction": "across",
+          "row": 6,
+          "col": 6,
+          "length": 3,
+          "clue": "Water in frozen form",
+          "softHints": {
+            "startsWith": "I",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "A tropical Asian fruit tree, Mangifera indica",
+            "answer": "MANGO",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "A bright green, biennial herb, Petroselinum crispum, having many cultivars",
+            "answer": "PARSLEY",
+            "length": 7
+          },
+          {
+            "number": 6,
+            "clue": "Water in frozen form",
+            "answer": "ICE",
+            "length": 3
+          },
+          {
+            "number": 7,
+            "clue": "Some of the plants of the family Cucurbitaceae",
+            "answer": "MELON",
+            "length": 5
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A tropical plant, Ananas comosus, native to South",
+            "answer": "PINEAPPLE",
+            "length": 9
+          },
+          {
+            "number": 2,
+            "clue": "A flaky roll or pastry in a form",
+            "answer": "CROISSANT",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "A tree that produces tangerines",
+            "answer": "TANGERINE",
+            "length": 9
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "food",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 8,
+        "boardScore": 0.5388
+      }
+    },
+    {
+      "puzzleId": "food-medium-9x9-0009",
+      "seed": 9,
+      "theme": "food",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "G",
+          "",
+          "",
+          "T",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "R",
+          "",
+          "",
+          "A",
+          "",
+          "",
+          ""
+        ],
+        [
+          "S",
+          "E",
+          "A",
+          "S",
+          "O",
+          "N",
+          "I",
+          "N",
+          "G"
+        ],
+        [
+          "",
+          "",
+          "P",
+          "",
+          "",
+          "G",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "D",
+          "E",
+          "S",
+          "S",
+          "E",
+          "R",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "R",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "S",
+          "",
+          "P",
+          "",
+          "I",
+          "",
+          "T",
+          ""
+        ],
+        [
+          "C",
+          "O",
+          "R",
+          "I",
+          "A",
+          "N",
+          "D",
+          "E",
+          "R"
+        ],
+        [
+          "",
+          "Y",
+          "",
+          "E",
+          "",
+          "E",
+          "",
+          "A",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "DESSERT",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "A sweet dish or confection served as",
+          "softHints": {
+            "startsWith": "D",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "TANGERINE",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 9,
+          "clue": "A tree that produces tangerines",
+          "softHints": {
+            "startsWith": "T",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "SEASONING",
+          "direction": "across",
+          "row": 2,
+          "col": 0,
+          "length": 9,
+          "clue": "Anything added to increase enjoyment",
+          "softHints": {
+            "startsWith": "S",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 8,
+          "answer": "CORIANDER",
+          "direction": "across",
+          "row": 7,
+          "col": 0,
+          "length": 9,
+          "clue": "The dried fruits thereof, used as a spice",
+          "softHints": {
+            "startsWith": "C",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "GRAPE",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "clue": "A woody vine of genus Vitis that bears",
+          "softHints": {
+            "startsWith": "G",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 5,
+          "answer": "SOY",
+          "direction": "down",
+          "row": 6,
+          "col": 1,
+          "length": 3,
+          "clue": "A common East Asian liquid sauce, made",
+          "softHints": {
+            "startsWith": "S",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "PIE",
+          "direction": "down",
+          "row": 6,
+          "col": 3,
+          "length": 3,
+          "clue": "A pizza",
+          "softHints": {
+            "startsWith": "P",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "TEA",
+          "direction": "down",
+          "row": 6,
+          "col": 7,
+          "length": 3,
+          "clue": "The drink made by infusing these dried leaves",
+          "softHints": {
+            "startsWith": "T",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "Anything added to increase enjoyment",
+            "answer": "SEASONING",
+            "length": 9
+          },
+          {
+            "number": 4,
+            "clue": "A sweet dish or confection served as",
+            "answer": "DESSERT",
+            "length": 7
+          },
+          {
+            "number": 8,
+            "clue": "The dried fruits thereof, used as a spice",
+            "answer": "CORIANDER",
+            "length": 9
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A woody vine of genus Vitis that bears",
+            "answer": "GRAPE",
+            "length": 5
+          },
+          {
+            "number": 2,
+            "clue": "A tree that produces tangerines",
+            "answer": "TANGERINE",
+            "length": 9
+          },
+          {
+            "number": 5,
+            "clue": "A common East Asian liquid sauce, made",
+            "answer": "SOY",
+            "length": 3
+          },
+          {
+            "number": 6,
+            "clue": "A pizza",
+            "answer": "PIE",
+            "length": 3
+          },
+          {
+            "number": 7,
+            "clue": "The drink made by infusing these dried leaves",
+            "answer": "TEA",
+            "length": 3
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "food",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 8,
+        "intersections": 8,
+        "boardScore": 0.5688
+      }
+    },
+    {
+      "puzzleId": "food-medium-9x9-0010",
+      "seed": 10,
+      "theme": "food",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "G",
+          "",
+          "",
+          "T",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "R",
+          "",
+          "",
+          "A",
+          "",
+          "",
+          ""
+        ],
+        [
+          "S",
+          "E",
+          "A",
+          "S",
+          "O",
+          "N",
+          "I",
+          "N",
+          "G"
+        ],
+        [
+          "",
+          "",
+          "P",
+          "",
+          "",
+          "G",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "D",
+          "E",
+          "S",
+          "S",
+          "E",
+          "R",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "R",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "S",
+          "",
+          "P",
+          "",
+          "I",
+          "",
+          "T",
+          ""
+        ],
+        [
+          "C",
+          "O",
+          "R",
+          "I",
+          "A",
+          "N",
+          "D",
+          "E",
+          "R"
+        ],
+        [
+          "",
+          "Y",
+          "",
+          "E",
+          "",
+          "E",
+          "",
+          "A",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "DESSERT",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "A sweet dish or confection served as",
+          "softHints": {
+            "startsWith": "D",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "TANGERINE",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 9,
+          "clue": "A tree that produces tangerines",
+          "softHints": {
+            "startsWith": "T",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "SEASONING",
+          "direction": "across",
+          "row": 2,
+          "col": 0,
+          "length": 9,
+          "clue": "Anything added to increase enjoyment",
+          "softHints": {
+            "startsWith": "S",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 8,
+          "answer": "CORIANDER",
+          "direction": "across",
+          "row": 7,
+          "col": 0,
+          "length": 9,
+          "clue": "The dried fruits thereof, used as a spice",
+          "softHints": {
+            "startsWith": "C",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "GRAPE",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "clue": "A woody vine of genus Vitis that bears",
+          "softHints": {
+            "startsWith": "G",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 5,
+          "answer": "SOY",
+          "direction": "down",
+          "row": 6,
+          "col": 1,
+          "length": 3,
+          "clue": "A common East Asian liquid sauce, made",
+          "softHints": {
+            "startsWith": "S",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "PIE",
+          "direction": "down",
+          "row": 6,
+          "col": 3,
+          "length": 3,
+          "clue": "A pizza",
+          "softHints": {
+            "startsWith": "P",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "TEA",
+          "direction": "down",
+          "row": 6,
+          "col": 7,
+          "length": 3,
+          "clue": "The drink made by infusing these dried leaves",
+          "softHints": {
+            "startsWith": "T",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "Anything added to increase enjoyment",
+            "answer": "SEASONING",
+            "length": 9
+          },
+          {
+            "number": 4,
+            "clue": "A sweet dish or confection served as",
+            "answer": "DESSERT",
+            "length": 7
+          },
+          {
+            "number": 8,
+            "clue": "The dried fruits thereof, used as a spice",
+            "answer": "CORIANDER",
+            "length": 9
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A woody vine of genus Vitis that bears",
+            "answer": "GRAPE",
+            "length": 5
+          },
+          {
+            "number": 2,
+            "clue": "A tree that produces tangerines",
+            "answer": "TANGERINE",
+            "length": 9
+          },
+          {
+            "number": 5,
+            "clue": "A common East Asian liquid sauce, made",
+            "answer": "SOY",
+            "length": 3
+          },
+          {
+            "number": 6,
+            "clue": "A pizza",
+            "answer": "PIE",
+            "length": 3
+          },
+          {
+            "number": 7,
+            "clue": "The drink made by infusing these dried leaves",
+            "answer": "TEA",
+            "length": 3
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "food",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 8,
+        "intersections": 8,
+        "boardScore": 0.5688
+      }
+    },
+    {
+      "puzzleId": "food-medium-9x9-0011",
+      "seed": 11,
+      "theme": "food",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "G",
+          "",
+          "",
+          "T",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "R",
+          "",
+          "",
+          "A",
+          "",
+          "",
+          ""
+        ],
+        [
+          "S",
+          "E",
+          "A",
+          "S",
+          "O",
+          "N",
+          "I",
+          "N",
+          "G"
+        ],
+        [
+          "",
+          "",
+          "P",
+          "",
+          "",
+          "G",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "D",
+          "E",
+          "S",
+          "S",
+          "E",
+          "R",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "R",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "S",
+          "",
+          "P",
+          "",
+          "I",
+          "",
+          "T",
+          ""
+        ],
+        [
+          "C",
+          "O",
+          "R",
+          "I",
+          "A",
+          "N",
+          "D",
+          "E",
+          "R"
+        ],
+        [
+          "",
+          "Y",
+          "",
+          "E",
+          "",
+          "E",
+          "",
+          "A",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "DESSERT",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "A sweet dish or confection served as",
+          "softHints": {
+            "startsWith": "D",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "TANGERINE",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 9,
+          "clue": "A tree that produces tangerines",
+          "softHints": {
+            "startsWith": "T",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "SEASONING",
+          "direction": "across",
+          "row": 2,
+          "col": 0,
+          "length": 9,
+          "clue": "Anything added to increase enjoyment",
+          "softHints": {
+            "startsWith": "S",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 8,
+          "answer": "CORIANDER",
+          "direction": "across",
+          "row": 7,
+          "col": 0,
+          "length": 9,
+          "clue": "The dried fruits thereof, used as a spice",
+          "softHints": {
+            "startsWith": "C",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "GRAPE",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "clue": "A woody vine of genus Vitis that bears",
+          "softHints": {
+            "startsWith": "G",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 5,
+          "answer": "SOY",
+          "direction": "down",
+          "row": 6,
+          "col": 1,
+          "length": 3,
+          "clue": "A common East Asian liquid sauce, made",
+          "softHints": {
+            "startsWith": "S",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "PIE",
+          "direction": "down",
+          "row": 6,
+          "col": 3,
+          "length": 3,
+          "clue": "A pizza",
+          "softHints": {
+            "startsWith": "P",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "TEA",
+          "direction": "down",
+          "row": 6,
+          "col": 7,
+          "length": 3,
+          "clue": "The drink made by infusing these dried leaves",
+          "softHints": {
+            "startsWith": "T",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "Anything added to increase enjoyment",
+            "answer": "SEASONING",
+            "length": 9
+          },
+          {
+            "number": 4,
+            "clue": "A sweet dish or confection served as",
+            "answer": "DESSERT",
+            "length": 7
+          },
+          {
+            "number": 8,
+            "clue": "The dried fruits thereof, used as a spice",
+            "answer": "CORIANDER",
+            "length": 9
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A woody vine of genus Vitis that bears",
+            "answer": "GRAPE",
+            "length": 5
+          },
+          {
+            "number": 2,
+            "clue": "A tree that produces tangerines",
+            "answer": "TANGERINE",
+            "length": 9
+          },
+          {
+            "number": 5,
+            "clue": "A common East Asian liquid sauce, made",
+            "answer": "SOY",
+            "length": 3
+          },
+          {
+            "number": 6,
+            "clue": "A pizza",
+            "answer": "PIE",
+            "length": 3
+          },
+          {
+            "number": 7,
+            "clue": "The drink made by infusing these dried leaves",
+            "answer": "TEA",
+            "length": 3
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "food",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 8,
+        "intersections": 8,
+        "boardScore": 0.5688
+      }
+    },
+    {
+      "puzzleId": "food-medium-9x9-0012",
+      "seed": 12,
+      "theme": "food",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "M",
+          "",
+          "",
+          "E",
+          "",
+          "P",
+          ""
+        ],
+        [
+          "",
+          "",
+          "A",
+          "",
+          "",
+          "N",
+          "",
+          "I",
+          ""
+        ],
+        [
+          "L",
+          "A",
+          "R",
+          "D",
+          "",
+          "C",
+          "",
+          "N",
+          ""
+        ],
+        [
+          "",
+          "",
+          "G",
+          "",
+          "",
+          "H",
+          "",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "P",
+          "A",
+          "P",
+          "R",
+          "I",
+          "K",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "",
+          "R",
+          "",
+          "",
+          "L",
+          "",
+          "P",
+          ""
+        ],
+        [
+          "",
+          "O",
+          "I",
+          "L",
+          "",
+          "A",
+          "",
+          "P",
+          ""
+        ],
+        [
+          "",
+          "",
+          "N",
+          "",
+          "",
+          "D",
+          "I",
+          "L",
+          "L"
+        ],
+        [
+          "",
+          "",
+          "E",
+          "",
+          "",
+          "A",
+          "",
+          "E",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "PAPRIKA",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "A variety of the spice",
+          "softHints": {
+            "startsWith": "P",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "MARGARINE",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 9,
+          "clue": "The solid ingredient of human fat, olive oil, etc",
+          "softHints": {
+            "startsWith": "M",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "PINEAPPLE",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 9,
+          "clue": "A tropical plant, Ananas comosus, native to South",
+          "softHints": {
+            "startsWith": "P",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "ENCHILADA",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 9,
+          "clue": "A Mexican dish made by wrapping a filling",
+          "softHints": {
+            "startsWith": "E",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "DILL",
+          "direction": "across",
+          "row": 7,
+          "col": 5,
+          "length": 4,
+          "clue": "Anethum graveolens , a herb, the seeds",
+          "softHints": {
+            "startsWith": "D",
+            "length": 4,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "LARD",
+          "direction": "across",
+          "row": 2,
+          "col": 0,
+          "length": 4,
+          "clue": "Excess fat on a person or animal",
+          "softHints": {
+            "startsWith": "L",
+            "length": 4,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "OIL",
+          "direction": "across",
+          "row": 6,
+          "col": 1,
+          "length": 3,
+          "clue": "Liquid fat",
+          "softHints": {
+            "startsWith": "O",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "Excess fat on a person or animal",
+            "answer": "LARD",
+            "length": 4
+          },
+          {
+            "number": 5,
+            "clue": "A variety of the spice",
+            "answer": "PAPRIKA",
+            "length": 7
+          },
+          {
+            "number": 6,
+            "clue": "Liquid fat",
+            "answer": "OIL",
+            "length": 3
+          },
+          {
+            "number": 7,
+            "clue": "Anethum graveolens , a herb, the seeds",
+            "answer": "DILL",
+            "length": 4
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "The solid ingredient of human fat, olive oil, etc",
+            "answer": "MARGARINE",
+            "length": 9
+          },
+          {
+            "number": 2,
+            "clue": "A Mexican dish made by wrapping a filling",
+            "answer": "ENCHILADA",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "A tropical plant, Ananas comosus, native to South",
+            "answer": "PINEAPPLE",
+            "length": 9
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "food",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 7,
+        "boardScore": 0.5363
+      }
+    },
+    {
+      "puzzleId": "food-medium-9x9-0013",
+      "seed": 13,
+      "theme": "food",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "M",
+          "",
+          "",
+          "E",
+          "",
+          "P",
+          ""
+        ],
+        [
+          "",
+          "",
+          "A",
+          "",
+          "",
+          "N",
+          "",
+          "I",
+          ""
+        ],
+        [
+          "L",
+          "A",
+          "R",
+          "D",
+          "",
+          "C",
+          "",
+          "N",
+          ""
+        ],
+        [
+          "",
+          "",
+          "G",
+          "",
+          "",
+          "H",
+          "",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "P",
+          "A",
+          "P",
+          "R",
+          "I",
+          "K",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "",
+          "R",
+          "",
+          "",
+          "L",
+          "",
+          "P",
+          ""
+        ],
+        [
+          "",
+          "O",
+          "I",
+          "L",
+          "",
+          "A",
+          "",
+          "P",
+          ""
+        ],
+        [
+          "",
+          "",
+          "N",
+          "",
+          "",
+          "D",
+          "I",
+          "L",
+          "L"
+        ],
+        [
+          "",
+          "",
+          "E",
+          "",
+          "",
+          "A",
+          "",
+          "E",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "PAPRIKA",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "A variety of the spice",
+          "softHints": {
+            "startsWith": "P",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "MARGARINE",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 9,
+          "clue": "The solid ingredient of human fat, olive oil, etc",
+          "softHints": {
+            "startsWith": "M",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "PINEAPPLE",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 9,
+          "clue": "A tropical plant, Ananas comosus, native to South",
+          "softHints": {
+            "startsWith": "P",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "ENCHILADA",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 9,
+          "clue": "A Mexican dish made by wrapping a filling",
+          "softHints": {
+            "startsWith": "E",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "DILL",
+          "direction": "across",
+          "row": 7,
+          "col": 5,
+          "length": 4,
+          "clue": "Anethum graveolens , a herb, the seeds",
+          "softHints": {
+            "startsWith": "D",
+            "length": 4,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "LARD",
+          "direction": "across",
+          "row": 2,
+          "col": 0,
+          "length": 4,
+          "clue": "Excess fat on a person or animal",
+          "softHints": {
+            "startsWith": "L",
+            "length": 4,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "OIL",
+          "direction": "across",
+          "row": 6,
+          "col": 1,
+          "length": 3,
+          "clue": "Liquid fat",
+          "softHints": {
+            "startsWith": "O",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "Excess fat on a person or animal",
+            "answer": "LARD",
+            "length": 4
+          },
+          {
+            "number": 5,
+            "clue": "A variety of the spice",
+            "answer": "PAPRIKA",
+            "length": 7
+          },
+          {
+            "number": 6,
+            "clue": "Liquid fat",
+            "answer": "OIL",
+            "length": 3
+          },
+          {
+            "number": 7,
+            "clue": "Anethum graveolens , a herb, the seeds",
+            "answer": "DILL",
+            "length": 4
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "The solid ingredient of human fat, olive oil, etc",
+            "answer": "MARGARINE",
+            "length": 9
+          },
+          {
+            "number": 2,
+            "clue": "A Mexican dish made by wrapping a filling",
+            "answer": "ENCHILADA",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "A tropical plant, Ananas comosus, native to South",
+            "answer": "PINEAPPLE",
+            "length": 9
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "food",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 7,
+        "boardScore": 0.5363
+      }
+    },
+    {
+      "puzzleId": "food-medium-9x9-0014",
+      "seed": 14,
+      "theme": "food",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "S",
+          "",
+          "",
+          "N",
+          "",
+          "C",
+          ""
+        ],
+        [
+          "P",
+          "I",
+          "E",
+          "",
+          "M",
+          "E",
+          "L",
+          "O",
+          "N"
+        ],
+        [
+          "",
+          "",
+          "A",
+          "",
+          "",
+          "C",
+          "",
+          "R",
+          ""
+        ],
+        [
+          "",
+          "",
+          "S",
+          "",
+          "",
+          "T",
+          "",
+          "I",
+          ""
+        ],
+        [
+          "",
+          "T",
+          "O",
+          "S",
+          "T",
+          "A",
+          "D",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "",
+          "N",
+          "",
+          "",
+          "R",
+          "",
+          "N",
+          ""
+        ],
+        [
+          "",
+          "O",
+          "I",
+          "L",
+          "",
+          "I",
+          "",
+          "D",
+          ""
+        ],
+        [
+          "",
+          "",
+          "N",
+          "",
+          "",
+          "N",
+          "",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "",
+          "G",
+          "",
+          "",
+          "E",
+          "",
+          "R",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          null,
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 6,
+          "answer": "TOSTADA",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "A Latin American toast",
+          "softHints": {
+            "startsWith": "T",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "NECTARINE",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 9,
+          "clue": "A nectar-like liquid medicine",
+          "softHints": {
+            "startsWith": "N",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "CORIANDER",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 9,
+          "clue": "The dried fruits thereof, used as a spice",
+          "softHints": {
+            "startsWith": "C",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "SEASONING",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 9,
+          "clue": "Anything added to increase enjoyment",
+          "softHints": {
+            "startsWith": "S",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 5,
+          "answer": "MELON",
+          "direction": "across",
+          "row": 1,
+          "col": 4,
+          "length": 5,
+          "clue": "Some of the plants of the family Cucurbitaceae",
+          "softHints": {
+            "startsWith": "M",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "OIL",
+          "direction": "across",
+          "row": 6,
+          "col": 1,
+          "length": 3,
+          "clue": "Liquid fat",
+          "softHints": {
+            "startsWith": "O",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "PIE",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "clue": "A pizza",
+          "softHints": {
+            "startsWith": "P",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "A pizza",
+            "answer": "PIE",
+            "length": 3
+          },
+          {
+            "number": 5,
+            "clue": "Some of the plants of the family Cucurbitaceae",
+            "answer": "MELON",
+            "length": 5
+          },
+          {
+            "number": 6,
+            "clue": "A Latin American toast",
+            "answer": "TOSTADA",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "Liquid fat",
+            "answer": "OIL",
+            "length": 3
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Anything added to increase enjoyment",
+            "answer": "SEASONING",
+            "length": 9
+          },
+          {
+            "number": 2,
+            "clue": "A nectar-like liquid medicine",
+            "answer": "NECTARINE",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "The dried fruits thereof, used as a spice",
+            "answer": "CORIANDER",
+            "length": 9
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "food",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 7,
+        "boardScore": 0.5363
+      }
+    },
+    {
+      "puzzleId": "food-medium-9x9-0015",
+      "seed": 15,
+      "theme": "food",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "R",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "T",
+          ""
+        ],
+        [
+          "H",
+          "A",
+          "M",
+          "B",
+          "U",
+          "R",
+          "G",
+          "E",
+          "R"
+        ],
+        [
+          "",
+          "S",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "P",
+          "",
+          "",
+          "",
+          "C",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "B",
+          "I",
+          "S",
+          "C",
+          "U",
+          "I",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "E",
+          "",
+          "",
+          "",
+          "R",
+          "",
+          "",
+          ""
+        ],
+        [
+          "A",
+          "R",
+          "R",
+          "O",
+          "W",
+          "R",
+          "O",
+          "O",
+          "T"
+        ],
+        [
+          "",
+          "R",
+          "",
+          "I",
+          "",
+          "Y",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Y",
+          "",
+          "L",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "BISCUIT",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "A cracker",
+          "softHints": {
+            "startsWith": "B",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "RASPBERRY",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 9,
+          "clue": "The plant Rubus idaeus",
+          "softHints": {
+            "startsWith": "R",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "ARROWROOT",
+          "direction": "across",
+          "row": 6,
+          "col": 0,
+          "length": 9,
+          "clue": "A starchy substance obtained from the rhizomes",
+          "softHints": {
+            "startsWith": "A",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "HAMBURGER",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 9,
+          "clue": "The patty used in such a sandwich",
+          "softHints": {
+            "startsWith": "H",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "CURRY",
+          "direction": "down",
+          "row": 3,
+          "col": 5,
+          "length": 5,
+          "clue": "A spiced sauce or relish, especially one flavored",
+          "softHints": {
+            "startsWith": "C",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "TEA",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 3,
+          "clue": "The drink made by infusing these dried leaves",
+          "softHints": {
+            "startsWith": "T",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "OIL",
+          "direction": "down",
+          "row": 6,
+          "col": 3,
+          "length": 3,
+          "clue": "Liquid fat",
+          "softHints": {
+            "startsWith": "O",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "The patty used in such a sandwich",
+            "answer": "HAMBURGER",
+            "length": 9
+          },
+          {
+            "number": 5,
+            "clue": "A cracker",
+            "answer": "BISCUIT",
+            "length": 7
+          },
+          {
+            "number": 6,
+            "clue": "A starchy substance obtained from the rhizomes",
+            "answer": "ARROWROOT",
+            "length": 9
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "The plant Rubus idaeus",
+            "answer": "RASPBERRY",
+            "length": 9
+          },
+          {
+            "number": 2,
+            "clue": "The drink made by infusing these dried leaves",
+            "answer": "TEA",
+            "length": 3
+          },
+          {
+            "number": 4,
+            "clue": "A spiced sauce or relish, especially one flavored",
+            "answer": "CURRY",
+            "length": 5
+          },
+          {
+            "number": 7,
+            "clue": "Liquid fat",
+            "answer": "OIL",
+            "length": 3
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "food",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 7,
+        "boardScore": 0.5363
+      }
+    },
+    {
+      "puzzleId": "food-medium-9x9-0016",
+      "seed": 16,
+      "theme": "food",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "R",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "T",
+          ""
+        ],
+        [
+          "H",
+          "A",
+          "M",
+          "B",
+          "U",
+          "R",
+          "G",
+          "E",
+          "R"
+        ],
+        [
+          "",
+          "S",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "P",
+          "",
+          "",
+          "",
+          "C",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "B",
+          "I",
+          "S",
+          "C",
+          "U",
+          "I",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "E",
+          "",
+          "",
+          "",
+          "R",
+          "",
+          "",
+          ""
+        ],
+        [
+          "A",
+          "R",
+          "R",
+          "O",
+          "W",
+          "R",
+          "O",
+          "O",
+          "T"
+        ],
+        [
+          "",
+          "R",
+          "",
+          "I",
+          "",
+          "Y",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Y",
+          "",
+          "L",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "BISCUIT",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "A cracker",
+          "softHints": {
+            "startsWith": "B",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "RASPBERRY",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 9,
+          "clue": "The plant Rubus idaeus",
+          "softHints": {
+            "startsWith": "R",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "ARROWROOT",
+          "direction": "across",
+          "row": 6,
+          "col": 0,
+          "length": 9,
+          "clue": "A starchy substance obtained from the rhizomes",
+          "softHints": {
+            "startsWith": "A",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "HAMBURGER",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 9,
+          "clue": "The patty used in such a sandwich",
+          "softHints": {
+            "startsWith": "H",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "CURRY",
+          "direction": "down",
+          "row": 3,
+          "col": 5,
+          "length": 5,
+          "clue": "A spiced sauce or relish, especially one flavored",
+          "softHints": {
+            "startsWith": "C",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "TEA",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 3,
+          "clue": "The drink made by infusing these dried leaves",
+          "softHints": {
+            "startsWith": "T",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "OIL",
+          "direction": "down",
+          "row": 6,
+          "col": 3,
+          "length": 3,
+          "clue": "Liquid fat",
+          "softHints": {
+            "startsWith": "O",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "The patty used in such a sandwich",
+            "answer": "HAMBURGER",
+            "length": 9
+          },
+          {
+            "number": 5,
+            "clue": "A cracker",
+            "answer": "BISCUIT",
+            "length": 7
+          },
+          {
+            "number": 6,
+            "clue": "A starchy substance obtained from the rhizomes",
+            "answer": "ARROWROOT",
+            "length": 9
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "The plant Rubus idaeus",
+            "answer": "RASPBERRY",
+            "length": 9
+          },
+          {
+            "number": 2,
+            "clue": "The drink made by infusing these dried leaves",
+            "answer": "TEA",
+            "length": 3
+          },
+          {
+            "number": 4,
+            "clue": "A spiced sauce or relish, especially one flavored",
+            "answer": "CURRY",
+            "length": 5
+          },
+          {
+            "number": 7,
+            "clue": "Liquid fat",
+            "answer": "OIL",
+            "length": 3
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "food",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 7,
+        "boardScore": 0.5363
+      }
+    },
+    {
+      "puzzleId": "food-medium-9x9-0017",
+      "seed": 17,
+      "theme": "food",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "S",
+          "",
+          "",
+          "R",
+          "",
+          "",
+          "T",
+          ""
+        ],
+        [
+          "C",
+          "O",
+          "R",
+          "I",
+          "A",
+          "N",
+          "D",
+          "E",
+          "R"
+        ],
+        [
+          "",
+          "Y",
+          "",
+          "",
+          "S",
+          "",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "",
+          "S",
+          "",
+          "P",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "O",
+          "B",
+          "B",
+          "L",
+          "E",
+          "R",
+          ""
+        ],
+        [
+          "",
+          "",
+          "D",
+          "",
+          "E",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "T",
+          "A",
+          "R",
+          "R",
+          "A",
+          "G",
+          "O",
+          "N"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "R",
+          "",
+          "",
+          "I",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "Y",
+          "",
+          "",
+          "L",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 6,
+          "answer": "COBBLER",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "A person who repairs, and sometimes makes, shoes",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "RASPBERRY",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 9,
+          "clue": "The plant Rubus idaeus",
+          "softHints": {
+            "startsWith": "R",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "CORIANDER",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 9,
+          "clue": "The dried fruits thereof, used as a spice",
+          "softHints": {
+            "startsWith": "C",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "TARRAGON",
+          "direction": "across",
+          "row": 6,
+          "col": 1,
+          "length": 8,
+          "clue": "A perennial herb, the wormwood species Artemisia dracunculus,",
+          "softHints": {
+            "startsWith": "T",
+            "length": 8,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 5,
+          "answer": "SODA",
+          "direction": "down",
+          "row": 3,
+          "col": 2,
+          "length": 4,
+          "clue": "Sodium carbonate",
+          "softHints": {
+            "startsWith": "S",
+            "length": 4,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "SOY",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 3,
+          "clue": "A common East Asian liquid sauce, made",
+          "softHints": {
+            "startsWith": "S",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 8,
+          "answer": "OIL",
+          "direction": "down",
+          "row": 6,
+          "col": 7,
+          "length": 3,
+          "clue": "Liquid fat",
+          "softHints": {
+            "startsWith": "O",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "TEA",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 3,
+          "clue": "The drink made by infusing these dried leaves",
+          "softHints": {
+            "startsWith": "T",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "The dried fruits thereof, used as a spice",
+            "answer": "CORIANDER",
+            "length": 9
+          },
+          {
+            "number": 6,
+            "clue": "A person who repairs, and sometimes makes, shoes",
+            "answer": "COBBLER",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "A perennial herb, the wormwood species Artemisia dracunculus,",
+            "answer": "TARRAGON",
+            "length": 8
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A common East Asian liquid sauce, made",
+            "answer": "SOY",
+            "length": 3
+          },
+          {
+            "number": 2,
+            "clue": "The plant Rubus idaeus",
+            "answer": "RASPBERRY",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "The drink made by infusing these dried leaves",
+            "answer": "TEA",
+            "length": 3
+          },
+          {
+            "number": 5,
+            "clue": "Sodium carbonate",
+            "answer": "SODA",
+            "length": 4
+          },
+          {
+            "number": 8,
+            "clue": "Liquid fat",
+            "answer": "OIL",
+            "length": 3
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "food",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 8,
+        "intersections": 8,
+        "boardScore": 0.5638
+      }
+    },
+    {
+      "puzzleId": "food-medium-9x9-0018",
+      "seed": 18,
+      "theme": "food",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "S",
+          "",
+          "",
+          "R",
+          "",
+          "",
+          "T",
+          ""
+        ],
+        [
+          "C",
+          "O",
+          "R",
+          "I",
+          "A",
+          "N",
+          "D",
+          "E",
+          "R"
+        ],
+        [
+          "",
+          "Y",
+          "",
+          "",
+          "S",
+          "",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "",
+          "S",
+          "",
+          "P",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "O",
+          "B",
+          "B",
+          "L",
+          "E",
+          "R",
+          ""
+        ],
+        [
+          "",
+          "",
+          "D",
+          "",
+          "E",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "T",
+          "A",
+          "R",
+          "R",
+          "A",
+          "G",
+          "O",
+          "N"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "R",
+          "",
+          "",
+          "I",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "Y",
+          "",
+          "",
+          "L",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 6,
+          "answer": "COBBLER",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "A person who repairs, and sometimes makes, shoes",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "RASPBERRY",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 9,
+          "clue": "The plant Rubus idaeus",
+          "softHints": {
+            "startsWith": "R",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "CORIANDER",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 9,
+          "clue": "The dried fruits thereof, used as a spice",
+          "softHints": {
+            "startsWith": "C",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "TARRAGON",
+          "direction": "across",
+          "row": 6,
+          "col": 1,
+          "length": 8,
+          "clue": "A perennial herb, the wormwood species Artemisia dracunculus,",
+          "softHints": {
+            "startsWith": "T",
+            "length": 8,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 5,
+          "answer": "SODA",
+          "direction": "down",
+          "row": 3,
+          "col": 2,
+          "length": 4,
+          "clue": "Sodium carbonate",
+          "softHints": {
+            "startsWith": "S",
+            "length": 4,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "SOY",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 3,
+          "clue": "A common East Asian liquid sauce, made",
+          "softHints": {
+            "startsWith": "S",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 8,
+          "answer": "OIL",
+          "direction": "down",
+          "row": 6,
+          "col": 7,
+          "length": 3,
+          "clue": "Liquid fat",
+          "softHints": {
+            "startsWith": "O",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "TEA",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 3,
+          "clue": "The drink made by infusing these dried leaves",
+          "softHints": {
+            "startsWith": "T",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "The dried fruits thereof, used as a spice",
+            "answer": "CORIANDER",
+            "length": 9
+          },
+          {
+            "number": 6,
+            "clue": "A person who repairs, and sometimes makes, shoes",
+            "answer": "COBBLER",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "A perennial herb, the wormwood species Artemisia dracunculus,",
+            "answer": "TARRAGON",
+            "length": 8
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A common East Asian liquid sauce, made",
+            "answer": "SOY",
+            "length": 3
+          },
+          {
+            "number": 2,
+            "clue": "The plant Rubus idaeus",
+            "answer": "RASPBERRY",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "The drink made by infusing these dried leaves",
+            "answer": "TEA",
+            "length": 3
+          },
+          {
+            "number": 5,
+            "clue": "Sodium carbonate",
+            "answer": "SODA",
+            "length": 4
+          },
+          {
+            "number": 8,
+            "clue": "Liquid fat",
+            "answer": "OIL",
+            "length": 3
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "food",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 8,
+        "intersections": 8,
+        "boardScore": 0.5638
+      }
+    },
+    {
+      "puzzleId": "food-medium-9x9-0019",
+      "seed": 19,
+      "theme": "food",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "S",
+          "",
+          "",
+          "R",
+          "",
+          "",
+          "T",
+          ""
+        ],
+        [
+          "C",
+          "O",
+          "R",
+          "I",
+          "A",
+          "N",
+          "D",
+          "E",
+          "R"
+        ],
+        [
+          "",
+          "Y",
+          "",
+          "",
+          "S",
+          "",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "",
+          "S",
+          "",
+          "P",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "O",
+          "B",
+          "B",
+          "L",
+          "E",
+          "R",
+          ""
+        ],
+        [
+          "",
+          "",
+          "D",
+          "",
+          "E",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "T",
+          "A",
+          "R",
+          "R",
+          "A",
+          "G",
+          "O",
+          "N"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "R",
+          "",
+          "",
+          "I",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "Y",
+          "",
+          "",
+          "L",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 6,
+          "answer": "COBBLER",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "A person who repairs, and sometimes makes, shoes",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "RASPBERRY",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 9,
+          "clue": "The plant Rubus idaeus",
+          "softHints": {
+            "startsWith": "R",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "CORIANDER",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 9,
+          "clue": "The dried fruits thereof, used as a spice",
+          "softHints": {
+            "startsWith": "C",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "TARRAGON",
+          "direction": "across",
+          "row": 6,
+          "col": 1,
+          "length": 8,
+          "clue": "A perennial herb, the wormwood species Artemisia dracunculus,",
+          "softHints": {
+            "startsWith": "T",
+            "length": 8,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 5,
+          "answer": "SODA",
+          "direction": "down",
+          "row": 3,
+          "col": 2,
+          "length": 4,
+          "clue": "Sodium carbonate",
+          "softHints": {
+            "startsWith": "S",
+            "length": 4,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "SOY",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 3,
+          "clue": "A common East Asian liquid sauce, made",
+          "softHints": {
+            "startsWith": "S",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 8,
+          "answer": "OIL",
+          "direction": "down",
+          "row": 6,
+          "col": 7,
+          "length": 3,
+          "clue": "Liquid fat",
+          "softHints": {
+            "startsWith": "O",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "TEA",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 3,
+          "clue": "The drink made by infusing these dried leaves",
+          "softHints": {
+            "startsWith": "T",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "The dried fruits thereof, used as a spice",
+            "answer": "CORIANDER",
+            "length": 9
+          },
+          {
+            "number": 6,
+            "clue": "A person who repairs, and sometimes makes, shoes",
+            "answer": "COBBLER",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "A perennial herb, the wormwood species Artemisia dracunculus,",
+            "answer": "TARRAGON",
+            "length": 8
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A common East Asian liquid sauce, made",
+            "answer": "SOY",
+            "length": 3
+          },
+          {
+            "number": 2,
+            "clue": "The plant Rubus idaeus",
+            "answer": "RASPBERRY",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "The drink made by infusing these dried leaves",
+            "answer": "TEA",
+            "length": 3
+          },
+          {
+            "number": 5,
+            "clue": "Sodium carbonate",
+            "answer": "SODA",
+            "length": 4
+          },
+          {
+            "number": 8,
+            "clue": "Liquid fat",
+            "answer": "OIL",
+            "length": 3
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "food",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 8,
+        "intersections": 8,
+        "boardScore": 0.5638
+      }
+    },
+    {
+      "puzzleId": "food-medium-9x9-0020",
+      "seed": 20,
+      "theme": "food",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "",
+          "R",
+          "",
+          "P",
+          "",
+          ""
+        ],
+        [
+          "M",
+          "A",
+          "R",
+          "G",
+          "A",
+          "R",
+          "I",
+          "N",
+          "E"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "S",
+          "",
+          "E",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "S",
+          "",
+          "P",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "O",
+          "B",
+          "B",
+          "L",
+          "E",
+          "R",
+          ""
+        ],
+        [
+          "",
+          "",
+          "D",
+          "",
+          "E",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "T",
+          "A",
+          "R",
+          "R",
+          "A",
+          "G",
+          "O",
+          "N"
+        ],
+        [
+          "",
+          "E",
+          "",
+          "",
+          "R",
+          "",
+          "",
+          "I",
+          ""
+        ],
+        [
+          "",
+          "A",
+          "",
+          "",
+          "Y",
+          "",
+          "",
+          "L",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "COBBLER",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "A person who repairs, and sometimes makes, shoes",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "RASPBERRY",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 9,
+          "clue": "The plant Rubus idaeus",
+          "softHints": {
+            "startsWith": "R",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "MARGARINE",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 9,
+          "clue": "The solid ingredient of human fat, olive oil, etc",
+          "softHints": {
+            "startsWith": "M",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "TARRAGON",
+          "direction": "across",
+          "row": 6,
+          "col": 1,
+          "length": 8,
+          "clue": "A perennial herb, the wormwood species Artemisia dracunculus,",
+          "softHints": {
+            "startsWith": "T",
+            "length": 8,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "SODA",
+          "direction": "down",
+          "row": 3,
+          "col": 2,
+          "length": 4,
+          "clue": "Sodium carbonate",
+          "softHints": {
+            "startsWith": "S",
+            "length": 4,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "TEA",
+          "direction": "down",
+          "row": 6,
+          "col": 1,
+          "length": 3,
+          "clue": "The drink made by infusing these dried leaves",
+          "softHints": {
+            "startsWith": "T",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "PIE",
+          "direction": "down",
+          "row": 0,
+          "col": 6,
+          "length": 3,
+          "clue": "A pizza",
+          "softHints": {
+            "startsWith": "P",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "OIL",
+          "direction": "down",
+          "row": 6,
+          "col": 7,
+          "length": 3,
+          "clue": "Liquid fat",
+          "softHints": {
+            "startsWith": "O",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "The solid ingredient of human fat, olive oil, etc",
+            "answer": "MARGARINE",
+            "length": 9
+          },
+          {
+            "number": 5,
+            "clue": "A person who repairs, and sometimes makes, shoes",
+            "answer": "COBBLER",
+            "length": 7
+          },
+          {
+            "number": 6,
+            "clue": "A perennial herb, the wormwood species Artemisia dracunculus,",
+            "answer": "TARRAGON",
+            "length": 8
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "The plant Rubus idaeus",
+            "answer": "RASPBERRY",
+            "length": 9
+          },
+          {
+            "number": 2,
+            "clue": "A pizza",
+            "answer": "PIE",
+            "length": 3
+          },
+          {
+            "number": 4,
+            "clue": "Sodium carbonate",
+            "answer": "SODA",
+            "length": 4
+          },
+          {
+            "number": 6,
+            "clue": "The drink made by infusing these dried leaves",
+            "answer": "TEA",
+            "length": 3
+          },
+          {
+            "number": 7,
+            "clue": "Liquid fat",
+            "answer": "OIL",
+            "length": 3
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "food",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 8,
+        "intersections": 8,
+        "boardScore": 0.5638
+      }
+    }
+  ]
+}

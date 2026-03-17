@@ -4,7 +4,7 @@
   "clues": [
     {
       "word": "AROMA",
-      "primaryClue": "Something you eat",
+      "primaryClue": "A smell; especially a pleasant spicy or fragrant one",
       "alternateClues": [],
       "softHints": {
         "startsWith": "A",
@@ -12,47 +12,61 @@
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A smell; especially a pleasant spicy or fragrant one.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BAGEL",
-      "primaryClue": "Found in a kitchen or restaurant",
-      "alternateClues": [],
+      "primaryClue": "An overly materialistic and selfish young Jewish man",
+      "alternateClues": [
+        "A toroidal bread roll that is boiled before",
+        "A score of 6-0 in a set (after"
+      ],
       "softHints": {
         "startsWith": "B",
         "length": 5,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "An overly materialistic and selfish young Jewish man.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BATTER",
-      "primaryClue": "Something you eat",
-      "alternateClues": [],
+      "primaryClue": "To defeat soundly; to thrash",
+      "alternateClues": [
+        "To hit or strike violently and repeatedly"
+      ],
       "softHints": {
         "startsWith": "B",
         "length": 6,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "To defeat soundly; to thrash.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BEANS",
-      "primaryClue": "A tasty dish or ingredient",
+      "primaryClue": "Plural of bean",
       "alternateClues": [],
       "softHints": {
         "startsWith": "B",
@@ -60,65 +74,84 @@
         "category": "food"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "plural of bean",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BEER",
-      "primaryClue": "Food item",
-      "alternateClues": [],
+      "primaryClue": "A solution produced by steeping plant materials",
+      "alternateClues": [
+        "A fermented extract of the roots and other",
+        "An alcoholic drink fermented from starch material, commonly"
+      ],
       "softHints": {
         "startsWith": "B",
         "length": 4,
         "category": "food"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A solution produced by steeping plant materials in water or another fluid.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BISCUIT",
-      "primaryClue": "Food item",
-      "alternateClues": [],
+      "primaryClue": "A cracker",
+      "alternateClues": [
+        "A small, flat, baked good which is either",
+        "A small, usually soft and flaky bread, generally"
+      ],
       "softHints": {
         "startsWith": "B",
         "length": 7,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A cracker.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BREAD",
-      "primaryClue": "A tasty dish or ingredient",
-      "alternateClues": [],
+      "primaryClue": "A foodstuff made by baking dough made from cereals",
+      "alternateClues": [
+        "A foodstuff made by baking dough made from cereals",
+        "Such foodstuff that is not difficult to chew,"
+      ],
       "softHints": {
         "startsWith": "B",
         "length": 5,
         "category": "food"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A foodstuff made by baking dough made from cereals.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BROTH",
-      "primaryClue": "Something you eat",
+      "primaryClue": "Water in which food has been boiled",
       "alternateClues": [],
       "softHints": {
         "startsWith": "B",
@@ -126,31 +159,40 @@
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Water in which food (meat, vegetable, etc.) has been boiled.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BURGER",
-      "primaryClue": "Found in a kitchen or restaurant",
-      "alternateClues": [],
+      "primaryClue": "A hamburger",
+      "alternateClues": [
+        "A similar sandwich or patty",
+        "Any sandwich that uses two bread rolls"
+      ],
       "softHints": {
         "startsWith": "B",
         "length": 6,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A hamburger.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BURRITO",
-      "primaryClue": "Found in a kitchen or restaurant",
+      "primaryClue": "A Mexican dish consisting of a flour tortilla",
       "alternateClues": [],
       "softHints": {
         "startsWith": "B",
@@ -158,247 +200,323 @@
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A Mexican dish consisting of a flour tortilla wrapped around a filling of meat and/or beans, cheese etc.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BUTTER",
-      "primaryClue": "Found in a kitchen or restaurant",
-      "alternateClues": [],
+      "primaryClue": "A soft, fatty foodstuff made by churning",
+      "alternateClues": [
+        "Any of various substances made from other oils",
+        "Any of various foodstuffs made from other foods"
+      ],
       "softHints": {
         "startsWith": "B",
         "length": 6,
         "category": "food"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A soft, fatty foodstuff made by churning the cream of milk (generally cow's milk).",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CAKE",
-      "primaryClue": "Food item",
-      "alternateClues": [],
+      "primaryClue": "A thin wafer-shaped mass of fried batter;",
+      "alternateClues": [
+        "A small mass of baked dough, especially",
+        "A rich, sweet dessert food, typically made"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 4,
         "category": "food"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A thin wafer-shaped mass of fried batter; a griddlecake or pancake.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CANDY",
-      "primaryClue": "A tasty dish or ingredient",
-      "alternateClues": [],
+      "primaryClue": "A piece of confectionery of this kind",
+      "alternateClues": [
+        "Crystallized sugar formed by boiling down sugar syrup",
+        "Edible, sweet-tasting confectionery containing sugar, or sometimes artificial"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 5,
         "category": "food"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A piece of confectionery of this kind.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CARAMEL",
-      "primaryClue": "Edible item",
-      "alternateClues": [],
+      "primaryClue": "A piece of this confection",
+      "alternateClues": [
+        "A piece of this confection",
+        "A smooth, chewy, sticky confection made by heating"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 7,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A (sometimes hardened) piece of this confection.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CAVIAR",
-      "primaryClue": "Edible item",
-      "alternateClues": [],
+      "primaryClue": "Something whose flavor is too fine for the vulgar taste",
+      "alternateClues": [
+        "Roe of the sturgeon or of certain other"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 6,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Something whose flavor is too fine for the vulgar taste.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CHEESE",
-      "primaryClue": "Edible item",
-      "alternateClues": [],
+      "primaryClue": "A dairy product made from curdled or cultured milk",
+      "alternateClues": [
+        "A dairy product made from curdled or cultured milk"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 6,
         "category": "food"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A dairy product made from curdled or cultured milk.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CHILI",
-      "primaryClue": "A tasty dish or ingredient",
-      "alternateClues": [],
+      "primaryClue": "A spicy stew of chicken or paneer, capsicum",
+      "alternateClues": [
+        "A spicy stew of chicken or paneer, capsicum",
+        "The pungent, spicy fresh or dried fruit"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 5,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A spicy stew of chicken or paneer, capsicum and onion, eaten as an appetizer.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CHOCOLATE",
-      "primaryClue": "A tasty dish or ingredient",
-      "alternateClues": [],
+      "primaryClue": "A food made from ground roasted cocoa beans",
+      "alternateClues": [
+        "A drink made by dissolving this food"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 9,
         "category": "food"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A food made from ground roasted cocoa beans.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CIDER",
-      "primaryClue": "Found in a kitchen or restaurant",
-      "alternateClues": [],
+      "primaryClue": "This or any similar alcoholic drink made from",
+      "alternateClues": [
+        "An alcoholic, often sparkling beverage made from fermented apples",
+        "A non-alcoholic uncarbonated beverage consisting of the juice"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 5,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "This or any similar alcoholic drink made from similar fruit, such as pears.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "COBBLER",
-      "primaryClue": "A tasty dish or ingredient",
-      "alternateClues": [],
+      "primaryClue": "A person who repairs, and sometimes makes, shoes",
+      "alternateClues": [
+        "A person who cobbles (“to assemble or mend",
+        "A sheep left to the end to be"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 7,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A person who repairs, and sometimes makes, shoes.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "COCOA",
-      "primaryClue": "Food item",
-      "alternateClues": [],
+      "primaryClue": "The dried and partially fermented fatty seeds",
+      "alternateClues": [
+        "The dried and partially fermented fatty seeds",
+        "An unsweetened brown powder made from roasted, ground"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 5,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The dried and partially fermented fatty seeds of the cacao tree from which chocolate is made.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "COFFEE",
-      "primaryClue": "Food item",
-      "alternateClues": [],
+      "primaryClue": "A serving of this beverage",
+      "alternateClues": [
+        "A beverage made by infusing the beans",
+        "The seeds of the plant used to make"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 6,
         "category": "food"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A serving of this beverage.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "COOKIE",
-      "primaryClue": "Food item",
-      "alternateClues": [],
+      "primaryClue": "A bun",
+      "alternateClues": [
+        "A small, flat, baked good which is either",
+        "A sweet baked good usually having chocolate chips,"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 6,
         "category": "food"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A bun.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CREAM",
-      "primaryClue": "Edible item",
-      "alternateClues": [],
+      "primaryClue": "The butterfat or milkfat part of milk which",
+      "alternateClues": [
+        "The butterfat or milkfat part of milk which",
+        "The liquid separated from milk, possibly with certain"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 5,
         "category": "food"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The butterfat or milkfat part of milk which rises to the top; this part when separated from the remainder.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CROISSANT",
-      "primaryClue": "Food item",
+      "primaryClue": "A flaky roll or pastry in a form",
       "alternateClues": [],
       "softHints": {
         "startsWith": "C",
@@ -406,115 +524,149 @@
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A flaky roll or pastry in a form of a crescent.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CRUMBLE",
-      "primaryClue": "Edible item",
-      "alternateClues": [],
+      "primaryClue": "To break into crumbs",
+      "alternateClues": [
+        "To fall apart; to disintegrate",
+        "To mix in such a way as to form crumbs"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 7,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "To break into crumbs.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CUISINE",
-      "primaryClue": "A tasty dish or ingredient",
-      "alternateClues": [],
+      "primaryClue": "The food prepared using such style",
+      "alternateClues": [
+        "Synonym of culinary art: The art of preparing",
+        "A characteristic manner or style of preparing food,"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 7,
         "category": "food"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The food prepared using such style.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CURD",
-      "primaryClue": "Food item",
-      "alternateClues": [],
+      "primaryClue": "The coagulated part of any liquid",
+      "alternateClues": [
+        "The edible flower head of certain brassicaceous plants",
+        "The part of milk that coagulates when it"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 4,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The coagulated part of any liquid.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "DESSERT",
-      "primaryClue": "A tasty dish or ingredient",
-      "alternateClues": [],
+      "primaryClue": "A sweet dish or confection served as",
+      "alternateClues": [
+        "The last course of a meal, consisting"
+      ],
       "softHints": {
         "startsWith": "D",
         "length": 7,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A sweet dish or confection served as the last course of a meal.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "DISH",
-      "primaryClue": "Edible item",
-      "alternateClues": [],
+      "primaryClue": "The contents of such a vessel",
+      "alternateClues": [
+        "A specific type of prepared food",
+        "A vessel such as a plate for holding"
+      ],
       "softHints": {
         "startsWith": "D",
         "length": 4,
         "category": "food"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The contents of such a vessel.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "DRINK",
-      "primaryClue": "Found in a kitchen or restaurant",
-      "alternateClues": [],
+      "primaryClue": "To consume alcoholic beverages",
+      "alternateClues": [
+        "To consume through the mouth",
+        "To consume the liquid contained within"
+      ],
       "softHints": {
         "startsWith": "D",
         "length": 5,
         "category": "food"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "To consume alcoholic beverages.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "EGGS",
-      "primaryClue": "Food item",
+      "primaryClue": "Plural of egg",
       "alternateClues": [],
       "softHints": {
         "startsWith": "E",
@@ -522,16 +674,18 @@
         "category": "food"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "plural of egg",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "EMPANADA",
-      "primaryClue": "Edible item",
+      "primaryClue": "Any of a variety of stuffed pastries found",
       "alternateClues": [],
       "softHints": {
         "startsWith": "E",
@@ -539,16 +693,18 @@
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any of a variety of stuffed pastries found in Spanish, Filipino, and Latin American cuisine.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "ENCHILADA",
-      "primaryClue": "A tasty dish or ingredient",
+      "primaryClue": "A Mexican dish made by wrapping a filling",
       "alternateClues": [],
       "softHints": {
         "startsWith": "E",
@@ -556,15 +712,18 @@
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A Mexican dish made by wrapping a filling in a tortilla, then baking in a sauce.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "ENTREE",
-      "primaryClue": "Edible item",
+      "primaryClue": "Alternative form of entrée",
       "alternateClues": [],
       "softHints": {
         "startsWith": "E",
@@ -572,16 +731,18 @@
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Alternative form of entrée.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "FILET",
-      "primaryClue": "Something you eat",
+      "primaryClue": "Alternative spelling of fillet",
       "alternateClues": [],
       "softHints": {
         "startsWith": "F",
@@ -589,146 +750,193 @@
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Alternative spelling of fillet.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "FISH",
-      "primaryClue": "Something you eat",
-      "alternateClues": [],
+      "primaryClue": "A paraphyletic grouping of the following taxonomic groups:",
+      "alternateClues": [
+        "A paraphyletic grouping of the following taxonomic groups:",
+        "A typically cold-blooded vertebrate animal that lives"
+      ],
       "softHints": {
         "startsWith": "F",
         "length": 4,
         "category": "food"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A paraphyletic grouping of the following taxonomic groups:",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "FLOUR",
-      "primaryClue": "Food item",
-      "alternateClues": [],
+      "primaryClue": "Powder of other material",
+      "alternateClues": [
+        "Powder obtained by grinding or milling cereal grains,",
+        "The food made by grinding and bolting cleaned"
+      ],
       "softHints": {
         "startsWith": "F",
         "length": 5,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Powder of other material.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "FOOD",
-      "primaryClue": "Food item",
-      "alternateClues": [],
+      "primaryClue": "Anything that nourishes or sustains",
+      "alternateClues": [
+        "Anything that nourishes or sustains",
+        "Any solid substance that can be consumed"
+      ],
       "softHints": {
         "startsWith": "F",
         "length": 4,
         "category": "food"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Anything that nourishes or sustains.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "GLAZE",
-      "primaryClue": "Edible item",
-      "alternateClues": [],
+      "primaryClue": "A transparent or semi-transparent layer of paint",
+      "alternateClues": [
+        "A smooth coating of ice formed on objects",
+        "The vitreous coating of pottery or porcelain; anything"
+      ],
       "softHints": {
         "startsWith": "G",
         "length": 5,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A transparent or semi-transparent layer of paint.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "GRILL",
-      "primaryClue": "A tasty dish or ingredient",
-      "alternateClues": [],
+      "primaryClue": "The criss-cross pieces that separate panes of glass",
+      "alternateClues": [
+        "On a vehicle, a slotted cover as above,",
+        "A grating; a grid of wire or"
+      ],
       "softHints": {
         "startsWith": "G",
         "length": 5,
         "category": "food"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The criss-cross pieces that separate panes of glass in a window.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "HAMBURGER",
-      "primaryClue": "Something you eat",
-      "alternateClues": [],
+      "primaryClue": "The patty used in such a sandwich",
+      "alternateClues": [
+        "Ground beef, especially that intended to be made into hamburgers",
+        "A hot sandwich consisting of a patty"
+      ],
       "softHints": {
         "startsWith": "H",
         "length": 9,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The patty used in such a sandwich.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "ICE",
-      "primaryClue": "A tasty dish or ingredient",
-      "alternateClues": [],
+      "primaryClue": "Water in frozen form",
+      "alternateClues": [
+        "Any frozen volatile chemical, such as ammonia or carbon dioxide",
+        "Any volatile chemical, such as water, ammonia,"
+      ],
       "softHints": {
         "startsWith": "I",
         "length": 3,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Water in frozen (solid) form.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "JUICE",
-      "primaryClue": "Found in a kitchen or restaurant",
-      "alternateClues": [],
+      "primaryClue": "A liquid made from plant, especially fruit",
+      "alternateClues": [
+        "A liquid made from plant, especially fruit"
+      ],
       "softHints": {
         "startsWith": "J",
         "length": 5,
         "category": "food"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A liquid made from plant, especially fruit.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "KETCHUP",
-      "primaryClue": "Food item",
+      "primaryClue": "Such a sauce more generally (not necessarily based",
       "alternateClues": [],
       "softHints": {
         "startsWith": "K",
@@ -736,81 +944,105 @@
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Such a sauce more generally (not necessarily based on tomatoes, but with mushrooms, fish, etc.). This is the older meaning.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "KITCHEN",
-      "primaryClue": "Found in a kitchen or restaurant",
-      "alternateClues": [],
+      "primaryClue": "Cuisine; style of cooking",
+      "alternateClues": [
+        "A room or area for preparing food",
+        "The nape of a person's hairline, often referring"
+      ],
       "softHints": {
         "startsWith": "K",
         "length": 7,
         "category": "food"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Cuisine; style of cooking.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "LARD",
-      "primaryClue": "Something you eat",
-      "alternateClues": [],
+      "primaryClue": "Excess fat on a person or animal",
+      "alternateClues": [
+        "Fatty meat from a pig; bacon, pork",
+        "Fat from the abdomen of a pig, especially"
+      ],
       "softHints": {
         "startsWith": "L",
         "length": 4,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Excess fat on a person or animal.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "LIQUOR",
-      "primaryClue": "A tasty dish or ingredient",
-      "alternateClues": [],
+      "primaryClue": "A liquid, a fluid",
+      "alternateClues": [
+        "A beverage, any drinkable liquid",
+        "A liquid obtained by cooking meat or vegetables"
+      ],
       "softHints": {
         "startsWith": "L",
         "length": 6,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A liquid, a fluid.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "MARGARINE",
-      "primaryClue": "Edible item",
-      "alternateClues": [],
+      "primaryClue": "The solid ingredient of human fat, olive oil, etc",
+      "alternateClues": [
+        "A spread, manufactured from a blend of vegetable"
+      ],
       "softHints": {
         "startsWith": "M",
         "length": 9,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The solid ingredient of human fat, olive oil, etc.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "MARINADE",
-      "primaryClue": "Something you eat",
+      "primaryClue": "A seasoned, often acidic liquid mixture in which",
       "alternateClues": [],
       "softHints": {
         "startsWith": "M",
@@ -818,215 +1050,276 @@
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A seasoned, often acidic liquid mixture in which food is marinated, or soaked, usually to flavor and prepare it for cooking.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "MAYO",
-      "primaryClue": "Something you eat",
-      "alternateClues": [],
+      "primaryClue": "A white person",
+      "alternateClues": [
+        "A white person"
+      ],
       "softHints": {
         "startsWith": "M",
         "length": 4,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A white person.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "MAYONNAISE",
-      "primaryClue": "A tasty dish or ingredient",
-      "alternateClues": [],
+      "primaryClue": "Any cold dish with that dressing as an ingredient",
+      "alternateClues": [
+        "Any cream, for example for moisturizing the face",
+        "A dressing made from vegetable oil, raw egg"
+      ],
       "softHints": {
         "startsWith": "M",
         "length": 10,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any cold dish with that dressing as an ingredient.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "MEAT",
-      "primaryClue": "Something you eat",
-      "alternateClues": [],
+      "primaryClue": "Food, for animals or humans, especially solid food",
+      "alternateClues": [
+        "The flesh of an animal used as food,"
+      ],
       "softHints": {
         "startsWith": "M",
         "length": 4,
         "category": "food"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Food, for animals or humans, especially solid food.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "MILK",
-      "primaryClue": "Food item",
-      "alternateClues": [],
+      "primaryClue": "A white liquid obtained from a vegetable source",
+      "alternateClues": [
+        "A white liquid obtained from a vegetable source",
+        "A white liquid produced by the mammary glands"
+      ],
       "softHints": {
         "startsWith": "M",
         "length": 4,
         "category": "food"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A white (or whitish) liquid obtained from a vegetable source such as almonds, coconuts, oats, rice, or soy beans.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "MOUSSE",
-      "primaryClue": "Food item",
-      "alternateClues": [],
+      "primaryClue": "A styling cream used for hair",
+      "alternateClues": [
+        "A savory dish, of meat or seafood, containing gelatin"
+      ],
       "softHints": {
         "startsWith": "M",
         "length": 6,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A styling cream used for hair.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "MUFFIN",
-      "primaryClue": "Food item",
-      "alternateClues": [],
+      "primaryClue": "Term of endearment",
+      "alternateClues": [
+        "A type of flattish bun, usually cut",
+        "A cupcake-shaped baked good (for example of cornbread,"
+      ],
       "softHints": {
         "startsWith": "M",
         "length": 6,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Term of endearment.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "MUSHROOM",
-      "primaryClue": "Edible item",
-      "alternateClues": [],
+      "primaryClue": "A fungus producing such fruiting bodies",
+      "alternateClues": [
+        "Any of the fleshy fruiting bodies of fungi"
+      ],
       "softHints": {
         "startsWith": "M",
         "length": 8,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A fungus producing such fruiting bodies.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "NOODLE",
-      "primaryClue": "Food item",
-      "alternateClues": [],
+      "primaryClue": "A string or flat strip of pasta",
+      "alternateClues": [
+        "A string or flat strip of pasta"
+      ],
       "softHints": {
         "startsWith": "N",
         "length": 6,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A string or flat strip of pasta or other dough, usually cooked (at least initially) by boiling, and served in soup or in a dry form mixed with a sauce and other ingredients.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "NUT",
-      "primaryClue": "Edible item",
-      "alternateClues": [],
+      "primaryClue": "Such a fruit that is indehiscent",
+      "alternateClues": [
+        "Any of various hard-shelled seeds or hard, dry",
+        "Any of various hard-shelled seeds or hard, dry"
+      ],
       "softHints": {
         "startsWith": "N",
         "length": 3,
         "category": "food"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Such a fruit that is indehiscent.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "OIL",
-      "primaryClue": "Edible item",
-      "alternateClues": [],
+      "primaryClue": "Liquid fat",
+      "alternateClues": [
+        "Liquid fat",
+        "Petroleum-based liquid used as fuel or lubricant"
+      ],
       "softHints": {
         "startsWith": "O",
         "length": 3,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Liquid fat.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "OLIVE",
-      "primaryClue": "A tasty dish or ingredient",
-      "alternateClues": [],
+      "primaryClue": "The small oval fruit of this tree, eaten",
+      "alternateClues": [
+        "The small oval fruit of this tree, eaten",
+        "A tree of species Olea europaea cultivated since"
+      ],
       "softHints": {
         "startsWith": "O",
         "length": 5,
         "category": "food"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The small oval fruit of this tree, eaten ripe (usually black) or unripe (usually green).",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "OMELETTE",
-      "primaryClue": "Edible item",
-      "alternateClues": [],
+      "primaryClue": "A form of shellcode that searches the address",
+      "alternateClues": [
+        "A dish made with beaten eggs cooked"
+      ],
       "softHints": {
         "startsWith": "O",
         "length": 8,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A form of shellcode that searches the address space for multiple small blocks of data (\"eggs\") and recombines them into a larger block to be executed.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "PAN",
-      "primaryClue": "A tasty dish or ingredient",
+      "primaryClue": "",
       "alternateClues": [],
       "softHints": {
         "startsWith": "P",
@@ -1034,146 +1327,195 @@
         "category": "food"
       },
       "difficulty": "easy",
-      "source": "generated",
+      "source": "needs_review",
       "reviewFlags": [
-        "fallback_only"
+        "no_definition_found"
       ],
-      "approved": false
+      "approved": false,
+      "clueSource": "none",
+      "sourceDefinition": "",
+      "clueGenerationMethod": "excluded",
+      "licenseNotes": "",
+      "needsReview": true
     },
     {
       "word": "PASTA",
-      "primaryClue": "Edible item",
-      "alternateClues": [],
+      "primaryClue": "Any type of noodle",
+      "alternateClues": [
+        "Dough made from wheat and water and sometimes",
+        "Dough made from wheat and water and sometimes"
+      ],
       "softHints": {
         "startsWith": "P",
         "length": 5,
         "category": "food"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any type of noodle.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "PASTE",
-      "primaryClue": "Food item",
-      "alternateClues": [],
+      "primaryClue": "A soft moist mixture, in particular:",
+      "alternateClues": [
+        "A soft moist mixture, in particular:",
+        "One of flour, fat, or similar ingredients used"
+      ],
       "softHints": {
         "startsWith": "P",
         "length": 5,
         "category": "food"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A soft moist mixture, in particular:",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "PASTRY",
-      "primaryClue": "Food item",
-      "alternateClues": [],
+      "primaryClue": "The type of light flour-based dough used in pastries",
+      "alternateClues": [
+        "The food group formed by the various kinds of pastries",
+        "A baked food item made from flour"
+      ],
       "softHints": {
         "startsWith": "P",
         "length": 6,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The type of light flour-based dough used in pastries.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "PIE",
-      "primaryClue": "Found in a kitchen or restaurant",
-      "alternateClues": [],
+      "primaryClue": "A pizza",
+      "alternateClues": [
+        "Any of various other, non-pastry dishes that maintain",
+        "A type of pastry that consists of"
+      ],
       "softHints": {
         "startsWith": "P",
         "length": 3,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A pizza.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "PIZZA",
-      "primaryClue": "Found in a kitchen or restaurant",
-      "alternateClues": [],
+      "primaryClue": "A single instance of this dish",
+      "alternateClues": [
+        "Snowplow: a maneuver in which the tips",
+        "A baked Italian dish of a thinly rolled"
+      ],
       "softHints": {
         "startsWith": "P",
         "length": 5,
         "category": "food"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A single instance of this dish.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "PLATE",
-      "primaryClue": "A tasty dish or ingredient",
-      "alternateClues": [],
+      "primaryClue": "Such dishes collectively",
+      "alternateClues": [
+        "The contents of such a dish",
+        "A slightly curved but almost flat dish from"
+      ],
       "softHints": {
         "startsWith": "P",
         "length": 5,
         "category": "food"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Such dishes collectively.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "POT",
-      "primaryClue": "Something you eat",
-      "alternateClues": [],
+      "primaryClue": "Various similar open-topped vessels, particularly",
+      "alternateClues": [
+        "A vessel used with a seal for storing",
+        "A flat-bottomed vessel used for cooking food, possibly excluding saucepans"
+      ],
       "softHints": {
         "startsWith": "P",
         "length": 3,
         "category": "food"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Various similar open-topped vessels, particularly",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "POUTINE",
-      "primaryClue": "Found in a kitchen or restaurant",
-      "alternateClues": [],
+      "primaryClue": "Chiefly with a qualifying word: any of",
+      "alternateClues": [
+        "A dish consisting of French fries topped with"
+      ],
       "softHints": {
         "startsWith": "P",
         "length": 7,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Chiefly with a qualifying word: any of a number of variations on the basic poutine dish.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "PUDDING",
-      "primaryClue": "Something you eat",
+      "primaryClue": "Soft sweet dessert served after a meal",
       "alternateClues": [],
       "softHints": {
         "startsWith": "P",
@@ -1181,15 +1523,18 @@
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "override",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "override",
+      "sourceDefinition": "",
+      "clueGenerationMethod": "manual_override",
+      "licenseNotes": "manual",
+      "needsReview": false
     },
     {
       "word": "QUESO",
-      "primaryClue": "A tasty dish or ingredient",
+      "primaryClue": "",
       "alternateClues": [],
       "softHints": {
         "startsWith": "Q",
@@ -1197,179 +1542,238 @@
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
+      "source": "needs_review",
       "reviewFlags": [
-        "fallback_only"
+        "no_definition_found"
       ],
-      "approved": false
+      "approved": false,
+      "clueSource": "none",
+      "sourceDefinition": "",
+      "clueGenerationMethod": "excluded",
+      "licenseNotes": "",
+      "needsReview": true
     },
     {
       "word": "RACLETTE",
-      "primaryClue": "Edible item",
-      "alternateClues": [],
+      "primaryClue": "A firm cheese suitable for use in this dish",
+      "alternateClues": [
+        "A dish, of Swiss origin, similar to"
+      ],
       "softHints": {
         "startsWith": "R",
         "length": 8,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A firm cheese suitable for use in this dish.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "RECIPE",
-      "primaryClue": "Something you eat",
-      "alternateClues": [],
+      "primaryClue": "Any set of instructions for preparing a mixture of ingredients",
+      "alternateClues": [
+        "A plan or procedure to obtain a given",
+        "A formula for preparing or using a medicine;"
+      ],
       "softHints": {
         "startsWith": "R",
         "length": 6,
         "category": "food"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any set of instructions for preparing a mixture of ingredients.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "RICE",
-      "primaryClue": "A tasty dish or ingredient",
-      "alternateClues": [],
+      "primaryClue": "A specific variety of this plant",
+      "alternateClues": [
+        "The seeds of this plant used as food",
+        "Cereal plants, Oryza sativa of the grass family"
+      ],
       "softHints": {
         "startsWith": "R",
         "length": 4,
         "category": "food"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A specific variety of this plant.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SALAD",
-      "primaryClue": "Food item",
-      "alternateClues": [],
+      "primaryClue": "Especially, such a mixture whose principal base is",
+      "alternateClues": [
+        "A food made primarily of a mixture",
+        "A food made primarily of a mixture"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 5,
         "category": "food"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Especially, such a mixture whose principal base is greens, most especially lettuce.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SALSA",
-      "primaryClue": "Something you eat",
-      "alternateClues": [],
+      "primaryClue": "A spicy tomato sauce of Mexican origin, often",
+      "alternateClues": [
+        "A spicy tomato sauce of Mexican origin, often",
+        "A style of urban music originally from New"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 5,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A spicy tomato sauce of Mexican origin, often including onions and hot peppers.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SANDWICH",
-      "primaryClue": "Edible item",
-      "alternateClues": [],
+      "primaryClue": "Any combination formed by layering one type",
+      "alternateClues": [
+        "Any combination formed by layering one type",
+        "A dish or foodstuff where at least one"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 8,
         "category": "food"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any combination formed by layering one type of material between two layers of some other material.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SAUCE",
-      "primaryClue": "Food item",
-      "alternateClues": [],
+      "primaryClue": "Alcohol, booze",
+      "alternateClues": [
+        "A liquid condiment or accompaniment to food"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 5,
         "category": "food"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Alcohol, booze.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SEASONING",
-      "primaryClue": "Found in a kitchen or restaurant",
-      "alternateClues": [],
+      "primaryClue": "Anything added to increase enjoyment",
+      "alternateClues": [
+        "A coat of polymerized oil inside a cooking",
+        "Something used to add taste or flavour"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 9,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Anything added to increase enjoyment.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SKILLET",
-      "primaryClue": "A tasty dish or ingredient",
-      "alternateClues": [],
+      "primaryClue": "A dish or meal cooked in such a pan",
+      "alternateClues": [
+        "A pan for frying, generally large and heavy",
+        "A large and heavy saucepan or frying pan"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 7,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A dish or meal cooked in such a pan.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SODA",
-      "primaryClue": "A tasty dish or ingredient",
-      "alternateClues": [],
+      "primaryClue": "Sodium carbonate",
+      "alternateClues": [
+        "Sodium bicarbonate",
+        "Sodium in chemical combination"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 4,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Sodium carbonate.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SOPAPILLAS",
-      "primaryClue": "Something you eat",
+      "primaryClue": "Plural of sopapilla",
       "alternateClues": [],
       "softHints": {
         "startsWith": "S",
@@ -1377,128 +1781,171 @@
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "plural of sopapilla",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SOUP",
-      "primaryClue": "Found in a kitchen or restaurant",
-      "alternateClues": [],
+      "primaryClue": "A serving of such a dish, typically in a bowl",
+      "alternateClues": [
+        "Any of various dishes commonly made by combining",
+        "Any of various dishes commonly made by combining"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 4,
         "category": "food"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A serving of such a dish, typically in a bowl.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SOY",
-      "primaryClue": "Found in a kitchen or restaurant",
-      "alternateClues": [],
+      "primaryClue": "A common East Asian liquid sauce, made",
+      "alternateClues": [
+        "A common East Asian liquid sauce, made"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 3,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A common East Asian liquid sauce, made by subjecting boiled beans to long fermentation and then long digestion in salt and water.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SPICE",
-      "primaryClue": "Something you eat",
-      "alternateClues": [],
+      "primaryClue": "The quality of being spicy",
+      "alternateClues": [
+        "Aromatic or pungent plant matter used to season",
+        "Appeal, interest; an attribute that makes something appealing,"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 5,
         "category": "food"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The quality of being spicy.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "STEAK",
-      "primaryClue": "Found in a kitchen or restaurant",
-      "alternateClues": [],
+      "primaryClue": "A slice of meat cut across the grain",
+      "alternateClues": [
+        "A slice of meat cut across the grain",
+        "A relatively large, thick slice or slab cut"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 5,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A slice of meat cut across the grain (perpendicular to the spine) from a fish.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "STEW",
-      "primaryClue": "Edible item",
-      "alternateClues": [],
+      "primaryClue": "A brothel",
+      "alternateClues": [
+        "A cooking-dish used for boiling; a cauldron",
+        "A heated bath-room or steam-room; also, a hot bath"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 4,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A brothel.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SYRUP",
-      "primaryClue": "Found in a kitchen or restaurant",
-      "alternateClues": [],
+      "primaryClue": "Any viscous liquid",
+      "alternateClues": [
+        "Anything overly sweet or sentimental",
+        "Any thick liquid that has a high sugar"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 5,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any viscous liquid.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "TACO",
-      "primaryClue": "Something you eat",
-      "alternateClues": [],
+      "primaryClue": "The vulva",
+      "alternateClues": [
+        "A yellow stain on a shirt's armpit caused",
+        "A Mexican snack food made of a small"
+      ],
       "softHints": {
         "startsWith": "T",
         "length": 4,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The vulva.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "TAQUITO",
-      "primaryClue": "Edible item",
+      "primaryClue": "A fried corn or flour tortilla, filled usually",
       "alternateClues": [],
       "softHints": {
         "startsWith": "T",
@@ -1506,49 +1953,61 @@
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A fried corn or flour tortilla, filled usually with beef or chicken and cheese, rolled up, and dipped in a form of salsa, or guacamole.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "TARTAR",
-      "primaryClue": "Something you eat",
-      "alternateClues": [],
+      "primaryClue": "A hard yellow deposit on the teeth, formed",
+      "alternateClues": [
+        "A red compound deposited during wine making, mostly"
+      ],
       "softHints": {
         "startsWith": "T",
         "length": 6,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A hard yellow deposit on the teeth, formed from dental plaque.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "TASTE",
-      "primaryClue": "Food item",
-      "alternateClues": [],
+      "primaryClue": "A small sample of food, drink, or recreational drugs",
+      "alternateClues": [
+        "The sense that consists in the perception",
+        "One of the sensations produced by the tongue"
+      ],
       "softHints": {
         "startsWith": "T",
         "length": 5,
         "category": "food"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A small sample of food, drink, or recreational drugs.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "TEA",
-      "primaryClue": "Found in a kitchen or restaurant",
+      "primaryClue": "The drink made by infusing these dried leaves",
       "alternateClues": [],
       "softHints": {
         "startsWith": "T",
@@ -1556,230 +2015,299 @@
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The drink made by infusing these dried leaves or buds in hot water.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "TOAST",
-      "primaryClue": "Food item",
-      "alternateClues": [],
+      "primaryClue": "A proposed salutation while drinking alcohol",
+      "alternateClues": [
+        "A proposed salutation while drinking alcohol",
+        "A person, group, or notable object to which"
+      ],
       "softHints": {
         "startsWith": "T",
         "length": 5,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A proposed salutation (e.g. saying \"cheers\") while drinking alcohol.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "TOSTADA",
-      "primaryClue": "Found in a kitchen or restaurant",
-      "alternateClues": [],
+      "primaryClue": "A Latin American toast",
+      "alternateClues": [
+        "A bowl-shaped tortilla that has been fried",
+        "A flat tortilla that has been fried"
+      ],
       "softHints": {
         "startsWith": "T",
         "length": 7,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A Latin American toast (toasted bread).",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "VINEGAR",
-      "primaryClue": "Edible item",
-      "alternateClues": [],
+      "primaryClue": "Vigor; vitality",
+      "alternateClues": [
+        "A sour liquid formed by the fermentation"
+      ],
       "softHints": {
         "startsWith": "V",
         "length": 7,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Vigor; vitality.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "WAFFLE",
-      "primaryClue": "Edible item",
-      "alternateClues": [],
+      "primaryClue": "A flat pastry pressed with a grid pattern,",
+      "alternateClues": [
+        "A flat pastry pressed with a grid pattern,",
+        "A concrete slab used in flooring with"
+      ],
       "softHints": {
         "startsWith": "W",
         "length": 6,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A flat pastry pressed with a grid pattern, often eaten hot with butter and/or honey or syrup.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "WATER",
-      "primaryClue": "Edible item",
-      "alternateClues": [],
+      "primaryClue": "The liquid form of this substance: liquid H₂O",
+      "alternateClues": [
+        "An inorganic compound found at room temperature",
+        "An inorganic compound found at room temperature"
+      ],
       "softHints": {
         "startsWith": "W",
         "length": 5,
         "category": "food"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The liquid form of this substance: liquid H₂O.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "WHEAT",
-      "primaryClue": "Food item",
-      "alternateClues": [],
+      "primaryClue": "Any of the several cereal grains, of",
+      "alternateClues": [
+        "Any of the several cereal grains, of"
+      ],
       "softHints": {
         "startsWith": "W",
         "length": 5,
         "category": "food"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any of the several cereal grains, of the genus Triticum, that yields flour as used in bakery.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "WINE",
-      "primaryClue": "Found in a kitchen or restaurant",
-      "alternateClues": [],
+      "primaryClue": "An alcoholic beverage made by fermenting other substances,",
+      "alternateClues": [
+        "An alcoholic beverage made by fermenting other substances,",
+        "An alcoholic beverage made by fermenting grape juice,"
+      ],
       "softHints": {
         "startsWith": "W",
         "length": 4,
         "category": "food"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "An alcoholic beverage made by fermenting other substances, producing a similar ABV.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "WOK",
-      "primaryClue": "Something you eat",
-      "alternateClues": [],
+      "primaryClue": "Any dish prepared using such a pan",
+      "alternateClues": [
+        "A large, round-bottomed cooking pan used in East Asian cooking"
+      ],
       "softHints": {
         "startsWith": "W",
         "length": 3,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any dish prepared using such a pan.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "YEAST",
-      "primaryClue": "A tasty dish or ingredient",
-      "alternateClues": [],
+      "primaryClue": "A single-celled fungus of a wide variety of taxonomic families",
+      "alternateClues": [
+        "A single-celled fungus of a wide variety of taxonomic families",
+        "An often humid, yellowish froth produced by fermenting"
+      ],
       "softHints": {
         "startsWith": "Y",
         "length": 5,
         "category": "food"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A single-celled fungus of a wide variety of taxonomic families.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "YOGURT",
-      "primaryClue": "A tasty dish or ingredient",
-      "alternateClues": [],
+      "primaryClue": "Any similar product based on other substances",
+      "alternateClues": [
+        "A milk-based product stiffened by a bacterium-aided curdling"
+      ],
       "softHints": {
         "startsWith": "Y",
         "length": 6,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any similar product based on other substances (e.g. soy yogurt).",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "ARROWROOT",
-      "primaryClue": "Edible item",
-      "alternateClues": [],
+      "primaryClue": "A starchy substance obtained from the rhizomes",
+      "alternateClues": [
+        "Maranta arundinacea from the Marantaceae family, a large",
+        "Usually preceded by an attributive word: some other"
+      ],
       "softHints": {
         "startsWith": "A",
         "length": 9,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A starchy substance obtained from the rhizomes of an arrowroot plant used as a thickener.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BASIL",
-      "primaryClue": "A tasty dish or ingredient",
-      "alternateClues": [],
+      "primaryClue": "A plant",
+      "alternateClues": [
+        "Any other species in the genus Ocimum",
+        "The leaves of this plant used as a herb"
+      ],
       "softHints": {
         "startsWith": "B",
         "length": 5,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A plant (Ocimum basilicum).",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BAY",
-      "primaryClue": "Edible item",
-      "alternateClues": [],
+      "primaryClue": "A bank or dam to keep back water",
+      "alternateClues": [
+        "A body of water contained by a concave shoreline"
+      ],
       "softHints": {
         "startsWith": "B",
         "length": 3,
         "category": "food"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A bank or dam to keep back water.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CAYENNE",
-      "primaryClue": "Found in a kitchen or restaurant",
+      "primaryClue": "Spice or verve",
       "alternateClues": [],
       "softHints": {
         "startsWith": "C",
@@ -1787,15 +2315,18 @@
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Spice or verve.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CILANTRO",
-      "primaryClue": "Something you eat",
+      "primaryClue": "The stems and leaves of the coriander plant,",
       "alternateClues": [],
       "softHints": {
         "startsWith": "C",
@@ -1803,265 +2334,343 @@
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The stems and leaves of the coriander plant, Coriandrum sativum, used as a seasoning and garnish in cooking.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CINNAMON",
-      "primaryClue": "Found in a kitchen or restaurant",
-      "alternateClues": [],
+      "primaryClue": "A small evergreen tree native to Sri Lanka",
+      "alternateClues": [
+        "A spice from the dried aromatic bark"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 8,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A small evergreen tree native to Sri Lanka and southern India, Cinnamomum verum or Cinnamomum zeylanicum, belonging to the family Lauraceae.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CORIANDER",
-      "primaryClue": "Edible item",
-      "alternateClues": [],
+      "primaryClue": "The dried fruits thereof, used as a spice",
+      "alternateClues": [
+        "The annual herb Coriandrum sativum, used in many cuisines"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 9,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The dried fruits thereof, used as a spice.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CUMIN",
-      "primaryClue": "Found in a kitchen or restaurant",
-      "alternateClues": [],
+      "primaryClue": "Its aromatic long seed, used as a spice,",
+      "alternateClues": [
+        "Its aromatic long seed, used as a spice,"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 5,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Its aromatic long seed, used as a spice, notably in Indian, Middle Eastern, and Mexican cookery.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CURRY",
-      "primaryClue": "Edible item",
-      "alternateClues": [],
+      "primaryClue": "A spiced sauce or relish, especially one flavored",
+      "alternateClues": [
+        "A spiced sauce or relish, especially one flavored",
+        "One of a family of dishes originating from"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 5,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A spiced sauce or relish, especially one flavored with curry powder.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "DILL",
-      "primaryClue": "Food item",
-      "alternateClues": [],
+      "primaryClue": "Anethum graveolens , a herb, the seeds",
+      "alternateClues": [
+        "Anethum graveolens , a herb, the seeds"
+      ],
       "softHints": {
         "startsWith": "D",
         "length": 4,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Anethum graveolens (the type species of the genus Anethum), a herb, the seeds of which are moderately warming, pungent, and aromatic, formerly used as a soothing medicine for children; also known as dillseed.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "FENNEL",
-      "primaryClue": "Food item",
-      "alternateClues": [],
+      "primaryClue": "The bulb, leaves, or stalks of the plant,",
+      "alternateClues": [
+        "The bulb, leaves, or stalks of the plant,",
+        "A plant, Foeniculum vulgare, of the parsley family,"
+      ],
       "softHints": {
         "startsWith": "F",
         "length": 6,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The bulb, leaves, or stalks of the plant, eaten as a vegetable.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "GINGER",
-      "primaryClue": "Edible item",
-      "alternateClues": [],
+      "primaryClue": "The plant that produces this rhizome",
+      "alternateClues": [
+        "Other species belonging to the same family, Zingiberaceae,",
+        "The pungent aromatic rhizome of a tropical Asian"
+      ],
       "softHints": {
         "startsWith": "G",
         "length": 6,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The plant that produces this rhizome.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "LEMON",
-      "primaryClue": "Something you eat",
-      "alternateClues": [],
+      "primaryClue": "A yellowish citrus fruit",
+      "alternateClues": [
+        "A more or less bright shade of yellow",
+        "A semitropical evergreen tree, Citrus limon, that bears such fruits"
+      ],
       "softHints": {
         "startsWith": "L",
         "length": 5,
         "category": "food"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A yellowish citrus fruit.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "MACE",
-      "primaryClue": "Edible item",
-      "alternateClues": [],
+      "primaryClue": "A heavy fighting club",
+      "alternateClues": [
+        "A ceremonial form of this weapon",
+        "A long baton used by some drum majors"
+      ],
       "softHints": {
         "startsWith": "M",
         "length": 4,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A heavy fighting club.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "MINT",
-      "primaryClue": "Found in a kitchen or restaurant",
-      "alternateClues": [],
+      "primaryClue": "A vast sum of money; a large amount of something",
+      "alternateClues": [
+        "Any place regarded as a source of unlimited",
+        "A building or institution where money is produced"
+      ],
       "softHints": {
         "startsWith": "M",
         "length": 4,
         "category": "food"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A vast sum of money; (by extension) a large amount of something.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "NUTMEG",
-      "primaryClue": "Food item",
-      "alternateClues": [],
+      "primaryClue": "The powdered seed, ready for use",
+      "alternateClues": [
+        "The aromatic seed of this tree, used as a spice",
+        "An evergreen tree cultivated in the East Indies"
+      ],
       "softHints": {
         "startsWith": "N",
         "length": 6,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The powdered seed, ready for use.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "OREGANO",
-      "primaryClue": "Food item",
-      "alternateClues": [],
+      "primaryClue": "The leaves of these plants used in flavouring food",
+      "alternateClues": [
+        "A herb of the mint family, Origanum vulgare,",
+        "Other herbs with a similar flavor, including other"
+      ],
       "softHints": {
         "startsWith": "O",
         "length": 7,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The leaves of these plants used in flavouring food.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "PAPRIKA",
-      "primaryClue": "Edible item",
-      "alternateClues": [],
+      "primaryClue": "A variety of the spice",
+      "alternateClues": [
+        "A dried but not yet ground fruit",
+        "Powdered spice made from dried and ground fruits"
+      ],
       "softHints": {
         "startsWith": "P",
         "length": 7,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A variety of the spice.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "PARSLEY",
-      "primaryClue": "Found in a kitchen or restaurant",
-      "alternateClues": [],
+      "primaryClue": "A bright green, biennial herb, Petroselinum crispum, having many cultivars",
+      "alternateClues": [
+        "The leaves of this plant used in Middle"
+      ],
       "softHints": {
         "startsWith": "P",
         "length": 7,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A bright green, biennial herb, Petroselinum crispum, having many cultivars.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "PEPPER",
-      "primaryClue": "Food item",
-      "alternateClues": [],
+      "primaryClue": "A plant of the family Piperaceae",
+      "alternateClues": [
+        "A spice prepared from the fermented, dried, unripe",
+        "A fruit of the capsicum plant: red, green,"
+      ],
       "softHints": {
         "startsWith": "P",
         "length": 6,
         "category": "food"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A plant of the family Piperaceae.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "ROSEMARY",
-      "primaryClue": "Found in a kitchen or restaurant",
+      "primaryClue": "A shrub, Salvia rosmarinus , that originates from",
       "alternateClues": [],
       "softHints": {
         "startsWith": "R",
@@ -2069,15 +2678,18 @@
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A shrub, Salvia rosmarinus (formerly Rosmarinus officinalis), that originates from Europe and Asia Minor and produces a fragrant herb used in cooking and perfumes.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SAGE",
-      "primaryClue": "Food item",
+      "primaryClue": "Grave; serious; solemn",
       "alternateClues": [],
       "softHints": {
         "startsWith": "S",
@@ -2085,83 +2697,104 @@
         "category": "food"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Grave; serious; solemn.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SALT",
-      "primaryClue": "Food item",
-      "alternateClues": [],
+      "primaryClue": "One of the compounds formed from the reaction",
+      "alternateClues": [
+        "One of the compounds formed from the reaction",
+        "A common substance, chemically consisting mainly of sodium"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 4,
         "category": "food"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "One of the compounds formed from the reaction of an acid with a base, where a positive ion replaces a hydrogen of the acid.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SESAME",
-      "primaryClue": "Edible item",
-      "alternateClues": [],
+      "primaryClue": "The seed of this plant",
+      "alternateClues": [
+        "A tropical Asian plant bearing small flat seeds"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 6,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The seed of this plant.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SUGAR",
-      "primaryClue": "Something you eat",
-      "alternateClues": [],
+      "primaryClue": "Any of various small carbohydrates that are used",
+      "alternateClues": [
+        "Any of various small carbohydrates that are used",
+        "Sucrose in the form of small crystals, obtained"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 5,
         "category": "food"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any of various small carbohydrates that are used by organisms to store energy.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "TARRAGON",
-      "primaryClue": "Edible item",
-      "alternateClues": [],
+      "primaryClue": "A perennial herb, the wormwood species Artemisia dracunculus,",
+      "alternateClues": [
+        "The leaves of this plant (either fresh,"
+      ],
       "softHints": {
         "startsWith": "T",
         "length": 8,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A perennial herb, the wormwood species Artemisia dracunculus, from Europe and parts of Asia.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "THYME",
-      "primaryClue": "Something you eat",
+      "primaryClue": "Any plant of the labiate genus Thymus, such",
       "alternateClues": [],
       "softHints": {
         "startsWith": "T",
@@ -2169,196 +2802,254 @@
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any plant of the labiate genus Thymus, such as garden thyme (Thymus vulgaris), a warm, pungent aromatic, that is much used to give a relish to seasoning and soups.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "TURMERIC",
-      "primaryClue": "A tasty dish or ingredient",
-      "alternateClues": [],
+      "primaryClue": "An Indian plant , with aromatic rhizomes, part",
+      "alternateClues": [
+        "An Indian plant , with aromatic rhizomes, part"
+      ],
       "softHints": {
         "startsWith": "T",
         "length": 8,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "An Indian plant (Curcuma longa), with aromatic rhizomes, part of the ginger family (Zingiberaceae).",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "APPLE",
-      "primaryClue": "Food item",
-      "alternateClues": [],
+      "primaryClue": "A common, firm, round fruit produced by",
+      "alternateClues": [
+        "A common, firm, round fruit produced by",
+        "The fruit of the tree Malus domestica, chiefly"
+      ],
       "softHints": {
         "startsWith": "A",
         "length": 5,
         "category": "food"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A common, firm, round fruit produced by a tree of the genus Malus.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "APRICOT",
-      "primaryClue": "A tasty dish or ingredient",
-      "alternateClues": [],
+      "primaryClue": "A round sweet and juicy stone fruit, resembling",
+      "alternateClues": [
+        "A round sweet and juicy stone fruit, resembling"
+      ],
       "softHints": {
         "startsWith": "A",
         "length": 7,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A round sweet and juicy stone fruit, resembling peach or plum in taste, with a yellow-orange flesh, lightly fuzzy skin and a large seed inside.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "AVOCADO",
-      "primaryClue": "Food item",
-      "alternateClues": [],
+      "primaryClue": "A dark chartreuse color, like the color",
+      "alternateClues": [
+        "A dark chartreuse color, like the color",
+        "The large, usually yellowish-green or black, savory fruit"
+      ],
       "softHints": {
         "startsWith": "A",
         "length": 7,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A dark chartreuse color, like the color of the skin of an avocado.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BANANA",
-      "primaryClue": "Found in a kitchen or restaurant",
-      "alternateClues": [],
+      "primaryClue": "In particular, the sweet, yellow fruit of",
+      "alternateClues": [
+        "In particular, the sweet, yellow fruit of"
+      ],
       "softHints": {
         "startsWith": "B",
         "length": 6,
         "category": "food"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "In particular, the sweet, yellow fruit of the Cavendish banana cultivar, which may be eaten raw, as distinct from e.g. a plantain for cooking.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BERRY",
-      "primaryClue": "Food item",
-      "alternateClues": [],
+      "primaryClue": "A coffee bean",
+      "alternateClues": [
+        "A small succulent fruit, of any one of many varieties",
+        "A soft fruit which develops from a single"
+      ],
       "softHints": {
         "startsWith": "B",
         "length": 5,
         "category": "food"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A coffee bean.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CANTALOUPE",
-      "primaryClue": "Found in a kitchen or restaurant",
-      "alternateClues": [],
+      "primaryClue": "Cucumis melo Cantalupensis Group, a cultivar group melon",
+      "alternateClues": [
+        "Cucumis melo Cantalupensis Group, a cultivar group melon",
+        "Cantalupensis Group sensu stricto, with non- or slightly"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 10,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Cucumis melo Cantalupensis Group, a cultivar group melon with sweet aromatic orange flesh, including two main types:",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CHERRY",
-      "primaryClue": "Found in a kitchen or restaurant",
-      "alternateClues": [],
+      "primaryClue": "Prunus subg. Cerasus, trees or shrubs that bear cherries",
+      "alternateClues": [
+        "Prunus subg. Cerasus, trees or shrubs that bear cherries",
+        "A small fruit, usually red, black or yellow,"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 6,
         "category": "food"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Prunus subg. Cerasus, trees or shrubs that bear cherries.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CITRON",
-      "primaryClue": "Food item",
-      "alternateClues": [],
+      "primaryClue": "A greenish yellow colour",
+      "alternateClues": [
+        "A small citrus tree, Citrus medica"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 6,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A greenish yellow colour.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CITRUS",
-      "primaryClue": "Food item",
-      "alternateClues": [],
+      "primaryClue": "Any of several shrubs or trees of",
+      "alternateClues": [
+        "The fruit of such plants, generally spherical, oblate,"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 6,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any of several shrubs or trees of the genus Citrus in the family Rutaceae.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "COCONUT",
-      "primaryClue": "Something you eat",
-      "alternateClues": [],
+      "primaryClue": "The edible white flesh of this fruit",
+      "alternateClues": [
+        "A hard-shelled seed of this fruit, having white"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 7,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The edible white flesh of this fruit.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "DATE",
-      "primaryClue": "A tasty dish or ingredient",
+      "primaryClue": "The anus",
       "alternateClues": [],
       "softHints": {
         "startsWith": "D",
@@ -2366,179 +3057,233 @@
         "category": "food"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The anus.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "FIG",
-      "primaryClue": "A tasty dish or ingredient",
-      "alternateClues": [],
+      "primaryClue": "A fruit-bearing tree or shrub of the genus",
+      "alternateClues": [
+        "A fruit-bearing tree or shrub of the genus"
+      ],
       "softHints": {
         "startsWith": "F",
         "length": 3,
         "category": "food"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A fruit-bearing tree or shrub of the genus Ficus that is native mainly to the tropics.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "GRAPE",
-      "primaryClue": "Edible item",
-      "alternateClues": [],
+      "primaryClue": "A woody vine of genus Vitis that bears",
+      "alternateClues": [
+        "A small, round, smooth-skinned edible fruit, usually purple,",
+        "Any of various fruits or plants with varying"
+      ],
       "softHints": {
         "startsWith": "G",
         "length": 5,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A woody vine of genus Vitis that bears clusters of grapes; a grapevine.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "GUAVA",
-      "primaryClue": "Found in a kitchen or restaurant",
-      "alternateClues": [],
+      "primaryClue": "A tropical tree or shrub of the myrtle",
+      "alternateClues": [
+        "Its yellowish tropical fruit, globular or pear-shaped with"
+      ],
       "softHints": {
         "startsWith": "G",
         "length": 5,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A tropical tree or shrub of the myrtle family, Psidium guajava.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "KIWI",
-      "primaryClue": "Something you eat",
-      "alternateClues": [],
+      "primaryClue": "A New Zealand dollar",
+      "alternateClues": [
+        "A flightless bird of the order Apterygiformes native"
+      ],
       "softHints": {
         "startsWith": "K",
         "length": 4,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A New Zealand dollar.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "LIME",
-      "primaryClue": "Edible item",
-      "alternateClues": [],
+      "primaryClue": "Any gluey or adhesive substance that traps",
+      "alternateClues": [
+        "Any gluey or adhesive substance that traps",
+        "Any inorganic material containing calcium, usually calcium oxide"
+      ],
       "softHints": {
         "startsWith": "L",
         "length": 4,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any gluey or adhesive substance that traps or captures; sometimes a synonym for birdlime.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "MANGO",
-      "primaryClue": "A tasty dish or ingredient",
-      "alternateClues": [],
+      "primaryClue": "A tropical Asian fruit tree, Mangifera indica",
+      "alternateClues": [
+        "A tropical Asian fruit tree, Mangifera indica",
+        "A pickled vegetable or fruit with a spicy"
+      ],
       "softHints": {
         "startsWith": "M",
         "length": 5,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A tropical Asian fruit tree, Mangifera indica.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "MELON",
-      "primaryClue": "Food item",
-      "alternateClues": [],
+      "primaryClue": "Some of the plants of the family Cucurbitaceae",
+      "alternateClues": [
+        "Some of the plants of the family Cucurbitaceae"
+      ],
       "softHints": {
         "startsWith": "M",
         "length": 5,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Some of the plants of the family Cucurbitaceae grown for food, generally not including the cucumber.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "MULBERRY",
-      "primaryClue": "Found in a kitchen or restaurant",
-      "alternateClues": [],
+      "primaryClue": "The fruit of this tree",
+      "alternateClues": [
+        "A dark purple colour tinted with red",
+        "Any of several trees, of the genus Morus,"
+      ],
       "softHints": {
         "startsWith": "M",
         "length": 8,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The fruit of this tree.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "NECTARINE",
-      "primaryClue": "Found in a kitchen or restaurant",
-      "alternateClues": [],
+      "primaryClue": "A nectar-like liquid medicine",
+      "alternateClues": [
+        "A cultivar of the peach with smooth rather"
+      ],
       "softHints": {
         "startsWith": "N",
         "length": 9,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A nectar-like liquid medicine.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "ORANGE",
-      "primaryClue": "Food item",
-      "alternateClues": [],
+      "primaryClue": "An evergreen tree of the genus Citrus such",
+      "alternateClues": [
+        "Any round citrus fruit with a yellow-red colour",
+        "Any round citrus fruit with a yellow-red colour"
+      ],
       "softHints": {
         "startsWith": "O",
         "length": 6,
         "category": "food"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "An evergreen tree of the genus Citrus such as Citrus sinensis which yields oranges (the fruit).",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "PAPAYA",
-      "primaryClue": "Edible item",
+      "primaryClue": "The fruit of this tree",
       "alternateClues": [],
       "softHints": {
         "startsWith": "P",
@@ -2546,32 +3291,39 @@
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The fruit of this tree.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "PEACH",
-      "primaryClue": "A tasty dish or ingredient",
-      "alternateClues": [],
+      "primaryClue": "A light yellow-red colour",
+      "alternateClues": [
+        "Any tree of species Prunus persica, native"
+      ],
       "softHints": {
         "startsWith": "P",
         "length": 5,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A light yellow-red colour.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "PEAR",
-      "primaryClue": "Something you eat",
+      "primaryClue": "Sweet teardrop-shaped fruit",
       "alternateClues": [],
       "softHints": {
         "startsWith": "P",
@@ -2579,64 +3331,82 @@
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "override",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "override",
+      "sourceDefinition": "",
+      "clueGenerationMethod": "manual_override",
+      "licenseNotes": "manual",
+      "needsReview": false
     },
     {
       "word": "PINEAPPLE",
-      "primaryClue": "Something you eat",
-      "alternateClues": [],
+      "primaryClue": "A tropical plant, Ananas comosus, native to South",
+      "alternateClues": [
+        "A tropical plant, Ananas comosus, native to South"
+      ],
       "softHints": {
         "startsWith": "P",
         "length": 9,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A tropical plant, Ananas comosus, native to South America, having thirty or more long, spined and pointed leaves surrounding a thick stem.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "PLUM",
-      "primaryClue": "Food item",
-      "alternateClues": [],
+      "primaryClue": "The fruit and its tree",
+      "alternateClues": [
+        "The fruit and its tree",
+        "An edible, fleshy stone fruit of Prunus domestica"
+      ],
       "softHints": {
         "startsWith": "P",
         "length": 4,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The fruit and its tree.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "PRUNE",
-      "primaryClue": "Found in a kitchen or restaurant",
-      "alternateClues": [],
+      "primaryClue": "A plum",
+      "alternateClues": [
+        "The dried, wrinkled fruit of certain species of plum"
+      ],
       "softHints": {
         "startsWith": "P",
         "length": 5,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A plum.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "RAISIN",
-      "primaryClue": "A tasty dish or ingredient",
+      "primaryClue": "A dried grape",
       "alternateClues": [],
       "softHints": {
         "startsWith": "R",
@@ -2644,44 +3414,57 @@
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A dried grape.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "RASPBERRY",
-      "primaryClue": "Edible item",
-      "alternateClues": [],
+      "primaryClue": "The plant Rubus idaeus",
+      "alternateClues": [
+        "The juicy aggregate fruit of these plants",
+        "Any of many other species in the genus Rubus"
+      ],
       "softHints": {
         "startsWith": "R",
         "length": 9,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The plant Rubus idaeus.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "TANGERINE",
-      "primaryClue": "A tasty dish or ingredient",
-      "alternateClues": [],
+      "primaryClue": "A tree that produces tangerines",
+      "alternateClues": [
+        "A slightly ovoid, orange-coloured citrus fruit with"
+      ],
       "softHints": {
         "startsWith": "T",
         "length": 9,
         "category": "food"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A tree that produces tangerines.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     }
   ]
 }

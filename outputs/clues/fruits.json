@@ -4,172 +4,222 @@
   "clues": [
     {
       "word": "APPLE",
-      "primaryClue": "Fruit variety",
-      "alternateClues": [],
+      "primaryClue": "A common, firm, round fruit produced by",
+      "alternateClues": [
+        "A common, firm, round fruit produced by",
+        "The fruit of the tree Malus domestica, chiefly"
+      ],
       "softHints": {
         "startsWith": "A",
         "length": 5,
         "category": "fruits"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A common, firm, round fruit produced by a tree of the genus Malus.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "APRICOT",
-      "primaryClue": "Grows on a tree or vine",
-      "alternateClues": [],
+      "primaryClue": "A round sweet and juicy stone fruit, resembling",
+      "alternateClues": [
+        "A round sweet and juicy stone fruit, resembling"
+      ],
       "softHints": {
         "startsWith": "A",
         "length": 7,
         "category": "fruits"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A round sweet and juicy stone fruit, resembling peach or plum in taste, with a yellow-orange flesh, lightly fuzzy skin and a large seed inside.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "AVOCADO",
-      "primaryClue": "Fruit variety",
-      "alternateClues": [],
+      "primaryClue": "A dark chartreuse color, like the color",
+      "alternateClues": [
+        "A dark chartreuse color, like the color",
+        "The large, usually yellowish-green or black, savory fruit"
+      ],
       "softHints": {
         "startsWith": "A",
         "length": 7,
         "category": "fruits"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A dark chartreuse color, like the color of the skin of an avocado.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BANANA",
-      "primaryClue": "Found in an orchard",
-      "alternateClues": [],
+      "primaryClue": "In particular, the sweet, yellow fruit of",
+      "alternateClues": [
+        "In particular, the sweet, yellow fruit of"
+      ],
       "softHints": {
         "startsWith": "B",
         "length": 6,
         "category": "fruits"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "In particular, the sweet, yellow fruit of the Cavendish banana cultivar, which may be eaten raw, as distinct from e.g. a plantain for cooking.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BERRY",
-      "primaryClue": "Fruit variety",
-      "alternateClues": [],
+      "primaryClue": "A coffee bean",
+      "alternateClues": [
+        "A small succulent fruit, of any one of many varieties",
+        "A soft fruit which develops from a single"
+      ],
       "softHints": {
         "startsWith": "B",
         "length": 5,
         "category": "fruits"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A coffee bean.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CANTALOUPE",
-      "primaryClue": "Found in an orchard",
-      "alternateClues": [],
+      "primaryClue": "Cucumis melo Cantalupensis Group, a cultivar group melon",
+      "alternateClues": [
+        "Cucumis melo Cantalupensis Group, a cultivar group melon",
+        "Cantalupensis Group sensu stricto, with non- or slightly"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 10,
         "category": "fruits"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Cucumis melo Cantalupensis Group, a cultivar group melon with sweet aromatic orange flesh, including two main types:",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CHERRY",
-      "primaryClue": "Found in an orchard",
-      "alternateClues": [],
+      "primaryClue": "Prunus subg. Cerasus, trees or shrubs that bear cherries",
+      "alternateClues": [
+        "Prunus subg. Cerasus, trees or shrubs that bear cherries",
+        "A small fruit, usually red, black or yellow,"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 6,
         "category": "fruits"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Prunus subg. Cerasus, trees or shrubs that bear cherries.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CITRON",
-      "primaryClue": "Fruit variety",
-      "alternateClues": [],
+      "primaryClue": "A greenish yellow colour",
+      "alternateClues": [
+        "A small citrus tree, Citrus medica"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 6,
         "category": "fruits"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A greenish yellow colour.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CITRUS",
-      "primaryClue": "Fruit variety",
-      "alternateClues": [],
+      "primaryClue": "Any of several shrubs or trees of",
+      "alternateClues": [
+        "The fruit of such plants, generally spherical, oblate,"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 6,
         "category": "fruits"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any of several shrubs or trees of the genus Citrus in the family Rutaceae.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "COCONUT",
-      "primaryClue": "A sweet fruit",
-      "alternateClues": [],
+      "primaryClue": "The edible white flesh of this fruit",
+      "alternateClues": [
+        "A hard-shelled seed of this fruit, having white"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 7,
         "category": "fruits"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The edible white flesh of this fruit.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "DATE",
-      "primaryClue": "Grows on a tree or vine",
+      "primaryClue": "The anus",
       "alternateClues": [],
       "softHints": {
         "startsWith": "D",
@@ -177,193 +227,255 @@
         "category": "fruits"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The anus.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "FIG",
-      "primaryClue": "Grows on a tree or vine",
-      "alternateClues": [],
+      "primaryClue": "A fruit-bearing tree or shrub of the genus",
+      "alternateClues": [
+        "A fruit-bearing tree or shrub of the genus"
+      ],
       "softHints": {
         "startsWith": "F",
         "length": 3,
         "category": "fruits"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A fruit-bearing tree or shrub of the genus Ficus that is native mainly to the tropics.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "GRAPE",
-      "primaryClue": "Healthy snack option",
-      "alternateClues": [],
+      "primaryClue": "A woody vine of genus Vitis that bears",
+      "alternateClues": [
+        "A small, round, smooth-skinned edible fruit, usually purple,",
+        "Any of various fruits or plants with varying"
+      ],
       "softHints": {
         "startsWith": "G",
         "length": 5,
         "category": "fruits"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A woody vine of genus Vitis that bears clusters of grapes; a grapevine.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "GUAVA",
-      "primaryClue": "Found in an orchard",
-      "alternateClues": [],
+      "primaryClue": "A tropical tree or shrub of the myrtle",
+      "alternateClues": [
+        "Its yellowish tropical fruit, globular or pear-shaped with"
+      ],
       "softHints": {
         "startsWith": "G",
         "length": 5,
         "category": "fruits"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A tropical tree or shrub of the myrtle family, Psidium guajava.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "KIWI",
-      "primaryClue": "A sweet fruit",
-      "alternateClues": [],
+      "primaryClue": "A New Zealand dollar",
+      "alternateClues": [
+        "A flightless bird of the order Apterygiformes native"
+      ],
       "softHints": {
         "startsWith": "K",
         "length": 4,
         "category": "fruits"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A New Zealand dollar.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "LEMON",
-      "primaryClue": "A sweet fruit",
-      "alternateClues": [],
+      "primaryClue": "A yellowish citrus fruit",
+      "alternateClues": [
+        "A more or less bright shade of yellow",
+        "A semitropical evergreen tree, Citrus limon, that bears such fruits"
+      ],
       "softHints": {
         "startsWith": "L",
         "length": 5,
         "category": "fruits"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A yellowish citrus fruit.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "LIME",
-      "primaryClue": "Healthy snack option",
-      "alternateClues": [],
+      "primaryClue": "Any gluey or adhesive substance that traps",
+      "alternateClues": [
+        "Any gluey or adhesive substance that traps",
+        "Any inorganic material containing calcium, usually calcium oxide"
+      ],
       "softHints": {
         "startsWith": "L",
         "length": 4,
         "category": "fruits"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any gluey or adhesive substance that traps or captures; sometimes a synonym for birdlime.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "MANGO",
-      "primaryClue": "Grows on a tree or vine",
-      "alternateClues": [],
+      "primaryClue": "A tropical Asian fruit tree, Mangifera indica",
+      "alternateClues": [
+        "A tropical Asian fruit tree, Mangifera indica",
+        "A pickled vegetable or fruit with a spicy"
+      ],
       "softHints": {
         "startsWith": "M",
         "length": 5,
         "category": "fruits"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A tropical Asian fruit tree, Mangifera indica.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "MELON",
-      "primaryClue": "Fruit variety",
-      "alternateClues": [],
+      "primaryClue": "Some of the plants of the family Cucurbitaceae",
+      "alternateClues": [
+        "Some of the plants of the family Cucurbitaceae"
+      ],
       "softHints": {
         "startsWith": "M",
         "length": 5,
         "category": "fruits"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Some of the plants of the family Cucurbitaceae grown for food, generally not including the cucumber.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "MULBERRY",
-      "primaryClue": "Found in an orchard",
-      "alternateClues": [],
+      "primaryClue": "The fruit of this tree",
+      "alternateClues": [
+        "A dark purple colour tinted with red",
+        "Any of several trees, of the genus Morus,"
+      ],
       "softHints": {
         "startsWith": "M",
         "length": 8,
         "category": "fruits"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The fruit of this tree.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "NECTARINE",
-      "primaryClue": "Found in an orchard",
-      "alternateClues": [],
+      "primaryClue": "A nectar-like liquid medicine",
+      "alternateClues": [
+        "A cultivar of the peach with smooth rather"
+      ],
       "softHints": {
         "startsWith": "N",
         "length": 9,
         "category": "fruits"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A nectar-like liquid medicine.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "ORANGE",
-      "primaryClue": "Fruit variety",
-      "alternateClues": [],
+      "primaryClue": "An evergreen tree of the genus Citrus such",
+      "alternateClues": [
+        "Any round citrus fruit with a yellow-red colour",
+        "Any round citrus fruit with a yellow-red colour"
+      ],
       "softHints": {
         "startsWith": "O",
         "length": 6,
         "category": "fruits"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "An evergreen tree of the genus Citrus such as Citrus sinensis which yields oranges (the fruit).",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "PAPAYA",
-      "primaryClue": "Healthy snack option",
+      "primaryClue": "The fruit of this tree",
       "alternateClues": [],
       "softHints": {
         "startsWith": "P",
@@ -371,31 +483,39 @@
         "category": "fruits"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The fruit of this tree.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "PEACH",
-      "primaryClue": "Grows on a tree or vine",
-      "alternateClues": [],
+      "primaryClue": "A light yellow-red colour",
+      "alternateClues": [
+        "Any tree of species Prunus persica, native"
+      ],
       "softHints": {
         "startsWith": "P",
         "length": 5,
         "category": "fruits"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A light yellow-red colour.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "PEAR",
-      "primaryClue": "A sweet fruit",
+      "primaryClue": "Sweet teardrop-shaped fruit",
       "alternateClues": [],
       "softHints": {
         "startsWith": "P",
@@ -403,64 +523,82 @@
         "category": "fruits"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "override",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "override",
+      "sourceDefinition": "",
+      "clueGenerationMethod": "manual_override",
+      "licenseNotes": "manual",
+      "needsReview": false
     },
     {
       "word": "PINEAPPLE",
-      "primaryClue": "A sweet fruit",
-      "alternateClues": [],
+      "primaryClue": "A tropical plant, Ananas comosus, native to South",
+      "alternateClues": [
+        "A tropical plant, Ananas comosus, native to South"
+      ],
       "softHints": {
         "startsWith": "P",
         "length": 9,
         "category": "fruits"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A tropical plant, Ananas comosus, native to South America, having thirty or more long, spined and pointed leaves surrounding a thick stem.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "PLUM",
-      "primaryClue": "Fruit variety",
-      "alternateClues": [],
+      "primaryClue": "The fruit and its tree",
+      "alternateClues": [
+        "The fruit and its tree",
+        "An edible, fleshy stone fruit of Prunus domestica"
+      ],
       "softHints": {
         "startsWith": "P",
         "length": 4,
         "category": "fruits"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The fruit and its tree.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "PRUNE",
-      "primaryClue": "Found in an orchard",
-      "alternateClues": [],
+      "primaryClue": "A plum",
+      "alternateClues": [
+        "The dried, wrinkled fruit of certain species of plum"
+      ],
       "softHints": {
         "startsWith": "P",
         "length": 5,
         "category": "fruits"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A plum.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "RAISIN",
-      "primaryClue": "Grows on a tree or vine",
+      "primaryClue": "A dried grape",
       "alternateClues": [],
       "softHints": {
         "startsWith": "R",
@@ -468,43 +606,57 @@
         "category": "fruits"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A dried grape.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "RASPBERRY",
-      "primaryClue": "Healthy snack option",
-      "alternateClues": [],
+      "primaryClue": "The plant Rubus idaeus",
+      "alternateClues": [
+        "The juicy aggregate fruit of these plants",
+        "Any of many other species in the genus Rubus"
+      ],
       "softHints": {
         "startsWith": "R",
         "length": 9,
         "category": "fruits"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The plant Rubus idaeus.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "TANGERINE",
-      "primaryClue": "Grows on a tree or vine",
-      "alternateClues": [],
+      "primaryClue": "A tree that produces tangerines",
+      "alternateClues": [
+        "A slightly ovoid, orange-coloured citrus fruit with"
+      ],
       "softHints": {
         "startsWith": "T",
         "length": 9,
         "category": "fruits"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A tree that produces tangerines.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     }
   ]
 }

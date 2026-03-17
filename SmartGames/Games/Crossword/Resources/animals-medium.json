@@ -1,0 +1,7652 @@
+{
+  "packId": "animals-medium",
+  "title": "Wild Kingdom Plus",
+  "theme": "animals",
+  "difficulty": "medium",
+  "boardSize": "standard",
+  "puzzleCount": 20,
+  "version": "1.0.0",
+  "createdAt": "2026-03-18",
+  "puzzles": [
+    {
+      "puzzleId": "animals-medium-9x9-0001",
+      "seed": 1,
+      "theme": "animals",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "E",
+          "",
+          "",
+          "H",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "R",
+          "E",
+          "T",
+          "R",
+          "I",
+          "E",
+          "V",
+          "E",
+          "R"
+        ],
+        [
+          "",
+          "L",
+          "",
+          "",
+          "M",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "A",
+          "",
+          "T",
+          "",
+          ""
+        ],
+        [
+          "",
+          "S",
+          "W",
+          "A",
+          "L",
+          "L",
+          "O",
+          "W",
+          ""
+        ],
+        [
+          "",
+          "K",
+          "",
+          "",
+          "A",
+          "",
+          "U",
+          "",
+          ""
+        ],
+        [
+          "",
+          "U",
+          "",
+          "",
+          "Y",
+          "",
+          "C",
+          "",
+          ""
+        ],
+        [
+          "M",
+          "A",
+          "R",
+          "M",
+          "A",
+          "L",
+          "A",
+          "D",
+          "E"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "N",
+          "",
+          "N",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "SWALLOW",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "To take in so that it disappears; to consume, absorb",
+          "softHints": {
+            "startsWith": "S",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "HIMALAYAN",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 9,
+          "clue": "Of or relating to the Himalayas",
+          "softHints": {
+            "startsWith": "H",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "MARMALADE",
+          "direction": "across",
+          "row": 7,
+          "col": 0,
+          "length": 9,
+          "clue": "Quince jam",
+          "softHints": {
+            "startsWith": "M",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "RETRIEVER",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 9,
+          "clue": "One who retrieves something",
+          "softHints": {
+            "startsWith": "R",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "TOUCAN",
+          "direction": "down",
+          "row": 3,
+          "col": 6,
+          "length": 6,
+          "clue": "Any of various neotropical frugivorous birds from",
+          "softHints": {
+            "startsWith": "T",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 5,
+          "answer": "SKUA",
+          "direction": "down",
+          "row": 4,
+          "col": 1,
+          "length": 4,
+          "clue": "Any of various predatory seabirds of the genus",
+          "softHints": {
+            "startsWith": "S",
+            "length": 4,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "EEL",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 3,
+          "clue": "Any freshwater fish of the order Anguilliformes, which",
+          "softHints": {
+            "startsWith": "E",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "One who retrieves something",
+            "answer": "RETRIEVER",
+            "length": 9
+          },
+          {
+            "number": 5,
+            "clue": "To take in so that it disappears; to consume, absorb",
+            "answer": "SWALLOW",
+            "length": 7
+          },
+          {
+            "number": 6,
+            "clue": "Quince jam",
+            "answer": "MARMALADE",
+            "length": 9
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Any freshwater fish of the order Anguilliformes, which",
+            "answer": "EEL",
+            "length": 3
+          },
+          {
+            "number": 2,
+            "clue": "Of or relating to the Himalayas",
+            "answer": "HIMALAYAN",
+            "length": 9
+          },
+          {
+            "number": 4,
+            "clue": "Any of various neotropical frugivorous birds from",
+            "answer": "TOUCAN",
+            "length": 6
+          },
+          {
+            "number": 5,
+            "clue": "Any of various predatory seabirds of the genus",
+            "answer": "SKUA",
+            "length": 4
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "animals",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 8,
+        "boardScore": 0.5388
+      }
+    },
+    {
+      "puzzleId": "animals-medium-9x9-0002",
+      "seed": 2,
+      "theme": "animals",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "",
+          "R",
+          "",
+          "",
+          "E",
+          ""
+        ],
+        [
+          "S",
+          "C",
+          "H",
+          "N",
+          "A",
+          "U",
+          "Z",
+          "E",
+          "R"
+        ],
+        [
+          "",
+          "O",
+          "",
+          "",
+          "Z",
+          "",
+          "",
+          "L",
+          ""
+        ],
+        [
+          "",
+          "O",
+          "",
+          "",
+          "O",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "T",
+          "E",
+          "R",
+          "R",
+          "I",
+          "E",
+          "R",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "B",
+          "",
+          "",
+          "H",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "I",
+          "",
+          "",
+          "E",
+          ""
+        ],
+        [
+          "H",
+          "I",
+          "M",
+          "A",
+          "L",
+          "A",
+          "Y",
+          "A",
+          "N"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "L",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "TERRIER",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Someone displaying terrier-like qualities such as determined pursuit",
+          "softHints": {
+            "startsWith": "T",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "RAZORBILL",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 9,
+          "clue": "A large black and white auk of species",
+          "softHints": {
+            "startsWith": "R",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "SCHNAUZER",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 9,
+          "clue": "A dog of a particular breed originating in Germany",
+          "softHints": {
+            "startsWith": "S",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "HIMALAYAN",
+          "direction": "across",
+          "row": 7,
+          "col": 0,
+          "length": 9,
+          "clue": "Of or relating to the Himalayas",
+          "softHints": {
+            "startsWith": "H",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "RHEA",
+          "direction": "down",
+          "row": 4,
+          "col": 7,
+          "length": 4,
+          "clue": "A large flightless bird of the order Rheiformes,",
+          "softHints": {
+            "startsWith": "R",
+            "length": 4,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "COOT",
+          "direction": "down",
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "clue": "A foolish or eccentric fellow",
+          "softHints": {
+            "startsWith": "C",
+            "length": 4,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "EEL",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 3,
+          "clue": "Any freshwater fish of the order Anguilliformes, which",
+          "softHints": {
+            "startsWith": "E",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "A dog of a particular breed originating in Germany",
+            "answer": "SCHNAUZER",
+            "length": 9
+          },
+          {
+            "number": 5,
+            "clue": "Someone displaying terrier-like qualities such as determined pursuit",
+            "answer": "TERRIER",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "Of or relating to the Himalayas",
+            "answer": "HIMALAYAN",
+            "length": 9
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A large black and white auk of species",
+            "answer": "RAZORBILL",
+            "length": 9
+          },
+          {
+            "number": 2,
+            "clue": "Any freshwater fish of the order Anguilliformes, which",
+            "answer": "EEL",
+            "length": 3
+          },
+          {
+            "number": 4,
+            "clue": "A foolish or eccentric fellow",
+            "answer": "COOT",
+            "length": 4
+          },
+          {
+            "number": 6,
+            "clue": "A large flightless bird of the order Rheiformes,",
+            "answer": "RHEA",
+            "length": 4
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "animals",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 8,
+        "boardScore": 0.5339
+      }
+    },
+    {
+      "puzzleId": "animals-medium-9x9-0003",
+      "seed": 3,
+      "theme": "animals",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "",
+          "R",
+          "",
+          "",
+          "E",
+          ""
+        ],
+        [
+          "S",
+          "C",
+          "H",
+          "N",
+          "A",
+          "U",
+          "Z",
+          "E",
+          "R"
+        ],
+        [
+          "",
+          "O",
+          "",
+          "",
+          "Z",
+          "",
+          "",
+          "L",
+          ""
+        ],
+        [
+          "",
+          "O",
+          "",
+          "",
+          "O",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "T",
+          "E",
+          "R",
+          "R",
+          "I",
+          "E",
+          "R",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "B",
+          "",
+          "",
+          "H",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "I",
+          "",
+          "",
+          "E",
+          ""
+        ],
+        [
+          "H",
+          "I",
+          "M",
+          "A",
+          "L",
+          "A",
+          "Y",
+          "A",
+          "N"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "L",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "TERRIER",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Someone displaying terrier-like qualities such as determined pursuit",
+          "softHints": {
+            "startsWith": "T",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "RAZORBILL",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 9,
+          "clue": "A large black and white auk of species",
+          "softHints": {
+            "startsWith": "R",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "SCHNAUZER",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 9,
+          "clue": "A dog of a particular breed originating in Germany",
+          "softHints": {
+            "startsWith": "S",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "HIMALAYAN",
+          "direction": "across",
+          "row": 7,
+          "col": 0,
+          "length": 9,
+          "clue": "Of or relating to the Himalayas",
+          "softHints": {
+            "startsWith": "H",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "RHEA",
+          "direction": "down",
+          "row": 4,
+          "col": 7,
+          "length": 4,
+          "clue": "A large flightless bird of the order Rheiformes,",
+          "softHints": {
+            "startsWith": "R",
+            "length": 4,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "COOT",
+          "direction": "down",
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "clue": "A foolish or eccentric fellow",
+          "softHints": {
+            "startsWith": "C",
+            "length": 4,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "EEL",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 3,
+          "clue": "Any freshwater fish of the order Anguilliformes, which",
+          "softHints": {
+            "startsWith": "E",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "A dog of a particular breed originating in Germany",
+            "answer": "SCHNAUZER",
+            "length": 9
+          },
+          {
+            "number": 5,
+            "clue": "Someone displaying terrier-like qualities such as determined pursuit",
+            "answer": "TERRIER",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "Of or relating to the Himalayas",
+            "answer": "HIMALAYAN",
+            "length": 9
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A large black and white auk of species",
+            "answer": "RAZORBILL",
+            "length": 9
+          },
+          {
+            "number": 2,
+            "clue": "Any freshwater fish of the order Anguilliformes, which",
+            "answer": "EEL",
+            "length": 3
+          },
+          {
+            "number": 4,
+            "clue": "A foolish or eccentric fellow",
+            "answer": "COOT",
+            "length": 4
+          },
+          {
+            "number": 6,
+            "clue": "A large flightless bird of the order Rheiformes,",
+            "answer": "RHEA",
+            "length": 4
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "animals",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 8,
+        "boardScore": 0.5339
+      }
+    },
+    {
+      "puzzleId": "animals-medium-9x9-0004",
+      "seed": 4,
+      "theme": "animals",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "",
+          "R",
+          "",
+          "",
+          "E",
+          ""
+        ],
+        [
+          "S",
+          "C",
+          "H",
+          "N",
+          "A",
+          "U",
+          "Z",
+          "E",
+          "R"
+        ],
+        [
+          "",
+          "O",
+          "",
+          "",
+          "Z",
+          "",
+          "",
+          "L",
+          ""
+        ],
+        [
+          "",
+          "O",
+          "",
+          "",
+          "O",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "T",
+          "E",
+          "R",
+          "R",
+          "I",
+          "E",
+          "R",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "B",
+          "",
+          "",
+          "H",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "I",
+          "",
+          "",
+          "E",
+          ""
+        ],
+        [
+          "H",
+          "I",
+          "M",
+          "A",
+          "L",
+          "A",
+          "Y",
+          "A",
+          "N"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "L",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "TERRIER",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Someone displaying terrier-like qualities such as determined pursuit",
+          "softHints": {
+            "startsWith": "T",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "RAZORBILL",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 9,
+          "clue": "A large black and white auk of species",
+          "softHints": {
+            "startsWith": "R",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "SCHNAUZER",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 9,
+          "clue": "A dog of a particular breed originating in Germany",
+          "softHints": {
+            "startsWith": "S",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "HIMALAYAN",
+          "direction": "across",
+          "row": 7,
+          "col": 0,
+          "length": 9,
+          "clue": "Of or relating to the Himalayas",
+          "softHints": {
+            "startsWith": "H",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "RHEA",
+          "direction": "down",
+          "row": 4,
+          "col": 7,
+          "length": 4,
+          "clue": "A large flightless bird of the order Rheiformes,",
+          "softHints": {
+            "startsWith": "R",
+            "length": 4,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "COOT",
+          "direction": "down",
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "clue": "A foolish or eccentric fellow",
+          "softHints": {
+            "startsWith": "C",
+            "length": 4,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "EEL",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 3,
+          "clue": "Any freshwater fish of the order Anguilliformes, which",
+          "softHints": {
+            "startsWith": "E",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "A dog of a particular breed originating in Germany",
+            "answer": "SCHNAUZER",
+            "length": 9
+          },
+          {
+            "number": 5,
+            "clue": "Someone displaying terrier-like qualities such as determined pursuit",
+            "answer": "TERRIER",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "Of or relating to the Himalayas",
+            "answer": "HIMALAYAN",
+            "length": 9
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A large black and white auk of species",
+            "answer": "RAZORBILL",
+            "length": 9
+          },
+          {
+            "number": 2,
+            "clue": "Any freshwater fish of the order Anguilliformes, which",
+            "answer": "EEL",
+            "length": 3
+          },
+          {
+            "number": 4,
+            "clue": "A foolish or eccentric fellow",
+            "answer": "COOT",
+            "length": 4
+          },
+          {
+            "number": 6,
+            "clue": "A large flightless bird of the order Rheiformes,",
+            "answer": "RHEA",
+            "length": 4
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "animals",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 8,
+        "boardScore": 0.5339
+      }
+    },
+    {
+      "puzzleId": "animals-medium-9x9-0005",
+      "seed": 5,
+      "theme": "animals",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "",
+          "R",
+          "",
+          "",
+          "E",
+          ""
+        ],
+        [
+          "S",
+          "C",
+          "H",
+          "N",
+          "A",
+          "U",
+          "Z",
+          "E",
+          "R"
+        ],
+        [
+          "",
+          "O",
+          "",
+          "",
+          "Z",
+          "",
+          "",
+          "L",
+          ""
+        ],
+        [
+          "",
+          "O",
+          "",
+          "",
+          "O",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "T",
+          "E",
+          "R",
+          "R",
+          "I",
+          "E",
+          "R",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "B",
+          "",
+          "",
+          "H",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "I",
+          "",
+          "",
+          "E",
+          ""
+        ],
+        [
+          "H",
+          "I",
+          "M",
+          "A",
+          "L",
+          "A",
+          "Y",
+          "A",
+          "N"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "L",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "TERRIER",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Someone displaying terrier-like qualities such as determined pursuit",
+          "softHints": {
+            "startsWith": "T",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "RAZORBILL",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 9,
+          "clue": "A large black and white auk of species",
+          "softHints": {
+            "startsWith": "R",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "SCHNAUZER",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 9,
+          "clue": "A dog of a particular breed originating in Germany",
+          "softHints": {
+            "startsWith": "S",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "HIMALAYAN",
+          "direction": "across",
+          "row": 7,
+          "col": 0,
+          "length": 9,
+          "clue": "Of or relating to the Himalayas",
+          "softHints": {
+            "startsWith": "H",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "RHEA",
+          "direction": "down",
+          "row": 4,
+          "col": 7,
+          "length": 4,
+          "clue": "A large flightless bird of the order Rheiformes,",
+          "softHints": {
+            "startsWith": "R",
+            "length": 4,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "COOT",
+          "direction": "down",
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "clue": "A foolish or eccentric fellow",
+          "softHints": {
+            "startsWith": "C",
+            "length": 4,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "EEL",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 3,
+          "clue": "Any freshwater fish of the order Anguilliformes, which",
+          "softHints": {
+            "startsWith": "E",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "A dog of a particular breed originating in Germany",
+            "answer": "SCHNAUZER",
+            "length": 9
+          },
+          {
+            "number": 5,
+            "clue": "Someone displaying terrier-like qualities such as determined pursuit",
+            "answer": "TERRIER",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "Of or relating to the Himalayas",
+            "answer": "HIMALAYAN",
+            "length": 9
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A large black and white auk of species",
+            "answer": "RAZORBILL",
+            "length": 9
+          },
+          {
+            "number": 2,
+            "clue": "Any freshwater fish of the order Anguilliformes, which",
+            "answer": "EEL",
+            "length": 3
+          },
+          {
+            "number": 4,
+            "clue": "A foolish or eccentric fellow",
+            "answer": "COOT",
+            "length": 4
+          },
+          {
+            "number": 6,
+            "clue": "A large flightless bird of the order Rheiformes,",
+            "answer": "RHEA",
+            "length": 4
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "animals",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 8,
+        "boardScore": 0.5339
+      }
+    },
+    {
+      "puzzleId": "animals-medium-9x9-0006",
+      "seed": 6,
+      "theme": "animals",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "",
+          "R",
+          "",
+          "",
+          "E",
+          ""
+        ],
+        [
+          "S",
+          "C",
+          "H",
+          "N",
+          "A",
+          "U",
+          "Z",
+          "E",
+          "R"
+        ],
+        [
+          "",
+          "O",
+          "",
+          "",
+          "Z",
+          "",
+          "",
+          "L",
+          ""
+        ],
+        [
+          "",
+          "O",
+          "",
+          "",
+          "O",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "T",
+          "E",
+          "R",
+          "R",
+          "I",
+          "E",
+          "R",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "B",
+          "",
+          "",
+          "H",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "I",
+          "",
+          "",
+          "E",
+          ""
+        ],
+        [
+          "H",
+          "I",
+          "M",
+          "A",
+          "L",
+          "A",
+          "Y",
+          "A",
+          "N"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "L",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "TERRIER",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Someone displaying terrier-like qualities such as determined pursuit",
+          "softHints": {
+            "startsWith": "T",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "RAZORBILL",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 9,
+          "clue": "A large black and white auk of species",
+          "softHints": {
+            "startsWith": "R",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "SCHNAUZER",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 9,
+          "clue": "A dog of a particular breed originating in Germany",
+          "softHints": {
+            "startsWith": "S",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "HIMALAYAN",
+          "direction": "across",
+          "row": 7,
+          "col": 0,
+          "length": 9,
+          "clue": "Of or relating to the Himalayas",
+          "softHints": {
+            "startsWith": "H",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "RHEA",
+          "direction": "down",
+          "row": 4,
+          "col": 7,
+          "length": 4,
+          "clue": "A large flightless bird of the order Rheiformes,",
+          "softHints": {
+            "startsWith": "R",
+            "length": 4,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "COOT",
+          "direction": "down",
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "clue": "A foolish or eccentric fellow",
+          "softHints": {
+            "startsWith": "C",
+            "length": 4,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "EEL",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 3,
+          "clue": "Any freshwater fish of the order Anguilliformes, which",
+          "softHints": {
+            "startsWith": "E",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "A dog of a particular breed originating in Germany",
+            "answer": "SCHNAUZER",
+            "length": 9
+          },
+          {
+            "number": 5,
+            "clue": "Someone displaying terrier-like qualities such as determined pursuit",
+            "answer": "TERRIER",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "Of or relating to the Himalayas",
+            "answer": "HIMALAYAN",
+            "length": 9
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A large black and white auk of species",
+            "answer": "RAZORBILL",
+            "length": 9
+          },
+          {
+            "number": 2,
+            "clue": "Any freshwater fish of the order Anguilliformes, which",
+            "answer": "EEL",
+            "length": 3
+          },
+          {
+            "number": 4,
+            "clue": "A foolish or eccentric fellow",
+            "answer": "COOT",
+            "length": 4
+          },
+          {
+            "number": 6,
+            "clue": "A large flightless bird of the order Rheiformes,",
+            "answer": "RHEA",
+            "length": 4
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "animals",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 8,
+        "boardScore": 0.5339
+      }
+    },
+    {
+      "puzzleId": "animals-medium-9x9-0007",
+      "seed": 7,
+      "theme": "animals",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "M",
+          "",
+          "C",
+          "",
+          "C",
+          "",
+          ""
+        ],
+        [
+          "B",
+          "O",
+          "A",
+          "",
+          "H",
+          "",
+          "O",
+          "W",
+          "L"
+        ],
+        [
+          "",
+          "",
+          "R",
+          "",
+          "I",
+          "",
+          "C",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "M",
+          "",
+          "C",
+          "",
+          "K",
+          "",
+          ""
+        ],
+        [
+          "",
+          "J",
+          "A",
+          "C",
+          "K",
+          "D",
+          "A",
+          "W",
+          ""
+        ],
+        [
+          "",
+          "",
+          "L",
+          "",
+          "A",
+          "",
+          "T",
+          "",
+          ""
+        ],
+        [
+          "",
+          "M",
+          "A",
+          "N",
+          "D",
+          "R",
+          "I",
+          "L",
+          "L"
+        ],
+        [
+          "",
+          "",
+          "D",
+          "",
+          "E",
+          "",
+          "E",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "E",
+          "",
+          "E",
+          "",
+          "L",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          null,
+          "",
+          null,
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 6,
+          "answer": "JACKDAW",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "A bird of the genus Coloeus, similar",
+          "softHints": {
+            "startsWith": "J",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "MARMALADE",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 9,
+          "clue": "Quince jam",
+          "softHints": {
+            "startsWith": "M",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "CHICKADEE",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 9,
+          "clue": "Affectionate term of address",
+          "softHints": {
+            "startsWith": "C",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "COCKATIEL",
+          "direction": "down",
+          "row": 0,
+          "col": 6,
+          "length": 9,
+          "clue": "Nymphicus hollandicus, a small, rather atypical cockatoo with",
+          "softHints": {
+            "startsWith": "C",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "MANDRILL",
+          "direction": "across",
+          "row": 6,
+          "col": 1,
+          "length": 8,
+          "clue": "A primate, Mandrillus sphinx, with a colorful face and rump",
+          "softHints": {
+            "startsWith": "M",
+            "length": 8,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 5,
+          "answer": "OWL",
+          "direction": "across",
+          "row": 1,
+          "col": 6,
+          "length": 3,
+          "clue": "Any of various birds of prey of",
+          "softHints": {
+            "startsWith": "O",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "BOA",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "clue": "Any of a group of large American snakes,",
+          "softHints": {
+            "startsWith": "B",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "Any of a group of large American snakes,",
+            "answer": "BOA",
+            "length": 3
+          },
+          {
+            "number": 5,
+            "clue": "Any of various birds of prey of",
+            "answer": "OWL",
+            "length": 3
+          },
+          {
+            "number": 6,
+            "clue": "A bird of the genus Coloeus, similar",
+            "answer": "JACKDAW",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "A primate, Mandrillus sphinx, with a colorful face and rump",
+            "answer": "MANDRILL",
+            "length": 8
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Quince jam",
+            "answer": "MARMALADE",
+            "length": 9
+          },
+          {
+            "number": 2,
+            "clue": "Affectionate term of address",
+            "answer": "CHICKADEE",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "Nymphicus hollandicus, a small, rather atypical cockatoo with",
+            "answer": "COCKATIEL",
+            "length": 9
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "animals",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 8,
+        "boardScore": 0.5413
+      }
+    },
+    {
+      "puzzleId": "animals-medium-9x9-0008",
+      "seed": 8,
+      "theme": "animals",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "M",
+          "",
+          "C",
+          "",
+          "C",
+          "",
+          ""
+        ],
+        [
+          "B",
+          "O",
+          "A",
+          "",
+          "H",
+          "",
+          "O",
+          "W",
+          "L"
+        ],
+        [
+          "",
+          "",
+          "R",
+          "",
+          "I",
+          "",
+          "C",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "M",
+          "",
+          "C",
+          "",
+          "K",
+          "",
+          ""
+        ],
+        [
+          "",
+          "J",
+          "A",
+          "C",
+          "K",
+          "D",
+          "A",
+          "W",
+          ""
+        ],
+        [
+          "",
+          "",
+          "L",
+          "",
+          "A",
+          "",
+          "T",
+          "",
+          ""
+        ],
+        [
+          "",
+          "M",
+          "A",
+          "N",
+          "D",
+          "R",
+          "I",
+          "L",
+          "L"
+        ],
+        [
+          "",
+          "",
+          "D",
+          "",
+          "E",
+          "",
+          "E",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "E",
+          "",
+          "E",
+          "",
+          "L",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          null,
+          "",
+          null,
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 6,
+          "answer": "JACKDAW",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "A bird of the genus Coloeus, similar",
+          "softHints": {
+            "startsWith": "J",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "MARMALADE",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 9,
+          "clue": "Quince jam",
+          "softHints": {
+            "startsWith": "M",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "CHICKADEE",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 9,
+          "clue": "Affectionate term of address",
+          "softHints": {
+            "startsWith": "C",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "COCKATIEL",
+          "direction": "down",
+          "row": 0,
+          "col": 6,
+          "length": 9,
+          "clue": "Nymphicus hollandicus, a small, rather atypical cockatoo with",
+          "softHints": {
+            "startsWith": "C",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "MANDRILL",
+          "direction": "across",
+          "row": 6,
+          "col": 1,
+          "length": 8,
+          "clue": "A primate, Mandrillus sphinx, with a colorful face and rump",
+          "softHints": {
+            "startsWith": "M",
+            "length": 8,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 5,
+          "answer": "OWL",
+          "direction": "across",
+          "row": 1,
+          "col": 6,
+          "length": 3,
+          "clue": "Any of various birds of prey of",
+          "softHints": {
+            "startsWith": "O",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "BOA",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "clue": "Any of a group of large American snakes,",
+          "softHints": {
+            "startsWith": "B",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "Any of a group of large American snakes,",
+            "answer": "BOA",
+            "length": 3
+          },
+          {
+            "number": 5,
+            "clue": "Any of various birds of prey of",
+            "answer": "OWL",
+            "length": 3
+          },
+          {
+            "number": 6,
+            "clue": "A bird of the genus Coloeus, similar",
+            "answer": "JACKDAW",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "A primate, Mandrillus sphinx, with a colorful face and rump",
+            "answer": "MANDRILL",
+            "length": 8
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Quince jam",
+            "answer": "MARMALADE",
+            "length": 9
+          },
+          {
+            "number": 2,
+            "clue": "Affectionate term of address",
+            "answer": "CHICKADEE",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "Nymphicus hollandicus, a small, rather atypical cockatoo with",
+            "answer": "COCKATIEL",
+            "length": 9
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "animals",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 8,
+        "boardScore": 0.5413
+      }
+    },
+    {
+      "puzzleId": "animals-medium-9x9-0009",
+      "seed": 9,
+      "theme": "animals",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "T",
+          "",
+          "C",
+          "",
+          "B",
+          "",
+          "W",
+          ""
+        ],
+        [
+          "",
+          "H",
+          "",
+          "O",
+          "",
+          "A",
+          "",
+          "O",
+          ""
+        ],
+        [
+          "C",
+          "R",
+          "O",
+          "C",
+          "O",
+          "D",
+          "I",
+          "L",
+          "E"
+        ],
+        [
+          "",
+          "U",
+          "",
+          "K",
+          "",
+          "G",
+          "",
+          "V",
+          ""
+        ],
+        [
+          "",
+          "S",
+          "I",
+          "A",
+          "M",
+          "E",
+          "S",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "H",
+          "",
+          "T",
+          "",
+          "R",
+          "",
+          "R",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "I",
+          "",
+          "",
+          "",
+          "I",
+          ""
+        ],
+        [
+          "P",
+          "I",
+          "G",
+          "E",
+          "O",
+          "N",
+          "",
+          "N",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "L",
+          "",
+          "",
+          "",
+          "E",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 6,
+          "answer": "SIAMESE",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Of or relating to Siam; Thai",
+          "softHints": {
+            "startsWith": "S",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "COCKATIEL",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 9,
+          "clue": "Nymphicus hollandicus, a small, rather atypical cockatoo with",
+          "softHints": {
+            "startsWith": "C",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 5,
+          "answer": "CROCODILE",
+          "direction": "across",
+          "row": 2,
+          "col": 0,
+          "length": 9,
+          "clue": "A long line or procession of people walking together",
+          "softHints": {
+            "startsWith": "C",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "WOLVERINE",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 9,
+          "clue": "A solitary, fierce mammal of the Mustelidae family, Gulo gulo",
+          "softHints": {
+            "startsWith": "W",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "PIGEON",
+          "direction": "across",
+          "row": 7,
+          "col": 0,
+          "length": 6,
+          "clue": "The meat from this bird",
+          "softHints": {
+            "startsWith": "P",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "BADGER",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 6,
+          "clue": "A native or resident of the American state, Wisconsin",
+          "softHints": {
+            "startsWith": "B",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "THRUSH",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 6,
+          "clue": "A female singer",
+          "softHints": {
+            "startsWith": "T",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 5,
+            "clue": "A long line or procession of people walking together",
+            "answer": "CROCODILE",
+            "length": 9
+          },
+          {
+            "number": 6,
+            "clue": "Of or relating to Siam; Thai",
+            "answer": "SIAMESE",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "The meat from this bird",
+            "answer": "PIGEON",
+            "length": 6
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A female singer",
+            "answer": "THRUSH",
+            "length": 6
+          },
+          {
+            "number": 2,
+            "clue": "Nymphicus hollandicus, a small, rather atypical cockatoo with",
+            "answer": "COCKATIEL",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "A native or resident of the American state, Wisconsin",
+            "answer": "BADGER",
+            "length": 6
+          },
+          {
+            "number": 4,
+            "clue": "A solitary, fierce mammal of the Mustelidae family, Gulo gulo",
+            "answer": "WOLVERINE",
+            "length": 9
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "animals",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 9,
+        "boardScore": 0.5487
+      }
+    },
+    {
+      "puzzleId": "animals-medium-9x9-0010",
+      "seed": 10,
+      "theme": "animals",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "T",
+          "",
+          "C",
+          "",
+          "B",
+          "",
+          "W",
+          ""
+        ],
+        [
+          "",
+          "H",
+          "",
+          "O",
+          "",
+          "A",
+          "",
+          "O",
+          ""
+        ],
+        [
+          "C",
+          "R",
+          "O",
+          "C",
+          "O",
+          "D",
+          "I",
+          "L",
+          "E"
+        ],
+        [
+          "",
+          "U",
+          "",
+          "K",
+          "",
+          "G",
+          "",
+          "V",
+          ""
+        ],
+        [
+          "",
+          "S",
+          "I",
+          "A",
+          "M",
+          "E",
+          "S",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "H",
+          "",
+          "T",
+          "",
+          "R",
+          "",
+          "R",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "I",
+          "",
+          "",
+          "",
+          "I",
+          ""
+        ],
+        [
+          "P",
+          "I",
+          "G",
+          "E",
+          "O",
+          "N",
+          "",
+          "N",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "L",
+          "",
+          "",
+          "",
+          "E",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 6,
+          "answer": "SIAMESE",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Of or relating to Siam; Thai",
+          "softHints": {
+            "startsWith": "S",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "COCKATIEL",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 9,
+          "clue": "Nymphicus hollandicus, a small, rather atypical cockatoo with",
+          "softHints": {
+            "startsWith": "C",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 5,
+          "answer": "CROCODILE",
+          "direction": "across",
+          "row": 2,
+          "col": 0,
+          "length": 9,
+          "clue": "A long line or procession of people walking together",
+          "softHints": {
+            "startsWith": "C",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "WOLVERINE",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 9,
+          "clue": "A solitary, fierce mammal of the Mustelidae family, Gulo gulo",
+          "softHints": {
+            "startsWith": "W",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "PIGEON",
+          "direction": "across",
+          "row": 7,
+          "col": 0,
+          "length": 6,
+          "clue": "The meat from this bird",
+          "softHints": {
+            "startsWith": "P",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "BADGER",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 6,
+          "clue": "A native or resident of the American state, Wisconsin",
+          "softHints": {
+            "startsWith": "B",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "THRUSH",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 6,
+          "clue": "A female singer",
+          "softHints": {
+            "startsWith": "T",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 5,
+            "clue": "A long line or procession of people walking together",
+            "answer": "CROCODILE",
+            "length": 9
+          },
+          {
+            "number": 6,
+            "clue": "Of or relating to Siam; Thai",
+            "answer": "SIAMESE",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "The meat from this bird",
+            "answer": "PIGEON",
+            "length": 6
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A female singer",
+            "answer": "THRUSH",
+            "length": 6
+          },
+          {
+            "number": 2,
+            "clue": "Nymphicus hollandicus, a small, rather atypical cockatoo with",
+            "answer": "COCKATIEL",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "A native or resident of the American state, Wisconsin",
+            "answer": "BADGER",
+            "length": 6
+          },
+          {
+            "number": 4,
+            "clue": "A solitary, fierce mammal of the Mustelidae family, Gulo gulo",
+            "answer": "WOLVERINE",
+            "length": 9
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "animals",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 9,
+        "boardScore": 0.5487
+      }
+    },
+    {
+      "puzzleId": "animals-medium-9x9-0011",
+      "seed": 11,
+      "theme": "animals",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "T",
+          "",
+          "C",
+          "",
+          "B",
+          "",
+          "W",
+          ""
+        ],
+        [
+          "",
+          "H",
+          "",
+          "O",
+          "",
+          "A",
+          "",
+          "O",
+          ""
+        ],
+        [
+          "C",
+          "R",
+          "O",
+          "C",
+          "O",
+          "D",
+          "I",
+          "L",
+          "E"
+        ],
+        [
+          "",
+          "U",
+          "",
+          "K",
+          "",
+          "G",
+          "",
+          "V",
+          ""
+        ],
+        [
+          "",
+          "S",
+          "I",
+          "A",
+          "M",
+          "E",
+          "S",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "H",
+          "",
+          "T",
+          "",
+          "R",
+          "",
+          "R",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "I",
+          "",
+          "",
+          "",
+          "I",
+          ""
+        ],
+        [
+          "P",
+          "I",
+          "G",
+          "E",
+          "O",
+          "N",
+          "",
+          "N",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "L",
+          "",
+          "",
+          "",
+          "E",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 6,
+          "answer": "SIAMESE",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Of or relating to Siam; Thai",
+          "softHints": {
+            "startsWith": "S",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "COCKATIEL",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 9,
+          "clue": "Nymphicus hollandicus, a small, rather atypical cockatoo with",
+          "softHints": {
+            "startsWith": "C",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 5,
+          "answer": "CROCODILE",
+          "direction": "across",
+          "row": 2,
+          "col": 0,
+          "length": 9,
+          "clue": "A long line or procession of people walking together",
+          "softHints": {
+            "startsWith": "C",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "WOLVERINE",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 9,
+          "clue": "A solitary, fierce mammal of the Mustelidae family, Gulo gulo",
+          "softHints": {
+            "startsWith": "W",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "PIGEON",
+          "direction": "across",
+          "row": 7,
+          "col": 0,
+          "length": 6,
+          "clue": "The meat from this bird",
+          "softHints": {
+            "startsWith": "P",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "BADGER",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 6,
+          "clue": "A native or resident of the American state, Wisconsin",
+          "softHints": {
+            "startsWith": "B",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "THRUSH",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 6,
+          "clue": "A female singer",
+          "softHints": {
+            "startsWith": "T",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 5,
+            "clue": "A long line or procession of people walking together",
+            "answer": "CROCODILE",
+            "length": 9
+          },
+          {
+            "number": 6,
+            "clue": "Of or relating to Siam; Thai",
+            "answer": "SIAMESE",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "The meat from this bird",
+            "answer": "PIGEON",
+            "length": 6
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A female singer",
+            "answer": "THRUSH",
+            "length": 6
+          },
+          {
+            "number": 2,
+            "clue": "Nymphicus hollandicus, a small, rather atypical cockatoo with",
+            "answer": "COCKATIEL",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "A native or resident of the American state, Wisconsin",
+            "answer": "BADGER",
+            "length": 6
+          },
+          {
+            "number": 4,
+            "clue": "A solitary, fierce mammal of the Mustelidae family, Gulo gulo",
+            "answer": "WOLVERINE",
+            "length": 9
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "animals",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 9,
+        "boardScore": 0.5487
+      }
+    },
+    {
+      "puzzleId": "animals-medium-9x9-0012",
+      "seed": 12,
+      "theme": "animals",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "T",
+          "",
+          "C",
+          "",
+          "B",
+          "",
+          "W",
+          ""
+        ],
+        [
+          "",
+          "H",
+          "",
+          "O",
+          "",
+          "A",
+          "",
+          "O",
+          ""
+        ],
+        [
+          "C",
+          "R",
+          "O",
+          "C",
+          "O",
+          "D",
+          "I",
+          "L",
+          "E"
+        ],
+        [
+          "",
+          "U",
+          "",
+          "K",
+          "",
+          "G",
+          "",
+          "V",
+          ""
+        ],
+        [
+          "",
+          "S",
+          "I",
+          "A",
+          "M",
+          "E",
+          "S",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "H",
+          "",
+          "T",
+          "",
+          "R",
+          "",
+          "R",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "I",
+          "",
+          "",
+          "",
+          "I",
+          ""
+        ],
+        [
+          "P",
+          "I",
+          "G",
+          "E",
+          "O",
+          "N",
+          "",
+          "N",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "L",
+          "",
+          "",
+          "",
+          "E",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 6,
+          "answer": "SIAMESE",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Of or relating to Siam; Thai",
+          "softHints": {
+            "startsWith": "S",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "COCKATIEL",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 9,
+          "clue": "Nymphicus hollandicus, a small, rather atypical cockatoo with",
+          "softHints": {
+            "startsWith": "C",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 5,
+          "answer": "CROCODILE",
+          "direction": "across",
+          "row": 2,
+          "col": 0,
+          "length": 9,
+          "clue": "A long line or procession of people walking together",
+          "softHints": {
+            "startsWith": "C",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "WOLVERINE",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 9,
+          "clue": "A solitary, fierce mammal of the Mustelidae family, Gulo gulo",
+          "softHints": {
+            "startsWith": "W",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "PIGEON",
+          "direction": "across",
+          "row": 7,
+          "col": 0,
+          "length": 6,
+          "clue": "The meat from this bird",
+          "softHints": {
+            "startsWith": "P",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "BADGER",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 6,
+          "clue": "A native or resident of the American state, Wisconsin",
+          "softHints": {
+            "startsWith": "B",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "THRUSH",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 6,
+          "clue": "A female singer",
+          "softHints": {
+            "startsWith": "T",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 5,
+            "clue": "A long line or procession of people walking together",
+            "answer": "CROCODILE",
+            "length": 9
+          },
+          {
+            "number": 6,
+            "clue": "Of or relating to Siam; Thai",
+            "answer": "SIAMESE",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "The meat from this bird",
+            "answer": "PIGEON",
+            "length": 6
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A female singer",
+            "answer": "THRUSH",
+            "length": 6
+          },
+          {
+            "number": 2,
+            "clue": "Nymphicus hollandicus, a small, rather atypical cockatoo with",
+            "answer": "COCKATIEL",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "A native or resident of the American state, Wisconsin",
+            "answer": "BADGER",
+            "length": 6
+          },
+          {
+            "number": 4,
+            "clue": "A solitary, fierce mammal of the Mustelidae family, Gulo gulo",
+            "answer": "WOLVERINE",
+            "length": 9
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "animals",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 9,
+        "boardScore": 0.5487
+      }
+    },
+    {
+      "puzzleId": "animals-medium-9x9-0013",
+      "seed": 13,
+      "theme": "animals",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "T",
+          "",
+          "C",
+          "",
+          "B",
+          "",
+          "W",
+          ""
+        ],
+        [
+          "",
+          "H",
+          "",
+          "O",
+          "",
+          "A",
+          "",
+          "O",
+          ""
+        ],
+        [
+          "C",
+          "R",
+          "O",
+          "C",
+          "O",
+          "D",
+          "I",
+          "L",
+          "E"
+        ],
+        [
+          "",
+          "U",
+          "",
+          "K",
+          "",
+          "G",
+          "",
+          "V",
+          ""
+        ],
+        [
+          "",
+          "S",
+          "I",
+          "A",
+          "M",
+          "E",
+          "S",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "H",
+          "",
+          "T",
+          "",
+          "R",
+          "",
+          "R",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "I",
+          "",
+          "",
+          "",
+          "I",
+          ""
+        ],
+        [
+          "P",
+          "I",
+          "G",
+          "E",
+          "O",
+          "N",
+          "",
+          "N",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "L",
+          "",
+          "",
+          "",
+          "E",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 6,
+          "answer": "SIAMESE",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Of or relating to Siam; Thai",
+          "softHints": {
+            "startsWith": "S",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "COCKATIEL",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 9,
+          "clue": "Nymphicus hollandicus, a small, rather atypical cockatoo with",
+          "softHints": {
+            "startsWith": "C",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 5,
+          "answer": "CROCODILE",
+          "direction": "across",
+          "row": 2,
+          "col": 0,
+          "length": 9,
+          "clue": "A long line or procession of people walking together",
+          "softHints": {
+            "startsWith": "C",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "WOLVERINE",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 9,
+          "clue": "A solitary, fierce mammal of the Mustelidae family, Gulo gulo",
+          "softHints": {
+            "startsWith": "W",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "PIGEON",
+          "direction": "across",
+          "row": 7,
+          "col": 0,
+          "length": 6,
+          "clue": "The meat from this bird",
+          "softHints": {
+            "startsWith": "P",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "BADGER",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 6,
+          "clue": "A native or resident of the American state, Wisconsin",
+          "softHints": {
+            "startsWith": "B",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "THRUSH",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 6,
+          "clue": "A female singer",
+          "softHints": {
+            "startsWith": "T",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 5,
+            "clue": "A long line or procession of people walking together",
+            "answer": "CROCODILE",
+            "length": 9
+          },
+          {
+            "number": 6,
+            "clue": "Of or relating to Siam; Thai",
+            "answer": "SIAMESE",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "The meat from this bird",
+            "answer": "PIGEON",
+            "length": 6
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A female singer",
+            "answer": "THRUSH",
+            "length": 6
+          },
+          {
+            "number": 2,
+            "clue": "Nymphicus hollandicus, a small, rather atypical cockatoo with",
+            "answer": "COCKATIEL",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "A native or resident of the American state, Wisconsin",
+            "answer": "BADGER",
+            "length": 6
+          },
+          {
+            "number": 4,
+            "clue": "A solitary, fierce mammal of the Mustelidae family, Gulo gulo",
+            "answer": "WOLVERINE",
+            "length": 9
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "animals",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 9,
+        "boardScore": 0.5487
+      }
+    },
+    {
+      "puzzleId": "animals-medium-9x9-0314",
+      "seed": 314,
+      "theme": "animals",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "",
+          "R",
+          "",
+          "",
+          "E",
+          ""
+        ],
+        [
+          "S",
+          "C",
+          "H",
+          "N",
+          "A",
+          "U",
+          "Z",
+          "E",
+          "R"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "Z",
+          "",
+          "",
+          "L",
+          ""
+        ],
+        [
+          "",
+          "",
+          "S",
+          "",
+          "O",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "T",
+          "E",
+          "R",
+          "R",
+          "I",
+          "E",
+          "R",
+          ""
+        ],
+        [
+          "",
+          "",
+          "T",
+          "",
+          "B",
+          "",
+          "",
+          "H",
+          ""
+        ],
+        [
+          "R",
+          "E",
+          "T",
+          "R",
+          "I",
+          "E",
+          "V",
+          "E",
+          "R"
+        ],
+        [
+          "",
+          "",
+          "E",
+          "",
+          "L",
+          "",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "",
+          "R",
+          "",
+          "L",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "TERRIER",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Someone displaying terrier-like qualities such as determined pursuit",
+          "softHints": {
+            "startsWith": "T",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "RAZORBILL",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 9,
+          "clue": "A large black and white auk of species",
+          "softHints": {
+            "startsWith": "R",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "SCHNAUZER",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 9,
+          "clue": "A dog of a particular breed originating in Germany",
+          "softHints": {
+            "startsWith": "S",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "RETRIEVER",
+          "direction": "across",
+          "row": 6,
+          "col": 0,
+          "length": 9,
+          "clue": "One who retrieves something",
+          "softHints": {
+            "startsWith": "R",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "SETTER",
+          "direction": "down",
+          "row": 3,
+          "col": 2,
+          "length": 6,
+          "clue": "A typesetter",
+          "softHints": {
+            "startsWith": "S",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "RHEA",
+          "direction": "down",
+          "row": 4,
+          "col": 7,
+          "length": 4,
+          "clue": "A large flightless bird of the order Rheiformes,",
+          "softHints": {
+            "startsWith": "R",
+            "length": 4,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "EEL",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 3,
+          "clue": "Any freshwater fish of the order Anguilliformes, which",
+          "softHints": {
+            "startsWith": "E",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "A dog of a particular breed originating in Germany",
+            "answer": "SCHNAUZER",
+            "length": 9
+          },
+          {
+            "number": 5,
+            "clue": "Someone displaying terrier-like qualities such as determined pursuit",
+            "answer": "TERRIER",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "One who retrieves something",
+            "answer": "RETRIEVER",
+            "length": 9
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A large black and white auk of species",
+            "answer": "RAZORBILL",
+            "length": 9
+          },
+          {
+            "number": 2,
+            "clue": "Any freshwater fish of the order Anguilliformes, which",
+            "answer": "EEL",
+            "length": 3
+          },
+          {
+            "number": 4,
+            "clue": "A typesetter",
+            "answer": "SETTER",
+            "length": 6
+          },
+          {
+            "number": 6,
+            "clue": "A large flightless bird of the order Rheiformes,",
+            "answer": "RHEA",
+            "length": 4
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "animals",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 8,
+        "boardScore": 0.5388
+      }
+    },
+    {
+      "puzzleId": "animals-medium-9x9-0315",
+      "seed": 315,
+      "theme": "animals",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "",
+          "R",
+          "",
+          "",
+          "E",
+          ""
+        ],
+        [
+          "S",
+          "C",
+          "H",
+          "N",
+          "A",
+          "U",
+          "Z",
+          "E",
+          "R"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "Z",
+          "",
+          "",
+          "L",
+          ""
+        ],
+        [
+          "",
+          "",
+          "S",
+          "",
+          "O",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "T",
+          "E",
+          "R",
+          "R",
+          "I",
+          "E",
+          "R",
+          ""
+        ],
+        [
+          "",
+          "",
+          "T",
+          "",
+          "B",
+          "",
+          "",
+          "H",
+          ""
+        ],
+        [
+          "R",
+          "E",
+          "T",
+          "R",
+          "I",
+          "E",
+          "V",
+          "E",
+          "R"
+        ],
+        [
+          "",
+          "",
+          "E",
+          "",
+          "L",
+          "",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "",
+          "R",
+          "",
+          "L",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "TERRIER",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Someone displaying terrier-like qualities such as determined pursuit",
+          "softHints": {
+            "startsWith": "T",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "RAZORBILL",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 9,
+          "clue": "A large black and white auk of species",
+          "softHints": {
+            "startsWith": "R",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "SCHNAUZER",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 9,
+          "clue": "A dog of a particular breed originating in Germany",
+          "softHints": {
+            "startsWith": "S",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "RETRIEVER",
+          "direction": "across",
+          "row": 6,
+          "col": 0,
+          "length": 9,
+          "clue": "One who retrieves something",
+          "softHints": {
+            "startsWith": "R",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "SETTER",
+          "direction": "down",
+          "row": 3,
+          "col": 2,
+          "length": 6,
+          "clue": "A typesetter",
+          "softHints": {
+            "startsWith": "S",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "RHEA",
+          "direction": "down",
+          "row": 4,
+          "col": 7,
+          "length": 4,
+          "clue": "A large flightless bird of the order Rheiformes,",
+          "softHints": {
+            "startsWith": "R",
+            "length": 4,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "EEL",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 3,
+          "clue": "Any freshwater fish of the order Anguilliformes, which",
+          "softHints": {
+            "startsWith": "E",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "A dog of a particular breed originating in Germany",
+            "answer": "SCHNAUZER",
+            "length": 9
+          },
+          {
+            "number": 5,
+            "clue": "Someone displaying terrier-like qualities such as determined pursuit",
+            "answer": "TERRIER",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "One who retrieves something",
+            "answer": "RETRIEVER",
+            "length": 9
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A large black and white auk of species",
+            "answer": "RAZORBILL",
+            "length": 9
+          },
+          {
+            "number": 2,
+            "clue": "Any freshwater fish of the order Anguilliformes, which",
+            "answer": "EEL",
+            "length": 3
+          },
+          {
+            "number": 4,
+            "clue": "A typesetter",
+            "answer": "SETTER",
+            "length": 6
+          },
+          {
+            "number": 6,
+            "clue": "A large flightless bird of the order Rheiformes,",
+            "answer": "RHEA",
+            "length": 4
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "animals",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 8,
+        "boardScore": 0.5388
+      }
+    },
+    {
+      "puzzleId": "animals-medium-9x9-0016",
+      "seed": 16,
+      "theme": "animals",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "B",
+          "",
+          "C",
+          "",
+          "S",
+          "",
+          ""
+        ],
+        [
+          "B",
+          "O",
+          "A",
+          "",
+          "H",
+          "",
+          "C",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "R",
+          "",
+          "I",
+          "",
+          "H",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "R",
+          "",
+          "C",
+          "",
+          "N",
+          "",
+          ""
+        ],
+        [
+          "",
+          "J",
+          "A",
+          "C",
+          "K",
+          "D",
+          "A",
+          "W",
+          ""
+        ],
+        [
+          "",
+          "",
+          "C",
+          "",
+          "A",
+          "",
+          "U",
+          "",
+          ""
+        ],
+        [
+          "H",
+          "O",
+          "U",
+          "N",
+          "D",
+          "",
+          "Z",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "D",
+          "",
+          "E",
+          "",
+          "E",
+          "E",
+          "L"
+        ],
+        [
+          "",
+          "",
+          "A",
+          "",
+          "E",
+          "",
+          "R",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "JACKDAW",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "A bird of the genus Coloeus, similar",
+          "softHints": {
+            "startsWith": "J",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "BARRACUDA",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 9,
+          "clue": "One who uses harsh or predatory means to compete",
+          "softHints": {
+            "startsWith": "B",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "SCHNAUZER",
+          "direction": "down",
+          "row": 0,
+          "col": 6,
+          "length": 9,
+          "clue": "A dog of a particular breed originating in Germany",
+          "softHints": {
+            "startsWith": "S",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "CHICKADEE",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 9,
+          "clue": "Affectionate term of address",
+          "softHints": {
+            "startsWith": "C",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "HOUND",
+          "direction": "across",
+          "row": 6,
+          "col": 0,
+          "length": 5,
+          "clue": "Any canine animal",
+          "softHints": {
+            "startsWith": "H",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "EEL",
+          "direction": "across",
+          "row": 7,
+          "col": 6,
+          "length": 3,
+          "clue": "Any freshwater fish of the order Anguilliformes, which",
+          "softHints": {
+            "startsWith": "E",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "BOA",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "clue": "Any of a group of large American snakes,",
+          "softHints": {
+            "startsWith": "B",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "Any of a group of large American snakes,",
+            "answer": "BOA",
+            "length": 3
+          },
+          {
+            "number": 5,
+            "clue": "A bird of the genus Coloeus, similar",
+            "answer": "JACKDAW",
+            "length": 7
+          },
+          {
+            "number": 6,
+            "clue": "Any canine animal",
+            "answer": "HOUND",
+            "length": 5
+          },
+          {
+            "number": 7,
+            "clue": "Any freshwater fish of the order Anguilliformes, which",
+            "answer": "EEL",
+            "length": 3
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "One who uses harsh or predatory means to compete",
+            "answer": "BARRACUDA",
+            "length": 9
+          },
+          {
+            "number": 2,
+            "clue": "Affectionate term of address",
+            "answer": "CHICKADEE",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "A dog of a particular breed originating in Germany",
+            "answer": "SCHNAUZER",
+            "length": 9
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "animals",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 7,
+        "boardScore": 0.5363
+      }
+    },
+    {
+      "puzzleId": "animals-medium-9x9-0017",
+      "seed": 17,
+      "theme": "animals",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "B",
+          "",
+          "C",
+          "",
+          "S",
+          "",
+          ""
+        ],
+        [
+          "B",
+          "O",
+          "A",
+          "",
+          "H",
+          "",
+          "C",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "R",
+          "",
+          "I",
+          "",
+          "H",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "R",
+          "",
+          "C",
+          "",
+          "N",
+          "",
+          ""
+        ],
+        [
+          "",
+          "J",
+          "A",
+          "C",
+          "K",
+          "D",
+          "A",
+          "W",
+          ""
+        ],
+        [
+          "",
+          "",
+          "C",
+          "",
+          "A",
+          "",
+          "U",
+          "",
+          ""
+        ],
+        [
+          "H",
+          "O",
+          "U",
+          "N",
+          "D",
+          "",
+          "Z",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "D",
+          "",
+          "E",
+          "",
+          "E",
+          "E",
+          "L"
+        ],
+        [
+          "",
+          "",
+          "A",
+          "",
+          "E",
+          "",
+          "R",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "JACKDAW",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "A bird of the genus Coloeus, similar",
+          "softHints": {
+            "startsWith": "J",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "BARRACUDA",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 9,
+          "clue": "One who uses harsh or predatory means to compete",
+          "softHints": {
+            "startsWith": "B",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "SCHNAUZER",
+          "direction": "down",
+          "row": 0,
+          "col": 6,
+          "length": 9,
+          "clue": "A dog of a particular breed originating in Germany",
+          "softHints": {
+            "startsWith": "S",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "CHICKADEE",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 9,
+          "clue": "Affectionate term of address",
+          "softHints": {
+            "startsWith": "C",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "HOUND",
+          "direction": "across",
+          "row": 6,
+          "col": 0,
+          "length": 5,
+          "clue": "Any canine animal",
+          "softHints": {
+            "startsWith": "H",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "EEL",
+          "direction": "across",
+          "row": 7,
+          "col": 6,
+          "length": 3,
+          "clue": "Any freshwater fish of the order Anguilliformes, which",
+          "softHints": {
+            "startsWith": "E",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "BOA",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "clue": "Any of a group of large American snakes,",
+          "softHints": {
+            "startsWith": "B",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "Any of a group of large American snakes,",
+            "answer": "BOA",
+            "length": 3
+          },
+          {
+            "number": 5,
+            "clue": "A bird of the genus Coloeus, similar",
+            "answer": "JACKDAW",
+            "length": 7
+          },
+          {
+            "number": 6,
+            "clue": "Any canine animal",
+            "answer": "HOUND",
+            "length": 5
+          },
+          {
+            "number": 7,
+            "clue": "Any freshwater fish of the order Anguilliformes, which",
+            "answer": "EEL",
+            "length": 3
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "One who uses harsh or predatory means to compete",
+            "answer": "BARRACUDA",
+            "length": 9
+          },
+          {
+            "number": 2,
+            "clue": "Affectionate term of address",
+            "answer": "CHICKADEE",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "A dog of a particular breed originating in Germany",
+            "answer": "SCHNAUZER",
+            "length": 9
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "animals",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 7,
+        "boardScore": 0.5363
+      }
+    },
+    {
+      "puzzleId": "animals-medium-9x9-0018",
+      "seed": 18,
+      "theme": "animals",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "B",
+          "",
+          "C",
+          "",
+          "S",
+          "",
+          ""
+        ],
+        [
+          "B",
+          "O",
+          "A",
+          "",
+          "H",
+          "",
+          "C",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "R",
+          "",
+          "I",
+          "",
+          "H",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "R",
+          "",
+          "C",
+          "",
+          "N",
+          "",
+          ""
+        ],
+        [
+          "",
+          "J",
+          "A",
+          "C",
+          "K",
+          "D",
+          "A",
+          "W",
+          ""
+        ],
+        [
+          "",
+          "",
+          "C",
+          "",
+          "A",
+          "",
+          "U",
+          "",
+          ""
+        ],
+        [
+          "H",
+          "O",
+          "U",
+          "N",
+          "D",
+          "",
+          "Z",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "D",
+          "",
+          "E",
+          "",
+          "E",
+          "E",
+          "L"
+        ],
+        [
+          "",
+          "",
+          "A",
+          "",
+          "E",
+          "",
+          "R",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "JACKDAW",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "A bird of the genus Coloeus, similar",
+          "softHints": {
+            "startsWith": "J",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "BARRACUDA",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 9,
+          "clue": "One who uses harsh or predatory means to compete",
+          "softHints": {
+            "startsWith": "B",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "SCHNAUZER",
+          "direction": "down",
+          "row": 0,
+          "col": 6,
+          "length": 9,
+          "clue": "A dog of a particular breed originating in Germany",
+          "softHints": {
+            "startsWith": "S",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "CHICKADEE",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 9,
+          "clue": "Affectionate term of address",
+          "softHints": {
+            "startsWith": "C",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "HOUND",
+          "direction": "across",
+          "row": 6,
+          "col": 0,
+          "length": 5,
+          "clue": "Any canine animal",
+          "softHints": {
+            "startsWith": "H",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "EEL",
+          "direction": "across",
+          "row": 7,
+          "col": 6,
+          "length": 3,
+          "clue": "Any freshwater fish of the order Anguilliformes, which",
+          "softHints": {
+            "startsWith": "E",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "BOA",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "clue": "Any of a group of large American snakes,",
+          "softHints": {
+            "startsWith": "B",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "Any of a group of large American snakes,",
+            "answer": "BOA",
+            "length": 3
+          },
+          {
+            "number": 5,
+            "clue": "A bird of the genus Coloeus, similar",
+            "answer": "JACKDAW",
+            "length": 7
+          },
+          {
+            "number": 6,
+            "clue": "Any canine animal",
+            "answer": "HOUND",
+            "length": 5
+          },
+          {
+            "number": 7,
+            "clue": "Any freshwater fish of the order Anguilliformes, which",
+            "answer": "EEL",
+            "length": 3
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "One who uses harsh or predatory means to compete",
+            "answer": "BARRACUDA",
+            "length": 9
+          },
+          {
+            "number": 2,
+            "clue": "Affectionate term of address",
+            "answer": "CHICKADEE",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "A dog of a particular breed originating in Germany",
+            "answer": "SCHNAUZER",
+            "length": 9
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "animals",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 7,
+        "boardScore": 0.5363
+      }
+    },
+    {
+      "puzzleId": "animals-medium-9x9-0019",
+      "seed": 19,
+      "theme": "animals",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "B",
+          "",
+          "C",
+          "",
+          "S",
+          "",
+          ""
+        ],
+        [
+          "B",
+          "O",
+          "A",
+          "",
+          "H",
+          "",
+          "C",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "R",
+          "",
+          "I",
+          "",
+          "H",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "R",
+          "",
+          "C",
+          "",
+          "N",
+          "",
+          ""
+        ],
+        [
+          "",
+          "J",
+          "A",
+          "C",
+          "K",
+          "D",
+          "A",
+          "W",
+          ""
+        ],
+        [
+          "",
+          "",
+          "C",
+          "",
+          "A",
+          "",
+          "U",
+          "",
+          ""
+        ],
+        [
+          "H",
+          "O",
+          "U",
+          "N",
+          "D",
+          "",
+          "Z",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "D",
+          "",
+          "E",
+          "",
+          "E",
+          "E",
+          "L"
+        ],
+        [
+          "",
+          "",
+          "A",
+          "",
+          "E",
+          "",
+          "R",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "JACKDAW",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "A bird of the genus Coloeus, similar",
+          "softHints": {
+            "startsWith": "J",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "BARRACUDA",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 9,
+          "clue": "One who uses harsh or predatory means to compete",
+          "softHints": {
+            "startsWith": "B",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "SCHNAUZER",
+          "direction": "down",
+          "row": 0,
+          "col": 6,
+          "length": 9,
+          "clue": "A dog of a particular breed originating in Germany",
+          "softHints": {
+            "startsWith": "S",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "CHICKADEE",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 9,
+          "clue": "Affectionate term of address",
+          "softHints": {
+            "startsWith": "C",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "HOUND",
+          "direction": "across",
+          "row": 6,
+          "col": 0,
+          "length": 5,
+          "clue": "Any canine animal",
+          "softHints": {
+            "startsWith": "H",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "EEL",
+          "direction": "across",
+          "row": 7,
+          "col": 6,
+          "length": 3,
+          "clue": "Any freshwater fish of the order Anguilliformes, which",
+          "softHints": {
+            "startsWith": "E",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "BOA",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "clue": "Any of a group of large American snakes,",
+          "softHints": {
+            "startsWith": "B",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "Any of a group of large American snakes,",
+            "answer": "BOA",
+            "length": 3
+          },
+          {
+            "number": 5,
+            "clue": "A bird of the genus Coloeus, similar",
+            "answer": "JACKDAW",
+            "length": 7
+          },
+          {
+            "number": 6,
+            "clue": "Any canine animal",
+            "answer": "HOUND",
+            "length": 5
+          },
+          {
+            "number": 7,
+            "clue": "Any freshwater fish of the order Anguilliformes, which",
+            "answer": "EEL",
+            "length": 3
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "One who uses harsh or predatory means to compete",
+            "answer": "BARRACUDA",
+            "length": 9
+          },
+          {
+            "number": 2,
+            "clue": "Affectionate term of address",
+            "answer": "CHICKADEE",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "A dog of a particular breed originating in Germany",
+            "answer": "SCHNAUZER",
+            "length": 9
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "animals",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 7,
+        "boardScore": 0.5363
+      }
+    },
+    {
+      "puzzleId": "animals-medium-9x9-0020",
+      "seed": 20,
+      "theme": "animals",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "B",
+          "",
+          "C",
+          "",
+          "S",
+          "",
+          ""
+        ],
+        [
+          "B",
+          "O",
+          "A",
+          "",
+          "H",
+          "",
+          "C",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "R",
+          "",
+          "I",
+          "",
+          "H",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "R",
+          "",
+          "C",
+          "",
+          "N",
+          "",
+          ""
+        ],
+        [
+          "",
+          "J",
+          "A",
+          "C",
+          "K",
+          "D",
+          "A",
+          "W",
+          ""
+        ],
+        [
+          "",
+          "",
+          "C",
+          "",
+          "A",
+          "",
+          "U",
+          "",
+          ""
+        ],
+        [
+          "H",
+          "O",
+          "U",
+          "N",
+          "D",
+          "",
+          "Z",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "D",
+          "",
+          "E",
+          "",
+          "E",
+          "E",
+          "L"
+        ],
+        [
+          "",
+          "",
+          "A",
+          "",
+          "E",
+          "",
+          "R",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "JACKDAW",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "A bird of the genus Coloeus, similar",
+          "softHints": {
+            "startsWith": "J",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "BARRACUDA",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 9,
+          "clue": "One who uses harsh or predatory means to compete",
+          "softHints": {
+            "startsWith": "B",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "SCHNAUZER",
+          "direction": "down",
+          "row": 0,
+          "col": 6,
+          "length": 9,
+          "clue": "A dog of a particular breed originating in Germany",
+          "softHints": {
+            "startsWith": "S",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "CHICKADEE",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 9,
+          "clue": "Affectionate term of address",
+          "softHints": {
+            "startsWith": "C",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "HOUND",
+          "direction": "across",
+          "row": 6,
+          "col": 0,
+          "length": 5,
+          "clue": "Any canine animal",
+          "softHints": {
+            "startsWith": "H",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "EEL",
+          "direction": "across",
+          "row": 7,
+          "col": 6,
+          "length": 3,
+          "clue": "Any freshwater fish of the order Anguilliformes, which",
+          "softHints": {
+            "startsWith": "E",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "BOA",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "clue": "Any of a group of large American snakes,",
+          "softHints": {
+            "startsWith": "B",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "Any of a group of large American snakes,",
+            "answer": "BOA",
+            "length": 3
+          },
+          {
+            "number": 5,
+            "clue": "A bird of the genus Coloeus, similar",
+            "answer": "JACKDAW",
+            "length": 7
+          },
+          {
+            "number": 6,
+            "clue": "Any canine animal",
+            "answer": "HOUND",
+            "length": 5
+          },
+          {
+            "number": 7,
+            "clue": "Any freshwater fish of the order Anguilliformes, which",
+            "answer": "EEL",
+            "length": 3
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "One who uses harsh or predatory means to compete",
+            "answer": "BARRACUDA",
+            "length": 9
+          },
+          {
+            "number": 2,
+            "clue": "Affectionate term of address",
+            "answer": "CHICKADEE",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "A dog of a particular breed originating in Germany",
+            "answer": "SCHNAUZER",
+            "length": 9
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "animals",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 7,
+        "boardScore": 0.5363
+      }
+    }
+  ]
+}

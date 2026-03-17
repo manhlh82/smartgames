@@ -4,71 +4,93 @@
   "clues": [
     {
       "word": "BADGER",
-      "primaryClue": "A type of animal",
-      "alternateClues": [],
+      "primaryClue": "A native or resident of the American state, Wisconsin",
+      "alternateClues": [
+        "A native or resident of the American state, Wisconsin",
+        "Any mammal belonging to the genera Meles, Arctonyx,"
+      ],
       "softHints": {
         "startsWith": "B",
         "length": 6,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A native or resident of the American state, Wisconsin.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BARRACUDA",
-      "primaryClue": "Furry, feathered, or scaled creature",
-      "alternateClues": [],
+      "primaryClue": "One who uses harsh or predatory means to compete",
+      "alternateClues": [
+        "Any large marine fish of the genus Sphyraena"
+      ],
       "softHints": {
         "startsWith": "B",
         "length": 9,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "One who uses harsh or predatory means to compete.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BEAR",
-      "primaryClue": "Found in nature or a zoo",
-      "alternateClues": [],
+      "primaryClue": "The meat of this animal",
+      "alternateClues": [
+        "A large, generally omnivorous mammal (a few species",
+        "A large, generally omnivorous mammal (a few species"
+      ],
       "softHints": {
         "startsWith": "B",
         "length": 4,
         "category": "animals"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The meat of this animal.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BOA",
-      "primaryClue": "A type of animal",
-      "alternateClues": [],
+      "primaryClue": "Any of a group of large American snakes,",
+      "alternateClues": [
+        "A type of long scarf; typically made from"
+      ],
       "softHints": {
         "startsWith": "B",
         "length": 3,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any of a group of large American snakes, of the genus Boa, subfamily Boinae, or family Boidae, including the boa constrictor and the emperor boa of Mexico.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CHEETAH",
-      "primaryClue": "Common household pet or wild creature",
+      "primaryClue": "A distinctive member of the cat family, slightly",
       "alternateClues": [],
       "softHints": {
         "startsWith": "C",
@@ -76,223 +98,295 @@
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A distinctive member (Acinonyx jubatus) of the cat family, slightly smaller than the leopard, but with proportionately longer limbs and a smaller head; native to Africa and southeast Asia (where it is nearly extinct) and also credited with being the fastest terrestrial animal.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CHIMPANZEE",
-      "primaryClue": "Creature in the animal kingdom",
-      "alternateClues": [],
+      "primaryClue": "A member of the genus Pan, including",
+      "alternateClues": [
+        "Pan troglodytes, a species of great ape native"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 10,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A member of the genus Pan, including the bonobo which was formerly known as the pygmy chimpanzee.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CIVET",
-      "primaryClue": "Found in nature or a zoo",
-      "alternateClues": [],
+      "primaryClue": "A spotted skunk",
+      "alternateClues": [
+        "Any of the small carnivorous catlike mammals encompassing"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 5,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A spotted skunk.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "COBRA",
-      "primaryClue": "Found in nature or a zoo",
-      "alternateClues": [],
+      "primaryClue": "Any of various venomous snakes of the genus Naja",
+      "alternateClues": [
+        "A type of lanyard knot, thought to resemble"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 5,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any of various venomous snakes of the genus Naja.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "COUGAR",
-      "primaryClue": "Found in nature or a zoo",
-      "alternateClues": [],
+      "primaryClue": "A wild feline, of species Puma concolor, native",
+      "alternateClues": [
+        "An older woman who actively seeks the casual,"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 6,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A wild feline, of species Puma concolor, native to the Americas.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "COYOTE",
-      "primaryClue": "A type of animal",
-      "alternateClues": [],
+      "primaryClue": "Canis latrans, a species of canine native to North America",
+      "alternateClues": [
+        "A smuggler of undocumented immigrants across the land"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 6,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Canis latrans, a species of canine native to North America.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CROCODILE",
-      "primaryClue": "Found in nature or a zoo",
-      "alternateClues": [],
+      "primaryClue": "A long line or procession of people walking together",
+      "alternateClues": [
+        "A fallacious dilemma, mythically supposed to have been",
+        "Any of the predatory amphibious reptiles of"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 9,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A long line or procession of people (especially children) walking together.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "DINGO",
-      "primaryClue": "Furry, feathered, or scaled creature",
-      "alternateClues": [],
+      "primaryClue": "A cowardly or otherwise despicable person",
+      "alternateClues": [
+        "A wild dog native to Australia (Canis familiaris,"
+      ],
       "softHints": {
         "startsWith": "D",
         "length": 5,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A cowardly or otherwise despicable person.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "EAGLE",
-      "primaryClue": "Found in nature or a zoo",
-      "alternateClues": [],
+      "primaryClue": "A gold coin with a face value",
+      "alternateClues": [
+        "Any of several large carnivorous and carrion-eating birds",
+        "A 13th-century coin minted in Europe and circulated"
+      ],
       "softHints": {
         "startsWith": "E",
         "length": 5,
         "category": "animals"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A gold coin with a face value of ten dollars, formerly used in the United States.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "EEL",
-      "primaryClue": "Furry, feathered, or scaled creature",
-      "alternateClues": [],
+      "primaryClue": "Any freshwater fish of the order Anguilliformes, which",
+      "alternateClues": [
+        "Any freshwater fish of the order Anguilliformes, which"
+      ],
       "softHints": {
         "startsWith": "E",
         "length": 3,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any freshwater fish of the order Anguilliformes, which are elongated and resemble snakes.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "FOSSA",
-      "primaryClue": "Common household pet or wild creature",
-      "alternateClues": [],
+      "primaryClue": "A pit, groove, cavity, or depression",
+      "alternateClues": [
+        "A long, narrow, shallow depression on the body"
+      ],
       "softHints": {
         "startsWith": "F",
         "length": 5,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A pit, groove, cavity, or depression.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "FOX",
-      "primaryClue": "A type of animal",
-      "alternateClues": [],
+      "primaryClue": "A small-to-medium-sized canine mammal, related to dogs",
+      "alternateClues": [
+        "A small-to-medium-sized canine mammal, related to dogs",
+        "A small-to-medium-sized canine mammal, related to dogs"
+      ],
       "softHints": {
         "startsWith": "F",
         "length": 3,
         "category": "animals"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A small-to-medium-sized canine mammal, related to dogs and wolves, with a flattened skull, upright triangular ears, a pointed, slightly upturned snout, and a long bushy tail, of the following groups:",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "HUMAN",
-      "primaryClue": "Common household pet or wild creature",
-      "alternateClues": [],
+      "primaryClue": "Of or belonging to the species Homo sapiens",
+      "alternateClues": [
+        "Of or belonging to the species Homo sapiens"
+      ],
       "softHints": {
         "startsWith": "H",
         "length": 5,
         "category": "animals"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Of or belonging to the species Homo sapiens or its closest relatives.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "JACKAL",
-      "primaryClue": "Found in nature or a zoo",
-      "alternateClues": [],
+      "primaryClue": "A person who performs menial or routine tasks; a dogsbody",
+      "alternateClues": [
+        "A person who behaves in an opportunistic way;",
+        "Any of certain wild canids of the genera"
+      ],
       "softHints": {
         "startsWith": "J",
         "length": 6,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A person who performs menial or routine tasks; a dogsbody.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "JAGUAR",
-      "primaryClue": "Creature in the animal kingdom",
+      "primaryClue": "A carnivorous spotted large cat native to South",
       "alternateClues": [],
       "softHints": {
         "startsWith": "J",
@@ -300,15 +394,18 @@
         "category": "animals"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A carnivorous spotted large cat native to South and Central America, Panthera onca.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "KOMODO",
-      "primaryClue": "Found in nature or a zoo",
+      "primaryClue": "",
       "alternateClues": [],
       "softHints": {
         "startsWith": "K",
@@ -316,47 +413,62 @@
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
+      "source": "needs_review",
       "reviewFlags": [
-        "fallback_only"
+        "no_definition_found"
       ],
-      "approved": false
+      "approved": false,
+      "clueSource": "none",
+      "sourceDefinition": "",
+      "clueGenerationMethod": "excluded",
+      "licenseNotes": "",
+      "needsReview": true
     },
     {
       "word": "LEOPARD",
-      "primaryClue": "Common household pet or wild creature",
-      "alternateClues": [],
+      "primaryClue": "Panthera pardus, a large wild cat with",
+      "alternateClues": [
+        "Panthera pardus, a large wild cat with"
+      ],
       "softHints": {
         "startsWith": "L",
         "length": 7,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Panthera pardus, a large wild cat with a spotted coat native to Africa and Asia, especially the male of the species (in contrast to leopardess).",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "LION",
-      "primaryClue": "Found in nature or a zoo",
-      "alternateClues": [],
+      "primaryClue": "A big cat, Panthera leo, native to Africa,",
+      "alternateClues": [
+        "A big cat, Panthera leo, native to Africa,"
+      ],
       "softHints": {
         "startsWith": "L",
         "length": 4,
         "category": "animals"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A big cat, Panthera leo, native to Africa, India and formerly much of Europe.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "LYNX",
-      "primaryClue": "Found in nature or a zoo",
+      "primaryClue": "",
       "alternateClues": [],
       "softHints": {
         "startsWith": "L",
@@ -364,15 +476,20 @@
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
+      "source": "needs_review",
       "reviewFlags": [
-        "fallback_only"
+        "no_definition_found"
       ],
-      "approved": false
+      "approved": false,
+      "clueSource": "none",
+      "sourceDefinition": "",
+      "clueGenerationMethod": "excluded",
+      "licenseNotes": "",
+      "needsReview": true
     },
     {
       "word": "MAMBA",
-      "primaryClue": "Furry, feathered, or scaled creature",
+      "primaryClue": "Any of various venomous snakes of the genus",
       "alternateClues": [],
       "softHints": {
         "startsWith": "M",
@@ -380,15 +497,18 @@
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any of various venomous snakes of the genus Dendroaspis, native to Africa, that live in trees.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "MANDRILL",
-      "primaryClue": "A type of animal",
+      "primaryClue": "A primate, Mandrillus sphinx, with a colorful face and rump",
       "alternateClues": [],
       "softHints": {
         "startsWith": "M",
@@ -396,15 +516,18 @@
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A primate, Mandrillus sphinx, with a colorful face and rump.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "MARLIN",
-      "primaryClue": "A type of animal",
+      "primaryClue": "Any species of game fish belonging to either",
       "alternateClues": [],
       "softHints": {
         "startsWith": "M",
@@ -412,31 +535,40 @@
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any species of game fish belonging to either of the genera Tetrapturus or Makaira, with a crested dorsal fin and a pointed, spear-like projection of the upper jaw.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "MONITOR",
-      "primaryClue": "Common household pet or wild creature",
-      "alternateClues": [],
+      "primaryClue": "Someone who watches over something; a person",
+      "alternateClues": [
+        "A device that detects and informs on",
+        "A device similar to a television set used"
+      ],
       "softHints": {
         "startsWith": "M",
         "length": 7,
         "category": "animals"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Someone who watches over something; a person in charge of something or someone.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "OCELOT",
-      "primaryClue": "A type of animal",
+      "primaryClue": "An American feline carnivore covered with blackish ocellated",
       "alternateClues": [],
       "softHints": {
         "startsWith": "O",
@@ -444,47 +576,60 @@
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "An American feline carnivore (Leopardus pardalis, syn. Felis pardalis) covered with blackish ocellated spots and blotches which are variously arranged.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "OSPREY",
-      "primaryClue": "Furry, feathered, or scaled creature",
-      "alternateClues": [],
+      "primaryClue": "A bird of prey of genus Pandion that",
+      "alternateClues": [
+        "A bird of prey of genus Pandion that"
+      ],
       "softHints": {
         "startsWith": "O",
         "length": 6,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A bird of prey of genus Pandion that feeds on fish and has white underparts and long, narrow wings each ending in four finger-like extensions.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "OWL",
-      "primaryClue": "Found in nature or a zoo",
-      "alternateClues": [],
+      "primaryClue": "Any of various birds of prey of",
+      "alternateClues": [
+        "Any of various birds of prey of"
+      ],
       "softHints": {
         "startsWith": "O",
         "length": 3,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any of various birds of prey of the order Strigiformes, families Strigidae and Tytonidae, that are primarily nocturnal and have forward-looking, binocular vision, limited eye movement, and good hearing.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "PETREL",
-      "primaryClue": "Found in nature or a zoo",
+      "primaryClue": "Any of various species of black, grey,",
       "alternateClues": [],
       "softHints": {
         "startsWith": "P",
@@ -492,15 +637,18 @@
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any of various species of black, grey, or white seabirds in the order Procellariiformes.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "PYTHON",
-      "primaryClue": "Common household pet or wild creature",
+      "primaryClue": "",
       "alternateClues": [],
       "softHints": {
         "startsWith": "P",
@@ -508,47 +656,64 @@
         "category": "animals"
       },
       "difficulty": "easy",
-      "source": "generated",
+      "source": "needs_review",
       "reviewFlags": [
-        "fallback_only"
+        "no_definition_found"
       ],
-      "approved": false
+      "approved": false,
+      "clueSource": "none",
+      "sourceDefinition": "",
+      "clueGenerationMethod": "excluded",
+      "licenseNotes": "",
+      "needsReview": true
     },
     {
       "word": "RAY",
-      "primaryClue": "Furry, feathered, or scaled creature",
-      "alternateClues": [],
+      "primaryClue": "A beam of light or radiation",
+      "alternateClues": [
+        "A rib-like reinforcement of bone or cartilage",
+        "One of the spheromeres of a radiate, especially"
+      ],
       "softHints": {
         "startsWith": "R",
         "length": 3,
         "category": "animals"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A beam of light or radiation.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SALAMANDER",
-      "primaryClue": "Creature in the animal kingdom",
-      "alternateClues": [],
+      "primaryClue": "A metal utensil with a flat head which",
+      "alternateClues": [
+        "A long, slender, chiefly terrestrial amphibian of",
+        "A creature much like a lizard that is"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 10,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A metal utensil with a flat head which is heated and put over a dish to brown the top.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SERVAL",
-      "primaryClue": "Common household pet or wild creature",
+      "primaryClue": "",
       "alternateClues": [],
       "softHints": {
         "startsWith": "S",
@@ -556,31 +721,42 @@
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
+      "source": "needs_review",
       "reviewFlags": [
-        "fallback_only"
+        "no_definition_found"
       ],
-      "approved": false
+      "approved": false,
+      "clueSource": "none",
+      "sourceDefinition": "",
+      "clueGenerationMethod": "excluded",
+      "licenseNotes": "",
+      "needsReview": true
     },
     {
       "word": "SHARK",
-      "primaryClue": "Creature in the animal kingdom",
-      "alternateClues": [],
+      "primaryClue": "Flesh of this animal, consumed as food",
+      "alternateClues": [
+        "Any fish of the class Chondrichthyes, especially",
+        "Any predatory fish of the superorder Selachimorpha, with"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 5,
         "category": "animals"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Flesh of this animal, consumed as food.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SKUA",
-      "primaryClue": "Common household pet or wild creature",
+      "primaryClue": "Any of various predatory seabirds of the genus",
       "alternateClues": [],
       "softHints": {
         "startsWith": "S",
@@ -588,63 +764,83 @@
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any of various predatory seabirds of the genus Stercorarius that often chase other seabirds to steal their catches.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "TIGER",
-      "primaryClue": "Creature in the animal kingdom",
-      "alternateClues": [],
+      "primaryClue": "Panthera tigris, a large predatory mammal of",
+      "alternateClues": [
+        "Panthera tigris, a large predatory mammal of",
+        "Panthera tigris, a large predatory mammal of"
+      ],
       "softHints": {
         "startsWith": "T",
         "length": 5,
         "category": "animals"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Panthera tigris, a large predatory mammal of the cat family, indigenous to Asia.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "VIPER",
-      "primaryClue": "A type of animal",
-      "alternateClues": [],
+      "primaryClue": "Any venomous snake",
+      "alternateClues": [
+        "A dangerous, treacherous, or malignant person"
+      ],
       "softHints": {
         "startsWith": "V",
         "length": 5,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any venomous snake.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "WOLF",
-      "primaryClue": "Common household pet or wild creature",
-      "alternateClues": [],
+      "primaryClue": "Canis lupus; the largest wild member of the canine subfamily",
+      "alternateClues": [
+        "Canis lupus; the largest wild member of the canine subfamily",
+        "Any of several related canines that resemble Canis"
+      ],
       "softHints": {
         "startsWith": "W",
         "length": 4,
         "category": "animals"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Canis lupus; the largest wild member of the canine subfamily.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "WOLVERINE",
-      "primaryClue": "Common household pet or wild creature",
+      "primaryClue": "A solitary, fierce mammal of the Mustelidae family, Gulo gulo",
       "alternateClues": [],
       "softHints": {
         "startsWith": "W",
@@ -652,31 +848,40 @@
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A solitary, fierce mammal of the Mustelidae family, Gulo gulo.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BEAGLE",
-      "primaryClue": "Common household pet or wild creature",
-      "alternateClues": [],
+      "primaryClue": "A bailiff",
+      "alternateClues": [
+        "A person who snoops on others; a detective",
+        "A small short-legged smooth-coated scenthound, often tricolored"
+      ],
       "softHints": {
         "startsWith": "B",
         "length": 6,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A bailiff.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BORZOI",
-      "primaryClue": "Creature in the animal kingdom",
+      "primaryClue": "A dog of a particular breed, similar",
       "alternateClues": [],
       "softHints": {
         "startsWith": "B",
@@ -684,31 +889,40 @@
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A dog of a particular breed, similar in shape to a greyhound but with longer silkier hair.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BOXER",
-      "primaryClue": "Creature in the animal kingdom",
-      "alternateClues": [],
+      "primaryClue": "The person running a game of two-up",
+      "alternateClues": [
+        "A participant in a boxing match; a fighter who boxes",
+        "A type of internal combustion engine in which"
+      ],
       "softHints": {
         "startsWith": "B",
         "length": 5,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The person running a game of two-up.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "COLLIE",
-      "primaryClue": "A type of animal",
+      "primaryClue": "Any of various breeds of dog originating",
       "alternateClues": [],
       "softHints": {
         "startsWith": "C",
@@ -716,15 +930,18 @@
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any of various breeds of dog originating in Scotland and England as sheepdogs",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CORGIE",
-      "primaryClue": "Creature in the animal kingdom",
+      "primaryClue": "",
       "alternateClues": [],
       "softHints": {
         "startsWith": "C",
@@ -732,15 +949,20 @@
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
+      "source": "needs_review",
       "reviewFlags": [
-        "fallback_only"
+        "no_definition_found"
       ],
-      "approved": false
+      "approved": false,
+      "clueSource": "none",
+      "sourceDefinition": "",
+      "clueGenerationMethod": "excluded",
+      "licenseNotes": "",
+      "needsReview": true
     },
     {
       "word": "DACHSHUND",
-      "primaryClue": "Creature in the animal kingdom",
+      "primaryClue": "A certain breed of dog having short legs",
       "alternateClues": [],
       "softHints": {
         "startsWith": "D",
@@ -748,79 +970,105 @@
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A certain breed of dog having short legs and a long trunk, including standard-sized, miniature (smooth-haired, long-haired, and short-haired) varieties.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "FEIST",
-      "primaryClue": "Furry, feathered, or scaled creature",
-      "alternateClues": [],
+      "primaryClue": "Silent flatulence",
+      "alternateClues": [
+        "Silent flatulence"
+      ],
       "softHints": {
         "startsWith": "F",
         "length": 5,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Silent (but pungent) flatulence.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "HARRIER",
-      "primaryClue": "Creature in the animal kingdom",
-      "alternateClues": [],
+      "primaryClue": "One who harries",
+      "alternateClues": [
+        "A runner, specifically, a cross country runner",
+        "Any of several birds of prey in"
+      ],
       "softHints": {
         "startsWith": "H",
         "length": 7,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "One who harries.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "HOUND",
-      "primaryClue": "Common household pet or wild creature",
-      "alternateClues": [],
+      "primaryClue": "Any canine animal",
+      "alternateClues": [
+        "Someone who seeks something",
+        "A dog, particularly a breed with a good"
+      ],
       "softHints": {
         "startsWith": "H",
         "length": 5,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any canine animal.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "HUSKY",
-      "primaryClue": "Creature in the animal kingdom",
-      "alternateClues": [],
+      "primaryClue": "Hoarse and rough-sounding; throaty",
+      "alternateClues": [
+        "Abounding with husks; consisting of husks",
+        "Burly, stout; sometimes as a modifier for boys'"
+      ],
       "softHints": {
         "startsWith": "H",
         "length": 5,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Hoarse and rough-sounding; throaty.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "MALTESE",
-      "primaryClue": "Furry, feathered, or scaled creature",
+      "primaryClue": "Of or pertaining to Malta or its language",
       "alternateClues": [],
       "softHints": {
         "startsWith": "M",
@@ -828,15 +1076,18 @@
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Of or pertaining to Malta or its language.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "PINSCHER",
-      "primaryClue": "Common household pet or wild creature",
+      "primaryClue": "Any of several breeds of dog",
       "alternateClues": [],
       "softHints": {
         "startsWith": "P",
@@ -844,79 +1095,103 @@
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any of several breeds of dog.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "POODLE",
-      "primaryClue": "Common household pet or wild creature",
-      "alternateClues": [],
+      "primaryClue": "A person servile towards someone whom they consider their superior",
+      "alternateClues": [
+        "A breed of dog originating in Europe as"
+      ],
       "softHints": {
         "startsWith": "P",
         "length": 6,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A person servile towards someone whom they consider their superior.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "PUG",
-      "primaryClue": "Creature in the animal kingdom",
-      "alternateClues": [],
+      "primaryClue": "Senses relating to someone or something small",
+      "alternateClues": [
+        "Senses relating to someone or something small"
+      ],
       "softHints": {
         "startsWith": "P",
         "length": 3,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Senses relating to someone or something small.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "RETRIEVER",
-      "primaryClue": "Found in nature or a zoo",
-      "alternateClues": [],
+      "primaryClue": "One who retrieves something",
+      "alternateClues": [
+        "A type of gun dog that retrieves game",
+        "A tool for retrieving materials from the body"
+      ],
       "softHints": {
         "startsWith": "R",
         "length": 9,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "One who retrieves something.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "ROTTWEILER",
-      "primaryClue": "Furry, feathered, or scaled creature",
-      "alternateClues": [],
+      "primaryClue": "A very aggressive or short-tempered person",
+      "alternateClues": [
+        "A very large muscular breed of dog"
+      ],
       "softHints": {
         "startsWith": "R",
         "length": 10,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A very aggressive or short-tempered person.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SCHNAUZER",
-      "primaryClue": "Common household pet or wild creature",
+      "primaryClue": "A dog of a particular breed originating in Germany",
       "alternateClues": [],
       "softHints": {
         "startsWith": "S",
@@ -924,63 +1199,83 @@
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A dog of a particular breed originating in Germany.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SETTER",
-      "primaryClue": "A type of animal",
-      "alternateClues": [],
+      "primaryClue": "A typesetter",
+      "alternateClues": [
+        "One who sets something, such as a challenge",
+        "Any of several long-haired breeds of hunting dog"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 6,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A typesetter.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SHEPHERD",
-      "primaryClue": "Common household pet or wild creature",
-      "alternateClues": [],
+      "primaryClue": "A male sheep tender",
+      "alternateClues": [
+        "A person who tends sheep, especially a grazing flock",
+        "A person who tends sheep, especially a grazing flock"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 8,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A male sheep tender",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SPANIEL",
-      "primaryClue": "Found in nature or a zoo",
-      "alternateClues": [],
+      "primaryClue": "A cringing, fawning person",
+      "alternateClues": [
+        "Any of various small to medium-sized breeds"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 7,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A cringing, fawning person.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SPITZ",
-      "primaryClue": "A type of animal",
+      "primaryClue": "Any of several Nordic breeds of dog such",
       "alternateClues": [],
       "softHints": {
         "startsWith": "S",
@@ -988,31 +1283,39 @@
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any of several Nordic breeds of dog such as the Pomeranian or Samoyed.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "TERRIER",
-      "primaryClue": "Common household pet or wild creature",
-      "alternateClues": [],
+      "primaryClue": "Someone displaying terrier-like qualities such as determined pursuit",
+      "alternateClues": [
+        "A dog from a group of small, lively"
+      ],
       "softHints": {
         "startsWith": "T",
         "length": 7,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Someone displaying terrier-like qualities such as determined pursuit.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "WESTIE",
-      "primaryClue": "A type of animal",
+      "primaryClue": "",
       "alternateClues": [],
       "softHints": {
         "startsWith": "W",
@@ -1020,15 +1323,20 @@
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
+      "source": "needs_review",
       "reviewFlags": [
-        "fallback_only"
+        "no_definition_found"
       ],
-      "approved": false
+      "approved": false,
+      "clueSource": "none",
+      "sourceDefinition": "",
+      "clueGenerationMethod": "excluded",
+      "licenseNotes": "",
+      "needsReview": true
     },
     {
       "word": "WHIPPET",
-      "primaryClue": "Creature in the animal kingdom",
+      "primaryClue": "A dog of a certain breed, similar",
       "alternateClues": [],
       "softHints": {
         "startsWith": "W",
@@ -1036,31 +1344,39 @@
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A dog of a certain breed, similar to a small greyhound, originating in Britain and bred for racing.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "ANGORA",
-      "primaryClue": "Furry, feathered, or scaled creature",
-      "alternateClues": [],
+      "primaryClue": "A goat of a domesticated breed that produces mohair",
+      "alternateClues": [
+        "A goat of a domesticated breed that produces mohair"
+      ],
       "softHints": {
         "startsWith": "A",
         "length": 6,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A goat of a domesticated breed that produces mohair.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BALINESE",
-      "primaryClue": "A type of animal",
+      "primaryClue": "Of or relating to Bali, its inhabitants,",
       "alternateClues": [],
       "softHints": {
         "startsWith": "B",
@@ -1068,63 +1384,82 @@
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Of or relating to Bali, its inhabitants, or their language or culture.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BENGAL",
-      "primaryClue": "Furry, feathered, or scaled creature",
-      "alternateClues": [],
+      "primaryClue": "A player on the team The Cincinnati Bengals",
+      "alternateClues": [
+        "A player on the team The Cincinnati Bengals",
+        "A short-haired domestic cat of a particular breed"
+      ],
       "softHints": {
         "startsWith": "B",
         "length": 6,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A player on the team The Cincinnati Bengals.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BIRMAN",
-      "primaryClue": "Furry, feathered, or scaled creature",
-      "alternateClues": [],
+      "primaryClue": "Obsolete form of Burman",
+      "alternateClues": [
+        "A medium-sized semi-longhair domestic cat of a breed"
+      ],
       "softHints": {
         "startsWith": "B",
         "length": 6,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Obsolete form of Burman (“person from Burma”).",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BOBTAIL",
-      "primaryClue": "Creature in the animal kingdom",
-      "alternateClues": [],
+      "primaryClue": "A short, or deliberately shortened tail",
+      "alternateClues": [
+        "A tractor which performs without its trailer"
+      ],
       "softHints": {
         "startsWith": "B",
         "length": 7,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A short, or deliberately shortened tail.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BOMBAY",
-      "primaryClue": "Creature in the animal kingdom",
+      "primaryClue": "",
       "alternateClues": [],
       "softHints": {
         "startsWith": "B",
@@ -1132,15 +1467,20 @@
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
+      "source": "needs_review",
       "reviewFlags": [
-        "fallback_only"
+        "no_definition_found"
       ],
-      "approved": false
+      "approved": false,
+      "clueSource": "none",
+      "sourceDefinition": "",
+      "clueGenerationMethod": "excluded",
+      "licenseNotes": "",
+      "needsReview": true
     },
     {
       "word": "BURMESE",
-      "primaryClue": "Creature in the animal kingdom",
+      "primaryClue": "Of or relating to Burma or its people or language",
       "alternateClues": [],
       "softHints": {
         "startsWith": "B",
@@ -1148,63 +1488,83 @@
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Of or relating to Burma (Myanmar) or its people or language.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CALICO",
-      "primaryClue": "A type of animal",
-      "alternateClues": [],
+      "primaryClue": "The plant disease caused by Tobacco mosaic virus",
+      "alternateClues": [
+        "The plant disease caused by Tobacco mosaic virus",
+        "A kind of rough cloth made from unbleached"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 6,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The plant disease caused by Tobacco mosaic virus.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "GINGER",
-      "primaryClue": "Furry, feathered, or scaled creature",
-      "alternateClues": [],
+      "primaryClue": "The plant that produces this rhizome",
+      "alternateClues": [
+        "Other species belonging to the same family, Zingiberaceae,",
+        "The pungent aromatic rhizome of a tropical Asian"
+      ],
       "softHints": {
         "startsWith": "G",
         "length": 6,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The plant that produces this rhizome.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "HIMALAYAN",
-      "primaryClue": "Found in nature or a zoo",
-      "alternateClues": [],
+      "primaryClue": "Of or relating to the Himalayas",
+      "alternateClues": [
+        "Huge, gigantic, enormously large"
+      ],
       "softHints": {
         "startsWith": "H",
         "length": 9,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Of or relating to the Himalayas.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "JAVANESE",
-      "primaryClue": "Found in nature or a zoo",
+      "primaryClue": "A cat of a certain domestic cat breed",
       "alternateClues": [],
       "softHints": {
         "startsWith": "J",
@@ -1212,15 +1572,18 @@
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A cat of a certain domestic cat breed.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "KORAT",
-      "primaryClue": "Creature in the animal kingdom",
+      "primaryClue": "A blue-grey short-haired breed of domestic cat with",
       "alternateClues": [],
       "softHints": {
         "startsWith": "K",
@@ -1228,47 +1591,62 @@
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A blue-grey short-haired breed of domestic cat with heart-shaped head and large green eyes.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "LONGHAIR",
-      "primaryClue": "A type of animal",
-      "alternateClues": [],
+      "primaryClue": "A person considered to have excessively refined taste",
+      "alternateClues": [
+        "A person with a deep interest in",
+        "A person with hair longer than the norm,"
+      ],
       "softHints": {
         "startsWith": "L",
         "length": 8,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A person considered to have excessively refined taste for the arts.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "MARMALADE",
-      "primaryClue": "Found in nature or a zoo",
-      "alternateClues": [],
+      "primaryClue": "Quince jam",
+      "alternateClues": [
+        "A cat having orange- or ginger-colored fur",
+        "A kind of jam made with citrus fruit,"
+      ],
       "softHints": {
         "startsWith": "M",
         "length": 9,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Quince jam.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "ORIENTAL",
-      "primaryClue": "A type of animal",
+      "primaryClue": "",
       "alternateClues": [],
       "softHints": {
         "startsWith": "O",
@@ -1276,15 +1654,20 @@
         "category": "animals"
       },
       "difficulty": "easy",
-      "source": "generated",
+      "source": "needs_review",
       "reviewFlags": [
-        "fallback_only"
+        "no_definition_found"
       ],
-      "approved": false
+      "approved": false,
+      "clueSource": "none",
+      "sourceDefinition": "",
+      "clueGenerationMethod": "excluded",
+      "licenseNotes": "",
+      "needsReview": true
     },
     {
       "word": "PERSIAN",
-      "primaryClue": "A type of animal",
+      "primaryClue": "Of, from, or pertaining to Persia",
       "alternateClues": [],
       "softHints": {
         "startsWith": "P",
@@ -1292,31 +1675,39 @@
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Of, from, or pertaining to Persia.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SIAMESE",
-      "primaryClue": "Common household pet or wild creature",
-      "alternateClues": [],
+      "primaryClue": "Of or relating to Siam; Thai",
+      "alternateClues": [
+        "Of a connection of tubes or hoses: shaped"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 7,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Of or relating to Siam; Thai.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SIBERIAN",
-      "primaryClue": "Furry, feathered, or scaled creature",
+      "primaryClue": "Relating to the vast Asian region of Russia",
       "alternateClues": [],
       "softHints": {
         "startsWith": "S",
@@ -1324,63 +1715,84 @@
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "override",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "override",
+      "sourceDefinition": "",
+      "clueGenerationMethod": "manual_override",
+      "licenseNotes": "manual",
+      "needsReview": false
     },
     {
       "word": "TABBY",
-      "primaryClue": "Creature in the animal kingdom",
-      "alternateClues": [],
+      "primaryClue": "A brindled cat",
+      "alternateClues": [
+        "A kind of waved silk, usually called watered",
+        "A concrete mixture of lime with shells, gravel,"
+      ],
       "softHints": {
         "startsWith": "T",
         "length": 5,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A brindled cat.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "TOM",
-      "primaryClue": "Creature in the animal kingdom",
-      "alternateClues": [],
+      "primaryClue": "The male of the turkey",
+      "alternateClues": [
+        "The male of the orangutan",
+        "The male of the domesticated cat, especially if not neutered"
+      ],
       "softHints": {
         "startsWith": "T",
         "length": 3,
         "category": "animals"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The male of the turkey.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "ALBATROSS",
-      "primaryClue": "A type of animal",
-      "alternateClues": [],
+      "primaryClue": "A double eagle, or three under par",
+      "alternateClues": [
+        "Any of various African and Asian pierid butterflies",
+        "Any of various large seabirds of the family"
+      ],
       "softHints": {
         "startsWith": "A",
         "length": 9,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A double eagle, or three under par on any one hole, except a par 3 hole.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "AVOCET",
-      "primaryClue": "Furry, feathered, or scaled creature",
+      "primaryClue": "Any of four species of wading birds",
       "alternateClues": [],
       "softHints": {
         "startsWith": "A",
@@ -1388,15 +1800,18 @@
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any of four species of wading birds in the genus Recurvirostra, with long, slender recurved bills, long legs, and webbed feet.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BUDGIE",
-      "primaryClue": "Furry, feathered, or scaled creature",
+      "primaryClue": "A budgerigar",
       "alternateClues": [],
       "softHints": {
         "startsWith": "B",
@@ -1404,79 +1819,104 @@
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A budgerigar.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CANARY",
-      "primaryClue": "A type of animal",
-      "alternateClues": [],
+      "primaryClue": "A female singer, soprano, a coloratura singer",
+      "alternateClues": [
+        "A small, usually yellow, finch , a songbird",
+        "Any of various small birds of different countries,"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 6,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A female singer, soprano, a coloratura singer.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CHICK",
-      "primaryClue": "Furry, feathered, or scaled creature",
-      "alternateClues": [],
+      "primaryClue": "A young bird",
+      "alternateClues": [
+        "A young bird"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 5,
         "category": "animals"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A young bird.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CHICKADEE",
-      "primaryClue": "Creature in the animal kingdom",
-      "alternateClues": [],
+      "primaryClue": "Affectionate term of address",
+      "alternateClues": [
+        "A small passerine bird of the genus Parus"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 9,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Affectionate term of address.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CHICKEN",
-      "primaryClue": "Creature in the animal kingdom",
-      "alternateClues": [],
+      "primaryClue": "The young of any bird; a chick",
+      "alternateClues": [
+        "The meat from this bird eaten as food",
+        "A domesticated subspecies of red junglefowl"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 7,
         "category": "animals"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The young of any bird; a chick.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "COCKATIEL",
-      "primaryClue": "Found in nature or a zoo",
+      "primaryClue": "Nymphicus hollandicus, a small, rather atypical cockatoo with",
       "alternateClues": [],
       "softHints": {
         "startsWith": "C",
@@ -1484,271 +1924,362 @@
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Nymphicus hollandicus, a small, rather atypical cockatoo with a distinctive pointed yellow crest, native to Australia. Avicultural forms come in many color mutations such as White Face Gray, White Face Pearl, Fallow, Pearl Pied, Cinnamon Pearl, and White Face Pied.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "COCKATOO",
-      "primaryClue": "Common household pet or wild creature",
-      "alternateClues": [],
+      "primaryClue": "A lookout posted during a two-up game, when",
+      "alternateClues": [
+        "A bird of the family Cacatuidae with"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 8,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A lookout posted during a two-up game, when gambling was illegal.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "COOT",
-      "primaryClue": "Furry, feathered, or scaled creature",
-      "alternateClues": [],
+      "primaryClue": "A foolish or eccentric fellow",
+      "alternateClues": [
+        "Any of various aquatic birds of the genus"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 4,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A foolish or eccentric fellow",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "COVEY",
-      "primaryClue": "A type of animal",
-      "alternateClues": [],
+      "primaryClue": "A group or party of people; also,",
+      "alternateClues": [
+        "A group of other birds, such as quail",
+        "A brood or family of partridges , which"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 5,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A group or party of people; also, a group or set of things.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CROW",
-      "primaryClue": "Found in nature or a zoo",
-      "alternateClues": [],
+      "primaryClue": "Any of various dark-coloured nymphalid butterflies of the genus Euploea",
+      "alternateClues": [
+        "A bar of iron with a beak, crook",
+        "A bird, usually black, of the genus Corvus,"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 4,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any of various dark-coloured nymphalid butterflies of the genus Euploea.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CUCKOO",
-      "primaryClue": "A type of animal",
-      "alternateClues": [],
+      "primaryClue": "The sound of that particular bird",
+      "alternateClues": [
+        "Any of various birds, of the family Cuculidae"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 6,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The sound of that particular bird.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "DARTER",
-      "primaryClue": "Found in nature or a zoo",
-      "alternateClues": [],
+      "primaryClue": "One who darts, or who throws darts; that which darts",
+      "alternateClues": [
+        "Any member of the family Anhingidae, waterbirds with long necks",
+        "Any of various darting freshwater fish of"
+      ],
       "softHints": {
         "startsWith": "D",
         "length": 6,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "One who darts, or who throws darts; that which darts.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "DOVE",
-      "primaryClue": "Creature in the animal kingdom",
-      "alternateClues": [],
+      "primaryClue": "Term of endearment for one regarded as pure and gentle",
+      "alternateClues": [
+        "A person favouring conciliation and negotiation rather than conflict",
+        "A pigeon, especially one smaller in size"
+      ],
       "softHints": {
         "startsWith": "D",
         "length": 4,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Term of endearment for one regarded as pure and gentle.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "DUCK",
-      "primaryClue": "Furry, feathered, or scaled creature",
-      "alternateClues": [],
+      "primaryClue": "To lower into water; to thrust or plunge",
+      "alternateClues": [
+        "To quickly lower , often in order",
+        "To go under the surface of water"
+      ],
       "softHints": {
         "startsWith": "D",
         "length": 4,
         "category": "animals"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "To lower (something) into water; to thrust or plunge under liquid and suddenly withdraw.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "FALCON",
-      "primaryClue": "Creature in the animal kingdom",
-      "alternateClues": [],
+      "primaryClue": "A female such bird, a male being a tiercel",
+      "alternateClues": [
+        "Any bird of the genus Falco, all",
+        "Any bird of prey of the subfamilies Falconinae and Herpetotherinae"
+      ],
       "softHints": {
         "startsWith": "F",
         "length": 6,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A female such bird, a male being a tiercel.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "FINCH",
-      "primaryClue": "A type of animal",
-      "alternateClues": [],
+      "primaryClue": "Any bird of other families of similar appearance",
+      "alternateClues": [
+        "Any bird of other families of similar appearance",
+        "Any bird of the family Fringillidae, seed-eating passerine"
+      ],
       "softHints": {
         "startsWith": "F",
         "length": 5,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any bird of other families of similar appearance to members of family Fringillidae.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "FLAMINGO",
-      "primaryClue": "Furry, feathered, or scaled creature",
-      "alternateClues": [],
+      "primaryClue": "A deep pink color tinged with orange, like",
+      "alternateClues": [
+        "A wading bird of the family Phoenicopteridae"
+      ],
       "softHints": {
         "startsWith": "F",
         "length": 8,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A deep pink color tinged with orange, like that of a flamingo.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "FOWL",
-      "primaryClue": "Found in nature or a zoo",
-      "alternateClues": [],
+      "primaryClue": "Any bird",
+      "alternateClues": [
+        "A bird hunted or kept for food, grouped"
+      ],
       "softHints": {
         "startsWith": "F",
         "length": 4,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any bird.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "GOLDFINCH",
-      "primaryClue": "Furry, feathered, or scaled creature",
-      "alternateClues": [],
+      "primaryClue": "Any of several small passerine birds of the finch family",
+      "alternateClues": [
+        "Any of several small passerine birds of the finch family"
+      ],
       "softHints": {
         "startsWith": "G",
         "length": 9,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any of several small passerine birds of the finch family",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "GOOSE",
-      "primaryClue": "Found in nature or a zoo",
-      "alternateClues": [],
+      "primaryClue": "Any of various grazing waterfowl of the family",
+      "alternateClues": [
+        "Any of various grazing waterfowl of the family"
+      ],
       "softHints": {
         "startsWith": "G",
         "length": 5,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any of various grazing waterfowl of the family Anatidae, which have feathers and webbed feet and are capable of flying, swimming, and walking on land, and which are generally bigger than ducks.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "GROUSE",
-      "primaryClue": "A type of animal",
-      "alternateClues": [],
+      "primaryClue": "The flesh or meat of this bird eaten as food",
+      "alternateClues": [
+        "Any of various game birds of the subfamily"
+      ],
       "softHints": {
         "startsWith": "G",
         "length": 6,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The flesh or meat of this bird eaten as food.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "HAWK",
-      "primaryClue": "Found in nature or a zoo",
-      "alternateClues": [],
+      "primaryClue": "A diurnal predatory bird of the family Accipitridae,",
+      "alternateClues": [
+        "Any of various species of dragonfly of",
+        "Any diurnal predatory terrestrial bird of similar size"
+      ],
       "softHints": {
         "startsWith": "H",
         "length": 4,
         "category": "animals"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A diurnal predatory bird of the family Accipitridae, smaller than an eagle.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "HERON",
-      "primaryClue": "A type of animal",
+      "primaryClue": "Any long-legged, long-necked wading bird of the family Ardeidae",
       "alternateClues": [],
       "softHints": {
         "startsWith": "H",
@@ -1756,15 +2287,18 @@
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any long-legged, long-necked wading bird of the family Ardeidae.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "JACKDAW",
-      "primaryClue": "A type of animal",
+      "primaryClue": "A bird of the genus Coloeus, similar",
       "alternateClues": [],
       "softHints": {
         "startsWith": "J",
@@ -1772,79 +2306,105 @@
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A bird of the genus Coloeus, similar in appearance to crows and found within the same family; traditionally associated with church towers and ruins, where it frequently likes to nest.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "JAY",
-      "primaryClue": "Furry, feathered, or scaled creature",
-      "alternateClues": [],
+      "primaryClue": "Any of various other birds of similar appearance and behaviour",
+      "alternateClues": [
+        "Any of various other birds of similar appearance and behaviour",
+        "Any of the numerous species of birds belonging"
+      ],
       "softHints": {
         "startsWith": "J",
         "length": 3,
         "category": "animals"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any of various other birds of similar appearance and behaviour.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "KESTREL",
-      "primaryClue": "Common household pet or wild creature",
-      "alternateClues": [],
+      "primaryClue": "Any of various small falcons of the genus",
+      "alternateClues": [
+        "Any of various small falcons of the genus"
+      ],
       "softHints": {
         "startsWith": "K",
         "length": 7,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any of various small falcons of the genus Falco that hover while hunting.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "LARK",
-      "primaryClue": "Found in nature or a zoo",
-      "alternateClues": [],
+      "primaryClue": "One who wakes early; one who is up",
+      "alternateClues": [
+        "Any of various small, singing passerine birds",
+        "Any of various similar-appearing birds, but usually ground-living,"
+      ],
       "softHints": {
         "startsWith": "L",
         "length": 4,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "One who wakes early; one who is up with the larks.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "LOON",
-      "primaryClue": "Furry, feathered, or scaled creature",
-      "alternateClues": [],
+      "primaryClue": "A boy, a lad",
+      "alternateClues": [
+        "An idler, a lout",
+        "A crazy or deranged person; a lunatic"
+      ],
       "softHints": {
         "startsWith": "L",
         "length": 4,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A boy, a lad.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "MACAW",
-      "primaryClue": "A type of animal",
+      "primaryClue": "Any of various parrots of the genera Ara,",
       "alternateClues": [],
       "softHints": {
         "startsWith": "M",
@@ -1852,31 +2412,40 @@
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any of various parrots of the genera Ara, Anodorhynchus, Cyanopsitta, Orthopsittaca, Primolius and Diopsittaca of Central and South America, including the largest parrots and characterized by long sabre-shaped tails, curved powerful bills, and usually brilliant plumage.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "MAGPIE",
-      "primaryClue": "Creature in the animal kingdom",
-      "alternateClues": [],
+      "primaryClue": "One of several kinds of bird in",
+      "alternateClues": [
+        "Someone who displays a magpie-like quality such as",
+        "A superficially similar Australian bird, Gymnorhina tibicen,"
+      ],
       "softHints": {
         "startsWith": "M",
         "length": 6,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "One of several kinds of bird in the family Corvidae, especially Pica pica.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "MARTIN",
-      "primaryClue": "A type of animal",
+      "primaryClue": "Many of the various passerine birds of",
       "alternateClues": [],
       "softHints": {
         "startsWith": "M",
@@ -1884,31 +2453,40 @@
         "category": "animals"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Many of the various passerine birds of the family Hirundinidae, which also includes swallows, that catch insects whilst flying.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "OSTRICH",
-      "primaryClue": "Creature in the animal kingdom",
-      "alternateClues": [],
+      "primaryClue": "A large flightless bird of the order Struthioniformes",
+      "alternateClues": [
+        "A large flightless bird of the order Struthioniformes",
+        "The most widespread species of the genus, known"
+      ],
       "softHints": {
         "startsWith": "O",
         "length": 7,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A large flightless bird of the order Struthioniformes.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "PARAKEET",
-      "primaryClue": "A type of animal",
+      "primaryClue": "Any of various species of small parrot primarily",
       "alternateClues": [],
       "softHints": {
         "startsWith": "P",
@@ -1916,79 +2494,106 @@
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any of various species of small parrot primarily of tropical regions.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "PARROT",
-      "primaryClue": "Common household pet or wild creature",
-      "alternateClues": [],
+      "primaryClue": "A puffin",
+      "alternateClues": [
+        "A parroter; a person who repeats the words",
+        "A kind of bird, many species of which"
+      ],
       "softHints": {
         "startsWith": "P",
         "length": 6,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A puffin.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "PELICAN",
-      "primaryClue": "Common household pet or wild creature",
-      "alternateClues": [],
+      "primaryClue": "A native or resident of the American state of Louisiana",
+      "alternateClues": [
+        "Any of various seabirds of the family Pelecanidae,",
+        "A retort or still having a curved tube"
+      ],
       "softHints": {
         "startsWith": "P",
         "length": 7,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A native or resident of the American state of Louisiana.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "PENGUIN",
-      "primaryClue": "Creature in the animal kingdom",
-      "alternateClues": [],
+      "primaryClue": "A nun",
+      "alternateClues": [
+        "An auk , a bird of the Northern Hemisphere",
+        "Any of several flightless sea birds, of"
+      ],
       "softHints": {
         "startsWith": "P",
         "length": 7,
         "category": "animals"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A nun.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "PIGEON",
-      "primaryClue": "Furry, feathered, or scaled creature",
-      "alternateClues": [],
+      "primaryClue": "The meat from this bird",
+      "alternateClues": [
+        "A person who is a target or victim",
+        "One of several birds of the family Columbidae"
+      ],
       "softHints": {
         "startsWith": "P",
         "length": 6,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The meat from this bird.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "PINTAIL",
-      "primaryClue": "A type of animal",
+      "primaryClue": "",
       "alternateClues": [],
       "softHints": {
         "startsWith": "P",
@@ -1996,95 +2601,128 @@
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
+      "source": "needs_review",
       "reviewFlags": [
-        "fallback_only"
+        "no_definition_found"
       ],
-      "approved": false
+      "approved": false,
+      "clueSource": "none",
+      "sourceDefinition": "",
+      "clueGenerationMethod": "excluded",
+      "licenseNotes": "",
+      "needsReview": true
     },
     {
       "word": "PUFFIN",
-      "primaryClue": "Furry, feathered, or scaled creature",
-      "alternateClues": [],
+      "primaryClue": "The young of the Manx shearwater , especially",
+      "alternateClues": [
+        "Any of various African and Asian pierid butterflies"
+      ],
       "softHints": {
         "startsWith": "P",
         "length": 6,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The young of the Manx shearwater (Puffinus puffinus), especially eaten as food.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "QUAIL",
-      "primaryClue": "Found in nature or a zoo",
-      "alternateClues": [],
+      "primaryClue": "To daunt or frighten",
+      "alternateClues": [
+        "To waste away; to fade, to wither",
+        "To lose heart or courage; to be daunted or fearful"
+      ],
       "softHints": {
         "startsWith": "Q",
         "length": 5,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "To daunt or frighten (someone).",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "QUETZAL",
-      "primaryClue": "Found in nature or a zoo",
-      "alternateClues": [],
+      "primaryClue": "A monetary unit used in Guatemala, equal to 100 centavos",
+      "alternateClues": [
+        "Any trogon of the genus Pharomacrus, especially"
+      ],
       "softHints": {
         "startsWith": "Q",
         "length": 7,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A monetary unit used in Guatemala, equal to 100 centavos.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "RAIL",
-      "primaryClue": "Furry, feathered, or scaled creature",
-      "alternateClues": [],
+      "primaryClue": "The metal bar forming part of the track",
+      "alternateClues": [
+        "The metal bar forming part of the track",
+        "A horizontal bar extending between supports and used"
+      ],
       "softHints": {
         "startsWith": "R",
         "length": 4,
         "category": "animals"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The metal bar forming part of the track for a railroad.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "RAVEN",
-      "primaryClue": "Common household pet or wild creature",
-      "alternateClues": [],
+      "primaryClue": "A jet-black, often glossy, colour, like that",
+      "alternateClues": [
+        "Any of several, generally large, species of birds",
+        "Any of several, generally large, species of birds"
+      ],
       "softHints": {
         "startsWith": "R",
         "length": 5,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A jet-black, often glossy, colour, like that of the plumage of a raven (etymology 1 sense 1).",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "RAZORBILL",
-      "primaryClue": "A type of animal",
+      "primaryClue": "A large black and white auk of species",
       "alternateClues": [],
       "softHints": {
         "startsWith": "R",
@@ -2092,15 +2730,18 @@
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A large black and white auk of species Alca torda, native to the north Atlantic.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "RHEA",
-      "primaryClue": "Found in nature or a zoo",
+      "primaryClue": "A large flightless bird of the order Rheiformes,",
       "alternateClues": [],
       "softHints": {
         "startsWith": "R",
@@ -2108,31 +2749,40 @@
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A large flightless bird of the order Rheiformes, native to South America.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "ROOK",
-      "primaryClue": "A type of animal",
-      "alternateClues": [],
+      "primaryClue": "A bad deal; a rip-off",
+      "alternateClues": [
+        "A cheat or swindler; someone who betrays",
+        "A European bird, Corvus frugilegus, of the crow family"
+      ],
       "softHints": {
         "startsWith": "R",
         "length": 4,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A bad deal; a rip-off.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SHRIKE",
-      "primaryClue": "Creature in the animal kingdom",
+      "primaryClue": "Any of various passerine birds of the family",
       "alternateClues": [],
       "softHints": {
         "startsWith": "S",
@@ -2140,15 +2790,18 @@
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any of various passerine birds of the family Laniidae which are known for their habit of catching other birds and small animals and impaling the uneaten portions of their bodies on thorns.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SKYLARK",
-      "primaryClue": "A type of animal",
+      "primaryClue": "A small brown passerine bird, Alauda arvensis, that",
       "alternateClues": [],
       "softHints": {
         "startsWith": "S",
@@ -2156,111 +2809,147 @@
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A small brown passerine bird, Alauda arvensis, that sings as it flies high into the air.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SNIPE",
-      "primaryClue": "A type of animal",
-      "alternateClues": [],
+      "primaryClue": "A fool; a blockhead",
+      "alternateClues": [
+        "A shot fired from a concealed place",
+        "Any of various limicoline game birds of"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 5,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A fool; a blockhead.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SPARROW",
-      "primaryClue": "Found in nature or a zoo",
-      "alternateClues": [],
+      "primaryClue": "A member of the family Passeridae, comprising small",
+      "alternateClues": [
+        "A member of the family Passerellidae (or Emberizidae,"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 7,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A member of the family Passeridae, comprising small Old World songbirds.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "STARLING",
-      "primaryClue": "Furry, feathered, or scaled creature",
-      "alternateClues": [],
+      "primaryClue": "A family, Sturnidae, of passerine birds",
+      "alternateClues": [
+        "A family, Sturnidae, of passerine birds"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 8,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A family, Sturnidae, of passerine birds.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "STORK",
-      "primaryClue": "Furry, feathered, or scaled creature",
-      "alternateClues": [],
+      "primaryClue": "The seventeenth Lenormand card",
+      "alternateClues": [
+        "The mythical bringer of babies to families, or good news",
+        "A large wading bird with long legs"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 5,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The seventeenth Lenormand card.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SWALLOW",
-      "primaryClue": "Common household pet or wild creature",
-      "alternateClues": [],
+      "primaryClue": "To take in so that it disappears; to consume, absorb",
+      "alternateClues": [
+        "To cause to pass from the mouth into",
+        "To take food down into the stomach;"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 7,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "To take (something) in so that it disappears; to consume, absorb.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SWIFT",
-      "primaryClue": "Found in nature or a zoo",
-      "alternateClues": [],
+      "primaryClue": "Fast; quick; rapid",
+      "alternateClues": [
+        "Capable of moving at high speeds"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 5,
         "category": "animals"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Fast; quick; rapid.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "TANAGER",
-      "primaryClue": "Furry, feathered, or scaled creature",
+      "primaryClue": "Any of numerous species of often colorful passerine",
       "alternateClues": [],
       "softHints": {
         "startsWith": "T",
@@ -2268,31 +2957,39 @@
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any of numerous species of often colorful passerine birds that inhabit New World forests within the family Thraupidae.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "THRUSH",
-      "primaryClue": "A type of animal",
-      "alternateClues": [],
+      "primaryClue": "A female singer",
+      "alternateClues": [
+        "Any of numerous species of songbirds of"
+      ],
       "softHints": {
         "startsWith": "T",
         "length": 6,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A female singer.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "TOUCAN",
-      "primaryClue": "A type of animal",
+      "primaryClue": "Any of various neotropical frugivorous birds from",
       "alternateClues": [],
       "softHints": {
         "startsWith": "T",
@@ -2300,59 +2997,78 @@
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any of various neotropical frugivorous birds from the family Ramphastidae, with a large colorful beak.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "TURKEY",
-      "primaryClue": "A type of animal",
-      "alternateClues": [],
+      "primaryClue": "The guinea fowl",
+      "alternateClues": [
+        "A bird in the genus Meleagris with"
+      ],
       "softHints": {
         "startsWith": "T",
         "length": 6,
         "category": "animals"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The guinea fowl (family Numididae).",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "VULTURE",
-      "primaryClue": "Common household pet or wild creature",
-      "alternateClues": [],
+      "primaryClue": "A person who profits from the suffering of others",
+      "alternateClues": [
+        "Any of several carrion-eating birds of the families"
+      ],
       "softHints": {
         "startsWith": "V",
         "length": 7,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A person who profits from the suffering of others.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "WARBLER",
-      "primaryClue": "Found in nature or a zoo",
-      "alternateClues": [],
+      "primaryClue": "One who warbles",
+      "alternateClues": [
+        "A device that makes a warbling sound",
+        "Any of various small passerine songbirds, especially"
+      ],
       "softHints": {
         "startsWith": "W",
         "length": 7,
         "category": "animals"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "One who warbles.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     }
   ]
 }

@@ -1,0 +1,5354 @@
+{
+  "packId": "ocean-easy",
+  "title": "Ocean Breeze",
+  "theme": "ocean",
+  "difficulty": "easy",
+  "boardSize": "mini",
+  "puzzleCount": 20,
+  "version": "1.0.0",
+  "createdAt": "2026-03-18",
+  "puzzles": [
+    {
+      "puzzleId": "ocean-easy-7x7-0001",
+      "seed": 1,
+      "theme": "ocean",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "C",
+          "",
+          "E",
+          "",
+          "R",
+          ""
+        ],
+        [
+          "",
+          "H",
+          "O",
+          "C",
+          "K",
+          "E",
+          "Y"
+        ],
+        [
+          "",
+          "I",
+          "",
+          "L",
+          "",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "L",
+          "I",
+          "F",
+          "F",
+          ""
+        ],
+        [
+          "",
+          "K",
+          "",
+          "P",
+          "",
+          "",
+          ""
+        ],
+        [
+          "D",
+          "E",
+          "N",
+          "S",
+          "I",
+          "T",
+          "Y"
+        ],
+        [
+          "",
+          "N",
+          "",
+          "E",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "CLIFF",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "A vertical rock face",
+          "softHints": {
+            "startsWith": "C",
+            "length": 5,
+            "category": "city"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "CHICKEN",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 7,
+          "clue": "The young of any bird; a chick",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 6,
+          "answer": "DENSITY",
+          "direction": "across",
+          "row": 5,
+          "col": 0,
+          "length": 7,
+          "clue": "A measure of the mass of matter contained",
+          "softHints": {
+            "startsWith": "D",
+            "length": 7,
+            "category": "space"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "ECLIPSE",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 7,
+          "clue": "An alignment of astronomical objects whereby one object",
+          "softHints": {
+            "startsWith": "E",
+            "length": 7,
+            "category": "space"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 4,
+          "answer": "HOCKEY",
+          "direction": "across",
+          "row": 1,
+          "col": 1,
+          "length": 6,
+          "clue": "Any of a family of sports in which",
+          "softHints": {
+            "startsWith": "H",
+            "length": 6,
+            "category": "sports"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "REEF",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 4,
+          "clue": "A large vein of auriferous quartz; hence, any",
+          "softHints": {
+            "startsWith": "R",
+            "length": 4,
+            "category": "city"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "Any of a family of sports in which",
+            "answer": "HOCKEY",
+            "length": 6
+          },
+          {
+            "number": 5,
+            "clue": "A vertical rock face",
+            "answer": "CLIFF",
+            "length": 5
+          },
+          {
+            "number": 6,
+            "clue": "A measure of the mass of matter contained",
+            "answer": "DENSITY",
+            "length": 7
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "The young of any bird; a chick",
+            "answer": "CHICKEN",
+            "length": 7
+          },
+          {
+            "number": 2,
+            "clue": "An alignment of astronomical objects whereby one object",
+            "answer": "ECLIPSE",
+            "length": 7
+          },
+          {
+            "number": 3,
+            "clue": "A large vein of auriferous quartz; hence, any",
+            "answer": "REEF",
+            "length": 4
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "ocean",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 6,
+        "intersections": 8,
+        "boardScore": 0.5293
+      }
+    },
+    {
+      "puzzleId": "ocean-easy-7x7-0002",
+      "seed": 2,
+      "theme": "ocean",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "L",
+          "",
+          "K",
+          "",
+          ""
+        ],
+        [
+          "C",
+          "U",
+          "I",
+          "S",
+          "I",
+          "N",
+          "E"
+        ],
+        [
+          "",
+          "",
+          "B",
+          "",
+          "T",
+          "",
+          ""
+        ],
+        [
+          "",
+          "T",
+          "R",
+          "U",
+          "C",
+          "K",
+          ""
+        ],
+        [
+          "",
+          "",
+          "A",
+          "",
+          "H",
+          "",
+          ""
+        ],
+        [
+          "B",
+          "O",
+          "R",
+          "D",
+          "E",
+          "R",
+          ""
+        ],
+        [
+          "",
+          "",
+          "Y",
+          "",
+          "N",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "TRUCK",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "The ball on top of a flagpole",
+          "softHints": {
+            "startsWith": "T",
+            "length": 5,
+            "category": "travel"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "LIBRARY",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 7,
+          "clue": "A collection of books or other forms of stored information",
+          "softHints": {
+            "startsWith": "L",
+            "length": 7,
+            "category": "school"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "CUISINE",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 7,
+          "clue": "The food prepared using such style",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "KITCHEN",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "clue": "Cuisine; style of cooking",
+          "softHints": {
+            "startsWith": "K",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 5,
+          "answer": "BORDER",
+          "direction": "across",
+          "row": 5,
+          "col": 0,
+          "length": 6,
+          "clue": "The outer edge of something",
+          "softHints": {
+            "startsWith": "B",
+            "length": 6,
+            "category": "city"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "The food prepared using such style",
+            "answer": "CUISINE",
+            "length": 7
+          },
+          {
+            "number": 4,
+            "clue": "The ball on top of a flagpole",
+            "answer": "TRUCK",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "The outer edge of something",
+            "answer": "BORDER",
+            "length": 6
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A collection of books or other forms of stored information",
+            "answer": "LIBRARY",
+            "length": 7
+          },
+          {
+            "number": 2,
+            "clue": "Cuisine; style of cooking",
+            "answer": "KITCHEN",
+            "length": 7
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "ocean",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 5,
+        "intersections": 6,
+        "boardScore": 0.4936
+      }
+    },
+    {
+      "puzzleId": "ocean-easy-7x7-0003",
+      "seed": 3,
+      "theme": "ocean",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "Q",
+          "",
+          "D",
+          "",
+          "B",
+          ""
+        ],
+        [
+          "",
+          "U",
+          "",
+          "I",
+          "",
+          "I",
+          ""
+        ],
+        [
+          "",
+          "A",
+          "",
+          "P",
+          "",
+          "C",
+          ""
+        ],
+        [
+          "",
+          "R",
+          "E",
+          "L",
+          "A",
+          "Y",
+          ""
+        ],
+        [
+          "",
+          "T",
+          "",
+          "O",
+          "",
+          "C",
+          ""
+        ],
+        [
+          "T",
+          "E",
+          "A",
+          "M",
+          "",
+          "L",
+          ""
+        ],
+        [
+          "",
+          "R",
+          "",
+          "A",
+          "",
+          "E",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "RELAY",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "A new set of hounds",
+          "softHints": {
+            "startsWith": "R",
+            "length": 5,
+            "category": "sports"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "BICYCLE",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 7,
+          "clue": "A traveling block used on a cable in skidding logs",
+          "softHints": {
+            "startsWith": "B",
+            "length": 7,
+            "category": "sports"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "DIPLOMA",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 7,
+          "clue": "A document issued by an educational institution testifying",
+          "softHints": {
+            "startsWith": "D",
+            "length": 7,
+            "category": "school"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "QUARTER",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 7,
+          "clue": "A fourth part of something",
+          "softHints": {
+            "startsWith": "Q",
+            "length": 7,
+            "category": "sports"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 5,
+          "answer": "TEAM",
+          "direction": "across",
+          "row": 5,
+          "col": 0,
+          "length": 4,
+          "clue": "A group of animals moving together, especially young ducks",
+          "softHints": {
+            "startsWith": "T",
+            "length": 4,
+            "category": "sports"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "A new set of hounds",
+            "answer": "RELAY",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "A group of animals moving together, especially young ducks",
+            "answer": "TEAM",
+            "length": 4
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A fourth part of something",
+            "answer": "QUARTER",
+            "length": 7
+          },
+          {
+            "number": 2,
+            "clue": "A document issued by an educational institution testifying",
+            "answer": "DIPLOMA",
+            "length": 7
+          },
+          {
+            "number": 3,
+            "clue": "A traveling block used on a cable in skidding logs",
+            "answer": "BICYCLE",
+            "length": 7
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "ocean",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 5,
+        "intersections": 5,
+        "boardScore": 0.4895
+      }
+    },
+    {
+      "puzzleId": "ocean-easy-7x7-0004",
+      "seed": 4,
+      "theme": "ocean",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "P",
+          "",
+          "",
+          ""
+        ],
+        [
+          "D",
+          "E",
+          "F",
+          "E",
+          "N",
+          "S",
+          "E"
+        ],
+        [
+          "",
+          "",
+          "",
+          "N",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "S",
+          "U",
+          "G",
+          "A",
+          "R",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "U",
+          "",
+          "",
+          ""
+        ],
+        [
+          "E",
+          "C",
+          "L",
+          "I",
+          "P",
+          "S",
+          "E"
+        ],
+        [
+          "",
+          "",
+          "",
+          "N",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 3,
+          "answer": "SUGAR",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Any of various small carbohydrates that are used",
+          "softHints": {
+            "startsWith": "S",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "PENGUIN",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 7,
+          "clue": "A nun",
+          "softHints": {
+            "startsWith": "P",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "DEFENSE",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 7,
+          "clue": "Anything employed to oppose attack",
+          "softHints": {
+            "startsWith": "D",
+            "length": 7,
+            "category": "sports"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 4,
+          "answer": "ECLIPSE",
+          "direction": "across",
+          "row": 5,
+          "col": 0,
+          "length": 7,
+          "clue": "An alignment of astronomical objects whereby one object",
+          "softHints": {
+            "startsWith": "E",
+            "length": 7,
+            "category": "space"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 2,
+            "clue": "Anything employed to oppose attack",
+            "answer": "DEFENSE",
+            "length": 7
+          },
+          {
+            "number": 3,
+            "clue": "Any of various small carbohydrates that are used",
+            "answer": "SUGAR",
+            "length": 5
+          },
+          {
+            "number": 4,
+            "clue": "An alignment of astronomical objects whereby one object",
+            "answer": "ECLIPSE",
+            "length": 7
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A nun",
+            "answer": "PENGUIN",
+            "length": 7
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "ocean",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 4,
+        "intersections": 3,
+        "boardScore": 0.3914
+      }
+    },
+    {
+      "puzzleId": "ocean-easy-7x7-0005",
+      "seed": 5,
+      "theme": "ocean",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "C",
+          "",
+          "I",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "",
+          "A",
+          "",
+          "N",
+          ""
+        ],
+        [
+          "",
+          "O",
+          "",
+          "P",
+          "",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "O",
+          "L",
+          "I",
+          "V",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "K",
+          "",
+          "T",
+          "",
+          "G",
+          ""
+        ],
+        [
+          "",
+          "I",
+          "",
+          "A",
+          "R",
+          "E",
+          "A"
+        ],
+        [
+          "",
+          "E",
+          "",
+          "L",
+          "",
+          "R",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "OLIVE",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "The small oval fruit of this tree, eaten",
+          "softHints": {
+            "startsWith": "O",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "INTEGER",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 7,
+          "clue": "A number that is not a fraction;",
+          "softHints": {
+            "startsWith": "I",
+            "length": 7,
+            "category": "school"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "CAPITAL",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 7,
+          "clue": "Money and wealth: the means to acquire goods",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "city"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "COOKIE",
+          "direction": "down",
+          "row": 1,
+          "col": 1,
+          "length": 6,
+          "clue": "A bun",
+          "softHints": {
+            "startsWith": "C",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 5,
+          "answer": "AREA",
+          "direction": "across",
+          "row": 5,
+          "col": 3,
+          "length": 4,
+          "clue": "A particular geographic region",
+          "softHints": {
+            "startsWith": "A",
+            "length": 4,
+            "category": "city"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "The small oval fruit of this tree, eaten",
+            "answer": "OLIVE",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "A particular geographic region",
+            "answer": "AREA",
+            "length": 4
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Money and wealth: the means to acquire goods",
+            "answer": "CAPITAL",
+            "length": 7
+          },
+          {
+            "number": 2,
+            "clue": "A number that is not a fraction;",
+            "answer": "INTEGER",
+            "length": 7
+          },
+          {
+            "number": 3,
+            "clue": "A bun",
+            "answer": "COOKIE",
+            "length": 6
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "ocean",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 5,
+        "intersections": 5,
+        "boardScore": 0.4855
+      }
+    },
+    {
+      "puzzleId": "ocean-easy-7x7-0006",
+      "seed": 6,
+      "theme": "ocean",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "S",
+          "",
+          "",
+          "B",
+          ""
+        ],
+        [
+          "D",
+          "U",
+          "C",
+          "K",
+          "",
+          "I",
+          ""
+        ],
+        [
+          "",
+          "",
+          "I",
+          "",
+          "",
+          "C",
+          ""
+        ],
+        [
+          "",
+          "B",
+          "E",
+          "R",
+          "R",
+          "Y",
+          ""
+        ],
+        [
+          "",
+          "",
+          "N",
+          "",
+          "",
+          "C",
+          ""
+        ],
+        [
+          "",
+          "",
+          "C",
+          "Y",
+          "C",
+          "L",
+          "E"
+        ],
+        [
+          "",
+          "",
+          "E",
+          "",
+          "",
+          "E",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "BERRY",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "A coffee bean",
+          "softHints": {
+            "startsWith": "B",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "SCIENCE",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 7,
+          "clue": "Specifically the natural sciences",
+          "softHints": {
+            "startsWith": "S",
+            "length": 7,
+            "category": "school"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "BICYCLE",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 7,
+          "clue": "A traveling block used on a cable in skidding logs",
+          "softHints": {
+            "startsWith": "B",
+            "length": 7,
+            "category": "sports"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 5,
+          "answer": "CYCLE",
+          "direction": "across",
+          "row": 5,
+          "col": 2,
+          "length": 5,
+          "clue": "A complete rotation of anything",
+          "softHints": {
+            "startsWith": "C",
+            "length": 5,
+            "category": "sports"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "DUCK",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "clue": "To lower into water; to thrust or plunge",
+          "softHints": {
+            "startsWith": "D",
+            "length": 4,
+            "category": "animals"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "To lower into water; to thrust or plunge",
+            "answer": "DUCK",
+            "length": 4
+          },
+          {
+            "number": 4,
+            "clue": "A coffee bean",
+            "answer": "BERRY",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "A complete rotation of anything",
+            "answer": "CYCLE",
+            "length": 5
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Specifically the natural sciences",
+            "answer": "SCIENCE",
+            "length": 7
+          },
+          {
+            "number": 2,
+            "clue": "A traveling block used on a cable in skidding logs",
+            "answer": "BICYCLE",
+            "length": 7
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "ocean",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 5,
+        "intersections": 5,
+        "boardScore": 0.4814
+      }
+    },
+    {
+      "puzzleId": "ocean-easy-7x7-0007",
+      "seed": 7,
+      "theme": "ocean",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "K",
+          "",
+          "S",
+          "",
+          "",
+          ""
+        ],
+        [
+          "P",
+          "E",
+          "N",
+          "C",
+          "I",
+          "L",
+          ""
+        ],
+        [
+          "",
+          "Y",
+          "",
+          "I",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "W",
+          "H",
+          "E",
+          "A",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "O",
+          "",
+          "N",
+          "",
+          "R",
+          ""
+        ],
+        [
+          "C",
+          "R",
+          "I",
+          "C",
+          "K",
+          "E",
+          "T"
+        ],
+        [
+          "",
+          "D",
+          "",
+          "E",
+          "",
+          "E",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "WHEAT",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Any of the several cereal grains, of",
+          "softHints": {
+            "startsWith": "W",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "SCIENCE",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 7,
+          "clue": "Specifically the natural sciences",
+          "softHints": {
+            "startsWith": "S",
+            "length": 7,
+            "category": "school"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "KEYWORD",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 7,
+          "clue": "Any word used as the key to a code",
+          "softHints": {
+            "startsWith": "K",
+            "length": 7,
+            "category": "school"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 6,
+          "answer": "CRICKET",
+          "direction": "across",
+          "row": 5,
+          "col": 0,
+          "length": 7,
+          "clue": "In the form crickets: absolute silence; no communication",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "sports"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "PENCIL",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 6,
+          "clue": "A paintbrush",
+          "softHints": {
+            "startsWith": "P",
+            "length": 6,
+            "category": "school"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 5,
+          "answer": "TREE",
+          "direction": "down",
+          "row": 3,
+          "col": 5,
+          "length": 4,
+          "clue": "Any other plant that is reminiscent of",
+          "softHints": {
+            "startsWith": "T",
+            "length": 4,
+            "category": "nature"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "A paintbrush",
+            "answer": "PENCIL",
+            "length": 6
+          },
+          {
+            "number": 4,
+            "clue": "Any of the several cereal grains, of",
+            "answer": "WHEAT",
+            "length": 5
+          },
+          {
+            "number": 6,
+            "clue": "In the form crickets: absolute silence; no communication",
+            "answer": "CRICKET",
+            "length": 7
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Any word used as the key to a code",
+            "answer": "KEYWORD",
+            "length": 7
+          },
+          {
+            "number": 2,
+            "clue": "Specifically the natural sciences",
+            "answer": "SCIENCE",
+            "length": 7
+          },
+          {
+            "number": 5,
+            "clue": "Any other plant that is reminiscent of",
+            "answer": "TREE",
+            "length": 4
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "ocean",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 6,
+        "intersections": 8,
+        "boardScore": 0.5293
+      }
+    },
+    {
+      "puzzleId": "ocean-easy-7x7-0008",
+      "seed": 8,
+      "theme": "ocean",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "",
+          "H",
+          "",
+          ""
+        ],
+        [
+          "W",
+          "I",
+          "N",
+          "N",
+          "I",
+          "N",
+          "G"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "S",
+          "",
+          ""
+        ],
+        [
+          "",
+          "P",
+          "A",
+          "S",
+          "T",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "O",
+          "",
+          ""
+        ],
+        [
+          "D",
+          "E",
+          "S",
+          "E",
+          "R",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "Y",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 3,
+          "answer": "PASTE",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "A soft moist mixture, in particular:",
+          "softHints": {
+            "startsWith": "P",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "HISTORY",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "clue": "The aggregate of past events",
+          "softHints": {
+            "startsWith": "H",
+            "length": 7,
+            "category": "school"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "WINNING",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 7,
+          "clue": "Present participle and gerund of win",
+          "softHints": {
+            "startsWith": "W",
+            "length": 7,
+            "category": "sports"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 4,
+          "answer": "DESERT",
+          "direction": "across",
+          "row": 5,
+          "col": 0,
+          "length": 6,
+          "clue": "In particular, a barren, arid area of land",
+          "softHints": {
+            "startsWith": "D",
+            "length": 6,
+            "category": "city"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 2,
+            "clue": "Present participle and gerund of win",
+            "answer": "WINNING",
+            "length": 7
+          },
+          {
+            "number": 3,
+            "clue": "A soft moist mixture, in particular:",
+            "answer": "PASTE",
+            "length": 5
+          },
+          {
+            "number": 4,
+            "clue": "In particular, a barren, arid area of land",
+            "answer": "DESERT",
+            "length": 6
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "The aggregate of past events",
+            "answer": "HISTORY",
+            "length": 7
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "ocean",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 4,
+        "intersections": 3,
+        "boardScore": 0.3873
+      }
+    },
+    {
+      "puzzleId": "ocean-easy-7x7-0009",
+      "seed": 9,
+      "theme": "ocean",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "S",
+          "",
+          "H",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "C",
+          "H",
+          "I",
+          "C",
+          "K"
+        ],
+        [
+          "",
+          "",
+          "I",
+          "",
+          "S",
+          "",
+          ""
+        ],
+        [
+          "",
+          "D",
+          "E",
+          "L",
+          "T",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "",
+          "N",
+          "",
+          "O",
+          "",
+          ""
+        ],
+        [
+          "",
+          "S",
+          "C",
+          "O",
+          "R",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "",
+          "E",
+          "",
+          "Y",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "DELTA",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "The fourth letter of the modern Greek alphabet Δ, δ",
+          "softHints": {
+            "startsWith": "D",
+            "length": 5,
+            "category": "city"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "SCIENCE",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 7,
+          "clue": "Specifically the natural sciences",
+          "softHints": {
+            "startsWith": "S",
+            "length": 7,
+            "category": "school"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "HISTORY",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "clue": "The aggregate of past events",
+          "softHints": {
+            "startsWith": "H",
+            "length": 7,
+            "category": "school"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 5,
+          "answer": "SCORE",
+          "direction": "across",
+          "row": 5,
+          "col": 1,
+          "length": 5,
+          "clue": "The total number of goals, points, runs, etc.",
+          "softHints": {
+            "startsWith": "S",
+            "length": 5,
+            "category": "sports"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "CHICK",
+          "direction": "across",
+          "row": 1,
+          "col": 2,
+          "length": 5,
+          "clue": "A young bird",
+          "softHints": {
+            "startsWith": "C",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "A young bird",
+            "answer": "CHICK",
+            "length": 5
+          },
+          {
+            "number": 4,
+            "clue": "The fourth letter of the modern Greek alphabet Δ, δ",
+            "answer": "DELTA",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "The total number of goals, points, runs, etc.",
+            "answer": "SCORE",
+            "length": 5
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Specifically the natural sciences",
+            "answer": "SCIENCE",
+            "length": 7
+          },
+          {
+            "number": 2,
+            "clue": "The aggregate of past events",
+            "answer": "HISTORY",
+            "length": 7
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "ocean",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 5,
+        "intersections": 6,
+        "boardScore": 0.4814
+      }
+    },
+    {
+      "puzzleId": "ocean-easy-7x7-0010",
+      "seed": 10,
+      "theme": "ocean",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "C",
+          "",
+          "G",
+          "",
+          ""
+        ],
+        [
+          "P",
+          "R",
+          "O",
+          "C",
+          "E",
+          "S",
+          "S"
+        ],
+        [
+          "",
+          "",
+          "M",
+          "",
+          "A",
+          "",
+          ""
+        ],
+        [
+          "",
+          "S",
+          "P",
+          "O",
+          "R",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "",
+          "E",
+          "",
+          "",
+          "R",
+          ""
+        ],
+        [
+          "K",
+          "I",
+          "T",
+          "C",
+          "H",
+          "E",
+          "N"
+        ],
+        [
+          "",
+          "",
+          "E",
+          "",
+          "",
+          "E",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "SPORT",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Any activity that uses physical exertion or skills",
+          "softHints": {
+            "startsWith": "S",
+            "length": 5,
+            "category": "sports"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "COMPETE",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 7,
+          "clue": "To take part in a contest, game or similar event",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "sports"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 6,
+          "answer": "KITCHEN",
+          "direction": "across",
+          "row": 5,
+          "col": 0,
+          "length": 7,
+          "clue": "Cuisine; style of cooking",
+          "softHints": {
+            "startsWith": "K",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "PROCESS",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 7,
+          "clue": "A series of events leading to a result or product",
+          "softHints": {
+            "startsWith": "P",
+            "length": 7,
+            "category": "school"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "GEAR",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 4,
+          "clue": "Clothing; garments",
+          "softHints": {
+            "startsWith": "G",
+            "length": 4,
+            "category": "sports"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 5,
+          "answer": "TREE",
+          "direction": "down",
+          "row": 3,
+          "col": 5,
+          "length": 4,
+          "clue": "Any other plant that is reminiscent of",
+          "softHints": {
+            "startsWith": "T",
+            "length": 4,
+            "category": "nature"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "A series of events leading to a result or product",
+            "answer": "PROCESS",
+            "length": 7
+          },
+          {
+            "number": 4,
+            "clue": "Any activity that uses physical exertion or skills",
+            "answer": "SPORT",
+            "length": 5
+          },
+          {
+            "number": 6,
+            "clue": "Cuisine; style of cooking",
+            "answer": "KITCHEN",
+            "length": 7
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "To take part in a contest, game or similar event",
+            "answer": "COMPETE",
+            "length": 7
+          },
+          {
+            "number": 2,
+            "clue": "Clothing; garments",
+            "answer": "GEAR",
+            "length": 4
+          },
+          {
+            "number": 5,
+            "clue": "Any other plant that is reminiscent of",
+            "answer": "TREE",
+            "length": 4
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "ocean",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 6,
+        "intersections": 7,
+        "boardScore": 0.5252
+      }
+    },
+    {
+      "puzzleId": "ocean-easy-7x7-0011",
+      "seed": 11,
+      "theme": "ocean",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "C",
+          "",
+          "",
+          "L",
+          "",
+          ""
+        ],
+        [
+          "",
+          "U",
+          "",
+          "R",
+          "I",
+          "D",
+          "E"
+        ],
+        [
+          "",
+          "I",
+          "",
+          "",
+          "B",
+          "",
+          ""
+        ],
+        [
+          "",
+          "S",
+          "H",
+          "A",
+          "R",
+          "K",
+          ""
+        ],
+        [
+          "",
+          "I",
+          "",
+          "",
+          "A",
+          "",
+          ""
+        ],
+        [
+          "",
+          "N",
+          "",
+          "A",
+          "R",
+          "E",
+          "A"
+        ],
+        [
+          "",
+          "E",
+          "",
+          "",
+          "Y",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "SHARK",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Flesh of this animal, consumed as food",
+          "softHints": {
+            "startsWith": "S",
+            "length": 5,
+            "category": "ocean"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "CUISINE",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 7,
+          "clue": "The food prepared using such style",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "LIBRARY",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "clue": "A collection of books or other forms of stored information",
+          "softHints": {
+            "startsWith": "L",
+            "length": 7,
+            "category": "school"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 5,
+          "answer": "AREA",
+          "direction": "across",
+          "row": 5,
+          "col": 3,
+          "length": 4,
+          "clue": "A particular geographic region",
+          "softHints": {
+            "startsWith": "A",
+            "length": 4,
+            "category": "city"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "RIDE",
+          "direction": "across",
+          "row": 1,
+          "col": 3,
+          "length": 4,
+          "clue": "To transport in a vehicle",
+          "softHints": {
+            "startsWith": "R",
+            "length": 4,
+            "category": "sports"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "To transport in a vehicle",
+            "answer": "RIDE",
+            "length": 4
+          },
+          {
+            "number": 4,
+            "clue": "Flesh of this animal, consumed as food",
+            "answer": "SHARK",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "A particular geographic region",
+            "answer": "AREA",
+            "length": 4
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "The food prepared using such style",
+            "answer": "CUISINE",
+            "length": 7
+          },
+          {
+            "number": 2,
+            "clue": "A collection of books or other forms of stored information",
+            "answer": "LIBRARY",
+            "length": 7
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "ocean",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 5,
+        "intersections": 4,
+        "boardScore": 0.4314
+      }
+    },
+    {
+      "puzzleId": "ocean-easy-7x7-0012",
+      "seed": 12,
+      "theme": "ocean",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "L",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "S",
+          "C",
+          "I",
+          "E",
+          "N",
+          "C",
+          "E"
+        ],
+        [
+          "",
+          "",
+          "B",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "B",
+          "R",
+          "O",
+          "O",
+          "K",
+          ""
+        ],
+        [
+          "",
+          "",
+          "A",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "T",
+          "A",
+          "R",
+          "G",
+          "E",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "",
+          "Y",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 3,
+          "answer": "BROOK",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "To earn; deserve",
+          "softHints": {
+            "startsWith": "B",
+            "length": 5,
+            "category": "weather"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "LIBRARY",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 7,
+          "clue": "A collection of books or other forms of stored information",
+          "softHints": {
+            "startsWith": "L",
+            "length": 7,
+            "category": "school"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "SCIENCE",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 7,
+          "clue": "Specifically the natural sciences",
+          "softHints": {
+            "startsWith": "S",
+            "length": 7,
+            "category": "school"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 4,
+          "answer": "TARGET",
+          "direction": "across",
+          "row": 5,
+          "col": 0,
+          "length": 6,
+          "clue": "A goal or objective",
+          "softHints": {
+            "startsWith": "T",
+            "length": 6,
+            "category": "sports"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 2,
+            "clue": "Specifically the natural sciences",
+            "answer": "SCIENCE",
+            "length": 7
+          },
+          {
+            "number": 3,
+            "clue": "To earn; deserve",
+            "answer": "BROOK",
+            "length": 5
+          },
+          {
+            "number": 4,
+            "clue": "A goal or objective",
+            "answer": "TARGET",
+            "length": 6
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A collection of books or other forms of stored information",
+            "answer": "LIBRARY",
+            "length": 7
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "ocean",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 4,
+        "intersections": 3,
+        "boardScore": 0.3873
+      }
+    },
+    {
+      "puzzleId": "ocean-easy-7x7-0013",
+      "seed": 13,
+      "theme": "ocean",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "H",
+          "",
+          "D",
+          "",
+          ""
+        ],
+        [
+          "S",
+          "T",
+          "A",
+          "D",
+          "I",
+          "U",
+          "M"
+        ],
+        [
+          "",
+          "",
+          "L",
+          "",
+          "P",
+          "",
+          ""
+        ],
+        [
+          "",
+          "W",
+          "O",
+          "R",
+          "L",
+          "D",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "O",
+          "",
+          ""
+        ],
+        [
+          "",
+          "H",
+          "E",
+          "L",
+          "M",
+          "E",
+          "T"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "A",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "WORLD",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "A majority of people",
+          "softHints": {
+            "startsWith": "W",
+            "length": 5,
+            "category": "city"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "DIPLOMA",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "clue": "A document issued by an educational institution testifying",
+          "softHints": {
+            "startsWith": "D",
+            "length": 7,
+            "category": "school"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "STADIUM",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 7,
+          "clue": "A venue where sporting events are held",
+          "softHints": {
+            "startsWith": "S",
+            "length": 7,
+            "category": "sports"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 5,
+          "answer": "HELMET",
+          "direction": "across",
+          "row": 5,
+          "col": 1,
+          "length": 6,
+          "clue": "Such a helm when placed above a shield",
+          "softHints": {
+            "startsWith": "H",
+            "length": 6,
+            "category": "sports"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "HALO",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 4,
+          "clue": "Anything resembling this band, such as an effect",
+          "softHints": {
+            "startsWith": "H",
+            "length": 4,
+            "category": "space"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "A venue where sporting events are held",
+            "answer": "STADIUM",
+            "length": 7
+          },
+          {
+            "number": 4,
+            "clue": "A majority of people",
+            "answer": "WORLD",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "Such a helm when placed above a shield",
+            "answer": "HELMET",
+            "length": 6
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Anything resembling this band, such as an effect",
+            "answer": "HALO",
+            "length": 4
+          },
+          {
+            "number": 2,
+            "clue": "A document issued by an educational institution testifying",
+            "answer": "DIPLOMA",
+            "length": 7
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "ocean",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 5,
+        "intersections": 5,
+        "boardScore": 0.4855
+      }
+    },
+    {
+      "puzzleId": "ocean-easy-7x7-0014",
+      "seed": 14,
+      "theme": "ocean",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "C",
+          "",
+          "L",
+          "",
+          "D",
+          ""
+        ],
+        [
+          "P",
+          "R",
+          "A",
+          "I",
+          "R",
+          "I",
+          "E"
+        ],
+        [
+          "",
+          "I",
+          "",
+          "B",
+          "",
+          "P",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "O",
+          "R",
+          "A",
+          "L",
+          ""
+        ],
+        [
+          "",
+          "K",
+          "",
+          "A",
+          "",
+          "O",
+          ""
+        ],
+        [
+          "G",
+          "E",
+          "A",
+          "R",
+          "",
+          "M",
+          ""
+        ],
+        [
+          "",
+          "T",
+          "",
+          "Y",
+          "",
+          "A",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "CORAL",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "A hard substance made of the skeletons of these organisms",
+          "softHints": {
+            "startsWith": "C",
+            "length": 5,
+            "category": "weather"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "CRICKET",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 7,
+          "clue": "In the form crickets: absolute silence; no communication",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "sports"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "DIPLOMA",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 7,
+          "clue": "A document issued by an educational institution testifying",
+          "softHints": {
+            "startsWith": "D",
+            "length": 7,
+            "category": "school"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "LIBRARY",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 7,
+          "clue": "A collection of books or other forms of stored information",
+          "softHints": {
+            "startsWith": "L",
+            "length": 7,
+            "category": "school"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 4,
+          "answer": "PRAIRIE",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 7,
+          "clue": "An extensive area of relatively flat grassland with",
+          "softHints": {
+            "startsWith": "P",
+            "length": 7,
+            "category": "city"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 6,
+          "answer": "GEAR",
+          "direction": "across",
+          "row": 5,
+          "col": 0,
+          "length": 4,
+          "clue": "Clothing; garments",
+          "softHints": {
+            "startsWith": "G",
+            "length": 4,
+            "category": "sports"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "An extensive area of relatively flat grassland with",
+            "answer": "PRAIRIE",
+            "length": 7
+          },
+          {
+            "number": 5,
+            "clue": "A hard substance made of the skeletons of these organisms",
+            "answer": "CORAL",
+            "length": 5
+          },
+          {
+            "number": 6,
+            "clue": "Clothing; garments",
+            "answer": "GEAR",
+            "length": 4
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "In the form crickets: absolute silence; no communication",
+            "answer": "CRICKET",
+            "length": 7
+          },
+          {
+            "number": 2,
+            "clue": "A collection of books or other forms of stored information",
+            "answer": "LIBRARY",
+            "length": 7
+          },
+          {
+            "number": 3,
+            "clue": "A document issued by an educational institution testifying",
+            "answer": "DIPLOMA",
+            "length": 7
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "ocean",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 6,
+        "intersections": 8,
+        "boardScore": 0.5334
+      }
+    },
+    {
+      "puzzleId": "ocean-easy-7x7-0015",
+      "seed": 15,
+      "theme": "ocean",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "D",
+          "",
+          "D",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "",
+          "I",
+          "",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "O",
+          "",
+          "P",
+          "",
+          "N",
+          ""
+        ],
+        [
+          "",
+          "F",
+          "A",
+          "L",
+          "L",
+          "S",
+          ""
+        ],
+        [
+          "",
+          "F",
+          "",
+          "O",
+          "",
+          "I",
+          ""
+        ],
+        [
+          "H",
+          "E",
+          "L",
+          "M",
+          "E",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "E",
+          "",
+          "A",
+          "",
+          "Y",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "FALLS",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "A waterfall",
+          "softHints": {
+            "startsWith": "F",
+            "length": 5,
+            "category": "weather"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "DIPLOMA",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 7,
+          "clue": "A document issued by an educational institution testifying",
+          "softHints": {
+            "startsWith": "D",
+            "length": 7,
+            "category": "school"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "DENSITY",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 7,
+          "clue": "A measure of the mass of matter contained",
+          "softHints": {
+            "startsWith": "D",
+            "length": 7,
+            "category": "space"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "COFFEE",
+          "direction": "down",
+          "row": 1,
+          "col": 1,
+          "length": 6,
+          "clue": "A serving of this beverage",
+          "softHints": {
+            "startsWith": "C",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 5,
+          "answer": "HELMET",
+          "direction": "across",
+          "row": 5,
+          "col": 0,
+          "length": 6,
+          "clue": "Such a helm when placed above a shield",
+          "softHints": {
+            "startsWith": "H",
+            "length": 6,
+            "category": "sports"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "A waterfall",
+            "answer": "FALLS",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "Such a helm when placed above a shield",
+            "answer": "HELMET",
+            "length": 6
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A document issued by an educational institution testifying",
+            "answer": "DIPLOMA",
+            "length": 7
+          },
+          {
+            "number": 2,
+            "clue": "A measure of the mass of matter contained",
+            "answer": "DENSITY",
+            "length": 7
+          },
+          {
+            "number": 3,
+            "clue": "A serving of this beverage",
+            "answer": "COFFEE",
+            "length": 6
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "ocean",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 5,
+        "intersections": 6,
+        "boardScore": 0.4895
+      }
+    },
+    {
+      "puzzleId": "ocean-easy-7x7-0016",
+      "seed": 16,
+      "theme": "ocean",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "C",
+          "",
+          "",
+          "W",
+          "",
+          ""
+        ],
+        [
+          "",
+          "U",
+          "",
+          "W",
+          "I",
+          "N",
+          "E"
+        ],
+        [
+          "",
+          "I",
+          "",
+          "",
+          "N",
+          "",
+          ""
+        ],
+        [
+          "",
+          "S",
+          "O",
+          "U",
+          "N",
+          "D",
+          ""
+        ],
+        [
+          "",
+          "I",
+          "",
+          "",
+          "I",
+          "",
+          ""
+        ],
+        [
+          "",
+          "N",
+          "",
+          "",
+          "N",
+          "U",
+          "T"
+        ],
+        [
+          "",
+          "E",
+          "",
+          "",
+          "G",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "SOUND",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Complete, solid, or secure",
+          "softHints": {
+            "startsWith": "S",
+            "length": 5,
+            "category": "city"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "CUISINE",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 7,
+          "clue": "The food prepared using such style",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "WINNING",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "clue": "Present participle and gerund of win",
+          "softHints": {
+            "startsWith": "W",
+            "length": 7,
+            "category": "sports"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "WINE",
+          "direction": "across",
+          "row": 1,
+          "col": 3,
+          "length": 4,
+          "clue": "An alcoholic beverage made by fermenting other substances,",
+          "softHints": {
+            "startsWith": "W",
+            "length": 4,
+            "category": "food"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 5,
+          "answer": "NUT",
+          "direction": "across",
+          "row": 5,
+          "col": 4,
+          "length": 3,
+          "clue": "Such a fruit that is indehiscent",
+          "softHints": {
+            "startsWith": "N",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "An alcoholic beverage made by fermenting other substances,",
+            "answer": "WINE",
+            "length": 4
+          },
+          {
+            "number": 4,
+            "clue": "Complete, solid, or secure",
+            "answer": "SOUND",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "Such a fruit that is indehiscent",
+            "answer": "NUT",
+            "length": 3
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "The food prepared using such style",
+            "answer": "CUISINE",
+            "length": 7
+          },
+          {
+            "number": 2,
+            "clue": "Present participle and gerund of win",
+            "answer": "WINNING",
+            "length": 7
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "ocean",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 5,
+        "intersections": 4,
+        "boardScore": 0.4273
+      }
+    },
+    {
+      "puzzleId": "ocean-easy-7x7-0017",
+      "seed": 17,
+      "theme": "ocean",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "Q",
+          "",
+          "",
+          "T",
+          ""
+        ],
+        [
+          "C",
+          "O",
+          "U",
+          "N",
+          "T",
+          "R",
+          "Y"
+        ],
+        [
+          "",
+          "",
+          "A",
+          "",
+          "",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "P",
+          "R",
+          "O",
+          "B",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "",
+          "T",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "H",
+          "E",
+          "L",
+          "M",
+          "E",
+          "T"
+        ],
+        [
+          "",
+          "",
+          "R",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "PROBE",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Any of various medical instruments used to explore",
+          "softHints": {
+            "startsWith": "P",
+            "length": 5,
+            "category": "space"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "QUARTER",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 7,
+          "clue": "A fourth part of something",
+          "softHints": {
+            "startsWith": "Q",
+            "length": 7,
+            "category": "sports"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "COUNTRY",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 7,
+          "clue": "An area of land of undefined extent;",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "city"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 5,
+          "answer": "HELMET",
+          "direction": "across",
+          "row": 5,
+          "col": 1,
+          "length": 6,
+          "clue": "Such a helm when placed above a shield",
+          "softHints": {
+            "startsWith": "H",
+            "length": 6,
+            "category": "sports"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "TREE",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 4,
+          "clue": "Any other plant that is reminiscent of",
+          "softHints": {
+            "startsWith": "T",
+            "length": 4,
+            "category": "nature"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "An area of land of undefined extent;",
+            "answer": "COUNTRY",
+            "length": 7
+          },
+          {
+            "number": 4,
+            "clue": "Any of various medical instruments used to explore",
+            "answer": "PROBE",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "Such a helm when placed above a shield",
+            "answer": "HELMET",
+            "length": 6
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A fourth part of something",
+            "answer": "QUARTER",
+            "length": 7
+          },
+          {
+            "number": 2,
+            "clue": "Any other plant that is reminiscent of",
+            "answer": "TREE",
+            "length": 4
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "ocean",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 5,
+        "intersections": 5,
+        "boardScore": 0.4855
+      }
+    },
+    {
+      "puzzleId": "ocean-easy-7x7-0018",
+      "seed": 18,
+      "theme": "ocean",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "D",
+          ""
+        ],
+        [
+          "C",
+          "H",
+          "I",
+          "C",
+          "K",
+          "E",
+          "N"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "N",
+          ""
+        ],
+        [
+          "",
+          "F",
+          "A",
+          "L",
+          "L",
+          "S",
+          ""
+        ],
+        [
+          "",
+          "O",
+          "",
+          "",
+          "",
+          "I",
+          ""
+        ],
+        [
+          "G",
+          "R",
+          "A",
+          "V",
+          "I",
+          "T",
+          "Y"
+        ],
+        [
+          "",
+          "K",
+          "",
+          "",
+          "",
+          "Y",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 3,
+          "answer": "FALLS",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "A waterfall",
+          "softHints": {
+            "startsWith": "F",
+            "length": 5,
+            "category": "weather"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "DENSITY",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 7,
+          "clue": "A measure of the mass of matter contained",
+          "softHints": {
+            "startsWith": "D",
+            "length": 7,
+            "category": "space"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "CHICKEN",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 7,
+          "clue": "The young of any bird; a chick",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 4,
+          "answer": "GRAVITY",
+          "direction": "across",
+          "row": 5,
+          "col": 0,
+          "length": 7,
+          "clue": "Senses relating to seriousness",
+          "softHints": {
+            "startsWith": "G",
+            "length": 7,
+            "category": "space"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "FORK",
+          "direction": "down",
+          "row": 3,
+          "col": 1,
+          "length": 4,
+          "clue": "Any of several types of pronged tools , as follows:",
+          "softHints": {
+            "startsWith": "F",
+            "length": 4,
+            "category": "weather"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 2,
+            "clue": "The young of any bird; a chick",
+            "answer": "CHICKEN",
+            "length": 7
+          },
+          {
+            "number": 3,
+            "clue": "A waterfall",
+            "answer": "FALLS",
+            "length": 5
+          },
+          {
+            "number": 4,
+            "clue": "Senses relating to seriousness",
+            "answer": "GRAVITY",
+            "length": 7
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A measure of the mass of matter contained",
+            "answer": "DENSITY",
+            "length": 7
+          },
+          {
+            "number": 3,
+            "clue": "Any of several types of pronged tools , as follows:",
+            "answer": "FORK",
+            "length": 4
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "ocean",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 5,
+        "intersections": 5,
+        "boardScore": 0.4895
+      }
+    },
+    {
+      "puzzleId": "ocean-easy-7x7-0019",
+      "seed": 19,
+      "theme": "ocean",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "S",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "B",
+          "I",
+          "C",
+          "Y",
+          "C",
+          "L",
+          "E"
+        ],
+        [
+          "",
+          "",
+          "I",
+          "",
+          "",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "D",
+          "E",
+          "L",
+          "T",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "",
+          "N",
+          "",
+          "",
+          "G",
+          ""
+        ],
+        [
+          "D",
+          "U",
+          "C",
+          "K",
+          "",
+          "U",
+          ""
+        ],
+        [
+          "",
+          "",
+          "E",
+          "",
+          "",
+          "E",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "DELTA",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "The fourth letter of the modern Greek alphabet Δ, δ",
+          "softHints": {
+            "startsWith": "D",
+            "length": 5,
+            "category": "city"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "SCIENCE",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 7,
+          "clue": "Specifically the natural sciences",
+          "softHints": {
+            "startsWith": "S",
+            "length": 7,
+            "category": "school"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "BICYCLE",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 7,
+          "clue": "A traveling block used on a cable in skidding logs",
+          "softHints": {
+            "startsWith": "B",
+            "length": 7,
+            "category": "sports"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "LEAGUE",
+          "direction": "down",
+          "row": 1,
+          "col": 5,
+          "length": 6,
+          "clue": "A group or association of cooperating members",
+          "softHints": {
+            "startsWith": "L",
+            "length": 6,
+            "category": "sports"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 5,
+          "answer": "DUCK",
+          "direction": "across",
+          "row": 5,
+          "col": 0,
+          "length": 4,
+          "clue": "To lower into water; to thrust or plunge",
+          "softHints": {
+            "startsWith": "D",
+            "length": 4,
+            "category": "animals"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 2,
+            "clue": "A traveling block used on a cable in skidding logs",
+            "answer": "BICYCLE",
+            "length": 7
+          },
+          {
+            "number": 4,
+            "clue": "The fourth letter of the modern Greek alphabet Δ, δ",
+            "answer": "DELTA",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "To lower into water; to thrust or plunge",
+            "answer": "DUCK",
+            "length": 4
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Specifically the natural sciences",
+            "answer": "SCIENCE",
+            "length": 7
+          },
+          {
+            "number": 3,
+            "clue": "A group or association of cooperating members",
+            "answer": "LEAGUE",
+            "length": 6
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "ocean",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 5,
+        "intersections": 5,
+        "boardScore": 0.4855
+      }
+    },
+    {
+      "puzzleId": "ocean-easy-7x7-0020",
+      "seed": 20,
+      "theme": "ocean",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "C",
+          "",
+          "F",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "H",
+          "",
+          "I",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "I",
+          "",
+          "T",
+          "",
+          "P",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "A",
+          "N",
+          "A",
+          "L",
+          ""
+        ],
+        [
+          "",
+          "K",
+          "",
+          "E",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "D",
+          "E",
+          "N",
+          "S",
+          "I",
+          "T",
+          "Y"
+        ],
+        [
+          "",
+          "N",
+          "",
+          "S",
+          "",
+          "E",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "CANAL",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "A tubular channel within the body or within a plant",
+          "softHints": {
+            "startsWith": "C",
+            "length": 5,
+            "category": "city"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "CHICKEN",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 7,
+          "clue": "The young of any bird; a chick",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 5,
+          "answer": "DENSITY",
+          "direction": "across",
+          "row": 5,
+          "col": 0,
+          "length": 7,
+          "clue": "A measure of the mass of matter contained",
+          "softHints": {
+            "startsWith": "D",
+            "length": 7,
+            "category": "space"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "FITNESS",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 7,
+          "clue": "The condition of being fit, suitable or appropriate",
+          "softHints": {
+            "startsWith": "F",
+            "length": 7,
+            "category": "sports"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "PLATE",
+          "direction": "down",
+          "row": 2,
+          "col": 5,
+          "length": 5,
+          "clue": "Such dishes collectively",
+          "softHints": {
+            "startsWith": "P",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "A tubular channel within the body or within a plant",
+            "answer": "CANAL",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "A measure of the mass of matter contained",
+            "answer": "DENSITY",
+            "length": 7
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "The young of any bird; a chick",
+            "answer": "CHICKEN",
+            "length": 7
+          },
+          {
+            "number": 2,
+            "clue": "The condition of being fit, suitable or appropriate",
+            "answer": "FITNESS",
+            "length": 7
+          },
+          {
+            "number": 3,
+            "clue": "Such dishes collectively",
+            "answer": "PLATE",
+            "length": 5
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "ocean",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 5,
+        "intersections": 6,
+        "boardScore": 0.4895
+      }
+    }
+  ]
+}

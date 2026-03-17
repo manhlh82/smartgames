@@ -4,55 +4,73 @@
   "clues": [
     {
       "word": "ALTITUDE",
-      "primaryClue": "City infrastructure term",
-      "alternateClues": [],
+      "primaryClue": "A vertical distance",
+      "alternateClues": [
+        "The absolute height of a location, usually measured",
+        "The line perpendicularly connecting a figure’s vertex, especially"
+      ],
       "softHints": {
         "startsWith": "A",
         "length": 8,
         "category": "city"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A vertical distance.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "AREA",
-      "primaryClue": "Urban feature or place",
-      "alternateClues": [],
+      "primaryClue": "A particular geographic region",
+      "alternateClues": [
+        "A measure of the extent of a surface;",
+        "Any particular extent of surface, especially an empty"
+      ],
       "softHints": {
         "startsWith": "A",
         "length": 4,
         "category": "city"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A particular geographic region.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "ATLAS",
-      "primaryClue": "Found in a city",
-      "alternateClues": [],
+      "primaryClue": "A bound collection of tables, illustrations, etc.",
+      "alternateClues": [
+        "A bound collection of maps often including tables,",
+        "A detailed visual conspectus of something of great"
+      ],
       "softHints": {
         "startsWith": "A",
         "length": 5,
         "category": "city"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A bound collection of tables, illustrations, etc. on any given subject.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "ATOLL",
-      "primaryClue": "Urban feature or place",
+      "primaryClue": "A type of island consisting of a ribbon",
       "alternateClues": [],
       "softHints": {
         "startsWith": "A",
@@ -60,64 +78,82 @@
         "category": "city"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A type of island consisting of a ribbon reef that nearly or entirely surrounds a lagoon and supports, in most cases, one to many islets on the reef platform.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "AZIMUTH",
-      "primaryClue": "Metropolitan feature",
-      "alternateClues": [],
+      "primaryClue": "An arc of the horizon intercepted between",
+      "alternateClues": [
+        "An arc of the horizon intercepted between"
+      ],
       "softHints": {
         "startsWith": "A",
         "length": 7,
         "category": "city"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "An arc of the horizon intercepted between the meridian of the place and a vertical circle passing through the center of any object.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BAY",
-      "primaryClue": "City infrastructure term",
-      "alternateClues": [],
+      "primaryClue": "A bank or dam to keep back water",
+      "alternateClues": [
+        "A body of water contained by a concave shoreline"
+      ],
       "softHints": {
         "startsWith": "B",
         "length": 3,
         "category": "city"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A bank or dam to keep back water.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BORDER",
-      "primaryClue": "Found in a city",
-      "alternateClues": [],
+      "primaryClue": "The outer edge of something",
+      "alternateClues": [
+        "A decorative strip around the edge of something",
+        "The line or frontier area separating political or geographical regions"
+      ],
       "softHints": {
         "startsWith": "B",
         "length": 6,
         "category": "city"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The outer edge of something.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BUTTE",
-      "primaryClue": "City infrastructure term",
+      "primaryClue": "An isolated hill with steep sides and a flat top",
       "alternateClues": [],
       "softHints": {
         "startsWith": "B",
@@ -125,32 +161,40 @@
         "category": "city"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "An isolated hill with steep sides and a flat top.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CANAL",
-      "primaryClue": "Metropolitan feature",
-      "alternateClues": [],
+      "primaryClue": "A tubular channel within the body or within a plant",
+      "alternateClues": [
+        "An artificial waterway or artificially improved river used",
+        "One of the faint, hazy markings resembling straight"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 5,
         "category": "city"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A tubular channel within the body or within a plant.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CANYON",
-      "primaryClue": "City infrastructure term",
+      "primaryClue": "A valley, especially a long, narrow, steep valley,",
       "alternateClues": [],
       "softHints": {
         "startsWith": "C",
@@ -158,15 +202,18 @@
         "category": "city"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A valley, especially a long, narrow, steep valley, cut in rock by a river.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CAPE",
-      "primaryClue": "Metropolitan feature",
+      "primaryClue": "A piece or point of land, extending beyond",
       "alternateClues": [],
       "softHints": {
         "startsWith": "C",
@@ -174,243 +221,324 @@
         "category": "city"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A piece or point of land, extending beyond the adjacent coast into a sea or lake; a promontory; a headland.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CAPITAL",
-      "primaryClue": "City infrastructure term",
-      "alternateClues": [],
+      "primaryClue": "Money and wealth: the means to acquire goods",
+      "alternateClues": [
+        "The capitalist class; investors considered collectively with respect",
+        "Already-produced durable goods available for use as"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 7,
         "category": "city"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Money and wealth: the means to acquire goods and services, especially in a non-barter system.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CAVE",
-      "primaryClue": "Metropolitan feature",
-      "alternateClues": [],
+      "primaryClue": "A storage cellar, especially for wine or cheese",
+      "alternateClues": [
+        "A hole, depression, or gap in earth",
+        "A large, naturally-occurring cavity formed underground or"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 4,
         "category": "city"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A storage cellar, especially for wine or cheese.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CHANNEL",
-      "primaryClue": "Urban feature or place",
-      "alternateClues": [],
+      "primaryClue": "The navigable part of a river",
+      "alternateClues": [
+        "The hollow bed of running waters; the bed",
+        "The natural or man-made deeper course through"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 7,
         "category": "city"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The navigable part of a river.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CHART",
-      "primaryClue": "Metropolitan feature",
-      "alternateClues": [],
+      "primaryClue": "A map",
+      "alternateClues": [
+        "A map",
+        "A map illustrating the geography of a specific phenomenon"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 5,
         "category": "city"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A map.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CITY",
-      "primaryClue": "Part of city life",
-      "alternateClues": [],
+      "primaryClue": "The central business district; downtown",
+      "alternateClues": [
+        "A large settlement, bigger than a town; sometimes",
+        "A settlement granted special status by royal charter"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 4,
         "category": "city"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The central business district; downtown.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CLIFF",
-      "primaryClue": "Urban feature or place",
-      "alternateClues": [],
+      "primaryClue": "A vertical rock face",
+      "alternateClues": [
+        "A point beyond which something abruptly fails"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 5,
         "category": "city"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A vertical (or nearly vertical) rock face.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "COMPASS",
-      "primaryClue": "Found in a city",
-      "alternateClues": [],
+      "primaryClue": "The range of notes of a musical instrument or voice",
+      "alternateClues": [
+        "A pair of compasses (a device used",
+        "A magnetic or electronic device used to determine"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 7,
         "category": "city"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The range of notes of a musical instrument or voice.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CONTINENT",
-      "primaryClue": "Found in a city",
-      "alternateClues": [],
+      "primaryClue": "A large contiguous landmass as opposed to its",
+      "alternateClues": [
+        "One of the main contiguous landmasses, separated",
+        "Each of the traditional main regions into which"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 9,
         "category": "city"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A large contiguous landmass as opposed to its islands, peninsulas, and so forth; mainland. Also specifically, the Old World continent of Europe–Asia–Africa: see the Continent.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CONTOUR",
-      "primaryClue": "Found in a city",
-      "alternateClues": [],
+      "primaryClue": "An outline, boundary or border, usually of curved shape",
+      "alternateClues": [
+        "A speech sound which behaves as a single",
+        "A line on a map or chart delineating"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 7,
         "category": "city"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "An outline, boundary or border, usually of curved shape.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "COUNTRY",
-      "primaryClue": "Metropolitan feature",
-      "alternateClues": [],
+      "primaryClue": "An area of land of undefined extent;",
+      "alternateClues": [
+        "An area of land of undefined extent;",
+        "The territory of a nation; a sovereign state"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 7,
         "category": "city"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "An area of land of undefined extent; a region, a district.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "COVE",
-      "primaryClue": "Urban feature or place",
-      "alternateClues": [],
+      "primaryClue": "A hollow in a rock; a cave or cavern",
+      "alternateClues": [
+        "A concave vault or archway, especially the arch",
+        "A small coastal inlet, especially one having high"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 4,
         "category": "city"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A hollow in a rock; a cave or cavern.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "DEGREE",
-      "primaryClue": "Urban feature or place",
-      "alternateClues": [],
+      "primaryClue": "A unit of measurement of angle equal",
+      "alternateClues": [
+        "A unit of measurement of temperature on any",
+        "A stage of proficiency or qualification in"
+      ],
       "softHints": {
         "startsWith": "D",
         "length": 6,
         "category": "city"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A unit of measurement of angle equal to ¹⁄₃₆₀ of a circle's circumference.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "DELTA",
-      "primaryClue": "Part of city life",
-      "alternateClues": [],
+      "primaryClue": "The fourth letter of the modern Greek alphabet Δ, δ",
+      "alternateClues": [
+        "A landform at the mouth of a river"
+      ],
       "softHints": {
         "startsWith": "D",
         "length": 5,
         "category": "city"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The fourth letter of the modern Greek alphabet Δ, δ.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "DESERT",
-      "primaryClue": "Found in a city",
-      "alternateClues": [],
+      "primaryClue": "In particular, a barren, arid area of land",
+      "alternateClues": [
+        "A barren area of land or desolate terrain,",
+        "A barren area of land or desolate terrain,"
+      ],
       "softHints": {
         "startsWith": "D",
         "length": 6,
         "category": "city"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "In particular, a barren, arid area of land which is hot, with sandy, rocky, or parched ground.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "DUNE",
-      "primaryClue": "Urban feature or place",
+      "primaryClue": "A ridge or hill of sand piled up",
       "alternateClues": [],
       "softHints": {
         "startsWith": "D",
@@ -418,81 +546,105 @@
         "category": "city"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A ridge or hill of sand piled up by currents of wind or water.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "EAST",
-      "primaryClue": "Part of city life",
-      "alternateClues": [],
+      "primaryClue": "The direction of the earth's rotation, specifically 90°",
+      "alternateClues": [
+        "The direction of the earth's rotation, specifically 90°",
+        "In a church: the direction of the altar"
+      ],
       "softHints": {
         "startsWith": "E",
         "length": 4,
         "category": "city"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The direction of the earth's rotation, specifically 90°.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "ELEVATION",
-      "primaryClue": "City infrastructure term",
-      "alternateClues": [],
+      "primaryClue": "That which is raised up or elevated;",
+      "alternateClues": [
+        "The condition of being or feeling elevated; heightened; exaltation",
+        "The act of raising from a lower place,"
+      ],
       "softHints": {
         "startsWith": "E",
         "length": 9,
         "category": "city"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "That which is raised up or elevated; an elevated place or station.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "EQUATOR",
-      "primaryClue": "Metropolitan feature",
-      "alternateClues": [],
+      "primaryClue": "The midline of any generally spherical object, such",
+      "alternateClues": [
+        "A similar great circle on any sphere, especially",
+        "An imaginary great circle around Earth, equidistant from"
+      ],
       "softHints": {
         "startsWith": "E",
         "length": 7,
         "category": "city"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The midline of any generally spherical object, such as a fruit or vegetable, that has identifiable poles.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "ESTUARY",
-      "primaryClue": "Metropolitan feature",
-      "alternateClues": [],
+      "primaryClue": "An ocean inlet also fed by fresh river water",
+      "alternateClues": [
+        "A coastal water body where ocean tides"
+      ],
       "softHints": {
         "startsWith": "E",
         "length": 7,
         "category": "city"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "An ocean inlet also fed by fresh river water.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "FJORD",
-      "primaryClue": "Metropolitan feature",
+      "primaryClue": "A long, narrow, deep inlet between cliffs",
       "alternateClues": [],
       "softHints": {
         "startsWith": "F",
@@ -500,130 +652,172 @@
         "category": "city"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A long, narrow, deep inlet between cliffs.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "GEYSER",
-      "primaryClue": "Part of city life",
-      "alternateClues": [],
+      "primaryClue": "An instantaneous, and often dangerous, hot water heater",
+      "alternateClues": [
+        "A momentary vertical jet or fountain of fluid",
+        "A boiling natural spring which throws forth jets"
+      ],
       "softHints": {
         "startsWith": "G",
         "length": 6,
         "category": "city"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "An instantaneous, and often dangerous, hot water heater.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "GLACIER",
-      "primaryClue": "Part of city life",
-      "alternateClues": [],
+      "primaryClue": "Something that moves very slowly",
+      "alternateClues": [
+        "An area of a mountain where snow is present year-round",
+        "A large body of ice which flows under"
+      ],
       "softHints": {
         "startsWith": "G",
         "length": 7,
         "category": "city"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Something that moves very slowly",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "GLOBE",
-      "primaryClue": "Metropolitan feature",
-      "alternateClues": [],
+      "primaryClue": "The eyeball",
+      "alternateClues": [
+        "Any spherical object",
+        "Any spherical object"
+      ],
       "softHints": {
         "startsWith": "G",
         "length": 5,
         "category": "city"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The eyeball.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "GULF",
-      "primaryClue": "Found in a city",
-      "alternateClues": [],
+      "primaryClue": "That which swallows; the gullet",
+      "alternateClues": [
+        "A hollow place in the earth; an abyss;",
+        "That which swallows irretrievably; a whirlpool; a sucking eddy"
+      ],
       "softHints": {
         "startsWith": "G",
         "length": 4,
         "category": "city"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "That which swallows; the gullet.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "HILL",
-      "primaryClue": "Part of city life",
-      "alternateClues": [],
+      "primaryClue": "A sloping road",
+      "alternateClues": [
+        "A heap of earth surrounding a plant",
+        "An elevated landmass smaller than a mountain"
+      ],
       "softHints": {
         "startsWith": "H",
         "length": 4,
         "category": "city"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A sloping road.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "ISLAND",
-      "primaryClue": "Metropolitan feature",
-      "alternateClues": [],
+      "primaryClue": "An entity surrounded by other entities that are",
+      "alternateClues": [
+        "A contiguous area of land, smaller than",
+        "A contiguous area of land, smaller than"
+      ],
       "softHints": {
         "startsWith": "I",
         "length": 6,
         "category": "city"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "An entity surrounded by other entities that are very different from itself.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "KEY",
-      "primaryClue": "Found in a city",
-      "alternateClues": [],
+      "primaryClue": "A crucial step or requirement",
+      "alternateClues": [
+        "An object designed to open and close a lock",
+        "An object designed to fit between two other"
+      ],
       "softHints": {
         "startsWith": "K",
         "length": 3,
         "category": "city"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A crucial step or requirement.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "LAGOON",
-      "primaryClue": "City infrastructure term",
+      "primaryClue": "A shallow body of water separated from deeper",
       "alternateClues": [],
       "softHints": {
         "startsWith": "L",
@@ -631,47 +825,61 @@
         "category": "city"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A shallow body of water separated from deeper sea by a bar.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "LAKE",
-      "primaryClue": "Found in a city",
-      "alternateClues": [],
+      "primaryClue": "A large amount of liquid",
+      "alternateClues": [
+        "A large, landlocked stretch of water or similar liquid",
+        "A small stream of running water; a channel"
+      ],
       "softHints": {
         "startsWith": "L",
         "length": 4,
         "category": "city"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A large amount of liquid.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "LAND",
-      "primaryClue": "Urban feature or place",
-      "alternateClues": [],
+      "primaryClue": "A country or region",
+      "alternateClues": [
+        "The part of Earth which is not covered"
+      ],
       "softHints": {
         "startsWith": "L",
         "length": 4,
         "category": "city"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A country or region.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "LANDFORM",
-      "primaryClue": "City infrastructure term",
+      "primaryClue": "Any geological feature, such as a mountain or valley",
       "alternateClues": [],
       "softHints": {
         "startsWith": "L",
@@ -679,79 +887,106 @@
         "category": "city"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any geological feature, such as a mountain or valley.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "LATITUDE",
-      "primaryClue": "City infrastructure term",
-      "alternateClues": [],
+      "primaryClue": "The relative freedom from restrictions; scope to do something",
+      "alternateClues": [
+        "An imaginary line around a planet running parallel",
+        "The angular distance north or south from"
+      ],
       "softHints": {
         "startsWith": "L",
         "length": 8,
         "category": "city"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The relative freedom from restrictions; scope to do something.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "LEGEND",
-      "primaryClue": "City infrastructure term",
-      "alternateClues": [],
+      "primaryClue": "An unrealistic story depicting past events",
+      "alternateClues": [
+        "A story of unknown origin describing plausible but",
+        "The life story of a saint (such stories"
+      ],
       "softHints": {
         "startsWith": "L",
         "length": 6,
         "category": "city"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "An unrealistic story depicting past events.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "LONGITUDE",
-      "primaryClue": "Urban feature or place",
-      "alternateClues": [],
+      "primaryClue": "Angular distance measured west or east of the prime meridian",
+      "alternateClues": [
+        "Angular distance measured west or east of the prime meridian",
+        "Any imaginary line perpendicular to the equator"
+      ],
       "softHints": {
         "startsWith": "L",
         "length": 9,
         "category": "city"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Angular distance measured west or east of the prime meridian.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "MAP",
-      "primaryClue": "Found in a city",
-      "alternateClues": [],
+      "primaryClue": "A function, especially a function satisfying a certain",
+      "alternateClues": [
+        "A visual representation of an area, whether real",
+        "A graphical or logical representation of any structure"
+      ],
       "softHints": {
         "startsWith": "M",
         "length": 3,
         "category": "city"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A function, especially a function satisfying a certain property (e.g. continuity, linearity, etc.; see Usage notes).",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "MARSH",
-      "primaryClue": "City infrastructure term",
+      "primaryClue": "An area of low, wet land, often with",
       "alternateClues": [],
       "softHints": {
         "startsWith": "M",
@@ -759,15 +994,18 @@
         "category": "city"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "An area of low, wet land, often with tall grass or herbaceous plants.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "MERIDIAN",
-      "primaryClue": "Metropolitan feature",
+      "primaryClue": "Line of longitude on a globe",
       "alternateClues": [],
       "softHints": {
         "startsWith": "M",
@@ -775,146 +1013,192 @@
         "category": "city"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "override",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "override",
+      "sourceDefinition": "",
+      "clueGenerationMethod": "manual_override",
+      "licenseNotes": "manual",
+      "needsReview": false
     },
     {
       "word": "MESA",
-      "primaryClue": "Metropolitan feature",
-      "alternateClues": [],
+      "primaryClue": "A structure with components rising above the insulating",
+      "alternateClues": [
+        "A flat area of land or plateau higher"
+      ],
       "softHints": {
         "startsWith": "M",
         "length": 4,
         "category": "city"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "a structure with components rising above the insulating substrate that surrounds it",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "MOUNTAIN",
-      "primaryClue": "Metropolitan feature",
-      "alternateClues": [],
+      "primaryClue": "A difficult task or challenge",
+      "alternateClues": [
+        "Something very large in size or quantity;",
+        "An elevation of land of considerable dimensions rising"
+      ],
       "softHints": {
         "startsWith": "M",
         "length": 8,
         "category": "city"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A difficult task or challenge.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "NATION",
-      "primaryClue": "Part of city life",
-      "alternateClues": [],
+      "primaryClue": "A community united by some trait but not historically constituted",
+      "alternateClues": [
+        "A historically constituted, stable community of people, formed",
+        "A historically constituted, stable community of people, formed"
+      ],
       "softHints": {
         "startsWith": "N",
         "length": 6,
         "category": "city"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A community united by some trait (especially an interest) but not historically constituted.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "NORTH",
-      "primaryClue": "Urban feature or place",
-      "alternateClues": [],
+      "primaryClue": "The up or positive direction",
+      "alternateClues": [
+        "The direction towards the pole to the left-hand"
+      ],
       "softHints": {
         "startsWith": "N",
         "length": 5,
         "category": "city"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The up or positive direction.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "OASIS",
-      "primaryClue": "Found in a city",
-      "alternateClues": [],
+      "primaryClue": "A quiet, peaceful place or situation separated from",
+      "alternateClues": [
+        "A spring of fresh water, surrounded by",
+        "A place or situation of fruitfulness or abundance"
+      ],
       "softHints": {
         "startsWith": "O",
         "length": 5,
         "category": "city"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A quiet, peaceful place or situation separated from surrounding noise or bustle.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "OCEAN",
-      "primaryClue": "Part of city life",
-      "alternateClues": [],
+      "primaryClue": "One of the large bodies of water separating the continents",
+      "alternateClues": [
+        "One of the large bodies of water separating the continents",
+        "An immense expanse; any vast space or quantity"
+      ],
       "softHints": {
         "startsWith": "O",
         "length": 5,
         "category": "city"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "One of the large bodies of water separating the continents.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "PARALLEL",
-      "primaryClue": "Urban feature or place",
-      "alternateClues": [],
+      "primaryClue": "Either not intersecting, or coinciding",
+      "alternateClues": [
+        "Equally distant from one another at all points",
+        "Having the same overall direction; the comparison is"
+      ],
       "softHints": {
         "startsWith": "P",
         "length": 8,
         "category": "city"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Either not intersecting, or coinciding.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "PEAK",
-      "primaryClue": "City infrastructure term",
-      "alternateClues": [],
+      "primaryClue": "The highest value reached by some quantity",
+      "alternateClues": [
+        "The top, or one of the tops,",
+        "A point; the sharp end or top"
+      ],
       "softHints": {
         "startsWith": "P",
         "length": 4,
         "category": "city"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The highest value reached by some quantity in a time period.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "PENINSULA",
-      "primaryClue": "City infrastructure term",
+      "primaryClue": "A piece of land projecting into water from",
       "alternateClues": [],
       "softHints": {
         "startsWith": "P",
@@ -922,80 +1206,105 @@
         "category": "city"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A piece of land projecting into water from a larger land mass.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "PLAIN",
-      "primaryClue": "Urban feature or place",
-      "alternateClues": [],
+      "primaryClue": "Flat, level",
+      "alternateClues": [
+        "Simple, unaltered",
+        "Ordinary; lacking adornment or ornamentation; unembellished"
+      ],
       "softHints": {
         "startsWith": "P",
         "length": 5,
         "category": "city"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Flat, level.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "PLATEAU",
-      "primaryClue": "City infrastructure term",
-      "alternateClues": [],
+      "primaryClue": "An ornamental dish for the table; a tray or salver",
+      "alternateClues": [
+        "A largely level expanse of land at",
+        "A comparatively stable level after a period of increase"
+      ],
       "softHints": {
         "startsWith": "P",
         "length": 7,
         "category": "city"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "An ornamental dish for the table; a tray or salver.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "POLE",
-      "primaryClue": "Metropolitan feature",
-      "alternateClues": [],
+      "primaryClue": "A type of basic fishing rod",
+      "alternateClues": [
+        "A construction by which an animal is harnessed",
+        "Originally, a stick; now specifically, a long"
+      ],
       "softHints": {
         "startsWith": "P",
         "length": 4,
         "category": "city"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A type of basic fishing rod.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "POND",
-      "primaryClue": "Found in a city",
-      "alternateClues": [],
+      "primaryClue": "An inland body of standing water, either natural",
+      "alternateClues": [
+        "An inland body of standing water of any"
+      ],
       "softHints": {
         "startsWith": "P",
         "length": 4,
         "category": "city"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "An inland body of standing water, either natural or man-made, that is smaller than a lake.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "PRAIRIE",
-      "primaryClue": "Urban feature or place",
+      "primaryClue": "An extensive area of relatively flat grassland with",
       "alternateClues": [],
       "softHints": {
         "startsWith": "P",
@@ -1003,258 +1312,346 @@
         "category": "city"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "An extensive area of relatively flat grassland with few, if any, trees, especially in North America.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "PROJECTION",
-      "primaryClue": "Metropolitan feature",
-      "alternateClues": [],
+      "primaryClue": "The action of projecting or throwing or propelling something",
+      "alternateClues": [
+        "Something which projects, protrudes, juts out, sticks out,",
+        "The crisis or decisive point of any process,"
+      ],
       "softHints": {
         "startsWith": "P",
         "length": 10,
         "category": "city"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The action of projecting or throwing or propelling something.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "RANGE",
-      "primaryClue": "City infrastructure term",
-      "alternateClues": [],
+      "primaryClue": "Selection, array",
+      "alternateClues": [
+        "A line or series of mountains, buildings, etc",
+        "A fireplace; a fire or other cooking apparatus;"
+      ],
       "softHints": {
         "startsWith": "R",
         "length": 5,
         "category": "city"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Selection, array.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "REEF",
-      "primaryClue": "Found in a city",
-      "alternateClues": [],
+      "primaryClue": "A large vein of auriferous quartz; hence, any",
+      "alternateClues": [
+        "A chain or range of rocks, sand,"
+      ],
       "softHints": {
         "startsWith": "R",
         "length": 4,
         "category": "city"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A large vein of auriferous quartz; hence, any body of rock yielding valuable ore.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "REGION",
-      "primaryClue": "City infrastructure term",
-      "alternateClues": [],
+      "primaryClue": "An administrative subdivision of a city, a territory, a country",
+      "alternateClues": [
+        "Such a division of the city of Rome",
+        "Any considerable and connected part of a space"
+      ],
       "softHints": {
         "startsWith": "R",
         "length": 6,
         "category": "city"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "An administrative subdivision of a city, a territory, a country.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "RESERVOIR",
-      "primaryClue": "Metropolitan feature",
-      "alternateClues": [],
+      "primaryClue": "A place where anything is kept in store",
+      "alternateClues": [
+        "A large natural or artificial lake used as",
+        "A small intercellular space, often containing resin, essential"
+      ],
       "softHints": {
         "startsWith": "R",
         "length": 9,
         "category": "city"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A place where anything is kept in store.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "RIVER",
-      "primaryClue": "Part of city life",
-      "alternateClues": [],
+      "primaryClue": "The last card dealt in a hand",
+      "alternateClues": [
+        "Any large flow of a liquid in a single body",
+        "A large and often winding stream which drains"
+      ],
       "softHints": {
         "startsWith": "R",
         "length": 5,
         "category": "city"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The last card dealt in a hand.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SCALE",
-      "primaryClue": "Part of city life",
-      "alternateClues": [],
+      "primaryClue": "Size; scope",
+      "alternateClues": [
+        "A ladder; a series of steps; a means of ascending",
+        "An ordered, usually numerical sequence used for measurement;"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 5,
         "category": "city"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Size; scope.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SEA",
-      "primaryClue": "Part of city life",
-      "alternateClues": [],
+      "primaryClue": "A large body of salt water",
+      "alternateClues": [
+        "A large body of salt water",
+        "The ocean; the continuous body of salt water"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 3,
         "category": "city"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A large body of salt water.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SOUND",
-      "primaryClue": "Metropolitan feature",
-      "alternateClues": [],
+      "primaryClue": "Complete, solid, or secure",
+      "alternateClues": [
+        "Complete, solid, or secure"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 5,
         "category": "city"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Complete, solid, or secure.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SOURCE",
-      "primaryClue": "Urban feature or place",
-      "alternateClues": [],
+      "primaryClue": "A reporter's informant",
+      "alternateClues": [
+        "The person, place, or thing from which something",
+        "Spring; fountainhead; wellhead; any collection of water"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 6,
         "category": "city"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A reporter's informant.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SOUTH",
-      "primaryClue": "Found in a city",
-      "alternateClues": [],
+      "primaryClue": "In a church: the direction to the right-hand",
+      "alternateClues": [
+        "In a church: the direction to the right-hand",
+        "The direction towards the pole to the right-hand"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 5,
         "category": "city"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "In a church: the direction to the right-hand side of a person facing the altar.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "STRAIT",
-      "primaryClue": "Urban feature or place",
-      "alternateClues": [],
+      "primaryClue": "Righteous, strict",
+      "alternateClues": [
+        "Tight; close; tight-fitting",
+        "Narrow; restricted as to space or room; close"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 6,
         "category": "city"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Righteous, strict.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SWAMP",
-      "primaryClue": "Part of city life",
-      "alternateClues": [],
+      "primaryClue": "A place or situation that is foul",
+      "alternateClues": [
+        "The alleged corruption, cronyism, inefficiency, and entrenched interests",
+        "An area of wet , spongy land, often"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 5,
         "category": "city"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A place or situation that is foul or where progress is difficult.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "TERRITORY",
-      "primaryClue": "Found in a city",
-      "alternateClues": [],
+      "primaryClue": "A large extent or tract of land;",
+      "alternateClues": [
+        "One of three of Canada's federal entities, located",
+        "One of three of Australia's federal entities, located"
+      ],
       "softHints": {
         "startsWith": "T",
         "length": 9,
         "category": "city"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A large extent or tract of land; for example a region, country or district.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "TRIBUTARY",
-      "primaryClue": "Found in a city",
-      "alternateClues": [],
+      "primaryClue": "A vein which drains into another vein",
+      "alternateClues": [
+        "A nation, state, or other entity that pays tribute",
+        "A natural water stream that flows into"
+      ],
       "softHints": {
         "startsWith": "T",
         "length": 9,
         "category": "city"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A vein which drains into another vein.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "TROPICS",
-      "primaryClue": "Urban feature or place",
+      "primaryClue": "Plural of tropic",
       "alternateClues": [],
       "softHints": {
         "startsWith": "T",
@@ -1262,97 +1659,126 @@
         "category": "city"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "plural of tropic",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "TUNDRA",
-      "primaryClue": "Urban feature or place",
-      "alternateClues": [],
+      "primaryClue": "A flat and treeless Arctic biome",
+      "alternateClues": [
+        "A long stretch of something, such as time"
+      ],
       "softHints": {
         "startsWith": "T",
         "length": 6,
         "category": "city"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A flat and treeless Arctic biome.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "VALLEY",
-      "primaryClue": "City infrastructure term",
-      "alternateClues": [],
+      "primaryClue": "An area which drains itself into a river",
+      "alternateClues": [
+        "An elongated depression cast between hills or mountains,",
+        "Any structure resembling one, e.g. the interior angle"
+      ],
       "softHints": {
         "startsWith": "V",
         "length": 6,
         "category": "city"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "An area which drains itself into a river.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "VOLCANO",
-      "primaryClue": "City infrastructure term",
-      "alternateClues": [],
+      "primaryClue": "A kind of firework producing an upward plume of sparks",
+      "alternateClues": [
+        "A vent or fissure on the surface"
+      ],
       "softHints": {
         "startsWith": "V",
         "length": 7,
         "category": "city"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A kind of firework producing an upward plume of sparks.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "WATERFALL",
-      "primaryClue": "Metropolitan feature",
-      "alternateClues": [],
+      "primaryClue": "A flow of water over the edge of a cliff",
+      "alternateClues": [
+        "A flow of water over the edge of a cliff",
+        "A waterfall-like outpouring of liquid, smoke, etc"
+      ],
       "softHints": {
         "startsWith": "W",
         "length": 9,
         "category": "city"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A flow of water over the edge of a cliff.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "WEST",
-      "primaryClue": "Metropolitan feature",
-      "alternateClues": [],
+      "primaryClue": "The direction opposite to that of the earth's",
+      "alternateClues": [
+        "The direction opposite to that of the earth's",
+        "In a church: the direction of the gallery,"
+      ],
       "softHints": {
         "startsWith": "W",
         "length": 4,
         "category": "city"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The direction opposite to that of the earth's rotation, specifically 270°.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "WETLAND",
-      "primaryClue": "Found in a city",
+      "primaryClue": "Land that is covered mostly with water, with",
       "alternateClues": [],
       "softHints": {
         "startsWith": "W",
@@ -1360,27 +1786,36 @@
         "category": "city"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Land that is covered mostly with water, with occasional marshy and soggy areas.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "WORLD",
-      "primaryClue": "Urban feature or place",
-      "alternateClues": [],
+      "primaryClue": "A majority of people",
+      "alternateClues": [
+        "The subjective human experience, regarded individually",
+        "The subjective human experience, regarded collectively; human collective"
+      ],
       "softHints": {
         "startsWith": "W",
         "length": 5,
         "category": "city"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A majority of people.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     }
   ]
 }

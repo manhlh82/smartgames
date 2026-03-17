@@ -4,7 +4,7 @@
   "clues": [
     {
       "word": "BASSOON",
-      "primaryClue": "Related to music",
+      "primaryClue": "A musical instrument in the woodwind family, having",
       "alternateClues": [],
       "softHints": {
         "startsWith": "B",
@@ -12,31 +12,40 @@
         "category": "music"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A musical instrument in the woodwind family, having a double reed and playing in the tenor and bass ranges.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BELL",
-      "primaryClue": "Found in a song or concert",
-      "alternateClues": [],
+      "primaryClue": "An instrument that emits a ringing sound, situated",
+      "alternateClues": [
+        "An instrument that emits a ringing sound, situated",
+        "A percussive instrument made of metal or other"
+      ],
       "softHints": {
         "startsWith": "B",
         "length": 4,
         "category": "music"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "An instrument that emits a ringing sound, situated on a bicycle's handlebar and used by the cyclist to warn of their presence.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BONGO",
-      "primaryClue": "Music vocabulary",
+      "primaryClue": "A striped bovine mammal found in Africa, Tragelaphus eurycerus",
       "alternateClues": [],
       "softHints": {
         "startsWith": "B",
@@ -44,32 +53,39 @@
         "category": "music"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A striped bovine mammal found in Africa, Tragelaphus eurycerus.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BUGLE",
-      "primaryClue": "Related to music",
-      "alternateClues": [],
+      "primaryClue": "A horn used by hunters",
+      "alternateClues": [
+        "A simple brass instrument consisting of a horn"
+      ],
       "softHints": {
         "startsWith": "B",
         "length": 5,
         "category": "music"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A horn used by hunters.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CELESTA",
-      "primaryClue": "Related to music",
+      "primaryClue": "A musical instrument consisting principally of a set",
       "alternateClues": [],
       "softHints": {
         "startsWith": "C",
@@ -77,15 +93,18 @@
         "category": "music"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A musical instrument consisting principally of a set of graduated steel plates struck with hammers that are activated by a keyboard.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CELLO",
-      "primaryClue": "Instrument or musical concept",
+      "primaryClue": "A large unfretted stringed instrument of the violin",
       "alternateClues": [],
       "softHints": {
         "startsWith": "C",
@@ -93,15 +112,18 @@
         "category": "music"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A large unfretted stringed instrument of the violin family with four strings tuned (lowest to highest) C-G-D-A and an endpin to support its weight, usually played with a bow.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CLARINET",
-      "primaryClue": "Found in a song or concert",
+      "primaryClue": "A woodwind musical instrument that has a distinctive",
       "alternateClues": [],
       "softHints": {
         "startsWith": "C",
@@ -109,15 +131,18 @@
         "category": "music"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A woodwind musical instrument that has a distinctive liquid tone whose characteristics vary among its three registers: chalumeau (low), clarion (medium), and altissimo (high).",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CYMBAL",
-      "primaryClue": "Musical term",
+      "primaryClue": "A concave plate of metal, usually brass",
       "alternateClues": [],
       "softHints": {
         "startsWith": "C",
@@ -125,97 +150,127 @@
         "category": "music"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A concave plate of metal, usually brass or bronze, that produces a sharp, ringing sound when struck: played either in pairs, by striking them together, or singly by striking with a drumstick or the like.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "FLUTE",
-      "primaryClue": "Found in a song or concert",
-      "alternateClues": [],
+      "primaryClue": "A recorder, also a woodwind instrument",
+      "alternateClues": [
+        "A glass with a long, narrow bowl",
+        "A woodwind instrument consisting of a tube with"
+      ],
       "softHints": {
         "startsWith": "F",
         "length": 5,
         "category": "music"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A recorder, also a woodwind instrument.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "GONG",
-      "primaryClue": "Music vocabulary",
-      "alternateClues": [],
+      "primaryClue": "A medal or award, particularly Knight Bachelor",
+      "alternateClues": [
+        "A metal target that emits a sound when",
+        "A percussion instrument consisting of a metal disk"
+      ],
       "softHints": {
         "startsWith": "G",
         "length": 4,
         "category": "music"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A medal or award, particularly Knight Bachelor.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "GUITAR",
-      "primaryClue": "Found in a song or concert",
-      "alternateClues": [],
+      "primaryClue": "A stringed musical instrument, of European origin, usually",
+      "alternateClues": [
+        "Any type of musical instrument of the lute"
+      ],
       "softHints": {
         "startsWith": "G",
         "length": 6,
         "category": "music"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A stringed musical instrument, of European origin, usually with a fretted fingerboard and six strings, played with the fingers or a plectrum (guitar pick).",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "HARP",
-      "primaryClue": "Found in a song or concert",
-      "alternateClues": [],
+      "primaryClue": "Any instrument of the same musicological type",
+      "alternateClues": [
+        "A musical instrument consisting of a body",
+        "A musical instrument consisting of a body"
+      ],
       "softHints": {
         "startsWith": "H",
         "length": 4,
         "category": "music"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any instrument of the same musicological type.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "HORN",
-      "primaryClue": "Related to music",
-      "alternateClues": [],
+      "primaryClue": "An antler",
+      "alternateClues": [
+        "A hard growth of keratin that protrudes from",
+        "Any similar real or imaginary growth or projection"
+      ],
       "softHints": {
         "startsWith": "H",
         "length": 4,
         "category": "music"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "An antler.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "MARIMBA",
-      "primaryClue": "Related to music",
+      "primaryClue": "A percussion instrument with African origins, similar",
       "alternateClues": [],
       "softHints": {
         "startsWith": "M",
@@ -223,15 +278,18 @@
         "category": "music"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A percussion instrument with African origins, similar to a xylophone with resonators, but much lower in range and darker in timbre.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "OBOE",
-      "primaryClue": "Music vocabulary",
+      "primaryClue": "A soprano and melody wind instrument in",
       "alternateClues": [],
       "softHints": {
         "startsWith": "O",
@@ -239,16 +297,18 @@
         "category": "music"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A soprano and melody wind instrument in the modern orchestra and wind ensemble. It is a smaller instrument and generally made of grenadilla wood. It is a member of the double reed family.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "PIANO",
-      "primaryClue": "Instrument or musical concept",
+      "primaryClue": "A percussive keyboard musical instrument, usually ranging over",
       "alternateClues": [],
       "softHints": {
         "startsWith": "P",
@@ -256,98 +316,125 @@
         "category": "music"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A percussive keyboard musical instrument, usually ranging over seven octaves, with white and black colored keys, played by pressing these keys, causing hammers to strike strings.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "PICCOLO",
-      "primaryClue": "Related to music",
-      "alternateClues": [],
+      "primaryClue": "A transverse flute that is smaller than",
+      "alternateClues": [
+        "A transverse flute that is smaller than"
+      ],
       "softHints": {
         "startsWith": "P",
         "length": 7,
         "category": "music"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A transverse flute that is smaller than a Western concert flute and pitched nearly an octave higher.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SAX",
-      "primaryClue": "Music vocabulary",
-      "alternateClues": [],
+      "primaryClue": "Alternative spelling of zax",
+      "alternateClues": [
+        "A knife or sword; a dagger about 50"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 3,
         "category": "music"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Alternative spelling of zax.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SNARE",
-      "primaryClue": "Musical term",
-      "alternateClues": [],
+      "primaryClue": "A mental or psychological trap",
+      "alternateClues": [
+        "A trap (especially one made from a loop",
+        "A loop of cord used in obstetric cases,"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 5,
         "category": "music"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A mental or psychological trap.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "STRING",
-      "primaryClue": "Found in a song or concert",
-      "alternateClues": [],
+      "primaryClue": "Any similar long, thin and flexible object",
+      "alternateClues": [
+        "A long, thin and flexible structure made from",
+        "A segment of wire or other material used"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 6,
         "category": "music"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any similar long, thin and flexible object.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "TAMBOURINE",
-      "primaryClue": "Music vocabulary",
-      "alternateClues": [],
+      "primaryClue": "A percussion instrument consisting of a small, usually",
+      "alternateClues": [
+        "A percussion instrument consisting of a small, usually"
+      ],
       "softHints": {
         "startsWith": "T",
         "length": 10,
         "category": "music"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A percussion instrument consisting of a small, usually wooden, hoop closed on one side with a drum frame and featuring jingling metal disks on the tread; it is most often held in the hand and shaken rhythmically; by extension, any frame drum.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "TIMPANI",
-      "primaryClue": "Found in a song or concert",
+      "primaryClue": "The set of precision kettledrums in an orchestra",
       "alternateClues": [],
       "softHints": {
         "startsWith": "T",
@@ -355,80 +442,105 @@
         "category": "music"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The set of precision kettledrums in an orchestra.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "TRIANGLE",
-      "primaryClue": "Related to music",
-      "alternateClues": [],
+      "primaryClue": "A set square",
+      "alternateClues": [
+        "A polygon with three sides and three angles",
+        "A percussion instrument made by forming a metal"
+      ],
       "softHints": {
         "startsWith": "T",
         "length": 8,
         "category": "music"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A set square.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "TROMBONE",
-      "primaryClue": "Musical term",
-      "alternateClues": [],
+      "primaryClue": "The common European bittern",
+      "alternateClues": [
+        "A kind of extendable support for attaching lighting",
+        "A musical instrument in the brass family, having"
+      ],
       "softHints": {
         "startsWith": "T",
         "length": 8,
         "category": "music"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The common European bittern.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "TRUMPET",
-      "primaryClue": "Found in a song or concert",
-      "alternateClues": [],
+      "primaryClue": "The cry of an elephant, or any similar loud cry",
+      "alternateClues": [
+        "The cry of an elephant, or any similar loud cry",
+        "A musical instrument of the brass family, generally"
+      ],
       "softHints": {
         "startsWith": "T",
         "length": 7,
         "category": "music"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The cry of an elephant, or any similar loud cry.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "TUBA",
-      "primaryClue": "Instrument or musical concept",
-      "alternateClues": [],
+      "primaryClue": "A large reed stop in organs",
+      "alternateClues": [
+        "A large brass musical instrument, usually in"
+      ],
       "softHints": {
         "startsWith": "T",
         "length": 4,
         "category": "music"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A large reed stop in organs.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "VIBES",
-      "primaryClue": "Instrument or musical concept",
+      "primaryClue": "Plural of vibe",
       "alternateClues": [],
       "softHints": {
         "startsWith": "V",
@@ -436,15 +548,18 @@
         "category": "music"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "plural of vibe",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "VIOLA",
-      "primaryClue": "Musical term",
+      "primaryClue": "Any of several flowering plants, of the genus",
       "alternateClues": [],
       "softHints": {
         "startsWith": "V",
@@ -452,33 +567,39 @@
         "category": "music"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any of several flowering plants, of the genus Viola, including the violets and pansies.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "VIOLIN",
-      "primaryClue": "Music vocabulary",
-      "alternateClues": [],
+      "primaryClue": "A violinist in an orchestra or group",
+      "alternateClues": [
+        "A small unfretted stringed instrument with four strings"
+      ],
       "softHints": {
         "startsWith": "V",
         "length": 6,
         "category": "music"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A violinist in an orchestra or group.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "XYLOPHONE",
-      "primaryClue": "Music vocabulary",
+      "primaryClue": "Any musical instrument made of wooden slats graduated",
       "alternateClues": [],
       "softHints": {
         "startsWith": "X",
@@ -486,12 +607,14 @@
         "category": "music"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any musical instrument (percussion idiophone) made of wooden slats graduated so as to make the sounds of the scale when struck with a small drumstick-like mallet; the standard Western concert xylophone or one of its derivatives.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     }
   ]
 }

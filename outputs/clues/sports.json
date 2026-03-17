@@ -4,72 +4,94 @@
   "clues": [
     {
       "word": "ARCHER",
-      "primaryClue": "Sports-related word",
-      "alternateClues": [],
+      "primaryClue": "The bishop in chess",
+      "alternateClues": [
+        "One who shoots an arrow from a bow"
+      ],
       "softHints": {
         "startsWith": "A",
         "length": 6,
         "category": "sports"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The bishop in chess.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "ARENA",
-      "primaryClue": "Game or sport",
-      "alternateClues": [],
+      "primaryClue": "The sand-covered centre of an amphitheatre where contests",
+      "alternateClues": [
+        "The building housing such an area; specifically,",
+        "An enclosed area, often outdoor, for the presentation"
+      ],
       "softHints": {
         "startsWith": "A",
         "length": 5,
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The sand-covered centre of an amphitheatre where contests were held in Ancient Rome.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "ARROW",
-      "primaryClue": "A sport or athletic term",
-      "alternateClues": [],
+      "primaryClue": "A directed edge",
+      "alternateClues": [
+        "A sign or symbol used to indicate a direction",
+        "A projectile consisting of a shaft, a point"
+      ],
       "softHints": {
         "startsWith": "A",
         "length": 5,
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A directed edge.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "ATHLETE",
-      "primaryClue": "A sport or athletic term",
-      "alternateClues": [],
+      "primaryClue": "An exceptionally physically fit person",
+      "alternateClues": [
+        "A person who actively participates in physical sports,",
+        "A participant in any of a group"
+      ],
       "softHints": {
         "startsWith": "A",
         "length": 7,
         "category": "sports"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "An exceptionally physically fit person.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "AXEL",
-      "primaryClue": "Athletic activity",
+      "primaryClue": "A jump that includes one complete turn",
       "alternateClues": [],
       "softHints": {
         "startsWith": "A",
@@ -77,211 +99,276 @@
         "category": "sports"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A jump that includes one (or more than one) complete turn and a half turn while in the air.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BADMINTON",
-      "primaryClue": "Athletic activity",
-      "alternateClues": [],
+      "primaryClue": "A cooling summer drink made with claret, sugar,",
+      "alternateClues": [
+        "A racquet sport played indoors on a court"
+      ],
       "softHints": {
         "startsWith": "B",
         "length": 9,
         "category": "sports"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A cooling summer drink made with claret, sugar, and soda water.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BALL",
-      "primaryClue": "A sport or athletic term",
-      "alternateClues": [],
+      "primaryClue": "A solid or hollow sphere, or roughly spherical mass",
+      "alternateClues": [
+        "A solid or hollow sphere, or roughly spherical mass",
+        "A quantity of string, thread, etc., wound into"
+      ],
       "softHints": {
         "startsWith": "B",
         "length": 4,
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A solid or hollow sphere, or roughly spherical mass.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BASE",
-      "primaryClue": "Played in competition",
-      "alternateClues": [],
+      "primaryClue": "Something from which other things extend; a foundation",
+      "alternateClues": [
+        "Something from which other things extend; a foundation",
+        "A supporting, lower or bottom component of"
+      ],
       "softHints": {
         "startsWith": "B",
         "length": 4,
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Something from which other things extend; a foundation.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BAT",
-      "primaryClue": "Athletic activity",
-      "alternateClues": [],
+      "primaryClue": "An old woman",
+      "alternateClues": [
+        "Any flying mammal of the order Chiroptera, usually"
+      ],
       "softHints": {
         "startsWith": "B",
         "length": 3,
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "An old woman.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BATTER",
-      "primaryClue": "A sport or athletic term",
-      "alternateClues": [],
+      "primaryClue": "To defeat soundly; to thrash",
+      "alternateClues": [
+        "To hit or strike violently and repeatedly"
+      ],
       "softHints": {
         "startsWith": "B",
         "length": 6,
         "category": "sports"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "To defeat soundly; to thrash.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BICYCLE",
-      "primaryClue": "Played in competition",
-      "alternateClues": [],
+      "primaryClue": "A traveling block used on a cable in skidding logs",
+      "alternateClues": [
+        "Any similar vehicle powered by human pedaling",
+        "A vehicle that has two primary wheels, one"
+      ],
       "softHints": {
         "startsWith": "B",
         "length": 7,
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A traveling block used on a cable in skidding logs.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BIKE",
-      "primaryClue": "A sport or athletic term",
-      "alternateClues": [],
+      "primaryClue": "Clipping of bicycle",
+      "alternateClues": [
+        "Any vehicle sharing some characteristics with a bicycle"
+      ],
       "softHints": {
         "startsWith": "B",
         "length": 4,
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Clipping of bicycle.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BOCCE",
-      "primaryClue": "Played in competition",
-      "alternateClues": [],
+      "primaryClue": "One of the eight balls that the player",
+      "alternateClues": [
+        "A game, similar to bowls or pétanque, played"
+      ],
       "softHints": {
         "startsWith": "B",
         "length": 5,
         "category": "sports"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "One of the eight balls that the player throws in a game of bocce.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BOW",
-      "primaryClue": "A sport or athletic term",
-      "alternateClues": [],
+      "primaryClue": "A curved bend in a rod or planar",
+      "alternateClues": [
+        "A weapon made of a curved piece",
+        "A rod with horsehair stretched between the ends,"
+      ],
       "softHints": {
         "startsWith": "B",
         "length": 3,
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A curved bend in a rod or planar surface, or in a linear formation such as a river (see oxbow).",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BOX",
-      "primaryClue": "A sport or athletic term",
-      "alternateClues": [],
+      "primaryClue": "Senses relating to a three-dimensional object or space",
+      "alternateClues": [
+        "Senses relating to a three-dimensional object or space",
+        "A cuboid space; a cuboid container, often with"
+      ],
       "softHints": {
         "startsWith": "B",
         "length": 3,
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Senses relating to a three-dimensional object or space.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CANOE",
-      "primaryClue": "Game or sport",
-      "alternateClues": [],
+      "primaryClue": "An oversize, usually older, luxury car",
+      "alternateClues": [
+        "Any of the deflectors positioned around a roulette",
+        "A small long and narrow boat, propelled"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 5,
         "category": "sports"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "An oversize, usually older, luxury car.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CATCH",
-      "primaryClue": "Athletic activity",
-      "alternateClues": [],
+      "primaryClue": "The act of seizing or capturing",
+      "alternateClues": [
+        "The act of noticing, understanding or hearing"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 5,
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The act of seizing or capturing.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CLEATS",
-      "primaryClue": "Played in competition",
+      "primaryClue": "Plural of cleat",
       "alternateClues": [],
       "softHints": {
         "startsWith": "C",
@@ -289,279 +376,369 @@
         "category": "sports"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "plural of cleat",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CLUB",
-      "primaryClue": "Played in competition",
-      "alternateClues": [],
+      "primaryClue": "An implement to hit the ball in certain",
+      "alternateClues": [
+        "A heavy object, often a kind of stick,",
+        "A heavy object, often a kind of stick,"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 4,
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "An implement to hit the ball in certain ball games, such as golf.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "COACH",
-      "primaryClue": "Sports-related word",
-      "alternateClues": [],
+      "primaryClue": "A trainer or instructor",
+      "alternateClues": [
+        "A wheeled vehicle, generally pulled by a horse",
+        "A passenger car, either drawn by a locomotive"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 5,
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A trainer or instructor.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "COMPETE",
-      "primaryClue": "Sports-related word",
-      "alternateClues": [],
+      "primaryClue": "To take part in a contest, game or similar event",
+      "alternateClues": [
+        "To be in a position in which it",
+        "To be in battle or in a rivalry"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 7,
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "To take part in a contest, game or similar event.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CREW",
-      "primaryClue": "Game or sport",
-      "alternateClues": [],
+      "primaryClue": "A group of people together",
+      "alternateClues": [
+        "A group of people together",
+        "Any company of people; an assemblage; a throng"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 4,
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A group of people together",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CRICKET",
-      "primaryClue": "A sport or athletic term",
-      "alternateClues": [],
+      "primaryClue": "In the form crickets: absolute silence; no communication",
+      "alternateClues": [
+        "An insect in the order Orthoptera, especially family",
+        "An insect in the order Orthoptera, especially family"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 7,
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "In the form crickets: absolute silence; no communication.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CYCLE",
-      "primaryClue": "A sport or athletic term",
-      "alternateClues": [],
+      "primaryClue": "A complete rotation of anything",
+      "alternateClues": [
+        "An interval of space or time in which",
+        "A process that returns to its beginning"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 5,
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A complete rotation of anything.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CYCLIST",
-      "primaryClue": "Played in competition",
-      "alternateClues": [],
+      "primaryClue": "A motorcyclist",
+      "alternateClues": [
+        "A person who rides a cycle, especially"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 7,
         "category": "sports"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A motorcyclist.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "DART",
-      "primaryClue": "Sports-related word",
-      "alternateClues": [],
+      "primaryClue": "Any sharp-pointed missile weapon, such as an arrow",
+      "alternateClues": [
+        "Anything resembling such a missile; something that pierces",
+        "A pointed missile weapon, intended to be thrown"
+      ],
       "softHints": {
         "startsWith": "D",
         "length": 4,
         "category": "sports"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any sharp-pointed missile weapon, such as an arrow.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "DEFENSE",
-      "primaryClue": "Sports-related word",
-      "alternateClues": [],
+      "primaryClue": "Anything employed to oppose attack",
+      "alternateClues": [
+        "The action of defending or protecting from attack,",
+        "A strategy and tactics employed to prevent"
+      ],
       "softHints": {
         "startsWith": "D",
         "length": 7,
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Anything employed to oppose attack(s).",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "DIAMOND",
-      "primaryClue": "Athletic activity",
-      "alternateClues": [],
+      "primaryClue": "A gemstone made from this mineral",
+      "alternateClues": [
+        "A gemstone made from this mineral",
+        "A glimmering glass-like mineral that is an allotrope"
+      ],
       "softHints": {
         "startsWith": "D",
         "length": 7,
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A gemstone made from this mineral.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "DIVE",
-      "primaryClue": "Athletic activity",
-      "alternateClues": [],
+      "primaryClue": "To swim under water",
+      "alternateClues": [
+        "To jump into water head-first",
+        "To jump headfirst toward the ground or into another substance"
+      ],
       "softHints": {
         "startsWith": "D",
         "length": 4,
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "To swim under water.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "DIVER",
-      "primaryClue": "Played in competition",
-      "alternateClues": [],
+      "primaryClue": "Someone who works underwater; a frogman",
+      "alternateClues": [
+        "Someone who works underwater; a frogman",
+        "Someone who dives, especially as a sport"
+      ],
       "softHints": {
         "startsWith": "D",
         "length": 5,
         "category": "sports"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Someone who works underwater; a frogman.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "EXERCISE",
-      "primaryClue": "Game or sport",
-      "alternateClues": [],
+      "primaryClue": "Any activity designed to develop or hone",
+      "alternateClues": [
+        "Activity intended to improve physical, or sometimes mental,",
+        "A setting in action or practicing; employment"
+      ],
       "softHints": {
         "startsWith": "E",
         "length": 8,
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any activity designed to develop or hone a skill or ability.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "FENCING",
-      "primaryClue": "Sports-related word",
-      "alternateClues": [],
+      "primaryClue": "The buying and receiving of stolen goods",
+      "alternateClues": [
+        "Material used to make fences, fences used as",
+        "The art or sport of duelling with swords,"
+      ],
       "softHints": {
         "startsWith": "F",
         "length": 7,
         "category": "sports"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The buying and receiving of stolen goods.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "FIELD",
-      "primaryClue": "Game or sport",
-      "alternateClues": [],
+      "primaryClue": "The open country near or belonging to",
+      "alternateClues": [
+        "A land area free of woodland, cities,",
+        "A land area free of woodland, cities,"
+      ],
       "softHints": {
         "startsWith": "F",
         "length": 5,
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The open country near or belonging to a town or city.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "FITNESS",
-      "primaryClue": "Sports-related word",
-      "alternateClues": [],
+      "primaryClue": "The condition of being fit, suitable or appropriate",
+      "alternateClues": [
+        "The cultivation of an attractive and/or healthy physique",
+        "An organism's or species' degree of success"
+      ],
       "softHints": {
         "startsWith": "F",
         "length": 7,
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The condition of being fit, suitable or appropriate.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "FRISBEE",
-      "primaryClue": "Played in competition",
+      "primaryClue": "Flying disc used in outdoor games",
       "alternateClues": [],
       "softHints": {
         "startsWith": "F",
@@ -569,65 +746,83 @@
         "category": "sports"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "override",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "override",
+      "sourceDefinition": "",
+      "clueGenerationMethod": "manual_override",
+      "licenseNotes": "manual",
+      "needsReview": false
     },
     {
       "word": "GAME",
-      "primaryClue": "Athletic activity",
-      "alternateClues": [],
+      "primaryClue": "A playful or competitive activity",
+      "alternateClues": [
+        "A playful or competitive activity",
+        "A playful activity that may be unstructured;"
+      ],
       "softHints": {
         "startsWith": "G",
         "length": 4,
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A playful or competitive activity.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "GEAR",
-      "primaryClue": "A sport or athletic term",
-      "alternateClues": [],
+      "primaryClue": "Clothing; garments",
+      "alternateClues": [
+        "Goods; property; household items",
+        "Equipment or paraphernalia, especially that used for an athletic endeavor"
+      ],
       "softHints": {
         "startsWith": "G",
         "length": 4,
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Clothing; garments.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "GOAL",
-      "primaryClue": "Athletic activity",
-      "alternateClues": [],
+      "primaryClue": "A result that one is attempting to achieve",
+      "alternateClues": [
+        "In many sports, an area into which"
+      ],
       "softHints": {
         "startsWith": "G",
         "length": 4,
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A result that one is attempting to achieve.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "GOALIE",
-      "primaryClue": "Played in competition",
+      "primaryClue": "A goalkeeper or goaltender",
       "alternateClues": [],
       "softHints": {
         "startsWith": "G",
@@ -635,81 +830,103 @@
         "category": "sports"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A goalkeeper or goaltender.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "GOLF",
-      "primaryClue": "Played in competition",
-      "alternateClues": [],
+      "primaryClue": "A ball game played by individuals competing against",
+      "alternateClues": [
+        "A ball game played by individuals competing against"
+      ],
       "softHints": {
         "startsWith": "G",
         "length": 4,
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A ball game played by individuals competing against one another in which the object is to hit a ball into each of a series of (usually 18 or nine) holes in the minimum number of strokes.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "GOLFER",
-      "primaryClue": "Sports-related word",
-      "alternateClues": [],
+      "primaryClue": "Someone who plays golf",
+      "alternateClues": [
+        "One who takes part in code golf or regex golf"
+      ],
       "softHints": {
         "startsWith": "G",
         "length": 6,
         "category": "sports"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Someone who plays golf.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "GUARD",
-      "primaryClue": "Played in competition",
-      "alternateClues": [],
+      "primaryClue": "A garda; a police officer",
+      "alternateClues": [
+        "A squad responsible for protecting something",
+        "A person who, or thing that, protects"
+      ],
       "softHints": {
         "startsWith": "G",
         "length": 5,
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A garda; a police officer.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "GYM",
-      "primaryClue": "Athletic activity",
-      "alternateClues": [],
+      "primaryClue": "A sports facility specialized for lifting weights, cardio",
+      "alternateClues": [
+        "A sports facility specialized for lifting weights, cardio"
+      ],
       "softHints": {
         "startsWith": "G",
         "length": 3,
         "category": "sports"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A sports facility specialized for lifting weights, cardio machines, and other exercise (culturally differentiated from sense 1).",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "GYMNAST",
-      "primaryClue": "Game or sport",
+      "primaryClue": "One who performs gymnastics",
       "alternateClues": [],
       "softHints": {
         "startsWith": "G",
@@ -717,31 +934,40 @@
         "category": "sports"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "One who performs (the sport of) gymnastics.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "HELMET",
-      "primaryClue": "Played in competition",
-      "alternateClues": [],
+      "primaryClue": "Such a helm when placed above a shield",
+      "alternateClues": [
+        "A hard, protective head covering, typically part of armour",
+        "A hard, protective head covering, typically part of armour"
+      ],
       "softHints": {
         "startsWith": "H",
         "length": 6,
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Such a helm when placed above a shield on a coat of arms.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "HOCKEY",
-      "primaryClue": "Athletic activity",
+      "primaryClue": "Any of a family of sports in which",
       "alternateClues": [],
       "softHints": {
         "startsWith": "H",
@@ -749,49 +975,62 @@
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any of a family of sports in which hockey sticks are used to move a ball or puck into a goal.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "HOME",
-      "primaryClue": "Athletic activity",
-      "alternateClues": [],
+      "primaryClue": "A dwelling",
+      "alternateClues": [
+        "A dwelling",
+        "One’s own dwelling place; the house or structure"
+      ],
       "softHints": {
         "startsWith": "H",
         "length": 4,
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A dwelling.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "HOOP",
-      "primaryClue": "Game or sport",
-      "alternateClues": [],
+      "primaryClue": "Any circular band or ring",
+      "alternateClues": [
+        "A circular band of metal used to bind a barrel",
+        "A circular band of metal, wood, or similar"
+      ],
       "softHints": {
         "startsWith": "H",
         "length": 4,
         "category": "sports"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any circular band or ring.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "HOOPS",
-      "primaryClue": "A sport or athletic term",
+      "primaryClue": "Plural of hoop",
       "alternateClues": [],
       "softHints": {
         "startsWith": "H",
@@ -799,99 +1038,128 @@
         "category": "sports"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "plural of hoop",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "ICE",
-      "primaryClue": "Athletic activity",
-      "alternateClues": [],
+      "primaryClue": "Water in frozen form",
+      "alternateClues": [
+        "Any frozen volatile chemical, such as ammonia or carbon dioxide",
+        "Any volatile chemical, such as water, ammonia,"
+      ],
       "softHints": {
         "startsWith": "I",
         "length": 3,
         "category": "sports"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Water in frozen (solid) form.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "INFIELD",
-      "primaryClue": "Sports-related word",
-      "alternateClues": [],
+      "primaryClue": "A constrained scope or area",
+      "alternateClues": [
+        "An area to cultivate: a field",
+        "The area inside a racetrack or running track"
+      ],
       "softHints": {
         "startsWith": "I",
         "length": 7,
         "category": "sports"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A constrained scope or area.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "INNING",
-      "primaryClue": "Sports-related word",
-      "alternateClues": [],
+      "primaryClue": "A similar period of play",
+      "alternateClues": [
+        "A player 's turn at the table",
+        "A period of play in which members"
+      ],
       "softHints": {
         "startsWith": "I",
         "length": 6,
         "category": "sports"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A similar period of play.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "JAVELIN",
-      "primaryClue": "A sport or athletic term",
-      "alternateClues": [],
+      "primaryClue": "A javelinfish",
+      "alternateClues": [
+        "A light spear thrown with the hand",
+        "A metal-tipped spear thrown for distance in"
+      ],
       "softHints": {
         "startsWith": "J",
         "length": 7,
         "category": "sports"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A javelinfish (Coelorinchus australis).",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "JOG",
-      "primaryClue": "Athletic activity",
-      "alternateClues": [],
+      "primaryClue": "A sudden push or nudge",
+      "alternateClues": [
+        "A flat placed perpendicularly to break up a flat surface",
+        "An energetic trot, slower than a run, often"
+      ],
       "softHints": {
         "startsWith": "J",
         "length": 3,
         "category": "sports"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A sudden push or nudge.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "JUDO",
-      "primaryClue": "Played in competition",
+      "primaryClue": "A Japanese martial art and sport adapted from jujutsu",
       "alternateClues": [],
       "softHints": {
         "startsWith": "J",
@@ -899,47 +1167,62 @@
         "category": "sports"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A Japanese martial art and sport adapted from jujutsu.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "JUMP",
-      "primaryClue": "Game or sport",
-      "alternateClues": [],
+      "primaryClue": "To pass by means of a spring",
+      "alternateClues": [
+        "To cause oneself to leave an elevated location",
+        "To propel oneself rapidly upward, downward and/or"
+      ],
       "softHints": {
         "startsWith": "J",
         "length": 4,
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "To pass by means of a spring or leap; to overleap.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "JUMPER",
-      "primaryClue": "Played in competition",
-      "alternateClues": [],
+      "primaryClue": "A person who attempts suicide by jumping from",
+      "alternateClues": [
+        "A short length of electrical conductor, to make",
+        "Someone or something that jumps, e.g. a participant"
+      ],
       "softHints": {
         "startsWith": "J",
         "length": 6,
         "category": "sports"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A person who attempts suicide by jumping from a great height.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "KARATE",
-      "primaryClue": "Played in competition",
+      "primaryClue": "An Okinawan martial art involving primarily punching",
       "alternateClues": [],
       "softHints": {
         "startsWith": "K",
@@ -947,15 +1230,18 @@
         "category": "sports"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "An Okinawan martial art involving primarily punching and kicking, but additionally, advanced throws, arm bars, grappling and all means of fighting.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "KAYAK",
-      "primaryClue": "A sport or athletic term",
+      "primaryClue": "A type of small boat, covered over",
       "alternateClues": [],
       "softHints": {
         "startsWith": "K",
@@ -963,32 +1249,40 @@
         "category": "sports"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A type of small boat, covered over by a surface deck, powered by the occupant or occupants using a double-bladed paddle in a sitting position, from a hole in the surface deck.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "KITE",
-      "primaryClue": "Athletic activity",
-      "alternateClues": [],
+      "primaryClue": "A bird of prey of the family Accipitridae",
+      "alternateClues": [
+        "A bird of prey of the family Accipitridae",
+        "Any bird of the subfamily Milvinae, with long"
+      ],
       "softHints": {
         "startsWith": "K",
         "length": 4,
         "category": "sports"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A bird of prey of the family Accipitridae.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "LACROSSE",
-      "primaryClue": "Played in competition",
+      "primaryClue": "A sport played on a field between two",
       "alternateClues": [],
       "softHints": {
         "startsWith": "L",
@@ -996,112 +1290,150 @@
         "category": "sports"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A sport played on a field between two opposing teams using sticks (crosses) and a ball, whereby one team defeats the other by scoring more goals within the allotted time.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "LEAGUE",
-      "primaryClue": "Game or sport",
-      "alternateClues": [],
+      "primaryClue": "A group or association of cooperating members",
+      "alternateClues": [
+        "A group or association of cooperating members",
+        "An organization of sports teams which play against"
+      ],
       "softHints": {
         "startsWith": "L",
         "length": 6,
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A group or association of cooperating members.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "LOSE",
-      "primaryClue": "Sports-related word",
-      "alternateClues": [],
+      "primaryClue": "To cease to have in one's possession or capability",
+      "alternateClues": [
+        "To cease to have in one's possession or capability",
+        "To have removed from one's body, especially by accident"
+      ],
       "softHints": {
         "startsWith": "L",
         "length": 4,
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "To cease to have (something) in one's possession or capability.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "LOSER",
-      "primaryClue": "A sport or athletic term",
-      "alternateClues": [],
+      "primaryClue": "Something of poor quality",
+      "alternateClues": [
+        "A person who is frequently unsuccessful in life",
+        "A person who loses; one who fails"
+      ],
       "softHints": {
         "startsWith": "L",
         "length": 5,
         "category": "sports"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Something of poor quality.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "LUGE",
-      "primaryClue": "Played in competition",
-      "alternateClues": [],
+      "primaryClue": "A racing sled for one or two people",
+      "alternateClues": [
+        "A racing sled for one or two people",
+        "A piece of bone, ice or other material"
+      ],
       "softHints": {
         "startsWith": "L",
         "length": 4,
         "category": "sports"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A racing sled for one or two people that is ridden with the rider or riders lying on their back.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "MAJOR",
-      "primaryClue": "A sport or athletic term",
-      "alternateClues": [],
+      "primaryClue": "Greater in number, quantity, or extent",
+      "alternateClues": [
+        "Notable or conspicuous in effect or scope",
+        "Greater in dignity, rank, importance, significance, or interest"
+      ],
       "softHints": {
         "startsWith": "M",
         "length": 5,
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Greater in number, quantity, or extent.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "MALLET",
-      "primaryClue": "Played in competition",
-      "alternateClues": [],
+      "primaryClue": "A weapon resembling the tool, but typically much larger",
+      "alternateClues": [
+        "A small hammer-like tool used for playing certain musical instruments",
+        "A type of hammer with a larger-than-usual head"
+      ],
       "softHints": {
         "startsWith": "M",
         "length": 6,
         "category": "sports"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A weapon resembling the tool, but typically much larger.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "MAT",
-      "primaryClue": "A sport or athletic term",
+      "primaryClue": "A floor pad to protect athletes",
       "alternateClues": [],
       "softHints": {
         "startsWith": "M",
@@ -1109,82 +1441,104 @@
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A floor pad to protect athletes.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "MEDAL",
-      "primaryClue": "A sport or athletic term",
-      "alternateClues": [],
+      "primaryClue": "A stamped metal disc used as a personal",
+      "alternateClues": [
+        "A stamped or cast metal object , particularly"
+      ],
       "softHints": {
         "startsWith": "M",
         "length": 5,
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A stamped metal disc used as a personal ornament, a charm, or a religious object.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "MITT",
-      "primaryClue": "Sports-related word",
-      "alternateClues": [],
+      "primaryClue": "A hand",
+      "alternateClues": [
+        "An oversized, protective glove such as an oven"
+      ],
       "softHints": {
         "startsWith": "M",
         "length": 4,
         "category": "sports"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A hand.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "MOVE",
-      "primaryClue": "Athletic activity",
-      "alternateClues": [],
+      "primaryClue": "To act; to take action; to begin to act",
+      "alternateClues": [
+        "To change place or posture; to go,",
+        "To change residence, for example from one house,"
+      ],
       "softHints": {
         "startsWith": "M",
         "length": 4,
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "To act; to take action; to begin to act",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "NET",
-      "primaryClue": "Sports-related word",
-      "alternateClues": [],
+      "primaryClue": "A mesh of string, cord or rope",
+      "alternateClues": [
+        "A device made from such mesh, generally used",
+        "A device made from such mesh, used"
+      ],
       "softHints": {
         "startsWith": "N",
         "length": 3,
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A mesh of string, cord or rope.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "OFFENSE",
-      "primaryClue": "Sports-related word",
+      "primaryClue": "A crime or sin",
       "alternateClues": [],
       "softHints": {
         "startsWith": "O",
@@ -1192,16 +1546,18 @@
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A crime or sin.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "OLYMPICS",
-      "primaryClue": "Game or sport",
+      "primaryClue": "Any real or perceived competition",
       "alternateClues": [],
       "softHints": {
         "startsWith": "O",
@@ -1209,278 +1565,367 @@
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any real or perceived competition.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "OUT",
-      "primaryClue": "Sports-related word",
-      "alternateClues": [],
+      "primaryClue": "A means of exit, escape, reprieve, etc",
+      "alternateClues": [
+        "A dismissal; a state in which a member",
+        "A state in which a member of"
+      ],
       "softHints": {
         "startsWith": "O",
         "length": 3,
         "category": "sports"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A means of exit, escape, reprieve, etc.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "PADDLE",
-      "primaryClue": "Game or sport",
-      "alternateClues": [],
+      "primaryClue": "A single-bladed version is typically used on canoes",
+      "alternateClues": [
+        "A two-handed implement consisting of a shaft with",
+        "A two-handed implement consisting of a shaft with"
+      ],
       "softHints": {
         "startsWith": "P",
         "length": 6,
         "category": "sports"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A single-bladed version is typically used on canoes and some other small boats.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "PITCH",
-      "primaryClue": "Game or sport",
-      "alternateClues": [],
+      "primaryClue": "A sticky, gummy substance secreted by trees; sap",
+      "alternateClues": [
+        "A sticky, gummy substance secreted by trees; sap",
+        "A dark, extremely viscous material still remaining after"
+      ],
       "softHints": {
         "startsWith": "P",
         "length": 5,
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A sticky, gummy substance secreted by trees; sap.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "PLAY",
-      "primaryClue": "Played in competition",
-      "alternateClues": [],
+      "primaryClue": "To perform in ; to participate in",
+      "alternateClues": [
+        "To toy or trifle; to act with levity",
+        "To act in a manner such that one"
+      ],
       "softHints": {
         "startsWith": "P",
         "length": 4,
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "To perform in (a sport); to participate in (a game).",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "PLAYER",
-      "primaryClue": "Sports-related word",
-      "alternateClues": [],
+      "primaryClue": "One that plays",
+      "alternateClues": [
+        "One that plays",
+        "One who plays any game or sport"
+      ],
       "softHints": {
         "startsWith": "P",
         "length": 6,
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "One that plays.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "POLE",
-      "primaryClue": "Game or sport",
-      "alternateClues": [],
+      "primaryClue": "A type of basic fishing rod",
+      "alternateClues": [
+        "A construction by which an animal is harnessed",
+        "Originally, a stick; now specifically, a long"
+      ],
       "softHints": {
         "startsWith": "P",
         "length": 4,
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A type of basic fishing rod.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "POLO",
-      "primaryClue": "Played in competition",
-      "alternateClues": [],
+      "primaryClue": "A ball game where two teams of players",
+      "alternateClues": [
+        "A ball game where two teams of players"
+      ],
       "softHints": {
         "startsWith": "P",
         "length": 4,
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A ball game where two teams of players on horseback use long-handled mallets to propel the ball along the ground and into their opponent's goal.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "POOL",
-      "primaryClue": "Athletic activity",
-      "alternateClues": [],
+      "primaryClue": "Any small body of standing or stagnant water; a puddle",
+      "alternateClues": [
+        "Any small body of standing or stagnant water; a puddle",
+        "A small and rather deep area of fresh"
+      ],
       "softHints": {
         "startsWith": "P",
         "length": 4,
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any small body of standing or stagnant water; a puddle.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "PUCK",
-      "primaryClue": "Athletic activity",
-      "alternateClues": [],
+      "primaryClue": "A mischievous or hostile spirit",
+      "alternateClues": [
+        "The mischievous fairy-like creature from English folklore, like"
+      ],
       "softHints": {
         "startsWith": "P",
         "length": 4,
         "category": "sports"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A mischievous or hostile spirit.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "QUARTER",
-      "primaryClue": "Athletic activity",
-      "alternateClues": [],
+      "primaryClue": "A fourth part of something",
+      "alternateClues": [
+        "A fourth part of something",
+        "Each of four equal parts into which something"
+      ],
       "softHints": {
         "startsWith": "Q",
         "length": 7,
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A fourth part of something.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "QUIVER",
-      "primaryClue": "Game or sport",
-      "alternateClues": [],
+      "primaryClue": "A vulva",
+      "alternateClues": [
+        "A ready storage location for figurative tools or weapons",
+        "A container for arrows, crossbow bolts or darts,"
+      ],
       "softHints": {
         "startsWith": "Q",
         "length": 6,
         "category": "sports"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A vulva.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "RACE",
-      "primaryClue": "Played in competition",
-      "alternateClues": [],
+      "primaryClue": "Swift progress; rapid motion; an instance of moving",
+      "alternateClues": [
+        "A contest between people, animals, vehicles, etc. where"
+      ],
       "softHints": {
         "startsWith": "R",
         "length": 4,
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Swift progress; rapid motion; an instance of moving or driving at high speed.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "RACER",
-      "primaryClue": "Athletic activity",
-      "alternateClues": [],
+      "primaryClue": "Agent noun of race: one that races",
+      "alternateClues": [
+        "Agent noun of race: one that races",
+        "A person who participates in races, especially an athlete"
+      ],
       "softHints": {
         "startsWith": "R",
         "length": 5,
         "category": "sports"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Agent noun of race: one that races or is used for racing.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "REFEREE",
-      "primaryClue": "A sport or athletic term",
-      "alternateClues": [],
+      "primaryClue": "A person who settles a dispute",
+      "alternateClues": [
+        "An umpire or judge; an official who makes",
+        "A person who writes a letter of reference"
+      ],
       "softHints": {
         "startsWith": "R",
         "length": 7,
         "category": "sports"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A person who settles a dispute.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "RELAY",
-      "primaryClue": "Sports-related word",
-      "alternateClues": [],
+      "primaryClue": "A new set of hounds",
+      "alternateClues": [
+        "A new set of anything",
+        "A new set of horses kept along"
+      ],
       "softHints": {
         "startsWith": "R",
         "length": 5,
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A new set of hounds.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "RIDE",
-      "primaryClue": "A sport or athletic term",
-      "alternateClues": [],
+      "primaryClue": "To transport in a vehicle",
+      "alternateClues": [
+        "To be transported in a vehicle; to travel",
+        "To transport oneself by sitting on and directing"
+      ],
       "softHints": {
         "startsWith": "R",
         "length": 4,
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "To transport (someone) in a vehicle.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "RINK",
-      "primaryClue": "Sports-related word",
+      "primaryClue": "A man, especially a warrior or hero",
       "alternateClues": [],
       "softHints": {
         "startsWith": "R",
@@ -1488,81 +1933,104 @@
         "category": "sports"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A man, especially a warrior or hero.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "ROW",
-      "primaryClue": "Game or sport",
-      "alternateClues": [],
+      "primaryClue": "A line of objects, often regularly spaced, such",
+      "alternateClues": [
+        "A line of objects, often regularly spaced, such",
+        "A horizontal line of entries in a table,"
+      ],
       "softHints": {
         "startsWith": "R",
         "length": 3,
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A line of objects, often regularly spaced, such as seats in a theatre, vegetable plants in a garden, etc.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "ROWER",
-      "primaryClue": "Athletic activity",
-      "alternateClues": [],
+      "primaryClue": "One who rows",
+      "alternateClues": [
+        "A rowing machine"
+      ],
       "softHints": {
         "startsWith": "R",
         "length": 5,
         "category": "sports"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "One who rows.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SAIL",
-      "primaryClue": "Played in competition",
-      "alternateClues": [],
+      "primaryClue": "A piece of fabric attached to a boat",
+      "alternateClues": [
+        "A piece of fabric attached to a boat"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 4,
         "category": "sports"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A piece of fabric attached to a boat and arranged such that it causes the wind to drive the boat along. The sail may be attached to the boat via a combination of mast, spars and ropes.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SCORE",
-      "primaryClue": "A sport or athletic term",
-      "alternateClues": [],
+      "primaryClue": "The total number of goals, points, runs, etc.",
+      "alternateClues": [
+        "The number of points accrued by each",
+        "The performance of an individual or group"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 5,
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The total number of goals, points, runs, etc. earned by a participant in a game.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SCUBA",
-      "primaryClue": "Game or sport",
+      "primaryClue": "An apparatus carried by a diver, which includes",
       "alternateClues": [],
       "softHints": {
         "startsWith": "S",
@@ -1570,48 +2038,61 @@
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "An apparatus carried by a diver, which includes a tank holding compressed, filtered air and a regulator which delivers the air to the diver at ambient pressure which can be used underwater.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SKATE",
-      "primaryClue": "Played in competition",
-      "alternateClues": [],
+      "primaryClue": "A runner or blade, usually of steel, with",
+      "alternateClues": [
+        "A runner or blade, usually of steel, with"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 5,
         "category": "sports"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A runner or blade, usually of steel, with a frame shaped to fit the sole of a shoe, made to be fastened under the foot, and used for gliding on ice.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SKI",
-      "primaryClue": "Athletic activity",
-      "alternateClues": [],
+      "primaryClue": "One of a pair of long flat runners",
+      "alternateClues": [
+        "One of a pair of long flat runners",
+        "One of a pair of long flat runners"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 3,
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "One of a pair of long flat runners designed for gliding over snow or water.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SKIER",
-      "primaryClue": "Game or sport",
+      "primaryClue": "One who skis",
       "alternateClues": [],
       "softHints": {
         "startsWith": "S",
@@ -1619,49 +2100,62 @@
         "category": "sports"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "One who skis.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SLALOM",
-      "primaryClue": "Sports-related word",
-      "alternateClues": [],
+      "primaryClue": "The sport of skiing in a zigzag course through gates",
+      "alternateClues": [
+        "The sport of skiing in a zigzag course through gates",
+        "Any similar activity on other vehicles, including canoes"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 6,
         "category": "sports"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The sport of skiing in a zigzag course through gates.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SLED",
-      "primaryClue": "Athletic activity",
-      "alternateClues": [],
+      "primaryClue": "A snowmobile",
+      "alternateClues": [
+        "A vehicle on runners, used for conveying loads",
+        "A small, light vehicle with runners, used recreationally,"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 4,
         "category": "sports"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A snowmobile.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SLEDDER",
-      "primaryClue": "Athletic activity",
+      "primaryClue": "A person who rides a sled",
       "alternateClues": [],
       "softHints": {
         "startsWith": "S",
@@ -1669,16 +2163,18 @@
         "category": "sports"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A person who rides a sled.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SNOWBOARD",
-      "primaryClue": "Sports-related word",
+      "primaryClue": "A board, somewhat like a broad ski,",
       "alternateClues": [],
       "softHints": {
         "startsWith": "S",
@@ -1686,16 +2182,18 @@
         "category": "sports"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A board, somewhat like a broad ski, or a very long skateboard with no wheels, used in the sport of snowboarding.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SOCCER",
-      "primaryClue": "Sports-related word",
+      "primaryClue": "Association football",
       "alternateClues": [],
       "softHints": {
         "startsWith": "S",
@@ -1703,377 +2201,499 @@
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Association football.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SPORT",
-      "primaryClue": "Sports-related word",
-      "alternateClues": [],
+      "primaryClue": "Any activity that uses physical exertion or skills",
+      "alternateClues": [
+        "Any activity that uses physical exertion or skills",
+        "Somebody who behaves or reacts in an admirably"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 5,
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any activity that uses physical exertion or skills competitively under a set of rules that is not based on aesthetics.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SQUASH",
-      "primaryClue": "Sports-related word",
-      "alternateClues": [],
+      "primaryClue": "A place or a situation where people have",
+      "alternateClues": [
+        "A non-alcoholic drink made from a fruit-based concentrate",
+        "A sport played in a walled court with"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 6,
         "category": "sports"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A place or a situation where people have limited space to move.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "STADIUM",
-      "primaryClue": "A sport or athletic term",
-      "alternateClues": [],
+      "primaryClue": "A venue where sporting events are held",
+      "alternateClues": [
+        "Synonym of stadion, a Greek unit of length",
+        "An Ancient Greek racecourse, especially, the Olympic course"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 7,
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A venue where sporting events are held.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "STICK",
-      "primaryClue": "Game or sport",
-      "alternateClues": [],
+      "primaryClue": "A small, thin branch from a tree",
+      "alternateClues": [
+        "An elongated piece of wood or similar material,",
+        "An elongated piece of wood or similar material,"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 5,
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A small, thin branch from a tree or bush; a twig; a branch.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SURFER",
-      "primaryClue": "Game or sport",
-      "alternateClues": [],
+      "primaryClue": "A person who rides a surfboard",
+      "alternateClues": [
+        "A person who surfs the Internet",
+        "A duck, the surf scoter"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 6,
         "category": "sports"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A person who rides a surfboard.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SWIM",
-      "primaryClue": "Played in competition",
-      "alternateClues": [],
+      "primaryClue": "To move around freely because of excess space",
+      "alternateClues": [
+        "To become immersed in, or as if in,",
+        "To move through the water, without touching"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 4,
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "To move around freely because of excess space.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SWIMMER",
-      "primaryClue": "Played in competition",
-      "alternateClues": [],
+      "primaryClue": "One who swims",
+      "alternateClues": [
+        "A webfooted aquatic bird",
+        "A protuberance on the leg of a horse"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 7,
         "category": "sports"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "One who swims.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "TAG",
-      "primaryClue": "Game or sport",
-      "alternateClues": [],
+      "primaryClue": "A small label",
+      "alternateClues": [
+        "Physical appendage",
+        "Physical appendage"
+      ],
       "softHints": {
         "startsWith": "T",
         "length": 3,
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A small label.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "TARGET",
-      "primaryClue": "Game or sport",
-      "alternateClues": [],
+      "primaryClue": "A goal or objective",
+      "alternateClues": [
+        "An object of criticism or ridicule",
+        "A butt or mark to shoot at, as"
+      ],
       "softHints": {
         "startsWith": "T",
         "length": 6,
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A goal or objective.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "TEAM",
-      "primaryClue": "Game or sport",
-      "alternateClues": [],
+      "primaryClue": "A group of animals moving together, especially young ducks",
+      "alternateClues": [
+        "A set of draught animals, such as two",
+        "Any group of people involved in the same"
+      ],
       "softHints": {
         "startsWith": "T",
         "length": 4,
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A group of animals moving together, especially young ducks.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "TEE",
-      "primaryClue": "Game or sport",
-      "alternateClues": [],
+      "primaryClue": "Something shaped like the letter T",
+      "alternateClues": [
+        "Something shaped like the letter T",
+        "The name of the Latin script letter T/t"
+      ],
       "softHints": {
         "startsWith": "T",
         "length": 3,
         "category": "sports"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Something shaped like the letter T.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "TENNIS",
-      "primaryClue": "Sports-related word",
-      "alternateClues": [],
+      "primaryClue": "A match in this sport",
+      "alternateClues": [
+        "A sport played by two players , who",
+        "An earlier game in which a ball is"
+      ],
       "softHints": {
         "startsWith": "T",
         "length": 6,
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A match in this sport.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "THROW",
-      "primaryClue": "Athletic activity",
-      "alternateClues": [],
+      "primaryClue": "To eject or cause to fall off",
+      "alternateClues": [
+        "To move to another position or condition; to displace",
+        "To hurl; to release with some force from"
+      ],
       "softHints": {
         "startsWith": "T",
         "length": 5,
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "To eject or cause to fall off.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "TIE",
-      "primaryClue": "Played in competition",
-      "alternateClues": [],
+      "primaryClue": "A knot; a fastening",
+      "alternateClues": [
+        "A knot of hair, as at the back"
+      ],
       "softHints": {
         "startsWith": "T",
         "length": 3,
         "category": "sports"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A knot; a fastening.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "TRIATHLON",
-      "primaryClue": "Sports-related word",
-      "alternateClues": [],
+      "primaryClue": "Generally, a sports event in which contestant compete",
+      "alternateClues": [
+        "An athletics event in which contestants compete",
+        "A former Olympic athletics event in which contestants"
+      ],
       "softHints": {
         "startsWith": "T",
         "length": 9,
         "category": "sports"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Generally, a sports event in which contestant compete in a combination of three sports.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "UMPIRE",
-      "primaryClue": "A sport or athletic term",
-      "alternateClues": [],
+      "primaryClue": "An official who presides over a sports match",
+      "alternateClues": [
+        "An official who presides over a sports match",
+        "The official who presides over a tennis match"
+      ],
       "softHints": {
         "startsWith": "U",
         "length": 6,
         "category": "sports"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "An official who presides over a sports match.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "VAULT",
-      "primaryClue": "Game or sport",
-      "alternateClues": [],
+      "primaryClue": "Any arched ceiling or roof",
+      "alternateClues": [
+        "Anything resembling such a downward-facing concave structure, particularly",
+        "An arched masonry structure supporting and forming"
+      ],
       "softHints": {
         "startsWith": "V",
         "length": 5,
         "category": "sports"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any arched ceiling or roof.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "VOLLEY",
-      "primaryClue": "Game or sport",
-      "alternateClues": [],
+      "primaryClue": "A burst or emission of many things at once",
+      "alternateClues": [
+        "The flight of a ball just before it bounces",
+        "The simultaneous firing of a number of missiles"
+      ],
       "softHints": {
         "startsWith": "V",
         "length": 6,
         "category": "sports"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A burst or emission of many things at once.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "WALK",
-      "primaryClue": "Sports-related word",
-      "alternateClues": [],
+      "primaryClue": "Of an object, to go missing or be stolen",
+      "alternateClues": [
+        "To move on the feet by alternately setting"
+      ],
       "softHints": {
         "startsWith": "W",
         "length": 4,
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Of an object, to go missing or be stolen.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "WEIGHT",
-      "primaryClue": "Athletic activity",
-      "alternateClues": [],
+      "primaryClue": "An object used to make something heavier",
+      "alternateClues": [
+        "The downwards force an object experiences due to gravity",
+        "A standardized block of metal used in"
+      ],
       "softHints": {
         "startsWith": "W",
         "length": 6,
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "An object used to make something heavier.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "WIN",
-      "primaryClue": "Sports-related word",
-      "alternateClues": [],
+      "primaryClue": "To conquer, defeat",
+      "alternateClues": [
+        "To triumph or achieve victory in",
+        "To reach some destination or object, despite difficulty"
+      ],
       "softHints": {
         "startsWith": "W",
         "length": 3,
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "To conquer, defeat.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "WINNER",
-      "primaryClue": "Athletic activity",
-      "alternateClues": [],
+      "primaryClue": "One who has won or often wins",
+      "alternateClues": [
+        "A point or goal that wins a competition"
+      ],
       "softHints": {
         "startsWith": "W",
         "length": 6,
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "One who has won or often wins.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "WINNING",
-      "primaryClue": "Played in competition",
+      "primaryClue": "Present participle and gerund of win",
       "alternateClues": [],
       "softHints": {
         "startsWith": "W",
@@ -2081,15 +2701,18 @@
         "category": "sports"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "present participle and gerund of win",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "WRESTLER",
-      "primaryClue": "Played in competition",
+      "primaryClue": "A person who wrestles",
       "alternateClues": [],
       "softHints": {
         "startsWith": "W",
@@ -2097,11 +2720,14 @@
         "category": "sports"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A person who wrestles.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     }
   ]
 }

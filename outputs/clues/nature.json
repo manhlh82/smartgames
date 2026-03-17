@@ -4,231 +4,310 @@
   "clues": [
     {
       "word": "ACORN",
-      "primaryClue": "Part of the natural world",
-      "alternateClues": [],
+      "primaryClue": "The fruit of the oak, being an oval",
+      "alternateClues": [
+        "The fruit of the oak, being an oval",
+        "A cone-shaped piece of wood on the point"
+      ],
       "softHints": {
         "startsWith": "A",
         "length": 5,
         "category": "nature"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The fruit of the oak, being an oval nut growing in a woody cup or cupule.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "ALFALFA",
-      "primaryClue": "Flora or natural element",
-      "alternateClues": [],
+      "primaryClue": "A type or breed of this plant",
+      "alternateClues": [
+        "A plant, principally of Medicago sativa, grown as"
+      ],
       "softHints": {
         "startsWith": "A",
         "length": 7,
         "category": "nature"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A type or breed of this plant.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BAMBOO",
-      "primaryClue": "Flora or natural element",
-      "alternateClues": [],
+      "primaryClue": "Any of the fast-growing grasses of the Bambusoideae",
+      "alternateClues": [
+        "Any of the fast-growing grasses of the Bambusoideae"
+      ],
       "softHints": {
         "startsWith": "B",
         "length": 6,
         "category": "nature"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any of the fast-growing grasses of the Bambusoideae subfamily, characterised by its woody, hollow, round, straight, jointed stem.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BARK",
-      "primaryClue": "Grows in the wild",
-      "alternateClues": [],
+      "primaryClue": "To speak sharply",
+      "alternateClues": [
+        "To make a clamor; to make importunate outcries",
+        "To make a short, loud, explosive noise with"
+      ],
       "softHints": {
         "startsWith": "B",
         "length": 4,
         "category": "nature"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "To speak sharply.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BEAN",
-      "primaryClue": "Flora or natural element",
-      "alternateClues": [],
+      "primaryClue": "The edible seedpod of such a plant",
+      "alternateClues": [
+        "The large edible seed of such a plant",
+        "Any plant of several genera of the taxonomic"
+      ],
       "softHints": {
         "startsWith": "B",
         "length": 4,
         "category": "nature"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The edible seedpod of such a plant.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BERRY",
-      "primaryClue": "Flora or natural element",
-      "alternateClues": [],
+      "primaryClue": "A coffee bean",
+      "alternateClues": [
+        "A small succulent fruit, of any one of many varieties",
+        "A soft fruit which develops from a single"
+      ],
       "softHints": {
         "startsWith": "B",
         "length": 5,
         "category": "nature"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A coffee bean.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BLADE",
-      "primaryClue": "Part of the natural world",
-      "alternateClues": [],
+      "primaryClue": "A sword or knife",
+      "alternateClues": [
+        "The part of a knife, sword, razor,",
+        "The part of a knife, sword, razor,"
+      ],
       "softHints": {
         "startsWith": "B",
         "length": 5,
         "category": "nature"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A sword or knife.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BRUSH",
-      "primaryClue": "Plant or natural feature",
-      "alternateClues": [],
+      "primaryClue": "A piece of conductive material, usually carbon, serving",
+      "alternateClues": [
+        "A piece of conductive material, usually carbon, serving",
+        "An implement consisting of multiple more or less"
+      ],
       "softHints": {
         "startsWith": "B",
         "length": 5,
         "category": "nature"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A piece of conductive material, usually carbon, serving to maintain electrical contact between the stationary and rotating parts of a machine.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BUD",
-      "primaryClue": "Flora or natural element",
-      "alternateClues": [],
+      "primaryClue": "Something that has begun to develop",
+      "alternateClues": [
+        "A newly sprouted leaf or blossom that has",
+        "A small rounded body in the process"
+      ],
       "softHints": {
         "startsWith": "B",
         "length": 3,
         "category": "nature"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Something that has begun to develop.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BULB",
-      "primaryClue": "Found in nature",
-      "alternateClues": [],
+      "primaryClue": "The medulla oblongata",
+      "alternateClues": [
+        "Any solid object rounded at one end"
+      ],
       "softHints": {
         "startsWith": "B",
         "length": 4,
         "category": "nature"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The medulla oblongata.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BUSH",
-      "primaryClue": "Plant or natural feature",
-      "alternateClues": [],
+      "primaryClue": "A shrub cut off, or a shrublike branch",
+      "alternateClues": [
+        "A shrub or branch, properly, a branch",
+        "A woody plant distinguished from a tree"
+      ],
       "softHints": {
         "startsWith": "B",
         "length": 4,
         "category": "nature"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A shrub cut off, or a shrublike branch of a tree.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CACTUS",
-      "primaryClue": "Grows in the wild",
-      "alternateClues": [],
+      "primaryClue": "Any succulent plant with a thick fleshy stem",
+      "alternateClues": [
+        "Any member of the family Cactaceae, a family"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 6,
         "category": "nature"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any succulent plant with a thick fleshy stem bearing spines but no leaves, such as euphorbs.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CLOVER",
-      "primaryClue": "Flora or natural element",
-      "alternateClues": [],
+      "primaryClue": "The second Lenormand card, representing hope, optimism and short-term luck",
+      "alternateClues": [
+        "A plant of the genus Trifolium with leaves"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 6,
         "category": "nature"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The second Lenormand card, representing hope, optimism and short-term luck.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CORK",
-      "primaryClue": "Found in nature",
-      "alternateClues": [],
+      "primaryClue": "The dead protective tissue between the bark",
+      "alternateClues": [
+        "The dead protective tissue between the bark",
+        "The dead protective tissue between the bark"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 4,
         "category": "nature"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The dead protective tissue between the bark and cambium in woody plants, with suberin deposits making it impervious to gasses and water.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "COROLLA",
-      "primaryClue": "Part of the natural world",
+      "primaryClue": "The outermost-but-one whorl of a flower, composed",
       "alternateClues": [],
       "softHints": {
         "startsWith": "C",
@@ -236,15 +315,18 @@
         "category": "nature"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The outermost-but-one whorl of a flower, composed of petals, when it is not the same in appearance as the outermost whorl (the calyx); it usually comprises the petal, which may be fused.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "FERN",
-      "primaryClue": "Grows in the wild",
+      "primaryClue": "Any of a group of some twenty thousand",
       "alternateClues": [],
       "softHints": {
         "startsWith": "F",
@@ -252,399 +334,538 @@
         "category": "nature"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any of a group of some twenty thousand species of vascular plants classified in the division Pteridophyta that lack seeds and reproduce by shedding spores to initiate an alternation of generations.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "FLORA",
-      "primaryClue": "Flora or natural element",
-      "alternateClues": [],
+      "primaryClue": "The microorganisms that inhabit some part of the body",
+      "alternateClues": [
+        "A book describing the plants of a country,",
+        "Plants considered as a group, especially those"
+      ],
       "softHints": {
         "startsWith": "F",
         "length": 5,
         "category": "nature"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The microorganisms that inhabit some part of the body.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "FLOWER",
-      "primaryClue": "Plant or natural feature",
-      "alternateClues": [],
+      "primaryClue": "A plant that bears flowers, especially a plant",
+      "alternateClues": [
+        "A colorful, conspicuous structure associated with angiosperms, frequently",
+        "A reproductive structure in angiosperms , often conspicuously"
+      ],
       "softHints": {
         "startsWith": "F",
         "length": 6,
         "category": "nature"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A plant that bears flowers, especially a plant that is small and lacks wood.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "FOREST",
-      "primaryClue": "Flora or natural element",
-      "alternateClues": [],
+      "primaryClue": "Any dense collection or amount",
+      "alternateClues": [
+        "A dense uncultivated tract of trees and undergrowth,",
+        "A defined area of land set aside"
+      ],
       "softHints": {
         "startsWith": "F",
         "length": 6,
         "category": "nature"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any dense collection or amount.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "FRUIT",
-      "primaryClue": "Found in nature",
-      "alternateClues": [],
+      "primaryClue": "A product of fertilization in a plant, specifically",
+      "alternateClues": [
+        "A product of fertilization in a plant, specifically:",
+        "The seed-bearing part of a plant; often edible,"
+      ],
       "softHints": {
         "startsWith": "F",
         "length": 5,
         "category": "nature"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A product of fertilization in a plant, specifically",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "GARDEN",
-      "primaryClue": "Plant or natural feature",
-      "alternateClues": [],
+      "primaryClue": "Such an ornamental place to which the public have access",
+      "alternateClues": [
+        "An outdoor area containing one or more types",
+        "An outdoor area containing one or more types"
+      ],
       "softHints": {
         "startsWith": "G",
         "length": 6,
         "category": "nature"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Such an ornamental place to which the public have access.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "GRAIN",
-      "primaryClue": "Flora or natural element",
-      "alternateClues": [],
+      "primaryClue": "A single seed of grass food crops",
+      "alternateClues": [
+        "Similar seeds from any food crop, e.g., buckwheat, amaranth, quinoa",
+        "The harvested seeds of various grass food crops"
+      ],
       "softHints": {
         "startsWith": "G",
         "length": 5,
         "category": "nature"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A single seed of grass food crops.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "GRASS",
-      "primaryClue": "Flora or natural element",
-      "alternateClues": [],
+      "primaryClue": "A lawn",
+      "alternateClues": [
+        "Any of the various plants that are not",
+        "Any plant of the family Poaceae, characterized"
+      ],
       "softHints": {
         "startsWith": "G",
         "length": 5,
         "category": "nature"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A lawn.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "GROVE",
-      "primaryClue": "Found in nature",
-      "alternateClues": [],
+      "primaryClue": "A small forest",
+      "alternateClues": [
+        "An orchard of fruit trees",
+        "A small forest with minimal undergrowth"
+      ],
       "softHints": {
         "startsWith": "G",
         "length": 5,
         "category": "nature"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A small forest.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "HERB",
-      "primaryClue": "Found in nature",
-      "alternateClues": [],
+      "primaryClue": "A plant whose roots, leaves or seeds, etc.",
+      "alternateClues": [
+        "A plant whose roots, leaves or seeds, etc.",
+        "Any green, leafy plant, or parts thereof, used"
+      ],
       "softHints": {
         "startsWith": "H",
         "length": 4,
         "category": "nature"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A plant whose roots, leaves or seeds, etc. are used in medicine.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "IVY",
-      "primaryClue": "Flora or natural element",
-      "alternateClues": [],
+      "primaryClue": "Any similar plant of any genus",
+      "alternateClues": [
+        "Any of several woody, climbing, or trailing evergreen"
+      ],
       "softHints": {
         "startsWith": "I",
         "length": 3,
         "category": "nature"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any similar plant of any genus.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "JUNGLE",
-      "primaryClue": "Found in nature",
-      "alternateClues": [],
+      "primaryClue": "Any uncultivated tract of forest or scrub habitat",
+      "alternateClues": [
+        "A place where people behave ruthlessly, unconstrained",
+        "A large, undeveloped, humid forest, especially in"
+      ],
       "softHints": {
         "startsWith": "J",
         "length": 6,
         "category": "nature"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any uncultivated tract of forest or scrub habitat.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "JUNIPER",
-      "primaryClue": "Grows in the wild",
-      "alternateClues": [],
+      "primaryClue": "One of a number of coniferous trees which resemble junipers",
+      "alternateClues": [
+        "Any shrub or tree of the genus Juniperus"
+      ],
       "softHints": {
         "startsWith": "J",
         "length": 7,
         "category": "nature"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "One of a number of coniferous trees which resemble junipers.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "KELP",
-      "primaryClue": "Plant or natural feature",
-      "alternateClues": [],
+      "primaryClue": "Any of several large brown algae seaweeds",
+      "alternateClues": [
+        "The calcined ashes of seaweed, formerly used"
+      ],
       "softHints": {
         "startsWith": "K",
         "length": 4,
         "category": "nature"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any of several large brown algae seaweeds (especially of order Laminariales).",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "KUDZU",
-      "primaryClue": "Flora or natural element",
-      "alternateClues": [],
+      "primaryClue": "A starch extracted from the root that is",
+      "alternateClues": [
+        "An Asian vine (several species in the genus"
+      ],
       "softHints": {
         "startsWith": "K",
         "length": 5,
         "category": "nature"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A starch extracted from the root that is used in traditional East Asian medicine and cuisine.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "LEAF",
-      "primaryClue": "Flora or natural element",
-      "alternateClues": [],
+      "primaryClue": "The usually green and flat organ that represents",
+      "alternateClues": [
+        "The usually green and flat organ that represents"
+      ],
       "softHints": {
         "startsWith": "L",
         "length": 4,
         "category": "nature"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The usually green and flat organ that represents the most prominent feature of most vegetative plants.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "LILY",
-      "primaryClue": "Part of the natural world",
-      "alternateClues": [],
+      "primaryClue": "The flower used as a heraldic charge; also",
+      "alternateClues": [
+        "Any of several flowers in the genus Lilium",
+        "Any of several species of herbaceous flower which"
+      ],
       "softHints": {
         "startsWith": "L",
         "length": 4,
         "category": "nature"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The flower used as a heraldic charge; also commonly used to describe the fleur-de-lis.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "MOSS",
-      "primaryClue": "Found in nature",
-      "alternateClues": [],
+      "primaryClue": "A kind or species of such plants",
+      "alternateClues": [
+        "Any alga, lichen, bryophyte, or other plant",
+        "Any of various small, green, seedless plants growing"
+      ],
       "softHints": {
         "startsWith": "M",
         "length": 4,
         "category": "nature"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A kind or species of such plants.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "NECTAR",
-      "primaryClue": "Part of the natural world",
-      "alternateClues": [],
+      "primaryClue": "The drink of the gods",
+      "alternateClues": [
+        "Any delicious drink, now especially a type",
+        "The sweet liquid secreted by flowers to attract"
+      ],
       "softHints": {
         "startsWith": "N",
         "length": 6,
         "category": "nature"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The drink of the gods.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "NUT",
-      "primaryClue": "Part of the natural world",
-      "alternateClues": [],
+      "primaryClue": "Such a fruit that is indehiscent",
+      "alternateClues": [
+        "Any of various hard-shelled seeds or hard, dry",
+        "Any of various hard-shelled seeds or hard, dry"
+      ],
       "softHints": {
         "startsWith": "N",
         "length": 3,
         "category": "nature"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Such a fruit that is indehiscent.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "PALM",
-      "primaryClue": "Found in nature",
-      "alternateClues": [],
+      "primaryClue": "Triumph; victory",
+      "alternateClues": [
+        "Any of various evergreen trees from the family"
+      ],
       "softHints": {
         "startsWith": "P",
         "length": 4,
         "category": "nature"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Triumph; victory.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "PETAL",
-      "primaryClue": "Part of the natural world",
-      "alternateClues": [],
+      "primaryClue": "The labia",
+      "alternateClues": [
+        "Term of endearment",
+        "One of the component parts of the corolla"
+      ],
       "softHints": {
         "startsWith": "P",
         "length": 5,
         "category": "nature"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The labia (majora).",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "POLLEN",
-      "primaryClue": "Flora or natural element",
-      "alternateClues": [],
+      "primaryClue": "Fine powder in general, fine flour",
+      "alternateClues": [
+        "A fine, granular substance produced in flowers"
+      ],
       "softHints": {
         "startsWith": "P",
         "length": 6,
         "category": "nature"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Fine powder in general, fine flour.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "RESIN",
-      "primaryClue": "Part of the natural world",
-      "alternateClues": [],
+      "primaryClue": "Any synthetic compound of similar properties",
+      "alternateClues": [
+        "A viscous water-insoluble hydrocarbon exudate of certain plants,"
+      ],
       "softHints": {
         "startsWith": "R",
         "length": 5,
         "category": "nature"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any synthetic compound of similar properties.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "ROOT",
-      "primaryClue": "Flora or natural element",
-      "alternateClues": [],
+      "primaryClue": "The part of a tooth extending into",
+      "alternateClues": [
+        "The part of a tooth extending into",
+        "The part of a plant, generally underground, that"
+      ],
       "softHints": {
         "startsWith": "R",
         "length": 4,
         "category": "nature"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The part of a tooth extending into the bone holding the tooth in place.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SAGE",
-      "primaryClue": "Flora or natural element",
+      "primaryClue": "Grave; serious; solemn",
       "alternateClues": [],
       "softHints": {
         "startsWith": "S",
@@ -652,63 +873,83 @@
         "category": "nature"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Grave; serious; solemn.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SAP",
-      "primaryClue": "Part of the natural world",
-      "alternateClues": [],
+      "primaryClue": "Any juice",
+      "alternateClues": [
+        "The juice of plants of any kind, especially"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 3,
         "category": "nature"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any juice.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SEED",
-      "primaryClue": "Part of the natural world",
-      "alternateClues": [],
+      "primaryClue": "A fertilized and ripened ovule, containing an embryonic plant",
+      "alternateClues": [
+        "Any propagative portion of a plant which may",
+        "Any propagative portion of a plant which may"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 4,
         "category": "nature"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A fertilized and ripened ovule, containing an embryonic plant.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SHOOT",
-      "primaryClue": "Plant or natural feature",
-      "alternateClues": [],
+      "primaryClue": "To launch a projectile",
+      "alternateClues": [
+        "To launch a projectile",
+        "To fire"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 5,
         "category": "nature"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "To launch (forcefully project) a projectile.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SHRUB",
-      "primaryClue": "Flora or natural element",
+      "primaryClue": "A woody plant smaller than a tree,",
       "alternateClues": [],
       "softHints": {
         "startsWith": "S",
@@ -716,95 +957,126 @@
         "category": "nature"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A woody plant smaller than a tree, and usually with several stems from the same base.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SPORE",
-      "primaryClue": "Found in nature",
-      "alternateClues": [],
+      "primaryClue": "A thick resistant particle produced by a bacterium",
+      "alternateClues": [
+        "A reproductive particle, usually a single cell, released"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 5,
         "category": "nature"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A thick resistant particle produced by a bacterium or protist to survive in harsh or unfavorable conditions.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "STALK",
-      "primaryClue": "Found in nature",
-      "alternateClues": [],
+      "primaryClue": "The stem or main axis of a plant",
+      "alternateClues": [
+        "The petiole, pedicel, or peduncle of a plant"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 5,
         "category": "nature"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The stem or main axis of a plant.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SPINE",
-      "primaryClue": "Grows in the wild",
-      "alternateClues": [],
+      "primaryClue": "Courage or assertiveness",
+      "alternateClues": [
+        "A series of bones situated at the back",
+        "A series of bones situated at the back"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 5,
         "category": "nature"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Courage or assertiveness.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SPROUT",
-      "primaryClue": "Flora or natural element",
-      "alternateClues": [],
+      "primaryClue": "A germinated seed, an incipient young plant",
+      "alternateClues": [
+        "A germinated seed, an incipient young plant",
+        "A new growth of or on a plant,"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 6,
         "category": "nature"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A germinated seed, an incipient young plant.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "STEM",
-      "primaryClue": "Flora or natural element",
-      "alternateClues": [],
+      "primaryClue": "A branch of a family",
+      "alternateClues": [
+        "A branch of a family",
+        "The stock of a family; a race"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 4,
         "category": "nature"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A branch of a family.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "THORN",
-      "primaryClue": "Grows in the wild",
+      "primaryClue": "A modified branch that is hard and sharp",
       "alternateClues": [],
       "softHints": {
         "startsWith": "T",
@@ -812,123 +1084,166 @@
         "category": "nature"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A modified branch that is hard and sharp like a spike.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "TREE",
-      "primaryClue": "Plant or natural feature",
-      "alternateClues": [],
+      "primaryClue": "Any other plant that is reminiscent of",
+      "alternateClues": [
+        "Any other plant that is reminiscent of",
+        "A perennial woody plant taller and larger than"
+      ],
       "softHints": {
         "startsWith": "T",
         "length": 4,
         "category": "nature"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any other plant (such as a large shrub or herb) that is reminiscent of the above in form and size.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "TRUNK",
-      "primaryClue": "Part of the natural world",
-      "alternateClues": [],
+      "primaryClue": "Part of a body",
+      "alternateClues": [
+        "Part of a body",
+        "The usually single, more or less upright part"
+      ],
       "softHints": {
         "startsWith": "T",
         "length": 5,
         "category": "nature"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Part of a body.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "TWIG",
-      "primaryClue": "Grows in the wild",
-      "alternateClues": [],
+      "primaryClue": "A small thin branch of a tree or bush",
+      "alternateClues": [
+        "Somebody, or one of their body parts, not looking developed"
+      ],
       "softHints": {
         "startsWith": "T",
         "length": 4,
         "category": "nature"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A small thin branch of a tree or bush.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "VEIN",
-      "primaryClue": "Plant or natural feature",
-      "alternateClues": [],
+      "primaryClue": "The entrails of a shrimp",
+      "alternateClues": [
+        "In leaves, a thickened portion of the leaf",
+        "A blood vessel that transports blood from"
+      ],
       "softHints": {
         "startsWith": "V",
         "length": 4,
         "category": "nature"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The entrails of a shrimp.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "VINE",
-      "primaryClue": "Plant or natural feature",
-      "alternateClues": [],
+      "primaryClue": "Any plant the stem of which creeps along the ground",
+      "alternateClues": [
+        "A stem of such plants, especially when thick",
+        "Any plant whose stem requires support and which"
+      ],
       "softHints": {
         "startsWith": "V",
         "length": 4,
         "category": "nature"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any plant the stem of which creeps along the ground.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "WEED",
-      "primaryClue": "Grows in the wild",
-      "alternateClues": [],
+      "primaryClue": "Underbrush; low shrubs",
+      "alternateClues": [
+        "Underbrush; low shrubs",
+        "Any plant unwanted at the place where"
+      ],
       "softHints": {
         "startsWith": "W",
         "length": 4,
         "category": "nature"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Underbrush; low shrubs.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "WOOD",
-      "primaryClue": "Grows in the wild",
-      "alternateClues": [],
+      "primaryClue": "The substance making up the central part",
+      "alternateClues": [
+        "The substance making up the central part"
+      ],
       "softHints": {
         "startsWith": "W",
         "length": 4,
         "category": "nature"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The substance making up the central part of the trunk and branches of a tree. Used as a material for construction, to manufacture various items, etc. or as fuel.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     }
   ]
 }

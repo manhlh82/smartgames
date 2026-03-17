@@ -1,1 +1,8 @@
-{}
+{
+  "BETTA": { "primaryClue": "Colorful freshwater fish popular in aquariums", "approved": true },
+  "FRISBEE": { "primaryClue": "Flying disc used in outdoor games", "approved": true },
+  "PEAR": { "primaryClue": "Sweet teardrop-shaped fruit", "approved": true },
+  "SIBERIAN": { "primaryClue": "Relating to the vast Asian region of Russia", "approved": true },
+  "MERIDIAN": { "primaryClue": "Line of longitude on a globe", "approved": true },
+  "PUDDING": { "primaryClue": "Soft sweet dessert served after a meal", "approved": true }
+}

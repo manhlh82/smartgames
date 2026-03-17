@@ -1,0 +1,7828 @@
+{
+  "packId": "space-medium",
+  "title": "Space Explorer",
+  "theme": "space",
+  "difficulty": "medium",
+  "boardSize": "standard",
+  "puzzleCount": 20,
+  "version": "1.0.0",
+  "createdAt": "2026-03-18",
+  "puzzles": [
+    {
+      "puzzleId": "space-medium-9x9-0001",
+      "seed": 1,
+      "theme": "space",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "M",
+          "",
+          "E",
+          "",
+          "T",
+          "",
+          ""
+        ],
+        [
+          "S",
+          "E",
+          "A",
+          "",
+          "N",
+          "",
+          "R",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "R",
+          "",
+          "C",
+          "H",
+          "I",
+          "L",
+          "I"
+        ],
+        [
+          "",
+          "",
+          "G",
+          "",
+          "H",
+          "",
+          "B",
+          "",
+          ""
+        ],
+        [
+          "",
+          "H",
+          "A",
+          "L",
+          "I",
+          "B",
+          "U",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "",
+          "R",
+          "",
+          "L",
+          "",
+          "T",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "I",
+          "",
+          "A",
+          "",
+          "A",
+          "",
+          ""
+        ],
+        [
+          "F",
+          "E",
+          "N",
+          "",
+          "D",
+          "A",
+          "R",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "",
+          "E",
+          "",
+          "A",
+          "",
+          "Y",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          null,
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 6,
+          "answer": "HALIBUT",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "A large flatfish of the genus Hippoglossus, which",
+          "softHints": {
+            "startsWith": "H",
+            "length": 7,
+            "category": "ocean"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "MARGARINE",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 9,
+          "clue": "The solid ingredient of human fat, olive oil, etc",
+          "softHints": {
+            "startsWith": "M",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "ENCHILADA",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 9,
+          "clue": "A Mexican dish made by wrapping a filling",
+          "softHints": {
+            "startsWith": "E",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "TRIBUTARY",
+          "direction": "down",
+          "row": 0,
+          "col": 6,
+          "length": 9,
+          "clue": "A vein which drains into another vein",
+          "softHints": {
+            "startsWith": "T",
+            "length": 9,
+            "category": "city"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 5,
+          "answer": "CHILI",
+          "direction": "across",
+          "row": 2,
+          "col": 4,
+          "length": 5,
+          "clue": "A spicy stew of chicken or paneer, capsicum",
+          "softHints": {
+            "startsWith": "C",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 8,
+          "answer": "DART",
+          "direction": "across",
+          "row": 7,
+          "col": 4,
+          "length": 4,
+          "clue": "Any sharp-pointed missile weapon, such as an arrow",
+          "softHints": {
+            "startsWith": "D",
+            "length": 4,
+            "category": "sports"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "SEA",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "clue": "A large body of salt water",
+          "softHints": {
+            "startsWith": "S",
+            "length": 3,
+            "category": "city"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "FEN",
+          "direction": "across",
+          "row": 7,
+          "col": 0,
+          "length": 3,
+          "clue": "Any swamp or mire",
+          "softHints": {
+            "startsWith": "F",
+            "length": 3,
+            "category": "weather"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "A large body of salt water",
+            "answer": "SEA",
+            "length": 3
+          },
+          {
+            "number": 5,
+            "clue": "A spicy stew of chicken or paneer, capsicum",
+            "answer": "CHILI",
+            "length": 5
+          },
+          {
+            "number": 6,
+            "clue": "A large flatfish of the genus Hippoglossus, which",
+            "answer": "HALIBUT",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "Any swamp or mire",
+            "answer": "FEN",
+            "length": 3
+          },
+          {
+            "number": 8,
+            "clue": "Any sharp-pointed missile weapon, such as an arrow",
+            "answer": "DART",
+            "length": 4
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "The solid ingredient of human fat, olive oil, etc",
+            "answer": "MARGARINE",
+            "length": 9
+          },
+          {
+            "number": 2,
+            "clue": "A Mexican dish made by wrapping a filling",
+            "answer": "ENCHILADA",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "A vein which drains into another vein",
+            "answer": "TRIBUTARY",
+            "length": 9
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "space",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 8,
+        "intersections": 9,
+        "boardScore": 0.5688
+      }
+    },
+    {
+      "puzzleId": "space-medium-9x9-0002",
+      "seed": 2,
+      "theme": "space",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "B",
+          "",
+          "",
+          "",
+          "",
+          "B",
+          "",
+          ""
+        ],
+        [
+          "",
+          "O",
+          "",
+          "",
+          "O",
+          "",
+          "A",
+          "",
+          ""
+        ],
+        [
+          "R",
+          "A",
+          "S",
+          "P",
+          "B",
+          "E",
+          "R",
+          "R",
+          "Y"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "O",
+          "",
+          "R",
+          "",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "H",
+          "E",
+          "E",
+          "T",
+          "A",
+          "H",
+          ""
+        ],
+        [
+          "",
+          "H",
+          "",
+          "",
+          "",
+          "",
+          "C",
+          "",
+          ""
+        ],
+        [
+          "D",
+          "A",
+          "C",
+          "H",
+          "S",
+          "H",
+          "U",
+          "N",
+          "D"
+        ],
+        [
+          "",
+          "L",
+          "",
+          "",
+          "O",
+          "",
+          "D",
+          "",
+          ""
+        ],
+        [
+          "",
+          "K",
+          "",
+          "",
+          "Y",
+          "",
+          "A",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "CHEETAH",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "A distinctive member of the cat family, slightly",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "BARRACUDA",
+          "direction": "down",
+          "row": 0,
+          "col": 6,
+          "length": 9,
+          "clue": "One who uses harsh or predatory means to compete",
+          "softHints": {
+            "startsWith": "B",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "RASPBERRY",
+          "direction": "across",
+          "row": 2,
+          "col": 0,
+          "length": 9,
+          "clue": "The plant Rubus idaeus",
+          "softHints": {
+            "startsWith": "R",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "DACHSHUND",
+          "direction": "across",
+          "row": 6,
+          "col": 0,
+          "length": 9,
+          "clue": "A certain breed of dog having short legs",
+          "softHints": {
+            "startsWith": "D",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 5,
+          "answer": "CHALK",
+          "direction": "down",
+          "row": 4,
+          "col": 1,
+          "length": 5,
+          "clue": "A soft, white, powdery limestone",
+          "softHints": {
+            "startsWith": "C",
+            "length": 5,
+            "category": "school"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "OBOE",
+          "direction": "down",
+          "row": 1,
+          "col": 4,
+          "length": 4,
+          "clue": "A soprano and melody wind instrument in",
+          "softHints": {
+            "startsWith": "O",
+            "length": 4,
+            "category": "music"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "SOY",
+          "direction": "down",
+          "row": 6,
+          "col": 4,
+          "length": 3,
+          "clue": "A common East Asian liquid sauce, made",
+          "softHints": {
+            "startsWith": "S",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "BOA",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 3,
+          "clue": "Any of a group of large American snakes,",
+          "softHints": {
+            "startsWith": "B",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "The plant Rubus idaeus",
+            "answer": "RASPBERRY",
+            "length": 9
+          },
+          {
+            "number": 5,
+            "clue": "A distinctive member of the cat family, slightly",
+            "answer": "CHEETAH",
+            "length": 7
+          },
+          {
+            "number": 6,
+            "clue": "A certain breed of dog having short legs",
+            "answer": "DACHSHUND",
+            "length": 9
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Any of a group of large American snakes,",
+            "answer": "BOA",
+            "length": 3
+          },
+          {
+            "number": 2,
+            "clue": "One who uses harsh or predatory means to compete",
+            "answer": "BARRACUDA",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "A soprano and melody wind instrument in",
+            "answer": "OBOE",
+            "length": 4
+          },
+          {
+            "number": 5,
+            "clue": "A soft, white, powdery limestone",
+            "answer": "CHALK",
+            "length": 5
+          },
+          {
+            "number": 7,
+            "clue": "A common East Asian liquid sauce, made",
+            "answer": "SOY",
+            "length": 3
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "space",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 8,
+        "intersections": 9,
+        "boardScore": 0.5688
+      }
+    },
+    {
+      "puzzleId": "space-medium-9x9-0003",
+      "seed": 3,
+      "theme": "space",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "T",
+          "",
+          "K",
+          "",
+          "S",
+          "",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "E",
+          "",
+          "E",
+          "",
+          "P",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "N",
+          "E",
+          "C",
+          "T",
+          "A",
+          "R",
+          "I",
+          "N",
+          "E"
+        ],
+        [
+          "",
+          "",
+          "",
+          "T",
+          "",
+          "O",
+          "",
+          "G",
+          ""
+        ],
+        [
+          "",
+          "V",
+          "U",
+          "L",
+          "T",
+          "U",
+          "R",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "E",
+          "",
+          "T",
+          "",
+          "R",
+          ""
+        ],
+        [
+          "",
+          "",
+          "I",
+          "",
+          "",
+          "",
+          "",
+          "I",
+          ""
+        ],
+        [
+          "D",
+          "A",
+          "C",
+          "H",
+          "S",
+          "H",
+          "U",
+          "N",
+          "D"
+        ],
+        [
+          "",
+          "",
+          "E",
+          "",
+          "",
+          "",
+          "",
+          "E",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 6,
+          "answer": "VULTURE",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "A person who profits from the suffering of others",
+          "softHints": {
+            "startsWith": "V",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "TANGERINE",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 9,
+          "clue": "A tree that produces tangerines",
+          "softHints": {
+            "startsWith": "T",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 5,
+          "answer": "NECTARINE",
+          "direction": "across",
+          "row": 2,
+          "col": 0,
+          "length": 9,
+          "clue": "A nectar-like liquid medicine",
+          "softHints": {
+            "startsWith": "N",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 8,
+          "answer": "DACHSHUND",
+          "direction": "across",
+          "row": 7,
+          "col": 0,
+          "length": 9,
+          "clue": "A certain breed of dog having short legs",
+          "softHints": {
+            "startsWith": "D",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "KETTLE",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 6,
+          "clue": "A vessel for boiling a liquid or cooking",
+          "softHints": {
+            "startsWith": "K",
+            "length": 6,
+            "category": "weather"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "SPROUT",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 6,
+          "clue": "A germinated seed, an incipient young plant",
+          "softHints": {
+            "startsWith": "S",
+            "length": 6,
+            "category": "nature"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "TEE",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 3,
+          "clue": "Something shaped like the letter T",
+          "softHints": {
+            "startsWith": "T",
+            "length": 3,
+            "category": "sports"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "ICE",
+          "direction": "down",
+          "row": 6,
+          "col": 2,
+          "length": 3,
+          "clue": "Water in frozen form",
+          "softHints": {
+            "startsWith": "I",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 5,
+            "clue": "A nectar-like liquid medicine",
+            "answer": "NECTARINE",
+            "length": 9
+          },
+          {
+            "number": 6,
+            "clue": "A person who profits from the suffering of others",
+            "answer": "VULTURE",
+            "length": 7
+          },
+          {
+            "number": 8,
+            "clue": "A certain breed of dog having short legs",
+            "answer": "DACHSHUND",
+            "length": 9
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Something shaped like the letter T",
+            "answer": "TEE",
+            "length": 3
+          },
+          {
+            "number": 2,
+            "clue": "A vessel for boiling a liquid or cooking",
+            "answer": "KETTLE",
+            "length": 6
+          },
+          {
+            "number": 3,
+            "clue": "A germinated seed, an incipient young plant",
+            "answer": "SPROUT",
+            "length": 6
+          },
+          {
+            "number": 4,
+            "clue": "A tree that produces tangerines",
+            "answer": "TANGERINE",
+            "length": 9
+          },
+          {
+            "number": 7,
+            "clue": "Water in frozen form",
+            "answer": "ICE",
+            "length": 3
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "space",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 8,
+        "intersections": 9,
+        "boardScore": 0.5762
+      }
+    },
+    {
+      "puzzleId": "space-medium-9x9-0004",
+      "seed": 4,
+      "theme": "space",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "D",
+          "",
+          "C",
+          "",
+          "X",
+          "",
+          "T",
+          ""
+        ],
+        [
+          "C",
+          "A",
+          "N",
+          "A",
+          "R",
+          "Y",
+          "",
+          "R",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "",
+          "B",
+          "",
+          "L",
+          "",
+          "I",
+          ""
+        ],
+        [
+          "",
+          "H",
+          "",
+          "R",
+          "",
+          "O",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "S",
+          "N",
+          "I",
+          "P",
+          "P",
+          "E",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "H",
+          "",
+          "O",
+          "",
+          "H",
+          "",
+          "H",
+          ""
+        ],
+        [
+          "",
+          "U",
+          "",
+          "L",
+          "",
+          "O",
+          "W",
+          "L",
+          ""
+        ],
+        [
+          "",
+          "N",
+          "",
+          "E",
+          "",
+          "N",
+          "",
+          "O",
+          ""
+        ],
+        [
+          "",
+          "D",
+          "",
+          "T",
+          "",
+          "E",
+          "",
+          "N",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 6,
+          "answer": "SNIPPET",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "A small part of something, such as",
+          "softHints": {
+            "startsWith": "S",
+            "length": 7,
+            "category": "school"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "CABRIOLET",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 9,
+          "clue": "An automobile with a retractable top",
+          "softHints": {
+            "startsWith": "C",
+            "length": 9,
+            "category": "travel"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "TRIATHLON",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 9,
+          "clue": "Generally, a sports event in which contestant compete",
+          "softHints": {
+            "startsWith": "T",
+            "length": 9,
+            "category": "sports"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "DACHSHUND",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 9,
+          "clue": "A certain breed of dog having short legs",
+          "softHints": {
+            "startsWith": "D",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "XYLOPHONE",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 9,
+          "clue": "Any musical instrument made of wooden slats graduated",
+          "softHints": {
+            "startsWith": "X",
+            "length": 9,
+            "category": "music"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 5,
+          "answer": "CANARY",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 6,
+          "clue": "A female singer, soprano, a coloratura singer",
+          "softHints": {
+            "startsWith": "C",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "OWL",
+          "direction": "across",
+          "row": 6,
+          "col": 5,
+          "length": 3,
+          "clue": "Any of various birds of prey of",
+          "softHints": {
+            "startsWith": "O",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 5,
+            "clue": "A female singer, soprano, a coloratura singer",
+            "answer": "CANARY",
+            "length": 6
+          },
+          {
+            "number": 6,
+            "clue": "A small part of something, such as",
+            "answer": "SNIPPET",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "Any of various birds of prey of",
+            "answer": "OWL",
+            "length": 3
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A certain breed of dog having short legs",
+            "answer": "DACHSHUND",
+            "length": 9
+          },
+          {
+            "number": 2,
+            "clue": "An automobile with a retractable top",
+            "answer": "CABRIOLET",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "Any musical instrument made of wooden slats graduated",
+            "answer": "XYLOPHONE",
+            "length": 9
+          },
+          {
+            "number": 4,
+            "clue": "Generally, a sports event in which contestant compete",
+            "answer": "TRIATHLON",
+            "length": 9
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "space",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 9,
+        "boardScore": 0.5487
+      }
+    },
+    {
+      "puzzleId": "space-medium-9x9-0005",
+      "seed": 5,
+      "theme": "space",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "D",
+          "",
+          "C",
+          "",
+          "X",
+          "",
+          "T",
+          ""
+        ],
+        [
+          "C",
+          "A",
+          "N",
+          "A",
+          "R",
+          "Y",
+          "",
+          "R",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "",
+          "B",
+          "",
+          "L",
+          "",
+          "I",
+          ""
+        ],
+        [
+          "",
+          "H",
+          "",
+          "R",
+          "",
+          "O",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "S",
+          "N",
+          "I",
+          "P",
+          "P",
+          "E",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "H",
+          "",
+          "O",
+          "",
+          "H",
+          "",
+          "H",
+          ""
+        ],
+        [
+          "",
+          "U",
+          "",
+          "L",
+          "",
+          "O",
+          "W",
+          "L",
+          ""
+        ],
+        [
+          "",
+          "N",
+          "",
+          "E",
+          "",
+          "N",
+          "",
+          "O",
+          ""
+        ],
+        [
+          "",
+          "D",
+          "",
+          "T",
+          "",
+          "E",
+          "",
+          "N",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 6,
+          "answer": "SNIPPET",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "A small part of something, such as",
+          "softHints": {
+            "startsWith": "S",
+            "length": 7,
+            "category": "school"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "CABRIOLET",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 9,
+          "clue": "An automobile with a retractable top",
+          "softHints": {
+            "startsWith": "C",
+            "length": 9,
+            "category": "travel"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "TRIATHLON",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 9,
+          "clue": "Generally, a sports event in which contestant compete",
+          "softHints": {
+            "startsWith": "T",
+            "length": 9,
+            "category": "sports"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "DACHSHUND",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 9,
+          "clue": "A certain breed of dog having short legs",
+          "softHints": {
+            "startsWith": "D",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "XYLOPHONE",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 9,
+          "clue": "Any musical instrument made of wooden slats graduated",
+          "softHints": {
+            "startsWith": "X",
+            "length": 9,
+            "category": "music"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 5,
+          "answer": "CANARY",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 6,
+          "clue": "A female singer, soprano, a coloratura singer",
+          "softHints": {
+            "startsWith": "C",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "OWL",
+          "direction": "across",
+          "row": 6,
+          "col": 5,
+          "length": 3,
+          "clue": "Any of various birds of prey of",
+          "softHints": {
+            "startsWith": "O",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 5,
+            "clue": "A female singer, soprano, a coloratura singer",
+            "answer": "CANARY",
+            "length": 6
+          },
+          {
+            "number": 6,
+            "clue": "A small part of something, such as",
+            "answer": "SNIPPET",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "Any of various birds of prey of",
+            "answer": "OWL",
+            "length": 3
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A certain breed of dog having short legs",
+            "answer": "DACHSHUND",
+            "length": 9
+          },
+          {
+            "number": 2,
+            "clue": "An automobile with a retractable top",
+            "answer": "CABRIOLET",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "Any musical instrument made of wooden slats graduated",
+            "answer": "XYLOPHONE",
+            "length": 9
+          },
+          {
+            "number": 4,
+            "clue": "Generally, a sports event in which contestant compete",
+            "answer": "TRIATHLON",
+            "length": 9
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "space",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 9,
+        "boardScore": 0.5487
+      }
+    },
+    {
+      "puzzleId": "space-medium-9x9-0006",
+      "seed": 6,
+      "theme": "space",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "C",
+          "",
+          "C",
+          "",
+          "L",
+          "",
+          ""
+        ],
+        [
+          "B",
+          "R",
+          "O",
+          "T",
+          "H",
+          "",
+          "A",
+          "Y",
+          "U"
+        ],
+        [
+          "",
+          "",
+          "C",
+          "",
+          "I",
+          "",
+          "N",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "K",
+          "",
+          "C",
+          "",
+          "D",
+          "",
+          ""
+        ],
+        [
+          "",
+          "J",
+          "A",
+          "C",
+          "K",
+          "D",
+          "A",
+          "W",
+          ""
+        ],
+        [
+          "",
+          "",
+          "T",
+          "",
+          "A",
+          "",
+          "U",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "I",
+          "",
+          "D",
+          "",
+          "L",
+          "",
+          ""
+        ],
+        [
+          "",
+          "R",
+          "E",
+          "F",
+          "E",
+          "R",
+          "E",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "",
+          "L",
+          "",
+          "E",
+          "",
+          "T",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 6,
+          "answer": "JACKDAW",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "A bird of the genus Coloeus, similar",
+          "softHints": {
+            "startsWith": "J",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "COCKATIEL",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 9,
+          "clue": "Nymphicus hollandicus, a small, rather atypical cockatoo with",
+          "softHints": {
+            "startsWith": "C",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "LANDAULET",
+          "direction": "down",
+          "row": 0,
+          "col": 6,
+          "length": 9,
+          "clue": "A small landau",
+          "softHints": {
+            "startsWith": "L",
+            "length": 9,
+            "category": "travel"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "CHICKADEE",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 9,
+          "clue": "Affectionate term of address",
+          "softHints": {
+            "startsWith": "C",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "REFEREE",
+          "direction": "across",
+          "row": 7,
+          "col": 1,
+          "length": 7,
+          "clue": "A person who settles a dispute",
+          "softHints": {
+            "startsWith": "R",
+            "length": 7,
+            "category": "sports"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "BROTH",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "clue": "Water in which food has been boiled",
+          "softHints": {
+            "startsWith": "B",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 5,
+          "answer": "AYU",
+          "direction": "across",
+          "row": 1,
+          "col": 6,
+          "length": 3,
+          "clue": "A sweetfish, an amphidromous fish of East Asia,",
+          "softHints": {
+            "startsWith": "A",
+            "length": 3,
+            "category": "ocean"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "Water in which food has been boiled",
+            "answer": "BROTH",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "A sweetfish, an amphidromous fish of East Asia,",
+            "answer": "AYU",
+            "length": 3
+          },
+          {
+            "number": 6,
+            "clue": "A bird of the genus Coloeus, similar",
+            "answer": "JACKDAW",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "A person who settles a dispute",
+            "answer": "REFEREE",
+            "length": 7
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Nymphicus hollandicus, a small, rather atypical cockatoo with",
+            "answer": "COCKATIEL",
+            "length": 9
+          },
+          {
+            "number": 2,
+            "clue": "Affectionate term of address",
+            "answer": "CHICKADEE",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "A small landau",
+            "answer": "LANDAULET",
+            "length": 9
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "space",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 9,
+        "boardScore": 0.5413
+      }
+    },
+    {
+      "puzzleId": "space-medium-9x9-0007",
+      "seed": 7,
+      "theme": "space",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "W",
+          "",
+          "",
+          "R",
+          "",
+          "H",
+          ""
+        ],
+        [
+          "",
+          "F",
+          "O",
+          "S",
+          "S",
+          "A",
+          "",
+          "I",
+          ""
+        ],
+        [
+          "",
+          "",
+          "L",
+          "",
+          "",
+          "Z",
+          "",
+          "M",
+          ""
+        ],
+        [
+          "",
+          "",
+          "V",
+          "",
+          "",
+          "O",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "K",
+          "E",
+          "S",
+          "T",
+          "R",
+          "E",
+          "L",
+          ""
+        ],
+        [
+          "",
+          "",
+          "R",
+          "",
+          "",
+          "B",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "",
+          "I",
+          "",
+          "",
+          "I",
+          "V",
+          "Y",
+          ""
+        ],
+        [
+          "B",
+          "E",
+          "N",
+          "G",
+          "A",
+          "L",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "",
+          "E",
+          "",
+          "",
+          "L",
+          "",
+          "N",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "KESTREL",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Any of various small falcons of the genus",
+          "softHints": {
+            "startsWith": "K",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "RAZORBILL",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 9,
+          "clue": "A large black and white auk of species",
+          "softHints": {
+            "startsWith": "R",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "WOLVERINE",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 9,
+          "clue": "A solitary, fierce mammal of the Mustelidae family, Gulo gulo",
+          "softHints": {
+            "startsWith": "W",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "HIMALAYAN",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 9,
+          "clue": "Of or relating to the Himalayas",
+          "softHints": {
+            "startsWith": "H",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "BENGAL",
+          "direction": "across",
+          "row": 7,
+          "col": 0,
+          "length": 6,
+          "clue": "A player on the team The Cincinnati Bengals",
+          "softHints": {
+            "startsWith": "B",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "FOSSA",
+          "direction": "across",
+          "row": 1,
+          "col": 1,
+          "length": 5,
+          "clue": "A pit, groove, cavity, or depression",
+          "softHints": {
+            "startsWith": "F",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "IVY",
+          "direction": "across",
+          "row": 6,
+          "col": 5,
+          "length": 3,
+          "clue": "Any similar plant of any genus",
+          "softHints": {
+            "startsWith": "I",
+            "length": 3,
+            "category": "nature"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "A pit, groove, cavity, or depression",
+            "answer": "FOSSA",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "Any of various small falcons of the genus",
+            "answer": "KESTREL",
+            "length": 7
+          },
+          {
+            "number": 6,
+            "clue": "Any similar plant of any genus",
+            "answer": "IVY",
+            "length": 3
+          },
+          {
+            "number": 7,
+            "clue": "A player on the team The Cincinnati Bengals",
+            "answer": "BENGAL",
+            "length": 6
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A solitary, fierce mammal of the Mustelidae family, Gulo gulo",
+            "answer": "WOLVERINE",
+            "length": 9
+          },
+          {
+            "number": 2,
+            "clue": "A large black and white auk of species",
+            "answer": "RAZORBILL",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "Of or relating to the Himalayas",
+            "answer": "HIMALAYAN",
+            "length": 9
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "space",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 9,
+        "boardScore": 0.5388
+      }
+    },
+    {
+      "puzzleId": "space-medium-9x9-0008",
+      "seed": 8,
+      "theme": "space",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "W",
+          "",
+          "",
+          "R",
+          "",
+          "H",
+          ""
+        ],
+        [
+          "",
+          "F",
+          "O",
+          "S",
+          "S",
+          "A",
+          "",
+          "I",
+          ""
+        ],
+        [
+          "",
+          "",
+          "L",
+          "",
+          "",
+          "Z",
+          "",
+          "M",
+          ""
+        ],
+        [
+          "",
+          "",
+          "V",
+          "",
+          "",
+          "O",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "K",
+          "E",
+          "S",
+          "T",
+          "R",
+          "E",
+          "L",
+          ""
+        ],
+        [
+          "",
+          "",
+          "R",
+          "",
+          "",
+          "B",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "",
+          "I",
+          "",
+          "",
+          "I",
+          "V",
+          "Y",
+          ""
+        ],
+        [
+          "B",
+          "E",
+          "N",
+          "G",
+          "A",
+          "L",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "",
+          "E",
+          "",
+          "",
+          "L",
+          "",
+          "N",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "KESTREL",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Any of various small falcons of the genus",
+          "softHints": {
+            "startsWith": "K",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "RAZORBILL",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 9,
+          "clue": "A large black and white auk of species",
+          "softHints": {
+            "startsWith": "R",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "WOLVERINE",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 9,
+          "clue": "A solitary, fierce mammal of the Mustelidae family, Gulo gulo",
+          "softHints": {
+            "startsWith": "W",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "HIMALAYAN",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 9,
+          "clue": "Of or relating to the Himalayas",
+          "softHints": {
+            "startsWith": "H",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "BENGAL",
+          "direction": "across",
+          "row": 7,
+          "col": 0,
+          "length": 6,
+          "clue": "A player on the team The Cincinnati Bengals",
+          "softHints": {
+            "startsWith": "B",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "FOSSA",
+          "direction": "across",
+          "row": 1,
+          "col": 1,
+          "length": 5,
+          "clue": "A pit, groove, cavity, or depression",
+          "softHints": {
+            "startsWith": "F",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "IVY",
+          "direction": "across",
+          "row": 6,
+          "col": 5,
+          "length": 3,
+          "clue": "Any similar plant of any genus",
+          "softHints": {
+            "startsWith": "I",
+            "length": 3,
+            "category": "nature"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "A pit, groove, cavity, or depression",
+            "answer": "FOSSA",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "Any of various small falcons of the genus",
+            "answer": "KESTREL",
+            "length": 7
+          },
+          {
+            "number": 6,
+            "clue": "Any similar plant of any genus",
+            "answer": "IVY",
+            "length": 3
+          },
+          {
+            "number": 7,
+            "clue": "A player on the team The Cincinnati Bengals",
+            "answer": "BENGAL",
+            "length": 6
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A solitary, fierce mammal of the Mustelidae family, Gulo gulo",
+            "answer": "WOLVERINE",
+            "length": 9
+          },
+          {
+            "number": 2,
+            "clue": "A large black and white auk of species",
+            "answer": "RAZORBILL",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "Of or relating to the Himalayas",
+            "answer": "HIMALAYAN",
+            "length": 9
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "space",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 9,
+        "boardScore": 0.5388
+      }
+    },
+    {
+      "puzzleId": "space-medium-9x9-0009",
+      "seed": 9,
+      "theme": "space",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "E",
+          "",
+          "",
+          "P",
+          "",
+          "",
+          "B",
+          ""
+        ],
+        [
+          "R",
+          "E",
+          "T",
+          "R",
+          "I",
+          "E",
+          "V",
+          "E",
+          "R"
+        ],
+        [
+          "",
+          "L",
+          "",
+          "",
+          "N",
+          "",
+          "",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "",
+          "V",
+          "",
+          "E",
+          "",
+          "",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "T",
+          "I",
+          "L",
+          "A",
+          "P",
+          "I",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "",
+          "O",
+          "",
+          "P",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "X",
+          "Y",
+          "L",
+          "O",
+          "P",
+          "H",
+          "O",
+          "N",
+          "E"
+        ],
+        [
+          "",
+          "",
+          "I",
+          "",
+          "L",
+          "",
+          "I",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "N",
+          "",
+          "E",
+          "",
+          "L",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 6,
+          "answer": "TILAPIA",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "A fishy drag queen; a drag queen who",
+          "softHints": {
+            "startsWith": "T",
+            "length": 7,
+            "category": "ocean"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "PINEAPPLE",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 9,
+          "clue": "A tropical plant, Ananas comosus, native to South",
+          "softHints": {
+            "startsWith": "P",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "XYLOPHONE",
+          "direction": "across",
+          "row": 6,
+          "col": 0,
+          "length": 9,
+          "clue": "Any musical instrument made of wooden slats graduated",
+          "softHints": {
+            "startsWith": "X",
+            "length": 9,
+            "category": "music"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "RETRIEVER",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 9,
+          "clue": "One who retrieves something",
+          "softHints": {
+            "startsWith": "R",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 5,
+          "answer": "VIOLIN",
+          "direction": "down",
+          "row": 3,
+          "col": 2,
+          "length": 6,
+          "clue": "A violinist in an orchestra or group",
+          "softHints": {
+            "startsWith": "V",
+            "length": 6,
+            "category": "music"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "BETTA",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 5,
+          "clue": "Colorful freshwater fish popular in aquariums",
+          "softHints": {
+            "startsWith": "B",
+            "length": 5,
+            "category": "ocean"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 8,
+          "answer": "OIL",
+          "direction": "down",
+          "row": 6,
+          "col": 6,
+          "length": 3,
+          "clue": "Liquid fat",
+          "softHints": {
+            "startsWith": "O",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "EEL",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 3,
+          "clue": "Any freshwater fish of the order Anguilliformes, which",
+          "softHints": {
+            "startsWith": "E",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "One who retrieves something",
+            "answer": "RETRIEVER",
+            "length": 9
+          },
+          {
+            "number": 6,
+            "clue": "A fishy drag queen; a drag queen who",
+            "answer": "TILAPIA",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "Any musical instrument made of wooden slats graduated",
+            "answer": "XYLOPHONE",
+            "length": 9
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Any freshwater fish of the order Anguilliformes, which",
+            "answer": "EEL",
+            "length": 3
+          },
+          {
+            "number": 2,
+            "clue": "A tropical plant, Ananas comosus, native to South",
+            "answer": "PINEAPPLE",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "Colorful freshwater fish popular in aquariums",
+            "answer": "BETTA",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "A violinist in an orchestra or group",
+            "answer": "VIOLIN",
+            "length": 6
+          },
+          {
+            "number": 8,
+            "clue": "Liquid fat",
+            "answer": "OIL",
+            "length": 3
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "space",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 8,
+        "intersections": 9,
+        "boardScore": 0.5737
+      }
+    },
+    {
+      "puzzleId": "space-medium-9x9-0010",
+      "seed": 10,
+      "theme": "space",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "I",
+          "",
+          "",
+          "T",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "S",
+          "C",
+          "H",
+          "N",
+          "A",
+          "U",
+          "Z",
+          "E",
+          "R"
+        ],
+        [
+          "",
+          "E",
+          "",
+          "",
+          "N",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "P",
+          "",
+          "G",
+          "",
+          "",
+          "M",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "A",
+          "Y",
+          "E",
+          "N",
+          "N",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "",
+          "D",
+          "",
+          "R",
+          "",
+          "",
+          "L",
+          ""
+        ],
+        [
+          "B",
+          "A",
+          "D",
+          "M",
+          "I",
+          "N",
+          "T",
+          "O",
+          "N"
+        ],
+        [
+          "",
+          "",
+          "L",
+          "",
+          "N",
+          "",
+          "",
+          "N",
+          ""
+        ],
+        [
+          "",
+          "",
+          "E",
+          "",
+          "E",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 6,
+          "answer": "CAYENNE",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Spice or verve",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "TANGERINE",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 9,
+          "clue": "A tree that produces tangerines",
+          "softHints": {
+            "startsWith": "T",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "BADMINTON",
+          "direction": "across",
+          "row": 6,
+          "col": 0,
+          "length": 9,
+          "clue": "A cooling summer drink made with claret, sugar,",
+          "softHints": {
+            "startsWith": "B",
+            "length": 9,
+            "category": "sports"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "SCHNAUZER",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 9,
+          "clue": "A dog of a particular breed originating in Germany",
+          "softHints": {
+            "startsWith": "S",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "PADDLE",
+          "direction": "down",
+          "row": 3,
+          "col": 2,
+          "length": 6,
+          "clue": "A single-bladed version is typically used on canoes",
+          "softHints": {
+            "startsWith": "P",
+            "length": 6,
+            "category": "sports"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 5,
+          "answer": "MELON",
+          "direction": "down",
+          "row": 3,
+          "col": 7,
+          "length": 5,
+          "clue": "Some of the plants of the family Cucurbitaceae",
+          "softHints": {
+            "startsWith": "M",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "ICE",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 3,
+          "clue": "Water in frozen form",
+          "softHints": {
+            "startsWith": "I",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "A dog of a particular breed originating in Germany",
+            "answer": "SCHNAUZER",
+            "length": 9
+          },
+          {
+            "number": 6,
+            "clue": "Spice or verve",
+            "answer": "CAYENNE",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "A cooling summer drink made with claret, sugar,",
+            "answer": "BADMINTON",
+            "length": 9
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Water in frozen form",
+            "answer": "ICE",
+            "length": 3
+          },
+          {
+            "number": 2,
+            "clue": "A tree that produces tangerines",
+            "answer": "TANGERINE",
+            "length": 9
+          },
+          {
+            "number": 4,
+            "clue": "A single-bladed version is typically used on canoes",
+            "answer": "PADDLE",
+            "length": 6
+          },
+          {
+            "number": 5,
+            "clue": "Some of the plants of the family Cucurbitaceae",
+            "answer": "MELON",
+            "length": 5
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "space",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 8,
+        "boardScore": 0.5413
+      }
+    },
+    {
+      "puzzleId": "space-medium-9x9-0011",
+      "seed": 11,
+      "theme": "space",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "C",
+          "",
+          "P",
+          "",
+          "",
+          "",
+          "G",
+          ""
+        ],
+        [
+          "O",
+          "R",
+          "B",
+          "I",
+          "T",
+          "",
+          "",
+          "R",
+          ""
+        ],
+        [
+          "",
+          "O",
+          "",
+          "N",
+          "",
+          "M",
+          "",
+          "O",
+          ""
+        ],
+        [
+          "",
+          "I",
+          "",
+          "E",
+          "",
+          "A",
+          "",
+          "U",
+          ""
+        ],
+        [
+          "",
+          "S",
+          "C",
+          "A",
+          "L",
+          "L",
+          "O",
+          "P",
+          ""
+        ],
+        [
+          "",
+          "S",
+          "",
+          "P",
+          "",
+          "T",
+          "",
+          "E",
+          ""
+        ],
+        [
+          "R",
+          "A",
+          "S",
+          "P",
+          "B",
+          "E",
+          "R",
+          "R",
+          "Y"
+        ],
+        [
+          "",
+          "N",
+          "",
+          "L",
+          "",
+          "S",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "T",
+          "",
+          "E",
+          "",
+          "E",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 6,
+          "answer": "SCALLOP",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "A fillet of meat, escalope",
+          "softHints": {
+            "startsWith": "S",
+            "length": 7,
+            "category": "ocean"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "PINEAPPLE",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 9,
+          "clue": "A tropical plant, Ananas comosus, native to South",
+          "softHints": {
+            "startsWith": "P",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "RASPBERRY",
+          "direction": "across",
+          "row": 6,
+          "col": 0,
+          "length": 9,
+          "clue": "The plant Rubus idaeus",
+          "softHints": {
+            "startsWith": "R",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "CROISSANT",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 9,
+          "clue": "A flaky roll or pastry in a form",
+          "softHints": {
+            "startsWith": "C",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 5,
+          "answer": "MALTESE",
+          "direction": "down",
+          "row": 2,
+          "col": 5,
+          "length": 7,
+          "clue": "Of or pertaining to Malta or its language",
+          "softHints": {
+            "startsWith": "M",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "GROUPER",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 7,
+          "clue": "Any of various large food and game fishes",
+          "softHints": {
+            "startsWith": "G",
+            "length": 7,
+            "category": "ocean"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "ORBIT",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "clue": "The curved path of one object around",
+          "softHints": {
+            "startsWith": "O",
+            "length": 5,
+            "category": "space"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "The curved path of one object around",
+            "answer": "ORBIT",
+            "length": 5
+          },
+          {
+            "number": 6,
+            "clue": "A fillet of meat, escalope",
+            "answer": "SCALLOP",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "The plant Rubus idaeus",
+            "answer": "RASPBERRY",
+            "length": 9
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A flaky roll or pastry in a form",
+            "answer": "CROISSANT",
+            "length": 9
+          },
+          {
+            "number": 2,
+            "clue": "A tropical plant, Ananas comosus, native to South",
+            "answer": "PINEAPPLE",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "Any of various large food and game fishes",
+            "answer": "GROUPER",
+            "length": 7
+          },
+          {
+            "number": 5,
+            "clue": "Of or pertaining to Malta or its language",
+            "answer": "MALTESE",
+            "length": 7
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "space",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 10,
+        "boardScore": 0.5487
+      }
+    },
+    {
+      "puzzleId": "space-medium-9x9-0012",
+      "seed": 12,
+      "theme": "space",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "S",
+          "",
+          "",
+          "E",
+          "",
+          "B",
+          ""
+        ],
+        [
+          "",
+          "",
+          "P",
+          "",
+          "",
+          "N",
+          "",
+          "U",
+          ""
+        ],
+        [
+          "B",
+          "A",
+          "R",
+          "R",
+          "A",
+          "C",
+          "U",
+          "D",
+          "A"
+        ],
+        [
+          "",
+          "",
+          "O",
+          "",
+          "",
+          "H",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "P",
+          "U",
+          "D",
+          "D",
+          "I",
+          "N",
+          "G",
+          ""
+        ],
+        [
+          "",
+          "",
+          "T",
+          "",
+          "",
+          "L",
+          "",
+          "U",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "I",
+          "",
+          "A",
+          "",
+          "L",
+          ""
+        ],
+        [
+          "C",
+          "R",
+          "O",
+          "C",
+          "O",
+          "D",
+          "I",
+          "L",
+          "E"
+        ],
+        [
+          "",
+          "",
+          "",
+          "E",
+          "",
+          "A",
+          "",
+          "Y",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "PUDDING",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Soft sweet dessert served after a meal",
+          "softHints": {
+            "startsWith": "P",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "ENCHILADA",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 9,
+          "clue": "A Mexican dish made by wrapping a filling",
+          "softHints": {
+            "startsWith": "E",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "BARRACUDA",
+          "direction": "across",
+          "row": 2,
+          "col": 0,
+          "length": 9,
+          "clue": "One who uses harsh or predatory means to compete",
+          "softHints": {
+            "startsWith": "B",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 8,
+          "answer": "CROCODILE",
+          "direction": "across",
+          "row": 7,
+          "col": 0,
+          "length": 9,
+          "clue": "A long line or procession of people walking together",
+          "softHints": {
+            "startsWith": "C",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "SPROUT",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 6,
+          "clue": "A germinated seed, an incipient young plant",
+          "softHints": {
+            "startsWith": "S",
+            "length": 6,
+            "category": "nature"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "GULLY",
+          "direction": "down",
+          "row": 4,
+          "col": 7,
+          "length": 5,
+          "clue": "A drop kerb",
+          "softHints": {
+            "startsWith": "G",
+            "length": 5,
+            "category": "weather"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "ICE",
+          "direction": "down",
+          "row": 6,
+          "col": 3,
+          "length": 3,
+          "clue": "Water in frozen form",
+          "softHints": {
+            "startsWith": "I",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "BUD",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 3,
+          "clue": "Something that has begun to develop",
+          "softHints": {
+            "startsWith": "B",
+            "length": 3,
+            "category": "nature"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "One who uses harsh or predatory means to compete",
+            "answer": "BARRACUDA",
+            "length": 9
+          },
+          {
+            "number": 5,
+            "clue": "Soft sweet dessert served after a meal",
+            "answer": "PUDDING",
+            "length": 7
+          },
+          {
+            "number": 8,
+            "clue": "A long line or procession of people walking together",
+            "answer": "CROCODILE",
+            "length": 9
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A germinated seed, an incipient young plant",
+            "answer": "SPROUT",
+            "length": 6
+          },
+          {
+            "number": 2,
+            "clue": "A Mexican dish made by wrapping a filling",
+            "answer": "ENCHILADA",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "Something that has begun to develop",
+            "answer": "BUD",
+            "length": 3
+          },
+          {
+            "number": 6,
+            "clue": "A drop kerb",
+            "answer": "GULLY",
+            "length": 5
+          },
+          {
+            "number": 7,
+            "clue": "Water in frozen form",
+            "answer": "ICE",
+            "length": 3
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "space",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 8,
+        "intersections": 9,
+        "boardScore": 0.5737
+      }
+    },
+    {
+      "puzzleId": "space-medium-9x9-0013",
+      "seed": 13,
+      "theme": "space",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "S",
+          "",
+          "",
+          "E",
+          "",
+          "B",
+          ""
+        ],
+        [
+          "",
+          "",
+          "P",
+          "",
+          "",
+          "N",
+          "",
+          "U",
+          ""
+        ],
+        [
+          "B",
+          "A",
+          "R",
+          "R",
+          "A",
+          "C",
+          "U",
+          "D",
+          "A"
+        ],
+        [
+          "",
+          "",
+          "O",
+          "",
+          "",
+          "H",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "P",
+          "U",
+          "D",
+          "D",
+          "I",
+          "N",
+          "G",
+          ""
+        ],
+        [
+          "",
+          "",
+          "T",
+          "",
+          "",
+          "L",
+          "",
+          "U",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "I",
+          "",
+          "A",
+          "",
+          "L",
+          ""
+        ],
+        [
+          "C",
+          "R",
+          "O",
+          "C",
+          "O",
+          "D",
+          "I",
+          "L",
+          "E"
+        ],
+        [
+          "",
+          "",
+          "",
+          "E",
+          "",
+          "A",
+          "",
+          "Y",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "PUDDING",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Soft sweet dessert served after a meal",
+          "softHints": {
+            "startsWith": "P",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "ENCHILADA",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 9,
+          "clue": "A Mexican dish made by wrapping a filling",
+          "softHints": {
+            "startsWith": "E",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "BARRACUDA",
+          "direction": "across",
+          "row": 2,
+          "col": 0,
+          "length": 9,
+          "clue": "One who uses harsh or predatory means to compete",
+          "softHints": {
+            "startsWith": "B",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 8,
+          "answer": "CROCODILE",
+          "direction": "across",
+          "row": 7,
+          "col": 0,
+          "length": 9,
+          "clue": "A long line or procession of people walking together",
+          "softHints": {
+            "startsWith": "C",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "SPROUT",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 6,
+          "clue": "A germinated seed, an incipient young plant",
+          "softHints": {
+            "startsWith": "S",
+            "length": 6,
+            "category": "nature"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "GULLY",
+          "direction": "down",
+          "row": 4,
+          "col": 7,
+          "length": 5,
+          "clue": "A drop kerb",
+          "softHints": {
+            "startsWith": "G",
+            "length": 5,
+            "category": "weather"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "ICE",
+          "direction": "down",
+          "row": 6,
+          "col": 3,
+          "length": 3,
+          "clue": "Water in frozen form",
+          "softHints": {
+            "startsWith": "I",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "BUD",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 3,
+          "clue": "Something that has begun to develop",
+          "softHints": {
+            "startsWith": "B",
+            "length": 3,
+            "category": "nature"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "One who uses harsh or predatory means to compete",
+            "answer": "BARRACUDA",
+            "length": 9
+          },
+          {
+            "number": 5,
+            "clue": "Soft sweet dessert served after a meal",
+            "answer": "PUDDING",
+            "length": 7
+          },
+          {
+            "number": 8,
+            "clue": "A long line or procession of people walking together",
+            "answer": "CROCODILE",
+            "length": 9
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A germinated seed, an incipient young plant",
+            "answer": "SPROUT",
+            "length": 6
+          },
+          {
+            "number": 2,
+            "clue": "A Mexican dish made by wrapping a filling",
+            "answer": "ENCHILADA",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "Something that has begun to develop",
+            "answer": "BUD",
+            "length": 3
+          },
+          {
+            "number": 6,
+            "clue": "A drop kerb",
+            "answer": "GULLY",
+            "length": 5
+          },
+          {
+            "number": 7,
+            "clue": "Water in frozen form",
+            "answer": "ICE",
+            "length": 3
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "space",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 8,
+        "intersections": 9,
+        "boardScore": 0.5737
+      }
+    },
+    {
+      "puzzleId": "space-medium-9x9-0014",
+      "seed": 14,
+      "theme": "space",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "S",
+          "",
+          "",
+          "T",
+          "",
+          "F",
+          ""
+        ],
+        [
+          "",
+          "",
+          "E",
+          "",
+          "",
+          "A",
+          "",
+          "E",
+          ""
+        ],
+        [
+          "S",
+          "E",
+          "A",
+          "S",
+          "O",
+          "N",
+          "I",
+          "N",
+          "G"
+        ],
+        [
+          "",
+          "",
+          "",
+          "L",
+          "",
+          "G",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "I",
+          "C",
+          "E",
+          "B",
+          "E",
+          "R",
+          "G",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "D",
+          "",
+          "R",
+          "",
+          "",
+          ""
+        ],
+        [
+          "G",
+          "O",
+          "L",
+          "D",
+          "F",
+          "I",
+          "N",
+          "C",
+          "H"
+        ],
+        [
+          "",
+          "I",
+          "",
+          "E",
+          "",
+          "N",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "L",
+          "",
+          "R",
+          "",
+          "E",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 6,
+          "answer": "ICEBERG",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "An aloof person",
+          "softHints": {
+            "startsWith": "I",
+            "length": 7,
+            "category": "weather"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "TANGERINE",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 9,
+          "clue": "A tree that produces tangerines",
+          "softHints": {
+            "startsWith": "T",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "GOLDFINCH",
+          "direction": "across",
+          "row": 6,
+          "col": 0,
+          "length": 9,
+          "clue": "Any of several small passerine birds of the finch family",
+          "softHints": {
+            "startsWith": "G",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "SEASONING",
+          "direction": "across",
+          "row": 2,
+          "col": 0,
+          "length": 9,
+          "clue": "Anything added to increase enjoyment",
+          "softHints": {
+            "startsWith": "S",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 5,
+          "answer": "SLEDDER",
+          "direction": "down",
+          "row": 2,
+          "col": 3,
+          "length": 7,
+          "clue": "A person who rides a sled",
+          "softHints": {
+            "startsWith": "S",
+            "length": 7,
+            "category": "sports"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "SEA",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "clue": "A large body of salt water",
+          "softHints": {
+            "startsWith": "S",
+            "length": 3,
+            "category": "city"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 8,
+          "answer": "OIL",
+          "direction": "down",
+          "row": 6,
+          "col": 1,
+          "length": 3,
+          "clue": "Liquid fat",
+          "softHints": {
+            "startsWith": "O",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "FEN",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 3,
+          "clue": "Any swamp or mire",
+          "softHints": {
+            "startsWith": "F",
+            "length": 3,
+            "category": "weather"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "Anything added to increase enjoyment",
+            "answer": "SEASONING",
+            "length": 9
+          },
+          {
+            "number": 6,
+            "clue": "An aloof person",
+            "answer": "ICEBERG",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "Any of several small passerine birds of the finch family",
+            "answer": "GOLDFINCH",
+            "length": 9
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A large body of salt water",
+            "answer": "SEA",
+            "length": 3
+          },
+          {
+            "number": 2,
+            "clue": "A tree that produces tangerines",
+            "answer": "TANGERINE",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "Any swamp or mire",
+            "answer": "FEN",
+            "length": 3
+          },
+          {
+            "number": 5,
+            "clue": "A person who rides a sled",
+            "answer": "SLEDDER",
+            "length": 7
+          },
+          {
+            "number": 8,
+            "clue": "Liquid fat",
+            "answer": "OIL",
+            "length": 3
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "space",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 8,
+        "intersections": 9,
+        "boardScore": 0.5712
+      }
+    },
+    {
+      "puzzleId": "space-medium-9x9-0015",
+      "seed": 15,
+      "theme": "space",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "A",
+          "",
+          "N",
+          "",
+          "E",
+          ""
+        ],
+        [
+          "R",
+          "E",
+          "T",
+          "R",
+          "I",
+          "E",
+          "V",
+          "E",
+          "R"
+        ],
+        [
+          "",
+          "",
+          "",
+          "R",
+          "",
+          "C",
+          "",
+          "L",
+          ""
+        ],
+        [
+          "",
+          "O",
+          "",
+          "O",
+          "",
+          "T",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "S",
+          "K",
+          "Y",
+          "L",
+          "A",
+          "R",
+          "K",
+          ""
+        ],
+        [
+          "",
+          "P",
+          "",
+          "O",
+          "",
+          "R",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "R",
+          "",
+          "",
+          "",
+          "I",
+          "",
+          "",
+          ""
+        ],
+        [
+          "S",
+          "E",
+          "A",
+          "S",
+          "O",
+          "N",
+          "I",
+          "N",
+          "G"
+        ],
+        [
+          "",
+          "Y",
+          "",
+          "",
+          "",
+          "E",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 6,
+          "answer": "SKYLARK",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "A small brown passerine bird, Alauda arvensis, that",
+          "softHints": {
+            "startsWith": "S",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "NECTARINE",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 9,
+          "clue": "A nectar-like liquid medicine",
+          "softHints": {
+            "startsWith": "N",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "SEASONING",
+          "direction": "across",
+          "row": 7,
+          "col": 0,
+          "length": 9,
+          "clue": "Anything added to increase enjoyment",
+          "softHints": {
+            "startsWith": "S",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "RETRIEVER",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 9,
+          "clue": "One who retrieves something",
+          "softHints": {
+            "startsWith": "R",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 5,
+          "answer": "OSPREY",
+          "direction": "down",
+          "row": 3,
+          "col": 1,
+          "length": 6,
+          "clue": "A bird of prey of genus Pandion that",
+          "softHints": {
+            "startsWith": "O",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "ARROYO",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 6,
+          "clue": "Any watercourse; any rivulet (whether it flows year-round",
+          "softHints": {
+            "startsWith": "A",
+            "length": 6,
+            "category": "weather"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "EEL",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 3,
+          "clue": "Any freshwater fish of the order Anguilliformes, which",
+          "softHints": {
+            "startsWith": "E",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "One who retrieves something",
+            "answer": "RETRIEVER",
+            "length": 9
+          },
+          {
+            "number": 6,
+            "clue": "A small brown passerine bird, Alauda arvensis, that",
+            "answer": "SKYLARK",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "Anything added to increase enjoyment",
+            "answer": "SEASONING",
+            "length": 9
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Any watercourse; any rivulet (whether it flows year-round",
+            "answer": "ARROYO",
+            "length": 6
+          },
+          {
+            "number": 2,
+            "clue": "A nectar-like liquid medicine",
+            "answer": "NECTARINE",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "Any freshwater fish of the order Anguilliformes, which",
+            "answer": "EEL",
+            "length": 3
+          },
+          {
+            "number": 5,
+            "clue": "A bird of prey of genus Pandion that",
+            "answer": "OSPREY",
+            "length": 6
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "space",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 8,
+        "boardScore": 0.5437
+      }
+    },
+    {
+      "puzzleId": "space-medium-9x9-0016",
+      "seed": 16,
+      "theme": "space",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "M",
+          "",
+          "L",
+          "",
+          "",
+          "C",
+          ""
+        ],
+        [
+          "",
+          "",
+          "A",
+          "",
+          "O",
+          "",
+          "W",
+          "O",
+          "K"
+        ],
+        [
+          "C",
+          "O",
+          "R",
+          "O",
+          "N",
+          "A",
+          "",
+          "C",
+          ""
+        ],
+        [
+          "",
+          "",
+          "G",
+          "",
+          "G",
+          "",
+          "",
+          "K",
+          ""
+        ],
+        [
+          "",
+          "M",
+          "A",
+          "R",
+          "I",
+          "M",
+          "B",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "",
+          "R",
+          "",
+          "T",
+          "",
+          "",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "",
+          "I",
+          "",
+          "U",
+          "",
+          "",
+          "I",
+          ""
+        ],
+        [
+          "F",
+          "E",
+          "N",
+          "",
+          "D",
+          "I",
+          "V",
+          "E",
+          "R"
+        ],
+        [
+          "",
+          "",
+          "E",
+          "",
+          "E",
+          "",
+          "",
+          "L",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          null,
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 6,
+          "answer": "MARIMBA",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "A percussion instrument with African origins, similar",
+          "softHints": {
+            "startsWith": "M",
+            "length": 7,
+            "category": "music"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "MARGARINE",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 9,
+          "clue": "The solid ingredient of human fat, olive oil, etc",
+          "softHints": {
+            "startsWith": "M",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "COCKATIEL",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 9,
+          "clue": "Nymphicus hollandicus, a small, rather atypical cockatoo with",
+          "softHints": {
+            "startsWith": "C",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "LONGITUDE",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 9,
+          "clue": "Angular distance measured west or east of the prime meridian",
+          "softHints": {
+            "startsWith": "L",
+            "length": 9,
+            "category": "city"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 5,
+          "answer": "CORONA",
+          "direction": "across",
+          "row": 2,
+          "col": 0,
+          "length": 6,
+          "clue": "An upper or crownlike portion of certain parts",
+          "softHints": {
+            "startsWith": "C",
+            "length": 6,
+            "category": "space"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 8,
+          "answer": "DIVER",
+          "direction": "across",
+          "row": 7,
+          "col": 4,
+          "length": 5,
+          "clue": "Someone who works underwater; a frogman",
+          "softHints": {
+            "startsWith": "D",
+            "length": 5,
+            "category": "sports"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "WOK",
+          "direction": "across",
+          "row": 1,
+          "col": 6,
+          "length": 3,
+          "clue": "Any dish prepared using such a pan",
+          "softHints": {
+            "startsWith": "W",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "FEN",
+          "direction": "across",
+          "row": 7,
+          "col": 0,
+          "length": 3,
+          "clue": "Any swamp or mire",
+          "softHints": {
+            "startsWith": "F",
+            "length": 3,
+            "category": "weather"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "Any dish prepared using such a pan",
+            "answer": "WOK",
+            "length": 3
+          },
+          {
+            "number": 5,
+            "clue": "An upper or crownlike portion of certain parts",
+            "answer": "CORONA",
+            "length": 6
+          },
+          {
+            "number": 6,
+            "clue": "A percussion instrument with African origins, similar",
+            "answer": "MARIMBA",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "Any swamp or mire",
+            "answer": "FEN",
+            "length": 3
+          },
+          {
+            "number": 8,
+            "clue": "Someone who works underwater; a frogman",
+            "answer": "DIVER",
+            "length": 5
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "The solid ingredient of human fat, olive oil, etc",
+            "answer": "MARGARINE",
+            "length": 9
+          },
+          {
+            "number": 2,
+            "clue": "Angular distance measured west or east of the prime meridian",
+            "answer": "LONGITUDE",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "Nymphicus hollandicus, a small, rather atypical cockatoo with",
+            "answer": "COCKATIEL",
+            "length": 9
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "space",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 8,
+        "intersections": 9,
+        "boardScore": 0.5737
+      }
+    },
+    {
+      "puzzleId": "space-medium-9x9-0017",
+      "seed": 17,
+      "theme": "space",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "I",
+          "",
+          "C",
+          "",
+          "S",
+          "",
+          "F",
+          ""
+        ],
+        [
+          "",
+          "V",
+          "",
+          "R",
+          "",
+          "C",
+          "",
+          "E",
+          ""
+        ],
+        [
+          "X",
+          "Y",
+          "L",
+          "O",
+          "P",
+          "H",
+          "O",
+          "N",
+          "E"
+        ],
+        [
+          "",
+          "",
+          "",
+          "C",
+          "",
+          "N",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "L",
+          "E",
+          "O",
+          "P",
+          "A",
+          "R",
+          "D",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "D",
+          "",
+          "U",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "I",
+          "",
+          "Z",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "M",
+          "U",
+          "L",
+          "B",
+          "E",
+          "R",
+          "R",
+          "Y"
+        ],
+        [
+          "",
+          "",
+          "",
+          "E",
+          "",
+          "R",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 6,
+          "answer": "LEOPARD",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Panthera pardus, a large wild cat with",
+          "softHints": {
+            "startsWith": "L",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "CROCODILE",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 9,
+          "clue": "A long line or procession of people walking together",
+          "softHints": {
+            "startsWith": "C",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "SCHNAUZER",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 9,
+          "clue": "A dog of a particular breed originating in Germany",
+          "softHints": {
+            "startsWith": "S",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 5,
+          "answer": "XYLOPHONE",
+          "direction": "across",
+          "row": 2,
+          "col": 0,
+          "length": 9,
+          "clue": "Any musical instrument made of wooden slats graduated",
+          "softHints": {
+            "startsWith": "X",
+            "length": 9,
+            "category": "music"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "MULBERRY",
+          "direction": "across",
+          "row": 7,
+          "col": 1,
+          "length": 8,
+          "clue": "The fruit of this tree",
+          "softHints": {
+            "startsWith": "M",
+            "length": 8,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "FEN",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 3,
+          "clue": "Any swamp or mire",
+          "softHints": {
+            "startsWith": "F",
+            "length": 3,
+            "category": "weather"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "IVY",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 3,
+          "clue": "Any similar plant of any genus",
+          "softHints": {
+            "startsWith": "I",
+            "length": 3,
+            "category": "nature"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 5,
+            "clue": "Any musical instrument made of wooden slats graduated",
+            "answer": "XYLOPHONE",
+            "length": 9
+          },
+          {
+            "number": 6,
+            "clue": "Panthera pardus, a large wild cat with",
+            "answer": "LEOPARD",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "The fruit of this tree",
+            "answer": "MULBERRY",
+            "length": 8
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Any similar plant of any genus",
+            "answer": "IVY",
+            "length": 3
+          },
+          {
+            "number": 2,
+            "clue": "A long line or procession of people walking together",
+            "answer": "CROCODILE",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "A dog of a particular breed originating in Germany",
+            "answer": "SCHNAUZER",
+            "length": 9
+          },
+          {
+            "number": 4,
+            "clue": "Any swamp or mire",
+            "answer": "FEN",
+            "length": 3
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "space",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 8,
+        "boardScore": 0.5413
+      }
+    },
+    {
+      "puzzleId": "space-medium-9x9-0018",
+      "seed": 18,
+      "theme": "space",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "T",
+          "",
+          "S",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "B",
+          "A",
+          "R",
+          "R",
+          "A",
+          "C",
+          "U",
+          "D",
+          "A"
+        ],
+        [
+          "",
+          "",
+          "I",
+          "",
+          "X",
+          "",
+          "",
+          "R",
+          ""
+        ],
+        [
+          "",
+          "",
+          "B",
+          "",
+          "",
+          "T",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "P",
+          "U",
+          "D",
+          "D",
+          "I",
+          "N",
+          "G",
+          ""
+        ],
+        [
+          "",
+          "",
+          "T",
+          "",
+          "",
+          "T",
+          "",
+          "S",
+          ""
+        ],
+        [
+          "",
+          "",
+          "A",
+          "",
+          "",
+          "A",
+          "",
+          "T",
+          ""
+        ],
+        [
+          "C",
+          "O",
+          "R",
+          "I",
+          "A",
+          "N",
+          "D",
+          "E",
+          "R"
+        ],
+        [
+          "",
+          "",
+          "Y",
+          "",
+          "",
+          "",
+          "",
+          "R",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 6,
+          "answer": "PUDDING",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Soft sweet dessert served after a meal",
+          "softHints": {
+            "startsWith": "P",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "TRIBUTARY",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 9,
+          "clue": "A vein which drains into another vein",
+          "softHints": {
+            "startsWith": "T",
+            "length": 9,
+            "category": "city"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "BARRACUDA",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 9,
+          "clue": "One who uses harsh or predatory means to compete",
+          "softHints": {
+            "startsWith": "B",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "CORIANDER",
+          "direction": "across",
+          "row": 7,
+          "col": 0,
+          "length": 9,
+          "clue": "The dried fruits thereof, used as a spice",
+          "softHints": {
+            "startsWith": "C",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "DRAGSTER",
+          "direction": "down",
+          "row": 1,
+          "col": 7,
+          "length": 8,
+          "clue": "A drag queen",
+          "softHints": {
+            "startsWith": "D",
+            "length": 8,
+            "category": "travel"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 5,
+          "answer": "TITAN",
+          "direction": "down",
+          "row": 3,
+          "col": 5,
+          "length": 5,
+          "clue": "Something or someone of very large stature, greatness, or godliness",
+          "softHints": {
+            "startsWith": "T",
+            "length": 5,
+            "category": "space"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "SAX",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "clue": "Alternative spelling of zax",
+          "softHints": {
+            "startsWith": "S",
+            "length": 3,
+            "category": "music"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "One who uses harsh or predatory means to compete",
+            "answer": "BARRACUDA",
+            "length": 9
+          },
+          {
+            "number": 6,
+            "clue": "Soft sweet dessert served after a meal",
+            "answer": "PUDDING",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "The dried fruits thereof, used as a spice",
+            "answer": "CORIANDER",
+            "length": 9
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A vein which drains into another vein",
+            "answer": "TRIBUTARY",
+            "length": 9
+          },
+          {
+            "number": 2,
+            "clue": "Alternative spelling of zax",
+            "answer": "SAX",
+            "length": 3
+          },
+          {
+            "number": 4,
+            "clue": "A drag queen",
+            "answer": "DRAGSTER",
+            "length": 8
+          },
+          {
+            "number": 5,
+            "clue": "Something or someone of very large stature, greatness, or godliness",
+            "answer": "TITAN",
+            "length": 5
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "space",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 9,
+        "boardScore": 0.5437
+      }
+    },
+    {
+      "puzzleId": "space-medium-9x9-0019",
+      "seed": 19,
+      "theme": "space",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "C",
+          "",
+          "P",
+          "",
+          "B",
+          "",
+          ""
+        ],
+        [
+          "",
+          "M",
+          "A",
+          "R",
+          "I",
+          "N",
+          "A",
+          "D",
+          "E"
+        ],
+        [
+          "",
+          "",
+          "B",
+          "",
+          "N",
+          "",
+          "D",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "R",
+          "",
+          "S",
+          "",
+          "M",
+          "",
+          ""
+        ],
+        [
+          "",
+          "B",
+          "I",
+          "S",
+          "C",
+          "U",
+          "I",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "",
+          "O",
+          "",
+          "H",
+          "",
+          "N",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "L",
+          "",
+          "E",
+          "",
+          "T",
+          "E",
+          "A"
+        ],
+        [
+          "",
+          "P",
+          "E",
+          "A",
+          "R",
+          "",
+          "O",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "T",
+          "",
+          "",
+          "",
+          "N",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "BISCUIT",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "A cracker",
+          "softHints": {
+            "startsWith": "B",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "CABRIOLET",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 9,
+          "clue": "An automobile with a retractable top",
+          "softHints": {
+            "startsWith": "C",
+            "length": 9,
+            "category": "travel"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "BADMINTON",
+          "direction": "down",
+          "row": 0,
+          "col": 6,
+          "length": 9,
+          "clue": "A cooling summer drink made with claret, sugar,",
+          "softHints": {
+            "startsWith": "B",
+            "length": 9,
+            "category": "sports"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "PINSCHER",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 8,
+          "clue": "Any of several breeds of dog",
+          "softHints": {
+            "startsWith": "P",
+            "length": 8,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "MARINADE",
+          "direction": "across",
+          "row": 1,
+          "col": 1,
+          "length": 8,
+          "clue": "A seasoned, often acidic liquid mixture in which",
+          "softHints": {
+            "startsWith": "M",
+            "length": 8,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "PEAR",
+          "direction": "across",
+          "row": 7,
+          "col": 1,
+          "length": 4,
+          "clue": "Sweet teardrop-shaped fruit",
+          "softHints": {
+            "startsWith": "P",
+            "length": 4,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "TEA",
+          "direction": "across",
+          "row": 6,
+          "col": 6,
+          "length": 3,
+          "clue": "The drink made by infusing these dried leaves",
+          "softHints": {
+            "startsWith": "T",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "A seasoned, often acidic liquid mixture in which",
+            "answer": "MARINADE",
+            "length": 8
+          },
+          {
+            "number": 5,
+            "clue": "A cracker",
+            "answer": "BISCUIT",
+            "length": 7
+          },
+          {
+            "number": 6,
+            "clue": "The drink made by infusing these dried leaves",
+            "answer": "TEA",
+            "length": 3
+          },
+          {
+            "number": 7,
+            "clue": "Sweet teardrop-shaped fruit",
+            "answer": "PEAR",
+            "length": 4
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "An automobile with a retractable top",
+            "answer": "CABRIOLET",
+            "length": 9
+          },
+          {
+            "number": 2,
+            "clue": "Any of several breeds of dog",
+            "answer": "PINSCHER",
+            "length": 8
+          },
+          {
+            "number": 3,
+            "clue": "A cooling summer drink made with claret, sugar,",
+            "answer": "BADMINTON",
+            "length": 9
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "space",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 9,
+        "boardScore": 0.5388
+      }
+    },
+    {
+      "puzzleId": "space-medium-9x9-0020",
+      "seed": 20,
+      "theme": "space",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "T",
+          "",
+          "",
+          "C",
+          "",
+          "H",
+          ""
+        ],
+        [
+          "",
+          "",
+          "E",
+          "",
+          "M",
+          "A",
+          "C",
+          "A",
+          "W"
+        ],
+        [
+          "L",
+          "I",
+          "L",
+          "Y",
+          "",
+          "B",
+          "",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "",
+          "E",
+          "",
+          "",
+          "R",
+          "",
+          "C",
+          ""
+        ],
+        [
+          "",
+          "O",
+          "S",
+          "T",
+          "R",
+          "I",
+          "C",
+          "H",
+          ""
+        ],
+        [
+          "",
+          "",
+          "C",
+          "",
+          "",
+          "O",
+          "",
+          "B",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "O",
+          "R",
+          "O",
+          "L",
+          "L",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "",
+          "P",
+          "",
+          "",
+          "E",
+          "",
+          "C",
+          ""
+        ],
+        [
+          "",
+          "",
+          "E",
+          "",
+          "",
+          "T",
+          "",
+          "K",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 6,
+          "answer": "OSTRICH",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "A large flightless bird of the order Struthioniformes",
+          "softHints": {
+            "startsWith": "O",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "CABRIOLET",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 9,
+          "clue": "An automobile with a retractable top",
+          "softHints": {
+            "startsWith": "C",
+            "length": 9,
+            "category": "travel"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "TELESCOPE",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 9,
+          "clue": "A retractable tubular support for lights",
+          "softHints": {
+            "startsWith": "T",
+            "length": 9,
+            "category": "space"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "HATCHBACK",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 9,
+          "clue": "The door itself",
+          "softHints": {
+            "startsWith": "H",
+            "length": 9,
+            "category": "travel"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "COROLLA",
+          "direction": "across",
+          "row": 6,
+          "col": 1,
+          "length": 7,
+          "clue": "The outermost-but-one whorl of a flower, composed",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "nature"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "MACAW",
+          "direction": "across",
+          "row": 1,
+          "col": 4,
+          "length": 5,
+          "clue": "Any of various parrots of the genera Ara,",
+          "softHints": {
+            "startsWith": "M",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 5,
+          "answer": "LILY",
+          "direction": "across",
+          "row": 2,
+          "col": 0,
+          "length": 4,
+          "clue": "The flower used as a heraldic charge; also",
+          "softHints": {
+            "startsWith": "L",
+            "length": 4,
+            "category": "nature"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "Any of various parrots of the genera Ara,",
+            "answer": "MACAW",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "The flower used as a heraldic charge; also",
+            "answer": "LILY",
+            "length": 4
+          },
+          {
+            "number": 6,
+            "clue": "A large flightless bird of the order Struthioniformes",
+            "answer": "OSTRICH",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "The outermost-but-one whorl of a flower, composed",
+            "answer": "COROLLA",
+            "length": 7
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A retractable tubular support for lights",
+            "answer": "TELESCOPE",
+            "length": 9
+          },
+          {
+            "number": 2,
+            "clue": "An automobile with a retractable top",
+            "answer": "CABRIOLET",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "The door itself",
+            "answer": "HATCHBACK",
+            "length": 9
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "space",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 9,
+        "boardScore": 0.5437
+      }
+    }
+  ]
+}

@@ -1,0 +1,5156 @@
+{
+  "packId": "food-easy",
+  "title": "Kitchen Fun",
+  "theme": "food",
+  "difficulty": "easy",
+  "boardSize": "mini",
+  "puzzleCount": 20,
+  "version": "1.0.0",
+  "createdAt": "2026-03-18",
+  "puzzles": [
+    {
+      "puzzleId": "food-easy-7x7-0001",
+      "seed": 1,
+      "theme": "food",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "C",
+          "",
+          "",
+          "K",
+          "",
+          ""
+        ],
+        [
+          "",
+          "U",
+          "",
+          "F",
+          "I",
+          "S",
+          "H"
+        ],
+        [
+          "",
+          "I",
+          "",
+          "",
+          "T",
+          "",
+          ""
+        ],
+        [
+          "",
+          "S",
+          "P",
+          "I",
+          "C",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "I",
+          "",
+          "",
+          "H",
+          "",
+          ""
+        ],
+        [
+          "",
+          "N",
+          "",
+          "M",
+          "E",
+          "A",
+          "T"
+        ],
+        [
+          "",
+          "E",
+          "",
+          "",
+          "N",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "SPICE",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "The quality of being spicy",
+          "softHints": {
+            "startsWith": "S",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "KITCHEN",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "clue": "Cuisine; style of cooking",
+          "softHints": {
+            "startsWith": "K",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "CUISINE",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 7,
+          "clue": "The food prepared using such style",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "FISH",
+          "direction": "across",
+          "row": 1,
+          "col": 3,
+          "length": 4,
+          "clue": "A paraphyletic grouping of the following taxonomic groups:",
+          "softHints": {
+            "startsWith": "F",
+            "length": 4,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 5,
+          "answer": "MEAT",
+          "direction": "across",
+          "row": 5,
+          "col": 3,
+          "length": 4,
+          "clue": "Food, for animals or humans, especially solid food",
+          "softHints": {
+            "startsWith": "M",
+            "length": 4,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "A paraphyletic grouping of the following taxonomic groups:",
+            "answer": "FISH",
+            "length": 4
+          },
+          {
+            "number": 4,
+            "clue": "The quality of being spicy",
+            "answer": "SPICE",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "Food, for animals or humans, especially solid food",
+            "answer": "MEAT",
+            "length": 4
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "The food prepared using such style",
+            "answer": "CUISINE",
+            "length": 7
+          },
+          {
+            "number": 2,
+            "clue": "Cuisine; style of cooking",
+            "answer": "KITCHEN",
+            "length": 7
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "food",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 5,
+        "intersections": 4,
+        "boardScore": 0.4314
+      }
+    },
+    {
+      "puzzleId": "food-easy-7x7-0002",
+      "seed": 2,
+      "theme": "food",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "C",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "O",
+          "",
+          "U",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "R",
+          "",
+          "I",
+          ""
+        ],
+        [
+          "",
+          "B",
+          "E",
+          "A",
+          "N",
+          "S",
+          ""
+        ],
+        [
+          "",
+          "E",
+          "",
+          "N",
+          "",
+          "I",
+          ""
+        ],
+        [
+          "",
+          "E",
+          "",
+          "G",
+          "",
+          "N",
+          ""
+        ],
+        [
+          "",
+          "R",
+          "",
+          "E",
+          "",
+          "E",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 3,
+          "answer": "BEANS",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Plural of bean",
+          "softHints": {
+            "startsWith": "B",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "CUISINE",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 7,
+          "clue": "The food prepared using such style",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "ORANGE",
+          "direction": "down",
+          "row": 1,
+          "col": 3,
+          "length": 6,
+          "clue": "An evergreen tree of the genus Citrus such",
+          "softHints": {
+            "startsWith": "O",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "BEER",
+          "direction": "down",
+          "row": 3,
+          "col": 1,
+          "length": 4,
+          "clue": "A solution produced by steeping plant materials",
+          "softHints": {
+            "startsWith": "B",
+            "length": 4,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "Plural of bean",
+            "answer": "BEANS",
+            "length": 5
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "The food prepared using such style",
+            "answer": "CUISINE",
+            "length": 7
+          },
+          {
+            "number": 2,
+            "clue": "An evergreen tree of the genus Citrus such",
+            "answer": "ORANGE",
+            "length": 6
+          },
+          {
+            "number": 3,
+            "clue": "A solution produced by steeping plant materials",
+            "answer": "BEER",
+            "length": 4
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "food",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 4,
+        "intersections": 3,
+        "boardScore": 0.3751
+      }
+    },
+    {
+      "puzzleId": "food-easy-7x7-0003",
+      "seed": 3,
+      "theme": "food",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "S",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "P",
+          "O",
+          "T",
+          "",
+          "",
+          "C",
+          ""
+        ],
+        [
+          "",
+          "U",
+          "",
+          "P",
+          "",
+          "H",
+          ""
+        ],
+        [
+          "",
+          "P",
+          "L",
+          "A",
+          "T",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "S",
+          "",
+          "R",
+          ""
+        ],
+        [
+          "B",
+          "U",
+          "T",
+          "T",
+          "E",
+          "R",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "E",
+          "",
+          "Y",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "PLATE",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Such dishes collectively",
+          "softHints": {
+            "startsWith": "P",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "CHERRY",
+          "direction": "down",
+          "row": 1,
+          "col": 5,
+          "length": 6,
+          "clue": "Prunus subg. Cerasus, trees or shrubs that bear cherries",
+          "softHints": {
+            "startsWith": "C",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 6,
+          "answer": "BUTTER",
+          "direction": "across",
+          "row": 5,
+          "col": 0,
+          "length": 6,
+          "clue": "A soft, fatty foodstuff made by churning",
+          "softHints": {
+            "startsWith": "B",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 4,
+          "answer": "PASTE",
+          "direction": "down",
+          "row": 2,
+          "col": 3,
+          "length": 5,
+          "clue": "A soft moist mixture, in particular:",
+          "softHints": {
+            "startsWith": "P",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "SOUP",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "clue": "A serving of such a dish, typically in a bowl",
+          "softHints": {
+            "startsWith": "S",
+            "length": 4,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "POT",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "clue": "Various similar open-topped vessels, particularly",
+          "softHints": {
+            "startsWith": "P",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 2,
+            "clue": "Various similar open-topped vessels, particularly",
+            "answer": "POT",
+            "length": 3
+          },
+          {
+            "number": 5,
+            "clue": "Such dishes collectively",
+            "answer": "PLATE",
+            "length": 5
+          },
+          {
+            "number": 6,
+            "clue": "A soft, fatty foodstuff made by churning",
+            "answer": "BUTTER",
+            "length": 6
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A serving of such a dish, typically in a bowl",
+            "answer": "SOUP",
+            "length": 4
+          },
+          {
+            "number": 3,
+            "clue": "Prunus subg. Cerasus, trees or shrubs that bear cherries",
+            "answer": "CHERRY",
+            "length": 6
+          },
+          {
+            "number": 4,
+            "clue": "A soft moist mixture, in particular:",
+            "answer": "PASTE",
+            "length": 5
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "food",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 6,
+        "intersections": 6,
+        "boardScore": 0.5089
+      }
+    },
+    {
+      "puzzleId": "food-easy-7x7-0004",
+      "seed": 4,
+      "theme": "food",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "K",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "P",
+          "I",
+          "Z",
+          "Z",
+          "A",
+          "",
+          ""
+        ],
+        [
+          "",
+          "T",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "A",
+          "N",
+          "D",
+          "Y",
+          ""
+        ],
+        [
+          "",
+          "H",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "P",
+          "E",
+          "P",
+          "P",
+          "E",
+          "R",
+          ""
+        ],
+        [
+          "",
+          "N",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 3,
+          "answer": "CANDY",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "A piece of confectionery of this kind",
+          "softHints": {
+            "startsWith": "C",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "KITCHEN",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 7,
+          "clue": "Cuisine; style of cooking",
+          "softHints": {
+            "startsWith": "K",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 4,
+          "answer": "PEPPER",
+          "direction": "across",
+          "row": 5,
+          "col": 0,
+          "length": 6,
+          "clue": "A plant of the family Piperaceae",
+          "softHints": {
+            "startsWith": "P",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "PIZZA",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "clue": "A single instance of this dish",
+          "softHints": {
+            "startsWith": "P",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 2,
+            "clue": "A single instance of this dish",
+            "answer": "PIZZA",
+            "length": 5
+          },
+          {
+            "number": 3,
+            "clue": "A piece of confectionery of this kind",
+            "answer": "CANDY",
+            "length": 5
+          },
+          {
+            "number": 4,
+            "clue": "A plant of the family Piperaceae",
+            "answer": "PEPPER",
+            "length": 6
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Cuisine; style of cooking",
+            "answer": "KITCHEN",
+            "length": 7
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "food",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 4,
+        "intersections": 3,
+        "boardScore": 0.3791
+      }
+    },
+    {
+      "puzzleId": "food-easy-7x7-0005",
+      "seed": 5,
+      "theme": "food",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "C",
+          "",
+          "",
+          "K",
+          "",
+          ""
+        ],
+        [
+          "",
+          "U",
+          "",
+          "R",
+          "I",
+          "C",
+          "E"
+        ],
+        [
+          "",
+          "I",
+          "",
+          "",
+          "T",
+          "",
+          ""
+        ],
+        [
+          "",
+          "S",
+          "P",
+          "I",
+          "C",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "I",
+          "",
+          "",
+          "H",
+          "",
+          ""
+        ],
+        [
+          "",
+          "N",
+          "",
+          "M",
+          "E",
+          "A",
+          "T"
+        ],
+        [
+          "",
+          "E",
+          "",
+          "",
+          "N",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "SPICE",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "The quality of being spicy",
+          "softHints": {
+            "startsWith": "S",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "KITCHEN",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "clue": "Cuisine; style of cooking",
+          "softHints": {
+            "startsWith": "K",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "CUISINE",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 7,
+          "clue": "The food prepared using such style",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "RICE",
+          "direction": "across",
+          "row": 1,
+          "col": 3,
+          "length": 4,
+          "clue": "A specific variety of this plant",
+          "softHints": {
+            "startsWith": "R",
+            "length": 4,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 5,
+          "answer": "MEAT",
+          "direction": "across",
+          "row": 5,
+          "col": 3,
+          "length": 4,
+          "clue": "Food, for animals or humans, especially solid food",
+          "softHints": {
+            "startsWith": "M",
+            "length": 4,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "A specific variety of this plant",
+            "answer": "RICE",
+            "length": 4
+          },
+          {
+            "number": 4,
+            "clue": "The quality of being spicy",
+            "answer": "SPICE",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "Food, for animals or humans, especially solid food",
+            "answer": "MEAT",
+            "length": 4
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "The food prepared using such style",
+            "answer": "CUISINE",
+            "length": 7
+          },
+          {
+            "number": 2,
+            "clue": "Cuisine; style of cooking",
+            "answer": "KITCHEN",
+            "length": 7
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "food",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 5,
+        "intersections": 4,
+        "boardScore": 0.4314
+      }
+    },
+    {
+      "puzzleId": "food-easy-7x7-0006",
+      "seed": 6,
+      "theme": "food",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "C",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "B",
+          "U",
+          "T",
+          "T",
+          "E",
+          "R",
+          ""
+        ],
+        [
+          "",
+          "I",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "S",
+          "U",
+          "G",
+          "A",
+          "R",
+          ""
+        ],
+        [
+          "",
+          "I",
+          "",
+          "",
+          "",
+          "I",
+          ""
+        ],
+        [
+          "",
+          "N",
+          "U",
+          "T",
+          "",
+          "C",
+          ""
+        ],
+        [
+          "",
+          "E",
+          "",
+          "",
+          "",
+          "E",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 3,
+          "answer": "SUGAR",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Any of various small carbohydrates that are used",
+          "softHints": {
+            "startsWith": "S",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "CUISINE",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 7,
+          "clue": "The food prepared using such style",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "BUTTER",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 6,
+          "clue": "A soft, fatty foodstuff made by churning",
+          "softHints": {
+            "startsWith": "B",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 4,
+          "answer": "RICE",
+          "direction": "down",
+          "row": 3,
+          "col": 5,
+          "length": 4,
+          "clue": "A specific variety of this plant",
+          "softHints": {
+            "startsWith": "R",
+            "length": 4,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 5,
+          "answer": "NUT",
+          "direction": "across",
+          "row": 5,
+          "col": 1,
+          "length": 3,
+          "clue": "Such a fruit that is indehiscent",
+          "softHints": {
+            "startsWith": "N",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 2,
+            "clue": "A soft, fatty foodstuff made by churning",
+            "answer": "BUTTER",
+            "length": 6
+          },
+          {
+            "number": 3,
+            "clue": "Any of various small carbohydrates that are used",
+            "answer": "SUGAR",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "Such a fruit that is indehiscent",
+            "answer": "NUT",
+            "length": 3
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "The food prepared using such style",
+            "answer": "CUISINE",
+            "length": 7
+          },
+          {
+            "number": 4,
+            "clue": "A specific variety of this plant",
+            "answer": "RICE",
+            "length": 4
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "food",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 5,
+        "intersections": 4,
+        "boardScore": 0.4232
+      }
+    },
+    {
+      "puzzleId": "food-easy-7x7-0007",
+      "seed": 7,
+      "theme": "food",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "C",
+          "",
+          "",
+          "K",
+          "",
+          ""
+        ],
+        [
+          "",
+          "U",
+          "",
+          "F",
+          "I",
+          "S",
+          "H"
+        ],
+        [
+          "",
+          "I",
+          "",
+          "",
+          "T",
+          "",
+          ""
+        ],
+        [
+          "",
+          "S",
+          "P",
+          "I",
+          "C",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "I",
+          "",
+          "",
+          "H",
+          "",
+          ""
+        ],
+        [
+          "",
+          "N",
+          "",
+          "B",
+          "E",
+          "E",
+          "R"
+        ],
+        [
+          "",
+          "E",
+          "",
+          "",
+          "N",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "SPICE",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "The quality of being spicy",
+          "softHints": {
+            "startsWith": "S",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "CUISINE",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 7,
+          "clue": "The food prepared using such style",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "KITCHEN",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "clue": "Cuisine; style of cooking",
+          "softHints": {
+            "startsWith": "K",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "FISH",
+          "direction": "across",
+          "row": 1,
+          "col": 3,
+          "length": 4,
+          "clue": "A paraphyletic grouping of the following taxonomic groups:",
+          "softHints": {
+            "startsWith": "F",
+            "length": 4,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 5,
+          "answer": "BEER",
+          "direction": "across",
+          "row": 5,
+          "col": 3,
+          "length": 4,
+          "clue": "A solution produced by steeping plant materials",
+          "softHints": {
+            "startsWith": "B",
+            "length": 4,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "A paraphyletic grouping of the following taxonomic groups:",
+            "answer": "FISH",
+            "length": 4
+          },
+          {
+            "number": 4,
+            "clue": "The quality of being spicy",
+            "answer": "SPICE",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "A solution produced by steeping plant materials",
+            "answer": "BEER",
+            "length": 4
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "The food prepared using such style",
+            "answer": "CUISINE",
+            "length": 7
+          },
+          {
+            "number": 2,
+            "clue": "Cuisine; style of cooking",
+            "answer": "KITCHEN",
+            "length": 7
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "food",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 5,
+        "intersections": 4,
+        "boardScore": 0.4314
+      }
+    },
+    {
+      "puzzleId": "food-easy-7x7-0008",
+      "seed": 8,
+      "theme": "food",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "C",
+          ""
+        ],
+        [
+          "R",
+          "I",
+          "C",
+          "E",
+          "",
+          "U",
+          ""
+        ],
+        [
+          "",
+          "",
+          "H",
+          "",
+          "",
+          "I",
+          ""
+        ],
+        [
+          "",
+          "B",
+          "E",
+          "A",
+          "N",
+          "S",
+          ""
+        ],
+        [
+          "",
+          "",
+          "R",
+          "",
+          "",
+          "I",
+          ""
+        ],
+        [
+          "",
+          "",
+          "R",
+          "",
+          "",
+          "N",
+          ""
+        ],
+        [
+          "",
+          "",
+          "Y",
+          "",
+          "",
+          "E",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "BEANS",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Plural of bean",
+          "softHints": {
+            "startsWith": "B",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "CUISINE",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 7,
+          "clue": "The food prepared using such style",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "CHERRY",
+          "direction": "down",
+          "row": 1,
+          "col": 2,
+          "length": 6,
+          "clue": "Prunus subg. Cerasus, trees or shrubs that bear cherries",
+          "softHints": {
+            "startsWith": "C",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "RICE",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "clue": "A specific variety of this plant",
+          "softHints": {
+            "startsWith": "R",
+            "length": 4,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 2,
+            "clue": "A specific variety of this plant",
+            "answer": "RICE",
+            "length": 4
+          },
+          {
+            "number": 4,
+            "clue": "Plural of bean",
+            "answer": "BEANS",
+            "length": 5
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "The food prepared using such style",
+            "answer": "CUISINE",
+            "length": 7
+          },
+          {
+            "number": 3,
+            "clue": "Prunus subg. Cerasus, trees or shrubs that bear cherries",
+            "answer": "CHERRY",
+            "length": 6
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "food",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 4,
+        "intersections": 3,
+        "boardScore": 0.3751
+      }
+    },
+    {
+      "puzzleId": "food-easy-7x7-0009",
+      "seed": 9,
+      "theme": "food",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "R",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "H",
+          "E",
+          "E",
+          "S",
+          "E"
+        ],
+        [
+          "",
+          "",
+          "",
+          "C",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "D",
+          "R",
+          "I",
+          "N",
+          "K",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "P",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "H",
+          "E",
+          "R",
+          "R",
+          "Y"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 3,
+          "answer": "DRINK",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "To consume alcoholic beverages",
+          "softHints": {
+            "startsWith": "D",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "RECIPE",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 6,
+          "clue": "Any set of instructions for preparing a mixture of ingredients",
+          "softHints": {
+            "startsWith": "R",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "CHEESE",
+          "direction": "across",
+          "row": 1,
+          "col": 1,
+          "length": 6,
+          "clue": "A dairy product made from curdled or cultured milk",
+          "softHints": {
+            "startsWith": "C",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 4,
+          "answer": "CHERRY",
+          "direction": "across",
+          "row": 5,
+          "col": 1,
+          "length": 6,
+          "clue": "Prunus subg. Cerasus, trees or shrubs that bear cherries",
+          "softHints": {
+            "startsWith": "C",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 2,
+            "clue": "A dairy product made from curdled or cultured milk",
+            "answer": "CHEESE",
+            "length": 6
+          },
+          {
+            "number": 3,
+            "clue": "To consume alcoholic beverages",
+            "answer": "DRINK",
+            "length": 5
+          },
+          {
+            "number": 4,
+            "clue": "Prunus subg. Cerasus, trees or shrubs that bear cherries",
+            "answer": "CHERRY",
+            "length": 6
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Any set of instructions for preparing a mixture of ingredients",
+            "answer": "RECIPE",
+            "length": 6
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "food",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 4,
+        "intersections": 3,
+        "boardScore": 0.3791
+      }
+    },
+    {
+      "puzzleId": "food-easy-7x7-0010",
+      "seed": 10,
+      "theme": "food",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "",
+          "K",
+          "",
+          ""
+        ],
+        [
+          "C",
+          "U",
+          "I",
+          "S",
+          "I",
+          "N",
+          "E"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "T",
+          "",
+          ""
+        ],
+        [
+          "",
+          "J",
+          "U",
+          "I",
+          "C",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "H",
+          "",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "H",
+          "E",
+          "E",
+          "S",
+          "E"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "N",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 3,
+          "answer": "JUICE",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "A liquid made from plant, especially fruit",
+          "softHints": {
+            "startsWith": "J",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "KITCHEN",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "clue": "Cuisine; style of cooking",
+          "softHints": {
+            "startsWith": "K",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "CUISINE",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 7,
+          "clue": "The food prepared using such style",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 4,
+          "answer": "CHEESE",
+          "direction": "across",
+          "row": 5,
+          "col": 1,
+          "length": 6,
+          "clue": "A dairy product made from curdled or cultured milk",
+          "softHints": {
+            "startsWith": "C",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 2,
+            "clue": "The food prepared using such style",
+            "answer": "CUISINE",
+            "length": 7
+          },
+          {
+            "number": 3,
+            "clue": "A liquid made from plant, especially fruit",
+            "answer": "JUICE",
+            "length": 5
+          },
+          {
+            "number": 4,
+            "clue": "A dairy product made from curdled or cultured milk",
+            "answer": "CHEESE",
+            "length": 6
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Cuisine; style of cooking",
+            "answer": "KITCHEN",
+            "length": 7
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "food",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 4,
+        "intersections": 3,
+        "boardScore": 0.3873
+      }
+    },
+    {
+      "puzzleId": "food-easy-7x7-0011",
+      "seed": 11,
+      "theme": "food",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "",
+          "K",
+          "",
+          ""
+        ],
+        [
+          "C",
+          "U",
+          "I",
+          "S",
+          "I",
+          "N",
+          "E"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "T",
+          "",
+          ""
+        ],
+        [
+          "",
+          "J",
+          "U",
+          "I",
+          "C",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "H",
+          "",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "H",
+          "E",
+          "E",
+          "S",
+          "E"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "N",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 3,
+          "answer": "JUICE",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "A liquid made from plant, especially fruit",
+          "softHints": {
+            "startsWith": "J",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "KITCHEN",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "clue": "Cuisine; style of cooking",
+          "softHints": {
+            "startsWith": "K",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "CUISINE",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 7,
+          "clue": "The food prepared using such style",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 4,
+          "answer": "CHEESE",
+          "direction": "across",
+          "row": 5,
+          "col": 1,
+          "length": 6,
+          "clue": "A dairy product made from curdled or cultured milk",
+          "softHints": {
+            "startsWith": "C",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 2,
+            "clue": "The food prepared using such style",
+            "answer": "CUISINE",
+            "length": 7
+          },
+          {
+            "number": 3,
+            "clue": "A liquid made from plant, especially fruit",
+            "answer": "JUICE",
+            "length": 5
+          },
+          {
+            "number": 4,
+            "clue": "A dairy product made from curdled or cultured milk",
+            "answer": "CHEESE",
+            "length": 6
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Cuisine; style of cooking",
+            "answer": "KITCHEN",
+            "length": 7
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "food",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 4,
+        "intersections": 3,
+        "boardScore": 0.3873
+      }
+    },
+    {
+      "puzzleId": "food-easy-7x7-0012",
+      "seed": 12,
+      "theme": "food",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "P",
+          "",
+          "O",
+          "",
+          "C",
+          ""
+        ],
+        [
+          "",
+          "E",
+          "",
+          "R",
+          "",
+          "H",
+          ""
+        ],
+        [
+          "",
+          "P",
+          "L",
+          "A",
+          "T",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "P",
+          "",
+          "N",
+          "",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "E",
+          "",
+          "G",
+          "",
+          "S",
+          ""
+        ],
+        [
+          "",
+          "R",
+          "",
+          "E",
+          "",
+          "E",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "PLATE",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Such dishes collectively",
+          "softHints": {
+            "startsWith": "P",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "PEPPER",
+          "direction": "down",
+          "row": 1,
+          "col": 1,
+          "length": 6,
+          "clue": "A plant of the family Piperaceae",
+          "softHints": {
+            "startsWith": "P",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "ORANGE",
+          "direction": "down",
+          "row": 1,
+          "col": 3,
+          "length": 6,
+          "clue": "An evergreen tree of the genus Citrus such",
+          "softHints": {
+            "startsWith": "O",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "CHEESE",
+          "direction": "down",
+          "row": 1,
+          "col": 5,
+          "length": 6,
+          "clue": "A dairy product made from curdled or cultured milk",
+          "softHints": {
+            "startsWith": "C",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "Such dishes collectively",
+            "answer": "PLATE",
+            "length": 5
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A plant of the family Piperaceae",
+            "answer": "PEPPER",
+            "length": 6
+          },
+          {
+            "number": 2,
+            "clue": "An evergreen tree of the genus Citrus such",
+            "answer": "ORANGE",
+            "length": 6
+          },
+          {
+            "number": 3,
+            "clue": "A dairy product made from curdled or cultured milk",
+            "answer": "CHEESE",
+            "length": 6
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "food",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 4,
+        "intersections": 3,
+        "boardScore": 0.3791
+      }
+    },
+    {
+      "puzzleId": "food-easy-7x7-0013",
+      "seed": 13,
+      "theme": "food",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "K",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "I",
+          "",
+          "C",
+          "",
+          "L",
+          ""
+        ],
+        [
+          "",
+          "T",
+          "",
+          "H",
+          "",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "R",
+          "E",
+          "A",
+          "M",
+          ""
+        ],
+        [
+          "",
+          "H",
+          "",
+          "R",
+          "",
+          "O",
+          ""
+        ],
+        [
+          "B",
+          "E",
+          "E",
+          "R",
+          "",
+          "N",
+          ""
+        ],
+        [
+          "",
+          "N",
+          "",
+          "Y",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "CREAM",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "The butterfat or milkfat part of milk which",
+          "softHints": {
+            "startsWith": "C",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "KITCHEN",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 7,
+          "clue": "Cuisine; style of cooking",
+          "softHints": {
+            "startsWith": "K",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "CHERRY",
+          "direction": "down",
+          "row": 1,
+          "col": 3,
+          "length": 6,
+          "clue": "Prunus subg. Cerasus, trees or shrubs that bear cherries",
+          "softHints": {
+            "startsWith": "C",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "LEMON",
+          "direction": "down",
+          "row": 1,
+          "col": 5,
+          "length": 5,
+          "clue": "A yellowish citrus fruit",
+          "softHints": {
+            "startsWith": "L",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 5,
+          "answer": "BEER",
+          "direction": "across",
+          "row": 5,
+          "col": 0,
+          "length": 4,
+          "clue": "A solution produced by steeping plant materials",
+          "softHints": {
+            "startsWith": "B",
+            "length": 4,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "The butterfat or milkfat part of milk which",
+            "answer": "CREAM",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "A solution produced by steeping plant materials",
+            "answer": "BEER",
+            "length": 4
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Cuisine; style of cooking",
+            "answer": "KITCHEN",
+            "length": 7
+          },
+          {
+            "number": 2,
+            "clue": "Prunus subg. Cerasus, trees or shrubs that bear cherries",
+            "answer": "CHERRY",
+            "length": 6
+          },
+          {
+            "number": 3,
+            "clue": "A yellowish citrus fruit",
+            "answer": "LEMON",
+            "length": 5
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "food",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 5,
+        "intersections": 5,
+        "boardScore": 0.4773
+      }
+    },
+    {
+      "puzzleId": "food-easy-7x7-0014",
+      "seed": 14,
+      "theme": "food",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "",
+          "C",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "C",
+          "",
+          "U",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "H",
+          "",
+          "I",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Y",
+          "E",
+          "A",
+          "S",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "",
+          "E",
+          "",
+          "I",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "S",
+          "",
+          "N",
+          "U",
+          "T"
+        ],
+        [
+          "",
+          "",
+          "E",
+          "",
+          "E",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 3,
+          "answer": "YEAST",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "A single-celled fungus of a wide variety of taxonomic families",
+          "softHints": {
+            "startsWith": "Y",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "CUISINE",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "clue": "The food prepared using such style",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "CHEESE",
+          "direction": "down",
+          "row": 1,
+          "col": 2,
+          "length": 6,
+          "clue": "A dairy product made from curdled or cultured milk",
+          "softHints": {
+            "startsWith": "C",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 4,
+          "answer": "NUT",
+          "direction": "across",
+          "row": 5,
+          "col": 4,
+          "length": 3,
+          "clue": "Such a fruit that is indehiscent",
+          "softHints": {
+            "startsWith": "N",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "A single-celled fungus of a wide variety of taxonomic families",
+            "answer": "YEAST",
+            "length": 5
+          },
+          {
+            "number": 4,
+            "clue": "Such a fruit that is indehiscent",
+            "answer": "NUT",
+            "length": 3
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "The food prepared using such style",
+            "answer": "CUISINE",
+            "length": 7
+          },
+          {
+            "number": 2,
+            "clue": "A dairy product made from curdled or cultured milk",
+            "answer": "CHEESE",
+            "length": 6
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "food",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 4,
+        "intersections": 3,
+        "boardScore": 0.371
+      }
+    },
+    {
+      "puzzleId": "food-easy-7x7-0015",
+      "seed": 15,
+      "theme": "food",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "C",
+          "",
+          "",
+          "B",
+          "",
+          ""
+        ],
+        [
+          "",
+          "U",
+          "",
+          "S",
+          "A",
+          "G",
+          "E"
+        ],
+        [
+          "",
+          "I",
+          "",
+          "",
+          "N",
+          "",
+          ""
+        ],
+        [
+          "",
+          "S",
+          "U",
+          "G",
+          "A",
+          "R",
+          ""
+        ],
+        [
+          "",
+          "I",
+          "",
+          "",
+          "N",
+          "",
+          ""
+        ],
+        [
+          "",
+          "N",
+          "",
+          "S",
+          "A",
+          "L",
+          "T"
+        ],
+        [
+          "",
+          "E",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "SUGAR",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Any of various small carbohydrates that are used",
+          "softHints": {
+            "startsWith": "S",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "CUISINE",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 7,
+          "clue": "The food prepared using such style",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "BANANA",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 6,
+          "clue": "In particular, the sweet, yellow fruit of",
+          "softHints": {
+            "startsWith": "B",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "SAGE",
+          "direction": "across",
+          "row": 1,
+          "col": 3,
+          "length": 4,
+          "clue": "Grave; serious; solemn",
+          "softHints": {
+            "startsWith": "S",
+            "length": 4,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 5,
+          "answer": "SALT",
+          "direction": "across",
+          "row": 5,
+          "col": 3,
+          "length": 4,
+          "clue": "One of the compounds formed from the reaction",
+          "softHints": {
+            "startsWith": "S",
+            "length": 4,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "Grave; serious; solemn",
+            "answer": "SAGE",
+            "length": 4
+          },
+          {
+            "number": 4,
+            "clue": "Any of various small carbohydrates that are used",
+            "answer": "SUGAR",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "One of the compounds formed from the reaction",
+            "answer": "SALT",
+            "length": 4
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "The food prepared using such style",
+            "answer": "CUISINE",
+            "length": 7
+          },
+          {
+            "number": 2,
+            "clue": "In particular, the sweet, yellow fruit of",
+            "answer": "BANANA",
+            "length": 6
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "food",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 5,
+        "intersections": 4,
+        "boardScore": 0.4273
+      }
+    },
+    {
+      "puzzleId": "food-easy-7x7-0016",
+      "seed": 16,
+      "theme": "food",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "B",
+          "A",
+          "Y"
+        ],
+        [
+          "",
+          "S",
+          "",
+          "",
+          "U",
+          "",
+          ""
+        ],
+        [
+          "",
+          "P",
+          "L",
+          "A",
+          "T",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "I",
+          "",
+          "",
+          "T",
+          "",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "H",
+          "E",
+          "E",
+          "S",
+          "E"
+        ],
+        [
+          "",
+          "E",
+          "",
+          "",
+          "R",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 3,
+          "answer": "PLATE",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Such dishes collectively",
+          "softHints": {
+            "startsWith": "P",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "BUTTER",
+          "direction": "down",
+          "row": 1,
+          "col": 4,
+          "length": 6,
+          "clue": "A soft, fatty foodstuff made by churning",
+          "softHints": {
+            "startsWith": "B",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 4,
+          "answer": "CHEESE",
+          "direction": "across",
+          "row": 5,
+          "col": 1,
+          "length": 6,
+          "clue": "A dairy product made from curdled or cultured milk",
+          "softHints": {
+            "startsWith": "C",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "SPICE",
+          "direction": "down",
+          "row": 2,
+          "col": 1,
+          "length": 5,
+          "clue": "The quality of being spicy",
+          "softHints": {
+            "startsWith": "S",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "BAY",
+          "direction": "across",
+          "row": 1,
+          "col": 4,
+          "length": 3,
+          "clue": "A bank or dam to keep back water",
+          "softHints": {
+            "startsWith": "B",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 1,
+            "clue": "A bank or dam to keep back water",
+            "answer": "BAY",
+            "length": 3
+          },
+          {
+            "number": 3,
+            "clue": "Such dishes collectively",
+            "answer": "PLATE",
+            "length": 5
+          },
+          {
+            "number": 4,
+            "clue": "A dairy product made from curdled or cultured milk",
+            "answer": "CHEESE",
+            "length": 6
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A soft, fatty foodstuff made by churning",
+            "answer": "BUTTER",
+            "length": 6
+          },
+          {
+            "number": 2,
+            "clue": "The quality of being spicy",
+            "answer": "SPICE",
+            "length": 5
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "food",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 5,
+        "intersections": 5,
+        "boardScore": 0.4691
+      }
+    },
+    {
+      "puzzleId": "food-easy-7x7-0017",
+      "seed": 17,
+      "theme": "food",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "",
+          "C",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "N",
+          "U",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "",
+          "B",
+          "",
+          "I",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Y",
+          "E",
+          "A",
+          "S",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "",
+          "A",
+          "",
+          "I",
+          "",
+          ""
+        ],
+        [
+          "B",
+          "A",
+          "N",
+          "A",
+          "N",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "",
+          "S",
+          "",
+          "E",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "YEAST",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "A single-celled fungus of a wide variety of taxonomic families",
+          "softHints": {
+            "startsWith": "Y",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "CUISINE",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "clue": "The food prepared using such style",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 5,
+          "answer": "BANANA",
+          "direction": "across",
+          "row": 5,
+          "col": 0,
+          "length": 6,
+          "clue": "In particular, the sweet, yellow fruit of",
+          "softHints": {
+            "startsWith": "B",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "BEANS",
+          "direction": "down",
+          "row": 2,
+          "col": 2,
+          "length": 5,
+          "clue": "Plural of bean",
+          "softHints": {
+            "startsWith": "B",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "NUT",
+          "direction": "across",
+          "row": 1,
+          "col": 3,
+          "length": 3,
+          "clue": "Such a fruit that is indehiscent",
+          "softHints": {
+            "startsWith": "N",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 2,
+            "clue": "Such a fruit that is indehiscent",
+            "answer": "NUT",
+            "length": 3
+          },
+          {
+            "number": 4,
+            "clue": "A single-celled fungus of a wide variety of taxonomic families",
+            "answer": "YEAST",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "In particular, the sweet, yellow fruit of",
+            "answer": "BANANA",
+            "length": 6
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "The food prepared using such style",
+            "answer": "CUISINE",
+            "length": 7
+          },
+          {
+            "number": 3,
+            "clue": "Plural of bean",
+            "answer": "BEANS",
+            "length": 5
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "food",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 5,
+        "intersections": 5,
+        "boardScore": 0.4732
+      }
+    },
+    {
+      "puzzleId": "food-easy-7x7-0018",
+      "seed": 18,
+      "theme": "food",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "B",
+          "A",
+          "Y"
+        ],
+        [
+          "",
+          "S",
+          "",
+          "",
+          "U",
+          "",
+          ""
+        ],
+        [
+          "",
+          "P",
+          "L",
+          "A",
+          "T",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "I",
+          "",
+          "",
+          "T",
+          "",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "H",
+          "E",
+          "E",
+          "S",
+          "E"
+        ],
+        [
+          "",
+          "E",
+          "",
+          "",
+          "R",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 3,
+          "answer": "PLATE",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Such dishes collectively",
+          "softHints": {
+            "startsWith": "P",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "BUTTER",
+          "direction": "down",
+          "row": 1,
+          "col": 4,
+          "length": 6,
+          "clue": "A soft, fatty foodstuff made by churning",
+          "softHints": {
+            "startsWith": "B",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 4,
+          "answer": "CHEESE",
+          "direction": "across",
+          "row": 5,
+          "col": 1,
+          "length": 6,
+          "clue": "A dairy product made from curdled or cultured milk",
+          "softHints": {
+            "startsWith": "C",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "SPICE",
+          "direction": "down",
+          "row": 2,
+          "col": 1,
+          "length": 5,
+          "clue": "The quality of being spicy",
+          "softHints": {
+            "startsWith": "S",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "BAY",
+          "direction": "across",
+          "row": 1,
+          "col": 4,
+          "length": 3,
+          "clue": "A bank or dam to keep back water",
+          "softHints": {
+            "startsWith": "B",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 1,
+            "clue": "A bank or dam to keep back water",
+            "answer": "BAY",
+            "length": 3
+          },
+          {
+            "number": 3,
+            "clue": "Such dishes collectively",
+            "answer": "PLATE",
+            "length": 5
+          },
+          {
+            "number": 4,
+            "clue": "A dairy product made from curdled or cultured milk",
+            "answer": "CHEESE",
+            "length": 6
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A soft, fatty foodstuff made by churning",
+            "answer": "BUTTER",
+            "length": 6
+          },
+          {
+            "number": 2,
+            "clue": "The quality of being spicy",
+            "answer": "SPICE",
+            "length": 5
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "food",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 5,
+        "intersections": 5,
+        "boardScore": 0.4691
+      }
+    },
+    {
+      "puzzleId": "food-easy-7x7-0019",
+      "seed": 19,
+      "theme": "food",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "C",
+          "",
+          "",
+          "K",
+          "",
+          ""
+        ],
+        [
+          "",
+          "U",
+          "",
+          "M",
+          "I",
+          "L",
+          "K"
+        ],
+        [
+          "",
+          "I",
+          "",
+          "",
+          "T",
+          "",
+          ""
+        ],
+        [
+          "",
+          "S",
+          "P",
+          "I",
+          "C",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "I",
+          "",
+          "",
+          "H",
+          "",
+          ""
+        ],
+        [
+          "",
+          "N",
+          "",
+          "M",
+          "E",
+          "A",
+          "T"
+        ],
+        [
+          "",
+          "E",
+          "",
+          "",
+          "N",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "SPICE",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "The quality of being spicy",
+          "softHints": {
+            "startsWith": "S",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "CUISINE",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 7,
+          "clue": "The food prepared using such style",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "KITCHEN",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "clue": "Cuisine; style of cooking",
+          "softHints": {
+            "startsWith": "K",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "MILK",
+          "direction": "across",
+          "row": 1,
+          "col": 3,
+          "length": 4,
+          "clue": "A white liquid obtained from a vegetable source",
+          "softHints": {
+            "startsWith": "M",
+            "length": 4,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 5,
+          "answer": "MEAT",
+          "direction": "across",
+          "row": 5,
+          "col": 3,
+          "length": 4,
+          "clue": "Food, for animals or humans, especially solid food",
+          "softHints": {
+            "startsWith": "M",
+            "length": 4,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "A white liquid obtained from a vegetable source",
+            "answer": "MILK",
+            "length": 4
+          },
+          {
+            "number": 4,
+            "clue": "The quality of being spicy",
+            "answer": "SPICE",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "Food, for animals or humans, especially solid food",
+            "answer": "MEAT",
+            "length": 4
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "The food prepared using such style",
+            "answer": "CUISINE",
+            "length": 7
+          },
+          {
+            "number": 2,
+            "clue": "Cuisine; style of cooking",
+            "answer": "KITCHEN",
+            "length": 7
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "food",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 5,
+        "intersections": 4,
+        "boardScore": 0.4314
+      }
+    },
+    {
+      "puzzleId": "food-easy-7x7-0020",
+      "seed": 20,
+      "theme": "food",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "C",
+          "",
+          "B",
+          ""
+        ],
+        [
+          "",
+          "P",
+          "",
+          "U",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "E",
+          "",
+          "I",
+          "",
+          "N",
+          ""
+        ],
+        [
+          "",
+          "P",
+          "A",
+          "S",
+          "T",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "P",
+          "",
+          "I",
+          "",
+          "N",
+          ""
+        ],
+        [
+          "",
+          "E",
+          "",
+          "N",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "R",
+          "",
+          "E",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "PASTA",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Any type of noodle",
+          "softHints": {
+            "startsWith": "P",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "CUISINE",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 7,
+          "clue": "The food prepared using such style",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "BANANA",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 6,
+          "clue": "In particular, the sweet, yellow fruit of",
+          "softHints": {
+            "startsWith": "B",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "PEPPER",
+          "direction": "down",
+          "row": 1,
+          "col": 1,
+          "length": 6,
+          "clue": "A plant of the family Piperaceae",
+          "softHints": {
+            "startsWith": "P",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "Any type of noodle",
+            "answer": "PASTA",
+            "length": 5
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "The food prepared using such style",
+            "answer": "CUISINE",
+            "length": 7
+          },
+          {
+            "number": 2,
+            "clue": "In particular, the sweet, yellow fruit of",
+            "answer": "BANANA",
+            "length": 6
+          },
+          {
+            "number": 3,
+            "clue": "A plant of the family Piperaceae",
+            "answer": "PEPPER",
+            "length": 6
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "food",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 4,
+        "intersections": 3,
+        "boardScore": 0.3832
+      }
+    }
+  ]
+}

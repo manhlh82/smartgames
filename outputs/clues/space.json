@@ -4,219 +4,292 @@
   "clues": [
     {
       "word": "BRIGHTNESS",
-      "primaryClue": "Astronomical term",
-      "alternateClues": [],
+      "primaryClue": "Intelligence, cleverness",
+      "alternateClues": [
+        "The quality of being bright",
+        "The perceived luminance of an object"
+      ],
       "softHints": {
         "startsWith": "B",
         "length": 10,
         "category": "space"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Intelligence, cleverness.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CONDUCTION",
-      "primaryClue": "Studied by NASA",
-      "alternateClues": [],
+      "primaryClue": "The act of leading or guiding",
+      "alternateClues": [
+        "The act of leading or guiding",
+        "The conveying of heat or electricity through material"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 10,
         "category": "space"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The act of leading or guiding.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CONVECTION",
-      "primaryClue": "Celestial object or phenomenon",
-      "alternateClues": [],
+      "primaryClue": "The process of conveying something",
+      "alternateClues": [
+        "The transmission of heat in a fluid",
+        "The vertical movement of heat and moisture, especially"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 10,
         "category": "space"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The process of conveying something.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CORE",
-      "primaryClue": "Astronomical term",
-      "alternateClues": [],
+      "primaryClue": "The central part of a fruit, containing",
+      "alternateClues": [
+        "In general usage, an essential part of",
+        "In general usage, an essential part of"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 4,
         "category": "space"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The central part of a fruit, containing the kernels or seeds.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CORONA",
-      "primaryClue": "Found in the cosmos",
-      "alternateClues": [],
+      "primaryClue": "An upper or crownlike portion of certain parts",
+      "alternateClues": [
+        "A region of the skull located along",
+        "A large, round, pendent chandelier, with spikes around"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 6,
         "category": "space"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "An upper or crownlike portion of certain parts of the body.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "DENSITY",
-      "primaryClue": "Celestial object or phenomenon",
-      "alternateClues": [],
+      "primaryClue": "A measure of the mass of matter contained",
+      "alternateClues": [
+        "The amount of a certain phenomenon (such as",
+        "The amount of a certain phenomenon (such as"
+      ],
       "softHints": {
         "startsWith": "D",
         "length": 7,
         "category": "space"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A measure of the mass of matter contained by a unit volume.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "DUST",
-      "primaryClue": "Celestial object or phenomenon",
-      "alternateClues": [],
+      "primaryClue": "Fine particles",
+      "alternateClues": [
+        "Fine particles",
+        "Fine, dry particles of matter found in"
+      ],
       "softHints": {
         "startsWith": "D",
         "length": 4,
         "category": "space"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Fine particles.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "ELECTRON",
-      "primaryClue": "Space exploration term",
-      "alternateClues": [],
+      "primaryClue": "The subatomic particle having a negative charge",
+      "alternateClues": [
+        "Alloys of magnesium and other metals, like aluminum"
+      ],
       "softHints": {
         "startsWith": "E",
         "length": 8,
         "category": "space"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The subatomic particle having a negative charge and orbiting the nucleus; the flow of electrons in a conductor constitutes electricity.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "ENERGY",
-      "primaryClue": "Astronomical term",
-      "alternateClues": [],
+      "primaryClue": "The capacity to do work",
+      "alternateClues": [
+        "The impetus behind all motion and all activity",
+        "A quantity that denotes the ability to do"
+      ],
       "softHints": {
         "startsWith": "E",
         "length": 6,
         "category": "space"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The capacity to do work.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "ENVELOPE",
-      "primaryClue": "Celestial object or phenomenon",
-      "alternateClues": [],
+      "primaryClue": "Something that envelops; a wrapping",
+      "alternateClues": [
+        "A paper or cardboard wrapper used to enclose",
+        "A bag containing the lifting gas of"
+      ],
       "softHints": {
         "startsWith": "E",
         "length": 8,
         "category": "space"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Something that envelops; a wrapping.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "FLUX",
-      "primaryClue": "Studied by NASA",
-      "alternateClues": [],
+      "primaryClue": "A state of ongoing change",
+      "alternateClues": [
+        "A chemical agent for cleaning metal prior",
+        "The act of flowing; a continuous moving"
+      ],
       "softHints": {
         "startsWith": "F",
         "length": 4,
         "category": "space"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A state of ongoing change.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "FUSION",
-      "primaryClue": "Studied by NASA",
-      "alternateClues": [],
+      "primaryClue": "The act of merging separate things, or the result thereof",
+      "alternateClues": [
+        "The act of merging separate things, or the result thereof",
+        "A nuclear reaction in which nuclei combine"
+      ],
       "softHints": {
         "startsWith": "F",
         "length": 6,
         "category": "space"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The act of merging separate things, or the result thereof.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "GRAVITY",
-      "primaryClue": "Astronomical term",
-      "alternateClues": [],
+      "primaryClue": "Senses relating to seriousness",
+      "alternateClues": [
+        "Senses relating to seriousness",
+        "Of an activity such as a ceremony,"
+      ],
       "softHints": {
         "startsWith": "G",
         "length": 7,
         "category": "space"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Senses relating to seriousness.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "HADRON",
-      "primaryClue": "Studied by NASA",
+      "primaryClue": "A composite particle that comprises two or more",
       "alternateClues": [],
       "softHints": {
         "startsWith": "H",
@@ -224,96 +297,127 @@
         "category": "space"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A composite particle that comprises two or more quarks held together by the strong force and (consequently) can interact with other particles via said force; a meson or a baryon.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "HALO",
-      "primaryClue": "Astronomical term",
-      "alternateClues": [],
+      "primaryClue": "Anything resembling this band, such as an effect",
+      "alternateClues": [
+        "A circular band of coloured light, visible around",
+        "A cloud of gas and other matter surrounding"
+      ],
       "softHints": {
         "startsWith": "H",
         "length": 4,
         "category": "space"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Anything resembling this band, such as an effect caused by imperfect developing of photographs.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "LEPTON",
-      "primaryClue": "Studied by NASA",
-      "alternateClues": [],
+      "primaryClue": "A small, bronze Judean coin from the 1st",
+      "alternateClues": [
+        "A coin used since ancient times in Greece,"
+      ],
       "softHints": {
         "startsWith": "L",
         "length": 6,
         "category": "space"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A small, bronze Judean coin from the 1st century BCE, considered by some to be the widow's mite.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "LUMINOSITY",
-      "primaryClue": "Space exploration term",
-      "alternateClues": [],
+      "primaryClue": "The rate at which a star radiates energy",
+      "alternateClues": [
+        "The state of being luminous, or a luminous",
+        "The ratio of luminous flux to radiant flux"
+      ],
       "softHints": {
         "startsWith": "L",
         "length": 10,
         "category": "space"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The rate at which a star radiates energy in all directions.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "MAGNITUDE",
-      "primaryClue": "Studied by NASA",
-      "alternateClues": [],
+      "primaryClue": "The absolute or relative size, extent or importance of something",
+      "alternateClues": [
+        "The absolute or relative size, extent or importance of something",
+        "A number, assigned to something, such that it"
+      ],
       "softHints": {
         "startsWith": "M",
         "length": 9,
         "category": "space"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The absolute or relative size, extent or importance of something.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "MASS",
-      "primaryClue": "Space exploration term",
-      "alternateClues": [],
+      "primaryClue": "Matter, material",
+      "alternateClues": [
+        "Matter, material",
+        "A quantity of matter cohering so as"
+      ],
       "softHints": {
         "startsWith": "M",
         "length": 4,
         "category": "space"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Matter, material.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "NEUTRINO",
-      "primaryClue": "Astronomical term",
+      "primaryClue": "An elementary particle that is classified as",
       "alternateClues": [],
       "softHints": {
         "startsWith": "N",
@@ -321,16 +425,18 @@
         "category": "space"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "An elementary particle that is classified as a lepton, and has an extremely small but nonzero mass and no electric charge. It interacts with the surroundings only via the weak force or gravitation, making it very difficult to detect.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "NEUTRON",
-      "primaryClue": "Found in the cosmos",
+      "primaryClue": "A subatomic particle forming part of the nucleus",
       "alternateClues": [],
       "softHints": {
         "startsWith": "N",
@@ -338,95 +444,126 @@
         "category": "space"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A subatomic particle forming part of the nucleus of an atom and having no charge; it is a combination of an up quark and two down quarks.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "NUCLEUS",
-      "primaryClue": "Studied by NASA",
-      "alternateClues": [],
+      "primaryClue": "An initial part or version that will receive additions",
+      "alternateClues": [
+        "The core, central part of something, around which",
+        "The massive, positively charged central part of"
+      ],
       "softHints": {
         "startsWith": "N",
         "length": 7,
         "category": "space"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "An initial part or version that will receive additions.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "OMEGA",
-      "primaryClue": "Space exploration term",
-      "alternateClues": [],
+      "primaryClue": "Angular velocity; symbol: ω",
+      "alternateClues": [
+        "The end; the final, last or ultimate in a sequence",
+        "The twenty-fourth letter of the Classical and"
+      ],
       "softHints": {
         "startsWith": "O",
         "length": 5,
         "category": "space"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Angular velocity; symbol: ω.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "OPACITY",
-      "primaryClue": "Found in the cosmos",
-      "alternateClues": [],
+      "primaryClue": "The state or quality of being inaccessible to understanding",
+      "alternateClues": [
+        "The state or quality of being opaque, not",
+        "A measure of relative impenetrability to electromagnetic radiation"
+      ],
       "softHints": {
         "startsWith": "O",
         "length": 7,
         "category": "space"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The state or quality of being inaccessible to understanding.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "PARALLAX",
-      "primaryClue": "Space exploration term",
-      "alternateClues": [],
+      "primaryClue": "The angle of seeing of the astronomical unit",
+      "alternateClues": [
+        "An apparent shift in the position of two"
+      ],
       "softHints": {
         "startsWith": "P",
         "length": 8,
         "category": "space"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The angle of seeing of the astronomical unit.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "PHOTOMETRY",
-      "primaryClue": "Found in the cosmos",
-      "alternateClues": [],
+      "primaryClue": "The measurement of the intensity and spectrum",
+      "alternateClues": [
+        "The measurement of various aspects of light, especially its intensity"
+      ],
       "softHints": {
         "startsWith": "P",
         "length": 10,
         "category": "space"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The measurement of the intensity and spectrum of light from stars.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "PHOTON",
-      "primaryClue": "Celestial object or phenomenon",
+      "primaryClue": "The quantum of light and other electromagnetic energy,",
       "alternateClues": [],
       "softHints": {
         "startsWith": "P",
@@ -434,31 +571,40 @@
         "category": "space"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The quantum of light and other electromagnetic energy, regarded as a discrete particle having zero rest mass, no electric charge, and an indefinitely long lifetime. It is a gauge boson.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "PROTON",
-      "primaryClue": "Space exploration term",
-      "alternateClues": [],
+      "primaryClue": "The atomic nucleus of protium",
+      "alternateClues": [
+        "A positively charged subatomic particle forming part",
+        "A positively charged subatomic particle forming part"
+      ],
       "softHints": {
         "startsWith": "P",
         "length": 6,
         "category": "space"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The atomic nucleus of protium (hydrogen-1)",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "PULSAR",
-      "primaryClue": "Astronomical term",
+      "primaryClue": "A rotating neutron star that emits radio pulses periodically",
       "alternateClues": [],
       "softHints": {
         "startsWith": "P",
@@ -466,16 +612,18 @@
         "category": "space"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A rotating neutron star that emits radio pulses periodically.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "QUASAR",
-      "primaryClue": "Astronomical term",
+      "primaryClue": "An extragalactic object, starlike in appearance, that is",
       "alternateClues": [],
       "softHints": {
         "startsWith": "Q",
@@ -483,16 +631,18 @@
         "category": "space"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "An extragalactic object, starlike in appearance, that is among the most luminous and (putatively) the most distant objects in the universe.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "RADIAN",
-      "primaryClue": "Studied by NASA",
+      "primaryClue": "In the International System of Units, the derived",
       "alternateClues": [],
       "softHints": {
         "startsWith": "R",
@@ -500,31 +650,40 @@
         "category": "space"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "In the International System of Units, the derived unit of plane angle: the angle subtended at the centre of a circle by an arc of its circumference equal in length to the radius of the circle.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "RADIUS",
-      "primaryClue": "Found in the cosmos",
-      "alternateClues": [],
+      "primaryClue": "The long bone in the forearm, on",
+      "alternateClues": [
+        "The lighter bone in the forelimb of an animal",
+        "One of the major veins of the insect"
+      ],
       "softHints": {
         "startsWith": "R",
         "length": 6,
         "category": "space"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The long bone in the forearm, on the side of the thumb.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "REDSHIFT",
-      "primaryClue": "Found in the cosmos",
+      "primaryClue": "An increase in the wavelength of a photon",
       "alternateClues": [],
       "softHints": {
         "startsWith": "R",
@@ -532,225 +691,301 @@
         "category": "space"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "An increase in the wavelength of a photon or of light, corresponding to a lower frequency and a shift toward the red end of the electromagnetic spectrum.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "RELATIVITY",
-      "primaryClue": "Astronomical term",
-      "alternateClues": [],
+      "primaryClue": "The state of being relative to something else;",
+      "alternateClues": [
+        "The state of being relative to something else;"
+      ],
       "softHints": {
         "startsWith": "R",
         "length": 10,
         "category": "space"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The state of being relative to something else; the absence of universally applicable rules or standards; relativism; (countable) an instance of this.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SUPERNOVA",
-      "primaryClue": "Celestial object or phenomenon",
-      "alternateClues": [],
+      "primaryClue": "Something brilliant",
+      "alternateClues": [
+        "A powerful and bright explosion of a massive"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 9,
         "category": "space"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Something brilliant.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "MOON",
-      "primaryClue": "Studied by NASA",
-      "alternateClues": [],
+      "primaryClue": "Any natural satellite of a planet",
+      "alternateClues": [
+        "A month, particularly a lunar month"
+      ],
       "softHints": {
         "startsWith": "M",
         "length": 4,
         "category": "space"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any natural satellite of a planet.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "STAR",
-      "primaryClue": "Studied by NASA",
-      "alternateClues": [],
+      "primaryClue": "A planet thought to influence one's fate; fate or luck",
+      "alternateClues": [
+        "Any small, natural and bright dot in",
+        "Any small, natural and bright dot in"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 4,
         "category": "space"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A planet thought to influence one's fate; (figuratively) fate or luck.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "PLANET",
-      "primaryClue": "Space exploration term",
-      "alternateClues": [],
+      "primaryClue": "Any body that orbits the Sun, including",
+      "alternateClues": [
+        "Each of the seven major bodies which move",
+        "A body which is massive enough to be"
+      ],
       "softHints": {
         "startsWith": "P",
         "length": 6,
         "category": "space"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any body that orbits the Sun, including the asteroids (as minor planets) and sometimes the moons of those bodies (as satellite planets)",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "COMET",
-      "primaryClue": "Space exploration term",
-      "alternateClues": [],
+      "primaryClue": "Any of several species of hummingbird found in the Andes",
+      "alternateClues": [
+        "A celestial phenomenon with the appearance of such a body",
+        "A small Solar System body consisting mainly"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 5,
         "category": "space"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any of several species of hummingbird found in the Andes.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "ORBIT",
-      "primaryClue": "Astronomical term",
-      "alternateClues": [],
+      "primaryClue": "The curved path of one object around",
+      "alternateClues": [
+        "The curved path of one object around",
+        "An elliptical movement of an object about"
+      ],
       "softHints": {
         "startsWith": "O",
         "length": 5,
         "category": "space"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The curved path of one object around a point or another body.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SOLAR",
-      "primaryClue": "Studied by NASA",
-      "alternateClues": [],
+      "primaryClue": "Born under the predominant influence of the sun",
+      "alternateClues": [
+        "Of or pertaining to the sun; proceeding from the sun",
+        "Measured by the progress or revolution of"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 5,
         "category": "space"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Born under the predominant influence of the sun.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "NEBULA",
-      "primaryClue": "Studied by NASA",
-      "alternateClues": [],
+      "primaryClue": "A cloudy appearance in the urine",
+      "alternateClues": [
+        "A white spot or slight opacity of the cornea",
+        "A cloud in outer space consisting of gas"
+      ],
       "softHints": {
         "startsWith": "N",
         "length": 6,
         "category": "space"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A cloudy appearance in the urine.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "GALAXY",
-      "primaryClue": "Studied by NASA",
-      "alternateClues": [],
+      "primaryClue": "An assemblage of things or people seen as",
+      "alternateClues": [
+        "The Milky Way; the apparent band of concentrated",
+        "Any of the collections of many millions"
+      ],
       "softHints": {
         "startsWith": "G",
         "length": 6,
         "category": "space"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "An assemblage of things or people seen as luminous or brilliant.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "ROCKET",
-      "primaryClue": "Celestial object or phenomenon",
-      "alternateClues": [],
+      "primaryClue": "A projectile",
+      "alternateClues": [
+        "A projectile",
+        "A cylindrical projectile that can be fired"
+      ],
       "softHints": {
         "startsWith": "R",
         "length": 6,
         "category": "space"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A projectile.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CRATER",
-      "primaryClue": "Studied by NASA",
-      "alternateClues": [],
+      "primaryClue": "The pit left by the explosion of",
+      "alternateClues": [
+        "A hemispherical pit created by the impact",
+        "The basin-like opening or mouth of a volcano,"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 6,
         "category": "space"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The pit left by the explosion of a mine or bomb.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "METEOR",
-      "primaryClue": "Found in the cosmos",
-      "alternateClues": [],
+      "primaryClue": "A prop similar to poi balls, in that",
+      "alternateClues": [
+        "A fast-moving streak of light in the night",
+        "An atmospheric or meteorological phenomenon. These were sometimes"
+      ],
       "softHints": {
         "startsWith": "M",
         "length": 6,
         "category": "space"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A prop similar to poi balls, in that it is twirled at the end of a cord or cable.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "TITAN",
-      "primaryClue": "Found in the cosmos",
+      "primaryClue": "Something or someone of very large stature, greatness, or godliness",
       "alternateClues": [],
       "softHints": {
         "startsWith": "T",
@@ -758,15 +993,18 @@
         "category": "space"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Something or someone of very large stature, greatness, or godliness.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "MARS",
-      "primaryClue": "Studied by NASA",
+      "primaryClue": "Third-person singular simple present indicative of mar",
       "alternateClues": [],
       "softHints": {
         "startsWith": "M",
@@ -774,238 +1012,317 @@
         "category": "space"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "third-person singular simple present indicative of mar",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "VENUS",
-      "primaryClue": "Celestial object or phenomenon",
-      "alternateClues": [],
+      "primaryClue": "Sexual activity or intercourse; sex; lust, love",
+      "alternateClues": [
+        "Copper (a reddish-brown, malleable, ductile metallic element)",
+        "Any depiction of an idealized or erotic figure"
+      ],
       "softHints": {
         "startsWith": "V",
         "length": 5,
         "category": "space"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Sexual activity or intercourse; sex; lust, love.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SATURN",
-      "primaryClue": "Space exploration term",
-      "alternateClues": [],
+      "primaryClue": "Sable , in the postmedieval practice of blazoning",
+      "alternateClues": [
+        "Sable , in the postmedieval practice of blazoning"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 6,
         "category": "space"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Sable (black), in the postmedieval practice of blazoning the tinctures in the arms of certain sovereign people and places as planets.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "COSMOS",
-      "primaryClue": "Found in the cosmos",
-      "alternateClues": [],
+      "primaryClue": "A harmonious, ordered whole",
+      "alternateClues": [
+        "The universe regarded as a system with harmony and order",
+        "The universe regarded as a system with harmony and order"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 6,
         "category": "space"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A harmonious, ordered whole.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "NOVA",
-      "primaryClue": "Celestial object or phenomenon",
-      "alternateClues": [],
+      "primaryClue": "Any sudden brightening of a previously inconspicuous star",
+      "alternateClues": [
+        "Any sudden brightening of a previously inconspicuous star"
+      ],
       "softHints": {
         "startsWith": "N",
         "length": 4,
         "category": "space"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any sudden brightening of a previously inconspicuous star.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "AURORA",
-      "primaryClue": "Astronomical term",
-      "alternateClues": [],
+      "primaryClue": "The dawn or early morning light itself;",
+      "alternateClues": [
+        "The Roman goddess of the dawn, equivalent",
+        "An atmospheric phenomenon created by charged particles from"
+      ],
       "softHints": {
         "startsWith": "A",
         "length": 6,
         "category": "space"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The dawn or early morning light itself; the first light of day.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "ZENITH",
-      "primaryClue": "Celestial object or phenomenon",
-      "alternateClues": [],
+      "primaryClue": "Highest point or state; peak",
+      "alternateClues": [
+        "The highest point in the sky reached",
+        "The point in the sky vertically above"
+      ],
       "softHints": {
         "startsWith": "Z",
         "length": 6,
         "category": "space"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Highest point or state; peak.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "ECLIPSE",
-      "primaryClue": "Studied by NASA",
-      "alternateClues": [],
+      "primaryClue": "An alignment of astronomical objects whereby one object",
+      "alternateClues": [
+        "A seasonal state of plumage in some birds,",
+        "Especially, an alignment whereby a planetary object comes"
+      ],
       "softHints": {
         "startsWith": "E",
         "length": 7,
         "category": "space"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "An alignment of astronomical objects whereby one object comes between the observer (or notional observer) and another object, thus obscuring the latter.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "ASTEROID",
-      "primaryClue": "Astronomical term",
-      "alternateClues": [],
+      "primaryClue": "In the Solar system, such a body that",
+      "alternateClues": [
+        "A naturally occurring solid object, which is smaller"
+      ],
       "softHints": {
         "startsWith": "A",
         "length": 8,
         "category": "space"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "In the Solar system, such a body that orbits within the orbit of Jupiter",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "TELESCOPE",
-      "primaryClue": "Celestial object or phenomenon",
-      "alternateClues": [],
+      "primaryClue": "A retractable tubular support for lights",
+      "alternateClues": [
+        "A monocular optical instrument that magnifies distant objects,",
+        "Any instrument used in astronomy for observing distant objects"
+      ],
       "softHints": {
         "startsWith": "T",
         "length": 9,
         "category": "space"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A retractable tubular support for lights.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "PROBE",
-      "primaryClue": "Celestial object or phenomenon",
-      "alternateClues": [],
+      "primaryClue": "Any of various medical instruments used to explore",
+      "alternateClues": [
+        "Any of various medical instruments used to explore"
+      ],
       "softHints": {
         "startsWith": "P",
         "length": 5,
         "category": "space"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any of various medical instruments used to explore wounds, organs, etc.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "LUNAR",
-      "primaryClue": "Studied by NASA",
-      "alternateClues": [],
+      "primaryClue": "Extremely high",
+      "alternateClues": [
+        "Shaped like a crescent moon; lunate",
+        "Of, pertaining to, or resembling the Moon"
+      ],
       "softHints": {
         "startsWith": "L",
         "length": 5,
         "category": "space"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Extremely high.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "COSMIC",
-      "primaryClue": "Studied by NASA",
-      "alternateClues": [],
+      "primaryClue": "Of or from or pertaining to the cosmos or universe",
+      "alternateClues": [
+        "Of or relating to abstract spiritual or metaphysical ideas",
+        "Characteristic of the cosmos or universe; inconceivably great; vast"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 6,
         "category": "space"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Of or from or pertaining to the cosmos or universe.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SUNSPOT",
-      "primaryClue": "Astronomical term",
-      "alternateClues": [],
+      "primaryClue": "A random shock in the foreign exchange currency market",
+      "alternateClues": [
+        "A region on the sun's surface with"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 7,
         "category": "space"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A random shock in the foreign exchange currency market.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "VORTEX",
-      "primaryClue": "Found in the cosmos",
-      "alternateClues": [],
+      "primaryClue": "Anything that inevitably draws surrounding things into its current",
+      "alternateClues": [
+        "Anything that involves constant violent or chaotic activity",
+        "A whirlwind, whirlpool, or similarly moving matter"
+      ],
       "softHints": {
         "startsWith": "V",
         "length": 6,
         "category": "space"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Anything that inevitably draws surrounding things into its current.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     }
   ]
 }

@@ -4,72 +4,93 @@
   "clues": [
     {
       "word": "BADGER",
-      "primaryClue": "Found in the sea",
-      "alternateClues": [],
+      "primaryClue": "A native or resident of the American state, Wisconsin",
+      "alternateClues": [
+        "A native or resident of the American state, Wisconsin",
+        "Any mammal belonging to the genera Meles, Arctonyx,"
+      ],
       "softHints": {
         "startsWith": "B",
         "length": 6,
         "category": "ocean"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A native or resident of the American state, Wisconsin.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BARRACUDA",
-      "primaryClue": "Underwater dweller",
-      "alternateClues": [],
+      "primaryClue": "One who uses harsh or predatory means to compete",
+      "alternateClues": [
+        "Any large marine fish of the genus Sphyraena"
+      ],
       "softHints": {
         "startsWith": "B",
         "length": 9,
         "category": "ocean"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "One who uses harsh or predatory means to compete.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BEAR",
-      "primaryClue": "Lives in the ocean",
-      "alternateClues": [],
+      "primaryClue": "The meat of this animal",
+      "alternateClues": [
+        "A large, generally omnivorous mammal (a few species",
+        "A large, generally omnivorous mammal (a few species"
+      ],
       "softHints": {
         "startsWith": "B",
         "length": 4,
         "category": "ocean"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The meat of this animal.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BOA",
-      "primaryClue": "Found in the sea",
-      "alternateClues": [],
+      "primaryClue": "Any of a group of large American snakes,",
+      "alternateClues": [
+        "A type of long scarf; typically made from"
+      ],
       "softHints": {
         "startsWith": "B",
         "length": 3,
         "category": "ocean"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any of a group of large American snakes, of the genus Boa, subfamily Boinae, or family Boidae, including the boa constrictor and the emperor boa of Mexico.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CHEETAH",
-      "primaryClue": "Marine creature or feature",
+      "primaryClue": "A distinctive member of the cat family, slightly",
       "alternateClues": [],
       "softHints": {
         "startsWith": "C",
@@ -77,226 +98,295 @@
         "category": "ocean"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A distinctive member (Acinonyx jubatus) of the cat family, slightly smaller than the leopard, but with proportionately longer limbs and a smaller head; native to Africa and southeast Asia (where it is nearly extinct) and also credited with being the fastest terrestrial animal.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CHIMPANZEE",
-      "primaryClue": "Ocean-related term",
-      "alternateClues": [],
+      "primaryClue": "A member of the genus Pan, including",
+      "alternateClues": [
+        "Pan troglodytes, a species of great ape native"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 10,
         "category": "ocean"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A member of the genus Pan, including the bonobo which was formerly known as the pygmy chimpanzee.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CIVET",
-      "primaryClue": "Lives in the ocean",
-      "alternateClues": [],
+      "primaryClue": "A spotted skunk",
+      "alternateClues": [
+        "Any of the small carnivorous catlike mammals encompassing"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 5,
         "category": "ocean"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A spotted skunk.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "COBRA",
-      "primaryClue": "Lives in the ocean",
-      "alternateClues": [],
+      "primaryClue": "Any of various venomous snakes of the genus Naja",
+      "alternateClues": [
+        "A type of lanyard knot, thought to resemble"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 5,
         "category": "ocean"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any of various venomous snakes of the genus Naja.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "COUGAR",
-      "primaryClue": "Lives in the ocean",
-      "alternateClues": [],
+      "primaryClue": "A wild feline, of species Puma concolor, native",
+      "alternateClues": [
+        "An older woman who actively seeks the casual,"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 6,
         "category": "ocean"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A wild feline, of species Puma concolor, native to the Americas.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "COYOTE",
-      "primaryClue": "Found in the sea",
-      "alternateClues": [],
+      "primaryClue": "Canis latrans, a species of canine native to North America",
+      "alternateClues": [
+        "A smuggler of undocumented immigrants across the land"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 6,
         "category": "ocean"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Canis latrans, a species of canine native to North America.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CROCODILE",
-      "primaryClue": "Lives in the ocean",
-      "alternateClues": [],
+      "primaryClue": "A long line or procession of people walking together",
+      "alternateClues": [
+        "A fallacious dilemma, mythically supposed to have been",
+        "Any of the predatory amphibious reptiles of"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 9,
         "category": "ocean"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A long line or procession of people (especially children) walking together.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "DINGO",
-      "primaryClue": "Underwater dweller",
-      "alternateClues": [],
+      "primaryClue": "A cowardly or otherwise despicable person",
+      "alternateClues": [
+        "A wild dog native to Australia (Canis familiaris,"
+      ],
       "softHints": {
         "startsWith": "D",
         "length": 5,
         "category": "ocean"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A cowardly or otherwise despicable person.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "EAGLE",
-      "primaryClue": "Lives in the ocean",
-      "alternateClues": [],
+      "primaryClue": "A gold coin with a face value",
+      "alternateClues": [
+        "Any of several large carnivorous and carrion-eating birds",
+        "A 13th-century coin minted in Europe and circulated"
+      ],
       "softHints": {
         "startsWith": "E",
         "length": 5,
         "category": "ocean"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A gold coin with a face value of ten dollars, formerly used in the United States.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "EEL",
-      "primaryClue": "Underwater dweller",
-      "alternateClues": [],
+      "primaryClue": "Any freshwater fish of the order Anguilliformes, which",
+      "alternateClues": [
+        "Any freshwater fish of the order Anguilliformes, which"
+      ],
       "softHints": {
         "startsWith": "E",
         "length": 3,
         "category": "ocean"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any freshwater fish of the order Anguilliformes, which are elongated and resemble snakes.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "FOSSA",
-      "primaryClue": "Marine creature or feature",
-      "alternateClues": [],
+      "primaryClue": "A pit, groove, cavity, or depression",
+      "alternateClues": [
+        "A long, narrow, shallow depression on the body"
+      ],
       "softHints": {
         "startsWith": "F",
         "length": 5,
         "category": "ocean"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A pit, groove, cavity, or depression.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "FOX",
-      "primaryClue": "Found in the sea",
-      "alternateClues": [],
+      "primaryClue": "A small-to-medium-sized canine mammal, related to dogs",
+      "alternateClues": [
+        "A small-to-medium-sized canine mammal, related to dogs",
+        "A small-to-medium-sized canine mammal, related to dogs"
+      ],
       "softHints": {
         "startsWith": "F",
         "length": 3,
         "category": "ocean"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A small-to-medium-sized canine mammal, related to dogs and wolves, with a flattened skull, upright triangular ears, a pointed, slightly upturned snout, and a long bushy tail, of the following groups:",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "HUMAN",
-      "primaryClue": "Marine creature or feature",
-      "alternateClues": [],
+      "primaryClue": "Of or belonging to the species Homo sapiens",
+      "alternateClues": [
+        "Of or belonging to the species Homo sapiens"
+      ],
       "softHints": {
         "startsWith": "H",
         "length": 5,
         "category": "ocean"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Of or belonging to the species Homo sapiens or its closest relatives.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "JACKAL",
-      "primaryClue": "Lives in the ocean",
-      "alternateClues": [],
+      "primaryClue": "A person who performs menial or routine tasks; a dogsbody",
+      "alternateClues": [
+        "A person who behaves in an opportunistic way;",
+        "Any of certain wild canids of the genera"
+      ],
       "softHints": {
         "startsWith": "J",
         "length": 6,
         "category": "ocean"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A person who performs menial or routine tasks; a dogsbody.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "JAGUAR",
-      "primaryClue": "Ocean-related term",
+      "primaryClue": "A carnivorous spotted large cat native to South",
       "alternateClues": [],
       "softHints": {
         "startsWith": "J",
@@ -304,16 +394,18 @@
         "category": "ocean"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A carnivorous spotted large cat native to South and Central America, Panthera onca.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "KOMODO",
-      "primaryClue": "Lives in the ocean",
+      "primaryClue": "",
       "alternateClues": [],
       "softHints": {
         "startsWith": "K",
@@ -321,47 +413,62 @@
         "category": "ocean"
       },
       "difficulty": "medium",
-      "source": "generated",
+      "source": "needs_review",
       "reviewFlags": [
-        "fallback_only"
+        "no_definition_found"
       ],
-      "approved": false
+      "approved": false,
+      "clueSource": "none",
+      "sourceDefinition": "",
+      "clueGenerationMethod": "excluded",
+      "licenseNotes": "",
+      "needsReview": true
     },
     {
       "word": "LEOPARD",
-      "primaryClue": "Marine creature or feature",
-      "alternateClues": [],
+      "primaryClue": "Panthera pardus, a large wild cat with",
+      "alternateClues": [
+        "Panthera pardus, a large wild cat with"
+      ],
       "softHints": {
         "startsWith": "L",
         "length": 7,
         "category": "ocean"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Panthera pardus, a large wild cat with a spotted coat native to Africa and Asia, especially the male of the species (in contrast to leopardess).",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "LION",
-      "primaryClue": "Lives in the ocean",
-      "alternateClues": [],
+      "primaryClue": "A big cat, Panthera leo, native to Africa,",
+      "alternateClues": [
+        "A big cat, Panthera leo, native to Africa,"
+      ],
       "softHints": {
         "startsWith": "L",
         "length": 4,
         "category": "ocean"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A big cat, Panthera leo, native to Africa, India and formerly much of Europe.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "LYNX",
-      "primaryClue": "Lives in the ocean",
+      "primaryClue": "",
       "alternateClues": [],
       "softHints": {
         "startsWith": "L",
@@ -369,15 +476,20 @@
         "category": "ocean"
       },
       "difficulty": "medium",
-      "source": "generated",
+      "source": "needs_review",
       "reviewFlags": [
-        "fallback_only"
+        "no_definition_found"
       ],
-      "approved": false
+      "approved": false,
+      "clueSource": "none",
+      "sourceDefinition": "",
+      "clueGenerationMethod": "excluded",
+      "licenseNotes": "",
+      "needsReview": true
     },
     {
       "word": "MAMBA",
-      "primaryClue": "Underwater dweller",
+      "primaryClue": "Any of various venomous snakes of the genus",
       "alternateClues": [],
       "softHints": {
         "startsWith": "M",
@@ -385,16 +497,18 @@
         "category": "ocean"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any of various venomous snakes of the genus Dendroaspis, native to Africa, that live in trees.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "MANDRILL",
-      "primaryClue": "Found in the sea",
+      "primaryClue": "A primate, Mandrillus sphinx, with a colorful face and rump",
       "alternateClues": [],
       "softHints": {
         "startsWith": "M",
@@ -402,15 +516,18 @@
         "category": "ocean"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A primate, Mandrillus sphinx, with a colorful face and rump.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "MARLIN",
-      "primaryClue": "Found in the sea",
+      "primaryClue": "Any species of game fish belonging to either",
       "alternateClues": [],
       "softHints": {
         "startsWith": "M",
@@ -418,31 +535,40 @@
         "category": "ocean"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any species of game fish belonging to either of the genera Tetrapturus or Makaira, with a crested dorsal fin and a pointed, spear-like projection of the upper jaw.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "MONITOR",
-      "primaryClue": "Marine creature or feature",
-      "alternateClues": [],
+      "primaryClue": "Someone who watches over something; a person",
+      "alternateClues": [
+        "A device that detects and informs on",
+        "A device similar to a television set used"
+      ],
       "softHints": {
         "startsWith": "M",
         "length": 7,
         "category": "ocean"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Someone who watches over something; a person in charge of something or someone.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "OCELOT",
-      "primaryClue": "Found in the sea",
+      "primaryClue": "An American feline carnivore covered with blackish ocellated",
       "alternateClues": [],
       "softHints": {
         "startsWith": "O",
@@ -450,48 +576,60 @@
         "category": "ocean"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "An American feline carnivore (Leopardus pardalis, syn. Felis pardalis) covered with blackish ocellated spots and blotches which are variously arranged.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "OSPREY",
-      "primaryClue": "Underwater dweller",
-      "alternateClues": [],
+      "primaryClue": "A bird of prey of genus Pandion that",
+      "alternateClues": [
+        "A bird of prey of genus Pandion that"
+      ],
       "softHints": {
         "startsWith": "O",
         "length": 6,
         "category": "ocean"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A bird of prey of genus Pandion that feeds on fish and has white underparts and long, narrow wings each ending in four finger-like extensions.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "OWL",
-      "primaryClue": "Lives in the ocean",
-      "alternateClues": [],
+      "primaryClue": "Any of various birds of prey of",
+      "alternateClues": [
+        "Any of various birds of prey of"
+      ],
       "softHints": {
         "startsWith": "O",
         "length": 3,
         "category": "ocean"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any of various birds of prey of the order Strigiformes, families Strigidae and Tytonidae, that are primarily nocturnal and have forward-looking, binocular vision, limited eye movement, and good hearing.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "PETREL",
-      "primaryClue": "Lives in the ocean",
+      "primaryClue": "Any of various species of black, grey,",
       "alternateClues": [],
       "softHints": {
         "startsWith": "P",
@@ -499,15 +637,18 @@
         "category": "ocean"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any of various species of black, grey, or white seabirds in the order Procellariiformes.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "PYTHON",
-      "primaryClue": "Marine creature or feature",
+      "primaryClue": "",
       "alternateClues": [],
       "softHints": {
         "startsWith": "P",
@@ -515,49 +656,64 @@
         "category": "ocean"
       },
       "difficulty": "easy",
-      "source": "generated",
+      "source": "needs_review",
       "reviewFlags": [
-        "fallback_only"
+        "no_definition_found"
       ],
-      "approved": false
+      "approved": false,
+      "clueSource": "none",
+      "sourceDefinition": "",
+      "clueGenerationMethod": "excluded",
+      "licenseNotes": "",
+      "needsReview": true
     },
     {
       "word": "RAY",
-      "primaryClue": "Underwater dweller",
-      "alternateClues": [],
+      "primaryClue": "A beam of light or radiation",
+      "alternateClues": [
+        "A rib-like reinforcement of bone or cartilage",
+        "One of the spheromeres of a radiate, especially"
+      ],
       "softHints": {
         "startsWith": "R",
         "length": 3,
         "category": "ocean"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A beam of light or radiation.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SALAMANDER",
-      "primaryClue": "Ocean-related term",
-      "alternateClues": [],
+      "primaryClue": "A metal utensil with a flat head which",
+      "alternateClues": [
+        "A long, slender, chiefly terrestrial amphibian of",
+        "A creature much like a lizard that is"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 10,
         "category": "ocean"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A metal utensil with a flat head which is heated and put over a dish to brown the top.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SERVAL",
-      "primaryClue": "Marine creature or feature",
+      "primaryClue": "",
       "alternateClues": [],
       "softHints": {
         "startsWith": "S",
@@ -565,32 +721,42 @@
         "category": "ocean"
       },
       "difficulty": "medium",
-      "source": "generated",
+      "source": "needs_review",
       "reviewFlags": [
-        "fallback_only"
+        "no_definition_found"
       ],
-      "approved": false
+      "approved": false,
+      "clueSource": "none",
+      "sourceDefinition": "",
+      "clueGenerationMethod": "excluded",
+      "licenseNotes": "",
+      "needsReview": true
     },
     {
       "word": "SHARK",
-      "primaryClue": "Ocean-related term",
-      "alternateClues": [],
+      "primaryClue": "Flesh of this animal, consumed as food",
+      "alternateClues": [
+        "Any fish of the class Chondrichthyes, especially",
+        "Any predatory fish of the superorder Selachimorpha, with"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 5,
         "category": "ocean"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Flesh of this animal, consumed as food.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SKUA",
-      "primaryClue": "Marine creature or feature",
+      "primaryClue": "Any of various predatory seabirds of the genus",
       "alternateClues": [],
       "softHints": {
         "startsWith": "S",
@@ -598,64 +764,83 @@
         "category": "ocean"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any of various predatory seabirds of the genus Stercorarius that often chase other seabirds to steal their catches.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "TIGER",
-      "primaryClue": "Ocean-related term",
-      "alternateClues": [],
+      "primaryClue": "Panthera tigris, a large predatory mammal of",
+      "alternateClues": [
+        "Panthera tigris, a large predatory mammal of",
+        "Panthera tigris, a large predatory mammal of"
+      ],
       "softHints": {
         "startsWith": "T",
         "length": 5,
         "category": "ocean"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Panthera tigris, a large predatory mammal of the cat family, indigenous to Asia.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "VIPER",
-      "primaryClue": "Found in the sea",
-      "alternateClues": [],
+      "primaryClue": "Any venomous snake",
+      "alternateClues": [
+        "A dangerous, treacherous, or malignant person"
+      ],
       "softHints": {
         "startsWith": "V",
         "length": 5,
         "category": "ocean"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any venomous snake.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "WOLF",
-      "primaryClue": "Marine creature or feature",
-      "alternateClues": [],
+      "primaryClue": "Canis lupus; the largest wild member of the canine subfamily",
+      "alternateClues": [
+        "Canis lupus; the largest wild member of the canine subfamily",
+        "Any of several related canines that resemble Canis"
+      ],
       "softHints": {
         "startsWith": "W",
         "length": 4,
         "category": "ocean"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Canis lupus; the largest wild member of the canine subfamily.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "WOLVERINE",
-      "primaryClue": "Marine creature or feature",
+      "primaryClue": "A solitary, fierce mammal of the Mustelidae family, Gulo gulo",
       "alternateClues": [],
       "softHints": {
         "startsWith": "W",
@@ -663,15 +848,18 @@
         "category": "ocean"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A solitary, fierce mammal of the Mustelidae family, Gulo gulo.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "AMBERJACK",
-      "primaryClue": "Ocean-related term",
+      "primaryClue": "Any of several large food and game yellowtail",
       "alternateClues": [],
       "softHints": {
         "startsWith": "A",
@@ -679,16 +867,18 @@
         "category": "ocean"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any of several large food and game yellowtail fishes of the genus Seriola, found in warm waters of all oceans.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "ANCHOVY",
-      "primaryClue": "Found in the sea",
+      "primaryClue": "Any small saltwater fish of the Engraulidae family,",
       "alternateClues": [],
       "softHints": {
         "startsWith": "A",
@@ -696,31 +886,40 @@
         "category": "ocean"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any small saltwater fish of the Engraulidae family, consisting of 160 species in sixteen genera, those of the genus Engraulis being widely sold as food.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "ANGLER",
-      "primaryClue": "Found in the sea",
-      "alternateClues": [],
+      "primaryClue": "A person who fishes with a hook and line",
+      "alternateClues": [
+        "A person who fishes with a hook and line",
+        "Someone who tries to work an angle;"
+      ],
       "softHints": {
         "startsWith": "A",
         "length": 6,
         "category": "ocean"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A person who fishes with a hook and line.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "AYU",
-      "primaryClue": "Marine creature or feature",
+      "primaryClue": "A sweetfish, an amphidromous fish of East Asia,",
       "alternateClues": [],
       "softHints": {
         "startsWith": "A",
@@ -728,32 +927,40 @@
         "category": "ocean"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A sweetfish, an amphidromous fish of East Asia, the only member of its genus and family, Plecoglossus altivelis, named and prized for its sweet-tasting flesh. It is a game fish and is also subject to extensive aquaculture.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BARBEL",
-      "primaryClue": "Underwater dweller",
-      "alternateClues": [],
+      "primaryClue": "A barb or pap under the tongues",
+      "alternateClues": [
+        "A freshwater fish of the genus Barbus",
+        "Whisker-like sensory organs, located around the mouth"
+      ],
       "softHints": {
         "startsWith": "B",
         "length": 6,
         "category": "ocean"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A barb or pap under the tongues of horses and cattle.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BASS",
-      "primaryClue": "Ocean-related term",
+      "primaryClue": "Of sound, a voice or an instrument, low",
       "alternateClues": [],
       "softHints": {
         "startsWith": "B",
@@ -761,16 +968,18 @@
         "category": "ocean"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Of sound, a voice or an instrument, low in pitch or frequency.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BETTA",
-      "primaryClue": "Found in the sea",
+      "primaryClue": "Colorful freshwater fish popular in aquariums",
       "alternateClues": [],
       "softHints": {
         "startsWith": "B",
@@ -778,31 +987,39 @@
         "category": "ocean"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "override",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "override",
+      "sourceDefinition": "",
+      "clueGenerationMethod": "manual_override",
+      "licenseNotes": "manual",
+      "needsReview": false
     },
     {
       "word": "BLOWFISH",
-      "primaryClue": "Lives in the ocean",
-      "alternateClues": [],
+      "primaryClue": "A delicacy popular in Japan, consisting of",
+      "alternateClues": [
+        "Any species of fish of the family Tetraodontidae"
+      ],
       "softHints": {
         "startsWith": "B",
         "length": 8,
         "category": "ocean"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A delicacy popular in Japan, consisting of the fish served raw as sushi or perhaps fried. It may, if improperly prepared, contain considerably deadly levels of neurotoxins.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BOCACCIO",
-      "primaryClue": "Underwater dweller",
+      "primaryClue": "A venomous marine fish, taxonomic name Sebastes paucispinis,",
       "alternateClues": [],
       "softHints": {
         "startsWith": "B",
@@ -810,16 +1027,18 @@
         "category": "ocean"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A venomous marine fish, taxonomic name Sebastes paucispinis, in the subfamily Sebastinae found in the subtropical Eastern Pacific.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BURBOT",
-      "primaryClue": "Found in the sea",
+      "primaryClue": "A freshwater fish, taxonomic name Lota lota, which",
       "alternateClues": [],
       "softHints": {
         "startsWith": "B",
@@ -827,15 +1046,18 @@
         "category": "ocean"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A freshwater fish, taxonomic name Lota lota, which is similar to the ling and the cusk and spawns in the winter.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CARP",
-      "primaryClue": "Marine creature or feature",
+      "primaryClue": "Any of various freshwater fish of the family",
       "alternateClues": [],
       "softHints": {
         "startsWith": "C",
@@ -843,65 +1065,84 @@
         "category": "ocean"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any of various freshwater fish of the family Cyprinidae; specifically the common carp, Cyprinus carpio.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "COBBLER",
-      "primaryClue": "Lives in the ocean",
-      "alternateClues": [],
+      "primaryClue": "A person who repairs, and sometimes makes, shoes",
+      "alternateClues": [
+        "A person who cobbles (“to assemble or mend",
+        "A sheep left to the end to be"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 7,
         "category": "ocean"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A person who repairs, and sometimes makes, shoes.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "COD",
-      "primaryClue": "Underwater dweller",
-      "alternateClues": [],
+      "primaryClue": "A type of sea fish or the meat",
+      "alternateClues": [
+        "A type of sea fish or the meat",
+        "A type of sea fish or the meat"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 3,
         "category": "ocean"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A type of sea fish or the meat from said fish.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "FLOUNDER",
-      "primaryClue": "Ocean-related term",
-      "alternateClues": [],
+      "primaryClue": "A bootmaker's tool for crimping boot fronts",
+      "alternateClues": [
+        "Any of various flatfish of the family Pleuronectidae or Bothidae",
+        "A European species of flatfish having dull brown"
+      ],
       "softHints": {
         "startsWith": "F",
         "length": 8,
         "category": "ocean"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A bootmaker's tool for crimping boot fronts.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "GROUPER",
-      "primaryClue": "Underwater dweller",
+      "primaryClue": "Any of various large food and game fishes",
       "alternateClues": [],
       "softHints": {
         "startsWith": "G",
@@ -909,16 +1150,18 @@
         "category": "ocean"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any of various large food and game fishes of the subfamily Epinephelinae, especially the genera Epinephelus and Mycteroperca, which inhabit warm seas.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "HADDOCK",
-      "primaryClue": "Found in the sea",
+      "primaryClue": "A marine fish, Melanogrammus aeglefinus, of the North",
       "alternateClues": [],
       "softHints": {
         "startsWith": "H",
@@ -926,15 +1169,18 @@
         "category": "ocean"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A marine fish, Melanogrammus aeglefinus, of the North Atlantic, important as a food fish.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "HALIBUT",
-      "primaryClue": "Marine creature or feature",
+      "primaryClue": "A large flatfish of the genus Hippoglossus, which",
       "alternateClues": [],
       "softHints": {
         "startsWith": "H",
@@ -942,32 +1188,40 @@
         "category": "ocean"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A large flatfish of the genus Hippoglossus, which sometimes leaves the ocean floor and swims vertically.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "HERRING",
-      "primaryClue": "Ocean-related term",
-      "alternateClues": [],
+      "primaryClue": "Fish in the family Clupeidae",
+      "alternateClues": [
+        "A type of small, oily fish of",
+        "Those fish and any other fish similar"
+      ],
       "softHints": {
         "startsWith": "H",
         "length": 7,
         "category": "ocean"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Fish in the family Clupeidae.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "MACKEREL",
-      "primaryClue": "Underwater dweller",
+      "primaryClue": "Typically Scomber scombrus in the British isles",
       "alternateClues": [],
       "softHints": {
         "startsWith": "M",
@@ -975,48 +1229,62 @@
         "category": "ocean"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Typically Scomber scombrus in the British isles.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "MULLET",
-      "primaryClue": "Lives in the ocean",
-      "alternateClues": [],
+      "primaryClue": "A fish of the family Mugilidae",
+      "alternateClues": [
+        "A fish of the family Mullidae , especially",
+        "Any of several species of freshwater fish"
+      ],
       "softHints": {
         "startsWith": "M",
         "length": 6,
         "category": "ocean"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A fish of the family Mugilidae (order Mugiliformes) (grey mullets).",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "PERCH",
-      "primaryClue": "Lives in the ocean",
-      "alternateClues": [],
+      "primaryClue": "Acanthopagrus berda",
+      "alternateClues": [
+        "Any of the three species of spiny-finned freshwater",
+        "Any of the about 200 related species"
+      ],
       "softHints": {
         "startsWith": "P",
         "length": 5,
         "category": "ocean"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Acanthopagrus berda",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "POLLOCK",
-      "primaryClue": "Underwater dweller",
+      "primaryClue": "Either of two lean, white marine food fishes,",
       "alternateClues": [],
       "softHints": {
         "startsWith": "P",
@@ -1024,142 +1292,185 @@
         "category": "ocean"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Either of two lean, white marine food fishes, of the genus Pollachius, in the cod family.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SALMON",
-      "primaryClue": "Found in the sea",
-      "alternateClues": [],
+      "primaryClue": "A meal or dish made from this fish",
+      "alternateClues": [
+        "One of several species of fish, typically"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 6,
         "category": "ocean"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A meal or dish made from this fish.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SARDINE",
-      "primaryClue": "Lives in the ocean",
-      "alternateClues": [],
+      "primaryClue": "Someone packed or crammed into a small space",
+      "alternateClues": [
+        "Any one of several species of small herring"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 7,
         "category": "ocean"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Someone packed or crammed into a small space.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SCALLOP",
-      "primaryClue": "Lives in the ocean",
-      "alternateClues": [],
+      "primaryClue": "A fillet of meat, escalope",
+      "alternateClues": [
+        "Any of various marine bivalve molluscs of the superfamily Pectinoidea",
+        "One of a series of curves, forming"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 7,
         "category": "ocean"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A fillet of meat, escalope.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SNAPPER",
-      "primaryClue": "Found in the sea",
-      "alternateClues": [],
+      "primaryClue": "One who, or that which, snaps",
+      "alternateClues": [
+        "Any of approximately 100 different species of fish",
+        "The fish Chrysophrys auratus, especially an adult of the species"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 7,
         "category": "ocean"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "One who, or that which, snaps.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SOLE",
-      "primaryClue": "Underwater dweller",
-      "alternateClues": [],
+      "primaryClue": "Unique; unsurpassed",
+      "alternateClues": [
+        "With independent power; unfettered",
+        "Unmarried ; widowed"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 4,
         "category": "ocean"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Unique; unsurpassed.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "TILAPIA",
-      "primaryClue": "Marine creature or feature",
-      "alternateClues": [],
+      "primaryClue": "A fishy drag queen; a drag queen who",
+      "alternateClues": [
+        "Any of various edible fish, formerly species"
+      ],
       "softHints": {
         "startsWith": "T",
         "length": 7,
         "category": "ocean"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A fishy (resembling a cisgender woman) drag queen; a drag queen who could pass for a woman, as opposed to one who is exaggeratedly feminine.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "TROUT",
-      "primaryClue": "Found in the sea",
-      "alternateClues": [],
+      "primaryClue": "An objectionable elderly woman",
+      "alternateClues": [
+        "Any of several species of fish in Salmonidae,"
+      ],
       "softHints": {
         "startsWith": "T",
         "length": 5,
         "category": "ocean"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "An objectionable elderly woman.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "TUNA",
-      "primaryClue": "Underwater dweller",
-      "alternateClues": [],
+      "primaryClue": "Any of several species of fish of",
+      "alternateClues": [
+        "Any of several species of fish of"
+      ],
       "softHints": {
         "startsWith": "T",
         "length": 4,
         "category": "ocean"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any of several species of fish of the genus Thunnus in the family Scombridae.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     }
   ]
 }

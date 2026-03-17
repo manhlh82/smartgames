@@ -1,0 +1,4936 @@
+{
+  "packId": "animals-easy",
+  "title": "Wild Kingdom",
+  "theme": "animals",
+  "difficulty": "easy",
+  "boardSize": "mini",
+  "puzzleCount": 20,
+  "version": "1.0.0",
+  "createdAt": "2026-03-18",
+  "puzzles": [
+    {
+      "puzzleId": "animals-easy-7x7-0001",
+      "seed": 1,
+      "theme": "animals",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "M",
+          "A",
+          "R",
+          "T",
+          "I",
+          "N"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "U",
+          "",
+          ""
+        ],
+        [
+          "",
+          "S",
+          "H",
+          "A",
+          "R",
+          "K",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "K",
+          "",
+          ""
+        ],
+        [
+          "E",
+          "A",
+          "G",
+          "L",
+          "E",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "Y",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 3,
+          "answer": "SHARK",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Flesh of this animal, consumed as food",
+          "softHints": {
+            "startsWith": "S",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "TURKEY",
+          "direction": "down",
+          "row": 1,
+          "col": 4,
+          "length": 6,
+          "clue": "The guinea fowl",
+          "softHints": {
+            "startsWith": "T",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "MARTIN",
+          "direction": "across",
+          "row": 1,
+          "col": 1,
+          "length": 6,
+          "clue": "Many of the various passerine birds of",
+          "softHints": {
+            "startsWith": "M",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 4,
+          "answer": "EAGLE",
+          "direction": "across",
+          "row": 5,
+          "col": 0,
+          "length": 5,
+          "clue": "A gold coin with a face value",
+          "softHints": {
+            "startsWith": "E",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 1,
+            "clue": "Many of the various passerine birds of",
+            "answer": "MARTIN",
+            "length": 6
+          },
+          {
+            "number": 3,
+            "clue": "Flesh of this animal, consumed as food",
+            "answer": "SHARK",
+            "length": 5
+          },
+          {
+            "number": 4,
+            "clue": "A gold coin with a face value",
+            "answer": "EAGLE",
+            "length": 5
+          }
+        ],
+        "down": [
+          {
+            "number": 2,
+            "clue": "The guinea fowl",
+            "answer": "TURKEY",
+            "length": 6
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "animals",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 4,
+        "intersections": 3,
+        "boardScore": 0.3751
+      }
+    },
+    {
+      "puzzleId": "animals-easy-7x7-0002",
+      "seed": 2,
+      "theme": "animals",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "M",
+          "A",
+          "R",
+          "T",
+          "I",
+          "N"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "U",
+          "",
+          ""
+        ],
+        [
+          "",
+          "S",
+          "H",
+          "A",
+          "R",
+          "K",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "K",
+          "",
+          ""
+        ],
+        [
+          "E",
+          "A",
+          "G",
+          "L",
+          "E",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "Y",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 3,
+          "answer": "SHARK",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Flesh of this animal, consumed as food",
+          "softHints": {
+            "startsWith": "S",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "TURKEY",
+          "direction": "down",
+          "row": 1,
+          "col": 4,
+          "length": 6,
+          "clue": "The guinea fowl",
+          "softHints": {
+            "startsWith": "T",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "MARTIN",
+          "direction": "across",
+          "row": 1,
+          "col": 1,
+          "length": 6,
+          "clue": "Many of the various passerine birds of",
+          "softHints": {
+            "startsWith": "M",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 4,
+          "answer": "EAGLE",
+          "direction": "across",
+          "row": 5,
+          "col": 0,
+          "length": 5,
+          "clue": "A gold coin with a face value",
+          "softHints": {
+            "startsWith": "E",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 1,
+            "clue": "Many of the various passerine birds of",
+            "answer": "MARTIN",
+            "length": 6
+          },
+          {
+            "number": 3,
+            "clue": "Flesh of this animal, consumed as food",
+            "answer": "SHARK",
+            "length": 5
+          },
+          {
+            "number": 4,
+            "clue": "A gold coin with a face value",
+            "answer": "EAGLE",
+            "length": 5
+          }
+        ],
+        "down": [
+          {
+            "number": 2,
+            "clue": "The guinea fowl",
+            "answer": "TURKEY",
+            "length": 6
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "animals",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 4,
+        "intersections": 3,
+        "boardScore": 0.3751
+      }
+    },
+    {
+      "puzzleId": "animals-easy-7x7-0003",
+      "seed": 3,
+      "theme": "animals",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "P",
+          "",
+          "B",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "E",
+          "",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "N",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "T",
+          "I",
+          "G",
+          "E",
+          "R",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "U",
+          "",
+          "",
+          ""
+        ],
+        [
+          "M",
+          "O",
+          "N",
+          "I",
+          "T",
+          "O",
+          "R"
+        ],
+        [
+          "",
+          "",
+          "",
+          "N",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 3,
+          "answer": "TIGER",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Panthera tigris, a large predatory mammal of",
+          "softHints": {
+            "startsWith": "T",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "PENGUIN",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 7,
+          "clue": "A nun",
+          "softHints": {
+            "startsWith": "P",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 4,
+          "answer": "MONITOR",
+          "direction": "across",
+          "row": 5,
+          "col": 0,
+          "length": 7,
+          "clue": "Someone who watches over something; a person",
+          "softHints": {
+            "startsWith": "M",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "BEAR",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 4,
+          "clue": "The meat of this animal",
+          "softHints": {
+            "startsWith": "B",
+            "length": 4,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "Panthera tigris, a large predatory mammal of",
+            "answer": "TIGER",
+            "length": 5
+          },
+          {
+            "number": 4,
+            "clue": "Someone who watches over something; a person",
+            "answer": "MONITOR",
+            "length": 7
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A nun",
+            "answer": "PENGUIN",
+            "length": 7
+          },
+          {
+            "number": 2,
+            "clue": "The meat of this animal",
+            "answer": "BEAR",
+            "length": 4
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "animals",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 4,
+        "intersections": 3,
+        "boardScore": 0.3791
+      }
+    },
+    {
+      "puzzleId": "animals-easy-7x7-0004",
+      "seed": 4,
+      "theme": "animals",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "M",
+          "",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "D",
+          "",
+          "O",
+          "",
+          "U",
+          ""
+        ],
+        [
+          "",
+          "U",
+          "",
+          "N",
+          "",
+          "R",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "H",
+          "I",
+          "C",
+          "K",
+          ""
+        ],
+        [
+          "",
+          "K",
+          "",
+          "T",
+          "",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "O",
+          "",
+          "Y",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "R",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "CHICK",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "A young bird",
+          "softHints": {
+            "startsWith": "C",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "MONITOR",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 7,
+          "clue": "Someone who watches over something; a person",
+          "softHints": {
+            "startsWith": "M",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "TURKEY",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 6,
+          "clue": "The guinea fowl",
+          "softHints": {
+            "startsWith": "T",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "DUCK",
+          "direction": "down",
+          "row": 1,
+          "col": 1,
+          "length": 4,
+          "clue": "To lower into water; to thrust or plunge",
+          "softHints": {
+            "startsWith": "D",
+            "length": 4,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "A young bird",
+            "answer": "CHICK",
+            "length": 5
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Someone who watches over something; a person",
+            "answer": "MONITOR",
+            "length": 7
+          },
+          {
+            "number": 2,
+            "clue": "The guinea fowl",
+            "answer": "TURKEY",
+            "length": 6
+          },
+          {
+            "number": 3,
+            "clue": "To lower into water; to thrust or plunge",
+            "answer": "DUCK",
+            "length": 4
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "animals",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 4,
+        "intersections": 3,
+        "boardScore": 0.3751
+      }
+    },
+    {
+      "puzzleId": "animals-easy-7x7-0005",
+      "seed": 5,
+      "theme": "animals",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "P",
+          "",
+          "",
+          ""
+        ],
+        [
+          "T",
+          "I",
+          "G",
+          "E",
+          "R",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "N",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "E",
+          "A",
+          "G",
+          "L",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "U",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "H",
+          "I",
+          "C",
+          "K",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "N",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 3,
+          "answer": "EAGLE",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "A gold coin with a face value",
+          "softHints": {
+            "startsWith": "E",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "PENGUIN",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 7,
+          "clue": "A nun",
+          "softHints": {
+            "startsWith": "P",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 4,
+          "answer": "CHICK",
+          "direction": "across",
+          "row": 5,
+          "col": 1,
+          "length": 5,
+          "clue": "A young bird",
+          "softHints": {
+            "startsWith": "C",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "TIGER",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "clue": "Panthera tigris, a large predatory mammal of",
+          "softHints": {
+            "startsWith": "T",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 2,
+            "clue": "Panthera tigris, a large predatory mammal of",
+            "answer": "TIGER",
+            "length": 5
+          },
+          {
+            "number": 3,
+            "clue": "A gold coin with a face value",
+            "answer": "EAGLE",
+            "length": 5
+          },
+          {
+            "number": 4,
+            "clue": "A young bird",
+            "answer": "CHICK",
+            "length": 5
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A nun",
+            "answer": "PENGUIN",
+            "length": 7
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "animals",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 4,
+        "intersections": 3,
+        "boardScore": 0.3751
+      }
+    },
+    {
+      "puzzleId": "animals-easy-7x7-0006",
+      "seed": 6,
+      "theme": "animals",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "P",
+          "",
+          "",
+          ""
+        ],
+        [
+          "T",
+          "I",
+          "G",
+          "E",
+          "R",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "N",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "E",
+          "A",
+          "G",
+          "L",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "U",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "H",
+          "I",
+          "C",
+          "K",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "N",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 3,
+          "answer": "EAGLE",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "A gold coin with a face value",
+          "softHints": {
+            "startsWith": "E",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "PENGUIN",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 7,
+          "clue": "A nun",
+          "softHints": {
+            "startsWith": "P",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 4,
+          "answer": "CHICK",
+          "direction": "across",
+          "row": 5,
+          "col": 1,
+          "length": 5,
+          "clue": "A young bird",
+          "softHints": {
+            "startsWith": "C",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "TIGER",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "clue": "Panthera tigris, a large predatory mammal of",
+          "softHints": {
+            "startsWith": "T",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 2,
+            "clue": "Panthera tigris, a large predatory mammal of",
+            "answer": "TIGER",
+            "length": 5
+          },
+          {
+            "number": 3,
+            "clue": "A gold coin with a face value",
+            "answer": "EAGLE",
+            "length": 5
+          },
+          {
+            "number": 4,
+            "clue": "A young bird",
+            "answer": "CHICK",
+            "length": 5
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A nun",
+            "answer": "PENGUIN",
+            "length": 7
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "animals",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 4,
+        "intersections": 3,
+        "boardScore": 0.3751
+      }
+    },
+    {
+      "puzzleId": "animals-easy-7x7-0007",
+      "seed": 7,
+      "theme": "animals",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "J",
+          "A",
+          "Y",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "A",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "E",
+          "A",
+          "G",
+          "L",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "U",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "S",
+          "H",
+          "A",
+          "R",
+          "K",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "R",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 2,
+          "answer": "EAGLE",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "A gold coin with a face value",
+          "softHints": {
+            "startsWith": "E",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "JAGUAR",
+          "direction": "down",
+          "row": 1,
+          "col": 3,
+          "length": 6,
+          "clue": "A carnivorous spotted large cat native to South",
+          "softHints": {
+            "startsWith": "J",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "SHARK",
+          "direction": "across",
+          "row": 5,
+          "col": 1,
+          "length": 5,
+          "clue": "Flesh of this animal, consumed as food",
+          "softHints": {
+            "startsWith": "S",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "JAY",
+          "direction": "across",
+          "row": 1,
+          "col": 3,
+          "length": 3,
+          "clue": "Any of various other birds of similar appearance and behaviour",
+          "softHints": {
+            "startsWith": "J",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 1,
+            "clue": "Any of various other birds of similar appearance and behaviour",
+            "answer": "JAY",
+            "length": 3
+          },
+          {
+            "number": 2,
+            "clue": "A gold coin with a face value",
+            "answer": "EAGLE",
+            "length": 5
+          },
+          {
+            "number": 3,
+            "clue": "Flesh of this animal, consumed as food",
+            "answer": "SHARK",
+            "length": 5
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A carnivorous spotted large cat native to South",
+            "answer": "JAGUAR",
+            "length": 6
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "animals",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 4,
+        "intersections": 3,
+        "boardScore": 0.3628
+      }
+    },
+    {
+      "puzzleId": "animals-easy-7x7-0008",
+      "seed": 8,
+      "theme": "animals",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "P",
+          "",
+          "",
+          ""
+        ],
+        [
+          "T",
+          "I",
+          "G",
+          "E",
+          "R",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "N",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "E",
+          "A",
+          "G",
+          "L",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "U",
+          "",
+          "",
+          ""
+        ],
+        [
+          "M",
+          "O",
+          "N",
+          "I",
+          "T",
+          "O",
+          "R"
+        ],
+        [
+          "",
+          "",
+          "",
+          "N",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 3,
+          "answer": "EAGLE",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "A gold coin with a face value",
+          "softHints": {
+            "startsWith": "E",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "PENGUIN",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 7,
+          "clue": "A nun",
+          "softHints": {
+            "startsWith": "P",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 4,
+          "answer": "MONITOR",
+          "direction": "across",
+          "row": 5,
+          "col": 0,
+          "length": 7,
+          "clue": "Someone who watches over something; a person",
+          "softHints": {
+            "startsWith": "M",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "TIGER",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "clue": "Panthera tigris, a large predatory mammal of",
+          "softHints": {
+            "startsWith": "T",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 2,
+            "clue": "Panthera tigris, a large predatory mammal of",
+            "answer": "TIGER",
+            "length": 5
+          },
+          {
+            "number": 3,
+            "clue": "A gold coin with a face value",
+            "answer": "EAGLE",
+            "length": 5
+          },
+          {
+            "number": 4,
+            "clue": "Someone who watches over something; a person",
+            "answer": "MONITOR",
+            "length": 7
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A nun",
+            "answer": "PENGUIN",
+            "length": 7
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "animals",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 4,
+        "intersections": 3,
+        "boardScore": 0.3832
+      }
+    },
+    {
+      "puzzleId": "animals-easy-7x7-0009",
+      "seed": 9,
+      "theme": "animals",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "P",
+          "",
+          "",
+          ""
+        ],
+        [
+          "T",
+          "I",
+          "G",
+          "E",
+          "R",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "N",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "E",
+          "A",
+          "G",
+          "L",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "U",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "H",
+          "I",
+          "C",
+          "K",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "N",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 3,
+          "answer": "EAGLE",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "A gold coin with a face value",
+          "softHints": {
+            "startsWith": "E",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "PENGUIN",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 7,
+          "clue": "A nun",
+          "softHints": {
+            "startsWith": "P",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 4,
+          "answer": "CHICK",
+          "direction": "across",
+          "row": 5,
+          "col": 1,
+          "length": 5,
+          "clue": "A young bird",
+          "softHints": {
+            "startsWith": "C",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "TIGER",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "clue": "Panthera tigris, a large predatory mammal of",
+          "softHints": {
+            "startsWith": "T",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 2,
+            "clue": "Panthera tigris, a large predatory mammal of",
+            "answer": "TIGER",
+            "length": 5
+          },
+          {
+            "number": 3,
+            "clue": "A gold coin with a face value",
+            "answer": "EAGLE",
+            "length": 5
+          },
+          {
+            "number": 4,
+            "clue": "A young bird",
+            "answer": "CHICK",
+            "length": 5
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A nun",
+            "answer": "PENGUIN",
+            "length": 7
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "animals",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 4,
+        "intersections": 3,
+        "boardScore": 0.3751
+      }
+    },
+    {
+      "puzzleId": "animals-easy-7x7-0010",
+      "seed": 10,
+      "theme": "animals",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "J",
+          "",
+          "I",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "A",
+          "",
+          "G",
+          ""
+        ],
+        [
+          "",
+          "E",
+          "A",
+          "G",
+          "L",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "U",
+          "",
+          "R",
+          ""
+        ],
+        [
+          "H",
+          "U",
+          "M",
+          "A",
+          "N",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "R",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 3,
+          "answer": "EAGLE",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "A gold coin with a face value",
+          "softHints": {
+            "startsWith": "E",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "JAGUAR",
+          "direction": "down",
+          "row": 1,
+          "col": 3,
+          "length": 6,
+          "clue": "A carnivorous spotted large cat native to South",
+          "softHints": {
+            "startsWith": "J",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 4,
+          "answer": "HUMAN",
+          "direction": "across",
+          "row": 5,
+          "col": 0,
+          "length": 5,
+          "clue": "Of or belonging to the species Homo sapiens",
+          "softHints": {
+            "startsWith": "H",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "TIGER",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 5,
+          "clue": "Panthera tigris, a large predatory mammal of",
+          "softHints": {
+            "startsWith": "T",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "A gold coin with a face value",
+            "answer": "EAGLE",
+            "length": 5
+          },
+          {
+            "number": 4,
+            "clue": "Of or belonging to the species Homo sapiens",
+            "answer": "HUMAN",
+            "length": 5
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Panthera tigris, a large predatory mammal of",
+            "answer": "TIGER",
+            "length": 5
+          },
+          {
+            "number": 2,
+            "clue": "A carnivorous spotted large cat native to South",
+            "answer": "JAGUAR",
+            "length": 6
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "animals",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 4,
+        "intersections": 3,
+        "boardScore": 0.371
+      }
+    },
+    {
+      "puzzleId": "animals-easy-7x7-0011",
+      "seed": 11,
+      "theme": "animals",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "T",
+          "",
+          "P",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "I",
+          "",
+          "E",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "G",
+          "",
+          "N",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "E",
+          "A",
+          "G",
+          "L",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "R",
+          "",
+          "U",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "L",
+          "I",
+          "O",
+          "N",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "N",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 3,
+          "answer": "EAGLE",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "A gold coin with a face value",
+          "softHints": {
+            "startsWith": "E",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "PENGUIN",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 7,
+          "clue": "A nun",
+          "softHints": {
+            "startsWith": "P",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "TIGER",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "clue": "Panthera tigris, a large predatory mammal of",
+          "softHints": {
+            "startsWith": "T",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 4,
+          "answer": "LION",
+          "direction": "across",
+          "row": 5,
+          "col": 2,
+          "length": 4,
+          "clue": "A big cat, Panthera leo, native to Africa,",
+          "softHints": {
+            "startsWith": "L",
+            "length": 4,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "A gold coin with a face value",
+            "answer": "EAGLE",
+            "length": 5
+          },
+          {
+            "number": 4,
+            "clue": "A big cat, Panthera leo, native to Africa,",
+            "answer": "LION",
+            "length": 4
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Panthera tigris, a large predatory mammal of",
+            "answer": "TIGER",
+            "length": 5
+          },
+          {
+            "number": 2,
+            "clue": "A nun",
+            "answer": "PENGUIN",
+            "length": 7
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "animals",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 4,
+        "intersections": 3,
+        "boardScore": 0.371
+      }
+    },
+    {
+      "puzzleId": "animals-easy-7x7-0012",
+      "seed": 12,
+      "theme": "animals",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "H",
+          "U",
+          "M",
+          "A",
+          "N"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "A",
+          "",
+          ""
+        ],
+        [
+          "",
+          "S",
+          "H",
+          "A",
+          "R",
+          "K",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "T",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "S",
+          "W",
+          "I",
+          "F",
+          "T"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "N",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 3,
+          "answer": "SHARK",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Flesh of this animal, consumed as food",
+          "softHints": {
+            "startsWith": "S",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "MARTIN",
+          "direction": "down",
+          "row": 1,
+          "col": 4,
+          "length": 6,
+          "clue": "Many of the various passerine birds of",
+          "softHints": {
+            "startsWith": "M",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 4,
+          "answer": "SWIFT",
+          "direction": "across",
+          "row": 5,
+          "col": 2,
+          "length": 5,
+          "clue": "Fast; quick; rapid",
+          "softHints": {
+            "startsWith": "S",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "HUMAN",
+          "direction": "across",
+          "row": 1,
+          "col": 2,
+          "length": 5,
+          "clue": "Of or belonging to the species Homo sapiens",
+          "softHints": {
+            "startsWith": "H",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 1,
+            "clue": "Of or belonging to the species Homo sapiens",
+            "answer": "HUMAN",
+            "length": 5
+          },
+          {
+            "number": 3,
+            "clue": "Flesh of this animal, consumed as food",
+            "answer": "SHARK",
+            "length": 5
+          },
+          {
+            "number": 4,
+            "clue": "Fast; quick; rapid",
+            "answer": "SWIFT",
+            "length": 5
+          }
+        ],
+        "down": [
+          {
+            "number": 2,
+            "clue": "Many of the various passerine birds of",
+            "answer": "MARTIN",
+            "length": 6
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "animals",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 4,
+        "intersections": 3,
+        "boardScore": 0.371
+      }
+    },
+    {
+      "puzzleId": "animals-easy-7x7-0013",
+      "seed": 13,
+      "theme": "animals",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "P",
+          "",
+          "",
+          ""
+        ],
+        [
+          "T",
+          "I",
+          "G",
+          "E",
+          "R",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "N",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "E",
+          "A",
+          "G",
+          "L",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "U",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "H",
+          "I",
+          "C",
+          "K",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "N",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 3,
+          "answer": "EAGLE",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "A gold coin with a face value",
+          "softHints": {
+            "startsWith": "E",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "PENGUIN",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 7,
+          "clue": "A nun",
+          "softHints": {
+            "startsWith": "P",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 4,
+          "answer": "CHICK",
+          "direction": "across",
+          "row": 5,
+          "col": 1,
+          "length": 5,
+          "clue": "A young bird",
+          "softHints": {
+            "startsWith": "C",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "TIGER",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "clue": "Panthera tigris, a large predatory mammal of",
+          "softHints": {
+            "startsWith": "T",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 2,
+            "clue": "Panthera tigris, a large predatory mammal of",
+            "answer": "TIGER",
+            "length": 5
+          },
+          {
+            "number": 3,
+            "clue": "A gold coin with a face value",
+            "answer": "EAGLE",
+            "length": 5
+          },
+          {
+            "number": 4,
+            "clue": "A young bird",
+            "answer": "CHICK",
+            "length": 5
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A nun",
+            "answer": "PENGUIN",
+            "length": 7
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "animals",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 4,
+        "intersections": 3,
+        "boardScore": 0.3751
+      }
+    },
+    {
+      "puzzleId": "animals-easy-7x7-0014",
+      "seed": 14,
+      "theme": "animals",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "",
+          "C",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "H",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "S",
+          "",
+          "I",
+          "",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "H",
+          "I",
+          "C",
+          "K",
+          ""
+        ],
+        [
+          "",
+          "",
+          "A",
+          "",
+          "K",
+          "",
+          ""
+        ],
+        [
+          "T",
+          "U",
+          "R",
+          "K",
+          "E",
+          "Y",
+          ""
+        ],
+        [
+          "",
+          "",
+          "K",
+          "",
+          "N",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 3,
+          "answer": "CHICK",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "A young bird",
+          "softHints": {
+            "startsWith": "C",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "CHICKEN",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "clue": "The young of any bird; a chick",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 4,
+          "answer": "TURKEY",
+          "direction": "across",
+          "row": 5,
+          "col": 0,
+          "length": 6,
+          "clue": "The guinea fowl",
+          "softHints": {
+            "startsWith": "T",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "SHARK",
+          "direction": "down",
+          "row": 2,
+          "col": 2,
+          "length": 5,
+          "clue": "Flesh of this animal, consumed as food",
+          "softHints": {
+            "startsWith": "S",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "A young bird",
+            "answer": "CHICK",
+            "length": 5
+          },
+          {
+            "number": 4,
+            "clue": "The guinea fowl",
+            "answer": "TURKEY",
+            "length": 6
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "The young of any bird; a chick",
+            "answer": "CHICKEN",
+            "length": 7
+          },
+          {
+            "number": 2,
+            "clue": "Flesh of this animal, consumed as food",
+            "answer": "SHARK",
+            "length": 5
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "animals",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 4,
+        "intersections": 4,
+        "boardScore": 0.4376
+      }
+    },
+    {
+      "puzzleId": "animals-easy-7x7-0015",
+      "seed": 15,
+      "theme": "animals",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "C",
+          "",
+          "M",
+          "",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "H",
+          "",
+          "O",
+          "",
+          "U",
+          ""
+        ],
+        [
+          "",
+          "I",
+          "",
+          "N",
+          "",
+          "R",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "H",
+          "I",
+          "C",
+          "K",
+          ""
+        ],
+        [
+          "",
+          "K",
+          "",
+          "T",
+          "",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "E",
+          "",
+          "O",
+          "",
+          "Y",
+          ""
+        ],
+        [
+          "",
+          "N",
+          "",
+          "R",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "CHICK",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "A young bird",
+          "softHints": {
+            "startsWith": "C",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "MONITOR",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 7,
+          "clue": "Someone who watches over something; a person",
+          "softHints": {
+            "startsWith": "M",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "CHICKEN",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 7,
+          "clue": "The young of any bird; a chick",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "TURKEY",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 6,
+          "clue": "The guinea fowl",
+          "softHints": {
+            "startsWith": "T",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "A young bird",
+            "answer": "CHICK",
+            "length": 5
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "The young of any bird; a chick",
+            "answer": "CHICKEN",
+            "length": 7
+          },
+          {
+            "number": 2,
+            "clue": "Someone who watches over something; a person",
+            "answer": "MONITOR",
+            "length": 7
+          },
+          {
+            "number": 3,
+            "clue": "The guinea fowl",
+            "answer": "TURKEY",
+            "length": 6
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "animals",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 4,
+        "intersections": 3,
+        "boardScore": 0.3873
+      }
+    },
+    {
+      "puzzleId": "animals-easy-7x7-0016",
+      "seed": 16,
+      "theme": "animals",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "M",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "L",
+          "I",
+          "O",
+          "N",
+          "",
+          "M",
+          ""
+        ],
+        [
+          "",
+          "",
+          "N",
+          "",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "T",
+          "I",
+          "G",
+          "E",
+          "R",
+          ""
+        ],
+        [
+          "",
+          "",
+          "T",
+          "",
+          "",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "F",
+          "O",
+          "X",
+          "",
+          "I",
+          ""
+        ],
+        [
+          "",
+          "",
+          "R",
+          "",
+          "",
+          "N",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "TIGER",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Panthera tigris, a large predatory mammal of",
+          "softHints": {
+            "startsWith": "T",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "MONITOR",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 7,
+          "clue": "Someone who watches over something; a person",
+          "softHints": {
+            "startsWith": "M",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "MARTIN",
+          "direction": "down",
+          "row": 1,
+          "col": 5,
+          "length": 6,
+          "clue": "Many of the various passerine birds of",
+          "softHints": {
+            "startsWith": "M",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "LION",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "clue": "A big cat, Panthera leo, native to Africa,",
+          "softHints": {
+            "startsWith": "L",
+            "length": 4,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 5,
+          "answer": "FOX",
+          "direction": "across",
+          "row": 5,
+          "col": 1,
+          "length": 3,
+          "clue": "A small-to-medium-sized canine mammal, related to dogs",
+          "softHints": {
+            "startsWith": "F",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 2,
+            "clue": "A big cat, Panthera leo, native to Africa,",
+            "answer": "LION",
+            "length": 4
+          },
+          {
+            "number": 4,
+            "clue": "Panthera tigris, a large predatory mammal of",
+            "answer": "TIGER",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "A small-to-medium-sized canine mammal, related to dogs",
+            "answer": "FOX",
+            "length": 3
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Someone who watches over something; a person",
+            "answer": "MONITOR",
+            "length": 7
+          },
+          {
+            "number": 3,
+            "clue": "Many of the various passerine birds of",
+            "answer": "MARTIN",
+            "length": 6
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "animals",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 5,
+        "intersections": 4,
+        "boardScore": 0.4232
+      }
+    },
+    {
+      "puzzleId": "animals-easy-7x7-0017",
+      "seed": 17,
+      "theme": "animals",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "P",
+          "",
+          "",
+          ""
+        ],
+        [
+          "T",
+          "I",
+          "G",
+          "E",
+          "R",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "N",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "E",
+          "A",
+          "G",
+          "L",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "U",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "H",
+          "I",
+          "C",
+          "K",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "N",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 3,
+          "answer": "EAGLE",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "A gold coin with a face value",
+          "softHints": {
+            "startsWith": "E",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "PENGUIN",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 7,
+          "clue": "A nun",
+          "softHints": {
+            "startsWith": "P",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 4,
+          "answer": "CHICK",
+          "direction": "across",
+          "row": 5,
+          "col": 1,
+          "length": 5,
+          "clue": "A young bird",
+          "softHints": {
+            "startsWith": "C",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "TIGER",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "clue": "Panthera tigris, a large predatory mammal of",
+          "softHints": {
+            "startsWith": "T",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 2,
+            "clue": "Panthera tigris, a large predatory mammal of",
+            "answer": "TIGER",
+            "length": 5
+          },
+          {
+            "number": 3,
+            "clue": "A gold coin with a face value",
+            "answer": "EAGLE",
+            "length": 5
+          },
+          {
+            "number": 4,
+            "clue": "A young bird",
+            "answer": "CHICK",
+            "length": 5
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A nun",
+            "answer": "PENGUIN",
+            "length": 7
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "animals",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 4,
+        "intersections": 3,
+        "boardScore": 0.3751
+      }
+    },
+    {
+      "puzzleId": "animals-easy-7x7-0018",
+      "seed": 18,
+      "theme": "animals",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "M",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "L",
+          "I",
+          "O",
+          "N",
+          "",
+          "M",
+          ""
+        ],
+        [
+          "",
+          "",
+          "N",
+          "",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "T",
+          "I",
+          "G",
+          "E",
+          "R",
+          ""
+        ],
+        [
+          "",
+          "",
+          "T",
+          "",
+          "",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "T",
+          "O",
+          "M",
+          "",
+          "I",
+          ""
+        ],
+        [
+          "",
+          "",
+          "R",
+          "",
+          "",
+          "N",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "TIGER",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Panthera tigris, a large predatory mammal of",
+          "softHints": {
+            "startsWith": "T",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "MONITOR",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 7,
+          "clue": "Someone who watches over something; a person",
+          "softHints": {
+            "startsWith": "M",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "MARTIN",
+          "direction": "down",
+          "row": 1,
+          "col": 5,
+          "length": 6,
+          "clue": "Many of the various passerine birds of",
+          "softHints": {
+            "startsWith": "M",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "LION",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "clue": "A big cat, Panthera leo, native to Africa,",
+          "softHints": {
+            "startsWith": "L",
+            "length": 4,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 5,
+          "answer": "TOM",
+          "direction": "across",
+          "row": 5,
+          "col": 1,
+          "length": 3,
+          "clue": "The male of the turkey",
+          "softHints": {
+            "startsWith": "T",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 2,
+            "clue": "A big cat, Panthera leo, native to Africa,",
+            "answer": "LION",
+            "length": 4
+          },
+          {
+            "number": 4,
+            "clue": "Panthera tigris, a large predatory mammal of",
+            "answer": "TIGER",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "The male of the turkey",
+            "answer": "TOM",
+            "length": 3
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Someone who watches over something; a person",
+            "answer": "MONITOR",
+            "length": 7
+          },
+          {
+            "number": 3,
+            "clue": "Many of the various passerine birds of",
+            "answer": "MARTIN",
+            "length": 6
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "animals",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 5,
+        "intersections": 4,
+        "boardScore": 0.4232
+      }
+    },
+    {
+      "puzzleId": "animals-easy-7x7-0019",
+      "seed": 19,
+      "theme": "animals",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "P",
+          "",
+          "",
+          ""
+        ],
+        [
+          "T",
+          "I",
+          "G",
+          "E",
+          "R",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "N",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "E",
+          "A",
+          "G",
+          "L",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "U",
+          "",
+          "",
+          ""
+        ],
+        [
+          "M",
+          "O",
+          "N",
+          "I",
+          "T",
+          "O",
+          "R"
+        ],
+        [
+          "",
+          "",
+          "",
+          "N",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 3,
+          "answer": "EAGLE",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "A gold coin with a face value",
+          "softHints": {
+            "startsWith": "E",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "PENGUIN",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 7,
+          "clue": "A nun",
+          "softHints": {
+            "startsWith": "P",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 4,
+          "answer": "MONITOR",
+          "direction": "across",
+          "row": 5,
+          "col": 0,
+          "length": 7,
+          "clue": "Someone who watches over something; a person",
+          "softHints": {
+            "startsWith": "M",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "TIGER",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "clue": "Panthera tigris, a large predatory mammal of",
+          "softHints": {
+            "startsWith": "T",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 2,
+            "clue": "Panthera tigris, a large predatory mammal of",
+            "answer": "TIGER",
+            "length": 5
+          },
+          {
+            "number": 3,
+            "clue": "A gold coin with a face value",
+            "answer": "EAGLE",
+            "length": 5
+          },
+          {
+            "number": 4,
+            "clue": "Someone who watches over something; a person",
+            "answer": "MONITOR",
+            "length": 7
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A nun",
+            "answer": "PENGUIN",
+            "length": 7
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "animals",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 4,
+        "intersections": 3,
+        "boardScore": 0.3832
+      }
+    },
+    {
+      "puzzleId": "animals-easy-7x7-0020",
+      "seed": 20,
+      "theme": "animals",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "P",
+          "",
+          "",
+          ""
+        ],
+        [
+          "T",
+          "I",
+          "G",
+          "E",
+          "R",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "N",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "E",
+          "A",
+          "G",
+          "L",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "U",
+          "",
+          "",
+          ""
+        ],
+        [
+          "M",
+          "O",
+          "N",
+          "I",
+          "T",
+          "O",
+          "R"
+        ],
+        [
+          "",
+          "",
+          "",
+          "N",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 3,
+          "answer": "EAGLE",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "A gold coin with a face value",
+          "softHints": {
+            "startsWith": "E",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "PENGUIN",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 7,
+          "clue": "A nun",
+          "softHints": {
+            "startsWith": "P",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 4,
+          "answer": "MONITOR",
+          "direction": "across",
+          "row": 5,
+          "col": 0,
+          "length": 7,
+          "clue": "Someone who watches over something; a person",
+          "softHints": {
+            "startsWith": "M",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "TIGER",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "clue": "Panthera tigris, a large predatory mammal of",
+          "softHints": {
+            "startsWith": "T",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 2,
+            "clue": "Panthera tigris, a large predatory mammal of",
+            "answer": "TIGER",
+            "length": 5
+          },
+          {
+            "number": 3,
+            "clue": "A gold coin with a face value",
+            "answer": "EAGLE",
+            "length": 5
+          },
+          {
+            "number": 4,
+            "clue": "Someone who watches over something; a person",
+            "answer": "MONITOR",
+            "length": 7
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A nun",
+            "answer": "PENGUIN",
+            "length": 7
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "animals",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 4,
+        "intersections": 3,
+        "boardScore": 0.3832
+      }
+    }
+  ]
+}

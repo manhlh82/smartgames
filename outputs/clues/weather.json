@@ -4,284 +4,376 @@
   "clues": [
     {
       "word": "ARROYO",
-      "primaryClue": "What the forecast might show",
-      "alternateClues": [],
+      "primaryClue": "Any watercourse; any rivulet (whether it flows year-round",
+      "alternateClues": [
+        "A dry creek or streambed, a gulch which"
+      ],
       "softHints": {
         "startsWith": "A",
         "length": 6,
         "category": "weather"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any watercourse; any rivulet (whether it flows year-round or only seasonally).",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BASIN",
-      "primaryClue": "Related to the weather",
-      "alternateClues": [],
+      "primaryClue": "A wide bowl for washing, sometimes affixed to a wall",
+      "alternateClues": [
+        "A depression, natural or artificial, containing water",
+        "A shallow bowl used for a single serving"
+      ],
       "softHints": {
         "startsWith": "B",
         "length": 5,
         "category": "weather"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A wide bowl for washing, sometimes affixed to a wall.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BAY",
-      "primaryClue": "Climate or weather event",
-      "alternateClues": [],
+      "primaryClue": "A bank or dam to keep back water",
+      "alternateClues": [
+        "A body of water contained by a concave shoreline"
+      ],
       "softHints": {
         "startsWith": "B",
         "length": 3,
         "category": "weather"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A bank or dam to keep back water.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BAYOU",
-      "primaryClue": "Climate or weather event",
-      "alternateClues": [],
+      "primaryClue": "A swamp; a marshy body of water",
+      "alternateClues": [
+        "A slow-moving, often stagnant creek or river"
+      ],
       "softHints": {
         "startsWith": "B",
         "length": 5,
         "category": "weather"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A swamp; a marshy (stagnant) body of water.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BEND",
-      "primaryClue": "Related to the weather",
-      "alternateClues": [],
+      "primaryClue": "To become curved",
+      "alternateClues": [
+        "To cause to change direction",
+        "To cause to change its shape into"
+      ],
       "softHints": {
         "startsWith": "B",
         "length": 4,
         "category": "weather"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "To become curved.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BIGHT",
-      "primaryClue": "Meteorological term",
-      "alternateClues": [],
+      "primaryClue": "A corner, bend, or angle; a hollow",
+      "alternateClues": [
+        "A bend or curve in a coastline, river,",
+        "An area of sea lying between two promontories,"
+      ],
       "softHints": {
         "startsWith": "B",
         "length": 5,
         "category": "weather"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A corner, bend, or angle; a hollow",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BOG",
-      "primaryClue": "Meteorological term",
-      "alternateClues": [],
+      "primaryClue": "An area of decayed vegetation which forms",
+      "alternateClues": [
+        "An area of decayed vegetation which forms",
+        "An acidic, chiefly rain-fed , peat-forming wetland. (Contrast"
+      ],
       "softHints": {
         "startsWith": "B",
         "length": 3,
         "category": "weather"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "An area of decayed vegetation (particularly sphagnum moss) which forms a wet spongy ground too soft for walking.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BROOK",
-      "primaryClue": "Meteorological term",
-      "alternateClues": [],
+      "primaryClue": "To earn; deserve",
+      "alternateClues": [
+        "To bear; endure; support; put up with; tolerate",
+        "To enjoy the use of; make use of;"
+      ],
       "softHints": {
         "startsWith": "B",
         "length": 5,
         "category": "weather"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "To earn; deserve.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CANAL",
-      "primaryClue": "What the forecast might show",
-      "alternateClues": [],
+      "primaryClue": "A tubular channel within the body or within a plant",
+      "alternateClues": [
+        "An artificial waterway or artificially improved river used",
+        "One of the faint, hazy markings resembling straight"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 5,
         "category": "weather"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A tubular channel within the body or within a plant.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CATARACT",
-      "primaryClue": "A weather condition",
-      "alternateClues": [],
+      "primaryClue": "An overwhelming downpour or rush; a flood",
+      "alternateClues": [
+        "A flood of water; specifically, steep rapids in a river",
+        "A waterfall, specifically one flowing over the edge"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 8,
         "category": "weather"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "An overwhelming downpour or rush; a flood.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CHANNEL",
-      "primaryClue": "Meteorological term",
-      "alternateClues": [],
+      "primaryClue": "The navigable part of a river",
+      "alternateClues": [
+        "The hollow bed of running waters; the bed",
+        "The natural or man-made deeper course through"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 7,
         "category": "weather"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The navigable part of a river.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CORAL",
-      "primaryClue": "Related to the weather",
-      "alternateClues": [],
+      "primaryClue": "A hard substance made of the skeletons of these organisms",
+      "alternateClues": [
+        "A somewhat yellowish orange-pink color; the color",
+        "Any of many species of marine invertebrates"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 5,
         "category": "weather"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A hard substance made of the skeletons of these organisms.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "COVE",
-      "primaryClue": "Meteorological term",
-      "alternateClues": [],
+      "primaryClue": "A hollow in a rock; a cave or cavern",
+      "alternateClues": [
+        "A concave vault or archway, especially the arch",
+        "A small coastal inlet, especially one having high"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 4,
         "category": "weather"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A hollow in a rock; a cave or cavern.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CREEK",
-      "primaryClue": "What the forecast might show",
-      "alternateClues": [],
+      "primaryClue": "The inner part of a port that is",
+      "alternateClues": [
+        "A small inlet, often saltwater, leading to",
+        "A stream of water, typically a stream"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 5,
         "category": "weather"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The inner part of a port that is used as a dock for small boats.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "DAM",
-      "primaryClue": "Climate or weather event",
-      "alternateClues": [],
+      "primaryClue": "The water reservoir resulting from placing such a structure",
+      "alternateClues": [
+        "A device to prevent a tooth from getting",
+        "A structure placed across a flowing body"
+      ],
       "softHints": {
         "startsWith": "D",
         "length": 3,
         "category": "weather"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The water reservoir resulting from placing such a structure.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "DELTA",
-      "primaryClue": "Related to the weather",
-      "alternateClues": [],
+      "primaryClue": "The fourth letter of the modern Greek alphabet Δ, δ",
+      "alternateClues": [
+        "A landform at the mouth of a river"
+      ],
       "softHints": {
         "startsWith": "D",
         "length": 5,
         "category": "weather"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The fourth letter of the modern Greek alphabet Δ, δ.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "ESTUARY",
-      "primaryClue": "What the forecast might show",
-      "alternateClues": [],
+      "primaryClue": "An ocean inlet also fed by fresh river water",
+      "alternateClues": [
+        "A coastal water body where ocean tides"
+      ],
       "softHints": {
         "startsWith": "E",
         "length": 7,
         "category": "weather"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "An ocean inlet also fed by fresh river water.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "FALLS",
-      "primaryClue": "Related to the weather",
+      "primaryClue": "A waterfall",
       "alternateClues": [],
       "softHints": {
         "startsWith": "F",
@@ -289,31 +381,39 @@
         "category": "weather"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A waterfall.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "FEN",
-      "primaryClue": "What the forecast might show",
-      "alternateClues": [],
+      "primaryClue": "Any swamp or mire",
+      "alternateClues": [
+        "A type of wetland fed by ground water"
+      ],
       "softHints": {
         "startsWith": "F",
         "length": 3,
         "category": "weather"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any swamp or mire (especially with negative connotations).",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "FJORD",
-      "primaryClue": "What the forecast might show",
+      "primaryClue": "A long, narrow, deep inlet between cliffs",
       "alternateClues": [],
       "softHints": {
         "startsWith": "F",
@@ -321,211 +421,279 @@
         "category": "weather"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A long, narrow, deep inlet between cliffs.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "FORK",
-      "primaryClue": "Related to the weather",
-      "alternateClues": [],
+      "primaryClue": "Any of several types of pronged tools , as follows:",
+      "alternateClues": [
+        "Any of several types of pronged tools , as follows:",
+        "A utensil with spikes used to put solid"
+      ],
       "softHints": {
         "startsWith": "F",
         "length": 4,
         "category": "weather"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any of several types of pronged (tined) tools (physical tools), as follows:",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "GEYSER",
-      "primaryClue": "Related to the weather",
-      "alternateClues": [],
+      "primaryClue": "An instantaneous, and often dangerous, hot water heater",
+      "alternateClues": [
+        "A momentary vertical jet or fountain of fluid",
+        "A boiling natural spring which throws forth jets"
+      ],
       "softHints": {
         "startsWith": "G",
         "length": 6,
         "category": "weather"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "An instantaneous, and often dangerous, hot water heater.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "GLACIER",
-      "primaryClue": "Related to the weather",
-      "alternateClues": [],
+      "primaryClue": "Something that moves very slowly",
+      "alternateClues": [
+        "An area of a mountain where snow is present year-round",
+        "A large body of ice which flows under"
+      ],
       "softHints": {
         "startsWith": "G",
         "length": 7,
         "category": "weather"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Something that moves very slowly",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "GULCH",
-      "primaryClue": "Related to the weather",
-      "alternateClues": [],
+      "primaryClue": "To fall heavily",
+      "alternateClues": [
+        "To swallow greedily; to gulp down"
+      ],
       "softHints": {
         "startsWith": "G",
         "length": 5,
         "category": "weather"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "To fall heavily.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "GULF",
-      "primaryClue": "A weather condition",
-      "alternateClues": [],
+      "primaryClue": "That which swallows; the gullet",
+      "alternateClues": [
+        "A hollow place in the earth; an abyss;",
+        "That which swallows irretrievably; a whirlpool; a sucking eddy"
+      ],
       "softHints": {
         "startsWith": "G",
         "length": 4,
         "category": "weather"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "That which swallows; the gullet.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "GULLY",
-      "primaryClue": "Meteorological term",
-      "alternateClues": [],
+      "primaryClue": "A drop kerb",
+      "alternateClues": [
+        "A small valley",
+        "A trench, ravine or narrow channel which was"
+      ],
       "softHints": {
         "startsWith": "G",
         "length": 5,
         "category": "weather"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A drop kerb.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "HARBOR",
-      "primaryClue": "Related to the weather",
-      "alternateClues": [],
+      "primaryClue": "Any place of shelter",
+      "alternateClues": [
+        "A mixing box for materials",
+        "A sheltered expanse of water, adjacent to land,"
+      ],
       "softHints": {
         "startsWith": "H",
         "length": 6,
         "category": "weather"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any place of shelter.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "ICEBERG",
-      "primaryClue": "Climate or weather event",
-      "alternateClues": [],
+      "primaryClue": "An aloof person",
+      "alternateClues": [
+        "The seaward end of a glacier",
+        "A huge mass of ocean-floating ice which has"
+      ],
       "softHints": {
         "startsWith": "I",
         "length": 7,
         "category": "weather"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "An aloof person.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "INLET",
-      "primaryClue": "Meteorological term",
-      "alternateClues": [],
+      "primaryClue": "A passage that leads into a cavity",
+      "alternateClues": [
+        "A body of water let into a coast,"
+      ],
       "softHints": {
         "startsWith": "I",
         "length": 5,
         "category": "weather"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A passage that leads into a cavity.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "ISLAND",
-      "primaryClue": "What the forecast might show",
-      "alternateClues": [],
+      "primaryClue": "An entity surrounded by other entities that are",
+      "alternateClues": [
+        "A contiguous area of land, smaller than",
+        "A contiguous area of land, smaller than"
+      ],
       "softHints": {
         "startsWith": "I",
         "length": 6,
         "category": "weather"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "An entity surrounded by other entities that are very different from itself.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "ISLET",
-      "primaryClue": "Meteorological term",
-      "alternateClues": [],
+      "primaryClue": "A small island",
+      "alternateClues": [
+        "An isolated piece of tissue that has a specific function"
+      ],
       "softHints": {
         "startsWith": "I",
         "length": 5,
         "category": "weather"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A small island.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "KETTLE",
-      "primaryClue": "Meteorological term",
-      "alternateClues": [],
+      "primaryClue": "A vessel for boiling a liquid or cooking",
+      "alternateClues": [
+        "A vessel for boiling a liquid or cooking",
+        "A vessel or appliance used to boil water"
+      ],
       "softHints": {
         "startsWith": "K",
         "length": 6,
         "category": "weather"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A vessel for boiling a liquid or cooking food, usually metal and equipped with a lid.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "LAGOON",
-      "primaryClue": "Climate or weather event",
+      "primaryClue": "A shallow body of water separated from deeper",
       "alternateClues": [],
       "softHints": {
         "startsWith": "L",
@@ -533,48 +701,61 @@
         "category": "weather"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A shallow body of water separated from deeper sea by a bar.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "LAKE",
-      "primaryClue": "A weather condition",
-      "alternateClues": [],
+      "primaryClue": "A large amount of liquid",
+      "alternateClues": [
+        "A large, landlocked stretch of water or similar liquid",
+        "A small stream of running water; a channel"
+      ],
       "softHints": {
         "startsWith": "L",
         "length": 4,
         "category": "weather"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A large amount of liquid.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "LOCH",
-      "primaryClue": "Meteorological term",
-      "alternateClues": [],
+      "primaryClue": "A lake",
+      "alternateClues": [
+        "A bay or arm of the sea"
+      ],
       "softHints": {
         "startsWith": "L",
         "length": 4,
         "category": "weather"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A lake.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "MARSH",
-      "primaryClue": "Climate or weather event",
+      "primaryClue": "An area of low, wet land, often with",
       "alternateClues": [],
       "softHints": {
         "startsWith": "M",
@@ -582,63 +763,84 @@
         "category": "weather"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "An area of low, wet land, often with tall grass or herbaceous plants.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "MEANDER",
-      "primaryClue": "Related to the weather",
-      "alternateClues": [],
+      "primaryClue": "A tortuous or winding journey",
+      "alternateClues": [
+        "One of the turns of a winding, crooked,",
+        "One of a series of regular sinuous curves,"
+      ],
       "softHints": {
         "startsWith": "M",
         "length": 7,
         "category": "weather"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A tortuous or winding journey.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "MOAT",
-      "primaryClue": "Climate or weather event",
-      "alternateClues": [],
+      "primaryClue": "A circular lowland between a resurgent dome",
+      "alternateClues": [
+        "A deep, wide defensive ditch, normally filled with",
+        "An aspect of a business which makes it"
+      ],
       "softHints": {
         "startsWith": "M",
         "length": 4,
         "category": "weather"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A circular lowland between a resurgent dome and the walls of the caldera surrounding it.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "MOUTH",
-      "primaryClue": "A weather condition",
-      "alternateClues": [],
+      "primaryClue": "An outlet, aperture or orifice",
+      "alternateClues": [
+        "The front opening of a creature through which",
+        "The end of a river out of which"
+      ],
       "softHints": {
         "startsWith": "M",
         "length": 5,
         "category": "weather"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "An outlet, aperture or orifice.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "NARROWS",
-      "primaryClue": "Meteorological term",
+      "primaryClue": "Third-person singular simple present indicative of narrow",
       "alternateClues": [],
       "softHints": {
         "startsWith": "N",
@@ -646,64 +848,84 @@
         "category": "weather"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "third-person singular simple present indicative of narrow",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "NECK",
-      "primaryClue": "A weather condition",
-      "alternateClues": [],
+      "primaryClue": "The corresponding part in some other anatomical contexts",
+      "alternateClues": [
+        "The part of a shirt, dress etc., which",
+        "The part of the body connecting the head"
+      ],
       "softHints": {
         "startsWith": "N",
         "length": 4,
         "category": "weather"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The corresponding part in some other anatomical contexts.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "OASIS",
-      "primaryClue": "A weather condition",
-      "alternateClues": [],
+      "primaryClue": "A quiet, peaceful place or situation separated from",
+      "alternateClues": [
+        "A spring of fresh water, surrounded by",
+        "A place or situation of fruitfulness or abundance"
+      ],
       "softHints": {
         "startsWith": "O",
         "length": 5,
         "category": "weather"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A quiet, peaceful place or situation separated from surrounding noise or bustle.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "OCEAN",
-      "primaryClue": "Related to the weather",
-      "alternateClues": [],
+      "primaryClue": "One of the large bodies of water separating the continents",
+      "alternateClues": [
+        "One of the large bodies of water separating the continents",
+        "An immense expanse; any vast space or quantity"
+      ],
       "softHints": {
         "startsWith": "O",
         "length": 5,
         "category": "weather"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "One of the large bodies of water separating the continents.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "PLAYA",
-      "primaryClue": "Related to the weather",
+      "primaryClue": "A level area which habitually fills with water",
       "alternateClues": [],
       "softHints": {
         "startsWith": "P",
@@ -711,80 +933,105 @@
         "category": "weather"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A level area which habitually fills with water that evaporates entirely.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "POND",
-      "primaryClue": "A weather condition",
-      "alternateClues": [],
+      "primaryClue": "An inland body of standing water, either natural",
+      "alternateClues": [
+        "An inland body of standing water of any"
+      ],
       "softHints": {
         "startsWith": "P",
         "length": 4,
         "category": "weather"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "An inland body of standing water, either natural or man-made, that is smaller than a lake.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "POOL",
-      "primaryClue": "Related to the weather",
-      "alternateClues": [],
+      "primaryClue": "Any small body of standing or stagnant water; a puddle",
+      "alternateClues": [
+        "Any small body of standing or stagnant water; a puddle",
+        "A small and rather deep area of fresh"
+      ],
       "softHints": {
         "startsWith": "P",
         "length": 4,
         "category": "weather"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any small body of standing or stagnant water; a puddle.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "PORT",
-      "primaryClue": "Meteorological term",
-      "alternateClues": [],
+      "primaryClue": "A town or city containing such a place,",
+      "alternateClues": [
+        "A place on the coast at which ships",
+        "The left-hand side of a vessel, including aircraft,"
+      ],
       "softHints": {
         "startsWith": "P",
         "length": 4,
         "category": "weather"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A town or city containing such a place, a port city.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "PUDDLE",
-      "primaryClue": "Related to the weather",
-      "alternateClues": [],
+      "primaryClue": "Stagnant or polluted water",
+      "alternateClues": [
+        "A small, often temporary, pool of water, usually",
+        "A homogeneous mixture of clay, water, and sometimes"
+      ],
       "softHints": {
         "startsWith": "P",
         "length": 6,
         "category": "weather"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Stagnant or polluted water.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "RAPIDS",
-      "primaryClue": "A weather condition",
+      "primaryClue": "Plural of rapid",
       "alternateClues": [],
       "softHints": {
         "startsWith": "R",
@@ -792,111 +1039,148 @@
         "category": "weather"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "plural of rapid",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "REEF",
-      "primaryClue": "A weather condition",
-      "alternateClues": [],
+      "primaryClue": "A large vein of auriferous quartz; hence, any",
+      "alternateClues": [
+        "A chain or range of rocks, sand,"
+      ],
       "softHints": {
         "startsWith": "R",
         "length": 4,
         "category": "weather"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A large vein of auriferous quartz; hence, any body of rock yielding valuable ore.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "RESERVOIR",
-      "primaryClue": "What the forecast might show",
-      "alternateClues": [],
+      "primaryClue": "A place where anything is kept in store",
+      "alternateClues": [
+        "A large natural or artificial lake used as",
+        "A small intercellular space, often containing resin, essential"
+      ],
       "softHints": {
         "startsWith": "R",
         "length": 9,
         "category": "weather"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A place where anything is kept in store.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "RIVER",
-      "primaryClue": "Related to the weather",
-      "alternateClues": [],
+      "primaryClue": "The last card dealt in a hand",
+      "alternateClues": [
+        "Any large flow of a liquid in a single body",
+        "A large and often winding stream which drains"
+      ],
       "softHints": {
         "startsWith": "R",
         "length": 5,
         "category": "weather"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The last card dealt in a hand.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "RIVULET",
-      "primaryClue": "A weather condition",
-      "alternateClues": [],
+      "primaryClue": "A small stream; a streamlet; a gill",
+      "alternateClues": [
+        "Perizoma affinitatum, a geometrid moth"
+      ],
       "softHints": {
         "startsWith": "R",
         "length": 7,
         "category": "weather"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A small stream; a streamlet; a gill.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "RUN",
-      "primaryClue": "Related to the weather",
-      "alternateClues": [],
+      "primaryClue": "To move swiftly",
+      "alternateClues": [
+        "To move swiftly",
+        "To move forward quickly upon two feet"
+      ],
       "softHints": {
         "startsWith": "R",
         "length": 3,
         "category": "weather"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "To move swiftly.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SEA",
-      "primaryClue": "Related to the weather",
-      "alternateClues": [],
+      "primaryClue": "A large body of salt water",
+      "alternateClues": [
+        "A large body of salt water",
+        "The ocean; the continuous body of salt water"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 3,
         "category": "weather"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A large body of salt water.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SHALLOWS",
-      "primaryClue": "A weather condition",
+      "primaryClue": "Plural of shallow",
       "alternateClues": [],
       "softHints": {
         "startsWith": "S",
@@ -904,15 +1188,18 @@
         "category": "weather"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "plural of shallow",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SHOAL",
-      "primaryClue": "Related to the weather",
+      "primaryClue": "",
       "alternateClues": [],
       "softHints": {
         "startsWith": "S",
@@ -920,173 +1207,233 @@
         "category": "weather"
       },
       "difficulty": "medium",
-      "source": "generated",
+      "source": "needs_review",
       "reviewFlags": [
-        "fallback_only"
+        "no_definition_found"
       ],
-      "approved": false
+      "approved": false,
+      "clueSource": "none",
+      "sourceDefinition": "",
+      "clueGenerationMethod": "excluded",
+      "licenseNotes": "",
+      "needsReview": true
     },
     {
       "word": "SHORE",
-      "primaryClue": "A weather condition",
-      "alternateClues": [],
+      "primaryClue": "Land, usually near a port",
+      "alternateClues": [
+        "Land adjoining a non-flowing body of water, such"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 5,
         "category": "weather"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Land, usually near a port.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SOUND",
-      "primaryClue": "What the forecast might show",
-      "alternateClues": [],
+      "primaryClue": "Complete, solid, or secure",
+      "alternateClues": [
+        "Complete, solid, or secure"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 5,
         "category": "weather"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Complete, solid, or secure.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SOURCE",
-      "primaryClue": "Meteorological term",
-      "alternateClues": [],
+      "primaryClue": "A reporter's informant",
+      "alternateClues": [
+        "The person, place, or thing from which something",
+        "Spring; fountainhead; wellhead; any collection of water"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 6,
         "category": "weather"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A reporter's informant.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SPRING",
-      "primaryClue": "A weather condition",
-      "alternateClues": [],
+      "primaryClue": "To appear",
+      "alternateClues": [
+        "To move or burst forth",
+        "To move or burst forth"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 6,
         "category": "weather"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "To appear.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "STRAIT",
-      "primaryClue": "Meteorological term",
-      "alternateClues": [],
+      "primaryClue": "Righteous, strict",
+      "alternateClues": [
+        "Tight; close; tight-fitting",
+        "Narrow; restricted as to space or room; close"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 6,
         "category": "weather"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Righteous, strict.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "STREAM",
-      "primaryClue": "A weather condition",
-      "alternateClues": [],
+      "primaryClue": "All moving waters",
+      "alternateClues": [
+        "A thin connected passing of a liquid through",
+        "A small river; a large creek; a body"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 6,
         "category": "weather"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "All moving waters.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SURF",
-      "primaryClue": "Climate or weather event",
-      "alternateClues": [],
+      "primaryClue": "Waves that break on an ocean shoreline",
+      "alternateClues": [
+        "A dance popular in the 1960s in which"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 4,
         "category": "weather"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Waves that break on an ocean shoreline.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SWAMP",
-      "primaryClue": "Related to the weather",
-      "alternateClues": [],
+      "primaryClue": "A place or situation that is foul",
+      "alternateClues": [
+        "The alleged corruption, cronyism, inefficiency, and entrenched interests",
+        "An area of wet , spongy land, often"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 5,
         "category": "weather"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A place or situation that is foul or where progress is difficult.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "TRIBUTARY",
-      "primaryClue": "A weather condition",
-      "alternateClues": [],
+      "primaryClue": "A vein which drains into another vein",
+      "alternateClues": [
+        "A nation, state, or other entity that pays tribute",
+        "A natural water stream that flows into"
+      ],
       "softHints": {
         "startsWith": "T",
         "length": 9,
         "category": "weather"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A vein which drains into another vein.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "WASH",
-      "primaryClue": "Climate or weather event",
-      "alternateClues": [],
+      "primaryClue": "To clean with water",
+      "alternateClues": [
+        "To be eroded or carried away by",
+        "To carry away or erode by the force"
+      ],
       "softHints": {
         "startsWith": "W",
         "length": 4,
         "category": "weather"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "To clean with water.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     }
   ]
 }

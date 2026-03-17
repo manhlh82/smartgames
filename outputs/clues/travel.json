@@ -4,107 +4,137 @@
   "clues": [
     {
       "word": "CABRIOLET",
-      "primaryClue": "Vehicle or travel concept",
-      "alternateClues": [],
+      "primaryClue": "An automobile with a retractable top",
+      "alternateClues": [
+        "A light two- or four-wheeled carriage with"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 9,
         "category": "travel"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "An automobile with a retractable top.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CAR",
-      "primaryClue": "Vehicle or travel concept",
-      "alternateClues": [],
+      "primaryClue": "A wheeled vehicle, drawn by a horse or other animal",
+      "alternateClues": [
+        "A wheeled vehicle, drawn by a horse or other animal",
+        "A wheeled vehicle that moves independently, with"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 3,
         "category": "travel"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A wheeled vehicle, drawn by a horse or other animal.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "COUPE",
-      "primaryClue": "Travel-related term",
-      "alternateClues": [],
+      "primaryClue": "An area of forest where harvesting of wood",
+      "alternateClues": [
+        "An area of forest where harvesting of wood",
+        "A shallow glass or glass dish, usually with"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 5,
         "category": "travel"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "An area of forest where harvesting of wood is planned or has taken place.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "DRAGSTER",
-      "primaryClue": "Travel-related term",
-      "alternateClues": [],
+      "primaryClue": "A drag queen",
+      "alternateClues": [
+        "One who takes part in drag racing",
+        "A heavily modified or custom-built vehicle used in drag racing"
+      ],
       "softHints": {
         "startsWith": "D",
         "length": 8,
         "category": "travel"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A drag queen.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "HATCHBACK",
-      "primaryClue": "Travel-related term",
-      "alternateClues": [],
+      "primaryClue": "The door itself",
+      "alternateClues": [
+        "A car with a sloping, hinged rear door"
+      ],
       "softHints": {
         "startsWith": "H",
         "length": 9,
         "category": "travel"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The door itself.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "HEARSE",
-      "primaryClue": "Travel-related term",
-      "alternateClues": [],
+      "primaryClue": "A grave, coffin, tomb, or sepulchral monument",
+      "alternateClues": [
+        "A bier or handbarrow for conveying the dead",
+        "A framework of wood or metal placed over"
+      ],
       "softHints": {
         "startsWith": "H",
         "length": 6,
         "category": "travel"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A grave, coffin, tomb, or sepulchral monument.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "HOTROD",
-      "primaryClue": "Transportation method",
+      "primaryClue": "Alternative spelling of hot rod",
       "alternateClues": [],
       "softHints": {
         "startsWith": "H",
@@ -112,16 +142,18 @@
         "category": "travel"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Alternative spelling of hot rod.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "HUMVEE",
-      "primaryClue": "Travel-related term",
+      "primaryClue": "",
       "alternateClues": [],
       "softHints": {
         "startsWith": "H",
@@ -129,32 +161,41 @@
         "category": "travel"
       },
       "difficulty": "medium",
-      "source": "generated",
+      "source": "needs_review",
       "reviewFlags": [
-        "fallback_only",
-        "short_clue"
+        "no_definition_found"
       ],
-      "approved": false
+      "approved": false,
+      "clueSource": "none",
+      "sourceDefinition": "",
+      "clueGenerationMethod": "excluded",
+      "licenseNotes": "",
+      "needsReview": true
     },
     {
       "word": "HYBRID",
-      "primaryClue": "Vehicle or travel concept",
-      "alternateClues": [],
+      "primaryClue": "Offspring resulting from cross-breeding different entities, e.g. two",
+      "alternateClues": [
+        "Something of mixed origin or composition; often,"
+      ],
       "softHints": {
         "startsWith": "H",
         "length": 6,
         "category": "travel"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Offspring resulting from cross-breeding different entities, e.g. two different species or two purebred parent strains.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "JEEP",
-      "primaryClue": "Transportation method",
+      "primaryClue": "A vehicle suitable for rough terrain",
       "alternateClues": [],
       "softHints": {
         "startsWith": "J",
@@ -162,16 +203,18 @@
         "category": "travel"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A vehicle (of a particular brand) suitable for rough terrain.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "LANDAULET",
-      "primaryClue": "Travel-related term",
+      "primaryClue": "A small landau",
       "alternateClues": [],
       "softHints": {
         "startsWith": "L",
@@ -179,16 +222,18 @@
         "category": "travel"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A small landau.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "LIMO",
-      "primaryClue": "Vehicle or travel concept",
+      "primaryClue": "",
       "alternateClues": [],
       "softHints": {
         "startsWith": "L",
@@ -196,32 +241,42 @@
         "category": "travel"
       },
       "difficulty": "medium",
-      "source": "generated",
+      "source": "needs_review",
       "reviewFlags": [
-        "fallback_only"
+        "no_definition_found"
       ],
-      "approved": false
+      "approved": false,
+      "clueSource": "none",
+      "sourceDefinition": "",
+      "clueGenerationMethod": "excluded",
+      "licenseNotes": "",
+      "needsReview": true
     },
     {
       "word": "LIMOUSINE",
-      "primaryClue": "Transportation method",
-      "alternateClues": [],
+      "primaryClue": "An automobile with such a body",
+      "alternateClues": [
+        "A luxury sedan or saloon car, especially one",
+        "An automobile body with seats and permanent top"
+      ],
       "softHints": {
         "startsWith": "L",
         "length": 9,
         "category": "travel"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "An automobile with such a body.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "MINIVAN",
-      "primaryClue": "Travel-related term",
+      "primaryClue": "A small van, especially (Canada, US, Australia, New",
       "alternateClues": [],
       "softHints": {
         "startsWith": "M",
@@ -229,48 +284,61 @@
         "category": "travel"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A small van, especially (Canada, US, Australia, New Zealand, Philippines) one primarily used for family transport.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "ROADSTER",
-      "primaryClue": "A way to travel",
-      "alternateClues": [],
+      "primaryClue": "One who drives much; a coach driver",
+      "alternateClues": [
+        "A horse for riding or driving on the road",
+        "A bicycle, or tricycle, adapted for common roads,"
+      ],
       "softHints": {
         "startsWith": "R",
         "length": 8,
         "category": "travel"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "One who drives much; a coach driver.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SEDAN",
-      "primaryClue": "Used for getting around",
-      "alternateClues": [],
+      "primaryClue": "An automobile designed in a configuration with separate",
+      "alternateClues": [
+        "An enclosed windowed chair suitable for a single"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 5,
         "category": "travel"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "An automobile designed in a configuration with separate compartments for engine space, driver/passenger space, and luggage or (limited) cargo space.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SUBCOMPACT",
-      "primaryClue": "A way to travel",
+      "primaryClue": "Something that is smaller than the compact version,",
       "alternateClues": [],
       "softHints": {
         "startsWith": "S",
@@ -278,15 +346,18 @@
         "category": "travel"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Something that is smaller than the compact version, especially a very small car.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SUV",
-      "primaryClue": "Transportation method",
+      "primaryClue": "Initialism of sport utility vehicle",
       "alternateClues": [],
       "softHints": {
         "startsWith": "S",
@@ -294,78 +365,101 @@
         "category": "travel"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Initialism of sport utility vehicle.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "TAXI",
-      "primaryClue": "Transportation method",
-      "alternateClues": [],
+      "primaryClue": "An aircraft used for practicing ground manoeuvres",
+      "alternateClues": [
+        "The movement of an aircraft across an airport's",
+        "A vehicle that may be hired for single"
+      ],
       "softHints": {
         "startsWith": "T",
         "length": 4,
         "category": "travel"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "An aircraft used for practicing ground manoeuvres.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "TRUCK",
-      "primaryClue": "Used for getting around",
-      "alternateClues": [],
+      "primaryClue": "The ball on top of a flagpole",
+      "alternateClues": [
+        "A small wheel or roller, specifically the wheel",
+        "On a wooden mast, a circular disc"
+      ],
       "softHints": {
         "startsWith": "T",
         "length": 5,
         "category": "travel"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The ball on top of a flagpole.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "VAN",
-      "primaryClue": "Used for getting around",
-      "alternateClues": [],
+      "primaryClue": "An enclosed railway vehicle for transport of goods,",
+      "alternateClues": [
+        "A light wagon, either covered or open, used",
+        "A covered motor vehicle used to carry goods"
+      ],
       "softHints": {
         "startsWith": "V",
         "length": 3,
         "category": "travel"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "An enclosed railway vehicle for transport of goods, such as a boxcar/box van.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "WAGON",
-      "primaryClue": "Travel-related term",
-      "alternateClues": [],
+      "primaryClue": "A shopping cart",
+      "alternateClues": [
+        "A heavier four-wheeled vehicle designed to carry goods"
+      ],
       "softHints": {
         "startsWith": "W",
         "length": 5,
         "category": "travel"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A shopping cart.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     }
   ]
 }

@@ -19,6 +19,15 @@ sys.path.insert(0, str(ROOT))
 
 from pipeline.clue_generator import make_clue_entry
 from pipeline.dictionary import load_lookup
+
+OVERRIDES_PATH = ROOT / "data" / "clue-overrides.json"
+
+
+def _load_overrides() -> dict:
+    if OVERRIDES_PATH.exists():
+        with open(OVERRIDES_PATH, encoding="utf-8") as f:
+            return json.load(f)
+    return {}
 from pipeline.generator import CrosswordGenerator
 from pipeline.pack_builder import (
     build_pack,
@@ -125,6 +134,7 @@ def load_clue_map(theme: str, word_bank: list[dict] | None = None) -> dict[str, 
     # Auto-generate entries for any words in the word bank not in the clue map
     if word_bank:
         lookup = _get_lookup()
+        overrides = _load_overrides()
         for word_entry in word_bank:
             word = word_entry.get("word", "")
             if word and word not in clue_map:
@@ -137,6 +147,7 @@ def load_clue_map(theme: str, word_bank: list[dict] | None = None) -> dict[str, 
                     difficulty=difficulty,
                     lookup=lookup,
                     word_source=word_source,
+                    override=overrides.get(word),
                 )
 
     return clue_map

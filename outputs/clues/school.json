@@ -4,73 +4,95 @@
   "clues": [
     {
       "word": "ARGUMENT",
-      "primaryClue": "Education-related term",
-      "alternateClues": [],
+      "primaryClue": "A fact or statement used to support",
+      "alternateClues": [
+        "A fact or statement used to support",
+        "A series of propositions organized so that"
+      ],
       "softHints": {
         "startsWith": "A",
         "length": 8,
         "category": "school"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A fact or statement used to support a proposition; a reason.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BLOCK",
-      "primaryClue": "Academic term",
-      "alternateClues": [],
+      "primaryClue": "A substantial, often approximately cuboid, piece of any substance",
+      "alternateClues": [
+        "A substantial, often approximately cuboid, piece of any substance",
+        "A substantial, often approximately cuboid, piece of any substance"
+      ],
       "softHints": {
         "startsWith": "B",
         "length": 5,
         "category": "school"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A substantial, often approximately cuboid, piece of any substance.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CODE",
-      "primaryClue": "Found at school",
-      "alternateClues": [],
+      "primaryClue": "Any system of principles, rules or regulations relating",
+      "alternateClues": [
+        "A short textual designation, often with little relation",
+        "A body of law, sanctioned by legislation,"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 4,
         "category": "school"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any system of principles, rules or regulations relating to one subject.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "COMMENT",
-      "primaryClue": "Part of school life",
-      "alternateClues": [],
+      "primaryClue": "A spoken or written remark",
+      "alternateClues": [
+        "A spoken or written remark",
+        "The part of a sentence that provides new"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 7,
         "category": "school"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A spoken or written remark.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "DATA",
-      "primaryClue": "Academic term",
+      "primaryClue": "Plural of datum",
       "alternateClues": [],
       "softHints": {
         "startsWith": "D",
@@ -78,49 +100,62 @@
         "category": "school"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "plural of datum",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "FLOAT",
-      "primaryClue": "Part of school life",
-      "alternateClues": [],
+      "primaryClue": "To be supported by a fluid of greater density",
+      "alternateClues": [
+        "To be supported by a fluid of greater density",
+        "To be supported by a liquid of greater"
+      ],
       "softHints": {
         "startsWith": "F",
         "length": 5,
         "category": "school"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "To be supported by a fluid of greater density (than the object).",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "FUNCTION",
-      "primaryClue": "Education-related term",
-      "alternateClues": [],
+      "primaryClue": "An official or social occasion",
+      "alternateClues": [
+        "What something does or is used for",
+        "A professional or official position"
+      ],
       "softHints": {
         "startsWith": "F",
         "length": 8,
         "category": "school"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "An official or social occasion.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "INTEGER",
-      "primaryClue": "Classroom or school concept",
+      "primaryClue": "A number that is not a fraction;",
       "alternateClues": [],
       "softHints": {
         "startsWith": "I",
@@ -128,345 +163,456 @@
         "category": "school"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A number that is not a fraction; an element of the infinite and numerable set {..., -3, -2, -1, 0, 1, 2, 3, ...}.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "KEYWORD",
-      "primaryClue": "Education-related term",
-      "alternateClues": [],
+      "primaryClue": "Any word used as the key to a code",
+      "alternateClues": [
+        "Any word used in a reference work",
+        "Any important word in a text or document,"
+      ],
       "softHints": {
         "startsWith": "K",
         "length": 7,
         "category": "school"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any word used as the key to a code.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "LINE",
-      "primaryClue": "Part of school life",
-      "alternateClues": [],
+      "primaryClue": "An infinitely extending one-dimensional figure that has no",
+      "alternateClues": [
+        "A path through two or more points ;",
+        "A path through two or more points ;"
+      ],
       "softHints": {
         "startsWith": "L",
         "length": 4,
         "category": "school"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "An infinitely extending one-dimensional figure that has no curvature; one that has length but not breadth or thickness.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "LITERAL",
-      "primaryClue": "Found at school",
-      "alternateClues": [],
+      "primaryClue": "Actual, real, physical",
+      "alternateClues": [
+        "That which generally assumes that the plainest reading",
+        "Exactly as stated; read or understood without interpretation;"
+      ],
       "softHints": {
         "startsWith": "L",
         "length": 7,
         "category": "school"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Actual, real, physical.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "METHOD",
-      "primaryClue": "Part of school life",
-      "alternateClues": [],
+      "primaryClue": "Systematicity, methodicalness, intentionality, order",
+      "alternateClues": [
+        "A process by which a task is completed;",
+        "A technique for acting based on the ideas"
+      ],
       "softHints": {
         "startsWith": "M",
         "length": 6,
         "category": "school"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Systematicity, methodicalness, intentionality, order",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "NAME",
-      "primaryClue": "Academic term",
-      "alternateClues": [],
+      "primaryClue": "A reputation",
+      "alternateClues": [
+        "An abusive or insulting epithet",
+        "Any nounal word or phrase which indicates"
+      ],
       "softHints": {
         "startsWith": "N",
         "length": 4,
         "category": "school"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A reputation.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "NUMBER",
-      "primaryClue": "Education-related term",
-      "alternateClues": [],
+      "primaryClue": "An abstract entity used to describe quantity",
+      "alternateClues": [
+        "An abstract entity used to describe quantity",
+        "A numeral: a symbol for a non-negative integer"
+      ],
       "softHints": {
         "startsWith": "N",
         "length": 6,
         "category": "school"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "An abstract entity used to describe quantity.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "OBJECT",
-      "primaryClue": "Education-related term",
-      "alternateClues": [],
+      "primaryClue": "Objective; goal, end or purpose of something",
+      "alternateClues": [
+        "A thing that has physical existence but is not alive",
+        "The noun phrase which is an internal complement"
+      ],
       "softHints": {
         "startsWith": "O",
         "length": 6,
         "category": "school"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Objective; goal, end or purpose of something.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "PARAMETER",
-      "primaryClue": "Part of school life",
-      "alternateClues": [],
+      "primaryClue": "A variable that describes a property or characteristic",
+      "alternateClues": [
+        "A variable that describes a property or characteristic",
+        "A value kept constant during an experiment, equation,"
+      ],
       "softHints": {
         "startsWith": "P",
         "length": 9,
         "category": "school"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A variable that describes a property or characteristic of some system (material, object, event, etc.) or some aspect thereof.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "PROCESS",
-      "primaryClue": "Found at school",
-      "alternateClues": [],
+      "primaryClue": "A series of events leading to a result or product",
+      "alternateClues": [
+        "A path or succession of states through which",
+        "The set of procedures used in the manufacture"
+      ],
       "softHints": {
         "startsWith": "P",
         "length": 7,
         "category": "school"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A series of events leading to a result or product.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SCOPE",
-      "primaryClue": "Academic term",
-      "alternateClues": [],
+      "primaryClue": "Potential range of action; degree of freedom; opportunity",
+      "alternateClues": [
+        "A device used in aiming a projectile, through",
+        "The breadth, depth or reach of a subject;"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 5,
         "category": "school"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Potential range of action; degree of freedom; opportunity.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SNIPPET",
-      "primaryClue": "Part of school life",
-      "alternateClues": [],
+      "primaryClue": "A small part of something, such as",
+      "alternateClues": [
+        "A text file containing a relatively small amount"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 7,
         "category": "school"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A small part of something, such as a song or fabric; sample.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "STRING",
-      "primaryClue": "Part of school life",
-      "alternateClues": [],
+      "primaryClue": "Any similar long, thin and flexible object",
+      "alternateClues": [
+        "A long, thin and flexible structure made from",
+        "A segment of wire or other material used"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 6,
         "category": "school"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Any similar long, thin and flexible object.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SYNTAX",
-      "primaryClue": "Academic term",
-      "alternateClues": [],
+      "primaryClue": "The study of the structure of phrases, sentences, and language",
+      "alternateClues": [
+        "The formal rules of formulating the statements",
+        "A set of rules that govern how words"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 6,
         "category": "school"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The study of the structure of phrases, sentences, and language.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "TYPE",
-      "primaryClue": "Academic term",
-      "alternateClues": [],
+      "primaryClue": "A grouping based on shared characteristics; a class",
+      "alternateClues": [
+        "An individual that represents the ideal for its",
+        "An individual considered typical of its class, one"
+      ],
       "softHints": {
         "startsWith": "T",
         "length": 4,
         "category": "school"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A grouping based on shared characteristics; a class.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "BOOK",
-      "primaryClue": "Found at school",
-      "alternateClues": [],
+      "primaryClue": "A major division of a long work",
+      "alternateClues": [
+        "A collection of sheets of paper bound together",
+        "A long work fit for publication, typically prose,"
+      ],
       "softHints": {
         "startsWith": "B",
         "length": 4,
         "category": "school"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A major division of a long work.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "DESK",
-      "primaryClue": "Education-related term",
-      "alternateClues": [],
+      "primaryClue": "A department tasked with a particular topic",
+      "alternateClues": [
+        "A table, frame, or case, in past centuries",
+        "A reading table or lectern to support"
+      ],
       "softHints": {
         "startsWith": "D",
         "length": 4,
         "category": "school"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A department tasked with a particular topic or focus in certain types of businesses, such as newspapers and financial trading firms.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CLASS",
-      "primaryClue": "Education-related term",
-      "alternateClues": [],
+      "primaryClue": "A group, collection, category or set sharing characteristics or attributes",
+      "alternateClues": [
+        "A group, collection, category or set sharing characteristics or attributes",
+        "A social grouping, based on job, wealth, etc."
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 5,
         "category": "school"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A group, collection, category or set sharing characteristics or attributes.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "PENCIL",
-      "primaryClue": "Education-related term",
-      "alternateClues": [],
+      "primaryClue": "A paintbrush",
+      "alternateClues": [
+        "An aggregate or collection of rays of light,",
+        "A writing utensil with a graphite shaft, usually"
+      ],
       "softHints": {
         "startsWith": "P",
         "length": 6,
         "category": "school"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A paintbrush.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "RULER",
-      "primaryClue": "Classroom or school concept",
-      "alternateClues": [],
+      "primaryClue": "A person who rules or governs; someone",
+      "alternateClues": [
+        "A , flat, rectangular measuring or drawing device"
+      ],
       "softHints": {
         "startsWith": "R",
         "length": 5,
         "category": "school"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A person who rules or governs; someone or something that exercises dominion or controlling power over others.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "TEST",
-      "primaryClue": "Found at school",
-      "alternateClues": [],
+      "primaryClue": "A challenge, trial",
+      "alternateClues": [
+        "An examination, given often during the academic term",
+        "A cupel or cupelling hearth in which precious"
+      ],
       "softHints": {
         "startsWith": "T",
         "length": 4,
         "category": "school"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A challenge, trial.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "EXAM",
-      "primaryClue": "Found at school",
+      "primaryClue": "",
       "alternateClues": [],
       "softHints": {
         "startsWith": "E",
@@ -474,32 +620,42 @@
         "category": "school"
       },
       "difficulty": "easy",
-      "source": "generated",
+      "source": "needs_review",
       "reviewFlags": [
-        "fallback_only"
+        "no_definition_found"
       ],
-      "approved": false
+      "approved": false,
+      "clueSource": "none",
+      "sourceDefinition": "",
+      "clueGenerationMethod": "excluded",
+      "licenseNotes": "",
+      "needsReview": true
     },
     {
       "word": "GRADE",
-      "primaryClue": "Education-related term",
-      "alternateClues": [],
+      "primaryClue": "A rating",
+      "alternateClues": [
+        "A degree or level of something; a position",
+        "Performance on a test or other evaluation, expressed"
+      ],
       "softHints": {
         "startsWith": "G",
         "length": 5,
         "category": "school"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A rating.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "LESSON",
-      "primaryClue": "Part of school life",
+      "primaryClue": "To instruct to teach",
       "alternateClues": [],
       "softHints": {
         "startsWith": "L",
@@ -507,193 +663,258 @@
         "category": "school"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "To instruct to teach.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "STUDY",
-      "primaryClue": "Part of school life",
-      "alternateClues": [],
+      "primaryClue": "To take a course or courses on a subject",
+      "alternateClues": [
+        "To acquire knowledge on a subject with",
+        "To review materials already learned in order"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 5,
         "category": "school"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "To take a course or courses on a subject.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "TEACH",
-      "primaryClue": "Found at school",
-      "alternateClues": [],
+      "primaryClue": "To pass on knowledge to",
+      "alternateClues": [
+        "To cause to learn or understand",
+        "To pass on knowledge generally, especially as one's"
+      ],
       "softHints": {
         "startsWith": "T",
         "length": 5,
         "category": "school"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "To pass on knowledge to.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "LEARN",
-      "primaryClue": "Part of school life",
-      "alternateClues": [],
+      "primaryClue": "To attend a course or other educational activity",
+      "alternateClues": [
+        "To gain knowledge from a bad experience so",
+        "To acquire, or attempt to acquire knowledge"
+      ],
       "softHints": {
         "startsWith": "L",
         "length": 5,
         "category": "school"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "To attend a course or other educational activity.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "MATH",
-      "primaryClue": "Classroom or school concept",
-      "alternateClues": [],
+      "primaryClue": "Arithmetic calculations;",
+      "alternateClues": [
+        "Arithmetic calculations;"
+      ],
       "softHints": {
         "startsWith": "M",
         "length": 4,
         "category": "school"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Arithmetic calculations; (see do the math).",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SCIENCE",
-      "primaryClue": "Classroom or school concept",
-      "alternateClues": [],
+      "primaryClue": "Specifically the natural sciences",
+      "alternateClues": [
+        "Knowledge gained through study or practice; mastery",
+        "A particular discipline or branch of knowledge that"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 7,
         "category": "school"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Specifically the natural sciences.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "HISTORY",
-      "primaryClue": "Part of school life",
-      "alternateClues": [],
+      "primaryClue": "The aggregate of past events",
+      "alternateClues": [
+        "The empirical study of past events, as distinct",
+        "The portion of the past that is known"
+      ],
       "softHints": {
         "startsWith": "H",
         "length": 7,
         "category": "school"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "The aggregate of past events.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "ART",
-      "primaryClue": "Education-related term",
-      "alternateClues": [],
+      "primaryClue": "Skillful creative activity, usually with an aesthetic focus",
+      "alternateClues": [
+        "The creative and emotional expression of mental imagery,",
+        "The conscious production or arrangement of sounds, colours,"
+      ],
       "softHints": {
         "startsWith": "A",
         "length": 3,
         "category": "school"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "Skillful creative activity, usually with an aesthetic focus.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "GYM",
-      "primaryClue": "Part of school life",
-      "alternateClues": [],
+      "primaryClue": "A sports facility specialized for lifting weights, cardio",
+      "alternateClues": [
+        "A sports facility specialized for lifting weights, cardio"
+      ],
       "softHints": {
         "startsWith": "G",
         "length": 3,
         "category": "school"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A sports facility specialized for lifting weights, cardio machines, and other exercise (culturally differentiated from sense 1).",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "LIBRARY",
-      "primaryClue": "Found at school",
-      "alternateClues": [],
+      "primaryClue": "A collection of books or other forms of stored information",
+      "alternateClues": [
+        "Any institution that lends out its goods",
+        "An institution which holds books and/or other forms"
+      ],
       "softHints": {
         "startsWith": "L",
         "length": 7,
         "category": "school"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A collection of books or other forms of stored information.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "LUNCH",
-      "primaryClue": "Education-related term",
-      "alternateClues": [],
+      "primaryClue": "A break in play between the first and second sessions",
+      "alternateClues": [
+        "Any small meal, especially one eaten at a social gathering",
+        "A light meal usually eaten around midday, notably"
+      ],
       "softHints": {
         "startsWith": "L",
         "length": 5,
         "category": "school"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A break in play between the first and second sessions.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "RECESS",
-      "primaryClue": "Part of school life",
-      "alternateClues": [],
+      "primaryClue": "A depressed, hollow, or indented space; also,",
+      "alternateClues": [
+        "A depressed, hollow, or indented space; also,",
+        "A small space created by building part"
+      ],
       "softHints": {
         "startsWith": "R",
         "length": 6,
         "category": "school"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A depressed, hollow, or indented space; also, a hole or opening.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "DIPLOMA",
-      "primaryClue": "Part of school life",
+      "primaryClue": "A document issued by an educational institution testifying",
       "alternateClues": [],
       "softHints": {
         "startsWith": "D",
@@ -701,97 +922,126 @@
         "category": "school"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A document issued by an educational institution testifying that the recipient has earned a degree or has successfully completed a particular course of study.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "TUTOR",
-      "primaryClue": "Part of school life",
-      "alternateClues": [],
+      "primaryClue": "A homeroom",
+      "alternateClues": [
+        "A university officer responsible for students in a particular hall",
+        "One who teaches another (usually called a student,"
+      ],
       "softHints": {
         "startsWith": "T",
         "length": 5,
         "category": "school"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A homeroom.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "ESSAY",
-      "primaryClue": "Academic term",
-      "alternateClues": [],
+      "primaryClue": "An attempt",
+      "alternateClues": [
+        "A test, experiment; an assay",
+        "A written composition of moderate length, exploring"
+      ],
       "softHints": {
         "startsWith": "E",
         "length": 5,
         "category": "school"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "An attempt.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "QUIZ",
-      "primaryClue": "Academic term",
-      "alternateClues": [],
+      "primaryClue": "An odd, puzzling or absurd person or thing",
+      "alternateClues": [
+        "A competition in the answering of questions",
+        "One who questions or interrogates; a prying person"
+      ],
       "softHints": {
         "startsWith": "Q",
         "length": 4,
         "category": "school"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "An odd, puzzling or absurd person or thing.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "NOTEBOOK",
-      "primaryClue": "Part of school life",
-      "alternateClues": [],
+      "primaryClue": "A book in which notes or memoranda are written",
+      "alternateClues": [
+        "A kind of user interface in literate programming,"
+      ],
       "softHints": {
         "startsWith": "N",
         "length": 8,
         "category": "school"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A book in which notes or memoranda are written.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "CAMPUS",
-      "primaryClue": "Part of school life",
-      "alternateClues": [],
+      "primaryClue": "An institution of higher education and its ambiance",
+      "alternateClues": [
+        "The grounds or property of a school, college,"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 6,
         "category": "school"
       },
       "difficulty": "easy",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "An institution of higher education and its ambiance.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "DORM",
-      "primaryClue": "Classroom or school concept",
+      "primaryClue": "",
       "alternateClues": [],
       "softHints": {
         "startsWith": "D",
@@ -799,60 +1049,80 @@
         "category": "school"
       },
       "difficulty": "medium",
-      "source": "generated",
+      "source": "needs_review",
       "reviewFlags": [
-        "fallback_only"
+        "no_definition_found"
       ],
-      "approved": false
+      "approved": false,
+      "clueSource": "none",
+      "sourceDefinition": "",
+      "clueGenerationMethod": "excluded",
+      "licenseNotes": "",
+      "needsReview": true
     },
     {
       "word": "CHALK",
-      "primaryClue": "Found at school",
-      "alternateClues": [],
+      "primaryClue": "A soft, white, powdery limestone",
+      "alternateClues": [
+        "A soft, white, powdery limestone"
+      ],
       "softHints": {
         "startsWith": "C",
         "length": 5,
         "category": "school"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A soft, white, powdery limestone (calcium carbonate, CaCO₃).",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "ERASER",
-      "primaryClue": "Classroom or school concept",
-      "alternateClues": [],
+      "primaryClue": "One who erases",
+      "alternateClues": [
+        "An object used to erase or remove something",
+        "An object used to erase something written either"
+      ],
       "softHints": {
         "startsWith": "E",
         "length": 6,
         "category": "school"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "One who erases.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     },
     {
       "word": "SYLLABUS",
-      "primaryClue": "Education-related term",
-      "alternateClues": [],
+      "primaryClue": "A summary of topics which will be covered",
+      "alternateClues": [
+        "The headnote of a reported case; the brief"
+      ],
       "softHints": {
         "startsWith": "S",
         "length": 8,
         "category": "school"
       },
       "difficulty": "medium",
-      "source": "generated",
-      "reviewFlags": [
-        "fallback_only",
-        "short_clue"
-      ],
-      "approved": false
+      "source": "kaikki",
+      "reviewFlags": [],
+      "approved": true,
+      "clueSource": "kaikki",
+      "sourceDefinition": "A summary of topics which will be covered during an academic course, or a text or lecture.",
+      "clueGenerationMethod": "dictionary_gloss",
+      "licenseNotes": "CC BY-SA 4.0 (Wiktionary via Kaikki.org)",
+      "needsReview": false
     }
   ]
 }

@@ -1,0 +1,1276 @@
+{
+  "packId": "tutorial",
+  "title": "Getting Started",
+  "theme": "mixed",
+  "difficulty": "easy",
+  "boardSize": "mini",
+  "puzzleCount": 5,
+  "version": "1.0.0",
+  "createdAt": "2026-03-18",
+  "puzzles": [
+    {
+      "puzzleId": "animals-easy-7x7-0001",
+      "seed": 1,
+      "theme": "animals",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "M",
+          "A",
+          "R",
+          "T",
+          "I",
+          "N"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "U",
+          "",
+          ""
+        ],
+        [
+          "",
+          "S",
+          "H",
+          "A",
+          "R",
+          "K",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "K",
+          "",
+          ""
+        ],
+        [
+          "E",
+          "A",
+          "G",
+          "L",
+          "E",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "Y",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 3,
+          "answer": "SHARK",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Flesh of this animal, consumed as food",
+          "softHints": {
+            "startsWith": "S",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "TURKEY",
+          "direction": "down",
+          "row": 1,
+          "col": 4,
+          "length": 6,
+          "clue": "The guinea fowl",
+          "softHints": {
+            "startsWith": "T",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "MARTIN",
+          "direction": "across",
+          "row": 1,
+          "col": 1,
+          "length": 6,
+          "clue": "Many of the various passerine birds of",
+          "softHints": {
+            "startsWith": "M",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 4,
+          "answer": "EAGLE",
+          "direction": "across",
+          "row": 5,
+          "col": 0,
+          "length": 5,
+          "clue": "A gold coin with a face value",
+          "softHints": {
+            "startsWith": "E",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 1,
+            "clue": "Many of the various passerine birds of",
+            "answer": "MARTIN",
+            "length": 6
+          },
+          {
+            "number": 3,
+            "clue": "Flesh of this animal, consumed as food",
+            "answer": "SHARK",
+            "length": 5
+          },
+          {
+            "number": 4,
+            "clue": "A gold coin with a face value",
+            "answer": "EAGLE",
+            "length": 5
+          }
+        ],
+        "down": [
+          {
+            "number": 2,
+            "clue": "The guinea fowl",
+            "answer": "TURKEY",
+            "length": 6
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "animals",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 4,
+        "intersections": 3,
+        "boardScore": 0.3751
+      }
+    },
+    {
+      "puzzleId": "food-easy-7x7-0002",
+      "seed": 2,
+      "theme": "food",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "C",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "O",
+          "",
+          "U",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "R",
+          "",
+          "I",
+          ""
+        ],
+        [
+          "",
+          "B",
+          "E",
+          "A",
+          "N",
+          "S",
+          ""
+        ],
+        [
+          "",
+          "E",
+          "",
+          "N",
+          "",
+          "I",
+          ""
+        ],
+        [
+          "",
+          "E",
+          "",
+          "G",
+          "",
+          "N",
+          ""
+        ],
+        [
+          "",
+          "R",
+          "",
+          "E",
+          "",
+          "E",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 3,
+          "answer": "BEANS",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Plural of bean",
+          "softHints": {
+            "startsWith": "B",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "CUISINE",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 7,
+          "clue": "The food prepared using such style",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "ORANGE",
+          "direction": "down",
+          "row": 1,
+          "col": 3,
+          "length": 6,
+          "clue": "An evergreen tree of the genus Citrus such",
+          "softHints": {
+            "startsWith": "O",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "BEER",
+          "direction": "down",
+          "row": 3,
+          "col": 1,
+          "length": 4,
+          "clue": "A solution produced by steeping plant materials",
+          "softHints": {
+            "startsWith": "B",
+            "length": 4,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "Plural of bean",
+            "answer": "BEANS",
+            "length": 5
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "The food prepared using such style",
+            "answer": "CUISINE",
+            "length": 7
+          },
+          {
+            "number": 2,
+            "clue": "An evergreen tree of the genus Citrus such",
+            "answer": "ORANGE",
+            "length": 6
+          },
+          {
+            "number": 3,
+            "clue": "A solution produced by steeping plant materials",
+            "answer": "BEER",
+            "length": 4
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "food",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 4,
+        "intersections": 3,
+        "boardScore": 0.3751
+      }
+    },
+    {
+      "puzzleId": "ocean-easy-7x7-0003",
+      "seed": 3,
+      "theme": "ocean",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "Q",
+          "",
+          "D",
+          "",
+          "B",
+          ""
+        ],
+        [
+          "",
+          "U",
+          "",
+          "I",
+          "",
+          "I",
+          ""
+        ],
+        [
+          "",
+          "A",
+          "",
+          "P",
+          "",
+          "C",
+          ""
+        ],
+        [
+          "",
+          "R",
+          "E",
+          "L",
+          "A",
+          "Y",
+          ""
+        ],
+        [
+          "",
+          "T",
+          "",
+          "O",
+          "",
+          "C",
+          ""
+        ],
+        [
+          "T",
+          "E",
+          "A",
+          "M",
+          "",
+          "L",
+          ""
+        ],
+        [
+          "",
+          "R",
+          "",
+          "A",
+          "",
+          "E",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "RELAY",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "A new set of hounds",
+          "softHints": {
+            "startsWith": "R",
+            "length": 5,
+            "category": "sports"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "BICYCLE",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 7,
+          "clue": "A traveling block used on a cable in skidding logs",
+          "softHints": {
+            "startsWith": "B",
+            "length": 7,
+            "category": "sports"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "DIPLOMA",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 7,
+          "clue": "A document issued by an educational institution testifying",
+          "softHints": {
+            "startsWith": "D",
+            "length": 7,
+            "category": "school"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "QUARTER",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 7,
+          "clue": "A fourth part of something",
+          "softHints": {
+            "startsWith": "Q",
+            "length": 7,
+            "category": "sports"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 5,
+          "answer": "TEAM",
+          "direction": "across",
+          "row": 5,
+          "col": 0,
+          "length": 4,
+          "clue": "A group of animals moving together, especially young ducks",
+          "softHints": {
+            "startsWith": "T",
+            "length": 4,
+            "category": "sports"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "A new set of hounds",
+            "answer": "RELAY",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "A group of animals moving together, especially young ducks",
+            "answer": "TEAM",
+            "length": 4
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A fourth part of something",
+            "answer": "QUARTER",
+            "length": 7
+          },
+          {
+            "number": 2,
+            "clue": "A document issued by an educational institution testifying",
+            "answer": "DIPLOMA",
+            "length": 7
+          },
+          {
+            "number": 3,
+            "clue": "A traveling block used on a cable in skidding logs",
+            "answer": "BICYCLE",
+            "length": 7
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "ocean",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 5,
+        "intersections": 5,
+        "boardScore": 0.4895
+      }
+    },
+    {
+      "puzzleId": "space-easy-7x7-0004",
+      "seed": 4,
+      "theme": "space",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "D",
+          "",
+          "",
+          "H",
+          "",
+          ""
+        ],
+        [
+          "W",
+          "I",
+          "N",
+          "N",
+          "I",
+          "N",
+          "G"
+        ],
+        [
+          "",
+          "A",
+          "",
+          "",
+          "S",
+          "",
+          ""
+        ],
+        [
+          "",
+          "M",
+          "O",
+          "U",
+          "T",
+          "H",
+          ""
+        ],
+        [
+          "",
+          "O",
+          "",
+          "",
+          "O",
+          "",
+          ""
+        ],
+        [
+          "",
+          "N",
+          "",
+          "T",
+          "R",
+          "E",
+          "E"
+        ],
+        [
+          "",
+          "D",
+          "",
+          "",
+          "Y",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "MOUTH",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "An outlet, aperture or orifice",
+          "softHints": {
+            "startsWith": "M",
+            "length": 5,
+            "category": "weather"
+          },
+          "theme": "space",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "DIAMOND",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 7,
+          "clue": "A gemstone made from this mineral",
+          "softHints": {
+            "startsWith": "D",
+            "length": 7,
+            "category": "sports"
+          },
+          "theme": "space",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "HISTORY",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "clue": "The aggregate of past events",
+          "softHints": {
+            "startsWith": "H",
+            "length": 7,
+            "category": "school"
+          },
+          "theme": "space",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "WINNING",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 7,
+          "clue": "Present participle and gerund of win",
+          "softHints": {
+            "startsWith": "W",
+            "length": 7,
+            "category": "sports"
+          },
+          "theme": "space",
+          "difficulty": "easy"
+        },
+        {
+          "number": 5,
+          "answer": "TREE",
+          "direction": "across",
+          "row": 5,
+          "col": 3,
+          "length": 4,
+          "clue": "Any other plant that is reminiscent of",
+          "softHints": {
+            "startsWith": "T",
+            "length": 4,
+            "category": "nature"
+          },
+          "theme": "space",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "Present participle and gerund of win",
+            "answer": "WINNING",
+            "length": 7
+          },
+          {
+            "number": 4,
+            "clue": "An outlet, aperture or orifice",
+            "answer": "MOUTH",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "Any other plant that is reminiscent of",
+            "answer": "TREE",
+            "length": 4
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A gemstone made from this mineral",
+            "answer": "DIAMOND",
+            "length": 7
+          },
+          {
+            "number": 2,
+            "clue": "The aggregate of past events",
+            "answer": "HISTORY",
+            "length": 7
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "space",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 5,
+        "intersections": 5,
+        "boardScore": 0.4895
+      }
+    },
+    {
+      "puzzleId": "nature-easy-7x7-0005",
+      "seed": 5,
+      "theme": "nature",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "K",
+          "",
+          "L",
+          "",
+          "S",
+          ""
+        ],
+        [
+          "",
+          "E",
+          "",
+          "I",
+          "",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "Y",
+          "",
+          "B",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "W",
+          "O",
+          "R",
+          "L",
+          "D",
+          ""
+        ],
+        [
+          "",
+          "O",
+          "",
+          "A",
+          "",
+          "I",
+          ""
+        ],
+        [
+          "",
+          "R",
+          "",
+          "R",
+          "",
+          "U",
+          ""
+        ],
+        [
+          "",
+          "D",
+          "",
+          "Y",
+          "",
+          "M",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "WORLD",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "A majority of people",
+          "softHints": {
+            "startsWith": "W",
+            "length": 5,
+            "category": "city"
+          },
+          "theme": "nature",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "LIBRARY",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 7,
+          "clue": "A collection of books or other forms of stored information",
+          "softHints": {
+            "startsWith": "L",
+            "length": 7,
+            "category": "school"
+          },
+          "theme": "nature",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "KEYWORD",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 7,
+          "clue": "Any word used as the key to a code",
+          "softHints": {
+            "startsWith": "K",
+            "length": 7,
+            "category": "school"
+          },
+          "theme": "nature",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "STADIUM",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 7,
+          "clue": "A venue where sporting events are held",
+          "softHints": {
+            "startsWith": "S",
+            "length": 7,
+            "category": "sports"
+          },
+          "theme": "nature",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "A majority of people",
+            "answer": "WORLD",
+            "length": 5
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Any word used as the key to a code",
+            "answer": "KEYWORD",
+            "length": 7
+          },
+          {
+            "number": 2,
+            "clue": "A collection of books or other forms of stored information",
+            "answer": "LIBRARY",
+            "length": 7
+          },
+          {
+            "number": 3,
+            "clue": "A venue where sporting events are held",
+            "answer": "STADIUM",
+            "length": 7
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "nature",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 4,
+        "intersections": 3,
+        "boardScore": 0.3914
+      }
+    }
+  ]
+}
