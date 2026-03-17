@@ -17,6 +17,7 @@ extension Stack2048GameViewModel {
             haptics.impact(.medium)
             spawnMergeEffect(column: column, row: row, value: newValue)
             logMilestoneTileIfNeeded(newValue)
+            rollDiamondDropIfEligible(mergedTileValue: newValue)
 
         case .gameOver:
             handleGameOver()
@@ -72,6 +73,17 @@ extension Stack2048GameViewModel {
         Task { @MainActor in
             try? await Task.sleep(nanoseconds: 400_000_000)
             mergeEffects.removeAll { $0.id == eid }
+        }
+    }
+
+    /// Roll for a rare diamond drop on big merges (tile ≥ 256). Logs outcome for rate calibration.
+    func rollDiamondDropIfEligible(mergedTileValue: Int) {
+        guard mergedTileValue >= 256 else { return }
+        let didDrop = Double.random(in: 0..<1) < DiamondReward.bigMergeDropChance
+        analytics.log(.diamondDropRolled(tileValue: mergedTileValue, didDrop: didDrop))
+        if didDrop {
+            diamondService.earn(amount: 1)
+            analytics.log(.diamondEarned(amount: 1, source: "big_merge_drop", balanceAfter: diamondService.balance))
         }
     }
 

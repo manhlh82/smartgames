@@ -55,6 +55,16 @@ extension PersistenceService {
         static let stack2048Progress = "stack2048.progress"
         // MARK: - Gold
         static let goldBalance = "app.gold.balance"
+        // MARK: - Diamonds
+        static let diamondBalance = "app.diamond.balance"
+        // MARK: - Ad Reward Tracker
+        static let adRewardDate = "app.adReward.date"
+        static let adRewardCount = "app.adReward.count"
+        // MARK: - Daily Login
+        static let dailyLoginLastDate = "app.dailyLogin.lastDate"
+        static let dailyLoginStreakCount = "app.dailyLogin.streak"
+        // MARK: - Piggy Bank
+        static let piggyBankFractional = "app.piggyBank.fractional"
         // MARK: - Themes
         static let unlockedThemes = "app.themes.unlocked"
     }

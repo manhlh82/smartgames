@@ -23,6 +23,7 @@ struct SmartGamesApp: App {
                 .environmentObject(environment.gameRegistry)
                 .environmentObject(environment.localization)
                 .environmentObject(environment.gold)
+                .environmentObject(environment.diamonds)
                 .environmentObject(environment.themeService)
                 .task {
                     // Authenticate Game Center silently on launch

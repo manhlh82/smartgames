@@ -16,6 +16,7 @@ final class AppEnvironment: ObservableObject {
     let gameRegistry: GameRegistry
     let localization: LocalizationService
     let gold: GoldService
+    let diamonds: DiamondService
     let themeService: ThemeService
 
     init() {
@@ -43,9 +44,10 @@ final class AppEnvironment: ObservableObject {
 
         self.localization = LocalizationService(persistence: persistence)
 
-        // Shared Gold and theme services (cross-game)
+        // Shared Gold, Diamond, and theme services (cross-game)
         let gold = GoldService(persistence: persistence)
         self.gold = gold
+        self.diamonds = DiamondService(persistence: persistence)
         self.themeService = ThemeService(persistence: persistence, goldService: gold)
 
         // Register game modules

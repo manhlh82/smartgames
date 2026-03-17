@@ -17,13 +17,14 @@
 		0F052CF846F327C673E93F6B /* AudioConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42EE9F82464BB11C1D03FC7 /* AudioConfig.swift */; };
 		1026A177EFC372AAFA49BB82 /* DropRushGameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A21682477E19C9627328692 /* DropRushGameState.swift */; };
 		1032D031FD56E9EB1DBEC0D7 /* PuzzleBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA6B5A8A240BA352BDF6D2E /* PuzzleBank.swift */; };
+		11320C97FE2DF35F3C9A6D16 /* DiamondService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5689B0A948303515EB3368B7 /* DiamondService.swift */; };
 		12F7A9BFAC8DA780DE977E8A /* Stack2048BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A0C39B701700FE52EE73D2 /* Stack2048BoardView.swift */; };
 		135365630829D1E38364678E /* HitEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F4CE82F18812D09B9ACF61 /* HitEffectView.swift */; };
 		14BB9281CCB98A16FDF772AB /* Stack2048GameOverOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2087603FA7FE424EDFE4F6C /* Stack2048GameOverOverlay.swift */; };
-		A3F2C810D94B7E5F2C1A8B34 /* Stack2048WinOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E4A921C83D6F1E5D2A9C07 /* Stack2048WinOverlay.swift */; };
 		1612A771C102206639661C2A /* SudokuDifficulty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF0EFBE736639CD8808DAFA /* SudokuDifficulty.swift */; };
 		17643D52DCBBDC0BCD3390B5 /* DropRushLobbyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52828F99CBDC5C09F0E9B1DC /* DropRushLobbyViewModel.swift */; };
 		1783FBE9AD173CDC9D617FC7 /* SettingsServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFBDE92D4C9431B87662A18 /* SettingsServiceTests.swift */; };
+		18A7EDEF63E0B4B1E8DB6613 /* Stack2048WinOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE33C065B89E871543A4D02D /* Stack2048WinOverlay.swift */; };
 		192F449D409C5B3A0732C946 /* BoardTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E704EB2630E4523830CCBE /* BoardTheme.swift */; };
 		1AB89D37D3F206DCE5393BF6 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E669A032F1BD63F9CD4E9AF4 /* PrimaryButton.swift */; };
 		1C6CF7C47C5FC83DCFE2552D /* SudokuBoardUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C4DC937FEE788B8DBFB990 /* SudokuBoardUtils.swift */; };
@@ -104,7 +105,6 @@
 		A81FF3C628B4CD96D1F95BFC /* StatisticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6115922B7EE6EB9E62411F /* StatisticsService.swift */; };
 		A9D1FE27302A5DFA5CB5273A /* LevelDefinitionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2E36518B56B0CBE6F507E6 /* LevelDefinitionsTests.swift */; };
 		AA2F49E0A321C4485AF2E1DE /* Stack2048GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1662413E4A0538E72FAB0125 /* Stack2048GameViewModel.swift */; };
-		C4D1E83A7F2B90E56A3C1D48 /* Stack2048GameViewModel+GameEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A3F174B06C2D8A51E7C029 /* Stack2048GameViewModel+GameEvents.swift */; };
 		AA3885FE920CD35B097EBCD0 /* SudokuStatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D958F19AB1F2395C8EEDB0 /* SudokuStatisticsView.swift */; };
 		ADF6AEAEEF8FF2E6A5BC283F /* DropRushResultOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A5971D3A5CE44F6DEB7831 /* DropRushResultOverlay.swift */; };
 		AEA38795C30841110F6F39A6 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 09F4ADECD00CB45C55C0D6F4 /* PrivacyInfo.xcprivacy */; };
@@ -119,6 +119,7 @@
 		D45C8E3BFFA92974FA4F3B29 /* Stack2048LobbyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C329705E9AB3818BA1FFB6D8 /* Stack2048LobbyView.swift */; };
 		D51783C662EC23E7DED3FF33 /* AppRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F123205B88FD4A7B877679 /* AppRoutes.swift */; };
 		D67D979B551D6CED1C9C9D3A /* Stack2048AudioConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CEC6EE84DB5467D0E8972E /* Stack2048AudioConfig.swift */; };
+		D86FB887C6EC91FE923EB677 /* Stack2048GameViewModel+GameEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3487A1ED39FFB5A9171166C3 /* Stack2048GameViewModel+GameEvents.swift */; };
 		DBD3760FA8B15D55E0A280B9 /* SudokuAudioConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD59C7089A4058107525CBD /* SudokuAudioConfig.swift */; };
 		DD2E83933568B8D13865C2AA /* GoldRewardToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB62B3B479EE88A1264C285 /* GoldRewardToast.swift */; };
 		DEED1FC818A8E8338386303E /* DailyChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFA3B9A3D5D3ED82268FA35 /* DailyChallengeView.swift */; };
@@ -126,6 +127,7 @@
 		E1596EB2ADE7258013DC78B5 /* SudokuLobbyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFEF1ECCCF555E74F942824 /* SudokuLobbyView.swift */; };
 		E3134DF3F9E4C7962AEF472B /* SudokuGameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BAA8798EF9DC59A1F69F84 /* SudokuGameViewModel.swift */; };
 		E58FF08814BC52D3462F26D7 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12D69E2612921267B7C8174 /* SettingsView.swift */; };
+		E637A6BEDFEF800C77E80779 /* AnalyticsEvent+Diamond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D600EECEC9EAB77703A66B2 /* AnalyticsEvent+Diamond.swift */; };
 		E90F32A056D96ABFA12A80B6 /* SoundService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5175BD2DF63D5C465E969303 /* SoundService.swift */; };
 		EC950F5CECF9721E7790BE90 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731F8E4C824B4253F2D3B6E9 /* AppEnvironment.swift */; };
 		ECA3A3D8CC5D275E25A4B711 /* SudokuModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC871B5B9344E445807120A3 /* SudokuModule.swift */; };
@@ -159,7 +161,6 @@
 		0EC0B60E3DDD4CA8F6809B43 /* SmartGamesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartGamesApp.swift; sourceTree = "<group>"; };
 		108FB779F3B369A5528D966A /* SudokuGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudokuGameView.swift; sourceTree = "<group>"; };
 		1662413E4A0538E72FAB0125 /* Stack2048GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack2048GameViewModel.swift; sourceTree = "<group>"; };
-		E9A3F174B06C2D8A51E7C029 /* Stack2048GameViewModel+GameEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Stack2048GameViewModel+GameEvents.swift"; sourceTree = "<group>"; };
 		16C4C69419EFE18B46DF8E5B /* DailyChallengeModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyChallengeModels.swift; sourceTree = "<group>"; };
 		17CFE49782BCB436768FAD14 /* AnalyticsEvent+Sudoku.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AnalyticsEvent+Sudoku.swift"; sourceTree = "<group>"; };
 		19F3642F6442DBF9AAC8E77E /* BannerAdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerAdView.swift; sourceTree = "<group>"; };
@@ -168,6 +169,7 @@
 		2D3BA2046625F8D1500FF243 /* Stack2048Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack2048Colors.swift; sourceTree = "<group>"; };
 		314CE5F22E64EB0D0BC471A0 /* DropRushModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropRushModule.swift; sourceTree = "<group>"; };
 		316C2369E8733C7AC2C19BAD /* DropRushAudioConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropRushAudioConfig.swift; sourceTree = "<group>"; };
+		3487A1ED39FFB5A9171166C3 /* Stack2048GameViewModel+GameEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Stack2048GameViewModel+GameEvents.swift"; sourceTree = "<group>"; };
 		357F2465DE0E355B26BF54CA /* BannerAdCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerAdCoordinator.swift; sourceTree = "<group>"; };
 		386FA7F547BE9A50E454AB40 /* AnalyticsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsService.swift; sourceTree = "<group>"; };
 		3BB62B3B479EE88A1264C285 /* GoldRewardToast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldRewardToast.swift; sourceTree = "<group>"; };
@@ -184,6 +186,7 @@
 		5312DAEC3FE915F2E0A1FF05 /* Stack2048TileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack2048TileView.swift; sourceTree = "<group>"; };
 		53F9BFF21B9B0F68BDBCB4DA /* SudokuStatsCardsGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudokuStatsCardsGrid.swift; sourceTree = "<group>"; };
 		566BFCDD234B38BAEAC47534 /* SudokuCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudokuCellView.swift; sourceTree = "<group>"; };
+		5689B0A948303515EB3368B7 /* DiamondService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiamondService.swift; sourceTree = "<group>"; };
 		572BEF208087CE8C3522EE7F /* AdsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsService.swift; sourceTree = "<group>"; };
 		578942E6A7B2B6B4EB625EC3 /* LevelDefinitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelDefinitions.swift; sourceTree = "<group>"; };
 		58266EB6B6E3E05E4FCB9C73 /* SudokuGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudokuGenerator.swift; sourceTree = "<group>"; };
@@ -222,6 +225,7 @@
 		8683868971E1152D64430816 /* GameCenterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCenterService.swift; sourceTree = "<group>"; };
 		88C4DC937FEE788B8DBFB990 /* SudokuBoardUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudokuBoardUtils.swift; sourceTree = "<group>"; };
 		8B1B2CC5BAEA2CB219C5E576 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8D600EECEC9EAB77703A66B2 /* AnalyticsEvent+Diamond.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AnalyticsEvent+Diamond.swift"; sourceTree = "<group>"; };
 		8DCCE4BD407E85EB6D16B795 /* AppFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFonts.swift; sourceTree = "<group>"; };
 		8E3AC6111FA36D0428FDD141 /* SudokuPauseOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudokuPauseOverlayView.swift; sourceTree = "<group>"; };
 		8EFBDE92D4C9431B87662A18 /* SettingsServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsServiceTests.swift; sourceTree = "<group>"; };
@@ -260,7 +264,6 @@
 		D12D69E2612921267B7C8174 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		D13DB6BCE48FF7D05FBB7D1E /* DropRushPauseOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropRushPauseOverlay.swift; sourceTree = "<group>"; };
 		D2087603FA7FE424EDFE4F6C /* Stack2048GameOverOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack2048GameOverOverlay.swift; sourceTree = "<group>"; };
-		B7E4A921C83D6F1E5D2A9C07 /* Stack2048WinOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack2048WinOverlay.swift; sourceTree = "<group>"; };
 		D253BE1CBD4D2C4040339A1A /* SudokuWinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudokuWinView.swift; sourceTree = "<group>"; };
 		D496DCD45796A8421B30757D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D63B13C8BCE1D1085F750152 /* DailyChallengeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyChallengeService.swift; sourceTree = "<group>"; };
@@ -269,6 +272,7 @@
 		DC56989A1A01E3838DD1C21F /* HitEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HitEffect.swift; sourceTree = "<group>"; };
 		DC871B5B9344E445807120A3 /* SudokuModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudokuModule.swift; sourceTree = "<group>"; };
 		DCE590A2ED5DA49870906DA7 /* ThemePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePickerView.swift; sourceTree = "<group>"; };
+		DE33C065B89E871543A4D02D /* Stack2048WinOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack2048WinOverlay.swift; sourceTree = "<group>"; };
 		E3BAA8798EF9DC59A1F69F84 /* SudokuGameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudokuGameViewModel.swift; sourceTree = "<group>"; };
 		E5A0C39B701700FE52EE73D2 /* Stack2048BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack2048BoardView.swift; sourceTree = "<group>"; };
 		E5CDEA1C24491CE62BE62B3B /* GoldService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldService.swift; sourceTree = "<group>"; };
@@ -407,11 +411,11 @@
 				FC1B15C7450B809509746136 /* Stack2048ControlBarView.swift */,
 				D2087603FA7FE424EDFE4F6C /* Stack2048GameOverOverlay.swift */,
 				67E9FE85B9CA8F6F7EDDD707 /* Stack2048GameView.swift */,
-				B7E4A921C83D6F1E5D2A9C07 /* Stack2048WinOverlay.swift */,
 				66E0E3EE2500854FC1975C86 /* Stack2048HUDView.swift */,
 				C329705E9AB3818BA1FFB6D8 /* Stack2048LobbyView.swift */,
 				C8CC8B6820FBB35108A5A22D /* Stack2048PauseOverlay.swift */,
 				5312DAEC3FE915F2E0A1FF05 /* Stack2048TileView.swift */,
+				DE33C065B89E871543A4D02D /* Stack2048WinOverlay.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -448,6 +452,7 @@
 				6DDB851C70C2A2AE144D55A5 /* AnalyticsEvent.swift */,
 				67902B032B3383DE930640CB /* AnalyticsEvent+Ads.swift */,
 				B389E53132A4A2CBE7743A5D /* AnalyticsEvent+AppLifecycle.swift */,
+				8D600EECEC9EAB77703A66B2 /* AnalyticsEvent+Diamond.swift */,
 				E698575D3274FF62EEC03882 /* AnalyticsEvent+DropRush.swift */,
 				5A83EB2C51EED2627081760A /* AnalyticsEvent+Gold.swift */,
 				BC7565D5583F96D63D3154BC /* AnalyticsEvent+Stack2048.swift */,
@@ -584,6 +589,14 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		8404C6E6577D12F61712A861 /* Diamond */ = {
+			isa = PBXGroup;
+			children = (
+				5689B0A948303515EB3368B7 /* DiamondService.swift */,
+			);
+			path = Diamond;
+			sourceTree = "<group>";
+		};
 		848A9667D6F9304D1E2035C8 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
@@ -652,7 +665,7 @@
 			isa = PBXGroup;
 			children = (
 				1662413E4A0538E72FAB0125 /* Stack2048GameViewModel.swift */,
-				E9A3F174B06C2D8A51E7C029 /* Stack2048GameViewModel+GameEvents.swift */,
+				3487A1ED39FFB5A9171166C3 /* Stack2048GameViewModel+GameEvents.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -688,6 +701,8 @@
 				668CBF77B121BB927B701B08 /* Ads */,
 				59F1EC7160FBEE6CC074745F /* Analytics */,
 				5D4A46FF09D1D33B8CA42407 /* DailyChallenge */,
+				8404C6E6577D12F61712A861 /* Diamond */,
+				F655A3E45375DF7D11C6D695 /* Economy */,
 				983C457829F1280E3027C958 /* GameCenter */,
 				6A7C46388646FA93BE5AA991 /* Gold */,
 				9179AD90D2D2E615D970C0ED /* Localization */,
@@ -772,6 +787,13 @@
 				5175BD2DF63D5C465E969303 /* SoundService.swift */,
 			);
 			path = Sound;
+			sourceTree = "<group>";
+		};
+		F655A3E45375DF7D11C6D695 /* Economy */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Economy;
 			sourceTree = "<group>";
 		};
 		F79A4BC80B3A55CFE7DA7799 /* Theme */ = {
@@ -898,6 +920,7 @@
 				F6A9AC9BE3A34AA32F3529EC /* AdsService.swift in Sources */,
 				7BBD1C0D8668FC2EF120100D /* AnalyticsEvent+Ads.swift in Sources */,
 				70ED93386A8F5C08D23C27C4 /* AnalyticsEvent+AppLifecycle.swift in Sources */,
+				E637A6BEDFEF800C77E80779 /* AnalyticsEvent+Diamond.swift in Sources */,
 				9C9FF9D95733785F638C6CD5 /* AnalyticsEvent+DropRush.swift in Sources */,
 				9B52E09BEBB76CE4A4EF611D /* AnalyticsEvent+Gold.swift in Sources */,
 				3F9464E480756C56AE50B339 /* AnalyticsEvent+Stack2048.swift in Sources */,
@@ -920,6 +943,7 @@
 				9C920DF2DC80A21B2583BC25 /* DailyChallengeModels.swift in Sources */,
 				CD35AC2E5A7DC83B0A4C765A /* DailyChallengeService.swift in Sources */,
 				DEED1FC818A8E8338386303E /* DailyChallengeView.swift in Sources */,
+				11320C97FE2DF35F3C9A6D16 /* DiamondService.swift in Sources */,
 				4D28B282F80DBA45F15DAAE6 /* DropRushAudioConfig.swift in Sources */,
 				4BE57EFB7A409690B1A016DF /* DropRushEngine.swift in Sources */,
 				1026A177EFC372AAFA49BB82 /* DropRushGameState.swift in Sources */,
@@ -973,11 +997,10 @@
 				2632FBB165E4447B1E35C23B /* Stack2048ControlBarView.swift in Sources */,
 				84632E54145109281BFCE189 /* Stack2048Engine.swift in Sources */,
 				14BB9281CCB98A16FDF772AB /* Stack2048GameOverOverlay.swift in Sources */,
-				A3F2C810D94B7E5F2C1A8B34 /* Stack2048WinOverlay.swift in Sources */,
 				33624D9F1C8544F519E68B2F /* Stack2048GameState.swift in Sources */,
 				2B5696EA4E3FE33EEBFF7980 /* Stack2048GameView.swift in Sources */,
+				D86FB887C6EC91FE923EB677 /* Stack2048GameViewModel+GameEvents.swift in Sources */,
 				AA2F49E0A321C4485AF2E1DE /* Stack2048GameViewModel.swift in Sources */,
-				C4D1E83A7F2B90E56A3C1D48 /* Stack2048GameViewModel+GameEvents.swift in Sources */,
 				8F57D11D157F261D371F33F6 /* Stack2048HUDView.swift in Sources */,
 				D45C8E3BFFA92974FA4F3B29 /* Stack2048LobbyView.swift in Sources */,
 				F098F707B094A63722B9298C /* Stack2048Module.swift in Sources */,
@@ -985,6 +1008,7 @@
 				9575B727E9BDEA80C6CD365C /* Stack2048Progress.swift in Sources */,
 				726CFB15B12A187D4F352061 /* Stack2048Tile.swift in Sources */,
 				2697E110C3DD578A9AF04635 /* Stack2048TileView.swift in Sources */,
+				18A7EDEF63E0B4B1E8DB6613 /* Stack2048WinOverlay.swift in Sources */,
 				A81FF3C628B4CD96D1F95BFC /* StatisticsService.swift in Sources */,
 				74C45A439127DD1BEA636B82 /* StoreService.swift in Sources */,
 				DBD3760FA8B15D55E0A280B9 /* SudokuAudioConfig.swift in Sources */,
