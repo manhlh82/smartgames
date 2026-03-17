@@ -35,6 +35,7 @@
 		2A2478205867AFF7E5C089FA /* HubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6108A261450FA8404766CA1D /* HubView.swift */; };
 		2B5696EA4E3FE33EEBFF7980 /* Stack2048GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E9FE85B9CA8F6F7EDDD707 /* Stack2048GameView.swift */; };
 		2B87E93C7BC8707AFDE970A4 /* SudokuGameViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8910010E279DAECCC0E5E3 /* SudokuGameViewModelTests.swift */; };
+		2DF915772CE732DCF3C04EF8 /* CurrencyBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82922F4C0EB48A955D3713B8 /* CurrencyBarView.swift */; };
 		2F4D039E900EDFADC8795C8E /* SudokuEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB59D2DECBB54E1B97D1DC41 /* SudokuEngineTests.swift */; };
 		30ED91B8A059250E037B9DF2 /* GameCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626E068858FAD34210DB5B6B /* GameCardView.swift */; };
 		32AE57ABC56DB737503014B0 /* SudokuPuzzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A1AD54FF60642EA6489CA3 /* SudokuPuzzle.swift */; };
@@ -113,6 +114,7 @@
 		ADF6AEAEEF8FF2E6A5BC283F /* DropRushResultOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A5971D3A5CE44F6DEB7831 /* DropRushResultOverlay.swift */; };
 		AEA38795C30841110F6F39A6 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 09F4ADECD00CB45C55C0D6F4 /* PrivacyInfo.xcprivacy */; };
 		AFC7F383CCBDDF4C23A68535 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0383BA3253AD3913585227 /* PaywallView.swift */; };
+		B008829A16DBD1B7B8F74B30 /* DeathPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B054499EFD0658112638411 /* DeathPopupView.swift */; };
 		B28B14F0DE921419A63EBD1A /* Stack2048PauseOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8CC8B6820FBB35108A5A22D /* Stack2048PauseOverlay.swift */; };
 		BDC330985710DCFBD77BE96C /* LanguagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4D3F00F0351AF8FEBF7DA6 /* LanguagePickerView.swift */; };
 		BE197AF13DEBD5F0F2D5B83D /* GameRegistry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810847CFD83A89B37F310AAD /* GameRegistry.swift */; };
@@ -171,6 +173,7 @@
 		17CFE49782BCB436768FAD14 /* AnalyticsEvent+Sudoku.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AnalyticsEvent+Sudoku.swift"; sourceTree = "<group>"; };
 		19F3642F6442DBF9AAC8E77E /* BannerAdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerAdView.swift; sourceTree = "<group>"; };
 		1D98D47714A3BDC944935A59 /* HubViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HubViewModel.swift; sourceTree = "<group>"; };
+		2B054499EFD0658112638411 /* DeathPopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeathPopupView.swift; sourceTree = "<group>"; };
 		2C0383BA3253AD3913585227 /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
 		2D3BA2046625F8D1500FF243 /* Stack2048Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack2048Colors.swift; sourceTree = "<group>"; };
 		314CE5F22E64EB0D0BC471A0 /* DropRushModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropRushModule.swift; sourceTree = "<group>"; };
@@ -229,6 +232,7 @@
 		7D7262E77644F0F8AFC1C674 /* BoardThemePalettes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardThemePalettes.swift; sourceTree = "<group>"; };
 		80D62BBB422F391FFC049C23 /* SmartGames.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = SmartGames.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		810847CFD83A89B37F310AAD /* GameRegistry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameRegistry.swift; sourceTree = "<group>"; };
+		82922F4C0EB48A955D3713B8 /* CurrencyBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyBarView.swift; sourceTree = "<group>"; };
 		85826F9585A6FE3A8D46476B /* PersistenceServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceServiceTests.swift; sourceTree = "<group>"; };
 		8683868971E1152D64430816 /* GameCenterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCenterService.swift; sourceTree = "<group>"; };
 		88C4DC937FEE788B8DBFB990 /* SudokuBoardUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudokuBoardUtils.swift; sourceTree = "<group>"; };
@@ -341,6 +345,8 @@
 				6862FC1DF2AFDF9FBEFF90FA /* AppTheme.swift */,
 				63E704EB2630E4523830CCBE /* BoardTheme.swift */,
 				7D7262E77644F0F8AFC1C674 /* BoardThemePalettes.swift */,
+				82922F4C0EB48A955D3713B8 /* CurrencyBarView.swift */,
+				2B054499EFD0658112638411 /* DeathPopupView.swift */,
 				787C48C84A7ACCCDF836B170 /* GoldBalanceView.swift */,
 				3BB62B3B479EE88A1264C285 /* GoldRewardToast.swift */,
 			);
@@ -959,10 +965,12 @@
 				192F449D409C5B3A0732C946 /* BoardTheme.swift in Sources */,
 				F13553F9B5AB136C285DFF03 /* BoardThemePalettes.swift in Sources */,
 				A03B7F4D9BCE8B19D6260EA8 /* ContentView.swift in Sources */,
+				2DF915772CE732DCF3C04EF8 /* CurrencyBarView.swift in Sources */,
 				9C920DF2DC80A21B2583BC25 /* DailyChallengeModels.swift in Sources */,
 				CD35AC2E5A7DC83B0A4C765A /* DailyChallengeService.swift in Sources */,
 				DEED1FC818A8E8338386303E /* DailyChallengeView.swift in Sources */,
 				432223F02677ECA1A0EA4F31 /* DailyLoginRewardService.swift in Sources */,
+				B008829A16DBD1B7B8F74B30 /* DeathPopupView.swift in Sources */,
 				11320C97FE2DF35F3C9A6D16 /* DiamondService.swift in Sources */,
 				4D28B282F80DBA45F15DAAE6 /* DropRushAudioConfig.swift in Sources */,
 				4BE57EFB7A409690B1A016DF /* DropRushEngine.swift in Sources */,

@@ -14,10 +14,12 @@ struct DropRushResultOverlay: View {
     let goldEarned: Int
     /// Current gold balance to display in result card.
     let goldBalance: Int
+    let diamondBalance: Int
     let onNextLevel: () -> Void
     let onRetry: () -> Void
     let onLobby: () -> Void
     let onContinue: () -> Void
+    let onDiamondContinue: () -> Void
 
     @State private var revealedStars: Int = 0
     @State private var starAnimTask: Task<Void, Never>?
@@ -131,15 +133,13 @@ struct DropRushResultOverlay: View {
                     }
 
                     if isGameOver && continueAvailable {
-                        Button(action: onContinue) {
-                            Label("Watch Ad to Continue", systemImage: "play.rectangle.fill")
-                                .font(.system(size: 16, weight: .semibold))
-                                .frame(maxWidth: .infinity, minHeight: 50)
-                                .background(Color.orange)
-                                .foregroundStyle(.white)
-                                .clipShape(RoundedRectangle(cornerRadius: 14))
-                        }
-                        .buttonStyle(.plain)
+                        DeathPopupView(
+                            isAdReady: continueAvailable,
+                            diamondBalance: diamondBalance,
+                            diamondCost: DiamondReward.continueFullReviveCost,
+                            onWatchAd: onContinue,
+                            onDiamonds: onDiamondContinue
+                        )
                     }
 
                     Button(action: onRetry) {

@@ -10,8 +10,8 @@ struct Stack2048HUDView: View {
 
     var body: some View {
         HStack(alignment: .center) {
-            // Gold balance — reuse shared component
-            GoldBalanceView()
+            // Dual-currency bar — diamond (bright) + gold (subdued)
+            CurrencyBarView()
                 .frame(minWidth: 80, alignment: .leading)
 
             Spacer()

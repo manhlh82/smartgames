@@ -148,11 +148,15 @@ struct Stack2048GameView: View {
                 isNewHighScore: viewModel.isNewHighScore,
                 goldEarned: viewModel.goldEarnedOnEnd,
                 goldBalance: viewModel.goldService.balance,
+                diamondBalance: viewModel.diamondService.balance,
+                isAdReady: viewModel.ads.isRewardedAdReady,
                 onRetry: viewModel.retry,
                 onQuit: {
                     viewModel.quit()
                     router.pop()
-                }
+                },
+                onWatchAdContinue: viewModel.requestAdContinue,
+                onDiamondContinue: viewModel.requestDiamondContinue
             )
             .transition(.scale.combined(with: .opacity))
         }

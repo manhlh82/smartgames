@@ -178,10 +178,12 @@ struct DropRushGameView: View {
                 levelNumber: viewModel.levelNumber,
                 goldEarned: viewModel.goldEarnedOnWin,
                 goldBalance: viewModel.goldService.balance,
+                diamondBalance: viewModel.diamondService.balance,
                 onNextLevel: { router.pop() },
                 onRetry: viewModel.retry,
                 onLobby: { router.pop() },
-                onContinue: {}
+                onContinue: {},
+                onDiamondContinue: {}
             )
             .transition(.scale.combined(with: .opacity))
         }
@@ -197,10 +199,12 @@ struct DropRushGameView: View {
                 levelNumber: viewModel.levelNumber,
                 goldEarned: 0,
                 goldBalance: viewModel.goldService.balance,
+                diamondBalance: viewModel.diamondService.balance,
                 onNextLevel: { router.pop() },
                 onRetry: viewModel.retry,
                 onLobby: { router.pop() },
-                onContinue: viewModel.requestContinue
+                onContinue: viewModel.requestContinue,
+                onDiamondContinue: viewModel.requestDiamondContinue
             )
             .transition(.scale.combined(with: .opacity))
         }

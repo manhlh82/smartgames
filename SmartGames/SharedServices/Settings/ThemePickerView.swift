@@ -2,10 +2,11 @@ import SwiftUI
 
 // MARK: - ThemePickerView
 
-/// Full-screen theme picker with 2-column grid, lock states, purchase flow, and Gold balance.
+/// Full-screen theme picker with 2-column grid, lock states, purchase flow, currency balance, and rarity badges.
 struct ThemePickerView: View {
     @EnvironmentObject var themeService: ThemeService
     @EnvironmentObject var gold: GoldService
+    @EnvironmentObject var diamonds: DiamondService
 
     /// Theme pending purchase confirmation.
     @State private var pendingPurchase: BoardThemeName?
@@ -17,13 +18,13 @@ struct ThemePickerView: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 16) {
-                // Balance header
+                // Balance header — diamonds bright, gold subdued
                 HStack {
                     Text("Themes")
                         .font(.appHeadline)
                         .foregroundColor(.appTextPrimary)
                     Spacer()
-                    GoldBalanceView()
+                    CurrencyBarView()
                 }
                 .padding(.horizontal, 4)
 
@@ -53,13 +54,17 @@ struct ThemePickerView: View {
             Button("Buy") { confirmPurchase() }
             Button("Cancel", role: .cancel) { pendingPurchase = nil }
         } message: {
-            if let theme = pendingPurchase {
-                Text("You have \(gold.balance) Gold.")
+            if let pp = pendingPurchase {
+                if pp.diamondPrice != nil {
+                    Text("You have \(diamonds.balance) Diamonds.")
+                } else {
+                    Text("You have \(gold.balance) Gold.")
+                }
             }
         }
         // Insufficient funds alert
         .alert(
-            "Not Enough Gold",
+            insufficientFundsTheme?.diamondPrice != nil ? "Not Enough Diamonds" : "Not Enough Gold",
             isPresented: Binding(
                 get: { insufficientFundsTheme != nil },
                 set: { if !$0 { insufficientFundsTheme = nil } }
@@ -68,8 +73,13 @@ struct ThemePickerView: View {
             Button("OK", role: .cancel) { insufficientFundsTheme = nil }
         } message: {
             if let theme = insufficientFundsTheme {
-                let deficit = theme.price - gold.balance
-                Text("You need \(deficit) more Gold to unlock \(theme.displayName).")
+                if let dp = theme.diamondPrice {
+                    let deficit = dp - diamonds.balance
+                    Text("You need \(deficit) more Diamonds to unlock \(theme.displayName).")
+                } else {
+                    let deficit = theme.price - gold.balance
+                    Text("You need \(deficit) more Gold to unlock \(theme.displayName).")
+                }
             }
         }
     }
@@ -79,6 +89,13 @@ struct ThemePickerView: View {
     private func handleTap(_ name: BoardThemeName) {
         if themeService.isUnlocked(name) {
             themeService.setTheme(name)
+        } else if let dp = name.diamondPrice {
+            // Legendary: purchase with diamonds
+            if diamonds.balance >= dp {
+                pendingPurchase = name
+            } else {
+                insufficientFundsTheme = name
+            }
         } else if gold.balance >= name.price {
             pendingPurchase = name
         } else {
@@ -88,9 +105,12 @@ struct ThemePickerView: View {
 
     private func confirmPurchase() {
         guard let theme = pendingPurchase else { return }
-        let result = themeService.purchase(theme)
-        if result == .success {
-            themeService.setTheme(theme)
+        if theme.diamondPrice != nil {
+            let result = themeService.purchaseWithDiamonds(theme)
+            if result == .success { themeService.setTheme(theme) }
+        } else {
+            let result = themeService.purchase(theme)
+            if result == .success { themeService.setTheme(theme) }
         }
         pendingPurchase = nil
     }
@@ -99,6 +119,9 @@ struct ThemePickerView: View {
 
     private var purchaseAlertTitle: String {
         guard let theme = pendingPurchase else { return "" }
+        if let dp = theme.diamondPrice {
+            return "Unlock \(theme.displayName) for \(dp) Diamonds?"
+        }
         return "Unlock \(theme.displayName) for \(theme.price) Gold?"
     }
 
@@ -106,19 +129,23 @@ struct ThemePickerView: View {
         if themeService.isUnlocked(name) {
             return "\(name.displayName) theme\(themeService.themeName == name ? ", selected" : "")"
         }
+        if let dp = name.diamondPrice {
+            return "\(name.displayName) theme - Locked, \(dp) Diamonds"
+        }
         return "\(name.displayName) theme - Locked, \(name.price) Gold"
     }
 }
 
 // MARK: - ThemeSwatchCell
 
-/// Individual theme card: mini board preview + name + lock overlay.
+/// Individual theme card: mini board preview + rarity border + name + lock overlay + EXCLUSIVE badge.
 private struct ThemeSwatchCell: View {
     let name: BoardThemeName
     let isSelected: Bool
     let isUnlocked: Bool
 
     private var theme: BoardTheme { BoardTheme.theme(for: name) }
+    private var rarity: CosmeticRarity { name.rarity }
 
     var body: some View {
         VStack(spacing: 6) {
@@ -129,9 +156,10 @@ private struct ThemeSwatchCell: View {
                     .clipShape(RoundedRectangle(cornerRadius: 10))
                     .overlay(
                         RoundedRectangle(cornerRadius: 10)
-                            .stroke(borderColor, lineWidth: isSelected ? 2.5 : 1.0)
+                            .stroke(rarityBorder, lineWidth: isSelected ? 2.5 : rarityBorderWidth)
                     )
                     .overlay(lockOverlay)
+                    .overlay(alignment: .topLeading) { rarityBadge }
 
                 // Selected checkmark
                 if isSelected {
@@ -153,6 +181,22 @@ private struct ThemeSwatchCell: View {
     }
 
     @ViewBuilder
+    private var rarityBadge: some View {
+        if rarity == .legendary && isUnlocked {
+            Text("EXCLUSIVE")
+                .font(.system(size: 8, weight: .bold, design: .rounded))
+                .foregroundStyle(.white)
+                .padding(.horizontal, 5)
+                .padding(.vertical, 2)
+                .background(
+                    LinearGradient(colors: [.purple, .cyan], startPoint: .leading, endPoint: .trailing)
+                )
+                .clipShape(Capsule())
+                .padding(4)
+        }
+    }
+
+    @ViewBuilder
     private var lockOverlay: some View {
         if !isUnlocked {
             RoundedRectangle(cornerRadius: 10)
@@ -162,19 +206,47 @@ private struct ThemeSwatchCell: View {
                         Image(systemName: "lock.fill")
                             .font(.system(size: 16))
                             .foregroundColor(.white)
-                        Text("\(name.price)")
-                            .font(.appCaption)
-                            .fontWeight(.bold)
-                            .foregroundColor(.yellow)
+                        if let dp = name.diamondPrice {
+                            HStack(spacing: 2) {
+                                Image(systemName: "diamond.fill")
+                                    .font(.system(size: 10))
+                                    .foregroundStyle(.cyan)
+                                Text("\(dp)")
+                                    .font(.appCaption)
+                                    .fontWeight(.bold)
+                                    .foregroundColor(.cyan)
+                            }
+                        } else {
+                            Text("\(name.price)")
+                                .font(.appCaption)
+                                .fontWeight(.bold)
+                                .foregroundColor(.yellow)
+                        }
                     }
                 )
         }
     }
 
-    private var borderColor: Color {
-        if isSelected { return .appAccent }
-        if !isUnlocked { return Color.gray.opacity(0.3) }
-        return Color.gray.opacity(0.4)
+    private var rarityBorder: AnyShapeStyle {
+        if isSelected { return AnyShapeStyle(Color.appAccent) }
+        switch rarity {
+        case .legendary:
+            return AnyShapeStyle(
+                LinearGradient(colors: [.purple, .cyan], startPoint: .topLeading, endPoint: .bottomTrailing)
+            )
+        case .rare:
+            return AnyShapeStyle(Color.orange.opacity(isUnlocked ? 0.7 : 0.3))
+        case .common:
+            return AnyShapeStyle(Color.gray.opacity(isUnlocked ? 0.4 : 0.3))
+        }
+    }
+
+    private var rarityBorderWidth: CGFloat {
+        switch rarity {
+        case .legendary: return 1.8
+        case .rare: return 1.4
+        case .common: return 1.0
+        }
     }
 }
 

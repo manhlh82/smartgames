@@ -21,15 +21,13 @@ struct DropRushHUDView: View {
 
     var body: some View {
         HStack {
-            // Score
-            VStack(alignment: .leading, spacing: 2) {
-                Text("SCORE")
-                    .font(.system(size: 10, weight: .semibold))
-                    .foregroundStyle(.secondary)
+            // Score + currency
+            VStack(alignment: .leading, spacing: 4) {
                 Text("\(state.score)")
                     .font(.system(size: 20, weight: .bold, design: .rounded))
                     .foregroundStyle(.primary)
                     .contentTransition(.numericText())
+                CurrencyBarView()
             }
             .frame(minWidth: 64, alignment: .leading)
 

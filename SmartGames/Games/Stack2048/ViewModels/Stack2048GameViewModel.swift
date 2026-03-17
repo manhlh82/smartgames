@@ -160,6 +160,24 @@ final class Stack2048GameViewModel: ObservableObject {
         }
     }
 
+    /// Watch a rewarded ad to continue from game over (cleared board, score kept).
+    func requestAdContinue() {
+        guard phase == .gameOver, ads.isRewardedAdReady else { return }
+        phase = .watchingAd
+        ads.showRewardedAd(context: .continue) { [weak self] didEarn in
+            guard let self else { return }
+            if didEarn {
+                self.engine.reset()
+                self.gameState = self.engine.state
+                self.mergeEffects = []
+                self.moveCount = 0
+                self.phase = .playing
+            } else {
+                self.phase = .gameOver
+            }
+        }
+    }
+
     /// Spend 2 diamonds to continue from game over with a cleared board (restart-in-place).
     func requestDiamondContinue() {
         guard phase == .gameOver else { return }

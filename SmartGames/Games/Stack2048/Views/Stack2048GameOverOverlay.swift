@@ -7,8 +7,12 @@ struct Stack2048GameOverOverlay: View {
     let isNewHighScore: Bool
     let goldEarned: Int
     let goldBalance: Int
+    let diamondBalance: Int
+    let isAdReady: Bool
     let onRetry: () -> Void
     let onQuit: () -> Void
+    let onWatchAdContinue: () -> Void
+    let onDiamondContinue: () -> Void
 
     @State private var showGoldBalance = false
     @State private var showGoldToast = false
@@ -64,6 +68,15 @@ struct Stack2048GameOverOverlay: View {
                 .padding(.horizontal, 14)
                 .background(Color.yellow.opacity(0.12))
                 .clipShape(Capsule())
+
+                // Continue options (two-column death popup)
+                DeathPopupView(
+                    isAdReady: isAdReady,
+                    diamondBalance: diamondBalance,
+                    diamondCost: DiamondReward.continueFullReviveCost,
+                    onWatchAd: onWatchAdContinue,
+                    onDiamonds: onDiamondContinue
+                )
 
                 // Action buttons
                 VStack(spacing: 10) {
