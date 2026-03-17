@@ -92,6 +92,7 @@
 		903C7B81158A94A57A47D530 /* ThemePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE590A2ED5DA49870906DA7 /* ThemePickerView.swift */; };
 		90A1E364931854E78136716B /* ThemeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B0139407EAE4113BF447DC /* ThemeService.swift */; };
 		91B4D6F1687438410F325B8E /* Stack2048Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3BA2046625F8D1500FF243 /* Stack2048Colors.swift */; };
+		93AE7B27F671508277F14E91 /* RewardedAdOutcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0032CAE5D88370962AE7AE0 /* RewardedAdOutcome.swift */; };
 		9575B727E9BDEA80C6CD365C /* Stack2048Progress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97043C4F8F18EFA045F31D42 /* Stack2048Progress.swift */; };
 		9702A501AC0E80C7509E4037 /* AppLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754E19C9CAD8BA3B3813A949 /* AppLanguage.swift */; };
 		98E4E3D77F8C760AD6E94244 /* SudokuStatsCardsGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F9BFF21B9B0F68BDBCB4DA /* SudokuStatsCardsGrid.swift */; };
@@ -279,6 +280,7 @@
 		DC871B5B9344E445807120A3 /* SudokuModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudokuModule.swift; sourceTree = "<group>"; };
 		DCE590A2ED5DA49870906DA7 /* ThemePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePickerView.swift; sourceTree = "<group>"; };
 		DE33C065B89E871543A4D02D /* Stack2048WinOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack2048WinOverlay.swift; sourceTree = "<group>"; };
+		E0032CAE5D88370962AE7AE0 /* RewardedAdOutcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardedAdOutcome.swift; sourceTree = "<group>"; };
 		E3BAA8798EF9DC59A1F69F84 /* SudokuGameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudokuGameViewModel.swift; sourceTree = "<group>"; };
 		E5A0C39B701700FE52EE73D2 /* Stack2048BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack2048BoardView.swift; sourceTree = "<group>"; };
 		E5CDEA1C24491CE62BE62B3B /* GoldService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldService.swift; sourceTree = "<group>"; };
@@ -526,6 +528,7 @@
 				9CFAF4DA4988850B344DD535 /* InterstitialAdCoordinator.swift */,
 				591B821B60D6E8E8C25630DE /* MonetizationConfig.swift */,
 				5845117A01489368C0358171 /* RewardedAdCoordinator.swift */,
+				E0032CAE5D88370962AE7AE0 /* RewardedAdOutcome.swift */,
 			);
 			path = Ads;
 			sourceTree = "<group>";
@@ -997,6 +1000,7 @@
 				1AB89D37D3F206DCE5393BF6 /* PrimaryButton.swift in Sources */,
 				1032D031FD56E9EB1DBEC0D7 /* PuzzleBank.swift in Sources */,
 				40D240F17B4EBCC070691B5C /* RewardedAdCoordinator.swift in Sources */,
+				93AE7B27F671508277F14E91 /* RewardedAdOutcome.swift in Sources */,
 				55E9AE56BE26DB61FAFB91AE /* SeededRandomNumberGenerator.swift in Sources */,
 				7558E84B7FA0D7F731D47653 /* SettingsService.swift in Sources */,
 				E58FF08814BC52D3462F26D7 /* SettingsView.swift in Sources */,

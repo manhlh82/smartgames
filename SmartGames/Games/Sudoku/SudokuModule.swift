@@ -101,7 +101,8 @@ final class SudokuGameModule: GameModule {
                 storeService: environment.store,
                 monetizationConfig: monetizationConfig,
                 audioConfig: audioConfig,
-                goldService: environment.gold
+                goldService: environment.gold,
+                diamondService: environment.diamonds
             )
             .environmentObject(environment.themeService)
             .onAppear {

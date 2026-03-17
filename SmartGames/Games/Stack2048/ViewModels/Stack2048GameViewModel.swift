@@ -142,18 +142,32 @@ final class Stack2048GameViewModel: ObservableObject {
         haptics.impact(.light)
     }
 
-    /// Watch a rewarded ad to earn +100 Gold.
+    /// Watch a rewarded ad to earn gold.
     func requestAdGold() {
         guard phase == .playing, ads.isRewardedAdReady else { return }
         phase = .watchingAd
-        ads.showRewardedAd { [weak self] didEarn in
+        ads.showRewardedAd(context: .goldReward) { [weak self] didEarn in
             guard let self else { return }
             if didEarn {
-                self.goldService.earn(amount: 100)
-                self.analytics.log(.goldEarned(amount: 100, source: "stack2048_ad", balanceAfter: self.goldService.balance))
+                let amount = EconomyConfig.adWatchGold
+                self.goldService.earn(amount: amount)
+                self.analytics.log(.goldEarned(amount: amount, source: "stack2048_ad", balanceAfter: self.goldService.balance))
             }
             self.phase = .playing
         }
+    }
+
+    /// Spend 2 diamonds to continue from game over with a cleared board (restart-in-place).
+    func requestDiamondContinue() {
+        guard phase == .gameOver else { return }
+        guard diamondService.spend(amount: DiamondReward.continueFullReviveCost) else { return }
+        analytics.log(.diamondSpent(amount: DiamondReward.continueFullReviveCost, reason: "continue_full_revive", balanceAfter: diamondService.balance))
+        engine.reset()
+        gameState = engine.state
+        mergeEffects = []
+        goldEarnedOnEnd = 0
+        moveCount = 0
+        phase = .playing
     }
 
     // MARK: - Pause / Resume

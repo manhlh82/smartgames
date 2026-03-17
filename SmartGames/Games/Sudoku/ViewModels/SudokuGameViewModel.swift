@@ -61,6 +61,7 @@ final class SudokuGameViewModel: ObservableObject {
     let audioConfig: (any AudioConfig)?
     /// Shared Gold service — receives Gold rewards on puzzle completion.
     let goldService: GoldService
+    let diamondService: DiamondService
     /// Gold earned on the most recent win — 0 until puzzle is solved.
     @Published private(set) var goldEarnedOnWin: Int = 0
 
@@ -100,7 +101,8 @@ final class SudokuGameViewModel: ObservableObject {
          dailyChallengeService: DailyChallengeService? = nil,
          monetizationConfig: MonetizationConfig = MonetizationConfig(),
          audioConfig: (any AudioConfig)? = nil,
-         goldService: GoldService) {
+         goldService: GoldService,
+         diamondService: DiamondService) {
         self.persistence = persistence
         self.analytics = analytics
         self.sound = sound
@@ -112,6 +114,7 @@ final class SudokuGameViewModel: ObservableObject {
         self.monetizationConfig = monetizationConfig
         self.audioConfig = audioConfig
         self.goldService = goldService
+        self.diamondService = diamondService
 
         // Restore full saved state when resuming the same puzzle
         let isResume: Bool
@@ -246,6 +249,7 @@ final class SudokuGameViewModel: ObservableObject {
     }
 
     // MARK: - Undo
+
     func undo() {
         guard let snapshot = undoStack.popLast() else { return }
         puzzle.board = snapshot.board
@@ -253,6 +257,23 @@ final class SudokuGameViewModel: ObservableObject {
         haptics.impact(.light)
         analytics.log(.sudokuUndoUsed(difficulty: puzzle.difficulty.rawValue))
         scheduleAutoSave()
+    }
+
+    /// Spend 1 diamond to undo the last move (no ad required).
+    func undoWithDiamond() {
+        guard isUndoAvailable else { return }
+        guard diamondService.spend(amount: DiamondReward.undoCost) else { return }
+        analytics.log(.diamondSpent(amount: DiamondReward.undoCost, reason: "undo_move", balanceAfter: diamondService.balance))
+        undo()
+    }
+
+    /// Watch a rewarded ad to undo the last move.
+    func undoWithAd() {
+        guard isUndoAvailable, ads.isRewardedAdReady else { return }
+        ads.showRewardedAd(context: .undo) { [weak self] granted in
+            guard let self, granted else { return }
+            self.undo()
+        }
     }
 
     // MARK: - Hint

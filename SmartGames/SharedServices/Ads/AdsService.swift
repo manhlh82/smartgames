@@ -2,6 +2,17 @@ import Foundation
 import UIKit
 import Combine
 
+// MARK: - Notification Names
+
+extension Notification.Name {
+    /// Posted when the session ad-watch count reaches the skip-ads CTA threshold.
+    static let adsShowSkipAdsCTA = Notification.Name("ads.showSkipAdsCTA")
+    /// Posted when the session ad-watch count reaches the starter-pack offer threshold.
+    static let adsShowStarterPackOffer = Notification.Name("ads.showStarterPackOffer")
+    /// Posted when the daily ad-watch count reaches the remove-ads banner threshold.
+    static let adsShowRemoveAdsBanner = Notification.Name("ads.showRemoveAdsBanner")
+}
+
 /// Coordinates all ad formats (rewarded + interstitial).
 /// Injects into SwiftUI as @EnvironmentObject.
 @MainActor
@@ -10,10 +21,17 @@ final class AdsService: ObservableObject {
     let interstitial = InterstitialAdCoordinator()
 
     @Published var isRewardedAdReady: Bool = false
+    /// Number of rewarded ads watched this app session (resets on cold start).
+    @Published private(set) var sessionAdWatchCount: Int = 0
+
     private var cancellables = Set<AnyCancellable>()
 
     /// Weak reference to StoreService — set by AppEnvironment after init.
     weak var storeService: StoreService?
+    /// Weak reference to AdRewardTracker — set by AppEnvironment after init.
+    weak var adRewardTracker: AdRewardTracker?
+    /// Weak reference to DiamondService for rare drop grants.
+    weak var diamondService: DiamondService?
 
     init() {
         // Propagate rewarded ready state
@@ -29,9 +47,11 @@ final class AdsService: ObservableObject {
         }
     }
 
-    /// Show a rewarded ad. Calls completion(true) if reward was earned, (false) otherwise.
-    /// If the user has purchased Remove Ads, the reward is granted immediately without showing an ad.
-    func showRewardedAd(completion: @escaping (Bool) -> Void) {
+    /// Show a rewarded ad with an explicit context. Resolves the outcome and calls back with success/failure.
+    /// - Gold-context ads respect the daily cap via AdRewardTracker.
+    /// - Continue/undo ads bypass the daily cap.
+    /// - All successful watches roll for a rare diamond drop (0.2%).
+    func showRewardedAd(context: AdContext = .goldReward, completion: @escaping (Bool) -> Void) {
         if storeService?.hasRemovedAds == true {
             completion(true)
             return
@@ -41,7 +61,46 @@ final class AdsService: ObservableObject {
             return
         }
         Task {
-            await rewarded.showAd(from: rootVC, completion: completion)
+            await rewarded.showAd(from: rootVC) { [weak self] granted in
+                guard let self else { return }
+                if granted {
+                    self.handleAdWatchSuccess(context: context)
+                }
+                completion(granted)
+            }
+        }
+    }
+
+    /// Legacy overload — maps to .goldReward context for backward compatibility.
+    func showRewardedAd(completion: @escaping (Bool) -> Void) {
+        showRewardedAd(context: .goldReward, completion: completion)
+    }
+
+    // MARK: - Internal: post-watch reward dispatch
+
+    private func handleAdWatchSuccess(context: AdContext) {
+        // Increment session counter and fire conversion notifications
+        sessionAdWatchCount += 1
+        if sessionAdWatchCount == EconomyConfig.sessionAdWatchSkipCTAThreshold {
+            NotificationCenter.default.post(name: .adsShowSkipAdsCTA, object: nil)
+        }
+        if sessionAdWatchCount == EconomyConfig.sessionAdWatchSkipCTAThreshold {
+            NotificationCenter.default.post(name: .adsShowStarterPackOffer, object: nil)
+        }
+
+        // Rare diamond drop (0.2%) — applies to all ad contexts
+        if Double.random(in: 0..<1) < EconomyConfig.adDiamondDropChance {
+            diamondService?.earn(amount: 1)
+        }
+
+        // Record daily gold-ad watch for cap tracking
+        if context == .goldReward {
+            adRewardTracker?.recordGoldAdWatch()
+            // Show remove-ads banner after threshold
+            let dailyCount = adRewardTracker?.todayCount ?? 0
+            if dailyCount >= EconomyConfig.dailyAdWatchRemoveBannerThreshold {
+                NotificationCenter.default.post(name: .adsShowRemoveAdsBanner, object: nil)
+            }
         }
     }
 

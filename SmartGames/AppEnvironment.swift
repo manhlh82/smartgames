@@ -43,6 +43,7 @@ final class AppEnvironment: ObservableObject {
         self.store = StoreService()
         // Wire store into ads so ads are skipped when Remove Ads is purchased
         adsService.storeService = self.store
+        // Economy weak refs wired below after gold/diamond services are initialised
 
         self.localization = LocalizationService(persistence: persistence)
 
@@ -58,6 +59,10 @@ final class AppEnvironment: ObservableObject {
             diamondService: diamonds
         )
         self.themeService = ThemeService(persistence: persistence, goldService: gold)
+
+        // Wire economy services into ads (daily cap + diamond drops)
+        adsService.adRewardTracker = self.adRewardTracker
+        adsService.diamondService = diamonds
 
         // Register game modules
         let registry = GameRegistry()

@@ -22,7 +22,8 @@ struct SudokuGameView: View {
          storeService: StoreService? = nil,
          monetizationConfig: MonetizationConfig = MonetizationConfig(),
          audioConfig: (any AudioConfig)? = nil,
-         goldService: GoldService) {
+         goldService: GoldService,
+         diamondService: DiamondService) {
         self.difficulty = difficulty
         self.storeService = storeService
         self.monetizationConfig = monetizationConfig
@@ -38,7 +39,8 @@ struct SudokuGameView: View {
             dailyChallengeService: dailyChallengeService,
             monetizationConfig: monetizationConfig,
             audioConfig: audioConfig,
-            goldService: goldService
+            goldService: goldService,
+            diamondService: diamondService
         )
         vm.storeService = storeService
         _viewModel = StateObject(wrappedValue: vm)
