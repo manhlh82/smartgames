@@ -139,8 +139,8 @@ final class DropRushGameViewModel: ObservableObject {
                 let cumulative = loadCumulativeScore()
                 gameCenter.submitScore(cumulative, leaderboardID: "com.smartgames.dropRush.leaderboard.cumulative")
             }
-            // Grant Gold reward for level completion
-            let baseGold = GoldReward.dropRushComplete
+            // Grant Gold reward for level completion (level-scaled)
+            let baseGold = EconomyConfig.levelCompleteGold(game: "dropRush", difficulty: "\(levelNumber)")
             let bonusGold = s >= 3 ? GoldReward.dropRushThreeStarBonus : 0
             let totalGold = baseGold + bonusGold
             goldEarnedOnWin = totalGold
@@ -154,6 +154,8 @@ final class DropRushGameViewModel: ObservableObject {
             piggyBank.recordGameCompleted()
             phase = .levelComplete
             NotificationCenter.default.post(name: .gameWonOccurred, object: nil)
+            NotificationCenter.default.post(name: .weeklyScoreOccurred, object: nil,
+                userInfo: ["game": "dropRush", "score": score])
         case .gameOver:
             sound.playSFX("dropRush-gameover")
             haptics.notification(.error)

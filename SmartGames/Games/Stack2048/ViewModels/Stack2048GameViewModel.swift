@@ -5,10 +5,11 @@ import Combine
 enum Stack2048Phase: Equatable {
     case playing
     case paused
-    case hammerMode     // player selects a tile to destroy
-    case watchingAd     // waiting for rewarded ad to complete
+    case hammerMode             // player selects a tile to destroy
+    case watchingAd             // waiting for rewarded ad to complete
     case gameOver
-    case won            // player created a 2048 tile
+    case won                    // player created a 2048 tile
+    case challengeComplete(stars: Int)  // challenge level finished
 }
 
 /// Lightweight merge animation trigger — consumed by the board view.
@@ -46,6 +47,15 @@ final class Stack2048GameViewModel: ObservableObject {
     /// Running count of valid tile-drops for move-streak gold bonus.
     var moveCount: Int = 0
 
+    // MARK: - Challenge Mode
+
+    /// Non-nil when running a curated challenge level (Phase 4).
+    let challengeLevel: Stack2048ChallengeLevel?
+    /// Moves made in current challenge attempt — used for star calculation.
+    var challengeMoveCount: Int = 0
+    /// Called on final score when running in daily-challenge mode.
+    let onDailyComplete: ((Int) -> Void)?
+
     // MARK: - Init
 
     init(
@@ -56,7 +66,10 @@ final class Stack2048GameViewModel: ObservableObject {
         analytics: AnalyticsService,
         goldService: GoldService,
         diamondService: DiamondService,
-        piggyBank: PiggyBankService
+        piggyBank: PiggyBankService,
+        challengeLevel: Stack2048ChallengeLevel? = nil,
+        dailyInitialTiles: [(col: Int, value: Int)]? = nil,
+        onDailyComplete: ((Int) -> Void)? = nil
     ) {
         self.persistence = persistence
         self.sound = sound
@@ -66,6 +79,13 @@ final class Stack2048GameViewModel: ObservableObject {
         self.goldService = goldService
         self.diamondService = diamondService
         self.piggyBank = piggyBank
+        self.challengeLevel = challengeLevel
+        self.onDailyComplete = onDailyComplete
+        if let level = challengeLevel {
+            engine.resetForChallenge(initialTiles: level.initialTiles)
+        } else if let tiles = dailyInitialTiles {
+            for tile in tiles { engine.placeTileAtBottom(value: tile.value, column: tile.col) }
+        }
         self.gameState = engine.state
         let progress = persistence.load(Stack2048Progress.self, key: PersistenceService.Keys.stack2048Progress) ?? Stack2048Progress()
         self.highScore = progress.highScore
@@ -101,6 +121,54 @@ final class Stack2048GameViewModel: ObservableObject {
             goldService.earn(amount: EconomyConfig.moveStreakBonus)
             analytics.log(.goldEarned(amount: EconomyConfig.moveStreakBonus, source: "move_streak", balanceAfter: goldService.balance))
         }
+
+        // Challenge completion check after events processed
+        if let level = challengeLevel, phase == .playing {
+            challengeMoveCount += 1
+            if engine.hasReachedTargetTile(level.targetTile) {
+                completeChallengeAndSaveProgress()
+            }
+        }
+    }
+
+    /// Complete the current challenge level, grant gold, save stars.
+    func completeChallengeAndSaveProgress() {
+        guard let level = challengeLevel else { return }
+        let stars = level.stars(movesUsed: challengeMoveCount)
+        let extra = max(0, stars - 1) * EconomyConfig.stack2048ChallengeStarBonus
+        let gold = EconomyConfig.stack2048ChallengeCompleteGold + extra
+        goldService.earn(amount: gold)
+        goldEarnedOnEnd = gold
+        analytics.log(.goldEarned(amount: gold, source: "s2048_challenge", balanceAfter: goldService.balance))
+        sound.playSFX("stack2048-win")
+        haptics.notification(.success)
+
+        var progress = persistence.load(Stack2048Progress.self, key: PersistenceService.Keys.stack2048Progress) ?? Stack2048Progress()
+        progress.recordChallengeResult(level: level.level, stars: stars)
+        persistence.save(progress, key: PersistenceService.Keys.stack2048Progress)
+
+        phase = .challengeComplete(stars: stars)
+    }
+
+    /// Restart the current challenge level from scratch.
+    func retryChallenge() {
+        guard let level = challengeLevel else { retry(); return }
+        engine.resetForChallenge(initialTiles: level.initialTiles)
+        gameState = engine.state
+        mergeEffects = []
+        isNewHighScore = false
+        goldEarnedOnEnd = 0
+        challengeMoveCount = 0
+        milestonesTileLogged = []
+        hasWonThisSession = false
+        moveCount = 0
+        phase = .playing
+    }
+
+    /// Returns the next challenge level, or nil if at level 50.
+    func nextChallengeLevel() -> Stack2048ChallengeLevel? {
+        guard let current = challengeLevel else { return nil }
+        return Stack2048ChallengeLevelDefinitions.level(current.level + 1)
     }
 
     /// Tap a tile while in hammer mode to destroy it (spends 150 Gold on first tap).

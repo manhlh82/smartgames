@@ -1,0 +1,69 @@
+/* Hub */
+"hub.title" = "SmartGames";
+"hub.settings" = "設定";
+"hub.play" = "プレイ";
+"hub.coming_soon" = "近日公開";
+
+/* Settings */
+"settings.title" = "設定";
+"settings.section.audio" = "オーディオ";
+"settings.audio.music" = "BGM";
+"settings.audio.sound_effects" = "効果音";
+"settings.audio.haptics" = "バイブレーション";
+"settings.section.display" = "表示";
+"settings.display.highlight_related" = "関連セルをハイライト";
+"settings.display.highlight_same" = "同じ数字をハイライト";
+"settings.display.show_timer" = "タイマーを表示";
+"settings.section.language" = "言語";
+"settings.language.title" = "アプリの言語";
+"settings.language.system_default" = "システムのデフォルト";
+"settings.language.follow_device" = "デバイスの言語に従う";
+"settings.section.premium" = "プレミアム";
+"settings.premium.remove_ads" = "広告を削除";
+"settings.premium.ads_removed" = "広告削除済み";
+"settings.premium.hint_pack" = "ヒントパックを購入（12個）";
+"settings.section.legal" = "法的情報";
+"settings.legal.privacy" = "プライバシーポリシー";
+"settings.legal.terms" = "利用規約";
+
+/* Sudoku Lobby */
+"sudoku.lobby.title" = "数独";
+"sudoku.lobby.daily" = "デイリーチャレンジ";
+"sudoku.lobby.statistics" = "統計";
+"sudoku.difficulty.easy" = "簡単";
+"sudoku.difficulty.medium" = "普通";
+"sudoku.difficulty.hard" = "難しい";
+"sudoku.difficulty.expert" = "エキスパート";
+
+/* Sudoku Gameplay */
+"sudoku.toolbar.hint" = "ヒント";
+"sudoku.toolbar.undo" = "元に戻す";
+"sudoku.toolbar.erase" = "消す";
+"sudoku.toolbar.pencil" = "メモ";
+"sudoku.stats.mistakes" = "ミス";
+"sudoku.stats.time" = "時間";
+
+/* Sudoku Win */
+"sudoku.win.title" = "パズル完成！";
+"sudoku.win.hint_earned" = "ヒント +%d 個獲得！";
+"sudoku.win.hint_full" = "ヒントが満タンです";
+"sudoku.win.next_puzzle" = "次のパズル";
+"sudoku.win.back_to_menu" = "メニューへ戻る";
+
+/* Sudoku Loss */
+"sudoku.loss.title" = "ゲームオーバー";
+"sudoku.loss.try_again" = "もう一度";
+"sudoku.loss.new_game" = "新しいゲーム";
+
+/* Ads */
+"ads.hint_prompt" = "広告を見てヒントを3つ獲得しますか？";
+"ads.watch" = "広告を見る";
+"ads.cancel" = "キャンセル";
+"ads.unavailable.title" = "広告がありません";
+"ads.unavailable.message" = "現在広告はありません。しばらくしてからもう一度お試しください。";
+
+/* Common */
+"common.ok" = "OK";
+"common.back" = "戻る";
+"common.pause" = "一時停止";
+"common.resume" = "再開";

@@ -1,0 +1,69 @@
+/* Hub */
+"hub.title" = "SmartGames";
+"hub.settings" = "设置";
+"hub.play" = "开始";
+"hub.coming_soon" = "即将推出";
+
+/* Settings */
+"settings.title" = "设置";
+"settings.section.audio" = "音效";
+"settings.audio.music" = "背景音乐";
+"settings.audio.sound_effects" = "音效";
+"settings.audio.haptics" = "触感反馈";
+"settings.section.display" = "显示";
+"settings.display.highlight_related" = "高亮相关格子";
+"settings.display.highlight_same" = "高亮相同数字";
+"settings.display.show_timer" = "显示计时器";
+"settings.section.language" = "语言";
+"settings.language.title" = "应用语言";
+"settings.language.system_default" = "系统默认";
+"settings.language.follow_device" = "跟随设备语言";
+"settings.section.premium" = "高级功能";
+"settings.premium.remove_ads" = "移除广告";
+"settings.premium.ads_removed" = "广告已移除";
+"settings.premium.hint_pack" = "购买提示包（12个）";
+"settings.section.legal" = "法律信息";
+"settings.legal.privacy" = "隐私政策";
+"settings.legal.terms" = "服务条款";
+
+/* Sudoku Lobby */
+"sudoku.lobby.title" = "数独";
+"sudoku.lobby.daily" = "每日挑战";
+"sudoku.lobby.statistics" = "统计";
+"sudoku.difficulty.easy" = "简单";
+"sudoku.difficulty.medium" = "中等";
+"sudoku.difficulty.hard" = "困难";
+"sudoku.difficulty.expert" = "专家";
+
+/* Sudoku Gameplay */
+"sudoku.toolbar.hint" = "提示";
+"sudoku.toolbar.undo" = "撤销";
+"sudoku.toolbar.erase" = "擦除";
+"sudoku.toolbar.pencil" = "草稿";
+"sudoku.stats.mistakes" = "错误";
+"sudoku.stats.time" = "时间";
+
+/* Sudoku Win */
+"sudoku.win.title" = "谜题完成！";
+"sudoku.win.hint_earned" = "获得 +%d 个提示！";
+"sudoku.win.hint_full" = "提示已满";
+"sudoku.win.next_puzzle" = "下一题";
+"sudoku.win.back_to_menu" = "返回菜单";
+
+/* Sudoku Loss */
+"sudoku.loss.title" = "游戏结束";
+"sudoku.loss.try_again" = "再试一次";
+"sudoku.loss.new_game" = "新游戏";
+
+/* Ads */
+"ads.hint_prompt" = "观看广告获得3个提示？";
+"ads.watch" = "观看广告";
+"ads.cancel" = "取消";
+"ads.unavailable.title" = "广告不可用";
+"ads.unavailable.message" = "暂时没有广告。请稍后再试。";
+
+/* Common */
+"common.ok" = "确定";
+"common.back" = "返回";
+"common.pause" = "暂停";
+"common.resume" = "继续";

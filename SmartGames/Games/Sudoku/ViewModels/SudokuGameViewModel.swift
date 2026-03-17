@@ -508,14 +508,19 @@ final class SudokuGameViewModel: ObservableObject {
             }
         }
 
-        // Grant Gold reward for puzzle completion
-        let baseGold = GoldReward.sudokuComplete
+        // Grant Gold reward for puzzle completion (difficulty-scaled)
+        let baseGold = EconomyConfig.levelCompleteGold(game: "sudoku", difficulty: puzzle.difficulty.rawValue)
         let bonusGold = starRating >= 3 ? GoldReward.sudokuThreeStarBonus : 0
         let totalGold = baseGold + bonusGold
         goldEarnedOnWin = totalGold
         goldService.earn(amount: totalGold)
         analytics.log(.goldEarned(amount: totalGold, source: "sudoku",
                                   balanceAfter: goldService.balance))
+
+        // Weekly leaderboard — inverse-time score (higher = faster solve, max 3600)
+        let weeklyScore = max(0, 3600 - elapsedSeconds)
+        NotificationCenter.default.post(name: .weeklyScoreOccurred, object: nil,
+            userInfo: ["game": "sudoku", "score": weeklyScore])
 
         // Configure interstitial frequency and show post-level ad if appropriate
         ads.interstitial.configure(frequency: monetizationConfig.interstitialFrequency)

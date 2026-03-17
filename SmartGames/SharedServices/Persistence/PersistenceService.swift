@@ -63,9 +63,21 @@ extension PersistenceService {
         // MARK: - Daily Login
         static let dailyLoginLastDate = "app.dailyLogin.lastDate"
         static let dailyLoginStreakCount = "app.dailyLogin.streak"
+        static let dailyLoginGraceUsedInCycle = "app.dailyLogin.graceUsed"
+        static let dailyLoginClaimHistory = "app.dailyLogin.claimHistory"
         // MARK: - Piggy Bank
         static let piggyBankFractional = "app.piggyBank.fractional"
         // MARK: - Themes
         static let unlockedThemes = "app.themes.unlocked"
+        // MARK: - Onboarding
+        static let diamondOnboardingGranted = "app.diamond.onboardingGranted"
+        // MARK: - Drop Rush Daily Challenge
+        static let dropRushDailyState = "dropRush.daily.state"
+        static let dropRushDailyStreak = "dropRush.daily.streak"
+        // MARK: - Stack 2048 Daily Challenge
+        static let stack2048DailyState = "stack2048.daily.state"
+        static let stack2048DailyStreak = "stack2048.daily.streak"
+        // MARK: - Weekly Challenge
+        static let weeklyChallenge = "app.weeklyChallenge.state"
     }
 }

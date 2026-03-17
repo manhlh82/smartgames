@@ -1,7 +1,7 @@
 import SwiftUI
 
 /// Daily login streak popup — shown when DailyLoginRewardService.pendingReward is set.
-/// Displays streak day, gold earned, and optional diamond bonus (day 7+).
+/// Displays 7-day calendar, gold earned, and optional diamond bonus (day 7+).
 struct DailyLoginPopupView: View {
     let reward: LoginReward
     let onClaim: () -> Void
@@ -24,19 +24,19 @@ struct DailyLoginPopupView: View {
                         .foregroundStyle(.primary)
                 }
 
-                // Streak dots (7-day cycle)
-                HStack(spacing: 6) {
-                    ForEach(1...7, id: \.self) { day in
-                        let filled = day <= (reward.streakDay % 7 == 0 ? 7 : reward.streakDay % 7)
-                        Circle()
-                            .fill(filled ? Color.yellow : Color.secondary.opacity(0.25))
-                            .frame(width: 10, height: 10)
-                            .overlay(
-                                day == 7
-                                    ? Circle().stroke(Color.cyan.opacity(0.7), lineWidth: 1.5)
-                                    : nil
-                            )
-                    }
+                // 7-day streak calendar
+                LoginStreakCalendarView(
+                    streakDayInCycle: reward.streakDay % 7 == 0 ? 7 : reward.streakDay % 7,
+                    graceUsed: reward.usedGrace
+                )
+
+                // Grace saved banner
+                if reward.usedGrace {
+                    Label("Streak saved!", systemImage: "shield.fill")
+                        .font(.system(size: 13, weight: .semibold))
+                        .foregroundStyle(.yellow)
+                        .opacity(revealed ? 1 : 0)
+                        .animation(.easeOut.delay(0.1), value: revealed)
                 }
 
                 // Rewards

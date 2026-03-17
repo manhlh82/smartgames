@@ -1,0 +1,69 @@
+/* Hub */
+"hub.title" = "SmartGames";
+"hub.settings" = "Ajustes";
+"hub.play" = "Jugar";
+"hub.coming_soon" = "Próximamente";
+
+/* Settings */
+"settings.title" = "Ajustes";
+"settings.section.audio" = "Audio";
+"settings.audio.music" = "Música";
+"settings.audio.sound_effects" = "Efectos de sonido";
+"settings.audio.haptics" = "Hápticos";
+"settings.section.display" = "Pantalla";
+"settings.display.highlight_related" = "Resaltar celdas relacionadas";
+"settings.display.highlight_same" = "Resaltar números iguales";
+"settings.display.show_timer" = "Mostrar temporizador";
+"settings.section.language" = "Idioma";
+"settings.language.title" = "Idioma de la app";
+"settings.language.system_default" = "Predeterminado del sistema";
+"settings.language.follow_device" = "Seguir idioma del dispositivo";
+"settings.section.premium" = "Premium";
+"settings.premium.remove_ads" = "Eliminar anuncios";
+"settings.premium.ads_removed" = "Anuncios eliminados";
+"settings.premium.hint_pack" = "Obtener pistas (12 pistas)";
+"settings.section.legal" = "Legal";
+"settings.legal.privacy" = "Política de privacidad";
+"settings.legal.terms" = "Términos de servicio";
+
+/* Sudoku Lobby */
+"sudoku.lobby.title" = "Sudoku";
+"sudoku.lobby.daily" = "Desafío diario";
+"sudoku.lobby.statistics" = "Estadísticas";
+"sudoku.difficulty.easy" = "Fácil";
+"sudoku.difficulty.medium" = "Medio";
+"sudoku.difficulty.hard" = "Difícil";
+"sudoku.difficulty.expert" = "Experto";
+
+/* Sudoku Gameplay */
+"sudoku.toolbar.hint" = "Pista";
+"sudoku.toolbar.undo" = "Deshacer";
+"sudoku.toolbar.erase" = "Borrar";
+"sudoku.toolbar.pencil" = "Lápiz";
+"sudoku.stats.mistakes" = "Errores";
+"sudoku.stats.time" = "Tiempo";
+
+/* Sudoku Win */
+"sudoku.win.title" = "¡Puzzle resuelto!";
+"sudoku.win.hint_earned" = "+%d Pista ganada";
+"sudoku.win.hint_full" = "Inventario de pistas lleno";
+"sudoku.win.next_puzzle" = "Siguiente puzzle";
+"sudoku.win.back_to_menu" = "Volver al menú";
+
+/* Sudoku Loss */
+"sudoku.loss.title" = "Fin del juego";
+"sudoku.loss.try_again" = "Intentar de nuevo";
+"sudoku.loss.new_game" = "Nuevo juego";
+
+/* Ads */
+"ads.hint_prompt" = "¿Ver un anuncio para 3 pistas más?";
+"ads.watch" = "Ver anuncio";
+"ads.cancel" = "Cancelar";
+"ads.unavailable.title" = "Anuncio no disponible";
+"ads.unavailable.message" = "No hay anuncios disponibles ahora. Inténtalo de nuevo en un momento.";
+
+/* Common */
+"common.ok" = "OK";
+"common.back" = "Atrás";
+"common.pause" = "Pausar";
+"common.resume" = "Reanudar";

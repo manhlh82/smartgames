@@ -36,8 +36,22 @@ final class Stack2048Module: GameModule {
     }
 
     func navigationDestination(for route: AppRoute, environment: AppEnvironment) -> AnyView? {
-        switch route {
-        case .gamePlay(let gameId, _) where gameId == id:
+        guard case .gamePlay(let gameId, let context) = route, gameId == id else { return nil }
+
+        // Daily challenge info screen
+        if context == "daily-info" {
+            return AnyView(Stack2048DailyChallengeView(service: environment.stack2048DailyChallenge))
+        }
+
+        // Challenge level select grid
+        if context == "challengeSelect" {
+            return AnyView(Stack2048ChallengeLevelSelectView(persistence: environment.persistence))
+        }
+
+        // Daily challenge game (pre-seeded board)
+        if context == "daily" {
+            let tiles = environment.stack2048DailyChallenge.todayInitialTiles()
+                .map { (col: $0.col, value: $0.value) }
             return AnyView(Stack2048GameView(
                 persistence: environment.persistence,
                 sound: environment.sound,
@@ -46,10 +60,41 @@ final class Stack2048Module: GameModule {
                 analytics: environment.analytics,
                 goldService: environment.gold,
                 diamondService: environment.diamonds,
-                piggyBank: environment.piggyBank
+                piggyBank: environment.piggyBank,
+                dailyInitialTiles: tiles,
+                onDailyComplete: { [weak environment] score in
+                    environment?.stack2048DailyChallenge.markCompleted(score: score)
+                }
             ))
-        default:
-            return nil
         }
+
+        // Challenge level N
+        if context.hasPrefix("challenge-"),
+           let n = Int(context.dropFirst(10)),
+           let level = Stack2048ChallengeLevelDefinitions.level(n) {
+            return AnyView(Stack2048GameView(
+                persistence: environment.persistence,
+                sound: environment.sound,
+                haptics: environment.haptics,
+                ads: environment.ads,
+                analytics: environment.analytics,
+                goldService: environment.gold,
+                diamondService: environment.diamonds,
+                piggyBank: environment.piggyBank,
+                challengeLevel: level
+            ))
+        }
+
+        // Endless game (default "play" context)
+        return AnyView(Stack2048GameView(
+            persistence: environment.persistence,
+            sound: environment.sound,
+            haptics: environment.haptics,
+            ads: environment.ads,
+            analytics: environment.analytics,
+            goldService: environment.gold,
+            diamondService: environment.diamonds,
+            piggyBank: environment.piggyBank
+        ))
     }
 }

@@ -64,6 +64,16 @@
 		4BE41F8A986C565DFA398A05 /* RemoteEconomyConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68E26AD39F083084799B11C /* RemoteEconomyConfig.swift */; };
 		4BE57EFB7A409690B1A016DF /* DropRushEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1133E4D185142996F4229A /* DropRushEngine.swift */; };
 		4D28B282F80DBA45F15DAAE6 /* DropRushAudioConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316C2369E8733C7AC2C19BAD /* DropRushAudioConfig.swift */; };
+		AA11BB22CC33DD44EE55FF01 /* DropRushDailyChallengeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA11BB22CC33DD44EE55FF11 /* DropRushDailyChallengeModels.swift */; };
+		AA11BB22CC33DD44EE55FF02 /* DropRushDailyChallengeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA11BB22CC33DD44EE55FF12 /* DropRushDailyChallengeService.swift */; };
+		AA11BB22CC33DD44EE55FF03 /* DropRushDailyChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA11BB22CC33DD44EE55FF13 /* DropRushDailyChallengeView.swift */; };
+		AA11BB22CC33DD44EE55FF04 /* Stack2048DailyChallengeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA11BB22CC33DD44EE55FF14 /* Stack2048DailyChallengeModels.swift */; };
+		AA11BB22CC33DD44EE55FF05 /* Stack2048DailyChallengeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA11BB22CC33DD44EE55FF15 /* Stack2048DailyChallengeService.swift */; };
+		AA11BB22CC33DD44EE55FF06 /* Stack2048DailyChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA11BB22CC33DD44EE55FF16 /* Stack2048DailyChallengeView.swift */; };
+		AA11BB22CC33DD44EE55FF07 /* Stack2048ChallengeLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA11BB22CC33DD44EE55FF17 /* Stack2048ChallengeLevel.swift */; };
+		AA11BB22CC33DD44EE55FF08 /* Stack2048ChallengeLevelDefinitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA11BB22CC33DD44EE55FF18 /* Stack2048ChallengeLevelDefinitions.swift */; };
+		AA11BB22CC33DD44EE55FF09 /* Stack2048ChallengeLevelSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA11BB22CC33DD44EE55FF19 /* Stack2048ChallengeLevelSelectView.swift */; };
+		AA11BB22CC33DD44EE55FF0A /* Stack2048ChallengeCompleteOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA11BB22CC33DD44EE55FF1A /* Stack2048ChallengeCompleteOverlay.swift */; };
 		4DA44045AE4A7465B4D33705 /* AnalyticsServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAB33221F8D2506CE4E467A /* AnalyticsServiceTests.swift */; };
 		4DDA35A693B4810F1E791B6F /* GameCenterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8683868971E1152D64430816 /* GameCenterService.swift */; };
 		4F1F5A766ED0748FEB8F485E /* GoldService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CDEA1C24491CE62BE62B3B /* GoldService.swift */; };
@@ -155,6 +165,11 @@
 		F6A9AC9BE3A34AA32F3529EC /* AdsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572BEF208087CE8C3522EE7F /* AdsService.swift */; };
 		F6DCAC42F871357F67946E2C /* FallingObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BD07FF982949FBEA56BB96 /* FallingObject.swift */; };
 		F7718C1DF85CB346EE378AD0 /* SudokuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD7CB7F4BA2A2A698C9E06D /* SudokuCell.swift */; };
+		C838B867A83240419DF3B069 /* WeeklyChallengeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D2F0E10CA8442CB96C2A1C /* WeeklyChallengeModels.swift */; };
+		8659FBB8C4474114A923865D /* WeeklyChallengeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71025B91D1C34D2AB845D6B9 /* WeeklyChallengeService.swift */; };
+		5BA8656159EE4C108AED5B46 /* WeeklyChallengeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE15CD19F724726A6482ABA /* WeeklyChallengeCardView.swift */; };
+		DE7778BCF25E45369FD8DED4 /* WeeklyChallengeResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424A9B940674ED7B8957D57 /* WeeklyChallengeResultView.swift */; };
+		D06B909CBE8F4FA78368158B /* LoginStreakCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5C57B775564461B42956A1 /* LoginStreakCalendarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -186,6 +201,16 @@
 		2D3BA2046625F8D1500FF243 /* Stack2048Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack2048Colors.swift; sourceTree = "<group>"; };
 		314CE5F22E64EB0D0BC471A0 /* DropRushModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropRushModule.swift; sourceTree = "<group>"; };
 		316C2369E8733C7AC2C19BAD /* DropRushAudioConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropRushAudioConfig.swift; sourceTree = "<group>"; };
+		AA11BB22CC33DD44EE55FF11 /* DropRushDailyChallengeModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropRushDailyChallengeModels.swift; sourceTree = "<group>"; };
+		AA11BB22CC33DD44EE55FF12 /* DropRushDailyChallengeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropRushDailyChallengeService.swift; sourceTree = "<group>"; };
+		AA11BB22CC33DD44EE55FF13 /* DropRushDailyChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropRushDailyChallengeView.swift; sourceTree = "<group>"; };
+		AA11BB22CC33DD44EE55FF14 /* Stack2048DailyChallengeModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack2048DailyChallengeModels.swift; sourceTree = "<group>"; };
+		AA11BB22CC33DD44EE55FF15 /* Stack2048DailyChallengeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack2048DailyChallengeService.swift; sourceTree = "<group>"; };
+		AA11BB22CC33DD44EE55FF16 /* Stack2048DailyChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack2048DailyChallengeView.swift; sourceTree = "<group>"; };
+		AA11BB22CC33DD44EE55FF17 /* Stack2048ChallengeLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack2048ChallengeLevel.swift; sourceTree = "<group>"; };
+		AA11BB22CC33DD44EE55FF18 /* Stack2048ChallengeLevelDefinitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack2048ChallengeLevelDefinitions.swift; sourceTree = "<group>"; };
+		AA11BB22CC33DD44EE55FF19 /* Stack2048ChallengeLevelSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack2048ChallengeLevelSelectView.swift; sourceTree = "<group>"; };
+		AA11BB22CC33DD44EE55FF1A /* Stack2048ChallengeCompleteOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack2048ChallengeCompleteOverlay.swift; sourceTree = "<group>"; };
 		3487A1ED39FFB5A9171166C3 /* Stack2048GameViewModel+GameEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Stack2048GameViewModel+GameEvents.swift"; sourceTree = "<group>"; };
 		357F2465DE0E355B26BF54CA /* BannerAdCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerAdCoordinator.swift; sourceTree = "<group>"; };
 		380C1223A7B8AC5CC730E905 /* AnalyticsEvent+Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AnalyticsEvent+Store.swift"; sourceTree = "<group>"; };
@@ -325,6 +350,11 @@
 		FC1B15C7450B809509746136 /* Stack2048ControlBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack2048ControlBarView.swift; sourceTree = "<group>"; };
 		FC20B78A08C9651421389983 /* Stack2048Module.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack2048Module.swift; sourceTree = "<group>"; };
 		FDFC6ADAF9E7FA4D45340E88 /* LevelCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelCellView.swift; sourceTree = "<group>"; };
+		A6D2F0E10CA8442CB96C2A1C /* WeeklyChallengeModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyChallengeModels.swift; sourceTree = "<group>"; };
+		71025B91D1C34D2AB845D6B9 /* WeeklyChallengeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyChallengeService.swift; sourceTree = "<group>"; };
+		7DE15CD19F724726A6482ABA /* WeeklyChallengeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyChallengeCardView.swift; sourceTree = "<group>"; };
+		0424A9B940674ED7B8957D57 /* WeeklyChallengeResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyChallengeResultView.swift; sourceTree = "<group>"; };
+		DA5C57B775564461B42956A1 /* LoginStreakCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginStreakCalendarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -363,12 +393,15 @@
 				7D7262E77644F0F8AFC1C674 /* BoardThemePalettes.swift */,
 				82922F4C0EB48A955D3713B8 /* CurrencyBarView.swift */,
 				6BE8922C02D37CBB5FEE6858 /* DailyLoginPopupView.swift */,
+				DA5C57B775564461B42956A1 /* LoginStreakCalendarView.swift */,
 				2B054499EFD0658112638411 /* DeathPopupView.swift */,
 				787C48C84A7ACCCDF836B170 /* GoldBalanceView.swift */,
 				3BB62B3B479EE88A1264C285 /* GoldRewardToast.swift */,
 				B2F5FB66AC645A42B2CFD929 /* SkipAdsBannerView.swift */,
 				710D22DB565E8358CBB7A6B2 /* StarterPackPopupView.swift */,
 				7A1D5B4FBD23373673A6EA0D /* TimedSalePopupView.swift */,
+				7DE15CD19F724726A6482ABA /* WeeklyChallengeCardView.swift */,
+				0424A9B940674ED7B8957D57 /* WeeklyChallengeResultView.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -454,6 +487,9 @@
 				C8CC8B6820FBB35108A5A22D /* Stack2048PauseOverlay.swift */,
 				5312DAEC3FE915F2E0A1FF05 /* Stack2048TileView.swift */,
 				DE33C065B89E871543A4D02D /* Stack2048WinOverlay.swift */,
+				AA11BB22CC33DD44EE55FF16 /* Stack2048DailyChallengeView.swift */,
+				AA11BB22CC33DD44EE55FF19 /* Stack2048ChallengeLevelSelectView.swift */,
+				AA11BB22CC33DD44EE55FF1A /* Stack2048ChallengeCompleteOverlay.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -569,6 +605,8 @@
 			isa = PBXGroup;
 			children = (
 				68CEC6EE84DB5467D0E8972E /* Stack2048AudioConfig.swift */,
+				AA11BB22CC33DD44EE55FF15 /* Stack2048DailyChallengeService.swift */,
+				AA11BB22CC33DD44EE55FF18 /* Stack2048ChallengeLevelDefinitions.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -626,6 +664,8 @@
 				F30003312D2F1D898BC50A42 /* Stack2048GameState.swift */,
 				97043C4F8F18EFA045F31D42 /* Stack2048Progress.swift */,
 				A0ED8BBE86772B54D4C6F585 /* Stack2048Tile.swift */,
+				AA11BB22CC33DD44EE55FF14 /* Stack2048DailyChallengeModels.swift */,
+				AA11BB22CC33DD44EE55FF17 /* Stack2048ChallengeLevel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -719,6 +759,7 @@
 				62BD07FF982949FBEA56BB96 /* FallingObject.swift */,
 				DC56989A1A01E3838DD1C21F /* HitEffect.swift */,
 				E6331006868D540F8437B567 /* LevelConfig.swift */,
+				AA11BB22CC33DD44EE55FF11 /* DropRushDailyChallengeModels.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -753,6 +794,7 @@
 				3FD08755A1B811214F21E107 /* Statistics */,
 				02B4B5AA6CD9A7BFD1349E5E /* Store */,
 				F79A4BC80B3A55CFE7DA7799 /* Theme */,
+				23D78A0716C741E39B6ACAA7 /* WeeklyChallenge */,
 			);
 			path = SharedServices;
 			sourceTree = "<group>";
@@ -791,6 +833,7 @@
 				5131B79D8EE4F0575485359B /* FallingItemView.swift */,
 				B7F4CE82F18812D09B9ACF61 /* HitEffectView.swift */,
 				FDFC6ADAF9E7FA4D45340E88 /* LevelCellView.swift */,
+				AA11BB22CC33DD44EE55FF13 /* DropRushDailyChallengeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -866,8 +909,18 @@
 			isa = PBXGroup;
 			children = (
 				316C2369E8733C7AC2C19BAD /* DropRushAudioConfig.swift */,
+				AA11BB22CC33DD44EE55FF12 /* DropRushDailyChallengeService.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		23D78A0716C741E39B6ACAA7 /* WeeklyChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				A6D2F0E10CA8442CB96C2A1C /* WeeklyChallengeModels.swift */,
+				71025B91D1C34D2AB845D6B9 /* WeeklyChallengeService.swift */,
+			);
+			path = WeeklyChallenge;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -997,10 +1050,14 @@
 				CD35AC2E5A7DC83B0A4C765A /* DailyChallengeService.swift in Sources */,
 				DEED1FC818A8E8338386303E /* DailyChallengeView.swift in Sources */,
 				45E5AF199FE77CA92E6D0F1F /* DailyLoginPopupView.swift in Sources */,
+				D06B909CBE8F4FA78368158B /* LoginStreakCalendarView.swift in Sources */,
 				432223F02677ECA1A0EA4F31 /* DailyLoginRewardService.swift in Sources */,
 				B008829A16DBD1B7B8F74B30 /* DeathPopupView.swift in Sources */,
 				11320C97FE2DF35F3C9A6D16 /* DiamondService.swift in Sources */,
 				4D28B282F80DBA45F15DAAE6 /* DropRushAudioConfig.swift in Sources */,
+				AA11BB22CC33DD44EE55FF01 /* DropRushDailyChallengeModels.swift in Sources */,
+				AA11BB22CC33DD44EE55FF02 /* DropRushDailyChallengeService.swift in Sources */,
+				AA11BB22CC33DD44EE55FF03 /* DropRushDailyChallengeView.swift in Sources */,
 				4BE57EFB7A409690B1A016DF /* DropRushEngine.swift in Sources */,
 				1026A177EFC372AAFA49BB82 /* DropRushGameState.swift in Sources */,
 				782B57668C721799F102997D /* DropRushGameView.swift in Sources */,
@@ -1053,6 +1110,13 @@
 				E90F32A056D96ABFA12A80B6 /* SoundService.swift in Sources */,
 				5E04B277DF32B4BFC7AA1F55 /* SpawnScheduler.swift in Sources */,
 				D67D979B551D6CED1C9C9D3A /* Stack2048AudioConfig.swift in Sources */,
+				AA11BB22CC33DD44EE55FF0A /* Stack2048ChallengeCompleteOverlay.swift in Sources */,
+				AA11BB22CC33DD44EE55FF07 /* Stack2048ChallengeLevel.swift in Sources */,
+				AA11BB22CC33DD44EE55FF08 /* Stack2048ChallengeLevelDefinitions.swift in Sources */,
+				AA11BB22CC33DD44EE55FF09 /* Stack2048ChallengeLevelSelectView.swift in Sources */,
+				AA11BB22CC33DD44EE55FF04 /* Stack2048DailyChallengeModels.swift in Sources */,
+				AA11BB22CC33DD44EE55FF05 /* Stack2048DailyChallengeService.swift in Sources */,
+				AA11BB22CC33DD44EE55FF06 /* Stack2048DailyChallengeView.swift in Sources */,
 				12F7A9BFAC8DA780DE977E8A /* Stack2048BoardView.swift in Sources */,
 				91B4D6F1687438410F325B8E /* Stack2048Colors.swift in Sources */,
 				2632FBB165E4447B1E35C23B /* Stack2048ControlBarView.swift in Sources */,
@@ -1099,6 +1163,10 @@
 				903C7B81158A94A57A47D530 /* ThemePickerView.swift in Sources */,
 				90A1E364931854E78136716B /* ThemeService.swift in Sources */,
 				1ECBEFFC4873752278FECF10 /* TimedSalePopupView.swift in Sources */,
+				C838B867A83240419DF3B069 /* WeeklyChallengeModels.swift in Sources */,
+				8659FBB8C4474114A923865D /* WeeklyChallengeService.swift in Sources */,
+				5BA8656159EE4C108AED5B46 /* WeeklyChallengeCardView.swift in Sources */,
+				DE7778BCF25E45369FD8DED4 /* WeeklyChallengeResultView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

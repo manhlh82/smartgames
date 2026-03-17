@@ -23,6 +23,24 @@ final class RemoteEconomyConfig: ObservableObject {
     var adWatchGold: Int           { remoteInt("economy_ad_watch_gold",           default: EconomyConfig.adWatchGold) }
     var adWatchDailyMax: Int       { remoteInt("economy_ad_watch_daily_max",      default: EconomyConfig.adWatchDailyMax) }
 
+    // MARK: - Login Streak
+
+    var loginStreakMaxGracePerCycle: Int { remoteInt("economy_streak_grace_per_cycle", default: EconomyConfig.loginStreakMaxGracePerCycle) }
+
+    // MARK: - Onboarding
+
+    var onboardingDiamondGrant: Int { remoteInt("economy_onboarding_diamond_grant", default: EconomyConfig.onboardingDiamondGrant) }
+
+    // MARK: - Daily Challenge
+
+    var dailyChallengeCompleteGold: Int  { remoteInt("economy_daily_challenge_gold",        default: EconomyConfig.dailyChallengeCompleteGold) }
+    var dailyChallengeThreeStarBonus: Int { remoteInt("economy_daily_challenge_3star_bonus", default: EconomyConfig.dailyChallengeThreeStarBonus) }
+
+    // MARK: - Stack 2048 Challenge
+
+    var stack2048ChallengeCompleteGold: Int { remoteInt("economy_s2048_challenge_gold",      default: EconomyConfig.stack2048ChallengeCompleteGold) }
+    var stack2048ChallengeStarBonus: Int    { remoteInt("economy_s2048_challenge_star_bonus", default: EconomyConfig.stack2048ChallengeStarBonus) }
+
     // MARK: - Diamonds
 
     var adDiamondDropChance: Double { remoteDouble("economy_ad_diamond_drop_chance", default: EconomyConfig.adDiamondDropChance) }

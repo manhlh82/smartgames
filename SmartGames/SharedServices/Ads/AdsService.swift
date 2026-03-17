@@ -15,6 +15,8 @@ extension Notification.Name {
     static let gameOverOccurred = Notification.Name("game.gameOverOccurred")
     /// Posted by any game ViewModel when the player wins or completes a level.
     static let gameWonOccurred = Notification.Name("game.gameWonOccurred")
+    /// Posted on game session end with userInfo ["game": String, "score": Int] for weekly leaderboard.
+    static let weeklyScoreOccurred = Notification.Name("smartgames.weeklyScoreOccurred")
 }
 
 /// Coordinates all ad formats (rewarded + interstitial).

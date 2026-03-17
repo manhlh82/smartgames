@@ -60,25 +60,55 @@ struct Stack2048LobbyView: View {
                 .padding(.bottom, 24)
             }
 
-            // Play button
-            Button {
-                router.navigate(to: .gamePlay(gameId: "stack2048", context: "play"))
-            } label: {
-                Text("Play")
-                    .font(.system(size: 22, weight: .bold, design: .rounded))
-                    .frame(maxWidth: .infinity, minHeight: 58)
-                    .background(
-                        LinearGradient(
-                            colors: [Color(red: 0.91, green: 0.66, blue: 0.09),
-                                     Color(red: 0.96, green: 0.47, blue: 0.23)],
-                            startPoint: .leading,
-                            endPoint: .trailing
+            // Action buttons
+            VStack(spacing: 12) {
+                // Play (endless)
+                Button {
+                    router.navigate(to: .gamePlay(gameId: "stack2048", context: "play"))
+                } label: {
+                    Text("Play")
+                        .font(.system(size: 22, weight: .bold, design: .rounded))
+                        .frame(maxWidth: .infinity, minHeight: 58)
+                        .background(
+                            LinearGradient(
+                                colors: [Color(red: 0.91, green: 0.66, blue: 0.09),
+                                         Color(red: 0.96, green: 0.47, blue: 0.23)],
+                                startPoint: .leading,
+                                endPoint: .trailing
+                            )
                         )
-                    )
-                    .foregroundStyle(.white)
-                    .clipShape(RoundedRectangle(cornerRadius: 16))
+                        .foregroundStyle(.white)
+                        .clipShape(RoundedRectangle(cornerRadius: 16))
+                }
+                .buttonStyle(.plain)
+
+                // Challenge Levels + Daily Challenge row
+                HStack(spacing: 12) {
+                    Button {
+                        router.navigate(to: .gamePlay(gameId: "stack2048", context: "challengeSelect"))
+                    } label: {
+                        Label("Challenge", systemImage: "flag.2.crossed.fill")
+                            .font(.system(size: 15, weight: .semibold, design: .rounded))
+                            .frame(maxWidth: .infinity, minHeight: 46)
+                            .background(Color(.secondarySystemBackground))
+                            .foregroundStyle(.primary)
+                            .clipShape(RoundedRectangle(cornerRadius: 14))
+                    }
+                    .buttonStyle(.plain)
+
+                    Button {
+                        router.navigate(to: .gamePlay(gameId: "stack2048", context: "daily-info"))
+                    } label: {
+                        Label("Daily", systemImage: "calendar.badge.clock")
+                            .font(.system(size: 15, weight: .semibold, design: .rounded))
+                            .frame(maxWidth: .infinity, minHeight: 46)
+                            .background(Color(.secondarySystemBackground))
+                            .foregroundStyle(.primary)
+                            .clipShape(RoundedRectangle(cornerRadius: 14))
+                    }
+                    .buttonStyle(.plain)
+                }
             }
-            .buttonStyle(.plain)
             .padding(.horizontal, 24)
             .padding(.bottom, 16)
 

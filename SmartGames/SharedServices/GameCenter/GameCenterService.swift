@@ -15,6 +15,22 @@ final class GameCenterService: ObservableObject {
         static let cumulative = "com.smartgames.dropRush.leaderboard.cumulative"
     }
 
+    /// Daily challenge leaderboard IDs (one per game).
+    enum DailyLeaderboardID {
+        static let dropRush  = "com.smartgames.dropRush.leaderboard.daily"
+        static let stack2048 = "com.smartgames.stack2048.leaderboard.daily"
+    }
+
+    /// Weekly recurring leaderboard IDs (one per game).
+    enum WeeklyLeaderboardID {
+        static let sudoku    = "com.smartgames.sudoku.leaderboard.weekly"
+        static let dropRush  = "com.smartgames.dropRush.leaderboard.weekly"
+        static let stack2048 = "com.smartgames.stack2048.leaderboard.weekly"
+        static func id(for game: String) -> String {
+            "com.smartgames.\(game).leaderboard.weekly"
+        }
+    }
+
     /// Leaderboard IDs configured in App Store Connect.
     /// Sort order: ascending (lower time = better).
     enum LeaderboardID {
@@ -94,6 +110,31 @@ final class GameCenterService: ObservableObject {
                 print("[GameCenter] Score submission failed for \(leaderboardID): \(error.localizedDescription)")
                 #endif
             }
+        }
+    }
+
+    // MARK: - Weekly Rank Fetching
+
+    /// Fetches the local player's rank and total player count for a weekly leaderboard.
+    /// Returns nil if unauthenticated, leaderboard not found, or any error occurs (graceful fallback).
+    func fetchWeeklyRank(leaderboardID: String) async -> (rank: Int, totalPlayers: Int)? {
+        guard isAuthenticated else { return nil }
+        do {
+            let leaderboards = try await GKLeaderboard.loadLeaderboards(IDs: [leaderboardID])
+            guard let lb = leaderboards.first else { return nil }
+            // Load local player entry
+            let (localEntry, _) = try await lb.loadEntries(for: [GKLocalPlayer.local], timeScope: .week)
+            guard let entry = localEntry else { return nil }
+            let rank = entry.rank
+            // Estimate total by loading top entries range; GKLeaderboard.Entry.rank reflects leaderboard size
+            let (_, _, total) = try await lb.loadEntries(for: .global, timeScope: .week, range: NSRange(location: 1, length: 1))
+            guard total > 0 else { return nil }
+            return (rank: rank, totalPlayers: total)
+        } catch {
+            #if DEBUG
+            print("[GameCenter] fetchWeeklyRank failed for \(leaderboardID): \(error.localizedDescription)")
+            #endif
+            return nil
         }
     }
 

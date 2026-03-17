@@ -41,6 +41,23 @@ struct DropRushLobbyView: View {
                     .frame(height: bannerCoordinator.bannerHeight)
             }
         }
+        .safeAreaInset(edge: .bottom) {
+            // Daily challenge banner
+            Button {
+                router.navigate(to: .gamePlay(gameId: "dropRush", context: "daily"))
+            } label: {
+                Label("Daily Challenge", systemImage: "calendar.badge.clock")
+                    .font(.system(size: 15, weight: .semibold, design: .rounded))
+                    .frame(maxWidth: .infinity, minHeight: 46)
+                    .background(Color.orange)
+                    .foregroundStyle(.white)
+                    .clipShape(RoundedRectangle(cornerRadius: 14))
+                    .padding(.horizontal, 20)
+                    .padding(.vertical, 8)
+            }
+            .buttonStyle(.plain)
+            .background(.ultraThinMaterial)
+        }
         .navigationTitle("Drop Rush")
         .navigationBarTitleDisplayMode(.inline)
         .toolbar {

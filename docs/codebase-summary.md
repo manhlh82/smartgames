@@ -37,7 +37,9 @@ Registered via `SudokuGameModule` conforming to `GameModule` protocol.
 | `Views/SudokuCellView.swift` | Cell with 6 highlight states |
 | `Views/SudokuStatisticsView.swift` | Per-difficulty stats screen |
 | `Views/SudokuStatsCardsGrid.swift` | Stats metric cards (win rate, streaks, times) |
-| `Views/DailyChallengeView.swift` | Daily challenge play screen |
+| `Views/DailyChallengeView.swift` | Daily challenge play screen (seed-based, same puzzle globally) |
+| `Models/SudokuDailyChallengeModels.swift` | SudokuDailyChallengeState, SudokuDailyStreakData |
+| `Services/SudokuDailyChallengeService.swift` | Daily challenge generation + streak tracking (Phase 2, extended Phase 6 for multi-game daily pattern) |
 | `Views/PaywallView.swift` | Tabbed store (Gold Items + Premium ◆); rarity indicators; piggy bank |
 | `Views/ThemePickerView.swift` | Board theme selector with rarity borders + exclusive badges |
 | `Views/SettingsView.swift` | App settings; "Get Hint Pack" IAP button |
@@ -69,14 +71,21 @@ Registered via `DropRushModule` conforming to `GameModule` protocol.
 | `Views/DropRushHUDView.swift` | Score, lives, accuracy display |
 | `Views/DropRushInputBarView.swift` | Cell input buttons |
 | `Views/DropRushPauseOverlay.swift` | Pause menu with resume/quit options |
+| `Services/DropRushDailyChallengeService.swift` | Daily challenge generation from seed, completion tracking, streak management (Phase 6) |
+| `Models/DropRushDailyChallengeModels.swift` | DropRushDailyChallengeState, DropRushDailyStreakData (Phase 6) |
+| `Views/DropRushDailyChallengeView.swift` | Daily challenge entry screen showing today's challenge, streak, completion status (Phase 6) |
 
 **Analytics Events:**
 - `drop_rush_level_started`, `drop_rush_level_completed`, `drop_rush_level_failed`
 - `drop_rush_paused`, `drop_rush_quit`
 - `drop_rush_continue_used`, `drop_rush_continue_declined`
+- `daily_challenge_started(game:)`, `daily_challenge_completed(game:score:stars:streak:)` (Phase 6)
+- `weekly_challenge_reward_claimed(game:tier:gold:diamonds:)` (Phase 6)
 
 **Game Center:**
 - Leaderboard: com.smartgames.dropRush.leaderboard.cumulative (cumulative score)
+- Leaderboard: com.smartgames.dropRush.leaderboard.daily (daily challenge score) (Phase 6)
+- Leaderboard: com.smartgames.dropRush.leaderboard.weekly (weekly challenge score) (Phase 6)
 
 ## Stack 2048 Game Module
 
@@ -105,14 +114,23 @@ Registered via `Stack2048Module` conforming to `GameModule` protocol.
 | `Views/Stack2048PauseOverlay.swift` | Pause menu |
 | `Views/Stack2048GameOverOverlay.swift` | Game over with score, gold earned, retry |
 | `Views/Stack2048GameView.swift` | Main gameplay screen with all overlays |
-| `Views/Stack2048LobbyView.swift` | Lobby with best score stats + Play button |
+| `Views/Stack2048LobbyView.swift` | Lobby with best score stats + mode selection (Challenge/Endless) + Play button |
+| `Models/Stack2048ChallengeLevel.swift` | Level definition struct: targetTile, targetScore, moveLimit, initialTiles, starThresholds |
+| `Services/Stack2048ChallengeLevelDefinitions.swift` | 50 curated challenge level configurations |
+| `Views/Stack2048ChallengeLevelSelectView.swift` | Level grid (5 cols × 10 rows) with star ratings + locked/unlocked states |
+| `Views/Stack2048ChallengeCompleteOverlay.swift` | Challenge completion screen: stars earned, gold earned, "Next Level"/"Retry" buttons |
 
 **Analytics Events:**
 - `stack2048_game_started`, `stack2048_game_over`
 - `stack2048_milestone_tile` (512, 1024, 2048, 4096)
 - `stack2048_power_up_used`, `stack2048_paused`, `stack2048_quit`
+- `stack2048_challenge_started(level:)`, `stack2048_challenge_completed(level:stars:moves:)` (Phase 6)
 
-**Persistence Key:** `stack2048.progress`
+| `Services/Stack2048DailyChallengeService.swift` | Daily challenge generation from seed, completion tracking, streak management (Phase 6) |
+| `Models/Stack2048DailyChallengeModels.swift` | Stack2048DailyChallengeState, Stack2048DailyStreakData (Phase 6) |
+| `Views/Stack2048DailyChallengeView.swift` | Daily challenge entry screen showing today's challenge, streak, completion status (Phase 6) |
+
+**Persistence Key:** `stack2048.progress` (extended with `challengeStars: [Int: Int]`, `endlessUnlocked: Bool`)
 
 ## Shared Cross-Game Services (AppEnvironment)
 
@@ -125,19 +143,22 @@ Registered via `Stack2048Module` conforming to `GameModule` protocol.
 | `AdsService` | AdMob rewarded + interstitial, session tracking | Shared |
 | `BannerAdCoordinator` | Banner ad lifecycle management | Shared |
 | `AnalyticsService` | Event logging (20+ monetization events) | Shared |
-| `DailyChallengeService` | Cross-game daily feature | Shared |
-| `GameCenterService` | GKLocalPlayer auth, leaderboards | Shared |
-| `GoldService` | Gold currency (per-merge, streaks, daily login) | Shared |
-| `DiamondService` | Diamond premium currency (IAP + drops) | Shared |
+| `DailyChallengeService` | Sudoku daily challenge (seeded) | Shared |
+| `GameCenterService` | GKLocalPlayer auth, leaderboards (daily + weekly + cumulative) | Shared |
+| `GoldService` | Gold currency (per-merge, streaks, daily login, difficulty-scaled) | Shared |
+| `DiamondService` | Diamond premium currency (IAP + drops + onboarding grant) | Shared |
 | `StoreService` | StoreKit 2, IAP (5 product IDs) | Shared |
 | `GameRegistry` | Game module registration | Shared |
-| `EconomyConfig` | Centralized economy constants (remote-config ready) | Shared |
+| `EconomyConfig` | Centralized economy constants (retuned, remote-config ready) | Shared |
 | `RemoteEconomyConfig` | Remote economy overrides + A/B test variants | Shared |
-| `AdRewardTracker` | Daily ad-watch cap enforcement | Shared |
-| `DailyLoginRewardService` | Login streak + daily rewards | Shared |
+| `AdRewardTracker` | Daily ad-watch cap enforcement (5→4) | Shared |
+| `DailyLoginRewardService` | Login streak + grace period + daily rewards | Shared |
 | `PiggyBankService` | Fractional diamond accumulation | Shared |
 | `StarterPackService` | First-session offer state | Shared |
 | `SaleService` | Timed sale expiry management | Shared |
+| `DropRushDailyChallengeService` | Drop Rush daily challenge (seed-based level generation) | Shared |
+| `Stack2048DailyChallengeService` | Stack 2048 daily challenge (seed-based board generation) | Shared |
+| `WeeklyChallengeService` | Weekly leaderboard scores, tiered rewards claiming | Shared |
 
 ## Game-Specific Services (Inside GameModule)
 
@@ -183,6 +204,14 @@ playing → won | lost | needsHintAd | needsMistakeResetAd
 | `TimedSalePopupView.swift` | Bottom sheet with countdown timer (1h limited-time diamond sale) |
 | `SkipAdsBannerView.swift` | Reusable non-intrusive banner: "Skip ads ◆ 2/session" or "Remove all ads $2.99" |
 
+## New Shared Components (Phase 6 — Engagement & Level Progression)
+
+| Component | Purpose |
+|-----------|---------|
+| `LoginStreakCalendarView.swift` | 7-day visual calendar: claimed (✓ green), graced (! yellow), upcoming (gray), today (blue ring) |
+| `WeeklyChallengeCardView.swift` | Lobby card showing current week's best score + rank + "View Leaderboard" button |
+| `WeeklyChallengeResultView.swift` | Popup displayed on new week start: rank achieved, reward tier, gold/diamonds earned |
+
 ## Monetization Files Added
 
 | File | Purpose |
@@ -191,6 +220,15 @@ playing → won | lost | needsHintAd | needsMistakeResetAd
 | `AnalyticsEvent+Store.swift` | Purchase funnel (impression → start → complete) |
 | `AnalyticsEvent+Conversion.swift` | CTA impression + tap events (starter pack, death popup, timed sale) |
 
+## Analytics Files Added (Phase 6)
+
+| File | Purpose |
+|------|---------|
+| `AnalyticsEvent+DailyChallenge.swift` | Daily challenge started/completed/failed per game, streak tracking |
+| `AnalyticsEvent+WeeklyChallenge.swift` | Weekly challenge reward claimed with tier + currency amounts |
+| `AnalyticsEvent+LoginStreak.swift` | Grace period usage tracking |
+| `AnalyticsEvent+Stack2048Challenge.swift` | Challenge level started/completed with stars + move count |
+
 ## PR History
 
-01 scaffold · 02 services · 03 hub · 04 engine · 05-07 gameplay · 08 ads · 09 analytics · 10 polish · 11 monetization · 12 drop-rush-phases-06-07-08 · 13 sudoku-audio-localization-phases-09-10-11 · 14+ monetization-v2-phases-01-07
+01 scaffold · 02 services · 03 hub · 04 engine · 05-07 gameplay · 08 ads · 09 analytics · 10 polish · 11 monetization · 12 drop-rush-phases-06-07-08 · 13 sudoku-audio-localization-phases-09-10-11 · 14-20 monetization-v2-phases-01-07 · 21-28 engagement-level-progression-phases-01-06

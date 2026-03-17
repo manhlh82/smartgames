@@ -1,0 +1,69 @@
+/* Hub */
+"hub.title" = "SmartGames";
+"hub.settings" = "Settings";
+"hub.play" = "Play";
+"hub.coming_soon" = "Coming Soon";
+
+/* Settings */
+"settings.title" = "Settings";
+"settings.section.audio" = "Audio";
+"settings.audio.music" = "Music";
+"settings.audio.sound_effects" = "Sound Effects";
+"settings.audio.haptics" = "Haptics";
+"settings.section.display" = "Display";
+"settings.display.highlight_related" = "Highlight Related Cells";
+"settings.display.highlight_same" = "Highlight Same Numbers";
+"settings.display.show_timer" = "Show Timer";
+"settings.section.language" = "Language";
+"settings.language.title" = "App Language";
+"settings.language.system_default" = "System Default";
+"settings.language.follow_device" = "Follow device language";
+"settings.section.premium" = "Premium";
+"settings.premium.remove_ads" = "Remove Ads";
+"settings.premium.ads_removed" = "Ads Removed";
+"settings.premium.hint_pack" = "Get Hint Pack (12 Hints)";
+"settings.section.legal" = "Legal";
+"settings.legal.privacy" = "Privacy Policy";
+"settings.legal.terms" = "Terms of Service";
+
+/* Sudoku Lobby */
+"sudoku.lobby.title" = "Sudoku";
+"sudoku.lobby.daily" = "Daily Challenge";
+"sudoku.lobby.statistics" = "Statistics";
+"sudoku.difficulty.easy" = "Easy";
+"sudoku.difficulty.medium" = "Medium";
+"sudoku.difficulty.hard" = "Hard";
+"sudoku.difficulty.expert" = "Expert";
+
+/* Sudoku Gameplay */
+"sudoku.toolbar.hint" = "Hint";
+"sudoku.toolbar.undo" = "Undo";
+"sudoku.toolbar.erase" = "Erase";
+"sudoku.toolbar.pencil" = "Pencil";
+"sudoku.stats.mistakes" = "Mistakes";
+"sudoku.stats.time" = "Time";
+
+/* Sudoku Win */
+"sudoku.win.title" = "Puzzle Solved!";
+"sudoku.win.hint_earned" = "+%d Hint Earned!";
+"sudoku.win.hint_full" = "Hint Inventory Full";
+"sudoku.win.next_puzzle" = "Next Puzzle";
+"sudoku.win.back_to_menu" = "Back to Menu";
+
+/* Sudoku Loss */
+"sudoku.loss.title" = "Game Over";
+"sudoku.loss.try_again" = "Try Again";
+"sudoku.loss.new_game" = "New Game";
+
+/* Ads */
+"ads.hint_prompt" = "Watch an ad for 3 more hints?";
+"ads.watch" = "Watch Ad";
+"ads.cancel" = "Cancel";
+"ads.unavailable.title" = "Ad Not Available";
+"ads.unavailable.message" = "No ad is available right now. Please try again in a moment.";
+
+/* Common */
+"common.ok" = "OK";
+"common.back" = "Back";
+"common.pause" = "Pause";
+"common.resume" = "Resume";

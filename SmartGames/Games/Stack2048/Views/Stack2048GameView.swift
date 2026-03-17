@@ -16,7 +16,10 @@ struct Stack2048GameView: View {
         analytics: AnalyticsService,
         goldService: GoldService,
         diamondService: DiamondService,
-        piggyBank: PiggyBankService
+        piggyBank: PiggyBankService,
+        challengeLevel: Stack2048ChallengeLevel? = nil,
+        dailyInitialTiles: [(col: Int, value: Int)]? = nil,
+        onDailyComplete: ((Int) -> Void)? = nil
     ) {
         _viewModel = StateObject(wrappedValue: Stack2048GameViewModel(
             persistence: persistence,
@@ -26,7 +29,10 @@ struct Stack2048GameView: View {
             analytics: analytics,
             goldService: goldService,
             diamondService: diamondService,
-            piggyBank: piggyBank
+            piggyBank: piggyBank,
+            challengeLevel: challengeLevel,
+            dailyInitialTiles: dailyInitialTiles,
+            onDailyComplete: onDailyComplete
         ))
     }
 
@@ -40,7 +46,10 @@ struct Stack2048GameView: View {
                     highScore: viewModel.highScore,
                     phase: viewModel.phase,
                     onPause: viewModel.pause,
-                    onResume: viewModel.resume
+                    onResume: viewModel.resume,
+                    challengeInfo: viewModel.challengeLevel.map { level in
+                        (targetTile: level.targetTile, movesUsed: viewModel.challengeMoveCount)
+                    }
                 )
 
                 Stack2048BoardView(
@@ -168,6 +177,28 @@ struct Stack2048GameView: View {
                 goldBalance: viewModel.goldService.balance,
                 onKeepPlaying: viewModel.keepPlaying,
                 onNewGame: viewModel.retry
+            )
+            .transition(.scale.combined(with: .opacity))
+        }
+
+        if case .challengeComplete(let stars) = viewModel.phase {
+            Stack2048ChallengeCompleteOverlay(
+                stars: stars,
+                goldEarned: viewModel.goldEarnedOnEnd,
+                goldBalance: viewModel.goldService.balance,
+                levelNumber: viewModel.challengeLevel?.level ?? 0,
+                onNextLevel: {
+                    if let nextLevel = viewModel.nextChallengeLevel() {
+                        router.navigate(to: .gamePlay(gameId: "stack2048", context: "challenge-\(nextLevel.level)"))
+                    } else {
+                        router.pop()
+                    }
+                },
+                onRetry: viewModel.retryChallenge,
+                onQuit: {
+                    viewModel.quit()
+                    router.pop()
+                }
             )
             .transition(.scale.combined(with: .opacity))
         }

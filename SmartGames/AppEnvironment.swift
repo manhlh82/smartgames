@@ -23,6 +23,9 @@ final class AppEnvironment: ObservableObject {
     let starterPack: StarterPackService
     let consecutiveLoss: ConsecutiveLossService
     let themeService: ThemeService
+    let weeklyChallenge: WeeklyChallengeService
+    let dropRushDailyChallenge: DropRushDailyChallengeService
+    let stack2048DailyChallenge: Stack2048DailyChallengeService
 
     init() {
         let persistence = PersistenceService()
@@ -73,6 +76,29 @@ final class AppEnvironment: ObservableObject {
         adsService.diamondService = diamonds
         // Wire diamond service into theme service for legendary purchases
         themeService.diamondService = diamonds
+
+        self.weeklyChallenge = WeeklyChallengeService(
+            persistence: persistence,
+            goldService: gold,
+            diamondService: diamonds,
+            gameCenter: self.gameCenter
+        )
+        self.dropRushDailyChallenge = DropRushDailyChallengeService(
+            persistence: persistence,
+            gold: gold,
+            gameCenter: self.gameCenter
+        )
+        self.stack2048DailyChallenge = Stack2048DailyChallengeService(
+            persistence: persistence,
+            gold: gold,
+            gameCenter: self.gameCenter
+        )
+
+        // Grant diamonds on first app launch (onboarding)
+        if !persistence.exists(key: PersistenceService.Keys.diamondOnboardingGranted) {
+            diamonds.earn(amount: EconomyConfig.onboardingDiamondGrant)
+            persistence.save(true, key: PersistenceService.Keys.diamondOnboardingGranted)
+        }
 
         // Register game modules
         let registry = GameRegistry()

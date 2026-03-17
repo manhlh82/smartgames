@@ -51,6 +51,11 @@ extension Stack2048GameViewModel {
         analytics.log(.goldEarned(amount: total, source: "stack2048", balanceAfter: goldService.balance))
         analytics.log(.stack2048GameOver(score: score, maxTile: maxTile, gamesPlayed: progress.gamesPlayed))
         piggyBank.recordGameCompleted()
+        NotificationCenter.default.post(name: .weeklyScoreOccurred, object: nil,
+            userInfo: ["game": "stack2048", "score": score])
+
+        // Daily challenge completion callback
+        onDailyComplete?(score)
     }
 
     func handleWin() {
@@ -65,6 +70,8 @@ extension Stack2048GameViewModel {
         goldService.earn(amount: GoldReward.stack2048Win)
         analytics.log(.goldEarned(amount: GoldReward.stack2048Win, source: "stack2048_win", balanceAfter: goldService.balance))
         analytics.log(.stack2048Win(score: score))
+        NotificationCenter.default.post(name: .weeklyScoreOccurred, object: nil,
+            userInfo: ["game": "stack2048", "score": score])
     }
 
     // MARK: - Helpers

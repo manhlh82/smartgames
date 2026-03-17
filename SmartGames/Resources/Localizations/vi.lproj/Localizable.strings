@@ -1,0 +1,69 @@
+/* Hub */
+"hub.title" = "SmartGames";
+"hub.settings" = "Cài đặt";
+"hub.play" = "Chơi";
+"hub.coming_soon" = "Sắp ra mắt";
+
+/* Settings */
+"settings.title" = "Cài đặt";
+"settings.section.audio" = "Âm thanh";
+"settings.audio.music" = "Nhạc nền";
+"settings.audio.sound_effects" = "Hiệu ứng âm thanh";
+"settings.audio.haptics" = "Rung";
+"settings.section.display" = "Hiển thị";
+"settings.display.highlight_related" = "Làm nổi ô liên quan";
+"settings.display.highlight_same" = "Làm nổi số giống nhau";
+"settings.display.show_timer" = "Hiện đồng hồ";
+"settings.section.language" = "Ngôn ngữ";
+"settings.language.title" = "Ngôn ngữ ứng dụng";
+"settings.language.system_default" = "Mặc định hệ thống";
+"settings.language.follow_device" = "Theo ngôn ngữ thiết bị";
+"settings.section.premium" = "Cao cấp";
+"settings.premium.remove_ads" = "Tắt quảng cáo";
+"settings.premium.ads_removed" = "Đã tắt quảng cáo";
+"settings.premium.hint_pack" = "Mua gợi ý (12 gợi ý)";
+"settings.section.legal" = "Pháp lý";
+"settings.legal.privacy" = "Chính sách riêng tư";
+"settings.legal.terms" = "Điều khoản dịch vụ";
+
+/* Sudoku Lobby */
+"sudoku.lobby.title" = "Sudoku";
+"sudoku.lobby.daily" = "Thử thách hàng ngày";
+"sudoku.lobby.statistics" = "Thống kê";
+"sudoku.difficulty.easy" = "Dễ";
+"sudoku.difficulty.medium" = "Trung bình";
+"sudoku.difficulty.hard" = "Khó";
+"sudoku.difficulty.expert" = "Chuyên gia";
+
+/* Sudoku Gameplay */
+"sudoku.toolbar.hint" = "Gợi ý";
+"sudoku.toolbar.undo" = "Hoàn tác";
+"sudoku.toolbar.erase" = "Xóa";
+"sudoku.toolbar.pencil" = "Bút chì";
+"sudoku.stats.mistakes" = "Lỗi";
+"sudoku.stats.time" = "Thời gian";
+
+/* Sudoku Win */
+"sudoku.win.title" = "Hoàn thành!";
+"sudoku.win.hint_earned" = "+%d Gợi ý!";
+"sudoku.win.hint_full" = "Kho gợi ý đã đầy";
+"sudoku.win.next_puzzle" = "Câu tiếp theo";
+"sudoku.win.back_to_menu" = "Về menu";
+
+/* Sudoku Loss */
+"sudoku.loss.title" = "Thua rồi";
+"sudoku.loss.try_again" = "Thử lại";
+"sudoku.loss.new_game" = "Ván mới";
+
+/* Ads */
+"ads.hint_prompt" = "Xem quảng cáo để nhận 3 gợi ý?";
+"ads.watch" = "Xem quảng cáo";
+"ads.cancel" = "Hủy";
+"ads.unavailable.title" = "Không có quảng cáo";
+"ads.unavailable.message" = "Hiện không có quảng cáo. Vui lòng thử lại sau.";
+
+/* Common */
+"common.ok" = "OK";
+"common.back" = "Quay lại";
+"common.pause" = "Tạm dừng";
+"common.resume" = "Tiếp tục";

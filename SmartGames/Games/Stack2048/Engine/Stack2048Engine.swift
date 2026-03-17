@@ -80,6 +80,26 @@ final class Stack2048Engine {
         state = Stack2048GameState(nextTile: first)
     }
 
+    /// Reset and pre-place challenge initial tiles at the bottom of their columns.
+    func resetForChallenge(initialTiles: [(col: Int, value: Int)]) {
+        reset()
+        for tile in initialTiles {
+            guard tile.col >= 0, tile.col < Stack2048GameState.columnCount else { continue }
+            state.columns[tile.col].append(Stack2048Tile(value: tile.value))
+        }
+    }
+
+    /// Place a single tile at the bottom of `column` (col index 0-based, bottom = end of array).
+    func placeTileAtBottom(value: Int, column: Int) {
+        guard column >= 0, column < Stack2048GameState.columnCount else { return }
+        state.columns[column].append(Stack2048Tile(value: value))
+    }
+
+    /// Returns true if any tile on the board has reached `target` value.
+    func hasReachedTargetTile(_ target: Int) -> Bool {
+        state.columns.contains { $0.contains { $0.value >= target } }
+    }
+
     // MARK: - Merge Logic
 
     /// Resolve chain merges from the top of `column`.

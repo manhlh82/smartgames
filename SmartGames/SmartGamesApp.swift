@@ -30,6 +30,8 @@ struct SmartGamesApp: App {
                 .environmentObject(environment.starterPack)
                 .environmentObject(environment.consecutiveLoss)
                 .environmentObject(environment.themeService)
+                .environmentObject(environment.dropRushDailyChallenge)
+                .environmentObject(environment.stack2048DailyChallenge)
                 .task {
                     // Fetch remote economy config overrides (no-op until Firebase integrated)
                     await RemoteEconomyConfig.shared.fetchAndActivate()
@@ -39,6 +41,9 @@ struct SmartGamesApp: App {
                     environment.analytics.log(.abTestAssigned(testName: "starter_pack_price", variant: rc.starterPackPriceVariant))
                     // Check daily login reward on each app launch / foreground
                     environment.dailyLogin.checkAndGrantLoginReward()
+                    // Weekly challenge: detect week rollover + claim previous week rewards
+                    environment.weeklyChallenge.onAppLaunch()
+                    environment.weeklyChallenge.startObservingScores()
                     // Authenticate Game Center silently on launch
                     environment.gameCenter.authenticate()
                     // Start StoreKit 2 background transaction listener

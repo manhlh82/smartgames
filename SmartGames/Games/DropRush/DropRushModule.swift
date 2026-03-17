@@ -39,25 +39,26 @@ final class DropRushModule: GameModule {
     }
 
     func navigationDestination(for route: AppRoute, environment: AppEnvironment) -> AnyView? {
-        switch route {
-        case .gamePlay(let gameId, let context) where gameId == id:
-            // Fallback to level 1 for invalid context strings (e.g. malformed deep-links).
-            guard context.hasPrefix("level-"),
-                  let levelNum = Int(context.dropFirst(6)) else { return nil }
-            return AnyView(DropRushGameView(
-                levelNumber: levelNum,
-                persistence: environment.persistence,
-                sound: environment.sound,
-                haptics: environment.haptics,
-                ads: environment.ads,
-                analytics: environment.analytics,
-                gameCenter: environment.gameCenter,
-                goldService: environment.gold,
-                diamondService: environment.diamonds,
-                piggyBank: environment.piggyBank
-            ))
-        default:
-            return nil
+        guard case .gamePlay(let gameId, let context) = route, gameId == id else { return nil }
+
+        // Daily challenge info screen
+        if context == "daily" {
+            return AnyView(DropRushDailyChallengeView(service: environment.dropRushDailyChallenge))
         }
+
+        // Level game
+        guard context.hasPrefix("level-"), let levelNum = Int(context.dropFirst(6)) else { return nil }
+        return AnyView(DropRushGameView(
+            levelNumber: levelNum,
+            persistence: environment.persistence,
+            sound: environment.sound,
+            haptics: environment.haptics,
+            ads: environment.ads,
+            analytics: environment.analytics,
+            gameCenter: environment.gameCenter,
+            goldService: environment.gold,
+            diamondService: environment.diamonds,
+            piggyBank: environment.piggyBank
+        ))
     }
 }
