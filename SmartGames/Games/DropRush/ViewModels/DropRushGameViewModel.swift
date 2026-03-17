@@ -33,6 +33,8 @@ final class DropRushGameViewModel: ObservableObject {
 
     let config: LevelConfig
     let levelNumber: Int
+    /// Running count of successful hits for move-streak gold bonus.
+    var hitCount: Int = 0
     let persistence: PersistenceService
     let sound: SoundService
     let haptics: HapticsService
@@ -173,6 +175,12 @@ final class DropRushGameViewModel: ObservableObject {
             sound.playSFX("dropRush-hit")
             haptics.impact(.light)
             spawnHitEffect(normalizedY: normalizedY, lane: lane, symbol: symbol)
+            // Move-streak bonus: every N hits grant a small gold bonus
+            hitCount += 1
+            if hitCount % EconomyConfig.moveStreakInterval == 0 {
+                goldService.earn(amount: EconomyConfig.moveStreakBonus)
+                analytics.log(.goldEarned(amount: EconomyConfig.moveStreakBonus, source: "move_streak", balanceAfter: goldService.balance))
+            }
         case .damaged:
             // First hit on an armored object — ring removed, object remains on screen
             sound.playSFX("dropRush-hit")

@@ -24,8 +24,12 @@ struct SmartGamesApp: App {
                 .environmentObject(environment.localization)
                 .environmentObject(environment.gold)
                 .environmentObject(environment.diamonds)
+                .environmentObject(environment.adRewardTracker)
+                .environmentObject(environment.dailyLogin)
                 .environmentObject(environment.themeService)
                 .task {
+                    // Check daily login reward on each app launch / foreground
+                    environment.dailyLogin.checkAndGrantLoginReward()
                     // Authenticate Game Center silently on launch
                     environment.gameCenter.authenticate()
                     // Start StoreKit 2 background transaction listener
@@ -46,6 +50,8 @@ struct SmartGamesApp: App {
             case .active:
                 // Resume background music when app returns to foreground
                 environment.sound.resumeBackgroundMusic()
+                // Re-check daily login reward in case day rolled over while app was backgrounded
+                environment.dailyLogin.checkAndGrantLoginReward()
             default:
                 break
             }

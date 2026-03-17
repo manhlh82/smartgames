@@ -2,7 +2,8 @@ import Foundation
 
 // MARK: - Gold Reward Constants
 
-/// Static reward amounts for all game events that grant Gold.
+/// Static reward amounts for game-completion events.
+/// Merge rewards and streak bonuses live in EconomyConfig.
 enum GoldReward {
     static let sudokuComplete = 15
     static let sudokuThreeStarBonus = 10

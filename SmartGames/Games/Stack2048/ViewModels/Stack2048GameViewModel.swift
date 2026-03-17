@@ -42,6 +42,8 @@ final class Stack2048GameViewModel: ObservableObject {
     var engine = Stack2048Engine()
     var milestonesTileLogged = Set<Int>()
     var hasWonThisSession = false
+    /// Running count of valid tile-drops for move-streak gold bonus.
+    var moveCount: Int = 0
 
     // MARK: - Init
 
@@ -88,6 +90,13 @@ final class Stack2048GameViewModel: ObservableObject {
 
         for event in events {
             handleEngineEvent(event)
+        }
+
+        // Move-streak gold bonus: every N valid drops grant a small bonus
+        moveCount += 1
+        if moveCount % EconomyConfig.moveStreakInterval == 0 {
+            goldService.earn(amount: EconomyConfig.moveStreakBonus)
+            analytics.log(.goldEarned(amount: EconomyConfig.moveStreakBonus, source: "move_streak", balanceAfter: goldService.balance))
         }
     }
 
@@ -170,6 +179,7 @@ final class Stack2048GameViewModel: ObservableObject {
         goldEarnedOnEnd = 0
         milestonesTileLogged = []
         hasWonThisSession = false
+        moveCount = 0
         phase = .playing
         analytics.log(.stack2048GameStarted())
     }

@@ -17,6 +17,7 @@ extension Stack2048GameViewModel {
             haptics.impact(.medium)
             spawnMergeEffect(column: column, row: row, value: newValue)
             logMilestoneTileIfNeeded(newValue)
+            earnMergeGold(tileValue: newValue)
             rollDiamondDropIfEligible(mergedTileValue: newValue)
 
         case .gameOver:
@@ -74,6 +75,14 @@ extension Stack2048GameViewModel {
             try? await Task.sleep(nanoseconds: 400_000_000)
             mergeEffects.removeAll { $0.id == eid }
         }
+    }
+
+    /// Grant scaled gold for a tile merge. Uses EconomyConfig.mergeGold formula.
+    func earnMergeGold(tileValue: Int) {
+        let amount = EconomyConfig.mergeGold(resultTileValue: tileValue)
+        guard amount > 0 else { return }
+        goldService.earn(amount: amount)
+        analytics.log(.goldEarned(amount: amount, source: "merge_reward", balanceAfter: goldService.balance))
     }
 
     /// Roll for a rare diamond drop on big merges (tile ≥ 256). Logs outcome for rate calibration.
