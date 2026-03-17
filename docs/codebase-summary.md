@@ -32,14 +32,14 @@ Registered via `SudokuGameModule` conforming to `GameModule` protocol.
 | `Engine/PuzzleBank.swift` | JSON puzzle pool + played tracking |
 | `Engine/SeededRandomNumberGenerator.swift` | xorshift64 PRNG for deterministic daily puzzles |
 | `ViewModels/SudokuGameViewModel.swift` | 7-phase game state machine; manages hints, mistake resets |
-| `Views/SudokuGameView.swift` | Main gameplay screen; integrates BannerAdView + interstitials |
+| `Views/SudokuGameView.swift` | Main gameplay screen; integrates BannerAdView + CurrencyBarView + monetization overlays |
 | `Views/SudokuBoardView.swift` | 9x9 grid + Canvas lines |
 | `Views/SudokuCellView.swift` | Cell with 6 highlight states |
 | `Views/SudokuStatisticsView.swift` | Per-difficulty stats screen |
 | `Views/SudokuStatsCardsGrid.swift` | Stats metric cards (win rate, streaks, times) |
 | `Views/DailyChallengeView.swift` | Daily challenge play screen |
-| `Views/PaywallView.swift` | IAP display (Remove Ads, Hint Pack) |
-| `Views/ThemePickerView.swift` | Board theme selector with previews |
+| `Views/PaywallView.swift` | Tabbed store (Gold Items + Premium ◆); rarity indicators; piggy bank |
+| `Views/ThemePickerView.swift` | Board theme selector with rarity borders + exclusive badges |
 | `Views/SettingsView.swift` | App settings; "Get Hint Pack" IAP button |
 
 ## Drop Rush Game Module
@@ -60,7 +60,7 @@ Registered via `DropRushModule` conforming to `GameModule` protocol.
 | `Models/DropRushGameState.swift` | Game state (score, lives, objects, accuracy) |
 | `Models/DropRushStats.swift` | Per-level stats (wins, best scores, high score) |
 | `Models/FallingObject.swift` | Object physics + rendering |
-| `ViewModels/DropRushGameViewModel.swift` | 6-phase state machine (countdown → playing → levelComplete/gameOver); manages SFX, haptics, ad flow |
+| `ViewModels/DropRushGameViewModel.swift` | 6-phase state machine (countdown → playing → levelComplete/gameOver); merge gold, move streaks, consecutive loss tracking, game-over notification |
 | `ViewModels/DropRushGameViewModel+Actions.swift` | `requestContinue()` with rewarded ad flow (1 continue per attempt) |
 | `Services/DropRushAudioConfig.swift` | SFX definitions (dropRush-hit, dropRush-wrong, dropRush-miss, dropRush-speedup, dropRush-level-complete, dropRush-gameover) |
 | `Views/DropRushGameView.swift` | Main gameplay screen; watchingAd overlay integration |
@@ -95,7 +95,7 @@ Registered via `Stack2048Module` conforming to `GameModule` protocol.
 | `Models/Stack2048Tile.swift` | Tile model (value, id, merge animation flag) |
 | `Models/Stack2048GameState.swift` | State snapshot + EngineEvent enum |
 | `Models/Stack2048Progress.swift` | Persisted progress (high score, best tile, games played) |
-| `ViewModels/Stack2048GameViewModel.swift` | 5-phase state machine (playing/paused/hammerMode/watchingAd/gameOver) |
+| `ViewModels/Stack2048GameViewModel.swift` | 5-phase state machine (playing/paused/hammerMode/watchingAd/gameOver); merge gold, hit-streak bonus, game-over notification |
 | `Services/Stack2048AudioConfig.swift` | Audio config (no BGM; SFX played by name) |
 | `Views/Stack2048Colors.swift` | Tile color scheme (2→sky blue … 2048→gold) |
 | `Views/Stack2048TileView.swift` | Tile with merge pulse animation |
@@ -122,13 +122,22 @@ Registered via `Stack2048Module` conforming to `GameModule` protocol.
 | `SettingsService` | App-wide settings (persisted) | Shared |
 | `SoundService` | AVAudioPlayer, settings-gated | Shared |
 | `HapticsService` | UIFeedbackGenerator, settings-gated | Shared |
-| `AdsService` | AdMob rewarded + interstitial | Shared |
+| `AdsService` | AdMob rewarded + interstitial, session tracking | Shared |
 | `BannerAdCoordinator` | Banner ad lifecycle management | Shared |
-| `AnalyticsService` | Event logging (14 new ad events) | Shared |
+| `AnalyticsService` | Event logging (20+ monetization events) | Shared |
 | `DailyChallengeService` | Cross-game daily feature | Shared |
 | `GameCenterService` | GKLocalPlayer auth, leaderboards | Shared |
-| `StoreService` | StoreKit 2, IAP (Remove Ads, Hint Pack) | Shared |
+| `GoldService` | Gold currency (per-merge, streaks, daily login) | Shared |
+| `DiamondService` | Diamond premium currency (IAP + drops) | Shared |
+| `StoreService` | StoreKit 2, IAP (5 product IDs) | Shared |
 | `GameRegistry` | Game module registration | Shared |
+| `EconomyConfig` | Centralized economy constants (remote-config ready) | Shared |
+| `RemoteEconomyConfig` | Remote economy overrides + A/B test variants | Shared |
+| `AdRewardTracker` | Daily ad-watch cap enforcement | Shared |
+| `DailyLoginRewardService` | Login streak + daily rewards | Shared |
+| `PiggyBankService` | Fractional diamond accumulation | Shared |
+| `StarterPackService` | First-session offer state | Shared |
+| `SaleService` | Timed sale expiry management | Shared |
 
 ## Game-Specific Services (Inside GameModule)
 
@@ -163,6 +172,25 @@ playing → won | lost | needsHintAd | needsMistakeResetAd
 - Game configs: `SudokuAudioConfig.swift`, `DropRushAudioConfig.swift`
 - Events trigger SFX playback (taps, completions, errors, speedups, game-overs)
 
+## New Shared Components (Phase 5 — Monetization V2)
+
+| Component | Purpose |
+|-----------|---------|
+| `CurrencyBarView.swift` | Top bar displaying diamond (bright/cyan) + gold (subdued) balance |
+| `DeathPopupView.swift` | Two-column continue popup: Watch Ad (left) vs 2 Diamonds (right) |
+| `StarterPackPopupView.swift` | Full-screen overlay: "50 ◆ + Exclusive Theme" offer |
+| `DailyLoginPopupView.swift` | 7-day calendar strip with streak tracking + reward animation |
+| `TimedSalePopupView.swift` | Bottom sheet with countdown timer (1h limited-time diamond sale) |
+| `SkipAdsBannerView.swift` | Reusable non-intrusive banner: "Skip ads ◆ 2/session" or "Remove all ads $2.99" |
+
+## Monetization Files Added
+
+| File | Purpose |
+|------|---------|
+| `AnalyticsEvent+Diamond.swift` | Diamond earn/spend events + drop roll tracking |
+| `AnalyticsEvent+Store.swift` | Purchase funnel (impression → start → complete) |
+| `AnalyticsEvent+Conversion.swift` | CTA impression + tap events (starter pack, death popup, timed sale) |
+
 ## PR History
 
-01 scaffold · 02 services · 03 hub · 04 engine · 05-07 gameplay · 08 ads · 09 analytics · 10 polish · 11 monetization · 12 drop-rush-phases-06-07-08 · 13 sudoku-audio-localization-phases-09-10-11
+01 scaffold · 02 services · 03 hub · 04 engine · 05-07 gameplay · 08 ads · 09 analytics · 10 polish · 11 monetization · 12 drop-rush-phases-06-07-08 · 13 sudoku-audio-localization-phases-09-10-11 · 14+ monetization-v2-phases-01-07

@@ -94,9 +94,33 @@ Multi-language support and enhanced sound design for all games.
 
 ---
 
+### Phase 5: Monetization V2 (✓ Complete)
+Diamond currency, advanced economy, high-conversion UI, and analytics instrumentation.
+
+**Deliverables:**
+- DiamondService (premium currency with IAP integration)
+- EconomyConfig (centralized merge rewards, move streaks, ad caps, daily login)
+- Per-merge gold rewards; hit-streak bonuses (DropRush)
+- RewardedAdOutcome enum; session ad tracking; daily cap enforcement
+- StoreService expansion (5 new product IDs: starterPack, diamondPacks, skipAds24h)
+- PiggyBankService (fractional diamond accumulation)
+- StarterPackService & SaleService (conversion mechanics)
+- CurrencyBarView (diamond + gold display)
+- DeathPopupView (two-column continue popup: Watch Ad | Use Diamonds)
+- Stack2048HUD, DropRushHUD updated with CurrencyBarView
+- 5 new analytics files (Diamond, Store, Conversion events)
+- RemoteEconomyConfig (Firebase-ready stub + A/B test framework)
+- All game VMs updated with game-over notifications for popup trigger
+- Starter Pack, Daily Login, Timed Sale, Skip Ads popups
+- Consecutive loss tracking + piggy bank nudge mechanics
+
+**Status:** Completed
+
+---
+
 ## Planned Phases
 
-### Phase 5: Multi-Game Content (Q2 2026)
+### Phase 6: Multi-Game Content (Q2 2026)
 Third game implementation + advanced features.
 
 **Target:** Launch new game (Crossword, Chess, or Puzzle variant)
@@ -112,23 +136,23 @@ Third game implementation + advanced features.
 
 ---
 
-### Phase 6: Advanced Monetization (Q3 2026)
+### Phase 7: Advanced Monetization Optimization (Q3 2026)
 A/B testing, personalized ad cadence, premium subscriptions.
 
-**Target:** Optimize ARPU + LTV
+**Target:** Optimize ARPU + LTV via experimentation
 
 **Deliverables:**
-- Firebase Remote Config for dynamic monetization params
-- A/B testing framework for ad frequency, hint rewards
-- Optional premium subscription (ad-free, 2x hints)
-- Promotional mechanics (bonus hints on reinstall, event campaigns)
+- Firebase Remote Config integration (complete RemoteEconomyConfig)
+- Advanced A/B testing framework (continue price, Starter Pack variants, merge gold base)
+- Optional premium subscription (ad-free, 2x currency)
+- Promotional mechanics (bonus diamonds on reinstall, seasonal events)
 - Detailed monetization analytics dashboard
 
 **Status:** Planning
 
 ---
 
-### Phase 7: Social & Engagement (Q4 2026)
+### Phase 8: Social & Engagement (Q4 2026)
 Multiplayer, leaderboards, push notifications, social sharing.
 
 **Target:** Increase DAU + retention via competitive features
@@ -144,7 +168,7 @@ Multiplayer, leaderboards, push notifications, social sharing.
 
 ---
 
-### Phase 8: Content Expansion (2027)
+### Phase 9: Content Expansion (2027)
 Puzzle variants, difficulty customization, AI opponents.
 
 **Target:** Long-term retention + replay value
@@ -162,30 +186,41 @@ Puzzle variants, difficulty customization, AI opponents.
 
 ## Key Metrics & Success Criteria
 
-### Phase 4 (Current Release)
+### Phase 5 (Current Release)
 
 | Metric | Target | Status |
 |--------|--------|--------|
-| Localization coverage | 6 languages | Completed |
-| Drop Rush level count | 30 levels | Completed |
-| Test coverage (Drop Rush) | >80% | Completed |
-| Banner ad fill rate | >85% | Monitoring |
-| Interstitial frequency (Drop Rush) | Every 2 levels | Implemented |
-| Continue ad CTR | >8% | TBD (monitoring) |
+| Diamond economy balance | 1 diamond ≈ 500–1000 gold | Implemented |
+| Store product IDs | 5 new (starter pack, diamond packs, skip ads) | Completed |
+| Continue via diamonds | 2 diamond cost (A/B testable) | Implemented |
+| Daily login reward day 7 | 1 diamond + 400 gold | Completed |
+| CurrencyBarView in all games | Top bar with ◆ + 🪙 | Completed |
+| DeathPopupView two-column | Watch Ad vs 2 Diamonds | Completed |
+| High-conversion popups | Starter Pack, Daily Login, Timed Sale, Skip Ads | Completed |
+| Analytics events | 5 new files (Diamond, Store, Conversion) | Completed |
+| RemoteEconomyConfig stub | Firebase-ready, A/B test framework | Completed |
 
 ### Next Milestones
 
-**Phase 5 Success Criteria:**
-- 3rd game released with 50+ content
-- Cross-game analytics parity (same event quality)
-- Multi-game hub engagement increases DAU by 25%
+**Phase 5 Success Criteria (Completed):**
+- ✓ Diamond currency with 0.5% big-merge drop rate
+- ✓ Store expanded to 5 product IDs with rarity tiers
+- ✓ CurrencyBarView + DeathPopupView in all games
+- ✓ 5 high-conversion popups (starter pack, daily login, timed sale, skip ads, piggy bank)
+- ✓ All economy values centralized in EconomyConfig (remote-config ready)
+- ✓ 5 new analytics files instrumentation (Diamond, Store, Conversion events)
 
 **Phase 6 Success Criteria:**
-- ARPU increases 15-30% via personalized monetization
-- Ad fatigue detected + mitigated via A/B testing
-- Retention curve improves at day 7, 14, 30
+- 3rd game released with 50+ content
+- Cross-game monetization parity (same economy model)
+- Multi-game hub engagement increases DAU by 25%
 
 **Phase 7 Success Criteria:**
+- ARPU increases 15-30% via A/B testing of continue price + Starter Pack
+- Ad fatigue detected + mitigated via remote config tuning
+- Retention curve improves at day 7, 14, 30 (daily login rewards)
+
+**Phase 8 Success Criteria:**
 - DAU increases 30-50% via social features
 - Leaderboard participation >40% of MAU
 - Seasonal event completion rate >60%
@@ -194,24 +229,31 @@ Puzzle variants, difficulty customization, AI opponents.
 
 ## Technical Debt & Maintenance
 
-### Current (Phase 4)
+### Current (Phase 5)
 - ✓ All services properly injected
 - ✓ Max file size 200 LOC (modular codebase)
 - ✓ Analytics event factories (no hardcoded strings)
 - ✓ Persistence keys enum-based (no magic strings)
 - ✓ AdMob stubs ready for real SDK integration
 - ✓ Multi-language support (6 languages)
-- ✓ ViewModel+Actions pattern for complex state (Drop Rush model)
+- ✓ ViewModel+Actions pattern for complex state (Drop Rush, game VMs)
 - ✓ Per-game SFX configs (Sudoku, Drop Rush)
+- ✓ DiamondService with persistence
+- ✓ EconomyConfig + economy constants (remote-config ready)
+- ✓ All game VMs wired with game-over notifications
+- ✓ 5 new popup components (Starter Pack, Daily Login, Timed Sale, Skip Ads, Piggy Bank)
+- ✓ CurrencyBarView + DeathPopupView in all games
 - ⚠ Banner coordinator uses stub (replace with real GADBannerView)
-- ⚠ Firebase integration pending (currently os.log only)
+- ⚠ RemoteEconomyConfig Firebase integration pending (stub only)
+- ⚠ Firebase analytics integration pending (currently os.log only)
 
-### Phase 5+ Considerations
+### Phase 6+ Considerations
+- Complete Firebase Remote Config integration (RemoteEconomyConfig.fetch())
 - Evaluate multi-game contest framework (shared state)
 - Refactor leaderboard UI for game-agnostic display
 - Plan database schema for user profiles, social features
 - Prepare push notification templates for seasonal events
-- Consider A/B testing framework integration
+- Document KPI dashboard (monetization funnel events)
 
 ---
 
@@ -238,6 +280,7 @@ Puzzle variants, difficulty customization, AI opponents.
 
 | Date | Version | Changes |
 |------|---------|---------|
+| 2026-03-17 | 5.0 | Monetization V2 (Phase 5) completed — Diamond currency, economy consolidation, high-conversion UI, analytics instrumentation |
 | 2026-03-13 | 4.0 | Drop Rush Phase 06-08 + Sudoku Audio/Localization Phase 09-11 completed; updated roadmap phases 3-8 |
 | 2026-03-12 | 2.6 | Added Phase 2.6 Monetization; updated roadmap with Phases 3-6 |
 | 2026-02-15 | 2.5 | Documented Phase 2.5 service decoupling |
