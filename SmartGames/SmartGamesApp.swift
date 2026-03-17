@@ -28,6 +28,7 @@ struct SmartGamesApp: App {
                 .environmentObject(environment.dailyLogin)
                 .environmentObject(environment.piggyBank)
                 .environmentObject(environment.starterPack)
+                .environmentObject(environment.consecutiveLoss)
                 .environmentObject(environment.themeService)
                 .task {
                     // Check daily login reward on each app launch / foreground

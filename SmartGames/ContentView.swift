@@ -5,25 +5,106 @@ struct ContentView: View {
     @EnvironmentObject var environment: AppEnvironment
     @EnvironmentObject var gameRegistry: GameRegistry
     @EnvironmentObject var analytics: AnalyticsService
+    @EnvironmentObject var starterPack: StarterPackService
+    @EnvironmentObject var dailyLogin: DailyLoginRewardService
+    @EnvironmentObject var adRewardTracker: AdRewardTracker
+    @EnvironmentObject var consecutiveLoss: ConsecutiveLossService
+
+    @State private var showSkipAdsBanner = false
+    @State private var showTimedSale = false
 
     var body: some View {
-        NavigationStack(path: $router.path) {
-            HubView()
-                .navigationDestination(for: AppRoute.self) { route in
-                    switch route {
-                    case .gameLobby(let gameId):
-                        if let module = gameRegistry.module(for: gameId) {
-                            module.makeLobbyView(environment: environment)
+        ZStack(alignment: .bottom) {
+            NavigationStack(path: $router.path) {
+                HubView()
+                    .navigationDestination(for: AppRoute.self) { route in
+                        switch route {
+                        case .gameLobby(let gameId):
+                            if let module = gameRegistry.module(for: gameId) {
+                                module.makeLobbyView(environment: environment)
+                            }
+                        case .gamePlay(let gameId, _):
+                            if let module = gameRegistry.module(for: gameId) {
+                                module.navigationDestination(for: route, environment: environment)
+                            }
+                        case .settings:
+                            SettingsView()
                         }
-                    case .gamePlay(let gameId, _):
-                        if let module = gameRegistry.module(for: gameId) {
-                            module.navigationDestination(for: route, environment: environment)
-                        }
-                    case .settings:
-                        SettingsView()
                     }
+            }
+            .environmentObject(router)
+
+            // Global overlays — ordered by priority (highest last = topmost)
+
+            // Daily login reward popup
+            if let reward = dailyLogin.pendingReward {
+                DailyLoginPopupView(reward: reward) {
+                    dailyLogin.clearPendingReward()
                 }
+                .transition(.scale.combined(with: .opacity))
+                .zIndex(10)
+            }
+
+            // Starter pack offer popup
+            if starterPack.shouldShowOffer {
+                StarterPackPopupView()
+                    .transition(.scale.combined(with: .opacity))
+                    .zIndex(20)
+            }
+
+            // Timed sale popup (after consecutive losses)
+            if showTimedSale, let expiry = consecutiveLoss.activeSaleExpiry {
+                TimedSalePopupView(
+                    expiresAt: expiry,
+                    discountLabel: "30% OFF",
+                    onShop: {
+                        showTimedSale = false
+                        consecutiveLoss.dismissSale()
+                        router.navigate(to: .settings)
+                    },
+                    onDismiss: {
+                        showTimedSale = false
+                        consecutiveLoss.dismissSale()
+                    }
+                )
+                .transition(.scale.combined(with: .opacity))
+                .zIndex(15)
+            }
+
+            // Skip-ads banner (non-intrusive, bottom)
+            if showSkipAdsBanner {
+                SkipAdsBannerView(
+                    onRemoveAds: {
+                        showSkipAdsBanner = false
+                        router.navigate(to: .settings)
+                    },
+                    onDismiss: { showSkipAdsBanner = false }
+                )
+                .padding(.bottom, 8)
+                .transition(.move(edge: .bottom).combined(with: .opacity))
+                .zIndex(5)
+            }
         }
-        .environmentObject(router)
+        .animation(.easeInOut(duration: 0.25), value: starterPack.shouldShowOffer)
+        .animation(.easeInOut(duration: 0.25), value: dailyLogin.pendingReward == nil)
+        .animation(.easeInOut(duration: 0.25), value: showSkipAdsBanner)
+        .animation(.easeInOut(duration: 0.25), value: showTimedSale)
+        .onReceive(NotificationCenter.default.publisher(for: .adsShowRemoveAdsBanner)) { _ in
+            showSkipAdsBanner = true
+        }
+        .onReceive(NotificationCenter.default.publisher(for: .gameOverOccurred)) { _ in
+            consecutiveLoss.recordLoss()
+            if consecutiveLoss.activeSaleExpiry != nil {
+                showTimedSale = true
+            }
+        }
+        .onReceive(NotificationCenter.default.publisher(for: .gameWonOccurred)) { _ in
+            consecutiveLoss.recordWin()
+        }
+        // Timer-based starter pack trigger (5 min session)
+        .task {
+            try? await Task.sleep(nanoseconds: UInt64(EconomyConfig.starterPackSessionTimerSeconds * 1_000_000_000))
+            starterPack.triggerOffer()
+        }
     }
 }

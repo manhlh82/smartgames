@@ -11,6 +11,10 @@ extension Notification.Name {
     static let adsShowStarterPackOffer = Notification.Name("ads.showStarterPackOffer")
     /// Posted when the daily ad-watch count reaches the remove-ads banner threshold.
     static let adsShowRemoveAdsBanner = Notification.Name("ads.showRemoveAdsBanner")
+    /// Posted by any game ViewModel when the player loses.
+    static let gameOverOccurred = Notification.Name("game.gameOverOccurred")
+    /// Posted by any game ViewModel when the player wins or completes a level.
+    static let gameWonOccurred = Notification.Name("game.gameWonOccurred")
 }
 
 /// Coordinates all ad formats (rewarded + interstitial).

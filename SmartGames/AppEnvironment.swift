@@ -21,6 +21,7 @@ final class AppEnvironment: ObservableObject {
     let dailyLogin: DailyLoginRewardService
     let piggyBank: PiggyBankService
     let starterPack: StarterPackService
+    let consecutiveLoss: ConsecutiveLossService
     let themeService: ThemeService
 
     init() {
@@ -61,7 +62,9 @@ final class AppEnvironment: ObservableObject {
             diamondService: diamonds
         )
         self.piggyBank = PiggyBankService(persistence: persistence)
-        self.starterPack = StarterPackService(persistence: persistence)
+        let starterPack = StarterPackService(persistence: persistence)
+        self.starterPack = starterPack
+        self.consecutiveLoss = ConsecutiveLossService(starterPack: starterPack)
         let themeService = ThemeService(persistence: persistence, goldService: gold)
         self.themeService = themeService
 

@@ -31,6 +31,7 @@ extension Stack2048GameViewModel {
         phase = .gameOver
         sound.playSFX("stack2048-gameover")
         haptics.notification(.error)
+        NotificationCenter.default.post(name: .gameOverOccurred, object: nil)
 
         let score = gameState.score
         let maxTile = gameState.maxTileValue

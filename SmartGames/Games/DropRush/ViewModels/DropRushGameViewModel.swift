@@ -153,12 +153,14 @@ final class DropRushGameViewModel: ObservableObject {
             }
             piggyBank.recordGameCompleted()
             phase = .levelComplete
+            NotificationCenter.default.post(name: .gameWonOccurred, object: nil)
         case .gameOver:
             sound.playSFX("dropRush-gameover")
             haptics.notification(.error)
             analytics.log(.dropRushLevelFailed(level: levelNumber, score: engineState.score, misses: engineState.misses))
             continueAvailable = !continueUsedThisAttempt && ads.isRewardedAdReady
             phase = .gameOver
+            NotificationCenter.default.post(name: .gameOverOccurred, object: nil)
         case .speedPhaseChanged:
             sound.playSFX("dropRush-speedup")
             haptics.impact(.medium)
