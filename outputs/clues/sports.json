@@ -1,0 +1,2107 @@
+{
+  "theme": "sports",
+  "count": 128,
+  "clues": [
+    {
+      "word": "ARCHER",
+      "primaryClue": "Sports-related word",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "A",
+        "length": 6,
+        "category": "sports"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "ARENA",
+      "primaryClue": "Game or sport",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "A",
+        "length": 5,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "ARROW",
+      "primaryClue": "A sport or athletic term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "A",
+        "length": 5,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "ATHLETE",
+      "primaryClue": "A sport or athletic term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "A",
+        "length": 7,
+        "category": "sports"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "AXEL",
+      "primaryClue": "Athletic activity",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "A",
+        "length": 4,
+        "category": "sports"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "BADMINTON",
+      "primaryClue": "Athletic activity",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "B",
+        "length": 9,
+        "category": "sports"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "BALL",
+      "primaryClue": "A sport or athletic term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "B",
+        "length": 4,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "BASE",
+      "primaryClue": "Played in competition",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "B",
+        "length": 4,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "BAT",
+      "primaryClue": "Athletic activity",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "B",
+        "length": 3,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "BATTER",
+      "primaryClue": "A sport or athletic term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "B",
+        "length": 6,
+        "category": "sports"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "BICYCLE",
+      "primaryClue": "Played in competition",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "B",
+        "length": 7,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "BIKE",
+      "primaryClue": "A sport or athletic term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "B",
+        "length": 4,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "BOCCE",
+      "primaryClue": "Played in competition",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "B",
+        "length": 5,
+        "category": "sports"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "BOW",
+      "primaryClue": "A sport or athletic term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "B",
+        "length": 3,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "BOX",
+      "primaryClue": "A sport or athletic term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "B",
+        "length": 3,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "CANOE",
+      "primaryClue": "Game or sport",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 5,
+        "category": "sports"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "CATCH",
+      "primaryClue": "Athletic activity",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 5,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "CLEATS",
+      "primaryClue": "Played in competition",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 6,
+        "category": "sports"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "CLUB",
+      "primaryClue": "Played in competition",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 4,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "COACH",
+      "primaryClue": "Sports-related word",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 5,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "COMPETE",
+      "primaryClue": "Sports-related word",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 7,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "CREW",
+      "primaryClue": "Game or sport",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 4,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "CRICKET",
+      "primaryClue": "A sport or athletic term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 7,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "CYCLE",
+      "primaryClue": "A sport or athletic term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 5,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "CYCLIST",
+      "primaryClue": "Played in competition",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 7,
+        "category": "sports"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "DART",
+      "primaryClue": "Sports-related word",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "D",
+        "length": 4,
+        "category": "sports"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "DEFENSE",
+      "primaryClue": "Sports-related word",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "D",
+        "length": 7,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "DIAMOND",
+      "primaryClue": "Athletic activity",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "D",
+        "length": 7,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "DIVE",
+      "primaryClue": "Athletic activity",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "D",
+        "length": 4,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "DIVER",
+      "primaryClue": "Played in competition",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "D",
+        "length": 5,
+        "category": "sports"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "EXERCISE",
+      "primaryClue": "Game or sport",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "E",
+        "length": 8,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "FENCING",
+      "primaryClue": "Sports-related word",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "F",
+        "length": 7,
+        "category": "sports"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "FIELD",
+      "primaryClue": "Game or sport",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "F",
+        "length": 5,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "FITNESS",
+      "primaryClue": "Sports-related word",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "F",
+        "length": 7,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "FRISBEE",
+      "primaryClue": "Played in competition",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "F",
+        "length": 7,
+        "category": "sports"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "GAME",
+      "primaryClue": "Athletic activity",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "G",
+        "length": 4,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "GEAR",
+      "primaryClue": "A sport or athletic term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "G",
+        "length": 4,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "GOAL",
+      "primaryClue": "Athletic activity",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "G",
+        "length": 4,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "GOALIE",
+      "primaryClue": "Played in competition",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "G",
+        "length": 6,
+        "category": "sports"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "GOLF",
+      "primaryClue": "Played in competition",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "G",
+        "length": 4,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "GOLFER",
+      "primaryClue": "Sports-related word",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "G",
+        "length": 6,
+        "category": "sports"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "GUARD",
+      "primaryClue": "Played in competition",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "G",
+        "length": 5,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "GYM",
+      "primaryClue": "Athletic activity",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "G",
+        "length": 3,
+        "category": "sports"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "GYMNAST",
+      "primaryClue": "Game or sport",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "G",
+        "length": 7,
+        "category": "sports"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "HELMET",
+      "primaryClue": "Played in competition",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "H",
+        "length": 6,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "HOCKEY",
+      "primaryClue": "Athletic activity",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "H",
+        "length": 6,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "HOME",
+      "primaryClue": "Athletic activity",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "H",
+        "length": 4,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "HOOP",
+      "primaryClue": "Game or sport",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "H",
+        "length": 4,
+        "category": "sports"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "HOOPS",
+      "primaryClue": "A sport or athletic term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "H",
+        "length": 5,
+        "category": "sports"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "ICE",
+      "primaryClue": "Athletic activity",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "I",
+        "length": 3,
+        "category": "sports"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "INFIELD",
+      "primaryClue": "Sports-related word",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "I",
+        "length": 7,
+        "category": "sports"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "INNING",
+      "primaryClue": "Sports-related word",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "I",
+        "length": 6,
+        "category": "sports"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "JAVELIN",
+      "primaryClue": "A sport or athletic term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "J",
+        "length": 7,
+        "category": "sports"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "JOG",
+      "primaryClue": "Athletic activity",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "J",
+        "length": 3,
+        "category": "sports"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "JUDO",
+      "primaryClue": "Played in competition",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "J",
+        "length": 4,
+        "category": "sports"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "JUMP",
+      "primaryClue": "Game or sport",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "J",
+        "length": 4,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "JUMPER",
+      "primaryClue": "Played in competition",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "J",
+        "length": 6,
+        "category": "sports"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "KARATE",
+      "primaryClue": "Played in competition",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "K",
+        "length": 6,
+        "category": "sports"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "KAYAK",
+      "primaryClue": "A sport or athletic term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "K",
+        "length": 5,
+        "category": "sports"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "KITE",
+      "primaryClue": "Athletic activity",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "K",
+        "length": 4,
+        "category": "sports"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "LACROSSE",
+      "primaryClue": "Played in competition",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "L",
+        "length": 8,
+        "category": "sports"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "LEAGUE",
+      "primaryClue": "Game or sport",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "L",
+        "length": 6,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "LOSE",
+      "primaryClue": "Sports-related word",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "L",
+        "length": 4,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "LOSER",
+      "primaryClue": "A sport or athletic term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "L",
+        "length": 5,
+        "category": "sports"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "LUGE",
+      "primaryClue": "Played in competition",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "L",
+        "length": 4,
+        "category": "sports"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "MAJOR",
+      "primaryClue": "A sport or athletic term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "M",
+        "length": 5,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "MALLET",
+      "primaryClue": "Played in competition",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "M",
+        "length": 6,
+        "category": "sports"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "MAT",
+      "primaryClue": "A sport or athletic term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "M",
+        "length": 3,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "MEDAL",
+      "primaryClue": "A sport or athletic term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "M",
+        "length": 5,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "MITT",
+      "primaryClue": "Sports-related word",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "M",
+        "length": 4,
+        "category": "sports"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "MOVE",
+      "primaryClue": "Athletic activity",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "M",
+        "length": 4,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "NET",
+      "primaryClue": "Sports-related word",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "N",
+        "length": 3,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "OFFENSE",
+      "primaryClue": "Sports-related word",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "O",
+        "length": 7,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "OLYMPICS",
+      "primaryClue": "Game or sport",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "O",
+        "length": 8,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "OUT",
+      "primaryClue": "Sports-related word",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "O",
+        "length": 3,
+        "category": "sports"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "PADDLE",
+      "primaryClue": "Game or sport",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "P",
+        "length": 6,
+        "category": "sports"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "PITCH",
+      "primaryClue": "Game or sport",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "P",
+        "length": 5,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "PLAY",
+      "primaryClue": "Played in competition",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "P",
+        "length": 4,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "PLAYER",
+      "primaryClue": "Sports-related word",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "P",
+        "length": 6,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "POLE",
+      "primaryClue": "Game or sport",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "P",
+        "length": 4,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "POLO",
+      "primaryClue": "Played in competition",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "P",
+        "length": 4,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "POOL",
+      "primaryClue": "Athletic activity",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "P",
+        "length": 4,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "PUCK",
+      "primaryClue": "Athletic activity",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "P",
+        "length": 4,
+        "category": "sports"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "QUARTER",
+      "primaryClue": "Athletic activity",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "Q",
+        "length": 7,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "QUIVER",
+      "primaryClue": "Game or sport",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "Q",
+        "length": 6,
+        "category": "sports"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "RACE",
+      "primaryClue": "Played in competition",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "R",
+        "length": 4,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "RACER",
+      "primaryClue": "Athletic activity",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "R",
+        "length": 5,
+        "category": "sports"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "REFEREE",
+      "primaryClue": "A sport or athletic term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "R",
+        "length": 7,
+        "category": "sports"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "RELAY",
+      "primaryClue": "Sports-related word",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "R",
+        "length": 5,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "RIDE",
+      "primaryClue": "A sport or athletic term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "R",
+        "length": 4,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "RINK",
+      "primaryClue": "Sports-related word",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "R",
+        "length": 4,
+        "category": "sports"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "ROW",
+      "primaryClue": "Game or sport",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "R",
+        "length": 3,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "ROWER",
+      "primaryClue": "Athletic activity",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "R",
+        "length": 5,
+        "category": "sports"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SAIL",
+      "primaryClue": "Played in competition",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 4,
+        "category": "sports"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SCORE",
+      "primaryClue": "A sport or athletic term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 5,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SCUBA",
+      "primaryClue": "Game or sport",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 5,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SKATE",
+      "primaryClue": "Played in competition",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 5,
+        "category": "sports"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SKI",
+      "primaryClue": "Athletic activity",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 3,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SKIER",
+      "primaryClue": "Game or sport",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 5,
+        "category": "sports"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SLALOM",
+      "primaryClue": "Sports-related word",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 6,
+        "category": "sports"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SLED",
+      "primaryClue": "Athletic activity",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 4,
+        "category": "sports"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SLEDDER",
+      "primaryClue": "Athletic activity",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 7,
+        "category": "sports"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SNOWBOARD",
+      "primaryClue": "Sports-related word",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 9,
+        "category": "sports"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SOCCER",
+      "primaryClue": "Sports-related word",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 6,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SPORT",
+      "primaryClue": "Sports-related word",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 5,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SQUASH",
+      "primaryClue": "Sports-related word",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 6,
+        "category": "sports"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "STADIUM",
+      "primaryClue": "A sport or athletic term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 7,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "STICK",
+      "primaryClue": "Game or sport",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 5,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SURFER",
+      "primaryClue": "Game or sport",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 6,
+        "category": "sports"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SWIM",
+      "primaryClue": "Played in competition",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 4,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SWIMMER",
+      "primaryClue": "Played in competition",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 7,
+        "category": "sports"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "TAG",
+      "primaryClue": "Game or sport",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "T",
+        "length": 3,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "TARGET",
+      "primaryClue": "Game or sport",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "T",
+        "length": 6,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "TEAM",
+      "primaryClue": "Game or sport",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "T",
+        "length": 4,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "TEE",
+      "primaryClue": "Game or sport",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "T",
+        "length": 3,
+        "category": "sports"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "TENNIS",
+      "primaryClue": "Sports-related word",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "T",
+        "length": 6,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "THROW",
+      "primaryClue": "Athletic activity",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "T",
+        "length": 5,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "TIE",
+      "primaryClue": "Played in competition",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "T",
+        "length": 3,
+        "category": "sports"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "TRIATHLON",
+      "primaryClue": "Sports-related word",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "T",
+        "length": 9,
+        "category": "sports"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "UMPIRE",
+      "primaryClue": "A sport or athletic term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "U",
+        "length": 6,
+        "category": "sports"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "VAULT",
+      "primaryClue": "Game or sport",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "V",
+        "length": 5,
+        "category": "sports"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "VOLLEY",
+      "primaryClue": "Game or sport",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "V",
+        "length": 6,
+        "category": "sports"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "WALK",
+      "primaryClue": "Sports-related word",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "W",
+        "length": 4,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "WEIGHT",
+      "primaryClue": "Athletic activity",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "W",
+        "length": 6,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "WIN",
+      "primaryClue": "Sports-related word",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "W",
+        "length": 3,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "WINNER",
+      "primaryClue": "Athletic activity",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "W",
+        "length": 6,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "WINNING",
+      "primaryClue": "Played in competition",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "W",
+        "length": 7,
+        "category": "sports"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "WRESTLER",
+      "primaryClue": "Played in competition",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "W",
+        "length": 8,
+        "category": "sports"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    }
+  ]
+}

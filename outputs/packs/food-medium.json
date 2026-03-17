@@ -1,0 +1,7740 @@
+{
+  "packId": "food-medium",
+  "title": "Flavor World",
+  "theme": "food",
+  "difficulty": "medium",
+  "boardSize": "standard",
+  "puzzleCount": 20,
+  "version": "1.0.0",
+  "createdAt": "2026-03-17",
+  "puzzles": [
+    {
+      "puzzleId": "food-medium-9x9-0001",
+      "seed": 1,
+      "theme": "food",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "R",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "H",
+          "A",
+          "M",
+          "B",
+          "U",
+          "R",
+          "G",
+          "E",
+          "R"
+        ],
+        [
+          "",
+          "S",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "P",
+          "",
+          "",
+          "",
+          "C",
+          "",
+          "C",
+          ""
+        ],
+        [
+          "",
+          "B",
+          "U",
+          "R",
+          "R",
+          "I",
+          "T",
+          "O",
+          ""
+        ],
+        [
+          "",
+          "E",
+          "",
+          "",
+          "",
+          "T",
+          "",
+          "C",
+          ""
+        ],
+        [
+          "A",
+          "R",
+          "R",
+          "O",
+          "W",
+          "R",
+          "O",
+          "O",
+          "T"
+        ],
+        [
+          "",
+          "R",
+          "",
+          "I",
+          "",
+          "U",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "Y",
+          "",
+          "L",
+          "",
+          "S",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "BURRITO",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "B",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "RASPBERRY",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 9,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "R",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "HAMBURGER",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 9,
+          "clue": "Something you eat",
+          "softHints": {
+            "startsWith": "H",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "ARROWROOT",
+          "direction": "across",
+          "row": 6,
+          "col": 0,
+          "length": 9,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "A",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "CITRUS",
+          "direction": "down",
+          "row": 3,
+          "col": 5,
+          "length": 6,
+          "clue": "Food item",
+          "softHints": {
+            "startsWith": "C",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "COCOA",
+          "direction": "down",
+          "row": 3,
+          "col": 7,
+          "length": 5,
+          "clue": "Food item",
+          "softHints": {
+            "startsWith": "C",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "OIL",
+          "direction": "down",
+          "row": 6,
+          "col": 3,
+          "length": 3,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "O",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 2,
+            "clue": "Something you eat",
+            "answer": "HAMBURGER",
+            "length": 9
+          },
+          {
+            "number": 5,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "BURRITO",
+            "length": 7
+          },
+          {
+            "number": 6,
+            "clue": "Edible item",
+            "answer": "ARROWROOT",
+            "length": 9
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Edible item",
+            "answer": "RASPBERRY",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "Food item",
+            "answer": "CITRUS",
+            "length": 6
+          },
+          {
+            "number": 4,
+            "clue": "Food item",
+            "answer": "COCOA",
+            "length": 5
+          },
+          {
+            "number": 7,
+            "clue": "Edible item",
+            "answer": "OIL",
+            "length": 3
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "food",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 8,
+        "boardScore": 0.5413
+      }
+    },
+    {
+      "puzzleId": "food-medium-9x9-0002",
+      "seed": 2,
+      "theme": "food",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "R",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "H",
+          "A",
+          "M",
+          "B",
+          "U",
+          "R",
+          "G",
+          "E",
+          "R"
+        ],
+        [
+          "",
+          "S",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "P",
+          "",
+          "",
+          "",
+          "C",
+          "",
+          "C",
+          ""
+        ],
+        [
+          "",
+          "B",
+          "U",
+          "R",
+          "R",
+          "I",
+          "T",
+          "O",
+          ""
+        ],
+        [
+          "",
+          "E",
+          "",
+          "",
+          "",
+          "T",
+          "",
+          "C",
+          ""
+        ],
+        [
+          "A",
+          "R",
+          "R",
+          "O",
+          "W",
+          "R",
+          "O",
+          "O",
+          "T"
+        ],
+        [
+          "",
+          "R",
+          "",
+          "I",
+          "",
+          "U",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "Y",
+          "",
+          "L",
+          "",
+          "S",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "BURRITO",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "B",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "RASPBERRY",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 9,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "R",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "HAMBURGER",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 9,
+          "clue": "Something you eat",
+          "softHints": {
+            "startsWith": "H",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "ARROWROOT",
+          "direction": "across",
+          "row": 6,
+          "col": 0,
+          "length": 9,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "A",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "CITRUS",
+          "direction": "down",
+          "row": 3,
+          "col": 5,
+          "length": 6,
+          "clue": "Food item",
+          "softHints": {
+            "startsWith": "C",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "COCOA",
+          "direction": "down",
+          "row": 3,
+          "col": 7,
+          "length": 5,
+          "clue": "Food item",
+          "softHints": {
+            "startsWith": "C",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "OIL",
+          "direction": "down",
+          "row": 6,
+          "col": 3,
+          "length": 3,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "O",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 2,
+            "clue": "Something you eat",
+            "answer": "HAMBURGER",
+            "length": 9
+          },
+          {
+            "number": 5,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "BURRITO",
+            "length": 7
+          },
+          {
+            "number": 6,
+            "clue": "Edible item",
+            "answer": "ARROWROOT",
+            "length": 9
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Edible item",
+            "answer": "RASPBERRY",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "Food item",
+            "answer": "CITRUS",
+            "length": 6
+          },
+          {
+            "number": 4,
+            "clue": "Food item",
+            "answer": "COCOA",
+            "length": 5
+          },
+          {
+            "number": 7,
+            "clue": "Edible item",
+            "answer": "OIL",
+            "length": 3
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "food",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 8,
+        "boardScore": 0.5413
+      }
+    },
+    {
+      "puzzleId": "food-medium-9x9-0003",
+      "seed": 3,
+      "theme": "food",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "R",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "H",
+          "A",
+          "M",
+          "B",
+          "U",
+          "R",
+          "G",
+          "E",
+          "R"
+        ],
+        [
+          "",
+          "S",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "P",
+          "",
+          "",
+          "",
+          "C",
+          "",
+          "C",
+          ""
+        ],
+        [
+          "",
+          "B",
+          "U",
+          "R",
+          "R",
+          "I",
+          "T",
+          "O",
+          ""
+        ],
+        [
+          "",
+          "E",
+          "",
+          "",
+          "",
+          "T",
+          "",
+          "C",
+          ""
+        ],
+        [
+          "A",
+          "R",
+          "R",
+          "O",
+          "W",
+          "R",
+          "O",
+          "O",
+          "T"
+        ],
+        [
+          "",
+          "R",
+          "",
+          "I",
+          "",
+          "U",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "Y",
+          "",
+          "L",
+          "",
+          "S",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "BURRITO",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "B",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "RASPBERRY",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 9,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "R",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "HAMBURGER",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 9,
+          "clue": "Something you eat",
+          "softHints": {
+            "startsWith": "H",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "ARROWROOT",
+          "direction": "across",
+          "row": 6,
+          "col": 0,
+          "length": 9,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "A",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "CITRUS",
+          "direction": "down",
+          "row": 3,
+          "col": 5,
+          "length": 6,
+          "clue": "Food item",
+          "softHints": {
+            "startsWith": "C",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "COCOA",
+          "direction": "down",
+          "row": 3,
+          "col": 7,
+          "length": 5,
+          "clue": "Food item",
+          "softHints": {
+            "startsWith": "C",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "OIL",
+          "direction": "down",
+          "row": 6,
+          "col": 3,
+          "length": 3,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "O",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 2,
+            "clue": "Something you eat",
+            "answer": "HAMBURGER",
+            "length": 9
+          },
+          {
+            "number": 5,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "BURRITO",
+            "length": 7
+          },
+          {
+            "number": 6,
+            "clue": "Edible item",
+            "answer": "ARROWROOT",
+            "length": 9
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Edible item",
+            "answer": "RASPBERRY",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "Food item",
+            "answer": "CITRUS",
+            "length": 6
+          },
+          {
+            "number": 4,
+            "clue": "Food item",
+            "answer": "COCOA",
+            "length": 5
+          },
+          {
+            "number": 7,
+            "clue": "Edible item",
+            "answer": "OIL",
+            "length": 3
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "food",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 8,
+        "boardScore": 0.5413
+      }
+    },
+    {
+      "puzzleId": "food-medium-9x9-0004",
+      "seed": 4,
+      "theme": "food",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "C",
+          "",
+          "S",
+          "",
+          "P",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "O",
+          "",
+          "E",
+          "",
+          "I",
+          "",
+          "C",
+          ""
+        ],
+        [
+          "",
+          "R",
+          "",
+          "A",
+          "",
+          "N",
+          "",
+          "O",
+          ""
+        ],
+        [
+          "",
+          "I",
+          "",
+          "S",
+          "",
+          "E",
+          "",
+          "C",
+          ""
+        ],
+        [
+          "",
+          "A",
+          "V",
+          "O",
+          "C",
+          "A",
+          "D",
+          "O",
+          ""
+        ],
+        [
+          "",
+          "N",
+          "",
+          "N",
+          "",
+          "P",
+          "",
+          "N",
+          ""
+        ],
+        [
+          "",
+          "D",
+          "",
+          "I",
+          "",
+          "P",
+          "L",
+          "U",
+          "M"
+        ],
+        [
+          "F",
+          "E",
+          "N",
+          "N",
+          "E",
+          "L",
+          "",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "R",
+          "",
+          "G",
+          "",
+          "E",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "AVOCADO",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Food item",
+          "softHints": {
+            "startsWith": "A",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "PINEAPPLE",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 9,
+          "clue": "Something you eat",
+          "softHints": {
+            "startsWith": "P",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "CORIANDER",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 9,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "C",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "SEASONING",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 9,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "S",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "COCONUT",
+          "direction": "down",
+          "row": 1,
+          "col": 7,
+          "length": 7,
+          "clue": "Something you eat",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "FENNEL",
+          "direction": "across",
+          "row": 7,
+          "col": 0,
+          "length": 6,
+          "clue": "Food item",
+          "softHints": {
+            "startsWith": "F",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "PLUM",
+          "direction": "across",
+          "row": 6,
+          "col": 5,
+          "length": 4,
+          "clue": "Food item",
+          "softHints": {
+            "startsWith": "P",
+            "length": 4,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 5,
+            "clue": "Food item",
+            "answer": "AVOCADO",
+            "length": 7
+          },
+          {
+            "number": 6,
+            "clue": "Food item",
+            "answer": "PLUM",
+            "length": 4
+          },
+          {
+            "number": 7,
+            "clue": "Food item",
+            "answer": "FENNEL",
+            "length": 6
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Edible item",
+            "answer": "CORIANDER",
+            "length": 9
+          },
+          {
+            "number": 2,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "SEASONING",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "Something you eat",
+            "answer": "PINEAPPLE",
+            "length": 9
+          },
+          {
+            "number": 4,
+            "clue": "Something you eat",
+            "answer": "COCONUT",
+            "length": 7
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "food",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 9,
+        "boardScore": 0.5462
+      }
+    },
+    {
+      "puzzleId": "food-medium-9x9-0005",
+      "seed": 5,
+      "theme": "food",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "F",
+          "",
+          "",
+          "R",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "L",
+          "",
+          "",
+          "A",
+          "",
+          "",
+          ""
+        ],
+        [
+          "C",
+          "R",
+          "O",
+          "I",
+          "S",
+          "S",
+          "A",
+          "N",
+          "T"
+        ],
+        [
+          "",
+          "",
+          "U",
+          "",
+          "",
+          "P",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "R",
+          "U",
+          "M",
+          "B",
+          "L",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "U",
+          "",
+          "",
+          "",
+          "E",
+          "",
+          "",
+          ""
+        ],
+        [
+          "A",
+          "R",
+          "R",
+          "O",
+          "W",
+          "R",
+          "O",
+          "O",
+          "T"
+        ],
+        [
+          "",
+          "R",
+          "",
+          "I",
+          "",
+          "R",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Y",
+          "",
+          "L",
+          "",
+          "Y",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "CRUMBLE",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "RASPBERRY",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 9,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "R",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 5,
+          "answer": "ARROWROOT",
+          "direction": "across",
+          "row": 6,
+          "col": 0,
+          "length": 9,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "A",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "CROISSANT",
+          "direction": "across",
+          "row": 2,
+          "col": 0,
+          "length": 9,
+          "clue": "Food item",
+          "softHints": {
+            "startsWith": "C",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "CURRY",
+          "direction": "down",
+          "row": 4,
+          "col": 1,
+          "length": 5,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "C",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "FLOUR",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "clue": "Food item",
+          "softHints": {
+            "startsWith": "F",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "OIL",
+          "direction": "down",
+          "row": 6,
+          "col": 3,
+          "length": 3,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "O",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "Food item",
+            "answer": "CROISSANT",
+            "length": 9
+          },
+          {
+            "number": 4,
+            "clue": "Edible item",
+            "answer": "CRUMBLE",
+            "length": 7
+          },
+          {
+            "number": 5,
+            "clue": "Edible item",
+            "answer": "ARROWROOT",
+            "length": 9
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Food item",
+            "answer": "FLOUR",
+            "length": 5
+          },
+          {
+            "number": 2,
+            "clue": "Edible item",
+            "answer": "RASPBERRY",
+            "length": 9
+          },
+          {
+            "number": 4,
+            "clue": "Edible item",
+            "answer": "CURRY",
+            "length": 5
+          },
+          {
+            "number": 6,
+            "clue": "Edible item",
+            "answer": "OIL",
+            "length": 3
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "food",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 8,
+        "boardScore": 0.5388
+      }
+    },
+    {
+      "puzzleId": "food-medium-9x9-0006",
+      "seed": 6,
+      "theme": "food",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "F",
+          "",
+          "",
+          "R",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "L",
+          "",
+          "",
+          "A",
+          "",
+          "",
+          ""
+        ],
+        [
+          "C",
+          "R",
+          "O",
+          "I",
+          "S",
+          "S",
+          "A",
+          "N",
+          "T"
+        ],
+        [
+          "",
+          "",
+          "U",
+          "",
+          "",
+          "P",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "R",
+          "U",
+          "M",
+          "B",
+          "L",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "U",
+          "",
+          "",
+          "",
+          "E",
+          "",
+          "",
+          ""
+        ],
+        [
+          "A",
+          "R",
+          "R",
+          "O",
+          "W",
+          "R",
+          "O",
+          "O",
+          "T"
+        ],
+        [
+          "",
+          "R",
+          "",
+          "I",
+          "",
+          "R",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Y",
+          "",
+          "L",
+          "",
+          "Y",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "CRUMBLE",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "RASPBERRY",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 9,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "R",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 5,
+          "answer": "ARROWROOT",
+          "direction": "across",
+          "row": 6,
+          "col": 0,
+          "length": 9,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "A",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "CROISSANT",
+          "direction": "across",
+          "row": 2,
+          "col": 0,
+          "length": 9,
+          "clue": "Food item",
+          "softHints": {
+            "startsWith": "C",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "CURRY",
+          "direction": "down",
+          "row": 4,
+          "col": 1,
+          "length": 5,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "C",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "FLOUR",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 5,
+          "clue": "Food item",
+          "softHints": {
+            "startsWith": "F",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "OIL",
+          "direction": "down",
+          "row": 6,
+          "col": 3,
+          "length": 3,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "O",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "Food item",
+            "answer": "CROISSANT",
+            "length": 9
+          },
+          {
+            "number": 4,
+            "clue": "Edible item",
+            "answer": "CRUMBLE",
+            "length": 7
+          },
+          {
+            "number": 5,
+            "clue": "Edible item",
+            "answer": "ARROWROOT",
+            "length": 9
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Food item",
+            "answer": "FLOUR",
+            "length": 5
+          },
+          {
+            "number": 2,
+            "clue": "Edible item",
+            "answer": "RASPBERRY",
+            "length": 9
+          },
+          {
+            "number": 4,
+            "clue": "Edible item",
+            "answer": "CURRY",
+            "length": 5
+          },
+          {
+            "number": 6,
+            "clue": "Edible item",
+            "answer": "OIL",
+            "length": 3
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "food",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 8,
+        "boardScore": 0.5388
+      }
+    },
+    {
+      "puzzleId": "food-medium-9x9-0007",
+      "seed": 7,
+      "theme": "food",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "N",
+          "",
+          "",
+          "E",
+          "",
+          "C",
+          ""
+        ],
+        [
+          "",
+          "M",
+          "E",
+          "L",
+          "O",
+          "N",
+          "",
+          "O",
+          ""
+        ],
+        [
+          "",
+          "",
+          "C",
+          "",
+          "",
+          "C",
+          "U",
+          "R",
+          "D"
+        ],
+        [
+          "",
+          "",
+          "T",
+          "",
+          "",
+          "H",
+          "",
+          "I",
+          ""
+        ],
+        [
+          "",
+          "P",
+          "A",
+          "P",
+          "R",
+          "I",
+          "K",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "",
+          "R",
+          "",
+          "",
+          "L",
+          "",
+          "N",
+          ""
+        ],
+        [
+          "",
+          "",
+          "I",
+          "",
+          "",
+          "A",
+          "",
+          "D",
+          ""
+        ],
+        [
+          "",
+          "",
+          "N",
+          "O",
+          "O",
+          "D",
+          "L",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "",
+          "E",
+          "",
+          "",
+          "A",
+          "",
+          "R",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 6,
+          "answer": "PAPRIKA",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "P",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "NECTARINE",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 9,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "N",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "CORIANDER",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 9,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "C",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "ENCHILADA",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 9,
+          "clue": "A tasty dish or ingredient",
+          "softHints": {
+            "startsWith": "E",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "NOODLE",
+          "direction": "across",
+          "row": 7,
+          "col": 2,
+          "length": 6,
+          "clue": "Food item",
+          "softHints": {
+            "startsWith": "N",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "MELON",
+          "direction": "across",
+          "row": 1,
+          "col": 1,
+          "length": 5,
+          "clue": "Food item",
+          "softHints": {
+            "startsWith": "M",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 5,
+          "answer": "CURD",
+          "direction": "across",
+          "row": 2,
+          "col": 5,
+          "length": 4,
+          "clue": "Food item",
+          "softHints": {
+            "startsWith": "C",
+            "length": 4,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "Food item",
+            "answer": "MELON",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "Food item",
+            "answer": "CURD",
+            "length": 4
+          },
+          {
+            "number": 6,
+            "clue": "Edible item",
+            "answer": "PAPRIKA",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "Food item",
+            "answer": "NOODLE",
+            "length": 6
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "NECTARINE",
+            "length": 9
+          },
+          {
+            "number": 2,
+            "clue": "A tasty dish or ingredient",
+            "answer": "ENCHILADA",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "Edible item",
+            "answer": "CORIANDER",
+            "length": 9
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "food",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 10,
+        "boardScore": 0.5388
+      }
+    },
+    {
+      "puzzleId": "food-medium-9x9-0008",
+      "seed": 8,
+      "theme": "food",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "C",
+          "",
+          "",
+          "T",
+          "",
+          ""
+        ],
+        [
+          "E",
+          "N",
+          "C",
+          "H",
+          "I",
+          "L",
+          "A",
+          "D",
+          "A"
+        ],
+        [
+          "",
+          "",
+          "",
+          "I",
+          "",
+          "",
+          "N",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "L",
+          "",
+          "",
+          "G",
+          "",
+          ""
+        ],
+        [
+          "",
+          "S",
+          "K",
+          "I",
+          "L",
+          "L",
+          "E",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "T",
+          "",
+          "",
+          "",
+          "",
+          "R",
+          "",
+          ""
+        ],
+        [
+          "S",
+          "E",
+          "A",
+          "S",
+          "O",
+          "N",
+          "I",
+          "N",
+          "G"
+        ],
+        [
+          "",
+          "A",
+          "",
+          "O",
+          "",
+          "",
+          "N",
+          "",
+          ""
+        ],
+        [
+          "",
+          "K",
+          "",
+          "Y",
+          "",
+          "",
+          "E",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "SKILLET",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "A tasty dish or ingredient",
+          "softHints": {
+            "startsWith": "S",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "TANGERINE",
+          "direction": "down",
+          "row": 0,
+          "col": 6,
+          "length": 9,
+          "clue": "A tasty dish or ingredient",
+          "softHints": {
+            "startsWith": "T",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 5,
+          "answer": "SEASONING",
+          "direction": "across",
+          "row": 6,
+          "col": 0,
+          "length": 9,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "S",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "ENCHILADA",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 9,
+          "clue": "A tasty dish or ingredient",
+          "softHints": {
+            "startsWith": "E",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "STEAK",
+          "direction": "down",
+          "row": 4,
+          "col": 1,
+          "length": 5,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "S",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "CHILI",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 5,
+          "clue": "A tasty dish or ingredient",
+          "softHints": {
+            "startsWith": "C",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "SOY",
+          "direction": "down",
+          "row": 6,
+          "col": 3,
+          "length": 3,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "S",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "A tasty dish or ingredient",
+            "answer": "ENCHILADA",
+            "length": 9
+          },
+          {
+            "number": 4,
+            "clue": "A tasty dish or ingredient",
+            "answer": "SKILLET",
+            "length": 7
+          },
+          {
+            "number": 5,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "SEASONING",
+            "length": 9
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A tasty dish or ingredient",
+            "answer": "CHILI",
+            "length": 5
+          },
+          {
+            "number": 2,
+            "clue": "A tasty dish or ingredient",
+            "answer": "TANGERINE",
+            "length": 9
+          },
+          {
+            "number": 4,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "STEAK",
+            "length": 5
+          },
+          {
+            "number": 6,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "SOY",
+            "length": 3
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "food",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 8,
+        "boardScore": 0.5388
+      }
+    },
+    {
+      "puzzleId": "food-medium-9x9-0009",
+      "seed": 9,
+      "theme": "food",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "S",
+          "",
+          "T",
+          "",
+          "N",
+          "",
+          "",
+          ""
+        ],
+        [
+          "S",
+          "E",
+          "S",
+          "A",
+          "M",
+          "E",
+          "",
+          "C",
+          ""
+        ],
+        [
+          "",
+          "A",
+          "",
+          "N",
+          "",
+          "C",
+          "",
+          "O",
+          ""
+        ],
+        [
+          "",
+          "S",
+          "",
+          "G",
+          "",
+          "T",
+          "",
+          "C",
+          ""
+        ],
+        [
+          "",
+          "O",
+          "R",
+          "E",
+          "G",
+          "A",
+          "N",
+          "O",
+          ""
+        ],
+        [
+          "",
+          "N",
+          "",
+          "R",
+          "",
+          "R",
+          "",
+          "N",
+          ""
+        ],
+        [
+          "K",
+          "I",
+          "W",
+          "I",
+          "",
+          "I",
+          "",
+          "U",
+          ""
+        ],
+        [
+          "",
+          "N",
+          "",
+          "N",
+          "",
+          "N",
+          "",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "G",
+          "",
+          "E",
+          "",
+          "E",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 6,
+          "answer": "OREGANO",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Food item",
+          "softHints": {
+            "startsWith": "O",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "NECTARINE",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 9,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "N",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "SEASONING",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 9,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "S",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "TANGERINE",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 9,
+          "clue": "A tasty dish or ingredient",
+          "softHints": {
+            "startsWith": "T",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 5,
+          "answer": "COCONUT",
+          "direction": "down",
+          "row": 1,
+          "col": 7,
+          "length": 7,
+          "clue": "Something you eat",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "SESAME",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 6,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "S",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "KIWI",
+          "direction": "across",
+          "row": 6,
+          "col": 0,
+          "length": 4,
+          "clue": "Something you eat",
+          "softHints": {
+            "startsWith": "K",
+            "length": 4,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "Edible item",
+            "answer": "SESAME",
+            "length": 6
+          },
+          {
+            "number": 6,
+            "clue": "Food item",
+            "answer": "OREGANO",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "Something you eat",
+            "answer": "KIWI",
+            "length": 4
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "SEASONING",
+            "length": 9
+          },
+          {
+            "number": 2,
+            "clue": "A tasty dish or ingredient",
+            "answer": "TANGERINE",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "NECTARINE",
+            "length": 9
+          },
+          {
+            "number": 5,
+            "clue": "Something you eat",
+            "answer": "COCONUT",
+            "length": 7
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "food",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 9,
+        "boardScore": 0.5462
+      }
+    },
+    {
+      "puzzleId": "food-medium-9x9-0010",
+      "seed": 10,
+      "theme": "food",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "C",
+          "",
+          "",
+          "T",
+          "",
+          "T",
+          "",
+          ""
+        ],
+        [
+          "",
+          "R",
+          "O",
+          "S",
+          "E",
+          "M",
+          "A",
+          "R",
+          "Y"
+        ],
+        [
+          "",
+          "O",
+          "",
+          "",
+          "A",
+          "",
+          "N",
+          "",
+          ""
+        ],
+        [
+          "",
+          "I",
+          "",
+          "G",
+          "",
+          "",
+          "G",
+          "",
+          ""
+        ],
+        [
+          "",
+          "S",
+          "K",
+          "I",
+          "L",
+          "L",
+          "E",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "S",
+          "",
+          "N",
+          "",
+          "",
+          "R",
+          "",
+          ""
+        ],
+        [
+          "M",
+          "A",
+          "R",
+          "G",
+          "A",
+          "R",
+          "I",
+          "N",
+          "E"
+        ],
+        [
+          "",
+          "N",
+          "",
+          "E",
+          "",
+          "",
+          "N",
+          "",
+          ""
+        ],
+        [
+          "",
+          "T",
+          "",
+          "R",
+          "",
+          "",
+          "E",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 6,
+          "answer": "SKILLET",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "A tasty dish or ingredient",
+          "softHints": {
+            "startsWith": "S",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "TANGERINE",
+          "direction": "down",
+          "row": 0,
+          "col": 6,
+          "length": 9,
+          "clue": "A tasty dish or ingredient",
+          "softHints": {
+            "startsWith": "T",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "CROISSANT",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 9,
+          "clue": "Food item",
+          "softHints": {
+            "startsWith": "C",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "MARGARINE",
+          "direction": "across",
+          "row": 6,
+          "col": 0,
+          "length": 9,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "M",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "ROSEMARY",
+          "direction": "across",
+          "row": 1,
+          "col": 1,
+          "length": 8,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "R",
+            "length": 8,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 5,
+          "answer": "GINGER",
+          "direction": "down",
+          "row": 3,
+          "col": 3,
+          "length": 6,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "G",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "TEA",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "T",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "ROSEMARY",
+            "length": 8
+          },
+          {
+            "number": 6,
+            "clue": "A tasty dish or ingredient",
+            "answer": "SKILLET",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "Edible item",
+            "answer": "MARGARINE",
+            "length": 9
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Food item",
+            "answer": "CROISSANT",
+            "length": 9
+          },
+          {
+            "number": 2,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "TEA",
+            "length": 3
+          },
+          {
+            "number": 3,
+            "clue": "A tasty dish or ingredient",
+            "answer": "TANGERINE",
+            "length": 9
+          },
+          {
+            "number": 5,
+            "clue": "Edible item",
+            "answer": "GINGER",
+            "length": 6
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "food",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 9,
+        "boardScore": 0.5462
+      }
+    },
+    {
+      "puzzleId": "food-medium-9x9-0011",
+      "seed": 11,
+      "theme": "food",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "C",
+          "",
+          "",
+          "T",
+          "",
+          "T",
+          "",
+          ""
+        ],
+        [
+          "",
+          "R",
+          "O",
+          "S",
+          "E",
+          "M",
+          "A",
+          "R",
+          "Y"
+        ],
+        [
+          "",
+          "O",
+          "",
+          "",
+          "A",
+          "",
+          "N",
+          "",
+          ""
+        ],
+        [
+          "",
+          "I",
+          "",
+          "G",
+          "",
+          "",
+          "G",
+          "",
+          ""
+        ],
+        [
+          "",
+          "S",
+          "K",
+          "I",
+          "L",
+          "L",
+          "E",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "S",
+          "",
+          "N",
+          "",
+          "",
+          "R",
+          "",
+          ""
+        ],
+        [
+          "M",
+          "A",
+          "R",
+          "G",
+          "A",
+          "R",
+          "I",
+          "N",
+          "E"
+        ],
+        [
+          "",
+          "N",
+          "",
+          "E",
+          "",
+          "",
+          "N",
+          "",
+          ""
+        ],
+        [
+          "",
+          "T",
+          "",
+          "R",
+          "",
+          "",
+          "E",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 6,
+          "answer": "SKILLET",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "A tasty dish or ingredient",
+          "softHints": {
+            "startsWith": "S",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "TANGERINE",
+          "direction": "down",
+          "row": 0,
+          "col": 6,
+          "length": 9,
+          "clue": "A tasty dish or ingredient",
+          "softHints": {
+            "startsWith": "T",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "CROISSANT",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 9,
+          "clue": "Food item",
+          "softHints": {
+            "startsWith": "C",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "MARGARINE",
+          "direction": "across",
+          "row": 6,
+          "col": 0,
+          "length": 9,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "M",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "ROSEMARY",
+          "direction": "across",
+          "row": 1,
+          "col": 1,
+          "length": 8,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "R",
+            "length": 8,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 5,
+          "answer": "GINGER",
+          "direction": "down",
+          "row": 3,
+          "col": 3,
+          "length": 6,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "G",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "TEA",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "T",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "ROSEMARY",
+            "length": 8
+          },
+          {
+            "number": 6,
+            "clue": "A tasty dish or ingredient",
+            "answer": "SKILLET",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "Edible item",
+            "answer": "MARGARINE",
+            "length": 9
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Food item",
+            "answer": "CROISSANT",
+            "length": 9
+          },
+          {
+            "number": 2,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "TEA",
+            "length": 3
+          },
+          {
+            "number": 3,
+            "clue": "A tasty dish or ingredient",
+            "answer": "TANGERINE",
+            "length": 9
+          },
+          {
+            "number": 5,
+            "clue": "Edible item",
+            "answer": "GINGER",
+            "length": 6
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "food",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 9,
+        "boardScore": 0.5462
+      }
+    },
+    {
+      "puzzleId": "food-medium-9x9-0012",
+      "seed": 12,
+      "theme": "food",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "I",
+          "",
+          "O",
+          "",
+          "H",
+          "",
+          ""
+        ],
+        [
+          "E",
+          "N",
+          "C",
+          "H",
+          "I",
+          "L",
+          "A",
+          "D",
+          "A"
+        ],
+        [
+          "",
+          "",
+          "E",
+          "",
+          "L",
+          "",
+          "M",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "B",
+          "",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "O",
+          "C",
+          "O",
+          "N",
+          "U",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "U",
+          "",
+          "",
+          "R",
+          "",
+          ""
+        ],
+        [
+          "",
+          "T",
+          "A",
+          "R",
+          "R",
+          "A",
+          "G",
+          "O",
+          "N"
+        ],
+        [
+          "",
+          "E",
+          "",
+          "R",
+          "",
+          "",
+          "E",
+          "",
+          ""
+        ],
+        [
+          "",
+          "A",
+          "",
+          "Y",
+          "",
+          "",
+          "R",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "COCONUT",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Something you eat",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "HAMBURGER",
+          "direction": "down",
+          "row": 0,
+          "col": 6,
+          "length": 9,
+          "clue": "Something you eat",
+          "softHints": {
+            "startsWith": "H",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "ENCHILADA",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 9,
+          "clue": "A tasty dish or ingredient",
+          "softHints": {
+            "startsWith": "E",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "TARRAGON",
+          "direction": "across",
+          "row": 6,
+          "col": 1,
+          "length": 8,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "T",
+            "length": 8,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "CURRY",
+          "direction": "down",
+          "row": 4,
+          "col": 3,
+          "length": 5,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "C",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "TEA",
+          "direction": "down",
+          "row": 6,
+          "col": 1,
+          "length": 3,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "T",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "OIL",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "O",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "ICE",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "clue": "A tasty dish or ingredient",
+          "softHints": {
+            "startsWith": "I",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "A tasty dish or ingredient",
+            "answer": "ENCHILADA",
+            "length": 9
+          },
+          {
+            "number": 5,
+            "clue": "Something you eat",
+            "answer": "COCONUT",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "Edible item",
+            "answer": "TARRAGON",
+            "length": 8
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A tasty dish or ingredient",
+            "answer": "ICE",
+            "length": 3
+          },
+          {
+            "number": 2,
+            "clue": "Edible item",
+            "answer": "OIL",
+            "length": 3
+          },
+          {
+            "number": 3,
+            "clue": "Something you eat",
+            "answer": "HAMBURGER",
+            "length": 9
+          },
+          {
+            "number": 6,
+            "clue": "Edible item",
+            "answer": "CURRY",
+            "length": 5
+          },
+          {
+            "number": 7,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "TEA",
+            "length": 3
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "food",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 8,
+        "intersections": 8,
+        "boardScore": 0.5663
+      }
+    },
+    {
+      "puzzleId": "food-medium-9x9-0013",
+      "seed": 13,
+      "theme": "food",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "C",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "O",
+          "",
+          "S",
+          "",
+          "F",
+          "",
+          ""
+        ],
+        [
+          "M",
+          "A",
+          "R",
+          "G",
+          "A",
+          "R",
+          "I",
+          "N",
+          "E"
+        ],
+        [
+          "",
+          "",
+          "I",
+          "",
+          "L",
+          "",
+          "L",
+          "",
+          ""
+        ],
+        [
+          "",
+          "P",
+          "A",
+          "R",
+          "S",
+          "L",
+          "E",
+          "Y",
+          ""
+        ],
+        [
+          "",
+          "",
+          "N",
+          "",
+          "A",
+          "",
+          "T",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "D",
+          "",
+          "",
+          "",
+          "",
+          "T",
+          ""
+        ],
+        [
+          "O",
+          "M",
+          "E",
+          "L",
+          "E",
+          "T",
+          "T",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "",
+          "R",
+          "",
+          "",
+          "",
+          "",
+          "A",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "PARSLEY",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "P",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "CORIANDER",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 9,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "C",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "MARGARINE",
+          "direction": "across",
+          "row": 2,
+          "col": 0,
+          "length": 9,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "M",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "OMELETTE",
+          "direction": "across",
+          "row": 7,
+          "col": 0,
+          "length": 8,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "O",
+            "length": 8,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "FILET",
+          "direction": "down",
+          "row": 1,
+          "col": 6,
+          "length": 5,
+          "clue": "Something you eat",
+          "softHints": {
+            "startsWith": "F",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "SALSA",
+          "direction": "down",
+          "row": 1,
+          "col": 4,
+          "length": 5,
+          "clue": "Something you eat",
+          "softHints": {
+            "startsWith": "S",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "TEA",
+          "direction": "down",
+          "row": 6,
+          "col": 7,
+          "length": 3,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "T",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "Edible item",
+            "answer": "MARGARINE",
+            "length": 9
+          },
+          {
+            "number": 5,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "PARSLEY",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "Edible item",
+            "answer": "OMELETTE",
+            "length": 8
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Edible item",
+            "answer": "CORIANDER",
+            "length": 9
+          },
+          {
+            "number": 2,
+            "clue": "Something you eat",
+            "answer": "SALSA",
+            "length": 5
+          },
+          {
+            "number": 3,
+            "clue": "Something you eat",
+            "answer": "FILET",
+            "length": 5
+          },
+          {
+            "number": 6,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "TEA",
+            "length": 3
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "food",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 8,
+        "boardScore": 0.5363
+      }
+    },
+    {
+      "puzzleId": "food-medium-9x9-0014",
+      "seed": 14,
+      "theme": "food",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "C",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "O",
+          "",
+          "S",
+          "",
+          "F",
+          "",
+          ""
+        ],
+        [
+          "M",
+          "A",
+          "R",
+          "G",
+          "A",
+          "R",
+          "I",
+          "N",
+          "E"
+        ],
+        [
+          "",
+          "",
+          "I",
+          "",
+          "L",
+          "",
+          "L",
+          "",
+          ""
+        ],
+        [
+          "",
+          "P",
+          "A",
+          "R",
+          "S",
+          "L",
+          "E",
+          "Y",
+          ""
+        ],
+        [
+          "",
+          "",
+          "N",
+          "",
+          "A",
+          "",
+          "T",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "D",
+          "",
+          "",
+          "",
+          "",
+          "T",
+          ""
+        ],
+        [
+          "O",
+          "M",
+          "E",
+          "L",
+          "E",
+          "T",
+          "T",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "",
+          "R",
+          "",
+          "",
+          "",
+          "",
+          "A",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "PARSLEY",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "P",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "CORIANDER",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 9,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "C",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "MARGARINE",
+          "direction": "across",
+          "row": 2,
+          "col": 0,
+          "length": 9,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "M",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "OMELETTE",
+          "direction": "across",
+          "row": 7,
+          "col": 0,
+          "length": 8,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "O",
+            "length": 8,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "FILET",
+          "direction": "down",
+          "row": 1,
+          "col": 6,
+          "length": 5,
+          "clue": "Something you eat",
+          "softHints": {
+            "startsWith": "F",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "SALSA",
+          "direction": "down",
+          "row": 1,
+          "col": 4,
+          "length": 5,
+          "clue": "Something you eat",
+          "softHints": {
+            "startsWith": "S",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "TEA",
+          "direction": "down",
+          "row": 6,
+          "col": 7,
+          "length": 3,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "T",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "Edible item",
+            "answer": "MARGARINE",
+            "length": 9
+          },
+          {
+            "number": 5,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "PARSLEY",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "Edible item",
+            "answer": "OMELETTE",
+            "length": 8
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Edible item",
+            "answer": "CORIANDER",
+            "length": 9
+          },
+          {
+            "number": 2,
+            "clue": "Something you eat",
+            "answer": "SALSA",
+            "length": 5
+          },
+          {
+            "number": 3,
+            "clue": "Something you eat",
+            "answer": "FILET",
+            "length": 5
+          },
+          {
+            "number": 6,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "TEA",
+            "length": 3
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "food",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 8,
+        "boardScore": 0.5363
+      }
+    },
+    {
+      "puzzleId": "food-medium-9x9-0015",
+      "seed": 15,
+      "theme": "food",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "C",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "O",
+          "",
+          "S",
+          "",
+          "F",
+          "",
+          ""
+        ],
+        [
+          "M",
+          "A",
+          "R",
+          "G",
+          "A",
+          "R",
+          "I",
+          "N",
+          "E"
+        ],
+        [
+          "",
+          "",
+          "I",
+          "",
+          "L",
+          "",
+          "L",
+          "",
+          ""
+        ],
+        [
+          "",
+          "P",
+          "A",
+          "R",
+          "S",
+          "L",
+          "E",
+          "Y",
+          ""
+        ],
+        [
+          "",
+          "",
+          "N",
+          "",
+          "A",
+          "",
+          "T",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "D",
+          "",
+          "",
+          "",
+          "",
+          "T",
+          ""
+        ],
+        [
+          "O",
+          "M",
+          "E",
+          "L",
+          "E",
+          "T",
+          "T",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "",
+          "R",
+          "",
+          "",
+          "",
+          "",
+          "A",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "PARSLEY",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "P",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "CORIANDER",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 9,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "C",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "MARGARINE",
+          "direction": "across",
+          "row": 2,
+          "col": 0,
+          "length": 9,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "M",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "OMELETTE",
+          "direction": "across",
+          "row": 7,
+          "col": 0,
+          "length": 8,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "O",
+            "length": 8,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "FILET",
+          "direction": "down",
+          "row": 1,
+          "col": 6,
+          "length": 5,
+          "clue": "Something you eat",
+          "softHints": {
+            "startsWith": "F",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "SALSA",
+          "direction": "down",
+          "row": 1,
+          "col": 4,
+          "length": 5,
+          "clue": "Something you eat",
+          "softHints": {
+            "startsWith": "S",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "TEA",
+          "direction": "down",
+          "row": 6,
+          "col": 7,
+          "length": 3,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "T",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "Edible item",
+            "answer": "MARGARINE",
+            "length": 9
+          },
+          {
+            "number": 5,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "PARSLEY",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "Edible item",
+            "answer": "OMELETTE",
+            "length": 8
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Edible item",
+            "answer": "CORIANDER",
+            "length": 9
+          },
+          {
+            "number": 2,
+            "clue": "Something you eat",
+            "answer": "SALSA",
+            "length": 5
+          },
+          {
+            "number": 3,
+            "clue": "Something you eat",
+            "answer": "FILET",
+            "length": 5
+          },
+          {
+            "number": 6,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "TEA",
+            "length": 3
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "food",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 8,
+        "boardScore": 0.5363
+      }
+    },
+    {
+      "puzzleId": "food-medium-9x9-0016",
+      "seed": 16,
+      "theme": "food",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "N",
+          "",
+          "T",
+          "",
+          "",
+          "R",
+          ""
+        ],
+        [
+          "P",
+          "I",
+          "E",
+          "",
+          "A",
+          "",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "",
+          "C",
+          "",
+          "N",
+          "",
+          "I",
+          "C",
+          "E"
+        ],
+        [
+          "",
+          "",
+          "T",
+          "",
+          "G",
+          "",
+          "",
+          "L",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "A",
+          "Y",
+          "E",
+          "N",
+          "N",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "",
+          "R",
+          "",
+          "R",
+          "",
+          "",
+          "T",
+          ""
+        ],
+        [
+          "R",
+          "A",
+          "I",
+          "S",
+          "I",
+          "N",
+          "",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "",
+          "N",
+          "",
+          "N",
+          "",
+          "T",
+          "E",
+          "A"
+        ],
+        [
+          "",
+          "",
+          "E",
+          "",
+          "E",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 6,
+          "answer": "CAYENNE",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "NECTARINE",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 9,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "N",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "TANGERINE",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 9,
+          "clue": "A tasty dish or ingredient",
+          "softHints": {
+            "startsWith": "T",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "RACLETTE",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 8,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "R",
+            "length": 8,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "RAISIN",
+          "direction": "across",
+          "row": 6,
+          "col": 0,
+          "length": 6,
+          "clue": "A tasty dish or ingredient",
+          "softHints": {
+            "startsWith": "R",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 5,
+          "answer": "ICE",
+          "direction": "across",
+          "row": 2,
+          "col": 6,
+          "length": 3,
+          "clue": "A tasty dish or ingredient",
+          "softHints": {
+            "startsWith": "I",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 8,
+          "answer": "TEA",
+          "direction": "across",
+          "row": 7,
+          "col": 6,
+          "length": 3,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "T",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "PIE",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "P",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "PIE",
+            "length": 3
+          },
+          {
+            "number": 5,
+            "clue": "A tasty dish or ingredient",
+            "answer": "ICE",
+            "length": 3
+          },
+          {
+            "number": 6,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "CAYENNE",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "A tasty dish or ingredient",
+            "answer": "RAISIN",
+            "length": 6
+          },
+          {
+            "number": 8,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "TEA",
+            "length": 3
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "NECTARINE",
+            "length": 9
+          },
+          {
+            "number": 2,
+            "clue": "A tasty dish or ingredient",
+            "answer": "TANGERINE",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "Edible item",
+            "answer": "RACLETTE",
+            "length": 8
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "food",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 8,
+        "intersections": 8,
+        "boardScore": 0.5688
+      }
+    },
+    {
+      "puzzleId": "food-medium-9x9-0017",
+      "seed": 17,
+      "theme": "food",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "N",
+          "",
+          "T",
+          "",
+          "",
+          "R",
+          ""
+        ],
+        [
+          "P",
+          "I",
+          "E",
+          "",
+          "A",
+          "",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "",
+          "C",
+          "",
+          "N",
+          "",
+          "I",
+          "C",
+          "E"
+        ],
+        [
+          "",
+          "",
+          "T",
+          "",
+          "G",
+          "",
+          "",
+          "L",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "A",
+          "Y",
+          "E",
+          "N",
+          "N",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "",
+          "R",
+          "",
+          "R",
+          "",
+          "",
+          "T",
+          ""
+        ],
+        [
+          "R",
+          "A",
+          "I",
+          "S",
+          "I",
+          "N",
+          "",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "",
+          "N",
+          "",
+          "N",
+          "",
+          "T",
+          "E",
+          "A"
+        ],
+        [
+          "",
+          "",
+          "E",
+          "",
+          "E",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 6,
+          "answer": "CAYENNE",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "NECTARINE",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 9,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "N",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "TANGERINE",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 9,
+          "clue": "A tasty dish or ingredient",
+          "softHints": {
+            "startsWith": "T",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "RACLETTE",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 8,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "R",
+            "length": 8,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "RAISIN",
+          "direction": "across",
+          "row": 6,
+          "col": 0,
+          "length": 6,
+          "clue": "A tasty dish or ingredient",
+          "softHints": {
+            "startsWith": "R",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 5,
+          "answer": "ICE",
+          "direction": "across",
+          "row": 2,
+          "col": 6,
+          "length": 3,
+          "clue": "A tasty dish or ingredient",
+          "softHints": {
+            "startsWith": "I",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 8,
+          "answer": "TEA",
+          "direction": "across",
+          "row": 7,
+          "col": 6,
+          "length": 3,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "T",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "PIE",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "P",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "PIE",
+            "length": 3
+          },
+          {
+            "number": 5,
+            "clue": "A tasty dish or ingredient",
+            "answer": "ICE",
+            "length": 3
+          },
+          {
+            "number": 6,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "CAYENNE",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "A tasty dish or ingredient",
+            "answer": "RAISIN",
+            "length": 6
+          },
+          {
+            "number": 8,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "TEA",
+            "length": 3
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "NECTARINE",
+            "length": 9
+          },
+          {
+            "number": 2,
+            "clue": "A tasty dish or ingredient",
+            "answer": "TANGERINE",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "Edible item",
+            "answer": "RACLETTE",
+            "length": 8
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "food",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 8,
+        "intersections": 8,
+        "boardScore": 0.5688
+      }
+    },
+    {
+      "puzzleId": "food-medium-9x9-0018",
+      "seed": 18,
+      "theme": "food",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "N",
+          "",
+          "T",
+          "",
+          "",
+          "R",
+          ""
+        ],
+        [
+          "P",
+          "I",
+          "E",
+          "",
+          "A",
+          "",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "",
+          "C",
+          "",
+          "N",
+          "",
+          "I",
+          "C",
+          "E"
+        ],
+        [
+          "",
+          "",
+          "T",
+          "",
+          "G",
+          "",
+          "",
+          "L",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "A",
+          "Y",
+          "E",
+          "N",
+          "N",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "",
+          "R",
+          "",
+          "R",
+          "",
+          "",
+          "T",
+          ""
+        ],
+        [
+          "R",
+          "A",
+          "I",
+          "S",
+          "I",
+          "N",
+          "",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "",
+          "N",
+          "",
+          "N",
+          "",
+          "T",
+          "E",
+          "A"
+        ],
+        [
+          "",
+          "",
+          "E",
+          "",
+          "E",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 6,
+          "answer": "CAYENNE",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "NECTARINE",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 9,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "N",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "TANGERINE",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 9,
+          "clue": "A tasty dish or ingredient",
+          "softHints": {
+            "startsWith": "T",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "RACLETTE",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 8,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "R",
+            "length": 8,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "RAISIN",
+          "direction": "across",
+          "row": 6,
+          "col": 0,
+          "length": 6,
+          "clue": "A tasty dish or ingredient",
+          "softHints": {
+            "startsWith": "R",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 5,
+          "answer": "ICE",
+          "direction": "across",
+          "row": 2,
+          "col": 6,
+          "length": 3,
+          "clue": "A tasty dish or ingredient",
+          "softHints": {
+            "startsWith": "I",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 8,
+          "answer": "TEA",
+          "direction": "across",
+          "row": 7,
+          "col": 6,
+          "length": 3,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "T",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "PIE",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "P",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "PIE",
+            "length": 3
+          },
+          {
+            "number": 5,
+            "clue": "A tasty dish or ingredient",
+            "answer": "ICE",
+            "length": 3
+          },
+          {
+            "number": 6,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "CAYENNE",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "A tasty dish or ingredient",
+            "answer": "RAISIN",
+            "length": 6
+          },
+          {
+            "number": 8,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "TEA",
+            "length": 3
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "NECTARINE",
+            "length": 9
+          },
+          {
+            "number": 2,
+            "clue": "A tasty dish or ingredient",
+            "answer": "TANGERINE",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "Edible item",
+            "answer": "RACLETTE",
+            "length": 8
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "food",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 8,
+        "intersections": 8,
+        "boardScore": 0.5688
+      }
+    },
+    {
+      "puzzleId": "food-medium-9x9-0019",
+      "seed": 19,
+      "theme": "food",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "N",
+          "",
+          "H",
+          "",
+          "",
+          "S",
+          ""
+        ],
+        [
+          "P",
+          "I",
+          "E",
+          "",
+          "A",
+          "",
+          "T",
+          "E",
+          "A"
+        ],
+        [
+          "",
+          "",
+          "C",
+          "",
+          "M",
+          "",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "",
+          "T",
+          "",
+          "B",
+          "",
+          "",
+          "S",
+          ""
+        ],
+        [
+          "",
+          "T",
+          "A",
+          "Q",
+          "U",
+          "I",
+          "T",
+          "O",
+          ""
+        ],
+        [
+          "",
+          "",
+          "R",
+          "",
+          "R",
+          "",
+          "",
+          "N",
+          ""
+        ],
+        [
+          "",
+          "",
+          "I",
+          "",
+          "G",
+          "",
+          "",
+          "I",
+          ""
+        ],
+        [
+          "T",
+          "A",
+          "N",
+          "G",
+          "E",
+          "R",
+          "I",
+          "N",
+          "E"
+        ],
+        [
+          "",
+          "",
+          "E",
+          "",
+          "R",
+          "",
+          "",
+          "G",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          null,
+          "",
+          null,
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 6,
+          "answer": "TAQUITO",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "T",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "SEASONING",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 9,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "S",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "TANGERINE",
+          "direction": "across",
+          "row": 7,
+          "col": 0,
+          "length": 9,
+          "clue": "A tasty dish or ingredient",
+          "softHints": {
+            "startsWith": "T",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "NECTARINE",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 9,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "N",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "HAMBURGER",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 9,
+          "clue": "Something you eat",
+          "softHints": {
+            "startsWith": "H",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 5,
+          "answer": "TEA",
+          "direction": "across",
+          "row": 1,
+          "col": 6,
+          "length": 3,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "T",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "PIE",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "P",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "PIE",
+            "length": 3
+          },
+          {
+            "number": 5,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "TEA",
+            "length": 3
+          },
+          {
+            "number": 6,
+            "clue": "Edible item",
+            "answer": "TAQUITO",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "A tasty dish or ingredient",
+            "answer": "TANGERINE",
+            "length": 9
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "NECTARINE",
+            "length": 9
+          },
+          {
+            "number": 2,
+            "clue": "Something you eat",
+            "answer": "HAMBURGER",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "SEASONING",
+            "length": 9
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "food",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 8,
+        "boardScore": 0.5437
+      }
+    },
+    {
+      "puzzleId": "food-medium-9x9-0020",
+      "seed": 20,
+      "theme": "food",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "N",
+          "",
+          "H",
+          "",
+          "",
+          "S",
+          ""
+        ],
+        [
+          "P",
+          "I",
+          "E",
+          "",
+          "A",
+          "",
+          "T",
+          "E",
+          "A"
+        ],
+        [
+          "",
+          "",
+          "C",
+          "",
+          "M",
+          "",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "",
+          "T",
+          "",
+          "B",
+          "",
+          "",
+          "S",
+          ""
+        ],
+        [
+          "",
+          "T",
+          "A",
+          "Q",
+          "U",
+          "I",
+          "T",
+          "O",
+          ""
+        ],
+        [
+          "",
+          "",
+          "R",
+          "",
+          "R",
+          "",
+          "",
+          "N",
+          ""
+        ],
+        [
+          "",
+          "",
+          "I",
+          "",
+          "G",
+          "",
+          "",
+          "I",
+          ""
+        ],
+        [
+          "T",
+          "A",
+          "N",
+          "G",
+          "E",
+          "R",
+          "I",
+          "N",
+          "E"
+        ],
+        [
+          "",
+          "",
+          "E",
+          "",
+          "R",
+          "",
+          "",
+          "G",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          null,
+          "",
+          null,
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 6,
+          "answer": "TAQUITO",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "T",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "SEASONING",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 9,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "S",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "TANGERINE",
+          "direction": "across",
+          "row": 7,
+          "col": 0,
+          "length": 9,
+          "clue": "A tasty dish or ingredient",
+          "softHints": {
+            "startsWith": "T",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "NECTARINE",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 9,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "N",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "HAMBURGER",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 9,
+          "clue": "Something you eat",
+          "softHints": {
+            "startsWith": "H",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 5,
+          "answer": "TEA",
+          "direction": "across",
+          "row": 1,
+          "col": 6,
+          "length": 3,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "T",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "PIE",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "P",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "PIE",
+            "length": 3
+          },
+          {
+            "number": 5,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "TEA",
+            "length": 3
+          },
+          {
+            "number": 6,
+            "clue": "Edible item",
+            "answer": "TAQUITO",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "A tasty dish or ingredient",
+            "answer": "TANGERINE",
+            "length": 9
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "NECTARINE",
+            "length": 9
+          },
+          {
+            "number": 2,
+            "clue": "Something you eat",
+            "answer": "HAMBURGER",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "SEASONING",
+            "length": 9
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "food",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 8,
+        "boardScore": 0.5437
+      }
+    }
+  ]
+}

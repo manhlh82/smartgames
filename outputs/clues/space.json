@@ -1,0 +1,1011 @@
+{
+  "theme": "space",
+  "count": 62,
+  "clues": [
+    {
+      "word": "BRIGHTNESS",
+      "primaryClue": "Astronomical term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "B",
+        "length": 10,
+        "category": "space"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "CONDUCTION",
+      "primaryClue": "Studied by NASA",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 10,
+        "category": "space"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "CONVECTION",
+      "primaryClue": "Celestial object or phenomenon",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 10,
+        "category": "space"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "CORE",
+      "primaryClue": "Astronomical term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 4,
+        "category": "space"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "CORONA",
+      "primaryClue": "Found in the cosmos",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 6,
+        "category": "space"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "DENSITY",
+      "primaryClue": "Celestial object or phenomenon",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "D",
+        "length": 7,
+        "category": "space"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "DUST",
+      "primaryClue": "Celestial object or phenomenon",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "D",
+        "length": 4,
+        "category": "space"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "ELECTRON",
+      "primaryClue": "Space exploration term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "E",
+        "length": 8,
+        "category": "space"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "ENERGY",
+      "primaryClue": "Astronomical term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "E",
+        "length": 6,
+        "category": "space"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "ENVELOPE",
+      "primaryClue": "Celestial object or phenomenon",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "E",
+        "length": 8,
+        "category": "space"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "FLUX",
+      "primaryClue": "Studied by NASA",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "F",
+        "length": 4,
+        "category": "space"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "FUSION",
+      "primaryClue": "Studied by NASA",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "F",
+        "length": 6,
+        "category": "space"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "GRAVITY",
+      "primaryClue": "Astronomical term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "G",
+        "length": 7,
+        "category": "space"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "HADRON",
+      "primaryClue": "Studied by NASA",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "H",
+        "length": 6,
+        "category": "space"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "HALO",
+      "primaryClue": "Astronomical term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "H",
+        "length": 4,
+        "category": "space"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "LEPTON",
+      "primaryClue": "Studied by NASA",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "L",
+        "length": 6,
+        "category": "space"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "LUMINOSITY",
+      "primaryClue": "Space exploration term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "L",
+        "length": 10,
+        "category": "space"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "MAGNITUDE",
+      "primaryClue": "Studied by NASA",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "M",
+        "length": 9,
+        "category": "space"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "MASS",
+      "primaryClue": "Space exploration term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "M",
+        "length": 4,
+        "category": "space"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "NEUTRINO",
+      "primaryClue": "Astronomical term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "N",
+        "length": 8,
+        "category": "space"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "NEUTRON",
+      "primaryClue": "Found in the cosmos",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "N",
+        "length": 7,
+        "category": "space"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "NUCLEUS",
+      "primaryClue": "Studied by NASA",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "N",
+        "length": 7,
+        "category": "space"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "OMEGA",
+      "primaryClue": "Space exploration term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "O",
+        "length": 5,
+        "category": "space"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "OPACITY",
+      "primaryClue": "Found in the cosmos",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "O",
+        "length": 7,
+        "category": "space"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "PARALLAX",
+      "primaryClue": "Space exploration term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "P",
+        "length": 8,
+        "category": "space"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "PHOTOMETRY",
+      "primaryClue": "Found in the cosmos",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "P",
+        "length": 10,
+        "category": "space"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "PHOTON",
+      "primaryClue": "Celestial object or phenomenon",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "P",
+        "length": 6,
+        "category": "space"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "PROTON",
+      "primaryClue": "Space exploration term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "P",
+        "length": 6,
+        "category": "space"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "PULSAR",
+      "primaryClue": "Astronomical term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "P",
+        "length": 6,
+        "category": "space"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "QUASAR",
+      "primaryClue": "Astronomical term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "Q",
+        "length": 6,
+        "category": "space"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "RADIAN",
+      "primaryClue": "Studied by NASA",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "R",
+        "length": 6,
+        "category": "space"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "RADIUS",
+      "primaryClue": "Found in the cosmos",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "R",
+        "length": 6,
+        "category": "space"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "REDSHIFT",
+      "primaryClue": "Found in the cosmos",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "R",
+        "length": 8,
+        "category": "space"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "RELATIVITY",
+      "primaryClue": "Astronomical term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "R",
+        "length": 10,
+        "category": "space"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SUPERNOVA",
+      "primaryClue": "Celestial object or phenomenon",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 9,
+        "category": "space"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "MOON",
+      "primaryClue": "Studied by NASA",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "M",
+        "length": 4,
+        "category": "space"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "STAR",
+      "primaryClue": "Studied by NASA",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 4,
+        "category": "space"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "PLANET",
+      "primaryClue": "Space exploration term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "P",
+        "length": 6,
+        "category": "space"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "COMET",
+      "primaryClue": "Space exploration term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 5,
+        "category": "space"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "ORBIT",
+      "primaryClue": "Astronomical term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "O",
+        "length": 5,
+        "category": "space"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SOLAR",
+      "primaryClue": "Studied by NASA",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 5,
+        "category": "space"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "NEBULA",
+      "primaryClue": "Studied by NASA",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "N",
+        "length": 6,
+        "category": "space"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "GALAXY",
+      "primaryClue": "Studied by NASA",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "G",
+        "length": 6,
+        "category": "space"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "ROCKET",
+      "primaryClue": "Celestial object or phenomenon",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "R",
+        "length": 6,
+        "category": "space"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "CRATER",
+      "primaryClue": "Studied by NASA",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 6,
+        "category": "space"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "METEOR",
+      "primaryClue": "Found in the cosmos",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "M",
+        "length": 6,
+        "category": "space"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "TITAN",
+      "primaryClue": "Found in the cosmos",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "T",
+        "length": 5,
+        "category": "space"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "MARS",
+      "primaryClue": "Studied by NASA",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "M",
+        "length": 4,
+        "category": "space"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "VENUS",
+      "primaryClue": "Celestial object or phenomenon",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "V",
+        "length": 5,
+        "category": "space"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SATURN",
+      "primaryClue": "Space exploration term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 6,
+        "category": "space"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "COSMOS",
+      "primaryClue": "Found in the cosmos",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 6,
+        "category": "space"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "NOVA",
+      "primaryClue": "Celestial object or phenomenon",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "N",
+        "length": 4,
+        "category": "space"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "AURORA",
+      "primaryClue": "Astronomical term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "A",
+        "length": 6,
+        "category": "space"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "ZENITH",
+      "primaryClue": "Celestial object or phenomenon",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "Z",
+        "length": 6,
+        "category": "space"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "ECLIPSE",
+      "primaryClue": "Studied by NASA",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "E",
+        "length": 7,
+        "category": "space"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "ASTEROID",
+      "primaryClue": "Astronomical term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "A",
+        "length": 8,
+        "category": "space"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "TELESCOPE",
+      "primaryClue": "Celestial object or phenomenon",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "T",
+        "length": 9,
+        "category": "space"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "PROBE",
+      "primaryClue": "Celestial object or phenomenon",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "P",
+        "length": 5,
+        "category": "space"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "LUNAR",
+      "primaryClue": "Studied by NASA",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "L",
+        "length": 5,
+        "category": "space"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "COSMIC",
+      "primaryClue": "Studied by NASA",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 6,
+        "category": "space"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SUNSPOT",
+      "primaryClue": "Astronomical term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 7,
+        "category": "space"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "VORTEX",
+      "primaryClue": "Found in the cosmos",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "V",
+        "length": 6,
+        "category": "space"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    }
+  ]
+}

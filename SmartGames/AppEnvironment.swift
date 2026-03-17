@@ -26,6 +26,7 @@ final class AppEnvironment: ObservableObject {
     let weeklyChallenge: WeeklyChallengeService
     let dropRushDailyChallenge: DropRushDailyChallengeService
     let stack2048DailyChallenge: Stack2048DailyChallengeService
+    let crosswordDailyChallenge: CrosswordDailyChallengeService
 
     init() {
         let persistence = PersistenceService()
@@ -93,6 +94,11 @@ final class AppEnvironment: ObservableObject {
             gold: gold,
             gameCenter: self.gameCenter
         )
+        self.crosswordDailyChallenge = CrosswordDailyChallengeService(
+            persistence: persistence,
+            gold: gold,
+            gameCenter: self.gameCenter
+        )
 
         // Grant diamonds on first app launch (onboarding)
         if !persistence.exists(key: PersistenceService.Keys.diamondOnboardingGranted) {
@@ -108,6 +114,8 @@ final class AppEnvironment: ObservableObject {
         registry.register(dropRush)
         let stack2048 = Stack2048Module(persistence: persistence)
         registry.register(stack2048)
+        let crossword = CrosswordModule(persistence: persistence)
+        registry.register(crossword)
         self.gameRegistry = registry
     }
 }

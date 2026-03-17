@@ -1,0 +1,7828 @@
+{
+  "packId": "space-medium",
+  "title": "Space Explorer",
+  "theme": "space",
+  "difficulty": "medium",
+  "boardSize": "standard",
+  "puzzleCount": 20,
+  "version": "1.0.0",
+  "createdAt": "2026-03-17",
+  "puzzles": [
+    {
+      "puzzleId": "space-medium-9x9-0001",
+      "seed": 1,
+      "theme": "space",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "M",
+          "",
+          "E",
+          "",
+          "T",
+          "",
+          ""
+        ],
+        [
+          "S",
+          "E",
+          "A",
+          "",
+          "N",
+          "",
+          "R",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "R",
+          "",
+          "C",
+          "H",
+          "I",
+          "L",
+          "I"
+        ],
+        [
+          "",
+          "",
+          "G",
+          "",
+          "H",
+          "",
+          "B",
+          "",
+          ""
+        ],
+        [
+          "",
+          "H",
+          "A",
+          "L",
+          "I",
+          "B",
+          "U",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "",
+          "R",
+          "",
+          "L",
+          "",
+          "T",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "I",
+          "",
+          "A",
+          "",
+          "A",
+          "",
+          ""
+        ],
+        [
+          "F",
+          "E",
+          "N",
+          "",
+          "D",
+          "A",
+          "R",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "",
+          "E",
+          "",
+          "A",
+          "",
+          "Y",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          null,
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 6,
+          "answer": "HALIBUT",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Marine creature or feature",
+          "softHints": {
+            "startsWith": "H",
+            "length": 7,
+            "category": "ocean"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "MARGARINE",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 9,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "M",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "ENCHILADA",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 9,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "E",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "TRIBUTARY",
+          "direction": "down",
+          "row": 0,
+          "col": 6,
+          "length": 9,
+          "clue": "Urban feature or place",
+          "softHints": {
+            "startsWith": "T",
+            "length": 9,
+            "category": "city"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 5,
+          "answer": "CHILI",
+          "direction": "across",
+          "row": 2,
+          "col": 4,
+          "length": 5,
+          "clue": "Food item",
+          "softHints": {
+            "startsWith": "C",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 8,
+          "answer": "DART",
+          "direction": "across",
+          "row": 7,
+          "col": 4,
+          "length": 4,
+          "clue": "Played in competition",
+          "softHints": {
+            "startsWith": "D",
+            "length": 4,
+            "category": "sports"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "SEA",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "clue": "City infrastructure term",
+          "softHints": {
+            "startsWith": "S",
+            "length": 3,
+            "category": "city"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "FEN",
+          "direction": "across",
+          "row": 7,
+          "col": 0,
+          "length": 3,
+          "clue": "What the forecast might show",
+          "softHints": {
+            "startsWith": "F",
+            "length": 3,
+            "category": "weather"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "City infrastructure term",
+            "answer": "SEA",
+            "length": 3
+          },
+          {
+            "number": 5,
+            "clue": "Food item",
+            "answer": "CHILI",
+            "length": 5
+          },
+          {
+            "number": 6,
+            "clue": "Marine creature or feature",
+            "answer": "HALIBUT",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "What the forecast might show",
+            "answer": "FEN",
+            "length": 3
+          },
+          {
+            "number": 8,
+            "clue": "Played in competition",
+            "answer": "DART",
+            "length": 4
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Edible item",
+            "answer": "MARGARINE",
+            "length": 9
+          },
+          {
+            "number": 2,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "ENCHILADA",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "Urban feature or place",
+            "answer": "TRIBUTARY",
+            "length": 9
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "space",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 8,
+        "intersections": 9,
+        "boardScore": 0.5688
+      }
+    },
+    {
+      "puzzleId": "space-medium-9x9-0002",
+      "seed": 2,
+      "theme": "space",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "B",
+          "",
+          "",
+          "",
+          "",
+          "B",
+          "",
+          ""
+        ],
+        [
+          "",
+          "O",
+          "",
+          "",
+          "O",
+          "",
+          "A",
+          "",
+          ""
+        ],
+        [
+          "R",
+          "A",
+          "S",
+          "P",
+          "B",
+          "E",
+          "R",
+          "R",
+          "Y"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "O",
+          "",
+          "R",
+          "",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "H",
+          "E",
+          "E",
+          "T",
+          "A",
+          "H",
+          ""
+        ],
+        [
+          "",
+          "H",
+          "",
+          "",
+          "",
+          "",
+          "C",
+          "",
+          ""
+        ],
+        [
+          "D",
+          "A",
+          "C",
+          "H",
+          "S",
+          "H",
+          "U",
+          "N",
+          "D"
+        ],
+        [
+          "",
+          "L",
+          "",
+          "",
+          "O",
+          "",
+          "D",
+          "",
+          ""
+        ],
+        [
+          "",
+          "K",
+          "",
+          "",
+          "Y",
+          "",
+          "A",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "CHEETAH",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Found in nature or a zoo",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "BARRACUDA",
+          "direction": "down",
+          "row": 0,
+          "col": 6,
+          "length": 9,
+          "clue": "Furry, feathered, or scaled creature",
+          "softHints": {
+            "startsWith": "B",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "RASPBERRY",
+          "direction": "across",
+          "row": 2,
+          "col": 0,
+          "length": 9,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "R",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "DACHSHUND",
+          "direction": "across",
+          "row": 6,
+          "col": 0,
+          "length": 9,
+          "clue": "Found in nature or a zoo",
+          "softHints": {
+            "startsWith": "D",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 5,
+          "answer": "CHALK",
+          "direction": "down",
+          "row": 4,
+          "col": 1,
+          "length": 5,
+          "clue": "Academic term",
+          "softHints": {
+            "startsWith": "C",
+            "length": 5,
+            "category": "school"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "OBOE",
+          "direction": "down",
+          "row": 1,
+          "col": 4,
+          "length": 4,
+          "clue": "Musical term",
+          "softHints": {
+            "startsWith": "O",
+            "length": 4,
+            "category": "music"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "SOY",
+          "direction": "down",
+          "row": 6,
+          "col": 4,
+          "length": 3,
+          "clue": "A tasty dish or ingredient",
+          "softHints": {
+            "startsWith": "S",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "BOA",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 3,
+          "clue": "Found in nature or a zoo",
+          "softHints": {
+            "startsWith": "B",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "RASPBERRY",
+            "length": 9
+          },
+          {
+            "number": 5,
+            "clue": "Found in nature or a zoo",
+            "answer": "CHEETAH",
+            "length": 7
+          },
+          {
+            "number": 6,
+            "clue": "Found in nature or a zoo",
+            "answer": "DACHSHUND",
+            "length": 9
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Found in nature or a zoo",
+            "answer": "BOA",
+            "length": 3
+          },
+          {
+            "number": 2,
+            "clue": "Furry, feathered, or scaled creature",
+            "answer": "BARRACUDA",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "Musical term",
+            "answer": "OBOE",
+            "length": 4
+          },
+          {
+            "number": 5,
+            "clue": "Academic term",
+            "answer": "CHALK",
+            "length": 5
+          },
+          {
+            "number": 7,
+            "clue": "A tasty dish or ingredient",
+            "answer": "SOY",
+            "length": 3
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "space",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 8,
+        "intersections": 9,
+        "boardScore": 0.5688
+      }
+    },
+    {
+      "puzzleId": "space-medium-9x9-0003",
+      "seed": 3,
+      "theme": "space",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "T",
+          "",
+          "K",
+          "",
+          "S",
+          "",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "E",
+          "",
+          "E",
+          "",
+          "P",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "N",
+          "E",
+          "C",
+          "T",
+          "A",
+          "R",
+          "I",
+          "N",
+          "E"
+        ],
+        [
+          "",
+          "",
+          "",
+          "T",
+          "",
+          "O",
+          "",
+          "G",
+          ""
+        ],
+        [
+          "",
+          "V",
+          "U",
+          "L",
+          "T",
+          "U",
+          "R",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "E",
+          "",
+          "T",
+          "",
+          "R",
+          ""
+        ],
+        [
+          "",
+          "",
+          "I",
+          "",
+          "",
+          "",
+          "",
+          "I",
+          ""
+        ],
+        [
+          "D",
+          "A",
+          "C",
+          "H",
+          "S",
+          "H",
+          "U",
+          "N",
+          "D"
+        ],
+        [
+          "",
+          "",
+          "E",
+          "",
+          "",
+          "",
+          "",
+          "E",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 6,
+          "answer": "VULTURE",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Furry, feathered, or scaled creature",
+          "softHints": {
+            "startsWith": "V",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "TANGERINE",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 9,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "T",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 5,
+          "answer": "NECTARINE",
+          "direction": "across",
+          "row": 2,
+          "col": 0,
+          "length": 9,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "N",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 8,
+          "answer": "DACHSHUND",
+          "direction": "across",
+          "row": 7,
+          "col": 0,
+          "length": 9,
+          "clue": "Found in nature or a zoo",
+          "softHints": {
+            "startsWith": "D",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "KETTLE",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 6,
+          "clue": "A weather condition",
+          "softHints": {
+            "startsWith": "K",
+            "length": 6,
+            "category": "weather"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "SPROUT",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 6,
+          "clue": "Flora or natural element",
+          "softHints": {
+            "startsWith": "S",
+            "length": 6,
+            "category": "nature"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "TEE",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 3,
+          "clue": "Sports-related word",
+          "softHints": {
+            "startsWith": "T",
+            "length": 3,
+            "category": "sports"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "ICE",
+          "direction": "down",
+          "row": 6,
+          "col": 2,
+          "length": 3,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "I",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 5,
+            "clue": "Edible item",
+            "answer": "NECTARINE",
+            "length": 9
+          },
+          {
+            "number": 6,
+            "clue": "Furry, feathered, or scaled creature",
+            "answer": "VULTURE",
+            "length": 7
+          },
+          {
+            "number": 8,
+            "clue": "Found in nature or a zoo",
+            "answer": "DACHSHUND",
+            "length": 9
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Sports-related word",
+            "answer": "TEE",
+            "length": 3
+          },
+          {
+            "number": 2,
+            "clue": "A weather condition",
+            "answer": "KETTLE",
+            "length": 6
+          },
+          {
+            "number": 3,
+            "clue": "Flora or natural element",
+            "answer": "SPROUT",
+            "length": 6
+          },
+          {
+            "number": 4,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "TANGERINE",
+            "length": 9
+          },
+          {
+            "number": 7,
+            "clue": "Edible item",
+            "answer": "ICE",
+            "length": 3
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "space",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 8,
+        "intersections": 9,
+        "boardScore": 0.5762
+      }
+    },
+    {
+      "puzzleId": "space-medium-9x9-0004",
+      "seed": 4,
+      "theme": "space",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "D",
+          "",
+          "C",
+          "",
+          "X",
+          "",
+          "T",
+          ""
+        ],
+        [
+          "C",
+          "A",
+          "N",
+          "A",
+          "R",
+          "Y",
+          "",
+          "R",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "",
+          "B",
+          "",
+          "L",
+          "",
+          "I",
+          ""
+        ],
+        [
+          "",
+          "H",
+          "",
+          "R",
+          "",
+          "O",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "S",
+          "N",
+          "I",
+          "P",
+          "P",
+          "E",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "H",
+          "",
+          "O",
+          "",
+          "H",
+          "",
+          "H",
+          ""
+        ],
+        [
+          "",
+          "U",
+          "",
+          "L",
+          "",
+          "O",
+          "W",
+          "L",
+          ""
+        ],
+        [
+          "",
+          "N",
+          "",
+          "E",
+          "",
+          "N",
+          "",
+          "O",
+          ""
+        ],
+        [
+          "",
+          "D",
+          "",
+          "T",
+          "",
+          "E",
+          "",
+          "N",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 6,
+          "answer": "SNIPPET",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Part of school life",
+          "softHints": {
+            "startsWith": "S",
+            "length": 7,
+            "category": "school"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "CABRIOLET",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 9,
+          "clue": "Used for getting around",
+          "softHints": {
+            "startsWith": "C",
+            "length": 9,
+            "category": "travel"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "TRIATHLON",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 9,
+          "clue": "Athletic activity",
+          "softHints": {
+            "startsWith": "T",
+            "length": 9,
+            "category": "sports"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "DACHSHUND",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 9,
+          "clue": "Found in nature or a zoo",
+          "softHints": {
+            "startsWith": "D",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "XYLOPHONE",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 9,
+          "clue": "Musical term",
+          "softHints": {
+            "startsWith": "X",
+            "length": 9,
+            "category": "music"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 5,
+          "answer": "CANARY",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 6,
+          "clue": "Creature in the animal kingdom",
+          "softHints": {
+            "startsWith": "C",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "OWL",
+          "direction": "across",
+          "row": 6,
+          "col": 5,
+          "length": 3,
+          "clue": "Creature in the animal kingdom",
+          "softHints": {
+            "startsWith": "O",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 5,
+            "clue": "Creature in the animal kingdom",
+            "answer": "CANARY",
+            "length": 6
+          },
+          {
+            "number": 6,
+            "clue": "Part of school life",
+            "answer": "SNIPPET",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "Creature in the animal kingdom",
+            "answer": "OWL",
+            "length": 3
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Found in nature or a zoo",
+            "answer": "DACHSHUND",
+            "length": 9
+          },
+          {
+            "number": 2,
+            "clue": "Used for getting around",
+            "answer": "CABRIOLET",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "Musical term",
+            "answer": "XYLOPHONE",
+            "length": 9
+          },
+          {
+            "number": 4,
+            "clue": "Athletic activity",
+            "answer": "TRIATHLON",
+            "length": 9
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "space",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 9,
+        "boardScore": 0.5487
+      }
+    },
+    {
+      "puzzleId": "space-medium-9x9-0005",
+      "seed": 5,
+      "theme": "space",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "D",
+          "",
+          "C",
+          "",
+          "X",
+          "",
+          "T",
+          ""
+        ],
+        [
+          "C",
+          "A",
+          "N",
+          "A",
+          "R",
+          "Y",
+          "",
+          "R",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "",
+          "B",
+          "",
+          "L",
+          "",
+          "I",
+          ""
+        ],
+        [
+          "",
+          "H",
+          "",
+          "R",
+          "",
+          "O",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "S",
+          "N",
+          "I",
+          "P",
+          "P",
+          "E",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "H",
+          "",
+          "O",
+          "",
+          "H",
+          "",
+          "H",
+          ""
+        ],
+        [
+          "",
+          "U",
+          "",
+          "L",
+          "",
+          "O",
+          "W",
+          "L",
+          ""
+        ],
+        [
+          "",
+          "N",
+          "",
+          "E",
+          "",
+          "N",
+          "",
+          "O",
+          ""
+        ],
+        [
+          "",
+          "D",
+          "",
+          "T",
+          "",
+          "E",
+          "",
+          "N",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 6,
+          "answer": "SNIPPET",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Part of school life",
+          "softHints": {
+            "startsWith": "S",
+            "length": 7,
+            "category": "school"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "CABRIOLET",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 9,
+          "clue": "Used for getting around",
+          "softHints": {
+            "startsWith": "C",
+            "length": 9,
+            "category": "travel"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "TRIATHLON",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 9,
+          "clue": "Athletic activity",
+          "softHints": {
+            "startsWith": "T",
+            "length": 9,
+            "category": "sports"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "DACHSHUND",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 9,
+          "clue": "Found in nature or a zoo",
+          "softHints": {
+            "startsWith": "D",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "XYLOPHONE",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 9,
+          "clue": "Musical term",
+          "softHints": {
+            "startsWith": "X",
+            "length": 9,
+            "category": "music"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 5,
+          "answer": "CANARY",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 6,
+          "clue": "Creature in the animal kingdom",
+          "softHints": {
+            "startsWith": "C",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "OWL",
+          "direction": "across",
+          "row": 6,
+          "col": 5,
+          "length": 3,
+          "clue": "Creature in the animal kingdom",
+          "softHints": {
+            "startsWith": "O",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 5,
+            "clue": "Creature in the animal kingdom",
+            "answer": "CANARY",
+            "length": 6
+          },
+          {
+            "number": 6,
+            "clue": "Part of school life",
+            "answer": "SNIPPET",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "Creature in the animal kingdom",
+            "answer": "OWL",
+            "length": 3
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Found in nature or a zoo",
+            "answer": "DACHSHUND",
+            "length": 9
+          },
+          {
+            "number": 2,
+            "clue": "Used for getting around",
+            "answer": "CABRIOLET",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "Musical term",
+            "answer": "XYLOPHONE",
+            "length": 9
+          },
+          {
+            "number": 4,
+            "clue": "Athletic activity",
+            "answer": "TRIATHLON",
+            "length": 9
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "space",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 9,
+        "boardScore": 0.5487
+      }
+    },
+    {
+      "puzzleId": "space-medium-9x9-0006",
+      "seed": 6,
+      "theme": "space",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "C",
+          "",
+          "C",
+          "",
+          "L",
+          "",
+          ""
+        ],
+        [
+          "B",
+          "R",
+          "O",
+          "T",
+          "H",
+          "",
+          "A",
+          "Y",
+          "U"
+        ],
+        [
+          "",
+          "",
+          "C",
+          "",
+          "I",
+          "",
+          "N",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "K",
+          "",
+          "C",
+          "",
+          "D",
+          "",
+          ""
+        ],
+        [
+          "",
+          "J",
+          "A",
+          "C",
+          "K",
+          "D",
+          "A",
+          "W",
+          ""
+        ],
+        [
+          "",
+          "",
+          "T",
+          "",
+          "A",
+          "",
+          "U",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "I",
+          "",
+          "D",
+          "",
+          "L",
+          "",
+          ""
+        ],
+        [
+          "",
+          "R",
+          "E",
+          "F",
+          "E",
+          "R",
+          "E",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "",
+          "L",
+          "",
+          "E",
+          "",
+          "T",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 6,
+          "answer": "JACKDAW",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Furry, feathered, or scaled creature",
+          "softHints": {
+            "startsWith": "J",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "COCKATIEL",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 9,
+          "clue": "Found in nature or a zoo",
+          "softHints": {
+            "startsWith": "C",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "LANDAULET",
+          "direction": "down",
+          "row": 0,
+          "col": 6,
+          "length": 9,
+          "clue": "Transportation method",
+          "softHints": {
+            "startsWith": "L",
+            "length": 9,
+            "category": "travel"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "CHICKADEE",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 9,
+          "clue": "Found in nature or a zoo",
+          "softHints": {
+            "startsWith": "C",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "REFEREE",
+          "direction": "across",
+          "row": 7,
+          "col": 1,
+          "length": 7,
+          "clue": "Athletic activity",
+          "softHints": {
+            "startsWith": "R",
+            "length": 7,
+            "category": "sports"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "BROTH",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "clue": "Food item",
+          "softHints": {
+            "startsWith": "B",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 5,
+          "answer": "AYU",
+          "direction": "across",
+          "row": 1,
+          "col": 6,
+          "length": 3,
+          "clue": "Underwater dweller",
+          "softHints": {
+            "startsWith": "A",
+            "length": 3,
+            "category": "ocean"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "Food item",
+            "answer": "BROTH",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "Underwater dweller",
+            "answer": "AYU",
+            "length": 3
+          },
+          {
+            "number": 6,
+            "clue": "Furry, feathered, or scaled creature",
+            "answer": "JACKDAW",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "Athletic activity",
+            "answer": "REFEREE",
+            "length": 7
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Found in nature or a zoo",
+            "answer": "COCKATIEL",
+            "length": 9
+          },
+          {
+            "number": 2,
+            "clue": "Found in nature or a zoo",
+            "answer": "CHICKADEE",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "Transportation method",
+            "answer": "LANDAULET",
+            "length": 9
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "space",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 9,
+        "boardScore": 0.5413
+      }
+    },
+    {
+      "puzzleId": "space-medium-9x9-0007",
+      "seed": 7,
+      "theme": "space",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "W",
+          "",
+          "",
+          "R",
+          "",
+          "H",
+          ""
+        ],
+        [
+          "",
+          "F",
+          "O",
+          "S",
+          "S",
+          "A",
+          "",
+          "I",
+          ""
+        ],
+        [
+          "",
+          "",
+          "L",
+          "",
+          "",
+          "Z",
+          "",
+          "M",
+          ""
+        ],
+        [
+          "",
+          "",
+          "V",
+          "",
+          "",
+          "O",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "K",
+          "E",
+          "S",
+          "T",
+          "R",
+          "E",
+          "L",
+          ""
+        ],
+        [
+          "",
+          "",
+          "R",
+          "",
+          "",
+          "B",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "",
+          "I",
+          "",
+          "",
+          "I",
+          "V",
+          "Y",
+          ""
+        ],
+        [
+          "B",
+          "E",
+          "N",
+          "G",
+          "A",
+          "L",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "",
+          "E",
+          "",
+          "",
+          "L",
+          "",
+          "N",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "KESTREL",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "K",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "RAZORBILL",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 9,
+          "clue": "Common household pet or wild creature",
+          "softHints": {
+            "startsWith": "R",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "WOLVERINE",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 9,
+          "clue": "Found in nature or a zoo",
+          "softHints": {
+            "startsWith": "W",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "HIMALAYAN",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 9,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "H",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "BENGAL",
+          "direction": "across",
+          "row": 7,
+          "col": 0,
+          "length": 6,
+          "clue": "Creature in the animal kingdom",
+          "softHints": {
+            "startsWith": "B",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "FOSSA",
+          "direction": "across",
+          "row": 1,
+          "col": 1,
+          "length": 5,
+          "clue": "Found in nature or a zoo",
+          "softHints": {
+            "startsWith": "F",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "IVY",
+          "direction": "across",
+          "row": 6,
+          "col": 5,
+          "length": 3,
+          "clue": "Found in nature",
+          "softHints": {
+            "startsWith": "I",
+            "length": 3,
+            "category": "nature"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "Found in nature or a zoo",
+            "answer": "FOSSA",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "A type of animal",
+            "answer": "KESTREL",
+            "length": 7
+          },
+          {
+            "number": 6,
+            "clue": "Found in nature",
+            "answer": "IVY",
+            "length": 3
+          },
+          {
+            "number": 7,
+            "clue": "Creature in the animal kingdom",
+            "answer": "BENGAL",
+            "length": 6
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Found in nature or a zoo",
+            "answer": "WOLVERINE",
+            "length": 9
+          },
+          {
+            "number": 2,
+            "clue": "Common household pet or wild creature",
+            "answer": "RAZORBILL",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "A type of animal",
+            "answer": "HIMALAYAN",
+            "length": 9
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "space",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 9,
+        "boardScore": 0.5388
+      }
+    },
+    {
+      "puzzleId": "space-medium-9x9-0008",
+      "seed": 8,
+      "theme": "space",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "W",
+          "",
+          "",
+          "R",
+          "",
+          "H",
+          ""
+        ],
+        [
+          "",
+          "F",
+          "O",
+          "S",
+          "S",
+          "A",
+          "",
+          "I",
+          ""
+        ],
+        [
+          "",
+          "",
+          "L",
+          "",
+          "",
+          "Z",
+          "",
+          "M",
+          ""
+        ],
+        [
+          "",
+          "",
+          "V",
+          "",
+          "",
+          "O",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "K",
+          "E",
+          "S",
+          "T",
+          "R",
+          "E",
+          "L",
+          ""
+        ],
+        [
+          "",
+          "",
+          "R",
+          "",
+          "",
+          "B",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "",
+          "I",
+          "",
+          "",
+          "I",
+          "V",
+          "Y",
+          ""
+        ],
+        [
+          "B",
+          "E",
+          "N",
+          "G",
+          "A",
+          "L",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "",
+          "E",
+          "",
+          "",
+          "L",
+          "",
+          "N",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "KESTREL",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "K",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "RAZORBILL",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 9,
+          "clue": "Common household pet or wild creature",
+          "softHints": {
+            "startsWith": "R",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "WOLVERINE",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 9,
+          "clue": "Found in nature or a zoo",
+          "softHints": {
+            "startsWith": "W",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "HIMALAYAN",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 9,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "H",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "BENGAL",
+          "direction": "across",
+          "row": 7,
+          "col": 0,
+          "length": 6,
+          "clue": "Creature in the animal kingdom",
+          "softHints": {
+            "startsWith": "B",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "FOSSA",
+          "direction": "across",
+          "row": 1,
+          "col": 1,
+          "length": 5,
+          "clue": "Found in nature or a zoo",
+          "softHints": {
+            "startsWith": "F",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "IVY",
+          "direction": "across",
+          "row": 6,
+          "col": 5,
+          "length": 3,
+          "clue": "Found in nature",
+          "softHints": {
+            "startsWith": "I",
+            "length": 3,
+            "category": "nature"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "Found in nature or a zoo",
+            "answer": "FOSSA",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "A type of animal",
+            "answer": "KESTREL",
+            "length": 7
+          },
+          {
+            "number": 6,
+            "clue": "Found in nature",
+            "answer": "IVY",
+            "length": 3
+          },
+          {
+            "number": 7,
+            "clue": "Creature in the animal kingdom",
+            "answer": "BENGAL",
+            "length": 6
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Found in nature or a zoo",
+            "answer": "WOLVERINE",
+            "length": 9
+          },
+          {
+            "number": 2,
+            "clue": "Common household pet or wild creature",
+            "answer": "RAZORBILL",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "A type of animal",
+            "answer": "HIMALAYAN",
+            "length": 9
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "space",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 9,
+        "boardScore": 0.5388
+      }
+    },
+    {
+      "puzzleId": "space-medium-9x9-0009",
+      "seed": 9,
+      "theme": "space",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "E",
+          "",
+          "",
+          "P",
+          "",
+          "",
+          "B",
+          ""
+        ],
+        [
+          "R",
+          "E",
+          "T",
+          "R",
+          "I",
+          "E",
+          "V",
+          "E",
+          "R"
+        ],
+        [
+          "",
+          "L",
+          "",
+          "",
+          "N",
+          "",
+          "",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "",
+          "V",
+          "",
+          "E",
+          "",
+          "",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "T",
+          "I",
+          "L",
+          "A",
+          "P",
+          "I",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "",
+          "O",
+          "",
+          "P",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "X",
+          "Y",
+          "L",
+          "O",
+          "P",
+          "H",
+          "O",
+          "N",
+          "E"
+        ],
+        [
+          "",
+          "",
+          "I",
+          "",
+          "L",
+          "",
+          "I",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "N",
+          "",
+          "E",
+          "",
+          "L",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 6,
+          "answer": "TILAPIA",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Ocean-related term",
+          "softHints": {
+            "startsWith": "T",
+            "length": 7,
+            "category": "ocean"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "PINEAPPLE",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 9,
+          "clue": "A tasty dish or ingredient",
+          "softHints": {
+            "startsWith": "P",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "XYLOPHONE",
+          "direction": "across",
+          "row": 6,
+          "col": 0,
+          "length": 9,
+          "clue": "Musical term",
+          "softHints": {
+            "startsWith": "X",
+            "length": 9,
+            "category": "music"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "RETRIEVER",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 9,
+          "clue": "Found in nature or a zoo",
+          "softHints": {
+            "startsWith": "R",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 5,
+          "answer": "VIOLIN",
+          "direction": "down",
+          "row": 3,
+          "col": 2,
+          "length": 6,
+          "clue": "Instrument or musical concept",
+          "softHints": {
+            "startsWith": "V",
+            "length": 6,
+            "category": "music"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "BETTA",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 5,
+          "clue": "Underwater dweller",
+          "softHints": {
+            "startsWith": "B",
+            "length": 5,
+            "category": "ocean"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 8,
+          "answer": "OIL",
+          "direction": "down",
+          "row": 6,
+          "col": 6,
+          "length": 3,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "O",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "EEL",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 3,
+          "clue": "Creature in the animal kingdom",
+          "softHints": {
+            "startsWith": "E",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "Found in nature or a zoo",
+            "answer": "RETRIEVER",
+            "length": 9
+          },
+          {
+            "number": 6,
+            "clue": "Ocean-related term",
+            "answer": "TILAPIA",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "Musical term",
+            "answer": "XYLOPHONE",
+            "length": 9
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Creature in the animal kingdom",
+            "answer": "EEL",
+            "length": 3
+          },
+          {
+            "number": 2,
+            "clue": "A tasty dish or ingredient",
+            "answer": "PINEAPPLE",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "Underwater dweller",
+            "answer": "BETTA",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "Instrument or musical concept",
+            "answer": "VIOLIN",
+            "length": 6
+          },
+          {
+            "number": 8,
+            "clue": "Edible item",
+            "answer": "OIL",
+            "length": 3
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "space",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 8,
+        "intersections": 9,
+        "boardScore": 0.5737
+      }
+    },
+    {
+      "puzzleId": "space-medium-9x9-0010",
+      "seed": 10,
+      "theme": "space",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "I",
+          "",
+          "",
+          "T",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "S",
+          "C",
+          "H",
+          "N",
+          "A",
+          "U",
+          "Z",
+          "E",
+          "R"
+        ],
+        [
+          "",
+          "E",
+          "",
+          "",
+          "N",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "P",
+          "",
+          "G",
+          "",
+          "",
+          "M",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "A",
+          "Y",
+          "E",
+          "N",
+          "N",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "",
+          "D",
+          "",
+          "R",
+          "",
+          "",
+          "L",
+          ""
+        ],
+        [
+          "B",
+          "A",
+          "D",
+          "M",
+          "I",
+          "N",
+          "T",
+          "O",
+          "N"
+        ],
+        [
+          "",
+          "",
+          "L",
+          "",
+          "N",
+          "",
+          "",
+          "N",
+          ""
+        ],
+        [
+          "",
+          "",
+          "E",
+          "",
+          "E",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 6,
+          "answer": "CAYENNE",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "TANGERINE",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 9,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "T",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "BADMINTON",
+          "direction": "across",
+          "row": 6,
+          "col": 0,
+          "length": 9,
+          "clue": "Sports-related word",
+          "softHints": {
+            "startsWith": "B",
+            "length": 9,
+            "category": "sports"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "SCHNAUZER",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 9,
+          "clue": "Common household pet or wild creature",
+          "softHints": {
+            "startsWith": "S",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "PADDLE",
+          "direction": "down",
+          "row": 3,
+          "col": 2,
+          "length": 6,
+          "clue": "Athletic activity",
+          "softHints": {
+            "startsWith": "P",
+            "length": 6,
+            "category": "sports"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 5,
+          "answer": "MELON",
+          "direction": "down",
+          "row": 3,
+          "col": 7,
+          "length": 5,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "M",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "ICE",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 3,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "I",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "Common household pet or wild creature",
+            "answer": "SCHNAUZER",
+            "length": 9
+          },
+          {
+            "number": 6,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "CAYENNE",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "Sports-related word",
+            "answer": "BADMINTON",
+            "length": 9
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Edible item",
+            "answer": "ICE",
+            "length": 3
+          },
+          {
+            "number": 2,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "TANGERINE",
+            "length": 9
+          },
+          {
+            "number": 4,
+            "clue": "Athletic activity",
+            "answer": "PADDLE",
+            "length": 6
+          },
+          {
+            "number": 5,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "MELON",
+            "length": 5
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "space",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 8,
+        "boardScore": 0.5413
+      }
+    },
+    {
+      "puzzleId": "space-medium-9x9-0011",
+      "seed": 11,
+      "theme": "space",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "C",
+          "",
+          "P",
+          "",
+          "",
+          "",
+          "G",
+          ""
+        ],
+        [
+          "O",
+          "R",
+          "B",
+          "I",
+          "T",
+          "",
+          "",
+          "R",
+          ""
+        ],
+        [
+          "",
+          "O",
+          "",
+          "N",
+          "",
+          "M",
+          "",
+          "O",
+          ""
+        ],
+        [
+          "",
+          "I",
+          "",
+          "E",
+          "",
+          "A",
+          "",
+          "U",
+          ""
+        ],
+        [
+          "",
+          "S",
+          "C",
+          "A",
+          "L",
+          "L",
+          "O",
+          "P",
+          ""
+        ],
+        [
+          "",
+          "S",
+          "",
+          "P",
+          "",
+          "T",
+          "",
+          "E",
+          ""
+        ],
+        [
+          "R",
+          "A",
+          "S",
+          "P",
+          "B",
+          "E",
+          "R",
+          "R",
+          "Y"
+        ],
+        [
+          "",
+          "N",
+          "",
+          "L",
+          "",
+          "S",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "T",
+          "",
+          "E",
+          "",
+          "E",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 6,
+          "answer": "SCALLOP",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Marine creature or feature",
+          "softHints": {
+            "startsWith": "S",
+            "length": 7,
+            "category": "ocean"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "PINEAPPLE",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 9,
+          "clue": "A tasty dish or ingredient",
+          "softHints": {
+            "startsWith": "P",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "RASPBERRY",
+          "direction": "across",
+          "row": 6,
+          "col": 0,
+          "length": 9,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "R",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "CROISSANT",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 9,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "C",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 5,
+          "answer": "MALTESE",
+          "direction": "down",
+          "row": 2,
+          "col": 5,
+          "length": 7,
+          "clue": "Furry, feathered, or scaled creature",
+          "softHints": {
+            "startsWith": "M",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "GROUPER",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 7,
+          "clue": "Found in the sea",
+          "softHints": {
+            "startsWith": "G",
+            "length": 7,
+            "category": "ocean"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "ORBIT",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "clue": "Astronomical term",
+          "softHints": {
+            "startsWith": "O",
+            "length": 5,
+            "category": "space"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "Astronomical term",
+            "answer": "ORBIT",
+            "length": 5
+          },
+          {
+            "number": 6,
+            "clue": "Marine creature or feature",
+            "answer": "SCALLOP",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "RASPBERRY",
+            "length": 9
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "CROISSANT",
+            "length": 9
+          },
+          {
+            "number": 2,
+            "clue": "A tasty dish or ingredient",
+            "answer": "PINEAPPLE",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "Found in the sea",
+            "answer": "GROUPER",
+            "length": 7
+          },
+          {
+            "number": 5,
+            "clue": "Furry, feathered, or scaled creature",
+            "answer": "MALTESE",
+            "length": 7
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "space",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 10,
+        "boardScore": 0.5487
+      }
+    },
+    {
+      "puzzleId": "space-medium-9x9-0012",
+      "seed": 12,
+      "theme": "space",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "S",
+          "",
+          "",
+          "E",
+          "",
+          "B",
+          ""
+        ],
+        [
+          "",
+          "",
+          "P",
+          "",
+          "",
+          "N",
+          "",
+          "U",
+          ""
+        ],
+        [
+          "B",
+          "A",
+          "R",
+          "R",
+          "A",
+          "C",
+          "U",
+          "D",
+          "A"
+        ],
+        [
+          "",
+          "",
+          "O",
+          "",
+          "",
+          "H",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "P",
+          "U",
+          "D",
+          "D",
+          "I",
+          "N",
+          "G",
+          ""
+        ],
+        [
+          "",
+          "",
+          "T",
+          "",
+          "",
+          "L",
+          "",
+          "U",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "I",
+          "",
+          "A",
+          "",
+          "L",
+          ""
+        ],
+        [
+          "C",
+          "R",
+          "O",
+          "C",
+          "O",
+          "D",
+          "I",
+          "L",
+          "E"
+        ],
+        [
+          "",
+          "",
+          "",
+          "E",
+          "",
+          "A",
+          "",
+          "Y",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "PUDDING",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Something you eat",
+          "softHints": {
+            "startsWith": "P",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "ENCHILADA",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 9,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "E",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "BARRACUDA",
+          "direction": "across",
+          "row": 2,
+          "col": 0,
+          "length": 9,
+          "clue": "Furry, feathered, or scaled creature",
+          "softHints": {
+            "startsWith": "B",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 8,
+          "answer": "CROCODILE",
+          "direction": "across",
+          "row": 7,
+          "col": 0,
+          "length": 9,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "C",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "SPROUT",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 6,
+          "clue": "Flora or natural element",
+          "softHints": {
+            "startsWith": "S",
+            "length": 6,
+            "category": "nature"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "GULLY",
+          "direction": "down",
+          "row": 4,
+          "col": 7,
+          "length": 5,
+          "clue": "Related to the weather",
+          "softHints": {
+            "startsWith": "G",
+            "length": 5,
+            "category": "weather"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "ICE",
+          "direction": "down",
+          "row": 6,
+          "col": 3,
+          "length": 3,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "I",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "BUD",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 3,
+          "clue": "Plant or natural feature",
+          "softHints": {
+            "startsWith": "B",
+            "length": 3,
+            "category": "nature"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "Furry, feathered, or scaled creature",
+            "answer": "BARRACUDA",
+            "length": 9
+          },
+          {
+            "number": 5,
+            "clue": "Something you eat",
+            "answer": "PUDDING",
+            "length": 7
+          },
+          {
+            "number": 8,
+            "clue": "A type of animal",
+            "answer": "CROCODILE",
+            "length": 9
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Flora or natural element",
+            "answer": "SPROUT",
+            "length": 6
+          },
+          {
+            "number": 2,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "ENCHILADA",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "Plant or natural feature",
+            "answer": "BUD",
+            "length": 3
+          },
+          {
+            "number": 6,
+            "clue": "Related to the weather",
+            "answer": "GULLY",
+            "length": 5
+          },
+          {
+            "number": 7,
+            "clue": "Edible item",
+            "answer": "ICE",
+            "length": 3
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "space",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 8,
+        "intersections": 9,
+        "boardScore": 0.5737
+      }
+    },
+    {
+      "puzzleId": "space-medium-9x9-0013",
+      "seed": 13,
+      "theme": "space",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "S",
+          "",
+          "",
+          "E",
+          "",
+          "B",
+          ""
+        ],
+        [
+          "",
+          "",
+          "P",
+          "",
+          "",
+          "N",
+          "",
+          "U",
+          ""
+        ],
+        [
+          "B",
+          "A",
+          "R",
+          "R",
+          "A",
+          "C",
+          "U",
+          "D",
+          "A"
+        ],
+        [
+          "",
+          "",
+          "O",
+          "",
+          "",
+          "H",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "P",
+          "U",
+          "D",
+          "D",
+          "I",
+          "N",
+          "G",
+          ""
+        ],
+        [
+          "",
+          "",
+          "T",
+          "",
+          "",
+          "L",
+          "",
+          "U",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "I",
+          "",
+          "A",
+          "",
+          "L",
+          ""
+        ],
+        [
+          "C",
+          "R",
+          "O",
+          "C",
+          "O",
+          "D",
+          "I",
+          "L",
+          "E"
+        ],
+        [
+          "",
+          "",
+          "",
+          "E",
+          "",
+          "A",
+          "",
+          "Y",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "PUDDING",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Something you eat",
+          "softHints": {
+            "startsWith": "P",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "ENCHILADA",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 9,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "E",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "BARRACUDA",
+          "direction": "across",
+          "row": 2,
+          "col": 0,
+          "length": 9,
+          "clue": "Furry, feathered, or scaled creature",
+          "softHints": {
+            "startsWith": "B",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 8,
+          "answer": "CROCODILE",
+          "direction": "across",
+          "row": 7,
+          "col": 0,
+          "length": 9,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "C",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "SPROUT",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 6,
+          "clue": "Flora or natural element",
+          "softHints": {
+            "startsWith": "S",
+            "length": 6,
+            "category": "nature"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "GULLY",
+          "direction": "down",
+          "row": 4,
+          "col": 7,
+          "length": 5,
+          "clue": "Related to the weather",
+          "softHints": {
+            "startsWith": "G",
+            "length": 5,
+            "category": "weather"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "ICE",
+          "direction": "down",
+          "row": 6,
+          "col": 3,
+          "length": 3,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "I",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "BUD",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 3,
+          "clue": "Plant or natural feature",
+          "softHints": {
+            "startsWith": "B",
+            "length": 3,
+            "category": "nature"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "Furry, feathered, or scaled creature",
+            "answer": "BARRACUDA",
+            "length": 9
+          },
+          {
+            "number": 5,
+            "clue": "Something you eat",
+            "answer": "PUDDING",
+            "length": 7
+          },
+          {
+            "number": 8,
+            "clue": "A type of animal",
+            "answer": "CROCODILE",
+            "length": 9
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Flora or natural element",
+            "answer": "SPROUT",
+            "length": 6
+          },
+          {
+            "number": 2,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "ENCHILADA",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "Plant or natural feature",
+            "answer": "BUD",
+            "length": 3
+          },
+          {
+            "number": 6,
+            "clue": "Related to the weather",
+            "answer": "GULLY",
+            "length": 5
+          },
+          {
+            "number": 7,
+            "clue": "Edible item",
+            "answer": "ICE",
+            "length": 3
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "space",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 8,
+        "intersections": 9,
+        "boardScore": 0.5737
+      }
+    },
+    {
+      "puzzleId": "space-medium-9x9-0014",
+      "seed": 14,
+      "theme": "space",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "S",
+          "",
+          "",
+          "T",
+          "",
+          "F",
+          ""
+        ],
+        [
+          "",
+          "",
+          "E",
+          "",
+          "",
+          "A",
+          "",
+          "E",
+          ""
+        ],
+        [
+          "S",
+          "E",
+          "A",
+          "S",
+          "O",
+          "N",
+          "I",
+          "N",
+          "G"
+        ],
+        [
+          "",
+          "",
+          "",
+          "L",
+          "",
+          "G",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "I",
+          "C",
+          "E",
+          "B",
+          "E",
+          "R",
+          "G",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "D",
+          "",
+          "R",
+          "",
+          "",
+          ""
+        ],
+        [
+          "G",
+          "O",
+          "L",
+          "D",
+          "F",
+          "I",
+          "N",
+          "C",
+          "H"
+        ],
+        [
+          "",
+          "I",
+          "",
+          "E",
+          "",
+          "N",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "L",
+          "",
+          "R",
+          "",
+          "E",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 6,
+          "answer": "ICEBERG",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Climate or weather event",
+          "softHints": {
+            "startsWith": "I",
+            "length": 7,
+            "category": "weather"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "TANGERINE",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 9,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "T",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "GOLDFINCH",
+          "direction": "across",
+          "row": 6,
+          "col": 0,
+          "length": 9,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "G",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "SEASONING",
+          "direction": "across",
+          "row": 2,
+          "col": 0,
+          "length": 9,
+          "clue": "A tasty dish or ingredient",
+          "softHints": {
+            "startsWith": "S",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 5,
+          "answer": "SLEDDER",
+          "direction": "down",
+          "row": 2,
+          "col": 3,
+          "length": 7,
+          "clue": "Played in competition",
+          "softHints": {
+            "startsWith": "S",
+            "length": 7,
+            "category": "sports"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "SEA",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 3,
+          "clue": "City infrastructure term",
+          "softHints": {
+            "startsWith": "S",
+            "length": 3,
+            "category": "city"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 8,
+          "answer": "OIL",
+          "direction": "down",
+          "row": 6,
+          "col": 1,
+          "length": 3,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "O",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "FEN",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 3,
+          "clue": "What the forecast might show",
+          "softHints": {
+            "startsWith": "F",
+            "length": 3,
+            "category": "weather"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "A tasty dish or ingredient",
+            "answer": "SEASONING",
+            "length": 9
+          },
+          {
+            "number": 6,
+            "clue": "Climate or weather event",
+            "answer": "ICEBERG",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "A type of animal",
+            "answer": "GOLDFINCH",
+            "length": 9
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "City infrastructure term",
+            "answer": "SEA",
+            "length": 3
+          },
+          {
+            "number": 2,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "TANGERINE",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "What the forecast might show",
+            "answer": "FEN",
+            "length": 3
+          },
+          {
+            "number": 5,
+            "clue": "Played in competition",
+            "answer": "SLEDDER",
+            "length": 7
+          },
+          {
+            "number": 8,
+            "clue": "Edible item",
+            "answer": "OIL",
+            "length": 3
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "space",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 8,
+        "intersections": 9,
+        "boardScore": 0.5712
+      }
+    },
+    {
+      "puzzleId": "space-medium-9x9-0015",
+      "seed": 15,
+      "theme": "space",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "A",
+          "",
+          "N",
+          "",
+          "E",
+          ""
+        ],
+        [
+          "R",
+          "E",
+          "T",
+          "R",
+          "I",
+          "E",
+          "V",
+          "E",
+          "R"
+        ],
+        [
+          "",
+          "",
+          "",
+          "R",
+          "",
+          "C",
+          "",
+          "L",
+          ""
+        ],
+        [
+          "",
+          "O",
+          "",
+          "O",
+          "",
+          "T",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "S",
+          "K",
+          "Y",
+          "L",
+          "A",
+          "R",
+          "K",
+          ""
+        ],
+        [
+          "",
+          "P",
+          "",
+          "O",
+          "",
+          "R",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "R",
+          "",
+          "",
+          "",
+          "I",
+          "",
+          "",
+          ""
+        ],
+        [
+          "S",
+          "E",
+          "A",
+          "S",
+          "O",
+          "N",
+          "I",
+          "N",
+          "G"
+        ],
+        [
+          "",
+          "Y",
+          "",
+          "",
+          "",
+          "E",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 6,
+          "answer": "SKYLARK",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Found in nature or a zoo",
+          "softHints": {
+            "startsWith": "S",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "NECTARINE",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 9,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "N",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "SEASONING",
+          "direction": "across",
+          "row": 7,
+          "col": 0,
+          "length": 9,
+          "clue": "A tasty dish or ingredient",
+          "softHints": {
+            "startsWith": "S",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "RETRIEVER",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 9,
+          "clue": "Found in nature or a zoo",
+          "softHints": {
+            "startsWith": "R",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 5,
+          "answer": "OSPREY",
+          "direction": "down",
+          "row": 3,
+          "col": 1,
+          "length": 6,
+          "clue": "Creature in the animal kingdom",
+          "softHints": {
+            "startsWith": "O",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "ARROYO",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 6,
+          "clue": "Meteorological term",
+          "softHints": {
+            "startsWith": "A",
+            "length": 6,
+            "category": "weather"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "EEL",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 3,
+          "clue": "Creature in the animal kingdom",
+          "softHints": {
+            "startsWith": "E",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "Found in nature or a zoo",
+            "answer": "RETRIEVER",
+            "length": 9
+          },
+          {
+            "number": 6,
+            "clue": "Found in nature or a zoo",
+            "answer": "SKYLARK",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "A tasty dish or ingredient",
+            "answer": "SEASONING",
+            "length": 9
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Meteorological term",
+            "answer": "ARROYO",
+            "length": 6
+          },
+          {
+            "number": 2,
+            "clue": "Edible item",
+            "answer": "NECTARINE",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "Creature in the animal kingdom",
+            "answer": "EEL",
+            "length": 3
+          },
+          {
+            "number": 5,
+            "clue": "Creature in the animal kingdom",
+            "answer": "OSPREY",
+            "length": 6
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "space",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 8,
+        "boardScore": 0.5437
+      }
+    },
+    {
+      "puzzleId": "space-medium-9x9-0016",
+      "seed": 16,
+      "theme": "space",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "M",
+          "",
+          "L",
+          "",
+          "",
+          "C",
+          ""
+        ],
+        [
+          "",
+          "",
+          "A",
+          "",
+          "O",
+          "",
+          "W",
+          "O",
+          "K"
+        ],
+        [
+          "C",
+          "O",
+          "R",
+          "O",
+          "N",
+          "A",
+          "",
+          "C",
+          ""
+        ],
+        [
+          "",
+          "",
+          "G",
+          "",
+          "G",
+          "",
+          "",
+          "K",
+          ""
+        ],
+        [
+          "",
+          "M",
+          "A",
+          "R",
+          "I",
+          "M",
+          "B",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "",
+          "R",
+          "",
+          "T",
+          "",
+          "",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "",
+          "I",
+          "",
+          "U",
+          "",
+          "",
+          "I",
+          ""
+        ],
+        [
+          "F",
+          "E",
+          "N",
+          "",
+          "D",
+          "I",
+          "V",
+          "E",
+          "R"
+        ],
+        [
+          "",
+          "",
+          "E",
+          "",
+          "E",
+          "",
+          "",
+          "L",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          null,
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 6,
+          "answer": "MARIMBA",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Music vocabulary",
+          "softHints": {
+            "startsWith": "M",
+            "length": 7,
+            "category": "music"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "MARGARINE",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 9,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "M",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "COCKATIEL",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 9,
+          "clue": "Found in nature or a zoo",
+          "softHints": {
+            "startsWith": "C",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "LONGITUDE",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 9,
+          "clue": "Part of city life",
+          "softHints": {
+            "startsWith": "L",
+            "length": 9,
+            "category": "city"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 5,
+          "answer": "CORONA",
+          "direction": "across",
+          "row": 2,
+          "col": 0,
+          "length": 6,
+          "clue": "Found in the cosmos",
+          "softHints": {
+            "startsWith": "C",
+            "length": 6,
+            "category": "space"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 8,
+          "answer": "DIVER",
+          "direction": "across",
+          "row": 7,
+          "col": 4,
+          "length": 5,
+          "clue": "Game or sport",
+          "softHints": {
+            "startsWith": "D",
+            "length": 5,
+            "category": "sports"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "WOK",
+          "direction": "across",
+          "row": 1,
+          "col": 6,
+          "length": 3,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "W",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "FEN",
+          "direction": "across",
+          "row": 7,
+          "col": 0,
+          "length": 3,
+          "clue": "What the forecast might show",
+          "softHints": {
+            "startsWith": "F",
+            "length": 3,
+            "category": "weather"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "Edible item",
+            "answer": "WOK",
+            "length": 3
+          },
+          {
+            "number": 5,
+            "clue": "Found in the cosmos",
+            "answer": "CORONA",
+            "length": 6
+          },
+          {
+            "number": 6,
+            "clue": "Music vocabulary",
+            "answer": "MARIMBA",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "What the forecast might show",
+            "answer": "FEN",
+            "length": 3
+          },
+          {
+            "number": 8,
+            "clue": "Game or sport",
+            "answer": "DIVER",
+            "length": 5
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Edible item",
+            "answer": "MARGARINE",
+            "length": 9
+          },
+          {
+            "number": 2,
+            "clue": "Part of city life",
+            "answer": "LONGITUDE",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "Found in nature or a zoo",
+            "answer": "COCKATIEL",
+            "length": 9
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "space",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 8,
+        "intersections": 9,
+        "boardScore": 0.5737
+      }
+    },
+    {
+      "puzzleId": "space-medium-9x9-0017",
+      "seed": 17,
+      "theme": "space",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "I",
+          "",
+          "C",
+          "",
+          "S",
+          "",
+          "F",
+          ""
+        ],
+        [
+          "",
+          "V",
+          "",
+          "R",
+          "",
+          "C",
+          "",
+          "E",
+          ""
+        ],
+        [
+          "X",
+          "Y",
+          "L",
+          "O",
+          "P",
+          "H",
+          "O",
+          "N",
+          "E"
+        ],
+        [
+          "",
+          "",
+          "",
+          "C",
+          "",
+          "N",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "L",
+          "E",
+          "O",
+          "P",
+          "A",
+          "R",
+          "D",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "D",
+          "",
+          "U",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "I",
+          "",
+          "Z",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "M",
+          "U",
+          "L",
+          "B",
+          "E",
+          "R",
+          "R",
+          "Y"
+        ],
+        [
+          "",
+          "",
+          "",
+          "E",
+          "",
+          "R",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 6,
+          "answer": "LEOPARD",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Common household pet or wild creature",
+          "softHints": {
+            "startsWith": "L",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "CROCODILE",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 9,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "C",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "SCHNAUZER",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 9,
+          "clue": "Common household pet or wild creature",
+          "softHints": {
+            "startsWith": "S",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 5,
+          "answer": "XYLOPHONE",
+          "direction": "across",
+          "row": 2,
+          "col": 0,
+          "length": 9,
+          "clue": "Musical term",
+          "softHints": {
+            "startsWith": "X",
+            "length": 9,
+            "category": "music"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "MULBERRY",
+          "direction": "across",
+          "row": 7,
+          "col": 1,
+          "length": 8,
+          "clue": "Something you eat",
+          "softHints": {
+            "startsWith": "M",
+            "length": 8,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "FEN",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 3,
+          "clue": "What the forecast might show",
+          "softHints": {
+            "startsWith": "F",
+            "length": 3,
+            "category": "weather"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "IVY",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 3,
+          "clue": "Found in nature",
+          "softHints": {
+            "startsWith": "I",
+            "length": 3,
+            "category": "nature"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 5,
+            "clue": "Musical term",
+            "answer": "XYLOPHONE",
+            "length": 9
+          },
+          {
+            "number": 6,
+            "clue": "Common household pet or wild creature",
+            "answer": "LEOPARD",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "Something you eat",
+            "answer": "MULBERRY",
+            "length": 8
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Found in nature",
+            "answer": "IVY",
+            "length": 3
+          },
+          {
+            "number": 2,
+            "clue": "A type of animal",
+            "answer": "CROCODILE",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "Common household pet or wild creature",
+            "answer": "SCHNAUZER",
+            "length": 9
+          },
+          {
+            "number": 4,
+            "clue": "What the forecast might show",
+            "answer": "FEN",
+            "length": 3
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "space",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 8,
+        "boardScore": 0.5413
+      }
+    },
+    {
+      "puzzleId": "space-medium-9x9-0018",
+      "seed": 18,
+      "theme": "space",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "T",
+          "",
+          "S",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "B",
+          "A",
+          "R",
+          "R",
+          "A",
+          "C",
+          "U",
+          "D",
+          "A"
+        ],
+        [
+          "",
+          "",
+          "I",
+          "",
+          "X",
+          "",
+          "",
+          "R",
+          ""
+        ],
+        [
+          "",
+          "",
+          "B",
+          "",
+          "",
+          "T",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "P",
+          "U",
+          "D",
+          "D",
+          "I",
+          "N",
+          "G",
+          ""
+        ],
+        [
+          "",
+          "",
+          "T",
+          "",
+          "",
+          "T",
+          "",
+          "S",
+          ""
+        ],
+        [
+          "",
+          "",
+          "A",
+          "",
+          "",
+          "A",
+          "",
+          "T",
+          ""
+        ],
+        [
+          "C",
+          "O",
+          "R",
+          "I",
+          "A",
+          "N",
+          "D",
+          "E",
+          "R"
+        ],
+        [
+          "",
+          "",
+          "Y",
+          "",
+          "",
+          "",
+          "",
+          "R",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 6,
+          "answer": "PUDDING",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Something you eat",
+          "softHints": {
+            "startsWith": "P",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "TRIBUTARY",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 9,
+          "clue": "Urban feature or place",
+          "softHints": {
+            "startsWith": "T",
+            "length": 9,
+            "category": "city"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "BARRACUDA",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 9,
+          "clue": "Furry, feathered, or scaled creature",
+          "softHints": {
+            "startsWith": "B",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "CORIANDER",
+          "direction": "across",
+          "row": 7,
+          "col": 0,
+          "length": 9,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "C",
+            "length": 9,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "DRAGSTER",
+          "direction": "down",
+          "row": 1,
+          "col": 7,
+          "length": 8,
+          "clue": "A way to travel",
+          "softHints": {
+            "startsWith": "D",
+            "length": 8,
+            "category": "travel"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 5,
+          "answer": "TITAN",
+          "direction": "down",
+          "row": 3,
+          "col": 5,
+          "length": 5,
+          "clue": "Found in the cosmos",
+          "softHints": {
+            "startsWith": "T",
+            "length": 5,
+            "category": "space"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "SAX",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 3,
+          "clue": "Musical term",
+          "softHints": {
+            "startsWith": "S",
+            "length": 3,
+            "category": "music"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "Furry, feathered, or scaled creature",
+            "answer": "BARRACUDA",
+            "length": 9
+          },
+          {
+            "number": 6,
+            "clue": "Something you eat",
+            "answer": "PUDDING",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "CORIANDER",
+            "length": 9
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Urban feature or place",
+            "answer": "TRIBUTARY",
+            "length": 9
+          },
+          {
+            "number": 2,
+            "clue": "Musical term",
+            "answer": "SAX",
+            "length": 3
+          },
+          {
+            "number": 4,
+            "clue": "A way to travel",
+            "answer": "DRAGSTER",
+            "length": 8
+          },
+          {
+            "number": 5,
+            "clue": "Found in the cosmos",
+            "answer": "TITAN",
+            "length": 5
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "space",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 9,
+        "boardScore": 0.5437
+      }
+    },
+    {
+      "puzzleId": "space-medium-9x9-0019",
+      "seed": 19,
+      "theme": "space",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "C",
+          "",
+          "P",
+          "",
+          "B",
+          "",
+          ""
+        ],
+        [
+          "",
+          "M",
+          "A",
+          "R",
+          "I",
+          "N",
+          "A",
+          "D",
+          "E"
+        ],
+        [
+          "",
+          "",
+          "B",
+          "",
+          "N",
+          "",
+          "D",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "R",
+          "",
+          "S",
+          "",
+          "M",
+          "",
+          ""
+        ],
+        [
+          "",
+          "B",
+          "I",
+          "S",
+          "C",
+          "U",
+          "I",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "",
+          "O",
+          "",
+          "H",
+          "",
+          "N",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "L",
+          "",
+          "E",
+          "",
+          "T",
+          "E",
+          "A"
+        ],
+        [
+          "",
+          "P",
+          "E",
+          "A",
+          "R",
+          "",
+          "O",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "T",
+          "",
+          "",
+          "",
+          "N",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "BISCUIT",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "A tasty dish or ingredient",
+          "softHints": {
+            "startsWith": "B",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "CABRIOLET",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 9,
+          "clue": "Used for getting around",
+          "softHints": {
+            "startsWith": "C",
+            "length": 9,
+            "category": "travel"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "BADMINTON",
+          "direction": "down",
+          "row": 0,
+          "col": 6,
+          "length": 9,
+          "clue": "Sports-related word",
+          "softHints": {
+            "startsWith": "B",
+            "length": 9,
+            "category": "sports"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "PINSCHER",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 8,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "P",
+            "length": 8,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "MARINADE",
+          "direction": "across",
+          "row": 1,
+          "col": 1,
+          "length": 8,
+          "clue": "A tasty dish or ingredient",
+          "softHints": {
+            "startsWith": "M",
+            "length": 8,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "PEAR",
+          "direction": "across",
+          "row": 7,
+          "col": 1,
+          "length": 4,
+          "clue": "A tasty dish or ingredient",
+          "softHints": {
+            "startsWith": "P",
+            "length": 4,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "TEA",
+          "direction": "across",
+          "row": 6,
+          "col": 6,
+          "length": 3,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "T",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "A tasty dish or ingredient",
+            "answer": "MARINADE",
+            "length": 8
+          },
+          {
+            "number": 5,
+            "clue": "A tasty dish or ingredient",
+            "answer": "BISCUIT",
+            "length": 7
+          },
+          {
+            "number": 6,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "TEA",
+            "length": 3
+          },
+          {
+            "number": 7,
+            "clue": "A tasty dish or ingredient",
+            "answer": "PEAR",
+            "length": 4
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Used for getting around",
+            "answer": "CABRIOLET",
+            "length": 9
+          },
+          {
+            "number": 2,
+            "clue": "A type of animal",
+            "answer": "PINSCHER",
+            "length": 8
+          },
+          {
+            "number": 3,
+            "clue": "Sports-related word",
+            "answer": "BADMINTON",
+            "length": 9
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "space",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 9,
+        "boardScore": 0.5388
+      }
+    },
+    {
+      "puzzleId": "space-medium-9x9-0020",
+      "seed": 20,
+      "theme": "space",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "T",
+          "",
+          "",
+          "C",
+          "",
+          "H",
+          ""
+        ],
+        [
+          "",
+          "",
+          "E",
+          "",
+          "M",
+          "A",
+          "C",
+          "A",
+          "W"
+        ],
+        [
+          "L",
+          "I",
+          "L",
+          "Y",
+          "",
+          "B",
+          "",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "",
+          "E",
+          "",
+          "",
+          "R",
+          "",
+          "C",
+          ""
+        ],
+        [
+          "",
+          "O",
+          "S",
+          "T",
+          "R",
+          "I",
+          "C",
+          "H",
+          ""
+        ],
+        [
+          "",
+          "",
+          "C",
+          "",
+          "",
+          "O",
+          "",
+          "B",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "O",
+          "R",
+          "O",
+          "L",
+          "L",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "",
+          "P",
+          "",
+          "",
+          "E",
+          "",
+          "C",
+          ""
+        ],
+        [
+          "",
+          "",
+          "E",
+          "",
+          "",
+          "T",
+          "",
+          "K",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 6,
+          "answer": "OSTRICH",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Creature in the animal kingdom",
+          "softHints": {
+            "startsWith": "O",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "CABRIOLET",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 9,
+          "clue": "Used for getting around",
+          "softHints": {
+            "startsWith": "C",
+            "length": 9,
+            "category": "travel"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "TELESCOPE",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 9,
+          "clue": "Celestial object or phenomenon",
+          "softHints": {
+            "startsWith": "T",
+            "length": 9,
+            "category": "space"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "HATCHBACK",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 9,
+          "clue": "Transportation method",
+          "softHints": {
+            "startsWith": "H",
+            "length": 9,
+            "category": "travel"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "COROLLA",
+          "direction": "across",
+          "row": 6,
+          "col": 1,
+          "length": 7,
+          "clue": "Found in nature",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "nature"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "MACAW",
+          "direction": "across",
+          "row": 1,
+          "col": 4,
+          "length": 5,
+          "clue": "Creature in the animal kingdom",
+          "softHints": {
+            "startsWith": "M",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        },
+        {
+          "number": 5,
+          "answer": "LILY",
+          "direction": "across",
+          "row": 2,
+          "col": 0,
+          "length": 4,
+          "clue": "Flora or natural element",
+          "softHints": {
+            "startsWith": "L",
+            "length": 4,
+            "category": "nature"
+          },
+          "theme": "space",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "Creature in the animal kingdom",
+            "answer": "MACAW",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "Flora or natural element",
+            "answer": "LILY",
+            "length": 4
+          },
+          {
+            "number": 6,
+            "clue": "Creature in the animal kingdom",
+            "answer": "OSTRICH",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "Found in nature",
+            "answer": "COROLLA",
+            "length": 7
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Celestial object or phenomenon",
+            "answer": "TELESCOPE",
+            "length": 9
+          },
+          {
+            "number": 2,
+            "clue": "Used for getting around",
+            "answer": "CABRIOLET",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "Transportation method",
+            "answer": "HATCHBACK",
+            "length": 9
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "space",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 9,
+        "boardScore": 0.5437
+      }
+    }
+  ]
+}

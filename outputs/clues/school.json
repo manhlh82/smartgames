@@ -1,0 +1,858 @@
+{
+  "theme": "school",
+  "count": 52,
+  "clues": [
+    {
+      "word": "ARGUMENT",
+      "primaryClue": "Education-related term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "A",
+        "length": 8,
+        "category": "school"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "BLOCK",
+      "primaryClue": "Academic term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "B",
+        "length": 5,
+        "category": "school"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "CODE",
+      "primaryClue": "Found at school",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 4,
+        "category": "school"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "COMMENT",
+      "primaryClue": "Part of school life",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 7,
+        "category": "school"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "DATA",
+      "primaryClue": "Academic term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "D",
+        "length": 4,
+        "category": "school"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "FLOAT",
+      "primaryClue": "Part of school life",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "F",
+        "length": 5,
+        "category": "school"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "FUNCTION",
+      "primaryClue": "Education-related term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "F",
+        "length": 8,
+        "category": "school"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "INTEGER",
+      "primaryClue": "Classroom or school concept",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "I",
+        "length": 7,
+        "category": "school"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "KEYWORD",
+      "primaryClue": "Education-related term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "K",
+        "length": 7,
+        "category": "school"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "LINE",
+      "primaryClue": "Part of school life",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "L",
+        "length": 4,
+        "category": "school"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "LITERAL",
+      "primaryClue": "Found at school",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "L",
+        "length": 7,
+        "category": "school"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "METHOD",
+      "primaryClue": "Part of school life",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "M",
+        "length": 6,
+        "category": "school"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "NAME",
+      "primaryClue": "Academic term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "N",
+        "length": 4,
+        "category": "school"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "NUMBER",
+      "primaryClue": "Education-related term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "N",
+        "length": 6,
+        "category": "school"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "OBJECT",
+      "primaryClue": "Education-related term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "O",
+        "length": 6,
+        "category": "school"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "PARAMETER",
+      "primaryClue": "Part of school life",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "P",
+        "length": 9,
+        "category": "school"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "PROCESS",
+      "primaryClue": "Found at school",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "P",
+        "length": 7,
+        "category": "school"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SCOPE",
+      "primaryClue": "Academic term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 5,
+        "category": "school"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SNIPPET",
+      "primaryClue": "Part of school life",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 7,
+        "category": "school"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "STRING",
+      "primaryClue": "Part of school life",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 6,
+        "category": "school"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SYNTAX",
+      "primaryClue": "Academic term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 6,
+        "category": "school"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "TYPE",
+      "primaryClue": "Academic term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "T",
+        "length": 4,
+        "category": "school"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "BOOK",
+      "primaryClue": "Found at school",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "B",
+        "length": 4,
+        "category": "school"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "DESK",
+      "primaryClue": "Education-related term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "D",
+        "length": 4,
+        "category": "school"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "CLASS",
+      "primaryClue": "Education-related term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 5,
+        "category": "school"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "PENCIL",
+      "primaryClue": "Education-related term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "P",
+        "length": 6,
+        "category": "school"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "RULER",
+      "primaryClue": "Classroom or school concept",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "R",
+        "length": 5,
+        "category": "school"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "TEST",
+      "primaryClue": "Found at school",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "T",
+        "length": 4,
+        "category": "school"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "EXAM",
+      "primaryClue": "Found at school",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "E",
+        "length": 4,
+        "category": "school"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "GRADE",
+      "primaryClue": "Education-related term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "G",
+        "length": 5,
+        "category": "school"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "LESSON",
+      "primaryClue": "Part of school life",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "L",
+        "length": 6,
+        "category": "school"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "STUDY",
+      "primaryClue": "Part of school life",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 5,
+        "category": "school"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "TEACH",
+      "primaryClue": "Found at school",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "T",
+        "length": 5,
+        "category": "school"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "LEARN",
+      "primaryClue": "Part of school life",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "L",
+        "length": 5,
+        "category": "school"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "MATH",
+      "primaryClue": "Classroom or school concept",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "M",
+        "length": 4,
+        "category": "school"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SCIENCE",
+      "primaryClue": "Classroom or school concept",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 7,
+        "category": "school"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "HISTORY",
+      "primaryClue": "Part of school life",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "H",
+        "length": 7,
+        "category": "school"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "ART",
+      "primaryClue": "Education-related term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "A",
+        "length": 3,
+        "category": "school"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "GYM",
+      "primaryClue": "Part of school life",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "G",
+        "length": 3,
+        "category": "school"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "LIBRARY",
+      "primaryClue": "Found at school",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "L",
+        "length": 7,
+        "category": "school"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "LUNCH",
+      "primaryClue": "Education-related term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "L",
+        "length": 5,
+        "category": "school"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "RECESS",
+      "primaryClue": "Part of school life",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "R",
+        "length": 6,
+        "category": "school"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "DIPLOMA",
+      "primaryClue": "Part of school life",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "D",
+        "length": 7,
+        "category": "school"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "TUTOR",
+      "primaryClue": "Part of school life",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "T",
+        "length": 5,
+        "category": "school"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "ESSAY",
+      "primaryClue": "Academic term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "E",
+        "length": 5,
+        "category": "school"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "QUIZ",
+      "primaryClue": "Academic term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "Q",
+        "length": 4,
+        "category": "school"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "NOTEBOOK",
+      "primaryClue": "Part of school life",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "N",
+        "length": 8,
+        "category": "school"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "CAMPUS",
+      "primaryClue": "Part of school life",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 6,
+        "category": "school"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "DORM",
+      "primaryClue": "Classroom or school concept",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "D",
+        "length": 4,
+        "category": "school"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "CHALK",
+      "primaryClue": "Found at school",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 5,
+        "category": "school"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "ERASER",
+      "primaryClue": "Classroom or school concept",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "E",
+        "length": 6,
+        "category": "school"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SYLLABUS",
+      "primaryClue": "Education-related term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 8,
+        "category": "school"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    }
+  ]
+}

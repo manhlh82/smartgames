@@ -32,6 +32,7 @@ struct SmartGamesApp: App {
                 .environmentObject(environment.themeService)
                 .environmentObject(environment.dropRushDailyChallenge)
                 .environmentObject(environment.stack2048DailyChallenge)
+                .environmentObject(environment.crosswordDailyChallenge)
                 .task {
                     // Fetch remote economy config overrides (no-op until Firebase integrated)
                     await RemoteEconomyConfig.shared.fetchAndActivate()

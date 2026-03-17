@@ -1,0 +1,934 @@
+{
+  "theme": "nature",
+  "count": 58,
+  "clues": [
+    {
+      "word": "ACORN",
+      "primaryClue": "Part of the natural world",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "A",
+        "length": 5,
+        "category": "nature"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "ALFALFA",
+      "primaryClue": "Flora or natural element",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "A",
+        "length": 7,
+        "category": "nature"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "BAMBOO",
+      "primaryClue": "Flora or natural element",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "B",
+        "length": 6,
+        "category": "nature"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "BARK",
+      "primaryClue": "Grows in the wild",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "B",
+        "length": 4,
+        "category": "nature"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "BEAN",
+      "primaryClue": "Flora or natural element",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "B",
+        "length": 4,
+        "category": "nature"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "BERRY",
+      "primaryClue": "Flora or natural element",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "B",
+        "length": 5,
+        "category": "nature"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "BLADE",
+      "primaryClue": "Part of the natural world",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "B",
+        "length": 5,
+        "category": "nature"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "BRUSH",
+      "primaryClue": "Plant or natural feature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "B",
+        "length": 5,
+        "category": "nature"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "BUD",
+      "primaryClue": "Flora or natural element",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "B",
+        "length": 3,
+        "category": "nature"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "BULB",
+      "primaryClue": "Found in nature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "B",
+        "length": 4,
+        "category": "nature"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "BUSH",
+      "primaryClue": "Plant or natural feature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "B",
+        "length": 4,
+        "category": "nature"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "CACTUS",
+      "primaryClue": "Grows in the wild",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 6,
+        "category": "nature"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "CLOVER",
+      "primaryClue": "Flora or natural element",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 6,
+        "category": "nature"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "CORK",
+      "primaryClue": "Found in nature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 4,
+        "category": "nature"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "COROLLA",
+      "primaryClue": "Part of the natural world",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 7,
+        "category": "nature"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "FERN",
+      "primaryClue": "Grows in the wild",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "F",
+        "length": 4,
+        "category": "nature"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "FLORA",
+      "primaryClue": "Flora or natural element",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "F",
+        "length": 5,
+        "category": "nature"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "FLOWER",
+      "primaryClue": "Plant or natural feature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "F",
+        "length": 6,
+        "category": "nature"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "FOREST",
+      "primaryClue": "Flora or natural element",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "F",
+        "length": 6,
+        "category": "nature"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "FRUIT",
+      "primaryClue": "Found in nature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "F",
+        "length": 5,
+        "category": "nature"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "GARDEN",
+      "primaryClue": "Plant or natural feature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "G",
+        "length": 6,
+        "category": "nature"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "GRAIN",
+      "primaryClue": "Flora or natural element",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "G",
+        "length": 5,
+        "category": "nature"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "GRASS",
+      "primaryClue": "Flora or natural element",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "G",
+        "length": 5,
+        "category": "nature"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "GROVE",
+      "primaryClue": "Found in nature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "G",
+        "length": 5,
+        "category": "nature"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "HERB",
+      "primaryClue": "Found in nature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "H",
+        "length": 4,
+        "category": "nature"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "IVY",
+      "primaryClue": "Flora or natural element",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "I",
+        "length": 3,
+        "category": "nature"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "JUNGLE",
+      "primaryClue": "Found in nature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "J",
+        "length": 6,
+        "category": "nature"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "JUNIPER",
+      "primaryClue": "Grows in the wild",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "J",
+        "length": 7,
+        "category": "nature"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "KELP",
+      "primaryClue": "Plant or natural feature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "K",
+        "length": 4,
+        "category": "nature"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "KUDZU",
+      "primaryClue": "Flora or natural element",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "K",
+        "length": 5,
+        "category": "nature"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "LEAF",
+      "primaryClue": "Flora or natural element",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "L",
+        "length": 4,
+        "category": "nature"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "LILY",
+      "primaryClue": "Part of the natural world",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "L",
+        "length": 4,
+        "category": "nature"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "MOSS",
+      "primaryClue": "Found in nature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "M",
+        "length": 4,
+        "category": "nature"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "NECTAR",
+      "primaryClue": "Part of the natural world",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "N",
+        "length": 6,
+        "category": "nature"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "NUT",
+      "primaryClue": "Part of the natural world",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "N",
+        "length": 3,
+        "category": "nature"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "PALM",
+      "primaryClue": "Found in nature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "P",
+        "length": 4,
+        "category": "nature"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "PETAL",
+      "primaryClue": "Part of the natural world",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "P",
+        "length": 5,
+        "category": "nature"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "POLLEN",
+      "primaryClue": "Flora or natural element",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "P",
+        "length": 6,
+        "category": "nature"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "RESIN",
+      "primaryClue": "Part of the natural world",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "R",
+        "length": 5,
+        "category": "nature"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "ROOT",
+      "primaryClue": "Flora or natural element",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "R",
+        "length": 4,
+        "category": "nature"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SAGE",
+      "primaryClue": "Flora or natural element",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 4,
+        "category": "nature"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SAP",
+      "primaryClue": "Part of the natural world",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 3,
+        "category": "nature"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SEED",
+      "primaryClue": "Part of the natural world",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 4,
+        "category": "nature"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SHOOT",
+      "primaryClue": "Plant or natural feature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 5,
+        "category": "nature"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SHRUB",
+      "primaryClue": "Flora or natural element",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 5,
+        "category": "nature"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SPORE",
+      "primaryClue": "Found in nature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 5,
+        "category": "nature"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "STALK",
+      "primaryClue": "Found in nature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 5,
+        "category": "nature"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SPINE",
+      "primaryClue": "Grows in the wild",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 5,
+        "category": "nature"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SPROUT",
+      "primaryClue": "Flora or natural element",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 6,
+        "category": "nature"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "STEM",
+      "primaryClue": "Flora or natural element",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 4,
+        "category": "nature"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "THORN",
+      "primaryClue": "Grows in the wild",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "T",
+        "length": 5,
+        "category": "nature"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "TREE",
+      "primaryClue": "Plant or natural feature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "T",
+        "length": 4,
+        "category": "nature"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "TRUNK",
+      "primaryClue": "Part of the natural world",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "T",
+        "length": 5,
+        "category": "nature"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "TWIG",
+      "primaryClue": "Grows in the wild",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "T",
+        "length": 4,
+        "category": "nature"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "VEIN",
+      "primaryClue": "Plant or natural feature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "V",
+        "length": 4,
+        "category": "nature"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "VINE",
+      "primaryClue": "Plant or natural feature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "V",
+        "length": 4,
+        "category": "nature"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "WEED",
+      "primaryClue": "Grows in the wild",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "W",
+        "length": 4,
+        "category": "nature"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "WOOD",
+      "primaryClue": "Grows in the wild",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "W",
+        "length": 4,
+        "category": "nature"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    }
+  ]
+}

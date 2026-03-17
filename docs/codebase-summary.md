@@ -87,6 +87,43 @@ Registered via `DropRushModule` conforming to `GameModule` protocol.
 - Leaderboard: com.smartgames.dropRush.leaderboard.daily (daily challenge score) (Phase 6)
 - Leaderboard: com.smartgames.dropRush.leaderboard.weekly (weekly challenge score) (Phase 6)
 
+## Crossword Game Module
+
+Registered via `CrosswordGameModule` conforming to `GameModule` protocol.
+
+**Crossword is a standard word puzzle game:**
+- 7×7 (mini), 9×9 (standard), 11×11 (extended) board sizes
+- 12 themed puzzle packs (animals, food, fruits, sports, space, nature, ocean, city, school, travel, weather, music)
+- 185 total puzzles (seed-based generation for reproducibility)
+- Daily challenge support (seeded puzzle selection)
+- Hint system + soft hints (category, length, first letter)
+- Save/load game state + statistics tracking
+
+| File | Purpose |
+|------|---------|
+| `CrosswordGameModule.swift` | Implements GameModule contract |
+| `Models/CrosswordPuzzle.swift` | Puzzle model (theme, difficulty, packId, softHints) |
+| `Models/CrosswordPack.swift` | Pack metadata (title, theme, difficulty, puzzleCount) |
+| `Models/CrosswordBoardState.swift` | In-game board state + solved tracking |
+| `Engine/CrosswordPuzzleBank.swift` | Pack-based puzzle loading + daily challenge |
+| `Engine/CrosswordValidator.swift` | Word validation, win detection, hint logic |
+| `ViewModels/CrosswordGameViewModel.swift` | Game state machine (playing → paused → won/lost); hint management |
+| `Views/CrosswordGameView.swift` | Main gameplay screen with grid + clues |
+| `Views/CrosswordLobbyView.swift` | Theme/pack selection + pack preview |
+| `Views/CrosswordGridView.swift` | Interactive word grid with cell selection |
+| `Views/CrosswordClueView.swift` | Across/down clue list |
+| `Services/CrosswordDailyChallengeService.swift` | Daily challenge generation from seed |
+| `Models/CrosswordDailyChallengeModels.swift` | DailyChallengeState, StreakData |
+
+**Analytics Events:**
+- `crossword_puzzle_started(theme:difficulty:)`, `crossword_puzzle_completed(theme:score:time:)`
+- `crossword_hint_used(hintType:)`, `crossword_paused`, `crossword_quit`
+- `daily_challenge_started(game:)`, `daily_challenge_completed(game:score:stars:streak:)` (Phase 6)
+
+**Resources:**
+- `SmartGames/Games/Crossword/Resources/crossword-packs-index.json` — pack manifest
+- `SmartGames/Games/Crossword/Resources/crossword-pack-*.json` — individual puzzle packs (5 puzzles each, embedded)
+
 ## Stack 2048 Game Module
 
 Registered via `Stack2048Module` conforming to `GameModule` protocol.
@@ -229,6 +266,34 @@ playing → won | lost | needsHintAd | needsMistakeResetAd
 | `AnalyticsEvent+LoginStreak.swift` | Grace period usage tracking |
 | `AnalyticsEvent+Stack2048Challenge.swift` | Challenge level started/completed with stars + move count |
 
+## Crossword Content Pipeline
+
+Offline Python pipeline that generates themed puzzle packs for the Crossword game module.
+
+| Directory | Purpose |
+|-----------|---------|
+| `pipeline/` | Python library (config, models, scoring, generator, pack builder, schema validation) |
+| `scripts/` | Executable Python scripts (fetch wordlists, build word banks, generate clues, build packs, validate) |
+| `tests/` | Python unit tests (65 tests, all passing; normalization, scoring, board, generator, pack validation) |
+| `data/` | Source data (raw word lists, processed banks, denylist, allowlist, clue overrides) |
+| `outputs/` | Generated artifacts (word banks, clues, individual puzzles, packs, sample files) |
+
+**Key Files:**
+- `scripts/run-pipeline.sh` — end-to-end orchestration (7 steps, ~2 min runtime)
+- `scripts/build-wordbank.py` — 916 words across 12 themes with scoring
+- `scripts/build-clues.py` — template-based clue generation with quality checks
+- `scripts/generate-pack.py` — 10 packs, 185 total puzzles (7×7, 9×9, 11×11)
+- `scripts/validate-outputs.py` — JSON schema validation + integrity checks
+- `requirements.txt` — pytest, pydantic (minimal dependencies)
+- `LICENSE_NOTES.md` — source attribution (MIT/Apache/CC0 licensed sources)
+- `TROUBLESHOOTING.md` — common issues + solutions
+
+**Output:**
+- 10 puzzle packs (1 pack per theme, 18-20 puzzles/pack)
+- Pack index: `crossword-packs-index.json` (metadata)
+- Individual packs: `crossword-pack-{theme}.json` (puzzles embedded)
+- Copied to `SmartGames/Games/Crossword/Resources/` for iOS bundling
+
 ## PR History
 
-01 scaffold · 02 services · 03 hub · 04 engine · 05-07 gameplay · 08 ads · 09 analytics · 10 polish · 11 monetization · 12 drop-rush-phases-06-07-08 · 13 sudoku-audio-localization-phases-09-10-11 · 14-20 monetization-v2-phases-01-07 · 21-28 engagement-level-progression-phases-01-06
+01 scaffold · 02 services · 03 hub · 04 engine · 05-07 gameplay · 08 ads · 09 analytics · 10 polish · 11 monetization · 12 drop-rush-phases-06-07-08 · 13 sudoku-audio-localization-phases-09-10-11 · 14-20 monetization-v2-phases-01-07 · 21-28 engagement-level-progression-phases-01-06 · 29-36 crossword-game-and-pipeline

@@ -1,0 +1,2358 @@
+{
+  "theme": "animals",
+  "count": 147,
+  "clues": [
+    {
+      "word": "BADGER",
+      "primaryClue": "A type of animal",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "B",
+        "length": 6,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "BARRACUDA",
+      "primaryClue": "Furry, feathered, or scaled creature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "B",
+        "length": 9,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "BEAR",
+      "primaryClue": "Found in nature or a zoo",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "B",
+        "length": 4,
+        "category": "animals"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "BOA",
+      "primaryClue": "A type of animal",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "B",
+        "length": 3,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "CHEETAH",
+      "primaryClue": "Common household pet or wild creature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 7,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "CHIMPANZEE",
+      "primaryClue": "Creature in the animal kingdom",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 10,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "CIVET",
+      "primaryClue": "Found in nature or a zoo",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 5,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "COBRA",
+      "primaryClue": "Found in nature or a zoo",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 5,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "COUGAR",
+      "primaryClue": "Found in nature or a zoo",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 6,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "COYOTE",
+      "primaryClue": "A type of animal",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 6,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "CROCODILE",
+      "primaryClue": "Found in nature or a zoo",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 9,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "DINGO",
+      "primaryClue": "Furry, feathered, or scaled creature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "D",
+        "length": 5,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "EAGLE",
+      "primaryClue": "Found in nature or a zoo",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "E",
+        "length": 5,
+        "category": "animals"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "EEL",
+      "primaryClue": "Furry, feathered, or scaled creature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "E",
+        "length": 3,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "FOSSA",
+      "primaryClue": "Common household pet or wild creature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "F",
+        "length": 5,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "FOX",
+      "primaryClue": "A type of animal",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "F",
+        "length": 3,
+        "category": "animals"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "HUMAN",
+      "primaryClue": "Common household pet or wild creature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "H",
+        "length": 5,
+        "category": "animals"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "JACKAL",
+      "primaryClue": "Found in nature or a zoo",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "J",
+        "length": 6,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "JAGUAR",
+      "primaryClue": "Creature in the animal kingdom",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "J",
+        "length": 6,
+        "category": "animals"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "KOMODO",
+      "primaryClue": "Found in nature or a zoo",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "K",
+        "length": 6,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "LEOPARD",
+      "primaryClue": "Common household pet or wild creature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "L",
+        "length": 7,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "LION",
+      "primaryClue": "Found in nature or a zoo",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "L",
+        "length": 4,
+        "category": "animals"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "LYNX",
+      "primaryClue": "Found in nature or a zoo",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "L",
+        "length": 4,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "MAMBA",
+      "primaryClue": "Furry, feathered, or scaled creature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "M",
+        "length": 5,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "MANDRILL",
+      "primaryClue": "A type of animal",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "M",
+        "length": 8,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "MARLIN",
+      "primaryClue": "A type of animal",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "M",
+        "length": 6,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "MONITOR",
+      "primaryClue": "Common household pet or wild creature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "M",
+        "length": 7,
+        "category": "animals"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "OCELOT",
+      "primaryClue": "A type of animal",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "O",
+        "length": 6,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "OSPREY",
+      "primaryClue": "Furry, feathered, or scaled creature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "O",
+        "length": 6,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "OWL",
+      "primaryClue": "Found in nature or a zoo",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "O",
+        "length": 3,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "PETREL",
+      "primaryClue": "Found in nature or a zoo",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "P",
+        "length": 6,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "PYTHON",
+      "primaryClue": "Common household pet or wild creature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "P",
+        "length": 6,
+        "category": "animals"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "RAY",
+      "primaryClue": "Furry, feathered, or scaled creature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "R",
+        "length": 3,
+        "category": "animals"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SALAMANDER",
+      "primaryClue": "Creature in the animal kingdom",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 10,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SERVAL",
+      "primaryClue": "Common household pet or wild creature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 6,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SHARK",
+      "primaryClue": "Creature in the animal kingdom",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 5,
+        "category": "animals"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SKUA",
+      "primaryClue": "Common household pet or wild creature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 4,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "TIGER",
+      "primaryClue": "Creature in the animal kingdom",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "T",
+        "length": 5,
+        "category": "animals"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "VIPER",
+      "primaryClue": "A type of animal",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "V",
+        "length": 5,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "WOLF",
+      "primaryClue": "Common household pet or wild creature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "W",
+        "length": 4,
+        "category": "animals"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "WOLVERINE",
+      "primaryClue": "Common household pet or wild creature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "W",
+        "length": 9,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "BEAGLE",
+      "primaryClue": "Common household pet or wild creature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "B",
+        "length": 6,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "BORZOI",
+      "primaryClue": "Creature in the animal kingdom",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "B",
+        "length": 6,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "BOXER",
+      "primaryClue": "Creature in the animal kingdom",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "B",
+        "length": 5,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "COLLIE",
+      "primaryClue": "A type of animal",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 6,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "CORGIE",
+      "primaryClue": "Creature in the animal kingdom",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 6,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "DACHSHUND",
+      "primaryClue": "Creature in the animal kingdom",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "D",
+        "length": 9,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "FEIST",
+      "primaryClue": "Furry, feathered, or scaled creature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "F",
+        "length": 5,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "HARRIER",
+      "primaryClue": "Creature in the animal kingdom",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "H",
+        "length": 7,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "HOUND",
+      "primaryClue": "Common household pet or wild creature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "H",
+        "length": 5,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "HUSKY",
+      "primaryClue": "Creature in the animal kingdom",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "H",
+        "length": 5,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "MALTESE",
+      "primaryClue": "Furry, feathered, or scaled creature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "M",
+        "length": 7,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "PINSCHER",
+      "primaryClue": "Common household pet or wild creature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "P",
+        "length": 8,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "POODLE",
+      "primaryClue": "Common household pet or wild creature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "P",
+        "length": 6,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "PUG",
+      "primaryClue": "Creature in the animal kingdom",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "P",
+        "length": 3,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "RETRIEVER",
+      "primaryClue": "Found in nature or a zoo",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "R",
+        "length": 9,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "ROTTWEILER",
+      "primaryClue": "Furry, feathered, or scaled creature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "R",
+        "length": 10,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SCHNAUZER",
+      "primaryClue": "Common household pet or wild creature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 9,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SETTER",
+      "primaryClue": "A type of animal",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 6,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SHEPHERD",
+      "primaryClue": "Common household pet or wild creature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 8,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SPANIEL",
+      "primaryClue": "Found in nature or a zoo",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 7,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SPITZ",
+      "primaryClue": "A type of animal",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 5,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "TERRIER",
+      "primaryClue": "Common household pet or wild creature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "T",
+        "length": 7,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "WESTIE",
+      "primaryClue": "A type of animal",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "W",
+        "length": 6,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "WHIPPET",
+      "primaryClue": "Creature in the animal kingdom",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "W",
+        "length": 7,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "ANGORA",
+      "primaryClue": "Furry, feathered, or scaled creature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "A",
+        "length": 6,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "BALINESE",
+      "primaryClue": "A type of animal",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "B",
+        "length": 8,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "BENGAL",
+      "primaryClue": "Furry, feathered, or scaled creature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "B",
+        "length": 6,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "BIRMAN",
+      "primaryClue": "Furry, feathered, or scaled creature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "B",
+        "length": 6,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "BOBTAIL",
+      "primaryClue": "Creature in the animal kingdom",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "B",
+        "length": 7,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "BOMBAY",
+      "primaryClue": "Creature in the animal kingdom",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "B",
+        "length": 6,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "BURMESE",
+      "primaryClue": "Creature in the animal kingdom",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "B",
+        "length": 7,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "CALICO",
+      "primaryClue": "A type of animal",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 6,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "GINGER",
+      "primaryClue": "Furry, feathered, or scaled creature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "G",
+        "length": 6,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "HIMALAYAN",
+      "primaryClue": "Found in nature or a zoo",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "H",
+        "length": 9,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "JAVANESE",
+      "primaryClue": "Found in nature or a zoo",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "J",
+        "length": 8,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "KORAT",
+      "primaryClue": "Creature in the animal kingdom",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "K",
+        "length": 5,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "LONGHAIR",
+      "primaryClue": "A type of animal",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "L",
+        "length": 8,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "MARMALADE",
+      "primaryClue": "Found in nature or a zoo",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "M",
+        "length": 9,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "ORIENTAL",
+      "primaryClue": "A type of animal",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "O",
+        "length": 8,
+        "category": "animals"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "PERSIAN",
+      "primaryClue": "A type of animal",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "P",
+        "length": 7,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SIAMESE",
+      "primaryClue": "Common household pet or wild creature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 7,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SIBERIAN",
+      "primaryClue": "Furry, feathered, or scaled creature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 8,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "TABBY",
+      "primaryClue": "Creature in the animal kingdom",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "T",
+        "length": 5,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "TOM",
+      "primaryClue": "Creature in the animal kingdom",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "T",
+        "length": 3,
+        "category": "animals"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "ALBATROSS",
+      "primaryClue": "A type of animal",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "A",
+        "length": 9,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "AVOCET",
+      "primaryClue": "Furry, feathered, or scaled creature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "A",
+        "length": 6,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "BUDGIE",
+      "primaryClue": "Furry, feathered, or scaled creature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "B",
+        "length": 6,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "CANARY",
+      "primaryClue": "A type of animal",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 6,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "CHICK",
+      "primaryClue": "Furry, feathered, or scaled creature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 5,
+        "category": "animals"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "CHICKADEE",
+      "primaryClue": "Creature in the animal kingdom",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 9,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "CHICKEN",
+      "primaryClue": "Creature in the animal kingdom",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 7,
+        "category": "animals"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "COCKATIEL",
+      "primaryClue": "Found in nature or a zoo",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 9,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "COCKATOO",
+      "primaryClue": "Common household pet or wild creature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 8,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "COOT",
+      "primaryClue": "Furry, feathered, or scaled creature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 4,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "COVEY",
+      "primaryClue": "A type of animal",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 5,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "CROW",
+      "primaryClue": "Found in nature or a zoo",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 4,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "CUCKOO",
+      "primaryClue": "A type of animal",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 6,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "DARTER",
+      "primaryClue": "Found in nature or a zoo",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "D",
+        "length": 6,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "DOVE",
+      "primaryClue": "Creature in the animal kingdom",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "D",
+        "length": 4,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "DUCK",
+      "primaryClue": "Furry, feathered, or scaled creature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "D",
+        "length": 4,
+        "category": "animals"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "FALCON",
+      "primaryClue": "Creature in the animal kingdom",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "F",
+        "length": 6,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "FINCH",
+      "primaryClue": "A type of animal",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "F",
+        "length": 5,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "FLAMINGO",
+      "primaryClue": "Furry, feathered, or scaled creature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "F",
+        "length": 8,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "FOWL",
+      "primaryClue": "Found in nature or a zoo",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "F",
+        "length": 4,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "GOLDFINCH",
+      "primaryClue": "Furry, feathered, or scaled creature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "G",
+        "length": 9,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "GOOSE",
+      "primaryClue": "Found in nature or a zoo",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "G",
+        "length": 5,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "GROUSE",
+      "primaryClue": "A type of animal",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "G",
+        "length": 6,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "HAWK",
+      "primaryClue": "Found in nature or a zoo",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "H",
+        "length": 4,
+        "category": "animals"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "HERON",
+      "primaryClue": "A type of animal",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "H",
+        "length": 5,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "JACKDAW",
+      "primaryClue": "A type of animal",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "J",
+        "length": 7,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "JAY",
+      "primaryClue": "Furry, feathered, or scaled creature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "J",
+        "length": 3,
+        "category": "animals"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "KESTREL",
+      "primaryClue": "Common household pet or wild creature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "K",
+        "length": 7,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "LARK",
+      "primaryClue": "Found in nature or a zoo",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "L",
+        "length": 4,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "LOON",
+      "primaryClue": "Furry, feathered, or scaled creature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "L",
+        "length": 4,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "MACAW",
+      "primaryClue": "A type of animal",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "M",
+        "length": 5,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "MAGPIE",
+      "primaryClue": "Creature in the animal kingdom",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "M",
+        "length": 6,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "MARTIN",
+      "primaryClue": "A type of animal",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "M",
+        "length": 6,
+        "category": "animals"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "OSTRICH",
+      "primaryClue": "Creature in the animal kingdom",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "O",
+        "length": 7,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "PARAKEET",
+      "primaryClue": "A type of animal",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "P",
+        "length": 8,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "PARROT",
+      "primaryClue": "Common household pet or wild creature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "P",
+        "length": 6,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "PELICAN",
+      "primaryClue": "Common household pet or wild creature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "P",
+        "length": 7,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "PENGUIN",
+      "primaryClue": "Creature in the animal kingdom",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "P",
+        "length": 7,
+        "category": "animals"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "PIGEON",
+      "primaryClue": "Furry, feathered, or scaled creature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "P",
+        "length": 6,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "PINTAIL",
+      "primaryClue": "A type of animal",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "P",
+        "length": 7,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "PUFFIN",
+      "primaryClue": "Furry, feathered, or scaled creature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "P",
+        "length": 6,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "QUAIL",
+      "primaryClue": "Found in nature or a zoo",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "Q",
+        "length": 5,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "QUETZAL",
+      "primaryClue": "Found in nature or a zoo",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "Q",
+        "length": 7,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "RAIL",
+      "primaryClue": "Furry, feathered, or scaled creature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "R",
+        "length": 4,
+        "category": "animals"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "RAVEN",
+      "primaryClue": "Common household pet or wild creature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "R",
+        "length": 5,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "RAZORBILL",
+      "primaryClue": "A type of animal",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "R",
+        "length": 9,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "RHEA",
+      "primaryClue": "Found in nature or a zoo",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "R",
+        "length": 4,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "ROOK",
+      "primaryClue": "A type of animal",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "R",
+        "length": 4,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SHRIKE",
+      "primaryClue": "Creature in the animal kingdom",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 6,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SKYLARK",
+      "primaryClue": "A type of animal",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 7,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SNIPE",
+      "primaryClue": "A type of animal",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 5,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SPARROW",
+      "primaryClue": "Found in nature or a zoo",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 7,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "STARLING",
+      "primaryClue": "Furry, feathered, or scaled creature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 8,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "STORK",
+      "primaryClue": "Furry, feathered, or scaled creature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 5,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SWALLOW",
+      "primaryClue": "Common household pet or wild creature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 7,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SWIFT",
+      "primaryClue": "Found in nature or a zoo",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 5,
+        "category": "animals"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "TANAGER",
+      "primaryClue": "Furry, feathered, or scaled creature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "T",
+        "length": 7,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "THRUSH",
+      "primaryClue": "A type of animal",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "T",
+        "length": 6,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "TOUCAN",
+      "primaryClue": "A type of animal",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "T",
+        "length": 6,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "TURKEY",
+      "primaryClue": "A type of animal",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "T",
+        "length": 6,
+        "category": "animals"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "VULTURE",
+      "primaryClue": "Common household pet or wild creature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "V",
+        "length": 7,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "WARBLER",
+      "primaryClue": "Found in nature or a zoo",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "W",
+        "length": 7,
+        "category": "animals"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    }
+  ]
+}

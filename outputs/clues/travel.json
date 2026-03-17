@@ -1,0 +1,371 @@
+{
+  "theme": "travel",
+  "count": 22,
+  "clues": [
+    {
+      "word": "CABRIOLET",
+      "primaryClue": "Vehicle or travel concept",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 9,
+        "category": "travel"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "CAR",
+      "primaryClue": "Vehicle or travel concept",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 3,
+        "category": "travel"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "COUPE",
+      "primaryClue": "Travel-related term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 5,
+        "category": "travel"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "DRAGSTER",
+      "primaryClue": "Travel-related term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "D",
+        "length": 8,
+        "category": "travel"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "HATCHBACK",
+      "primaryClue": "Travel-related term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "H",
+        "length": 9,
+        "category": "travel"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "HEARSE",
+      "primaryClue": "Travel-related term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "H",
+        "length": 6,
+        "category": "travel"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "HOTROD",
+      "primaryClue": "Transportation method",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "H",
+        "length": 6,
+        "category": "travel"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "HUMVEE",
+      "primaryClue": "Travel-related term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "H",
+        "length": 6,
+        "category": "travel"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "HYBRID",
+      "primaryClue": "Vehicle or travel concept",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "H",
+        "length": 6,
+        "category": "travel"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "JEEP",
+      "primaryClue": "Transportation method",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "J",
+        "length": 4,
+        "category": "travel"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "LANDAULET",
+      "primaryClue": "Travel-related term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "L",
+        "length": 9,
+        "category": "travel"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "LIMO",
+      "primaryClue": "Vehicle or travel concept",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "L",
+        "length": 4,
+        "category": "travel"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "LIMOUSINE",
+      "primaryClue": "Transportation method",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "L",
+        "length": 9,
+        "category": "travel"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "MINIVAN",
+      "primaryClue": "Travel-related term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "M",
+        "length": 7,
+        "category": "travel"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "ROADSTER",
+      "primaryClue": "A way to travel",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "R",
+        "length": 8,
+        "category": "travel"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SEDAN",
+      "primaryClue": "Used for getting around",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 5,
+        "category": "travel"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SUBCOMPACT",
+      "primaryClue": "A way to travel",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 10,
+        "category": "travel"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SUV",
+      "primaryClue": "Transportation method",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 3,
+        "category": "travel"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "TAXI",
+      "primaryClue": "Transportation method",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "T",
+        "length": 4,
+        "category": "travel"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "TRUCK",
+      "primaryClue": "Used for getting around",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "T",
+        "length": 5,
+        "category": "travel"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "VAN",
+      "primaryClue": "Used for getting around",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "V",
+        "length": 3,
+        "category": "travel"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "WAGON",
+      "primaryClue": "Travel-related term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "W",
+        "length": 5,
+        "category": "travel"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    }
+  ]
+}

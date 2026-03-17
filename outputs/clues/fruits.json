@@ -1,0 +1,510 @@
+{
+  "theme": "fruits",
+  "count": 31,
+  "clues": [
+    {
+      "word": "APPLE",
+      "primaryClue": "Fruit variety",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "A",
+        "length": 5,
+        "category": "fruits"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "APRICOT",
+      "primaryClue": "Grows on a tree or vine",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "A",
+        "length": 7,
+        "category": "fruits"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "AVOCADO",
+      "primaryClue": "Fruit variety",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "A",
+        "length": 7,
+        "category": "fruits"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "BANANA",
+      "primaryClue": "Found in an orchard",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "B",
+        "length": 6,
+        "category": "fruits"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "BERRY",
+      "primaryClue": "Fruit variety",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "B",
+        "length": 5,
+        "category": "fruits"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "CANTALOUPE",
+      "primaryClue": "Found in an orchard",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 10,
+        "category": "fruits"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "CHERRY",
+      "primaryClue": "Found in an orchard",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 6,
+        "category": "fruits"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "CITRON",
+      "primaryClue": "Fruit variety",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 6,
+        "category": "fruits"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "CITRUS",
+      "primaryClue": "Fruit variety",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 6,
+        "category": "fruits"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "COCONUT",
+      "primaryClue": "A sweet fruit",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 7,
+        "category": "fruits"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "DATE",
+      "primaryClue": "Grows on a tree or vine",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "D",
+        "length": 4,
+        "category": "fruits"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "FIG",
+      "primaryClue": "Grows on a tree or vine",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "F",
+        "length": 3,
+        "category": "fruits"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "GRAPE",
+      "primaryClue": "Healthy snack option",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "G",
+        "length": 5,
+        "category": "fruits"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "GUAVA",
+      "primaryClue": "Found in an orchard",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "G",
+        "length": 5,
+        "category": "fruits"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "KIWI",
+      "primaryClue": "A sweet fruit",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "K",
+        "length": 4,
+        "category": "fruits"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "LEMON",
+      "primaryClue": "A sweet fruit",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "L",
+        "length": 5,
+        "category": "fruits"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "LIME",
+      "primaryClue": "Healthy snack option",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "L",
+        "length": 4,
+        "category": "fruits"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "MANGO",
+      "primaryClue": "Grows on a tree or vine",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "M",
+        "length": 5,
+        "category": "fruits"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "MELON",
+      "primaryClue": "Fruit variety",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "M",
+        "length": 5,
+        "category": "fruits"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "MULBERRY",
+      "primaryClue": "Found in an orchard",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "M",
+        "length": 8,
+        "category": "fruits"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "NECTARINE",
+      "primaryClue": "Found in an orchard",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "N",
+        "length": 9,
+        "category": "fruits"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "ORANGE",
+      "primaryClue": "Fruit variety",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "O",
+        "length": 6,
+        "category": "fruits"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "PAPAYA",
+      "primaryClue": "Healthy snack option",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "P",
+        "length": 6,
+        "category": "fruits"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "PEACH",
+      "primaryClue": "Grows on a tree or vine",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "P",
+        "length": 5,
+        "category": "fruits"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "PEAR",
+      "primaryClue": "A sweet fruit",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "P",
+        "length": 4,
+        "category": "fruits"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "PINEAPPLE",
+      "primaryClue": "A sweet fruit",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "P",
+        "length": 9,
+        "category": "fruits"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "PLUM",
+      "primaryClue": "Fruit variety",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "P",
+        "length": 4,
+        "category": "fruits"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "PRUNE",
+      "primaryClue": "Found in an orchard",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "P",
+        "length": 5,
+        "category": "fruits"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "RAISIN",
+      "primaryClue": "Grows on a tree or vine",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "R",
+        "length": 6,
+        "category": "fruits"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "RASPBERRY",
+      "primaryClue": "Healthy snack option",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "R",
+        "length": 9,
+        "category": "fruits"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "TANGERINE",
+      "primaryClue": "Grows on a tree or vine",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "T",
+        "length": 9,
+        "category": "fruits"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    }
+  ]
+}

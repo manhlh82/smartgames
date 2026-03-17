@@ -2,6 +2,55 @@
 
 All significant changes, features, and fixes to the SmartGames iOS app are documented here.
 
+## Version 7.0 — 2026-03-17
+
+### Phase 7: Crossword Game Module + Content Pipeline
+
+**Game Module (CrosswordGameModule)**
+- Full MVVM crossword puzzle game with three board sizes (7×7 mini, 9×9 standard, 11×11 extended)
+- 12 themed puzzle packs: animals, food, fruits, sports, space, nature, ocean, city, school, travel, weather, music
+- Hint system with three hint types: soft hints (category, length, first letter), word reveal, clue reveal
+- Daily challenge support with deterministic seed-based puzzle selection
+- Save/load game state + statistics tracking per theme/difficulty
+- Game Center daily leaderboards per theme
+- Pack-based puzzle loading from bundled JSON resources
+
+**Offline Content Pipeline (Python)**
+- Word bank builder: 916 words across 12 themes with scoring (popularity, crossword fit, theme fit)
+- Clue pipeline: Template-based clue generation with manual override support
+- Crossword generator: Seed-based deterministic generation for reproducibility
+- Pack builder: 185 total puzzles across 10 packs (18-20 puzzles per pack)
+- Validation framework: JSON schema validation + integrity checks
+- End-to-end orchestration: `bash scripts/run-pipeline.sh` (all steps, ~2 min)
+- 65 Python unit tests (all passing): normalization, scoring, board placement, generator determinism, pack validation
+- Comprehensive documentation: README, TROUBLESHOOTING, requirements.txt
+- License attribution: `LICENSE_NOTES.md` documenting MIT/Apache/CC0 sources
+- Output: `crossword-packs-index.json` + per-pack resource files for iOS bundling
+
+**Analytics Events**
+- `crossword_puzzle_started(theme:difficulty:)`, `crossword_puzzle_completed(theme:score:time:)`
+- `crossword_hint_used(hintType:)`, `crossword_paused`, `crossword_quit`
+- Daily challenge events: `daily_challenge_started(game:)`, `daily_challenge_completed(game:score:stars:streak:)`
+
+**New Files**
+- `SmartGames/Games/Crossword/` — game module
+- `pipeline/` — Python library (config, models, scoring, generator, pack builder, validation)
+- `scripts/` — CLI tools (fetch, build-wordbank, build-clues, generate-pack, validate)
+- `tests/` — 65 unit tests covering core pipeline components
+- `data/` — source data (raw lists, processed banks, denylist, overrides)
+- `outputs/` — generated artifacts (word banks, clues, puzzles, packs)
+- `requirements.txt` — Python dependencies (pytest, pydantic)
+- `LICENSE_NOTES.md` — source attribution
+- `TROUBLESHOOTING.md` — common issues + solutions
+
+**Success Metrics**
+- Pipeline generates valid puzzle packs end-to-end in <2 minutes
+- All 65 Python tests pass (normalization, scoring, board, generator, pack validation)
+- iOS app successfully loads all 185 puzzles from 10 themed packs
+- Daily challenge determinism verified (same seed = same puzzle)
+
+---
+
 ## Version 6.0 — 2026-03-17
 
 ### Phase 6: Engagement & Level Progression

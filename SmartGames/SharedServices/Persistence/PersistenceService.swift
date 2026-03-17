@@ -79,5 +79,14 @@ extension PersistenceService {
         static let stack2048DailyStreak = "stack2048.daily.streak"
         // MARK: - Weekly Challenge
         static let weeklyChallenge = "app.weeklyChallenge.state"
+        // MARK: - Crossword
+        static let crosswordPlayedPuzzleIDs = "crossword.playedPuzzleIDs"
+        static let crosswordActiveGame = "crossword.activeGame"
+        static let crosswordHintsRemaining = "crossword.hints.remaining"
+        static let crosswordDailyState = "crossword.daily.state"
+        static let crosswordDailyStreak = "crossword.daily.streak"
+        static let crosswordPendingPuzzle = "crossword.pendingPuzzle"
+        static let crosswordPendingIsDailyChallenge = "crossword.pending.isDailyChallenge"
+        static let crosswordPackProgress = "crossword_pack_progress"
     }
 }

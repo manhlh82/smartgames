@@ -1,0 +1,12 @@
+[
+  {"packId": "tutorial",        "title": "Getting Started",  "theme": "mixed",   "difficulty": "easy",   "boardSize": "mini",     "puzzleCount": 5,  "isUnlocked": true},
+  {"packId": "animals-easy",    "title": "Wild Kingdom",     "theme": "animals", "difficulty": "easy",   "boardSize": "mini",     "puzzleCount": 20, "isUnlocked": true},
+  {"packId": "animals-medium",  "title": "Wild Kingdom Plus","theme": "animals", "difficulty": "medium", "boardSize": "standard", "puzzleCount": 20, "isUnlocked": true},
+  {"packId": "ocean-easy",      "title": "Ocean Breeze",     "theme": "ocean",   "difficulty": "easy",   "boardSize": "mini",     "puzzleCount": 20, "isUnlocked": true},
+  {"packId": "ocean-medium",    "title": "Deep Blue",        "theme": "ocean",   "difficulty": "medium", "boardSize": "standard", "puzzleCount": 20, "isUnlocked": true},
+  {"packId": "food-easy",       "title": "Kitchen Fun",      "theme": "food",    "difficulty": "easy",   "boardSize": "mini",     "puzzleCount": 20, "isUnlocked": true},
+  {"packId": "food-medium",     "title": "Flavor World",     "theme": "food",    "difficulty": "medium", "boardSize": "standard", "puzzleCount": 20, "isUnlocked": true},
+  {"packId": "space-medium",    "title": "Space Explorer",   "theme": "space",   "difficulty": "medium", "boardSize": "standard", "puzzleCount": 20, "isUnlocked": true},
+  {"packId": "nature-medium",   "title": "Into the Wild",    "theme": "nature",  "difficulty": "medium", "boardSize": "standard", "puzzleCount": 20, "isUnlocked": true},
+  {"packId": "mixed-hard",      "title": "Challenge Pack",   "theme": "mixed",   "difficulty": "hard",   "boardSize": "extended", "puzzleCount": 5,  "isUnlocked": true}
+]

@@ -1,0 +1,1298 @@
+{
+  "packId": "tutorial",
+  "title": "Getting Started",
+  "theme": "mixed",
+  "difficulty": "easy",
+  "boardSize": "mini",
+  "puzzleCount": 5,
+  "version": "1.0.0",
+  "createdAt": "2026-03-17",
+  "puzzles": [
+    {
+      "puzzleId": "animals-easy-7x7-0001",
+      "seed": 1,
+      "theme": "animals",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "J",
+          "",
+          "",
+          "L",
+          ""
+        ],
+        [
+          "",
+          "M",
+          "A",
+          "R",
+          "T",
+          "I",
+          "N"
+        ],
+        [
+          "",
+          "",
+          "G",
+          "",
+          "",
+          "O",
+          ""
+        ],
+        [
+          "",
+          "H",
+          "U",
+          "M",
+          "A",
+          "N",
+          ""
+        ],
+        [
+          "",
+          "",
+          "A",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "R",
+          "A",
+          "I",
+          "L",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "HUMAN",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Common household pet or wild creature",
+          "softHints": {
+            "startsWith": "H",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "JAGUAR",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 6,
+          "clue": "Creature in the animal kingdom",
+          "softHints": {
+            "startsWith": "J",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "MARTIN",
+          "direction": "across",
+          "row": 1,
+          "col": 1,
+          "length": 6,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "M",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "LION",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 4,
+          "clue": "Found in nature or a zoo",
+          "softHints": {
+            "startsWith": "L",
+            "length": 4,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 5,
+          "answer": "RAIL",
+          "direction": "across",
+          "row": 5,
+          "col": 2,
+          "length": 4,
+          "clue": "Furry, feathered, or scaled creature",
+          "softHints": {
+            "startsWith": "R",
+            "length": 4,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "A type of animal",
+            "answer": "MARTIN",
+            "length": 6
+          },
+          {
+            "number": 4,
+            "clue": "Common household pet or wild creature",
+            "answer": "HUMAN",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "Furry, feathered, or scaled creature",
+            "answer": "RAIL",
+            "length": 4
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Creature in the animal kingdom",
+            "answer": "JAGUAR",
+            "length": 6
+          },
+          {
+            "number": 2,
+            "clue": "Found in nature or a zoo",
+            "answer": "LION",
+            "length": 4
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "animals",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 5,
+        "intersections": 5,
+        "boardScore": 0.4691
+      }
+    },
+    {
+      "puzzleId": "food-easy-7x7-0002",
+      "seed": 2,
+      "theme": "food",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "C",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "O",
+          "",
+          "U",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "R",
+          "",
+          "I",
+          ""
+        ],
+        [
+          "",
+          "B",
+          "E",
+          "A",
+          "N",
+          "S",
+          ""
+        ],
+        [
+          "",
+          "E",
+          "",
+          "N",
+          "",
+          "I",
+          ""
+        ],
+        [
+          "",
+          "E",
+          "",
+          "G",
+          "",
+          "N",
+          ""
+        ],
+        [
+          "",
+          "R",
+          "",
+          "E",
+          "",
+          "E",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 3,
+          "answer": "BEANS",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "A tasty dish or ingredient",
+          "softHints": {
+            "startsWith": "B",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "CUISINE",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 7,
+          "clue": "A tasty dish or ingredient",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "ORANGE",
+          "direction": "down",
+          "row": 1,
+          "col": 3,
+          "length": 6,
+          "clue": "Food item",
+          "softHints": {
+            "startsWith": "O",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "BEER",
+          "direction": "down",
+          "row": 3,
+          "col": 1,
+          "length": 4,
+          "clue": "Food item",
+          "softHints": {
+            "startsWith": "B",
+            "length": 4,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "A tasty dish or ingredient",
+            "answer": "BEANS",
+            "length": 5
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A tasty dish or ingredient",
+            "answer": "CUISINE",
+            "length": 7
+          },
+          {
+            "number": 2,
+            "clue": "Food item",
+            "answer": "ORANGE",
+            "length": 6
+          },
+          {
+            "number": 3,
+            "clue": "Food item",
+            "answer": "BEER",
+            "length": 4
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "food",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 4,
+        "intersections": 3,
+        "boardScore": 0.3751
+      }
+    },
+    {
+      "puzzleId": "ocean-easy-7x7-0003",
+      "seed": 3,
+      "theme": "ocean",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "K",
+          "",
+          "D",
+          "",
+          ""
+        ],
+        [
+          "C",
+          "U",
+          "I",
+          "S",
+          "I",
+          "N",
+          "E"
+        ],
+        [
+          "",
+          "",
+          "T",
+          "",
+          "P",
+          "",
+          ""
+        ],
+        [
+          "",
+          "S",
+          "C",
+          "A",
+          "L",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "",
+          "H",
+          "",
+          "O",
+          "",
+          ""
+        ],
+        [
+          "",
+          "H",
+          "E",
+          "L",
+          "M",
+          "E",
+          "T"
+        ],
+        [
+          "",
+          "",
+          "N",
+          "",
+          "A",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "SCALE",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "City infrastructure term",
+          "softHints": {
+            "startsWith": "S",
+            "length": 5,
+            "category": "city"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "KITCHEN",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 7,
+          "clue": "Food item",
+          "softHints": {
+            "startsWith": "K",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "DIPLOMA",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "clue": "Part of school life",
+          "softHints": {
+            "startsWith": "D",
+            "length": 7,
+            "category": "school"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "CUISINE",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 7,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 5,
+          "answer": "HELMET",
+          "direction": "across",
+          "row": 5,
+          "col": 1,
+          "length": 6,
+          "clue": "Athletic activity",
+          "softHints": {
+            "startsWith": "H",
+            "length": 6,
+            "category": "sports"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "Edible item",
+            "answer": "CUISINE",
+            "length": 7
+          },
+          {
+            "number": 4,
+            "clue": "City infrastructure term",
+            "answer": "SCALE",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "Athletic activity",
+            "answer": "HELMET",
+            "length": 6
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Food item",
+            "answer": "KITCHEN",
+            "length": 7
+          },
+          {
+            "number": 2,
+            "clue": "Part of school life",
+            "answer": "DIPLOMA",
+            "length": 7
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "ocean",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 5,
+        "intersections": 6,
+        "boardScore": 0.4936
+      }
+    },
+    {
+      "puzzleId": "space-easy-7x7-0004",
+      "seed": 4,
+      "theme": "space",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "D",
+          "",
+          "",
+          "H",
+          "",
+          ""
+        ],
+        [
+          "W",
+          "I",
+          "N",
+          "N",
+          "I",
+          "N",
+          "G"
+        ],
+        [
+          "",
+          "A",
+          "",
+          "",
+          "S",
+          "",
+          ""
+        ],
+        [
+          "",
+          "M",
+          "O",
+          "U",
+          "T",
+          "H",
+          ""
+        ],
+        [
+          "",
+          "O",
+          "",
+          "",
+          "O",
+          "",
+          ""
+        ],
+        [
+          "",
+          "N",
+          "",
+          "T",
+          "R",
+          "E",
+          "E"
+        ],
+        [
+          "",
+          "D",
+          "",
+          "",
+          "Y",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "MOUTH",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "A weather condition",
+          "softHints": {
+            "startsWith": "M",
+            "length": 5,
+            "category": "weather"
+          },
+          "theme": "space",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "DIAMOND",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 7,
+          "clue": "A sport or athletic term",
+          "softHints": {
+            "startsWith": "D",
+            "length": 7,
+            "category": "sports"
+          },
+          "theme": "space",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "HISTORY",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "clue": "Classroom or school concept",
+          "softHints": {
+            "startsWith": "H",
+            "length": 7,
+            "category": "school"
+          },
+          "theme": "space",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "WINNING",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 7,
+          "clue": "A sport or athletic term",
+          "softHints": {
+            "startsWith": "W",
+            "length": 7,
+            "category": "sports"
+          },
+          "theme": "space",
+          "difficulty": "easy"
+        },
+        {
+          "number": 5,
+          "answer": "TREE",
+          "direction": "across",
+          "row": 5,
+          "col": 3,
+          "length": 4,
+          "clue": "Found in nature",
+          "softHints": {
+            "startsWith": "T",
+            "length": 4,
+            "category": "nature"
+          },
+          "theme": "space",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "A sport or athletic term",
+            "answer": "WINNING",
+            "length": 7
+          },
+          {
+            "number": 4,
+            "clue": "A weather condition",
+            "answer": "MOUTH",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "Found in nature",
+            "answer": "TREE",
+            "length": 4
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A sport or athletic term",
+            "answer": "DIAMOND",
+            "length": 7
+          },
+          {
+            "number": 2,
+            "clue": "Classroom or school concept",
+            "answer": "HISTORY",
+            "length": 7
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "space",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 5,
+        "intersections": 5,
+        "boardScore": 0.4895
+      }
+    },
+    {
+      "puzzleId": "nature-easy-7x7-0005",
+      "seed": 5,
+      "theme": "nature",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "K",
+          "",
+          "L",
+          "",
+          "S",
+          ""
+        ],
+        [
+          "",
+          "E",
+          "",
+          "I",
+          "",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "Y",
+          "",
+          "B",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "W",
+          "O",
+          "R",
+          "L",
+          "D",
+          ""
+        ],
+        [
+          "",
+          "O",
+          "",
+          "A",
+          "",
+          "I",
+          ""
+        ],
+        [
+          "",
+          "R",
+          "",
+          "R",
+          "",
+          "U",
+          ""
+        ],
+        [
+          "",
+          "D",
+          "",
+          "Y",
+          "",
+          "M",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "WORLD",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Urban feature or place",
+          "softHints": {
+            "startsWith": "W",
+            "length": 5,
+            "category": "city"
+          },
+          "theme": "nature",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "LIBRARY",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 7,
+          "clue": "Academic term",
+          "softHints": {
+            "startsWith": "L",
+            "length": 7,
+            "category": "school"
+          },
+          "theme": "nature",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "KEYWORD",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 7,
+          "clue": "Part of school life",
+          "softHints": {
+            "startsWith": "K",
+            "length": 7,
+            "category": "school"
+          },
+          "theme": "nature",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "STADIUM",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 7,
+          "clue": "Athletic activity",
+          "softHints": {
+            "startsWith": "S",
+            "length": 7,
+            "category": "sports"
+          },
+          "theme": "nature",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "Urban feature or place",
+            "answer": "WORLD",
+            "length": 5
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Part of school life",
+            "answer": "KEYWORD",
+            "length": 7
+          },
+          {
+            "number": 2,
+            "clue": "Academic term",
+            "answer": "LIBRARY",
+            "length": 7
+          },
+          {
+            "number": 3,
+            "clue": "Athletic activity",
+            "answer": "STADIUM",
+            "length": 7
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "nature",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 4,
+        "intersections": 3,
+        "boardScore": 0.3914
+      }
+    }
+  ]
+}

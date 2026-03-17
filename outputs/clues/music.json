@@ -1,0 +1,497 @@
+{
+  "theme": "music",
+  "count": 30,
+  "clues": [
+    {
+      "word": "BASSOON",
+      "primaryClue": "Related to music",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "B",
+        "length": 7,
+        "category": "music"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "BELL",
+      "primaryClue": "Found in a song or concert",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "B",
+        "length": 4,
+        "category": "music"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "BONGO",
+      "primaryClue": "Music vocabulary",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "B",
+        "length": 5,
+        "category": "music"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "BUGLE",
+      "primaryClue": "Related to music",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "B",
+        "length": 5,
+        "category": "music"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "CELESTA",
+      "primaryClue": "Related to music",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 7,
+        "category": "music"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "CELLO",
+      "primaryClue": "Instrument or musical concept",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 5,
+        "category": "music"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "CLARINET",
+      "primaryClue": "Found in a song or concert",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 8,
+        "category": "music"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "CYMBAL",
+      "primaryClue": "Musical term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 6,
+        "category": "music"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "FLUTE",
+      "primaryClue": "Found in a song or concert",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "F",
+        "length": 5,
+        "category": "music"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "GONG",
+      "primaryClue": "Music vocabulary",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "G",
+        "length": 4,
+        "category": "music"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "GUITAR",
+      "primaryClue": "Found in a song or concert",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "G",
+        "length": 6,
+        "category": "music"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "HARP",
+      "primaryClue": "Found in a song or concert",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "H",
+        "length": 4,
+        "category": "music"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "HORN",
+      "primaryClue": "Related to music",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "H",
+        "length": 4,
+        "category": "music"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "MARIMBA",
+      "primaryClue": "Related to music",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "M",
+        "length": 7,
+        "category": "music"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "OBOE",
+      "primaryClue": "Music vocabulary",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "O",
+        "length": 4,
+        "category": "music"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "PIANO",
+      "primaryClue": "Instrument or musical concept",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "P",
+        "length": 5,
+        "category": "music"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "PICCOLO",
+      "primaryClue": "Related to music",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "P",
+        "length": 7,
+        "category": "music"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SAX",
+      "primaryClue": "Music vocabulary",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 3,
+        "category": "music"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SNARE",
+      "primaryClue": "Musical term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 5,
+        "category": "music"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "STRING",
+      "primaryClue": "Found in a song or concert",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 6,
+        "category": "music"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "TAMBOURINE",
+      "primaryClue": "Music vocabulary",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "T",
+        "length": 10,
+        "category": "music"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "TIMPANI",
+      "primaryClue": "Found in a song or concert",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "T",
+        "length": 7,
+        "category": "music"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "TRIANGLE",
+      "primaryClue": "Related to music",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "T",
+        "length": 8,
+        "category": "music"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "TROMBONE",
+      "primaryClue": "Musical term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "T",
+        "length": 8,
+        "category": "music"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "TRUMPET",
+      "primaryClue": "Found in a song or concert",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "T",
+        "length": 7,
+        "category": "music"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "TUBA",
+      "primaryClue": "Instrument or musical concept",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "T",
+        "length": 4,
+        "category": "music"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "VIBES",
+      "primaryClue": "Instrument or musical concept",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "V",
+        "length": 5,
+        "category": "music"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "VIOLA",
+      "primaryClue": "Musical term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "V",
+        "length": 5,
+        "category": "music"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "VIOLIN",
+      "primaryClue": "Music vocabulary",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "V",
+        "length": 6,
+        "category": "music"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "XYLOPHONE",
+      "primaryClue": "Music vocabulary",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "X",
+        "length": 9,
+        "category": "music"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    }
+  ]
+}

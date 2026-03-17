@@ -19,6 +19,7 @@ final class GameCenterService: ObservableObject {
     enum DailyLeaderboardID {
         static let dropRush  = "com.smartgames.dropRush.leaderboard.daily"
         static let stack2048 = "com.smartgames.stack2048.leaderboard.daily"
+        static let crossword = "com.smartgames.crossword.leaderboard.daily"
     }
 
     /// Weekly recurring leaderboard IDs (one per game).

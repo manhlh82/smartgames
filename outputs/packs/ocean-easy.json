@@ -1,0 +1,5332 @@
+{
+  "packId": "ocean-easy",
+  "title": "Ocean Breeze",
+  "theme": "ocean",
+  "difficulty": "easy",
+  "boardSize": "mini",
+  "puzzleCount": 20,
+  "version": "1.0.0",
+  "createdAt": "2026-03-17",
+  "puzzles": [
+    {
+      "puzzleId": "ocean-easy-7x7-0001",
+      "seed": 1,
+      "theme": "ocean",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "F",
+          "",
+          "",
+          "K",
+          ""
+        ],
+        [
+          "C",
+          "H",
+          "I",
+          "C",
+          "K",
+          "E",
+          "N"
+        ],
+        [
+          "",
+          "",
+          "S",
+          "",
+          "",
+          "Y",
+          ""
+        ],
+        [
+          "",
+          "T",
+          "H",
+          "R",
+          "O",
+          "W",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "O",
+          ""
+        ],
+        [
+          "H",
+          "I",
+          "S",
+          "T",
+          "O",
+          "R",
+          "Y"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "D",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "THROW",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Athletic activity",
+          "softHints": {
+            "startsWith": "T",
+            "length": 5,
+            "category": "sports"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "KEYWORD",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 7,
+          "clue": "Part of school life",
+          "softHints": {
+            "startsWith": "K",
+            "length": 7,
+            "category": "school"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "CHICKEN",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 7,
+          "clue": "Common household pet or wild creature",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 5,
+          "answer": "HISTORY",
+          "direction": "across",
+          "row": 5,
+          "col": 0,
+          "length": 7,
+          "clue": "Classroom or school concept",
+          "softHints": {
+            "startsWith": "H",
+            "length": 7,
+            "category": "school"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "FISH",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 4,
+          "clue": "Something you eat",
+          "softHints": {
+            "startsWith": "F",
+            "length": 4,
+            "category": "food"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "Common household pet or wild creature",
+            "answer": "CHICKEN",
+            "length": 7
+          },
+          {
+            "number": 4,
+            "clue": "Athletic activity",
+            "answer": "THROW",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "Classroom or school concept",
+            "answer": "HISTORY",
+            "length": 7
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Something you eat",
+            "answer": "FISH",
+            "length": 4
+          },
+          {
+            "number": 2,
+            "clue": "Part of school life",
+            "answer": "KEYWORD",
+            "length": 7
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "ocean",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 5,
+        "intersections": 5,
+        "boardScore": 0.4895
+      }
+    },
+    {
+      "puzzleId": "ocean-easy-7x7-0002",
+      "seed": 2,
+      "theme": "ocean",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "C",
+          "",
+          "L",
+          "",
+          ""
+        ],
+        [
+          "C",
+          "O",
+          "O",
+          "K",
+          "I",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "",
+          "M",
+          "",
+          "B",
+          "",
+          ""
+        ],
+        [
+          "",
+          "S",
+          "P",
+          "O",
+          "R",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "",
+          "E",
+          "",
+          "A",
+          "",
+          ""
+        ],
+        [
+          "S",
+          "A",
+          "T",
+          "U",
+          "R",
+          "N",
+          ""
+        ],
+        [
+          "",
+          "",
+          "E",
+          "",
+          "Y",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "SPORT",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "A sport or athletic term",
+          "softHints": {
+            "startsWith": "S",
+            "length": 5,
+            "category": "sports"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "COMPETE",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 7,
+          "clue": "Sports-related word",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "sports"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "LIBRARY",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "clue": "Academic term",
+          "softHints": {
+            "startsWith": "L",
+            "length": 7,
+            "category": "school"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 5,
+          "answer": "SATURN",
+          "direction": "across",
+          "row": 5,
+          "col": 0,
+          "length": 6,
+          "clue": "Space exploration term",
+          "softHints": {
+            "startsWith": "S",
+            "length": 6,
+            "category": "space"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "COOKIE",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 6,
+          "clue": "A tasty dish or ingredient",
+          "softHints": {
+            "startsWith": "C",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "A tasty dish or ingredient",
+            "answer": "COOKIE",
+            "length": 6
+          },
+          {
+            "number": 4,
+            "clue": "A sport or athletic term",
+            "answer": "SPORT",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "Space exploration term",
+            "answer": "SATURN",
+            "length": 6
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Sports-related word",
+            "answer": "COMPETE",
+            "length": 7
+          },
+          {
+            "number": 2,
+            "clue": "Academic term",
+            "answer": "LIBRARY",
+            "length": 7
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "ocean",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 5,
+        "intersections": 6,
+        "boardScore": 0.4895
+      }
+    },
+    {
+      "puzzleId": "ocean-easy-7x7-0003",
+      "seed": 3,
+      "theme": "ocean",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "K",
+          "",
+          "D",
+          "",
+          ""
+        ],
+        [
+          "C",
+          "U",
+          "I",
+          "S",
+          "I",
+          "N",
+          "E"
+        ],
+        [
+          "",
+          "",
+          "T",
+          "",
+          "P",
+          "",
+          ""
+        ],
+        [
+          "",
+          "S",
+          "C",
+          "A",
+          "L",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "",
+          "H",
+          "",
+          "O",
+          "",
+          ""
+        ],
+        [
+          "",
+          "H",
+          "E",
+          "L",
+          "M",
+          "E",
+          "T"
+        ],
+        [
+          "",
+          "",
+          "N",
+          "",
+          "A",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "SCALE",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "City infrastructure term",
+          "softHints": {
+            "startsWith": "S",
+            "length": 5,
+            "category": "city"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "KITCHEN",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 7,
+          "clue": "Food item",
+          "softHints": {
+            "startsWith": "K",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "DIPLOMA",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "clue": "Part of school life",
+          "softHints": {
+            "startsWith": "D",
+            "length": 7,
+            "category": "school"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "CUISINE",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 7,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 5,
+          "answer": "HELMET",
+          "direction": "across",
+          "row": 5,
+          "col": 1,
+          "length": 6,
+          "clue": "Athletic activity",
+          "softHints": {
+            "startsWith": "H",
+            "length": 6,
+            "category": "sports"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "Edible item",
+            "answer": "CUISINE",
+            "length": 7
+          },
+          {
+            "number": 4,
+            "clue": "City infrastructure term",
+            "answer": "SCALE",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "Athletic activity",
+            "answer": "HELMET",
+            "length": 6
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Food item",
+            "answer": "KITCHEN",
+            "length": 7
+          },
+          {
+            "number": 2,
+            "clue": "Part of school life",
+            "answer": "DIPLOMA",
+            "length": 7
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "ocean",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 5,
+        "intersections": 6,
+        "boardScore": 0.4936
+      }
+    },
+    {
+      "puzzleId": "ocean-easy-7x7-0004",
+      "seed": 4,
+      "theme": "ocean",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "M",
+          "",
+          "",
+          "C",
+          "",
+          ""
+        ],
+        [
+          "K",
+          "I",
+          "T",
+          "C",
+          "H",
+          "E",
+          "N"
+        ],
+        [
+          "",
+          "N",
+          "",
+          "",
+          "I",
+          "",
+          ""
+        ],
+        [
+          "",
+          "T",
+          "E",
+          "A",
+          "C",
+          "H",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "K",
+          "",
+          ""
+        ],
+        [
+          "F",
+          "I",
+          "T",
+          "N",
+          "E",
+          "S",
+          "S"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "N",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "TEACH",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Found at school",
+          "softHints": {
+            "startsWith": "T",
+            "length": 5,
+            "category": "school"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "CHICKEN",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "clue": "Common household pet or wild creature",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 5,
+          "answer": "FITNESS",
+          "direction": "across",
+          "row": 5,
+          "col": 0,
+          "length": 7,
+          "clue": "Sports-related word",
+          "softHints": {
+            "startsWith": "F",
+            "length": 7,
+            "category": "sports"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "KITCHEN",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 7,
+          "clue": "Food item",
+          "softHints": {
+            "startsWith": "K",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "MINT",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 4,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "M",
+            "length": 4,
+            "category": "food"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "Food item",
+            "answer": "KITCHEN",
+            "length": 7
+          },
+          {
+            "number": 4,
+            "clue": "Found at school",
+            "answer": "TEACH",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "Sports-related word",
+            "answer": "FITNESS",
+            "length": 7
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "MINT",
+            "length": 4
+          },
+          {
+            "number": 2,
+            "clue": "Common household pet or wild creature",
+            "answer": "CHICKEN",
+            "length": 7
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "ocean",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 5,
+        "intersections": 5,
+        "boardScore": 0.4895
+      }
+    },
+    {
+      "puzzleId": "ocean-easy-7x7-0005",
+      "seed": 5,
+      "theme": "ocean",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "C",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "C",
+          "H",
+          "A",
+          "N",
+          "N",
+          "E",
+          "L"
+        ],
+        [
+          "",
+          "",
+          "P",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "P",
+          "I",
+          "T",
+          "C",
+          "H",
+          ""
+        ],
+        [
+          "",
+          "",
+          "T",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "G",
+          "R",
+          "A",
+          "V",
+          "I",
+          "T",
+          "Y"
+        ],
+        [
+          "",
+          "",
+          "L",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 3,
+          "answer": "PITCH",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Athletic activity",
+          "softHints": {
+            "startsWith": "P",
+            "length": 5,
+            "category": "sports"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "CAPITAL",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 7,
+          "clue": "City infrastructure term",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "city"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "CHANNEL",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 7,
+          "clue": "Part of city life",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "city"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 4,
+          "answer": "GRAVITY",
+          "direction": "across",
+          "row": 5,
+          "col": 0,
+          "length": 7,
+          "clue": "Astronomical term",
+          "softHints": {
+            "startsWith": "G",
+            "length": 7,
+            "category": "space"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 2,
+            "clue": "Part of city life",
+            "answer": "CHANNEL",
+            "length": 7
+          },
+          {
+            "number": 3,
+            "clue": "Athletic activity",
+            "answer": "PITCH",
+            "length": 5
+          },
+          {
+            "number": 4,
+            "clue": "Astronomical term",
+            "answer": "GRAVITY",
+            "length": 7
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "City infrastructure term",
+            "answer": "CAPITAL",
+            "length": 7
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "ocean",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 4,
+        "intersections": 3,
+        "boardScore": 0.3914
+      }
+    },
+    {
+      "puzzleId": "ocean-easy-7x7-0006",
+      "seed": 6,
+      "theme": "ocean",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "S",
+          "",
+          "",
+          "B",
+          ""
+        ],
+        [
+          "D",
+          "U",
+          "C",
+          "K",
+          "",
+          "I",
+          ""
+        ],
+        [
+          "",
+          "",
+          "I",
+          "",
+          "",
+          "C",
+          ""
+        ],
+        [
+          "",
+          "B",
+          "E",
+          "R",
+          "R",
+          "Y",
+          ""
+        ],
+        [
+          "",
+          "",
+          "N",
+          "",
+          "",
+          "C",
+          ""
+        ],
+        [
+          "",
+          "",
+          "C",
+          "Y",
+          "C",
+          "L",
+          "E"
+        ],
+        [
+          "",
+          "",
+          "E",
+          "",
+          "",
+          "E",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "BERRY",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "B",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "SCIENCE",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 7,
+          "clue": "Found at school",
+          "softHints": {
+            "startsWith": "S",
+            "length": 7,
+            "category": "school"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "BICYCLE",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 7,
+          "clue": "Athletic activity",
+          "softHints": {
+            "startsWith": "B",
+            "length": 7,
+            "category": "sports"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 5,
+          "answer": "CYCLE",
+          "direction": "across",
+          "row": 5,
+          "col": 2,
+          "length": 5,
+          "clue": "A sport or athletic term",
+          "softHints": {
+            "startsWith": "C",
+            "length": 5,
+            "category": "sports"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "DUCK",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "clue": "Creature in the animal kingdom",
+          "softHints": {
+            "startsWith": "D",
+            "length": 4,
+            "category": "animals"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "Creature in the animal kingdom",
+            "answer": "DUCK",
+            "length": 4
+          },
+          {
+            "number": 4,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "BERRY",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "A sport or athletic term",
+            "answer": "CYCLE",
+            "length": 5
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Found at school",
+            "answer": "SCIENCE",
+            "length": 7
+          },
+          {
+            "number": 2,
+            "clue": "Athletic activity",
+            "answer": "BICYCLE",
+            "length": 7
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "ocean",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 5,
+        "intersections": 5,
+        "boardScore": 0.4814
+      }
+    },
+    {
+      "puzzleId": "ocean-easy-7x7-0007",
+      "seed": 7,
+      "theme": "ocean",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "K",
+          "",
+          "S",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "E",
+          "",
+          "C",
+          "",
+          "B",
+          ""
+        ],
+        [
+          "",
+          "Y",
+          "",
+          "I",
+          "",
+          "U",
+          ""
+        ],
+        [
+          "",
+          "W",
+          "H",
+          "E",
+          "A",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "O",
+          "",
+          "N",
+          "",
+          "T",
+          ""
+        ],
+        [
+          "C",
+          "R",
+          "I",
+          "C",
+          "K",
+          "E",
+          "T"
+        ],
+        [
+          "",
+          "D",
+          "",
+          "E",
+          "",
+          "R",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "WHEAT",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Something you eat",
+          "softHints": {
+            "startsWith": "W",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "SCIENCE",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 7,
+          "clue": "Found at school",
+          "softHints": {
+            "startsWith": "S",
+            "length": 7,
+            "category": "school"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "KEYWORD",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 7,
+          "clue": "Part of school life",
+          "softHints": {
+            "startsWith": "K",
+            "length": 7,
+            "category": "school"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 5,
+          "answer": "CRICKET",
+          "direction": "across",
+          "row": 5,
+          "col": 0,
+          "length": 7,
+          "clue": "Sports-related word",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "sports"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "BUTTER",
+          "direction": "down",
+          "row": 1,
+          "col": 5,
+          "length": 6,
+          "clue": "Something you eat",
+          "softHints": {
+            "startsWith": "B",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "Something you eat",
+            "answer": "WHEAT",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "Sports-related word",
+            "answer": "CRICKET",
+            "length": 7
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Part of school life",
+            "answer": "KEYWORD",
+            "length": 7
+          },
+          {
+            "number": 2,
+            "clue": "Found at school",
+            "answer": "SCIENCE",
+            "length": 7
+          },
+          {
+            "number": 3,
+            "clue": "Something you eat",
+            "answer": "BUTTER",
+            "length": 6
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "ocean",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 5,
+        "intersections": 6,
+        "boardScore": 0.4936
+      }
+    },
+    {
+      "puzzleId": "ocean-easy-7x7-0008",
+      "seed": 8,
+      "theme": "ocean",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "D",
+          ""
+        ],
+        [
+          "I",
+          "N",
+          "T",
+          "E",
+          "G",
+          "E",
+          "R"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "F",
+          ""
+        ],
+        [
+          "",
+          "P",
+          "A",
+          "S",
+          "T",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "W",
+          "",
+          "N",
+          ""
+        ],
+        [
+          "E",
+          "C",
+          "L",
+          "I",
+          "P",
+          "S",
+          "E"
+        ],
+        [
+          "",
+          "",
+          "",
+          "M",
+          "",
+          "E",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 3,
+          "answer": "PASTE",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "A tasty dish or ingredient",
+          "softHints": {
+            "startsWith": "P",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "DEFENSE",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 7,
+          "clue": "Athletic activity",
+          "softHints": {
+            "startsWith": "D",
+            "length": 7,
+            "category": "sports"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 5,
+          "answer": "ECLIPSE",
+          "direction": "across",
+          "row": 5,
+          "col": 0,
+          "length": 7,
+          "clue": "Space exploration term",
+          "softHints": {
+            "startsWith": "E",
+            "length": 7,
+            "category": "space"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "INTEGER",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 7,
+          "clue": "Part of school life",
+          "softHints": {
+            "startsWith": "I",
+            "length": 7,
+            "category": "school"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 4,
+          "answer": "SWIM",
+          "direction": "down",
+          "row": 3,
+          "col": 3,
+          "length": 4,
+          "clue": "Game or sport",
+          "softHints": {
+            "startsWith": "S",
+            "length": 4,
+            "category": "sports"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 2,
+            "clue": "Part of school life",
+            "answer": "INTEGER",
+            "length": 7
+          },
+          {
+            "number": 3,
+            "clue": "A tasty dish or ingredient",
+            "answer": "PASTE",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "Space exploration term",
+            "answer": "ECLIPSE",
+            "length": 7
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Athletic activity",
+            "answer": "DEFENSE",
+            "length": 7
+          },
+          {
+            "number": 4,
+            "clue": "Game or sport",
+            "answer": "SWIM",
+            "length": 4
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "ocean",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 5,
+        "intersections": 5,
+        "boardScore": 0.4895
+      }
+    },
+    {
+      "puzzleId": "ocean-easy-7x7-0009",
+      "seed": 9,
+      "theme": "ocean",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "S",
+          "",
+          "H",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "C",
+          "L",
+          "I",
+          "F",
+          "F"
+        ],
+        [
+          "",
+          "",
+          "I",
+          "",
+          "S",
+          "",
+          ""
+        ],
+        [
+          "",
+          "D",
+          "E",
+          "L",
+          "T",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "",
+          "N",
+          "",
+          "O",
+          "",
+          ""
+        ],
+        [
+          "",
+          "S",
+          "C",
+          "O",
+          "R",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "",
+          "E",
+          "",
+          "Y",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "DELTA",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "City infrastructure term",
+          "softHints": {
+            "startsWith": "D",
+            "length": 5,
+            "category": "city"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "SCIENCE",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 7,
+          "clue": "Found at school",
+          "softHints": {
+            "startsWith": "S",
+            "length": 7,
+            "category": "school"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "HISTORY",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "clue": "Classroom or school concept",
+          "softHints": {
+            "startsWith": "H",
+            "length": 7,
+            "category": "school"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 5,
+          "answer": "SCORE",
+          "direction": "across",
+          "row": 5,
+          "col": 1,
+          "length": 5,
+          "clue": "Game or sport",
+          "softHints": {
+            "startsWith": "S",
+            "length": 5,
+            "category": "sports"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "CLIFF",
+          "direction": "across",
+          "row": 1,
+          "col": 2,
+          "length": 5,
+          "clue": "Part of city life",
+          "softHints": {
+            "startsWith": "C",
+            "length": 5,
+            "category": "city"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "Part of city life",
+            "answer": "CLIFF",
+            "length": 5
+          },
+          {
+            "number": 4,
+            "clue": "City infrastructure term",
+            "answer": "DELTA",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "Game or sport",
+            "answer": "SCORE",
+            "length": 5
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Found at school",
+            "answer": "SCIENCE",
+            "length": 7
+          },
+          {
+            "number": 2,
+            "clue": "Classroom or school concept",
+            "answer": "HISTORY",
+            "length": 7
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "ocean",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 5,
+        "intersections": 6,
+        "boardScore": 0.4814
+      }
+    },
+    {
+      "puzzleId": "ocean-easy-7x7-0010",
+      "seed": 10,
+      "theme": "ocean",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "H",
+          "",
+          "",
+          "D",
+          ""
+        ],
+        [
+          "C",
+          "H",
+          "I",
+          "C",
+          "K",
+          "E",
+          "N"
+        ],
+        [
+          "",
+          "",
+          "L",
+          "",
+          "",
+          "F",
+          ""
+        ],
+        [
+          "",
+          "O",
+          "L",
+          "I",
+          "V",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "N",
+          ""
+        ],
+        [
+          "P",
+          "R",
+          "O",
+          "C",
+          "E",
+          "S",
+          "S"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "E",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "OLIVE",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Food item",
+          "softHints": {
+            "startsWith": "O",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "DEFENSE",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 7,
+          "clue": "Athletic activity",
+          "softHints": {
+            "startsWith": "D",
+            "length": 7,
+            "category": "sports"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 5,
+          "answer": "PROCESS",
+          "direction": "across",
+          "row": 5,
+          "col": 0,
+          "length": 7,
+          "clue": "Education-related term",
+          "softHints": {
+            "startsWith": "P",
+            "length": 7,
+            "category": "school"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "CHICKEN",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 7,
+          "clue": "Common household pet or wild creature",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "HILL",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 4,
+          "clue": "Found in a city",
+          "softHints": {
+            "startsWith": "H",
+            "length": 4,
+            "category": "city"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "Common household pet or wild creature",
+            "answer": "CHICKEN",
+            "length": 7
+          },
+          {
+            "number": 4,
+            "clue": "Food item",
+            "answer": "OLIVE",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "Education-related term",
+            "answer": "PROCESS",
+            "length": 7
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Found in a city",
+            "answer": "HILL",
+            "length": 4
+          },
+          {
+            "number": 2,
+            "clue": "Athletic activity",
+            "answer": "DEFENSE",
+            "length": 7
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "ocean",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 5,
+        "intersections": 5,
+        "boardScore": 0.4895
+      }
+    },
+    {
+      "puzzleId": "ocean-easy-7x7-0011",
+      "seed": 11,
+      "theme": "ocean",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "K",
+          "",
+          "",
+          "",
+          "S",
+          ""
+        ],
+        [
+          "D",
+          "E",
+          "N",
+          "S",
+          "I",
+          "T",
+          "Y"
+        ],
+        [
+          "",
+          "Y",
+          "",
+          "T",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "W",
+          "O",
+          "R",
+          "L",
+          "D",
+          ""
+        ],
+        [
+          "",
+          "O",
+          "",
+          "E",
+          "",
+          "I",
+          ""
+        ],
+        [
+          "A",
+          "R",
+          "E",
+          "A",
+          "",
+          "U",
+          ""
+        ],
+        [
+          "",
+          "D",
+          "",
+          "M",
+          "",
+          "M",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "WORLD",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Urban feature or place",
+          "softHints": {
+            "startsWith": "W",
+            "length": 5,
+            "category": "city"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "KEYWORD",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 7,
+          "clue": "Part of school life",
+          "softHints": {
+            "startsWith": "K",
+            "length": 7,
+            "category": "school"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "STADIUM",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 7,
+          "clue": "Athletic activity",
+          "softHints": {
+            "startsWith": "S",
+            "length": 7,
+            "category": "sports"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "DENSITY",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 7,
+          "clue": "Found in the cosmos",
+          "softHints": {
+            "startsWith": "D",
+            "length": 7,
+            "category": "space"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 4,
+          "answer": "STREAM",
+          "direction": "down",
+          "row": 1,
+          "col": 3,
+          "length": 6,
+          "clue": "What the forecast might show",
+          "softHints": {
+            "startsWith": "S",
+            "length": 6,
+            "category": "weather"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 6,
+          "answer": "AREA",
+          "direction": "across",
+          "row": 5,
+          "col": 0,
+          "length": 4,
+          "clue": "Part of city life",
+          "softHints": {
+            "startsWith": "A",
+            "length": 4,
+            "category": "city"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "Found in the cosmos",
+            "answer": "DENSITY",
+            "length": 7
+          },
+          {
+            "number": 5,
+            "clue": "Urban feature or place",
+            "answer": "WORLD",
+            "length": 5
+          },
+          {
+            "number": 6,
+            "clue": "Part of city life",
+            "answer": "AREA",
+            "length": 4
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Part of school life",
+            "answer": "KEYWORD",
+            "length": 7
+          },
+          {
+            "number": 2,
+            "clue": "Athletic activity",
+            "answer": "STADIUM",
+            "length": 7
+          },
+          {
+            "number": 4,
+            "clue": "What the forecast might show",
+            "answer": "STREAM",
+            "length": 6
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "ocean",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 6,
+        "intersections": 8,
+        "boardScore": 0.5293
+      }
+    },
+    {
+      "puzzleId": "ocean-easy-7x7-0012",
+      "seed": 12,
+      "theme": "ocean",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "L",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "S",
+          "C",
+          "I",
+          "E",
+          "N",
+          "C",
+          "E"
+        ],
+        [
+          "",
+          "",
+          "B",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "B",
+          "R",
+          "O",
+          "O",
+          "K",
+          ""
+        ],
+        [
+          "",
+          "",
+          "A",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "T",
+          "A",
+          "R",
+          "G",
+          "E",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "",
+          "Y",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 3,
+          "answer": "BROOK",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Meteorological term",
+          "softHints": {
+            "startsWith": "B",
+            "length": 5,
+            "category": "weather"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "LIBRARY",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 7,
+          "clue": "Academic term",
+          "softHints": {
+            "startsWith": "L",
+            "length": 7,
+            "category": "school"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "SCIENCE",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 7,
+          "clue": "Found at school",
+          "softHints": {
+            "startsWith": "S",
+            "length": 7,
+            "category": "school"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 4,
+          "answer": "TARGET",
+          "direction": "across",
+          "row": 5,
+          "col": 0,
+          "length": 6,
+          "clue": "Athletic activity",
+          "softHints": {
+            "startsWith": "T",
+            "length": 6,
+            "category": "sports"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 2,
+            "clue": "Found at school",
+            "answer": "SCIENCE",
+            "length": 7
+          },
+          {
+            "number": 3,
+            "clue": "Meteorological term",
+            "answer": "BROOK",
+            "length": 5
+          },
+          {
+            "number": 4,
+            "clue": "Athletic activity",
+            "answer": "TARGET",
+            "length": 6
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Academic term",
+            "answer": "LIBRARY",
+            "length": 7
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "ocean",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 4,
+        "intersections": 3,
+        "boardScore": 0.3873
+      }
+    },
+    {
+      "puzzleId": "ocean-easy-7x7-0013",
+      "seed": 13,
+      "theme": "ocean",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "B",
+          "",
+          "",
+          "D",
+          ""
+        ],
+        [
+          "C",
+          "H",
+          "A",
+          "N",
+          "N",
+          "E",
+          "L"
+        ],
+        [
+          "",
+          "",
+          "L",
+          "",
+          "",
+          "F",
+          ""
+        ],
+        [
+          "",
+          "G",
+          "L",
+          "O",
+          "B",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "N",
+          ""
+        ],
+        [
+          "F",
+          "I",
+          "T",
+          "N",
+          "E",
+          "S",
+          "S"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "E",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "GLOBE",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Part of city life",
+          "softHints": {
+            "startsWith": "G",
+            "length": 5,
+            "category": "city"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "DEFENSE",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 7,
+          "clue": "Athletic activity",
+          "softHints": {
+            "startsWith": "D",
+            "length": 7,
+            "category": "sports"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "CHANNEL",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 7,
+          "clue": "Part of city life",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "city"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 5,
+          "answer": "FITNESS",
+          "direction": "across",
+          "row": 5,
+          "col": 0,
+          "length": 7,
+          "clue": "Sports-related word",
+          "softHints": {
+            "startsWith": "F",
+            "length": 7,
+            "category": "sports"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "BALL",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 4,
+          "clue": "Sports-related word",
+          "softHints": {
+            "startsWith": "B",
+            "length": 4,
+            "category": "sports"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "Part of city life",
+            "answer": "CHANNEL",
+            "length": 7
+          },
+          {
+            "number": 4,
+            "clue": "Part of city life",
+            "answer": "GLOBE",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "Sports-related word",
+            "answer": "FITNESS",
+            "length": 7
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Sports-related word",
+            "answer": "BALL",
+            "length": 4
+          },
+          {
+            "number": 2,
+            "clue": "Athletic activity",
+            "answer": "DEFENSE",
+            "length": 7
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "ocean",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 5,
+        "intersections": 5,
+        "boardScore": 0.4895
+      }
+    },
+    {
+      "puzzleId": "ocean-easy-7x7-0014",
+      "seed": 14,
+      "theme": "ocean",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "C",
+          "",
+          "P",
+          "",
+          ""
+        ],
+        [
+          "P",
+          "R",
+          "O",
+          "C",
+          "E",
+          "S",
+          "S"
+        ],
+        [
+          "",
+          "",
+          "M",
+          "",
+          "N",
+          "",
+          ""
+        ],
+        [
+          "",
+          "O",
+          "M",
+          "E",
+          "G",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "",
+          "E",
+          "",
+          "U",
+          "",
+          ""
+        ],
+        [
+          "W",
+          "I",
+          "N",
+          "N",
+          "I",
+          "N",
+          "G"
+        ],
+        [
+          "",
+          "",
+          "T",
+          "",
+          "N",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "OMEGA",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Space exploration term",
+          "softHints": {
+            "startsWith": "O",
+            "length": 5,
+            "category": "space"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "COMMENT",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 7,
+          "clue": "Academic term",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "school"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 5,
+          "answer": "WINNING",
+          "direction": "across",
+          "row": 5,
+          "col": 0,
+          "length": 7,
+          "clue": "A sport or athletic term",
+          "softHints": {
+            "startsWith": "W",
+            "length": 7,
+            "category": "sports"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "PROCESS",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 7,
+          "clue": "Education-related term",
+          "softHints": {
+            "startsWith": "P",
+            "length": 7,
+            "category": "school"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "PENGUIN",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "clue": "Found in nature or a zoo",
+          "softHints": {
+            "startsWith": "P",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "Education-related term",
+            "answer": "PROCESS",
+            "length": 7
+          },
+          {
+            "number": 4,
+            "clue": "Space exploration term",
+            "answer": "OMEGA",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "A sport or athletic term",
+            "answer": "WINNING",
+            "length": 7
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Academic term",
+            "answer": "COMMENT",
+            "length": 7
+          },
+          {
+            "number": 2,
+            "clue": "Found in nature or a zoo",
+            "answer": "PENGUIN",
+            "length": 7
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "ocean",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 5,
+        "intersections": 6,
+        "boardScore": 0.4977
+      }
+    },
+    {
+      "puzzleId": "ocean-easy-7x7-0015",
+      "seed": 15,
+      "theme": "ocean",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "K",
+          "",
+          "",
+          "P",
+          "",
+          ""
+        ],
+        [
+          "R",
+          "I",
+          "V",
+          "E",
+          "R",
+          "",
+          ""
+        ],
+        [
+          "",
+          "T",
+          "",
+          "",
+          "O",
+          "",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "O",
+          "A",
+          "C",
+          "H",
+          ""
+        ],
+        [
+          "",
+          "H",
+          "",
+          "",
+          "E",
+          "",
+          ""
+        ],
+        [
+          "B",
+          "E",
+          "A",
+          "N",
+          "S",
+          "",
+          ""
+        ],
+        [
+          "",
+          "N",
+          "",
+          "",
+          "S",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "COACH",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Game or sport",
+          "softHints": {
+            "startsWith": "C",
+            "length": 5,
+            "category": "sports"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "PROCESS",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "clue": "Education-related term",
+          "softHints": {
+            "startsWith": "P",
+            "length": 7,
+            "category": "school"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "KITCHEN",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 7,
+          "clue": "Food item",
+          "softHints": {
+            "startsWith": "K",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "RIVER",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "clue": "Part of city life",
+          "softHints": {
+            "startsWith": "R",
+            "length": 5,
+            "category": "city"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 5,
+          "answer": "BEANS",
+          "direction": "across",
+          "row": 5,
+          "col": 0,
+          "length": 5,
+          "clue": "Something you eat",
+          "softHints": {
+            "startsWith": "B",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "Part of city life",
+            "answer": "RIVER",
+            "length": 5
+          },
+          {
+            "number": 4,
+            "clue": "Game or sport",
+            "answer": "COACH",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "Something you eat",
+            "answer": "BEANS",
+            "length": 5
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Food item",
+            "answer": "KITCHEN",
+            "length": 7
+          },
+          {
+            "number": 2,
+            "clue": "Education-related term",
+            "answer": "PROCESS",
+            "length": 7
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "ocean",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 5,
+        "intersections": 6,
+        "boardScore": 0.4814
+      }
+    },
+    {
+      "puzzleId": "ocean-easy-7x7-0016",
+      "seed": 16,
+      "theme": "ocean",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "I",
+          "",
+          "H",
+          "",
+          ""
+        ],
+        [
+          "W",
+          "I",
+          "N",
+          "N",
+          "I",
+          "N",
+          "G"
+        ],
+        [
+          "",
+          "",
+          "T",
+          "",
+          "S",
+          "",
+          ""
+        ],
+        [
+          "",
+          "D",
+          "E",
+          "L",
+          "T",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "",
+          "G",
+          "",
+          "O",
+          "",
+          ""
+        ],
+        [
+          "",
+          "D",
+          "E",
+          "G",
+          "R",
+          "E",
+          "E"
+        ],
+        [
+          "",
+          "",
+          "R",
+          "",
+          "Y",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "DELTA",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "City infrastructure term",
+          "softHints": {
+            "startsWith": "D",
+            "length": 5,
+            "category": "city"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "HISTORY",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "clue": "Classroom or school concept",
+          "softHints": {
+            "startsWith": "H",
+            "length": 7,
+            "category": "school"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "INTEGER",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 7,
+          "clue": "Part of school life",
+          "softHints": {
+            "startsWith": "I",
+            "length": 7,
+            "category": "school"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "WINNING",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 7,
+          "clue": "A sport or athletic term",
+          "softHints": {
+            "startsWith": "W",
+            "length": 7,
+            "category": "sports"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 5,
+          "answer": "DEGREE",
+          "direction": "across",
+          "row": 5,
+          "col": 1,
+          "length": 6,
+          "clue": "Metropolitan feature",
+          "softHints": {
+            "startsWith": "D",
+            "length": 6,
+            "category": "city"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "A sport or athletic term",
+            "answer": "WINNING",
+            "length": 7
+          },
+          {
+            "number": 4,
+            "clue": "City infrastructure term",
+            "answer": "DELTA",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "Metropolitan feature",
+            "answer": "DEGREE",
+            "length": 6
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Part of school life",
+            "answer": "INTEGER",
+            "length": 7
+          },
+          {
+            "number": 2,
+            "clue": "Classroom or school concept",
+            "answer": "HISTORY",
+            "length": 7
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "ocean",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 5,
+        "intersections": 6,
+        "boardScore": 0.4936
+      }
+    },
+    {
+      "puzzleId": "ocean-easy-7x7-0017",
+      "seed": 17,
+      "theme": "ocean",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "C",
+          "",
+          "W",
+          ""
+        ],
+        [
+          "A",
+          "U",
+          "R",
+          "O",
+          "R",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "U",
+          "",
+          "S",
+          ""
+        ],
+        [
+          "",
+          "L",
+          "U",
+          "N",
+          "C",
+          "H",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "T",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Q",
+          "U",
+          "A",
+          "R",
+          "T",
+          "E",
+          "R"
+        ],
+        [
+          "",
+          "",
+          "",
+          "Y",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "LUNCH",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Education-related term",
+          "softHints": {
+            "startsWith": "L",
+            "length": 5,
+            "category": "school"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "COUNTRY",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 7,
+          "clue": "Metropolitan feature",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "city"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 5,
+          "answer": "QUARTER",
+          "direction": "across",
+          "row": 5,
+          "col": 0,
+          "length": 7,
+          "clue": "Athletic activity",
+          "softHints": {
+            "startsWith": "Q",
+            "length": 7,
+            "category": "sports"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "AURORA",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 6,
+          "clue": "Studied by NASA",
+          "softHints": {
+            "startsWith": "A",
+            "length": 6,
+            "category": "space"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "WASH",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 4,
+          "clue": "A weather condition",
+          "softHints": {
+            "startsWith": "W",
+            "length": 4,
+            "category": "weather"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "Studied by NASA",
+            "answer": "AURORA",
+            "length": 6
+          },
+          {
+            "number": 4,
+            "clue": "Education-related term",
+            "answer": "LUNCH",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "Athletic activity",
+            "answer": "QUARTER",
+            "length": 7
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Metropolitan feature",
+            "answer": "COUNTRY",
+            "length": 7
+          },
+          {
+            "number": 2,
+            "clue": "A weather condition",
+            "answer": "WASH",
+            "length": 4
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "ocean",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 5,
+        "intersections": 5,
+        "boardScore": 0.4855
+      }
+    },
+    {
+      "puzzleId": "ocean-easy-7x7-0018",
+      "seed": 18,
+      "theme": "ocean",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "R",
+          "",
+          "H",
+          "",
+          ""
+        ],
+        [
+          "C",
+          "U",
+          "I",
+          "S",
+          "I",
+          "N",
+          "E"
+        ],
+        [
+          "",
+          "",
+          "D",
+          "",
+          "S",
+          "",
+          ""
+        ],
+        [
+          "",
+          "D",
+          "E",
+          "L",
+          "T",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "O",
+          "",
+          ""
+        ],
+        [
+          "P",
+          "R",
+          "A",
+          "I",
+          "R",
+          "I",
+          "E"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "Y",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "DELTA",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "City infrastructure term",
+          "softHints": {
+            "startsWith": "D",
+            "length": 5,
+            "category": "city"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "HISTORY",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "clue": "Classroom or school concept",
+          "softHints": {
+            "startsWith": "H",
+            "length": 7,
+            "category": "school"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "CUISINE",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 7,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 5,
+          "answer": "PRAIRIE",
+          "direction": "across",
+          "row": 5,
+          "col": 0,
+          "length": 7,
+          "clue": "Metropolitan feature",
+          "softHints": {
+            "startsWith": "P",
+            "length": 7,
+            "category": "city"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "RIDE",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 4,
+          "clue": "Athletic activity",
+          "softHints": {
+            "startsWith": "R",
+            "length": 4,
+            "category": "sports"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "Edible item",
+            "answer": "CUISINE",
+            "length": 7
+          },
+          {
+            "number": 4,
+            "clue": "City infrastructure term",
+            "answer": "DELTA",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "Metropolitan feature",
+            "answer": "PRAIRIE",
+            "length": 7
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Athletic activity",
+            "answer": "RIDE",
+            "length": 4
+          },
+          {
+            "number": 2,
+            "clue": "Classroom or school concept",
+            "answer": "HISTORY",
+            "length": 7
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "ocean",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 5,
+        "intersections": 5,
+        "boardScore": 0.4895
+      }
+    },
+    {
+      "puzzleId": "ocean-easy-7x7-0019",
+      "seed": 19,
+      "theme": "ocean",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "S",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "B",
+          "I",
+          "C",
+          "Y",
+          "C",
+          "L",
+          "E"
+        ],
+        [
+          "",
+          "",
+          "I",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "D",
+          "E",
+          "L",
+          "T",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "",
+          "N",
+          "",
+          "R",
+          "",
+          ""
+        ],
+        [
+          "R",
+          "O",
+          "C",
+          "K",
+          "E",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "",
+          "E",
+          "",
+          "E",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 3,
+          "answer": "DELTA",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "City infrastructure term",
+          "softHints": {
+            "startsWith": "D",
+            "length": 5,
+            "category": "city"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "SCIENCE",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 7,
+          "clue": "Found at school",
+          "softHints": {
+            "startsWith": "S",
+            "length": 7,
+            "category": "school"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "BICYCLE",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 7,
+          "clue": "Athletic activity",
+          "softHints": {
+            "startsWith": "B",
+            "length": 7,
+            "category": "sports"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 5,
+          "answer": "ROCKET",
+          "direction": "across",
+          "row": 5,
+          "col": 0,
+          "length": 6,
+          "clue": "Celestial object or phenomenon",
+          "softHints": {
+            "startsWith": "R",
+            "length": 6,
+            "category": "space"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 4,
+          "answer": "TREE",
+          "direction": "down",
+          "row": 3,
+          "col": 4,
+          "length": 4,
+          "clue": "Found in nature",
+          "softHints": {
+            "startsWith": "T",
+            "length": 4,
+            "category": "nature"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 2,
+            "clue": "Athletic activity",
+            "answer": "BICYCLE",
+            "length": 7
+          },
+          {
+            "number": 3,
+            "clue": "City infrastructure term",
+            "answer": "DELTA",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "Celestial object or phenomenon",
+            "answer": "ROCKET",
+            "length": 6
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Found at school",
+            "answer": "SCIENCE",
+            "length": 7
+          },
+          {
+            "number": 4,
+            "clue": "Found in nature",
+            "answer": "TREE",
+            "length": 4
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "ocean",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 5,
+        "intersections": 5,
+        "boardScore": 0.4855
+      }
+    },
+    {
+      "puzzleId": "ocean-easy-7x7-0020",
+      "seed": 20,
+      "theme": "ocean",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "C",
+          "",
+          "F",
+          "",
+          "H",
+          ""
+        ],
+        [
+          "P",
+          "R",
+          "A",
+          "I",
+          "R",
+          "I",
+          "E"
+        ],
+        [
+          "",
+          "I",
+          "",
+          "T",
+          "",
+          "L",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "A",
+          "N",
+          "A",
+          "L",
+          ""
+        ],
+        [
+          "",
+          "K",
+          "",
+          "E",
+          "",
+          "",
+          ""
+        ],
+        [
+          "D",
+          "E",
+          "N",
+          "S",
+          "I",
+          "T",
+          "Y"
+        ],
+        [
+          "",
+          "T",
+          "",
+          "S",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "CANAL",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "City infrastructure term",
+          "softHints": {
+            "startsWith": "C",
+            "length": 5,
+            "category": "city"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "CRICKET",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 7,
+          "clue": "Sports-related word",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "sports"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 6,
+          "answer": "DENSITY",
+          "direction": "across",
+          "row": 5,
+          "col": 0,
+          "length": 7,
+          "clue": "Found in the cosmos",
+          "softHints": {
+            "startsWith": "D",
+            "length": 7,
+            "category": "space"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "FITNESS",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 7,
+          "clue": "Sports-related word",
+          "softHints": {
+            "startsWith": "F",
+            "length": 7,
+            "category": "sports"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 4,
+          "answer": "PRAIRIE",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 7,
+          "clue": "Metropolitan feature",
+          "softHints": {
+            "startsWith": "P",
+            "length": 7,
+            "category": "city"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "HILL",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 4,
+          "clue": "Found in a city",
+          "softHints": {
+            "startsWith": "H",
+            "length": 4,
+            "category": "city"
+          },
+          "theme": "ocean",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "Metropolitan feature",
+            "answer": "PRAIRIE",
+            "length": 7
+          },
+          {
+            "number": 5,
+            "clue": "City infrastructure term",
+            "answer": "CANAL",
+            "length": 5
+          },
+          {
+            "number": 6,
+            "clue": "Found in the cosmos",
+            "answer": "DENSITY",
+            "length": 7
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Sports-related word",
+            "answer": "CRICKET",
+            "length": 7
+          },
+          {
+            "number": 2,
+            "clue": "Sports-related word",
+            "answer": "FITNESS",
+            "length": 7
+          },
+          {
+            "number": 3,
+            "clue": "Found in a city",
+            "answer": "HILL",
+            "length": 4
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "ocean",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 6,
+        "intersections": 8,
+        "boardScore": 0.5334
+      }
+    }
+  ]
+}

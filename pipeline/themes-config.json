@@ -1,0 +1,79 @@
+{
+  "themes": {
+    "animals": {
+      "sources": ["imsky/animals", "imsky/dogs", "imsky/cats", "imsky/birds"],
+      "minLength": 3, "maxLength": 10, "allowProperNouns": false,
+      "targetDifficulty": { "easy": 0.4, "medium": 0.4, "hard": 0.2 }
+    },
+    "food": {
+      "sources": ["imsky/foods", "imsky/vegetables", "imsky/fruits"],
+      "minLength": 3, "maxLength": 10, "allowProperNouns": false,
+      "targetDifficulty": { "easy": 0.4, "medium": 0.4, "hard": 0.2 }
+    },
+    "fruits": {
+      "sources": ["imsky/fruits"],
+      "minLength": 3, "maxLength": 10, "allowProperNouns": false,
+      "targetDifficulty": { "easy": 0.5, "medium": 0.4, "hard": 0.1 }
+    },
+    "ocean": {
+      "sources": ["imsky/animals", "imsky/fish"],
+      "minLength": 3, "maxLength": 10, "allowProperNouns": false,
+      "targetDifficulty": { "easy": 0.4, "medium": 0.4, "hard": 0.2 }
+    },
+    "space": {
+      "sources": ["imsky/astronomy"],
+      "minLength": 3, "maxLength": 10, "allowProperNouns": false,
+      "targetDifficulty": { "easy": 0.3, "medium": 0.5, "hard": 0.2 }
+    },
+    "nature": {
+      "sources": ["imsky/plants", "imsky/flowers", "imsky/trees"],
+      "minLength": 3, "maxLength": 10, "allowProperNouns": false,
+      "targetDifficulty": { "easy": 0.4, "medium": 0.4, "hard": 0.2 }
+    },
+    "sports": {
+      "sources": ["imsky/sports"],
+      "minLength": 3, "maxLength": 10, "allowProperNouns": false,
+      "targetDifficulty": { "easy": 0.4, "medium": 0.4, "hard": 0.2 }
+    },
+    "music": {
+      "sources": ["imsky/music"],
+      "minLength": 3, "maxLength": 10, "allowProperNouns": false,
+      "targetDifficulty": { "easy": 0.4, "medium": 0.4, "hard": 0.2 }
+    },
+    "travel": {
+      "sources": ["imsky/transportation"],
+      "minLength": 3, "maxLength": 10, "allowProperNouns": false,
+      "targetDifficulty": { "easy": 0.4, "medium": 0.4, "hard": 0.2 }
+    },
+    "city": {
+      "sources": ["imsky/geography"],
+      "minLength": 3, "maxLength": 10, "allowProperNouns": false,
+      "targetDifficulty": { "easy": 0.4, "medium": 0.4, "hard": 0.2 }
+    },
+    "school": {
+      "sources": ["imsky/education"],
+      "minLength": 3, "maxLength": 10, "allowProperNouns": false,
+      "targetDifficulty": { "easy": 0.4, "medium": 0.4, "hard": 0.2 }
+    },
+    "weather": {
+      "sources": ["imsky/weather"],
+      "minLength": 3, "maxLength": 10, "allowProperNouns": false,
+      "targetDifficulty": { "easy": 0.4, "medium": 0.4, "hard": 0.2 }
+    }
+  },
+  "global": {
+    "minLength": 3,
+    "maxLength": 12,
+    "denylistPath": "data/denylist.txt",
+    "allowlistPath": "data/allowlist.txt",
+    "allowProperNouns": false,
+    "allowPhrases": false,
+    "normalizeToUppercase": true,
+    "allowedCharsRegex": "^[A-Z]+$"
+  },
+  "boardSizes": {
+    "mini": { "rows": 7, "cols": 7, "maxWordLength": 7 },
+    "standard": { "rows": 9, "cols": 9, "maxWordLength": 9 },
+    "extended": { "rows": 11, "cols": 11, "maxWordLength": 11 }
+  }
+}

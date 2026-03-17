@@ -1,0 +1,126 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-03-17",
+  "packs": [
+    {
+      "packId": "tutorial",
+      "title": "Getting Started",
+      "theme": "mixed",
+      "difficulty": "easy",
+      "boardSize": "mini",
+      "puzzleCount": 5,
+      "resourceFile": "packs/tutorial.json",
+      "isUnlocked": true,
+      "createdAt": "2026-03-17",
+      "version": "1.0.0"
+    },
+    {
+      "packId": "animals-easy",
+      "title": "Wild Kingdom",
+      "theme": "animals",
+      "difficulty": "easy",
+      "boardSize": "mini",
+      "puzzleCount": 20,
+      "resourceFile": "packs/animals-easy.json",
+      "isUnlocked": true,
+      "createdAt": "2026-03-17",
+      "version": "1.0.0"
+    },
+    {
+      "packId": "animals-medium",
+      "title": "Wild Kingdom Plus",
+      "theme": "animals",
+      "difficulty": "medium",
+      "boardSize": "standard",
+      "puzzleCount": 20,
+      "resourceFile": "packs/animals-medium.json",
+      "isUnlocked": true,
+      "createdAt": "2026-03-17",
+      "version": "1.0.0"
+    },
+    {
+      "packId": "ocean-easy",
+      "title": "Ocean Breeze",
+      "theme": "ocean",
+      "difficulty": "easy",
+      "boardSize": "mini",
+      "puzzleCount": 20,
+      "resourceFile": "packs/ocean-easy.json",
+      "isUnlocked": true,
+      "createdAt": "2026-03-17",
+      "version": "1.0.0"
+    },
+    {
+      "packId": "ocean-medium",
+      "title": "Deep Blue",
+      "theme": "ocean",
+      "difficulty": "medium",
+      "boardSize": "standard",
+      "puzzleCount": 20,
+      "resourceFile": "packs/ocean-medium.json",
+      "isUnlocked": true,
+      "createdAt": "2026-03-17",
+      "version": "1.0.0"
+    },
+    {
+      "packId": "food-easy",
+      "title": "Kitchen Fun",
+      "theme": "food",
+      "difficulty": "easy",
+      "boardSize": "mini",
+      "puzzleCount": 20,
+      "resourceFile": "packs/food-easy.json",
+      "isUnlocked": true,
+      "createdAt": "2026-03-17",
+      "version": "1.0.0"
+    },
+    {
+      "packId": "food-medium",
+      "title": "Flavor World",
+      "theme": "food",
+      "difficulty": "medium",
+      "boardSize": "standard",
+      "puzzleCount": 20,
+      "resourceFile": "packs/food-medium.json",
+      "isUnlocked": true,
+      "createdAt": "2026-03-17",
+      "version": "1.0.0"
+    },
+    {
+      "packId": "space-medium",
+      "title": "Space Explorer",
+      "theme": "space",
+      "difficulty": "medium",
+      "boardSize": "standard",
+      "puzzleCount": 20,
+      "resourceFile": "packs/space-medium.json",
+      "isUnlocked": true,
+      "createdAt": "2026-03-17",
+      "version": "1.0.0"
+    },
+    {
+      "packId": "nature-medium",
+      "title": "Into the Wild",
+      "theme": "nature",
+      "difficulty": "medium",
+      "boardSize": "standard",
+      "puzzleCount": 20,
+      "resourceFile": "packs/nature-medium.json",
+      "isUnlocked": true,
+      "createdAt": "2026-03-17",
+      "version": "1.0.0"
+    },
+    {
+      "packId": "mixed-hard",
+      "title": "Challenge Pack",
+      "theme": "mixed",
+      "difficulty": "hard",
+      "boardSize": "extended",
+      "puzzleCount": 5,
+      "resourceFile": "packs/mixed-hard.json",
+      "isUnlocked": true,
+      "createdAt": "2026-03-17",
+      "version": "1.0.0"
+    }
+  ]
+}

@@ -1,0 +1,5090 @@
+{
+  "packId": "food-easy",
+  "title": "Kitchen Fun",
+  "theme": "food",
+  "difficulty": "easy",
+  "boardSize": "mini",
+  "puzzleCount": 20,
+  "version": "1.0.0",
+  "createdAt": "2026-03-17",
+  "puzzles": [
+    {
+      "puzzleId": "food-easy-7x7-0001",
+      "seed": 1,
+      "theme": "food",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "C",
+          "",
+          "B",
+          ""
+        ],
+        [
+          "",
+          "P",
+          "",
+          "U",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "E",
+          "",
+          "I",
+          "",
+          "N",
+          ""
+        ],
+        [
+          "",
+          "P",
+          "A",
+          "S",
+          "T",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "P",
+          "",
+          "I",
+          "",
+          "N",
+          ""
+        ],
+        [
+          "",
+          "E",
+          "",
+          "N",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "R",
+          "",
+          "E",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "PASTA",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "P",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "CUISINE",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 7,
+          "clue": "A tasty dish or ingredient",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "BANANA",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 6,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "B",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "PEPPER",
+          "direction": "down",
+          "row": 1,
+          "col": 1,
+          "length": 6,
+          "clue": "Food item",
+          "softHints": {
+            "startsWith": "P",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "Edible item",
+            "answer": "PASTA",
+            "length": 5
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A tasty dish or ingredient",
+            "answer": "CUISINE",
+            "length": 7
+          },
+          {
+            "number": 2,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "BANANA",
+            "length": 6
+          },
+          {
+            "number": 3,
+            "clue": "Food item",
+            "answer": "PEPPER",
+            "length": 6
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "food",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 4,
+        "intersections": 3,
+        "boardScore": 0.3832
+      }
+    },
+    {
+      "puzzleId": "food-easy-7x7-0002",
+      "seed": 2,
+      "theme": "food",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "C",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "O",
+          "",
+          "U",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "R",
+          "",
+          "I",
+          ""
+        ],
+        [
+          "",
+          "B",
+          "E",
+          "A",
+          "N",
+          "S",
+          ""
+        ],
+        [
+          "",
+          "E",
+          "",
+          "N",
+          "",
+          "I",
+          ""
+        ],
+        [
+          "",
+          "E",
+          "",
+          "G",
+          "",
+          "N",
+          ""
+        ],
+        [
+          "",
+          "R",
+          "",
+          "E",
+          "",
+          "E",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 3,
+          "answer": "BEANS",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "A tasty dish or ingredient",
+          "softHints": {
+            "startsWith": "B",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "CUISINE",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 7,
+          "clue": "A tasty dish or ingredient",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "ORANGE",
+          "direction": "down",
+          "row": 1,
+          "col": 3,
+          "length": 6,
+          "clue": "Food item",
+          "softHints": {
+            "startsWith": "O",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "BEER",
+          "direction": "down",
+          "row": 3,
+          "col": 1,
+          "length": 4,
+          "clue": "Food item",
+          "softHints": {
+            "startsWith": "B",
+            "length": 4,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "A tasty dish or ingredient",
+            "answer": "BEANS",
+            "length": 5
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A tasty dish or ingredient",
+            "answer": "CUISINE",
+            "length": 7
+          },
+          {
+            "number": 2,
+            "clue": "Food item",
+            "answer": "ORANGE",
+            "length": 6
+          },
+          {
+            "number": 3,
+            "clue": "Food item",
+            "answer": "BEER",
+            "length": 4
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "food",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 4,
+        "intersections": 3,
+        "boardScore": 0.3751
+      }
+    },
+    {
+      "puzzleId": "food-easy-7x7-0003",
+      "seed": 3,
+      "theme": "food",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "B",
+          ""
+        ],
+        [
+          "",
+          "P",
+          "A",
+          "S",
+          "T",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "E",
+          "",
+          "",
+          "",
+          "N",
+          ""
+        ],
+        [
+          "",
+          "P",
+          "I",
+          "Z",
+          "Z",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "P",
+          "",
+          "",
+          "",
+          "N",
+          ""
+        ],
+        [
+          "M",
+          "E",
+          "A",
+          "T",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "R",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 3,
+          "answer": "PIZZA",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "P",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "BANANA",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 6,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "B",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "PEPPER",
+          "direction": "down",
+          "row": 1,
+          "col": 1,
+          "length": 6,
+          "clue": "Food item",
+          "softHints": {
+            "startsWith": "P",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "PASTA",
+          "direction": "across",
+          "row": 1,
+          "col": 1,
+          "length": 5,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "P",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 4,
+          "answer": "MEAT",
+          "direction": "across",
+          "row": 5,
+          "col": 0,
+          "length": 4,
+          "clue": "Something you eat",
+          "softHints": {
+            "startsWith": "M",
+            "length": 4,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 2,
+            "clue": "Edible item",
+            "answer": "PASTA",
+            "length": 5
+          },
+          {
+            "number": 3,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "PIZZA",
+            "length": 5
+          },
+          {
+            "number": 4,
+            "clue": "Something you eat",
+            "answer": "MEAT",
+            "length": 4
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "BANANA",
+            "length": 6
+          },
+          {
+            "number": 2,
+            "clue": "Food item",
+            "answer": "PEPPER",
+            "length": 6
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "food",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 5,
+        "intersections": 5,
+        "boardScore": 0.4732
+      }
+    },
+    {
+      "puzzleId": "food-easy-7x7-0004",
+      "seed": 4,
+      "theme": "food",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "K",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "P",
+          "I",
+          "Z",
+          "Z",
+          "A",
+          "",
+          ""
+        ],
+        [
+          "",
+          "T",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "A",
+          "N",
+          "D",
+          "Y",
+          ""
+        ],
+        [
+          "",
+          "H",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "P",
+          "E",
+          "P",
+          "P",
+          "E",
+          "R",
+          ""
+        ],
+        [
+          "",
+          "N",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 3,
+          "answer": "CANDY",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "A tasty dish or ingredient",
+          "softHints": {
+            "startsWith": "C",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "KITCHEN",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 7,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "K",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 4,
+          "answer": "PEPPER",
+          "direction": "across",
+          "row": 5,
+          "col": 0,
+          "length": 6,
+          "clue": "Food item",
+          "softHints": {
+            "startsWith": "P",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "PIZZA",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "P",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 2,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "PIZZA",
+            "length": 5
+          },
+          {
+            "number": 3,
+            "clue": "A tasty dish or ingredient",
+            "answer": "CANDY",
+            "length": 5
+          },
+          {
+            "number": 4,
+            "clue": "Food item",
+            "answer": "PEPPER",
+            "length": 6
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "KITCHEN",
+            "length": 7
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "food",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 4,
+        "intersections": 3,
+        "boardScore": 0.3791
+      }
+    },
+    {
+      "puzzleId": "food-easy-7x7-0005",
+      "seed": 5,
+      "theme": "food",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "K",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "P",
+          "I",
+          "Z",
+          "Z",
+          "A",
+          "",
+          ""
+        ],
+        [
+          "",
+          "T",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "A",
+          "N",
+          "D",
+          "Y",
+          ""
+        ],
+        [
+          "",
+          "H",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "R",
+          "E",
+          "C",
+          "I",
+          "P",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "N",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 3,
+          "answer": "CANDY",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "A tasty dish or ingredient",
+          "softHints": {
+            "startsWith": "C",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "KITCHEN",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 7,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "K",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 4,
+          "answer": "RECIPE",
+          "direction": "across",
+          "row": 5,
+          "col": 0,
+          "length": 6,
+          "clue": "Something you eat",
+          "softHints": {
+            "startsWith": "R",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "PIZZA",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "P",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 2,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "PIZZA",
+            "length": 5
+          },
+          {
+            "number": 3,
+            "clue": "A tasty dish or ingredient",
+            "answer": "CANDY",
+            "length": 5
+          },
+          {
+            "number": 4,
+            "clue": "Something you eat",
+            "answer": "RECIPE",
+            "length": 6
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "KITCHEN",
+            "length": 7
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "food",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 4,
+        "intersections": 3,
+        "boardScore": 0.3791
+      }
+    },
+    {
+      "puzzleId": "food-easy-7x7-0006",
+      "seed": 6,
+      "theme": "food",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "C",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "B",
+          "U",
+          "T",
+          "T",
+          "E",
+          "R",
+          ""
+        ],
+        [
+          "",
+          "I",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "S",
+          "U",
+          "G",
+          "A",
+          "R",
+          ""
+        ],
+        [
+          "",
+          "I",
+          "",
+          "",
+          "",
+          "I",
+          ""
+        ],
+        [
+          "",
+          "N",
+          "U",
+          "T",
+          "",
+          "C",
+          ""
+        ],
+        [
+          "",
+          "E",
+          "",
+          "",
+          "",
+          "E",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 3,
+          "answer": "SUGAR",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Something you eat",
+          "softHints": {
+            "startsWith": "S",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "CUISINE",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 7,
+          "clue": "A tasty dish or ingredient",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "BUTTER",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 6,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "B",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 4,
+          "answer": "RICE",
+          "direction": "down",
+          "row": 3,
+          "col": 5,
+          "length": 4,
+          "clue": "A tasty dish or ingredient",
+          "softHints": {
+            "startsWith": "R",
+            "length": 4,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 5,
+          "answer": "NUT",
+          "direction": "across",
+          "row": 5,
+          "col": 1,
+          "length": 3,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "N",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 2,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "BUTTER",
+            "length": 6
+          },
+          {
+            "number": 3,
+            "clue": "Something you eat",
+            "answer": "SUGAR",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "Edible item",
+            "answer": "NUT",
+            "length": 3
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A tasty dish or ingredient",
+            "answer": "CUISINE",
+            "length": 7
+          },
+          {
+            "number": 4,
+            "clue": "A tasty dish or ingredient",
+            "answer": "RICE",
+            "length": 4
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "food",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 5,
+        "intersections": 4,
+        "boardScore": 0.4232
+      }
+    },
+    {
+      "puzzleId": "food-easy-7x7-0007",
+      "seed": 7,
+      "theme": "food",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "C",
+          "",
+          "",
+          "K",
+          "",
+          ""
+        ],
+        [
+          "",
+          "U",
+          "",
+          "F",
+          "I",
+          "S",
+          "H"
+        ],
+        [
+          "",
+          "I",
+          "",
+          "",
+          "T",
+          "",
+          ""
+        ],
+        [
+          "",
+          "S",
+          "P",
+          "I",
+          "C",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "I",
+          "",
+          "",
+          "H",
+          "",
+          ""
+        ],
+        [
+          "",
+          "N",
+          "",
+          "B",
+          "E",
+          "E",
+          "R"
+        ],
+        [
+          "",
+          "E",
+          "",
+          "",
+          "N",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "SPICE",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Something you eat",
+          "softHints": {
+            "startsWith": "S",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "CUISINE",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 7,
+          "clue": "A tasty dish or ingredient",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "KITCHEN",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "K",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "FISH",
+          "direction": "across",
+          "row": 1,
+          "col": 3,
+          "length": 4,
+          "clue": "Something you eat",
+          "softHints": {
+            "startsWith": "F",
+            "length": 4,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 5,
+          "answer": "BEER",
+          "direction": "across",
+          "row": 5,
+          "col": 3,
+          "length": 4,
+          "clue": "Food item",
+          "softHints": {
+            "startsWith": "B",
+            "length": 4,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "Something you eat",
+            "answer": "FISH",
+            "length": 4
+          },
+          {
+            "number": 4,
+            "clue": "Something you eat",
+            "answer": "SPICE",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "Food item",
+            "answer": "BEER",
+            "length": 4
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A tasty dish or ingredient",
+            "answer": "CUISINE",
+            "length": 7
+          },
+          {
+            "number": 2,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "KITCHEN",
+            "length": 7
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "food",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 5,
+        "intersections": 4,
+        "boardScore": 0.4314
+      }
+    },
+    {
+      "puzzleId": "food-easy-7x7-0008",
+      "seed": 8,
+      "theme": "food",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "C",
+          ""
+        ],
+        [
+          "R",
+          "I",
+          "C",
+          "E",
+          "",
+          "U",
+          ""
+        ],
+        [
+          "",
+          "",
+          "H",
+          "",
+          "",
+          "I",
+          ""
+        ],
+        [
+          "",
+          "B",
+          "E",
+          "A",
+          "N",
+          "S",
+          ""
+        ],
+        [
+          "",
+          "",
+          "E",
+          "",
+          "",
+          "I",
+          ""
+        ],
+        [
+          "D",
+          "I",
+          "S",
+          "H",
+          "",
+          "N",
+          ""
+        ],
+        [
+          "",
+          "",
+          "E",
+          "",
+          "",
+          "E",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "BEANS",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "A tasty dish or ingredient",
+          "softHints": {
+            "startsWith": "B",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "CUISINE",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 7,
+          "clue": "A tasty dish or ingredient",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "CHEESE",
+          "direction": "down",
+          "row": 1,
+          "col": 2,
+          "length": 6,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "C",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "RICE",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "clue": "A tasty dish or ingredient",
+          "softHints": {
+            "startsWith": "R",
+            "length": 4,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 5,
+          "answer": "DISH",
+          "direction": "across",
+          "row": 5,
+          "col": 0,
+          "length": 4,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "D",
+            "length": 4,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 2,
+            "clue": "A tasty dish or ingredient",
+            "answer": "RICE",
+            "length": 4
+          },
+          {
+            "number": 4,
+            "clue": "A tasty dish or ingredient",
+            "answer": "BEANS",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "Edible item",
+            "answer": "DISH",
+            "length": 4
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A tasty dish or ingredient",
+            "answer": "CUISINE",
+            "length": 7
+          },
+          {
+            "number": 3,
+            "clue": "Edible item",
+            "answer": "CHEESE",
+            "length": 6
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "food",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 5,
+        "intersections": 4,
+        "boardScore": 0.4273
+      }
+    },
+    {
+      "puzzleId": "food-easy-7x7-0009",
+      "seed": 9,
+      "theme": "food",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "R",
+          "E",
+          "C",
+          "I",
+          "P",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "",
+          "H",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "B",
+          "E",
+          "R",
+          "R",
+          "Y",
+          ""
+        ],
+        [
+          "",
+          "",
+          "E",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "P",
+          "A",
+          "S",
+          "T",
+          "A",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "E",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 3,
+          "answer": "BERRY",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Food item",
+          "softHints": {
+            "startsWith": "B",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "CHEESE",
+          "direction": "down",
+          "row": 1,
+          "col": 2,
+          "length": 6,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "C",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "RECIPE",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 6,
+          "clue": "Something you eat",
+          "softHints": {
+            "startsWith": "R",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 4,
+          "answer": "PASTA",
+          "direction": "across",
+          "row": 5,
+          "col": 0,
+          "length": 5,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "P",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 1,
+            "clue": "Something you eat",
+            "answer": "RECIPE",
+            "length": 6
+          },
+          {
+            "number": 3,
+            "clue": "Food item",
+            "answer": "BERRY",
+            "length": 5
+          },
+          {
+            "number": 4,
+            "clue": "Edible item",
+            "answer": "PASTA",
+            "length": 5
+          }
+        ],
+        "down": [
+          {
+            "number": 2,
+            "clue": "Edible item",
+            "answer": "CHEESE",
+            "length": 6
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "food",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 4,
+        "intersections": 3,
+        "boardScore": 0.3751
+      }
+    },
+    {
+      "puzzleId": "food-easy-7x7-0010",
+      "seed": 10,
+      "theme": "food",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "R",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "",
+          "E",
+          "",
+          "C",
+          ""
+        ],
+        [
+          "",
+          "O",
+          "",
+          "C",
+          "",
+          "H",
+          ""
+        ],
+        [
+          "",
+          "O",
+          "L",
+          "I",
+          "V",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "K",
+          "",
+          "P",
+          "",
+          "E",
+          ""
+        ],
+        [
+          "R",
+          "I",
+          "C",
+          "E",
+          "",
+          "S",
+          ""
+        ],
+        [
+          "",
+          "E",
+          "",
+          "",
+          "",
+          "E",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "OLIVE",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "A tasty dish or ingredient",
+          "softHints": {
+            "startsWith": "O",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "CHEESE",
+          "direction": "down",
+          "row": 1,
+          "col": 5,
+          "length": 6,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "C",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "COOKIE",
+          "direction": "down",
+          "row": 1,
+          "col": 1,
+          "length": 6,
+          "clue": "Food item",
+          "softHints": {
+            "startsWith": "C",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "RECIPE",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 6,
+          "clue": "Something you eat",
+          "softHints": {
+            "startsWith": "R",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 5,
+          "answer": "RICE",
+          "direction": "across",
+          "row": 5,
+          "col": 0,
+          "length": 4,
+          "clue": "A tasty dish or ingredient",
+          "softHints": {
+            "startsWith": "R",
+            "length": 4,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "A tasty dish or ingredient",
+            "answer": "OLIVE",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "A tasty dish or ingredient",
+            "answer": "RICE",
+            "length": 4
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Something you eat",
+            "answer": "RECIPE",
+            "length": 6
+          },
+          {
+            "number": 2,
+            "clue": "Food item",
+            "answer": "COOKIE",
+            "length": 6
+          },
+          {
+            "number": 3,
+            "clue": "Edible item",
+            "answer": "CHEESE",
+            "length": 6
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "food",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 5,
+        "intersections": 5,
+        "boardScore": 0.4773
+      }
+    },
+    {
+      "puzzleId": "food-easy-7x7-0011",
+      "seed": 11,
+      "theme": "food",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "R",
+          "",
+          "",
+          "B",
+          ""
+        ],
+        [
+          "B",
+          "E",
+          "E",
+          "R",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "",
+          "C",
+          "",
+          "",
+          "N",
+          ""
+        ],
+        [
+          "",
+          "P",
+          "I",
+          "Z",
+          "Z",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "",
+          "P",
+          "",
+          "",
+          "N",
+          ""
+        ],
+        [
+          "",
+          "",
+          "E",
+          "",
+          "B",
+          "A",
+          "Y"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "PIZZA",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "P",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "BANANA",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 6,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "B",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "RECIPE",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 6,
+          "clue": "Something you eat",
+          "softHints": {
+            "startsWith": "R",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "BEER",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 4,
+          "clue": "Food item",
+          "softHints": {
+            "startsWith": "B",
+            "length": 4,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 5,
+          "answer": "BAY",
+          "direction": "across",
+          "row": 5,
+          "col": 4,
+          "length": 3,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "B",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "Food item",
+            "answer": "BEER",
+            "length": 4
+          },
+          {
+            "number": 4,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "PIZZA",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "Edible item",
+            "answer": "BAY",
+            "length": 3
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Something you eat",
+            "answer": "RECIPE",
+            "length": 6
+          },
+          {
+            "number": 2,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "BANANA",
+            "length": 6
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "food",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 5,
+        "intersections": 4,
+        "boardScore": 0.4191
+      }
+    },
+    {
+      "puzzleId": "food-easy-7x7-0012",
+      "seed": 12,
+      "theme": "food",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "C",
+          "",
+          "",
+          "K",
+          "",
+          ""
+        ],
+        [
+          "",
+          "U",
+          "",
+          "R",
+          "I",
+          "C",
+          "E"
+        ],
+        [
+          "",
+          "I",
+          "",
+          "",
+          "T",
+          "",
+          ""
+        ],
+        [
+          "",
+          "S",
+          "P",
+          "I",
+          "C",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "I",
+          "",
+          "",
+          "H",
+          "",
+          ""
+        ],
+        [
+          "",
+          "N",
+          "",
+          "B",
+          "E",
+          "E",
+          "R"
+        ],
+        [
+          "",
+          "E",
+          "",
+          "",
+          "N",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "SPICE",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Something you eat",
+          "softHints": {
+            "startsWith": "S",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "CUISINE",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 7,
+          "clue": "A tasty dish or ingredient",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "KITCHEN",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "K",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 5,
+          "answer": "BEER",
+          "direction": "across",
+          "row": 5,
+          "col": 3,
+          "length": 4,
+          "clue": "Food item",
+          "softHints": {
+            "startsWith": "B",
+            "length": 4,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "RICE",
+          "direction": "across",
+          "row": 1,
+          "col": 3,
+          "length": 4,
+          "clue": "A tasty dish or ingredient",
+          "softHints": {
+            "startsWith": "R",
+            "length": 4,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "A tasty dish or ingredient",
+            "answer": "RICE",
+            "length": 4
+          },
+          {
+            "number": 4,
+            "clue": "Something you eat",
+            "answer": "SPICE",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "Food item",
+            "answer": "BEER",
+            "length": 4
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A tasty dish or ingredient",
+            "answer": "CUISINE",
+            "length": 7
+          },
+          {
+            "number": 2,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "KITCHEN",
+            "length": 7
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "food",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 5,
+        "intersections": 4,
+        "boardScore": 0.4314
+      }
+    },
+    {
+      "puzzleId": "food-easy-7x7-0013",
+      "seed": 13,
+      "theme": "food",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "K",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "P",
+          "I",
+          "Z",
+          "Z",
+          "A",
+          "",
+          ""
+        ],
+        [
+          "",
+          "T",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "A",
+          "N",
+          "D",
+          "Y",
+          ""
+        ],
+        [
+          "",
+          "H",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "R",
+          "E",
+          "C",
+          "I",
+          "P",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "N",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 3,
+          "answer": "CANDY",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "A tasty dish or ingredient",
+          "softHints": {
+            "startsWith": "C",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "KITCHEN",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 7,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "K",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 4,
+          "answer": "RECIPE",
+          "direction": "across",
+          "row": 5,
+          "col": 0,
+          "length": 6,
+          "clue": "Something you eat",
+          "softHints": {
+            "startsWith": "R",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "PIZZA",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "P",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 2,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "PIZZA",
+            "length": 5
+          },
+          {
+            "number": 3,
+            "clue": "A tasty dish or ingredient",
+            "answer": "CANDY",
+            "length": 5
+          },
+          {
+            "number": 4,
+            "clue": "Something you eat",
+            "answer": "RECIPE",
+            "length": 6
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "KITCHEN",
+            "length": 7
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "food",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 4,
+        "intersections": 3,
+        "boardScore": 0.3791
+      }
+    },
+    {
+      "puzzleId": "food-easy-7x7-0014",
+      "seed": 14,
+      "theme": "food",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "",
+          "C",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "C",
+          "",
+          "U",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "H",
+          "",
+          "I",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Y",
+          "E",
+          "A",
+          "S",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "",
+          "R",
+          "",
+          "I",
+          "",
+          ""
+        ],
+        [
+          "",
+          "O",
+          "R",
+          "A",
+          "N",
+          "G",
+          "E"
+        ],
+        [
+          "",
+          "",
+          "Y",
+          "",
+          "E",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 3,
+          "answer": "YEAST",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "A tasty dish or ingredient",
+          "softHints": {
+            "startsWith": "Y",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "CUISINE",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "clue": "A tasty dish or ingredient",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "CHERRY",
+          "direction": "down",
+          "row": 1,
+          "col": 2,
+          "length": 6,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "C",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 4,
+          "answer": "ORANGE",
+          "direction": "across",
+          "row": 5,
+          "col": 1,
+          "length": 6,
+          "clue": "Food item",
+          "softHints": {
+            "startsWith": "O",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "A tasty dish or ingredient",
+            "answer": "YEAST",
+            "length": 5
+          },
+          {
+            "number": 4,
+            "clue": "Food item",
+            "answer": "ORANGE",
+            "length": 6
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A tasty dish or ingredient",
+            "answer": "CUISINE",
+            "length": 7
+          },
+          {
+            "number": 2,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "CHERRY",
+            "length": 6
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "food",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 4,
+        "intersections": 4,
+        "boardScore": 0.4416
+      }
+    },
+    {
+      "puzzleId": "food-easy-7x7-0015",
+      "seed": 15,
+      "theme": "food",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "B",
+          "A",
+          "Y"
+        ],
+        [
+          "",
+          "S",
+          "",
+          "",
+          "U",
+          "",
+          ""
+        ],
+        [
+          "",
+          "P",
+          "L",
+          "A",
+          "T",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "I",
+          "",
+          "",
+          "T",
+          "",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "H",
+          "E",
+          "E",
+          "S",
+          "E"
+        ],
+        [
+          "",
+          "E",
+          "",
+          "",
+          "R",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 3,
+          "answer": "PLATE",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "A tasty dish or ingredient",
+          "softHints": {
+            "startsWith": "P",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "BUTTER",
+          "direction": "down",
+          "row": 1,
+          "col": 4,
+          "length": 6,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "B",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 4,
+          "answer": "CHEESE",
+          "direction": "across",
+          "row": 5,
+          "col": 1,
+          "length": 6,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "C",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "SPICE",
+          "direction": "down",
+          "row": 2,
+          "col": 1,
+          "length": 5,
+          "clue": "Something you eat",
+          "softHints": {
+            "startsWith": "S",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "BAY",
+          "direction": "across",
+          "row": 1,
+          "col": 4,
+          "length": 3,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "B",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 1,
+            "clue": "Edible item",
+            "answer": "BAY",
+            "length": 3
+          },
+          {
+            "number": 3,
+            "clue": "A tasty dish or ingredient",
+            "answer": "PLATE",
+            "length": 5
+          },
+          {
+            "number": 4,
+            "clue": "Edible item",
+            "answer": "CHEESE",
+            "length": 6
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "BUTTER",
+            "length": 6
+          },
+          {
+            "number": 2,
+            "clue": "Something you eat",
+            "answer": "SPICE",
+            "length": 5
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "food",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 5,
+        "intersections": 5,
+        "boardScore": 0.4691
+      }
+    },
+    {
+      "puzzleId": "food-easy-7x7-0016",
+      "seed": 16,
+      "theme": "food",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "B",
+          "A",
+          "Y"
+        ],
+        [
+          "",
+          "S",
+          "",
+          "",
+          "U",
+          "",
+          ""
+        ],
+        [
+          "",
+          "P",
+          "L",
+          "A",
+          "T",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "I",
+          "",
+          "",
+          "T",
+          "",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "H",
+          "E",
+          "E",
+          "S",
+          "E"
+        ],
+        [
+          "",
+          "E",
+          "",
+          "",
+          "R",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 3,
+          "answer": "PLATE",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "A tasty dish or ingredient",
+          "softHints": {
+            "startsWith": "P",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "BUTTER",
+          "direction": "down",
+          "row": 1,
+          "col": 4,
+          "length": 6,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "B",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 4,
+          "answer": "CHEESE",
+          "direction": "across",
+          "row": 5,
+          "col": 1,
+          "length": 6,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "C",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "SPICE",
+          "direction": "down",
+          "row": 2,
+          "col": 1,
+          "length": 5,
+          "clue": "Something you eat",
+          "softHints": {
+            "startsWith": "S",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "BAY",
+          "direction": "across",
+          "row": 1,
+          "col": 4,
+          "length": 3,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "B",
+            "length": 3,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 1,
+            "clue": "Edible item",
+            "answer": "BAY",
+            "length": 3
+          },
+          {
+            "number": 3,
+            "clue": "A tasty dish or ingredient",
+            "answer": "PLATE",
+            "length": 5
+          },
+          {
+            "number": 4,
+            "clue": "Edible item",
+            "answer": "CHEESE",
+            "length": 6
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "BUTTER",
+            "length": 6
+          },
+          {
+            "number": 2,
+            "clue": "Something you eat",
+            "answer": "SPICE",
+            "length": 5
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "food",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 5,
+        "intersections": 5,
+        "boardScore": 0.4691
+      }
+    },
+    {
+      "puzzleId": "food-easy-7x7-0017",
+      "seed": 17,
+      "theme": "food",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "K",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "P",
+          "I",
+          "Z",
+          "Z",
+          "A",
+          "",
+          ""
+        ],
+        [
+          "",
+          "T",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "A",
+          "N",
+          "D",
+          "Y",
+          ""
+        ],
+        [
+          "",
+          "H",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "R",
+          "E",
+          "C",
+          "I",
+          "P",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "N",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 3,
+          "answer": "CANDY",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "A tasty dish or ingredient",
+          "softHints": {
+            "startsWith": "C",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "KITCHEN",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 7,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "K",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 4,
+          "answer": "RECIPE",
+          "direction": "across",
+          "row": 5,
+          "col": 0,
+          "length": 6,
+          "clue": "Something you eat",
+          "softHints": {
+            "startsWith": "R",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "PIZZA",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "P",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 2,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "PIZZA",
+            "length": 5
+          },
+          {
+            "number": 3,
+            "clue": "A tasty dish or ingredient",
+            "answer": "CANDY",
+            "length": 5
+          },
+          {
+            "number": 4,
+            "clue": "Something you eat",
+            "answer": "RECIPE",
+            "length": 6
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "KITCHEN",
+            "length": 7
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "food",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 4,
+        "intersections": 3,
+        "boardScore": 0.3791
+      }
+    },
+    {
+      "puzzleId": "food-easy-7x7-0018",
+      "seed": 18,
+      "theme": "food",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "B",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "P",
+          "",
+          "A",
+          "",
+          "C",
+          ""
+        ],
+        [
+          "",
+          "E",
+          "",
+          "N",
+          "",
+          "H",
+          ""
+        ],
+        [
+          "",
+          "P",
+          "L",
+          "A",
+          "T",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "P",
+          "",
+          "N",
+          "",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "E",
+          "",
+          "A",
+          "",
+          "S",
+          ""
+        ],
+        [
+          "",
+          "R",
+          "",
+          "",
+          "",
+          "E",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "PLATE",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "A tasty dish or ingredient",
+          "softHints": {
+            "startsWith": "P",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "BANANA",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 6,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "B",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "CHEESE",
+          "direction": "down",
+          "row": 1,
+          "col": 5,
+          "length": 6,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "C",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "PEPPER",
+          "direction": "down",
+          "row": 1,
+          "col": 1,
+          "length": 6,
+          "clue": "Food item",
+          "softHints": {
+            "startsWith": "P",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "A tasty dish or ingredient",
+            "answer": "PLATE",
+            "length": 5
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "BANANA",
+            "length": 6
+          },
+          {
+            "number": 2,
+            "clue": "Food item",
+            "answer": "PEPPER",
+            "length": 6
+          },
+          {
+            "number": 3,
+            "clue": "Edible item",
+            "answer": "CHEESE",
+            "length": 6
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "food",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 4,
+        "intersections": 3,
+        "boardScore": 0.3791
+      }
+    },
+    {
+      "puzzleId": "food-easy-7x7-0019",
+      "seed": 19,
+      "theme": "food",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "",
+          "K",
+          "",
+          ""
+        ],
+        [
+          "",
+          "R",
+          "E",
+          "C",
+          "I",
+          "P",
+          "E"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "T",
+          "",
+          ""
+        ],
+        [
+          "",
+          "J",
+          "U",
+          "I",
+          "C",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "H",
+          "",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "H",
+          "E",
+          "E",
+          "S",
+          "E"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "N",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 3,
+          "answer": "JUICE",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "J",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "KITCHEN",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "clue": "Found in a kitchen or restaurant",
+          "softHints": {
+            "startsWith": "K",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 4,
+          "answer": "CHEESE",
+          "direction": "across",
+          "row": 5,
+          "col": 1,
+          "length": 6,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "C",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "RECIPE",
+          "direction": "across",
+          "row": 1,
+          "col": 1,
+          "length": 6,
+          "clue": "Something you eat",
+          "softHints": {
+            "startsWith": "R",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 2,
+            "clue": "Something you eat",
+            "answer": "RECIPE",
+            "length": 6
+          },
+          {
+            "number": 3,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "JUICE",
+            "length": 5
+          },
+          {
+            "number": 4,
+            "clue": "Edible item",
+            "answer": "CHEESE",
+            "length": 6
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Found in a kitchen or restaurant",
+            "answer": "KITCHEN",
+            "length": 7
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "food",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 4,
+        "intersections": 3,
+        "boardScore": 0.3832
+      }
+    },
+    {
+      "puzzleId": "food-easy-7x7-0020",
+      "seed": 20,
+      "theme": "food",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "C",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "P",
+          "",
+          "U",
+          "",
+          "O",
+          ""
+        ],
+        [
+          "",
+          "E",
+          "",
+          "I",
+          "",
+          "R",
+          ""
+        ],
+        [
+          "",
+          "P",
+          "A",
+          "S",
+          "T",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "P",
+          "",
+          "I",
+          "",
+          "N",
+          ""
+        ],
+        [
+          "",
+          "E",
+          "",
+          "N",
+          "",
+          "G",
+          ""
+        ],
+        [
+          "",
+          "R",
+          "",
+          "E",
+          "",
+          "E",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "PASTA",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Edible item",
+          "softHints": {
+            "startsWith": "P",
+            "length": 5,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "CUISINE",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 7,
+          "clue": "A tasty dish or ingredient",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "ORANGE",
+          "direction": "down",
+          "row": 1,
+          "col": 5,
+          "length": 6,
+          "clue": "Food item",
+          "softHints": {
+            "startsWith": "O",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "PEPPER",
+          "direction": "down",
+          "row": 1,
+          "col": 1,
+          "length": 6,
+          "clue": "Food item",
+          "softHints": {
+            "startsWith": "P",
+            "length": 6,
+            "category": "food"
+          },
+          "theme": "food",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "Edible item",
+            "answer": "PASTA",
+            "length": 5
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A tasty dish or ingredient",
+            "answer": "CUISINE",
+            "length": 7
+          },
+          {
+            "number": 2,
+            "clue": "Food item",
+            "answer": "PEPPER",
+            "length": 6
+          },
+          {
+            "number": 3,
+            "clue": "Food item",
+            "answer": "ORANGE",
+            "length": 6
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "food",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 4,
+        "intersections": 3,
+        "boardScore": 0.3832
+      }
+    }
+  ]
+}

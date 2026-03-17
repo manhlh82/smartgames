@@ -110,6 +110,8 @@ enum EconomyConfig {
             let level = Int(difficulty) ?? 1
             // base 10 + 5 per 10 levels, capped at 50
             return min(10 + (level / 10) * 5, 50)
+        case "crossword":
+            return 20 // flat reward for all difficulties
         default:
             return 10
         }

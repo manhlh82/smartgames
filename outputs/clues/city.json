@@ -1,0 +1,1386 @@
+{
+  "theme": "city",
+  "count": 85,
+  "clues": [
+    {
+      "word": "ALTITUDE",
+      "primaryClue": "City infrastructure term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "A",
+        "length": 8,
+        "category": "city"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "AREA",
+      "primaryClue": "Urban feature or place",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "A",
+        "length": 4,
+        "category": "city"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "ATLAS",
+      "primaryClue": "Found in a city",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "A",
+        "length": 5,
+        "category": "city"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "ATOLL",
+      "primaryClue": "Urban feature or place",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "A",
+        "length": 5,
+        "category": "city"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "AZIMUTH",
+      "primaryClue": "Metropolitan feature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "A",
+        "length": 7,
+        "category": "city"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "BAY",
+      "primaryClue": "City infrastructure term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "B",
+        "length": 3,
+        "category": "city"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "BORDER",
+      "primaryClue": "Found in a city",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "B",
+        "length": 6,
+        "category": "city"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "BUTTE",
+      "primaryClue": "City infrastructure term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "B",
+        "length": 5,
+        "category": "city"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "CANAL",
+      "primaryClue": "Metropolitan feature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 5,
+        "category": "city"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "CANYON",
+      "primaryClue": "City infrastructure term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 6,
+        "category": "city"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "CAPE",
+      "primaryClue": "Metropolitan feature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 4,
+        "category": "city"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "CAPITAL",
+      "primaryClue": "City infrastructure term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 7,
+        "category": "city"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "CAVE",
+      "primaryClue": "Metropolitan feature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 4,
+        "category": "city"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "CHANNEL",
+      "primaryClue": "Urban feature or place",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 7,
+        "category": "city"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "CHART",
+      "primaryClue": "Metropolitan feature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 5,
+        "category": "city"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "CITY",
+      "primaryClue": "Part of city life",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 4,
+        "category": "city"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "CLIFF",
+      "primaryClue": "Urban feature or place",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 5,
+        "category": "city"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "COMPASS",
+      "primaryClue": "Found in a city",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 7,
+        "category": "city"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "CONTINENT",
+      "primaryClue": "Found in a city",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 9,
+        "category": "city"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "CONTOUR",
+      "primaryClue": "Found in a city",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 7,
+        "category": "city"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "COUNTRY",
+      "primaryClue": "Metropolitan feature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 7,
+        "category": "city"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "COVE",
+      "primaryClue": "Urban feature or place",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 4,
+        "category": "city"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "DEGREE",
+      "primaryClue": "Urban feature or place",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "D",
+        "length": 6,
+        "category": "city"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "DELTA",
+      "primaryClue": "Part of city life",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "D",
+        "length": 5,
+        "category": "city"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "DESERT",
+      "primaryClue": "Found in a city",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "D",
+        "length": 6,
+        "category": "city"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "DUNE",
+      "primaryClue": "Urban feature or place",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "D",
+        "length": 4,
+        "category": "city"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "EAST",
+      "primaryClue": "Part of city life",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "E",
+        "length": 4,
+        "category": "city"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "ELEVATION",
+      "primaryClue": "City infrastructure term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "E",
+        "length": 9,
+        "category": "city"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "EQUATOR",
+      "primaryClue": "Metropolitan feature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "E",
+        "length": 7,
+        "category": "city"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "ESTUARY",
+      "primaryClue": "Metropolitan feature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "E",
+        "length": 7,
+        "category": "city"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "FJORD",
+      "primaryClue": "Metropolitan feature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "F",
+        "length": 5,
+        "category": "city"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "GEYSER",
+      "primaryClue": "Part of city life",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "G",
+        "length": 6,
+        "category": "city"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "GLACIER",
+      "primaryClue": "Part of city life",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "G",
+        "length": 7,
+        "category": "city"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "GLOBE",
+      "primaryClue": "Metropolitan feature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "G",
+        "length": 5,
+        "category": "city"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "GULF",
+      "primaryClue": "Found in a city",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "G",
+        "length": 4,
+        "category": "city"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "HILL",
+      "primaryClue": "Part of city life",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "H",
+        "length": 4,
+        "category": "city"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "ISLAND",
+      "primaryClue": "Metropolitan feature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "I",
+        "length": 6,
+        "category": "city"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "KEY",
+      "primaryClue": "Found in a city",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "K",
+        "length": 3,
+        "category": "city"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "LAGOON",
+      "primaryClue": "City infrastructure term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "L",
+        "length": 6,
+        "category": "city"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "LAKE",
+      "primaryClue": "Found in a city",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "L",
+        "length": 4,
+        "category": "city"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "LAND",
+      "primaryClue": "Urban feature or place",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "L",
+        "length": 4,
+        "category": "city"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "LANDFORM",
+      "primaryClue": "City infrastructure term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "L",
+        "length": 8,
+        "category": "city"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "LATITUDE",
+      "primaryClue": "City infrastructure term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "L",
+        "length": 8,
+        "category": "city"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "LEGEND",
+      "primaryClue": "City infrastructure term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "L",
+        "length": 6,
+        "category": "city"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "LONGITUDE",
+      "primaryClue": "Urban feature or place",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "L",
+        "length": 9,
+        "category": "city"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "MAP",
+      "primaryClue": "Found in a city",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "M",
+        "length": 3,
+        "category": "city"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "MARSH",
+      "primaryClue": "City infrastructure term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "M",
+        "length": 5,
+        "category": "city"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "MERIDIAN",
+      "primaryClue": "Metropolitan feature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "M",
+        "length": 8,
+        "category": "city"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "MESA",
+      "primaryClue": "Metropolitan feature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "M",
+        "length": 4,
+        "category": "city"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "MOUNTAIN",
+      "primaryClue": "Metropolitan feature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "M",
+        "length": 8,
+        "category": "city"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "NATION",
+      "primaryClue": "Part of city life",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "N",
+        "length": 6,
+        "category": "city"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "NORTH",
+      "primaryClue": "Urban feature or place",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "N",
+        "length": 5,
+        "category": "city"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "OASIS",
+      "primaryClue": "Found in a city",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "O",
+        "length": 5,
+        "category": "city"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "OCEAN",
+      "primaryClue": "Part of city life",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "O",
+        "length": 5,
+        "category": "city"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "PARALLEL",
+      "primaryClue": "Urban feature or place",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "P",
+        "length": 8,
+        "category": "city"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "PEAK",
+      "primaryClue": "City infrastructure term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "P",
+        "length": 4,
+        "category": "city"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "PENINSULA",
+      "primaryClue": "City infrastructure term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "P",
+        "length": 9,
+        "category": "city"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "PLAIN",
+      "primaryClue": "Urban feature or place",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "P",
+        "length": 5,
+        "category": "city"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "PLATEAU",
+      "primaryClue": "City infrastructure term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "P",
+        "length": 7,
+        "category": "city"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "POLE",
+      "primaryClue": "Metropolitan feature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "P",
+        "length": 4,
+        "category": "city"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "POND",
+      "primaryClue": "Found in a city",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "P",
+        "length": 4,
+        "category": "city"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "PRAIRIE",
+      "primaryClue": "Urban feature or place",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "P",
+        "length": 7,
+        "category": "city"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "PROJECTION",
+      "primaryClue": "Metropolitan feature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "P",
+        "length": 10,
+        "category": "city"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "RANGE",
+      "primaryClue": "City infrastructure term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "R",
+        "length": 5,
+        "category": "city"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "REEF",
+      "primaryClue": "Found in a city",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "R",
+        "length": 4,
+        "category": "city"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "REGION",
+      "primaryClue": "City infrastructure term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "R",
+        "length": 6,
+        "category": "city"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "RESERVOIR",
+      "primaryClue": "Metropolitan feature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "R",
+        "length": 9,
+        "category": "city"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "RIVER",
+      "primaryClue": "Part of city life",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "R",
+        "length": 5,
+        "category": "city"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SCALE",
+      "primaryClue": "Part of city life",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 5,
+        "category": "city"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SEA",
+      "primaryClue": "Part of city life",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 3,
+        "category": "city"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SOUND",
+      "primaryClue": "Metropolitan feature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 5,
+        "category": "city"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SOURCE",
+      "primaryClue": "Urban feature or place",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 6,
+        "category": "city"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SOUTH",
+      "primaryClue": "Found in a city",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 5,
+        "category": "city"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "STRAIT",
+      "primaryClue": "Urban feature or place",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 6,
+        "category": "city"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SWAMP",
+      "primaryClue": "Part of city life",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 5,
+        "category": "city"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "TERRITORY",
+      "primaryClue": "Found in a city",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "T",
+        "length": 9,
+        "category": "city"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "TRIBUTARY",
+      "primaryClue": "Found in a city",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "T",
+        "length": 9,
+        "category": "city"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "TROPICS",
+      "primaryClue": "Urban feature or place",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "T",
+        "length": 7,
+        "category": "city"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "TUNDRA",
+      "primaryClue": "Urban feature or place",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "T",
+        "length": 6,
+        "category": "city"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "VALLEY",
+      "primaryClue": "City infrastructure term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "V",
+        "length": 6,
+        "category": "city"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "VOLCANO",
+      "primaryClue": "City infrastructure term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "V",
+        "length": 7,
+        "category": "city"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "WATERFALL",
+      "primaryClue": "Metropolitan feature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "W",
+        "length": 9,
+        "category": "city"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "WEST",
+      "primaryClue": "Metropolitan feature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "W",
+        "length": 4,
+        "category": "city"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "WETLAND",
+      "primaryClue": "Found in a city",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "W",
+        "length": 7,
+        "category": "city"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "WORLD",
+      "primaryClue": "Urban feature or place",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "W",
+        "length": 5,
+        "category": "city"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    }
+  ]
+}

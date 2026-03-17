@@ -1,0 +1,1165 @@
+{
+  "theme": "ocean",
+  "count": 71,
+  "clues": [
+    {
+      "word": "BADGER",
+      "primaryClue": "Found in the sea",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "B",
+        "length": 6,
+        "category": "ocean"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "BARRACUDA",
+      "primaryClue": "Underwater dweller",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "B",
+        "length": 9,
+        "category": "ocean"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "BEAR",
+      "primaryClue": "Lives in the ocean",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "B",
+        "length": 4,
+        "category": "ocean"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "BOA",
+      "primaryClue": "Found in the sea",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "B",
+        "length": 3,
+        "category": "ocean"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "CHEETAH",
+      "primaryClue": "Marine creature or feature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 7,
+        "category": "ocean"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "CHIMPANZEE",
+      "primaryClue": "Ocean-related term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 10,
+        "category": "ocean"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "CIVET",
+      "primaryClue": "Lives in the ocean",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 5,
+        "category": "ocean"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "COBRA",
+      "primaryClue": "Lives in the ocean",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 5,
+        "category": "ocean"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "COUGAR",
+      "primaryClue": "Lives in the ocean",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 6,
+        "category": "ocean"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "COYOTE",
+      "primaryClue": "Found in the sea",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 6,
+        "category": "ocean"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "CROCODILE",
+      "primaryClue": "Lives in the ocean",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 9,
+        "category": "ocean"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "DINGO",
+      "primaryClue": "Underwater dweller",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "D",
+        "length": 5,
+        "category": "ocean"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "EAGLE",
+      "primaryClue": "Lives in the ocean",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "E",
+        "length": 5,
+        "category": "ocean"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "EEL",
+      "primaryClue": "Underwater dweller",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "E",
+        "length": 3,
+        "category": "ocean"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "FOSSA",
+      "primaryClue": "Marine creature or feature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "F",
+        "length": 5,
+        "category": "ocean"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "FOX",
+      "primaryClue": "Found in the sea",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "F",
+        "length": 3,
+        "category": "ocean"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "HUMAN",
+      "primaryClue": "Marine creature or feature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "H",
+        "length": 5,
+        "category": "ocean"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "JACKAL",
+      "primaryClue": "Lives in the ocean",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "J",
+        "length": 6,
+        "category": "ocean"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "JAGUAR",
+      "primaryClue": "Ocean-related term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "J",
+        "length": 6,
+        "category": "ocean"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "KOMODO",
+      "primaryClue": "Lives in the ocean",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "K",
+        "length": 6,
+        "category": "ocean"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "LEOPARD",
+      "primaryClue": "Marine creature or feature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "L",
+        "length": 7,
+        "category": "ocean"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "LION",
+      "primaryClue": "Lives in the ocean",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "L",
+        "length": 4,
+        "category": "ocean"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "LYNX",
+      "primaryClue": "Lives in the ocean",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "L",
+        "length": 4,
+        "category": "ocean"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "MAMBA",
+      "primaryClue": "Underwater dweller",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "M",
+        "length": 5,
+        "category": "ocean"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "MANDRILL",
+      "primaryClue": "Found in the sea",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "M",
+        "length": 8,
+        "category": "ocean"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "MARLIN",
+      "primaryClue": "Found in the sea",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "M",
+        "length": 6,
+        "category": "ocean"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "MONITOR",
+      "primaryClue": "Marine creature or feature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "M",
+        "length": 7,
+        "category": "ocean"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "OCELOT",
+      "primaryClue": "Found in the sea",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "O",
+        "length": 6,
+        "category": "ocean"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "OSPREY",
+      "primaryClue": "Underwater dweller",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "O",
+        "length": 6,
+        "category": "ocean"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "OWL",
+      "primaryClue": "Lives in the ocean",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "O",
+        "length": 3,
+        "category": "ocean"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "PETREL",
+      "primaryClue": "Lives in the ocean",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "P",
+        "length": 6,
+        "category": "ocean"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "PYTHON",
+      "primaryClue": "Marine creature or feature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "P",
+        "length": 6,
+        "category": "ocean"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "RAY",
+      "primaryClue": "Underwater dweller",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "R",
+        "length": 3,
+        "category": "ocean"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SALAMANDER",
+      "primaryClue": "Ocean-related term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 10,
+        "category": "ocean"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SERVAL",
+      "primaryClue": "Marine creature or feature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 6,
+        "category": "ocean"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SHARK",
+      "primaryClue": "Ocean-related term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 5,
+        "category": "ocean"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SKUA",
+      "primaryClue": "Marine creature or feature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 4,
+        "category": "ocean"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "TIGER",
+      "primaryClue": "Ocean-related term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "T",
+        "length": 5,
+        "category": "ocean"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "VIPER",
+      "primaryClue": "Found in the sea",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "V",
+        "length": 5,
+        "category": "ocean"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "WOLF",
+      "primaryClue": "Marine creature or feature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "W",
+        "length": 4,
+        "category": "ocean"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "WOLVERINE",
+      "primaryClue": "Marine creature or feature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "W",
+        "length": 9,
+        "category": "ocean"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "AMBERJACK",
+      "primaryClue": "Ocean-related term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "A",
+        "length": 9,
+        "category": "ocean"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "ANCHOVY",
+      "primaryClue": "Found in the sea",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "A",
+        "length": 7,
+        "category": "ocean"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "ANGLER",
+      "primaryClue": "Found in the sea",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "A",
+        "length": 6,
+        "category": "ocean"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "AYU",
+      "primaryClue": "Marine creature or feature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "A",
+        "length": 3,
+        "category": "ocean"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "BARBEL",
+      "primaryClue": "Underwater dweller",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "B",
+        "length": 6,
+        "category": "ocean"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "BASS",
+      "primaryClue": "Ocean-related term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "B",
+        "length": 4,
+        "category": "ocean"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "BETTA",
+      "primaryClue": "Found in the sea",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "B",
+        "length": 5,
+        "category": "ocean"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "BLOWFISH",
+      "primaryClue": "Lives in the ocean",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "B",
+        "length": 8,
+        "category": "ocean"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "BOCACCIO",
+      "primaryClue": "Underwater dweller",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "B",
+        "length": 8,
+        "category": "ocean"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "BURBOT",
+      "primaryClue": "Found in the sea",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "B",
+        "length": 6,
+        "category": "ocean"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "CARP",
+      "primaryClue": "Marine creature or feature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 4,
+        "category": "ocean"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "COBBLER",
+      "primaryClue": "Lives in the ocean",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 7,
+        "category": "ocean"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "COD",
+      "primaryClue": "Underwater dweller",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "C",
+        "length": 3,
+        "category": "ocean"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "FLOUNDER",
+      "primaryClue": "Ocean-related term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "F",
+        "length": 8,
+        "category": "ocean"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "GROUPER",
+      "primaryClue": "Underwater dweller",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "G",
+        "length": 7,
+        "category": "ocean"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "HADDOCK",
+      "primaryClue": "Found in the sea",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "H",
+        "length": 7,
+        "category": "ocean"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "HALIBUT",
+      "primaryClue": "Marine creature or feature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "H",
+        "length": 7,
+        "category": "ocean"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "HERRING",
+      "primaryClue": "Ocean-related term",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "H",
+        "length": 7,
+        "category": "ocean"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "MACKEREL",
+      "primaryClue": "Underwater dweller",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "M",
+        "length": 8,
+        "category": "ocean"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "MULLET",
+      "primaryClue": "Lives in the ocean",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "M",
+        "length": 6,
+        "category": "ocean"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "PERCH",
+      "primaryClue": "Lives in the ocean",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "P",
+        "length": 5,
+        "category": "ocean"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "POLLOCK",
+      "primaryClue": "Underwater dweller",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "P",
+        "length": 7,
+        "category": "ocean"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SALMON",
+      "primaryClue": "Found in the sea",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 6,
+        "category": "ocean"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SARDINE",
+      "primaryClue": "Lives in the ocean",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 7,
+        "category": "ocean"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SCALLOP",
+      "primaryClue": "Lives in the ocean",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 7,
+        "category": "ocean"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SNAPPER",
+      "primaryClue": "Found in the sea",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 7,
+        "category": "ocean"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "SOLE",
+      "primaryClue": "Underwater dweller",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "S",
+        "length": 4,
+        "category": "ocean"
+      },
+      "difficulty": "easy",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    },
+    {
+      "word": "TILAPIA",
+      "primaryClue": "Marine creature or feature",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "T",
+        "length": 7,
+        "category": "ocean"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "TROUT",
+      "primaryClue": "Found in the sea",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "T",
+        "length": 5,
+        "category": "ocean"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only"
+      ],
+      "approved": false
+    },
+    {
+      "word": "TUNA",
+      "primaryClue": "Underwater dweller",
+      "alternateClues": [],
+      "softHints": {
+        "startsWith": "T",
+        "length": 4,
+        "category": "ocean"
+      },
+      "difficulty": "medium",
+      "source": "generated",
+      "reviewFlags": [
+        "fallback_only",
+        "short_clue"
+      ],
+      "approved": false
+    }
+  ]
+}

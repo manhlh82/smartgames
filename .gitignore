@@ -43,3 +43,20 @@ fastlane/test_output
 *.swo
 .idea/
 *.sublime-workspace
+
+# Python build artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.coverage
+
+# Crossword pipeline intermediate files
+data/raw/
+data/processed/
+outputs/puzzles/

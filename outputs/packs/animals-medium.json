@@ -1,0 +1,7652 @@
+{
+  "packId": "animals-medium",
+  "title": "Wild Kingdom Plus",
+  "theme": "animals",
+  "difficulty": "medium",
+  "boardSize": "standard",
+  "puzzleCount": 20,
+  "version": "1.0.0",
+  "createdAt": "2026-03-17",
+  "puzzles": [
+    {
+      "puzzleId": "animals-medium-9x9-0301",
+      "seed": 301,
+      "theme": "animals",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "M",
+          "",
+          "W",
+          "",
+          "M",
+          ""
+        ],
+        [
+          "H",
+          "I",
+          "M",
+          "A",
+          "L",
+          "A",
+          "Y",
+          "A",
+          "N"
+        ],
+        [
+          "",
+          "",
+          "",
+          "R",
+          "",
+          "R",
+          "",
+          "C",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "M",
+          "",
+          "B",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "S",
+          "W",
+          "A",
+          "L",
+          "L",
+          "O",
+          "W",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "L",
+          "",
+          "E",
+          "",
+          "",
+          ""
+        ],
+        [
+          "A",
+          "L",
+          "B",
+          "A",
+          "T",
+          "R",
+          "O",
+          "S",
+          "S"
+        ],
+        [
+          "",
+          "",
+          "",
+          "D",
+          "",
+          "",
+          "W",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "E",
+          "",
+          "",
+          "L",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "SWALLOW",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Common household pet or wild creature",
+          "softHints": {
+            "startsWith": "S",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "MARMALADE",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 9,
+          "clue": "Found in nature or a zoo",
+          "softHints": {
+            "startsWith": "M",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "ALBATROSS",
+          "direction": "across",
+          "row": 6,
+          "col": 0,
+          "length": 9,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "A",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "HIMALAYAN",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 9,
+          "clue": "Found in nature or a zoo",
+          "softHints": {
+            "startsWith": "H",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "WARBLER",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 7,
+          "clue": "Found in nature or a zoo",
+          "softHints": {
+            "startsWith": "W",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "MACAW",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 5,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "M",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "OWL",
+          "direction": "down",
+          "row": 6,
+          "col": 6,
+          "length": 3,
+          "clue": "Found in nature or a zoo",
+          "softHints": {
+            "startsWith": "O",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "Found in nature or a zoo",
+            "answer": "HIMALAYAN",
+            "length": 9
+          },
+          {
+            "number": 5,
+            "clue": "Common household pet or wild creature",
+            "answer": "SWALLOW",
+            "length": 7
+          },
+          {
+            "number": 6,
+            "clue": "A type of animal",
+            "answer": "ALBATROSS",
+            "length": 9
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Found in nature or a zoo",
+            "answer": "MARMALADE",
+            "length": 9
+          },
+          {
+            "number": 2,
+            "clue": "Found in nature or a zoo",
+            "answer": "WARBLER",
+            "length": 7
+          },
+          {
+            "number": 3,
+            "clue": "A type of animal",
+            "answer": "MACAW",
+            "length": 5
+          },
+          {
+            "number": 7,
+            "clue": "Found in nature or a zoo",
+            "answer": "OWL",
+            "length": 3
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "animals",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 9,
+        "boardScore": 0.5413
+      }
+    },
+    {
+      "puzzleId": "animals-medium-9x9-0002",
+      "seed": 2,
+      "theme": "animals",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "O",
+          "",
+          "B",
+          "",
+          "M",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "W",
+          "",
+          "O",
+          "",
+          "A",
+          "",
+          "",
+          ""
+        ],
+        [
+          "A",
+          "L",
+          "B",
+          "A",
+          "T",
+          "R",
+          "O",
+          "S",
+          "S"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "M",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "S",
+          "K",
+          "Y",
+          "L",
+          "A",
+          "R",
+          "K",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "L",
+          "",
+          "",
+          ""
+        ],
+        [
+          "C",
+          "H",
+          "I",
+          "C",
+          "K",
+          "A",
+          "D",
+          "E",
+          "E"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "D",
+          "",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "E",
+          "",
+          "L",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "SKYLARK",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "S",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "MARMALADE",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 9,
+          "clue": "Found in nature or a zoo",
+          "softHints": {
+            "startsWith": "M",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "ALBATROSS",
+          "direction": "across",
+          "row": 2,
+          "col": 0,
+          "length": 9,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "A",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "CHICKADEE",
+          "direction": "across",
+          "row": 6,
+          "col": 0,
+          "length": 9,
+          "clue": "Creature in the animal kingdom",
+          "softHints": {
+            "startsWith": "C",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "OWL",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 3,
+          "clue": "Found in nature or a zoo",
+          "softHints": {
+            "startsWith": "O",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "BOA",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 3,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "B",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "EEL",
+          "direction": "down",
+          "row": 6,
+          "col": 7,
+          "length": 3,
+          "clue": "Furry, feathered, or scaled creature",
+          "softHints": {
+            "startsWith": "E",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "A type of animal",
+            "answer": "ALBATROSS",
+            "length": 9
+          },
+          {
+            "number": 5,
+            "clue": "A type of animal",
+            "answer": "SKYLARK",
+            "length": 7
+          },
+          {
+            "number": 6,
+            "clue": "Creature in the animal kingdom",
+            "answer": "CHICKADEE",
+            "length": 9
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Found in nature or a zoo",
+            "answer": "OWL",
+            "length": 3
+          },
+          {
+            "number": 2,
+            "clue": "A type of animal",
+            "answer": "BOA",
+            "length": 3
+          },
+          {
+            "number": 3,
+            "clue": "Found in nature or a zoo",
+            "answer": "MARMALADE",
+            "length": 9
+          },
+          {
+            "number": 7,
+            "clue": "Furry, feathered, or scaled creature",
+            "answer": "EEL",
+            "length": 3
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "animals",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 6,
+        "boardScore": 0.4981
+      }
+    },
+    {
+      "puzzleId": "animals-medium-9x9-0003",
+      "seed": 3,
+      "theme": "animals",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "O",
+          "",
+          "B",
+          "",
+          "M",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "W",
+          "",
+          "O",
+          "",
+          "A",
+          "",
+          "",
+          ""
+        ],
+        [
+          "A",
+          "L",
+          "B",
+          "A",
+          "T",
+          "R",
+          "O",
+          "S",
+          "S"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "M",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "S",
+          "K",
+          "Y",
+          "L",
+          "A",
+          "R",
+          "K",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "L",
+          "",
+          "",
+          ""
+        ],
+        [
+          "C",
+          "H",
+          "I",
+          "C",
+          "K",
+          "A",
+          "D",
+          "E",
+          "E"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "D",
+          "",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "E",
+          "",
+          "L",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "SKYLARK",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "S",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "MARMALADE",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 9,
+          "clue": "Found in nature or a zoo",
+          "softHints": {
+            "startsWith": "M",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "ALBATROSS",
+          "direction": "across",
+          "row": 2,
+          "col": 0,
+          "length": 9,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "A",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "CHICKADEE",
+          "direction": "across",
+          "row": 6,
+          "col": 0,
+          "length": 9,
+          "clue": "Creature in the animal kingdom",
+          "softHints": {
+            "startsWith": "C",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "OWL",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 3,
+          "clue": "Found in nature or a zoo",
+          "softHints": {
+            "startsWith": "O",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "BOA",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 3,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "B",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "EEL",
+          "direction": "down",
+          "row": 6,
+          "col": 7,
+          "length": 3,
+          "clue": "Furry, feathered, or scaled creature",
+          "softHints": {
+            "startsWith": "E",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "A type of animal",
+            "answer": "ALBATROSS",
+            "length": 9
+          },
+          {
+            "number": 5,
+            "clue": "A type of animal",
+            "answer": "SKYLARK",
+            "length": 7
+          },
+          {
+            "number": 6,
+            "clue": "Creature in the animal kingdom",
+            "answer": "CHICKADEE",
+            "length": 9
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Found in nature or a zoo",
+            "answer": "OWL",
+            "length": 3
+          },
+          {
+            "number": 2,
+            "clue": "A type of animal",
+            "answer": "BOA",
+            "length": 3
+          },
+          {
+            "number": 3,
+            "clue": "Found in nature or a zoo",
+            "answer": "MARMALADE",
+            "length": 9
+          },
+          {
+            "number": 7,
+            "clue": "Furry, feathered, or scaled creature",
+            "answer": "EEL",
+            "length": 3
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "animals",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 6,
+        "boardScore": 0.4981
+      }
+    },
+    {
+      "puzzleId": "animals-medium-9x9-0004",
+      "seed": 4,
+      "theme": "animals",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "O",
+          "",
+          "B",
+          "",
+          "M",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "W",
+          "",
+          "O",
+          "",
+          "A",
+          "",
+          "",
+          ""
+        ],
+        [
+          "A",
+          "L",
+          "B",
+          "A",
+          "T",
+          "R",
+          "O",
+          "S",
+          "S"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "M",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "S",
+          "K",
+          "Y",
+          "L",
+          "A",
+          "R",
+          "K",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "L",
+          "",
+          "",
+          ""
+        ],
+        [
+          "C",
+          "H",
+          "I",
+          "C",
+          "K",
+          "A",
+          "D",
+          "E",
+          "E"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "D",
+          "",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "E",
+          "",
+          "L",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "SKYLARK",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "S",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "MARMALADE",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 9,
+          "clue": "Found in nature or a zoo",
+          "softHints": {
+            "startsWith": "M",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "ALBATROSS",
+          "direction": "across",
+          "row": 2,
+          "col": 0,
+          "length": 9,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "A",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "CHICKADEE",
+          "direction": "across",
+          "row": 6,
+          "col": 0,
+          "length": 9,
+          "clue": "Creature in the animal kingdom",
+          "softHints": {
+            "startsWith": "C",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "OWL",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 3,
+          "clue": "Found in nature or a zoo",
+          "softHints": {
+            "startsWith": "O",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "BOA",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 3,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "B",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "EEL",
+          "direction": "down",
+          "row": 6,
+          "col": 7,
+          "length": 3,
+          "clue": "Furry, feathered, or scaled creature",
+          "softHints": {
+            "startsWith": "E",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "A type of animal",
+            "answer": "ALBATROSS",
+            "length": 9
+          },
+          {
+            "number": 5,
+            "clue": "A type of animal",
+            "answer": "SKYLARK",
+            "length": 7
+          },
+          {
+            "number": 6,
+            "clue": "Creature in the animal kingdom",
+            "answer": "CHICKADEE",
+            "length": 9
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Found in nature or a zoo",
+            "answer": "OWL",
+            "length": 3
+          },
+          {
+            "number": 2,
+            "clue": "A type of animal",
+            "answer": "BOA",
+            "length": 3
+          },
+          {
+            "number": 3,
+            "clue": "Found in nature or a zoo",
+            "answer": "MARMALADE",
+            "length": 9
+          },
+          {
+            "number": 7,
+            "clue": "Furry, feathered, or scaled creature",
+            "answer": "EEL",
+            "length": 3
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "animals",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 6,
+        "boardScore": 0.4981
+      }
+    },
+    {
+      "puzzleId": "animals-medium-9x9-0005",
+      "seed": 5,
+      "theme": "animals",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "O",
+          "",
+          "B",
+          "",
+          "M",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "W",
+          "",
+          "O",
+          "",
+          "A",
+          "",
+          "",
+          ""
+        ],
+        [
+          "A",
+          "L",
+          "B",
+          "A",
+          "T",
+          "R",
+          "O",
+          "S",
+          "S"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "M",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "S",
+          "K",
+          "Y",
+          "L",
+          "A",
+          "R",
+          "K",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "L",
+          "",
+          "",
+          ""
+        ],
+        [
+          "C",
+          "H",
+          "I",
+          "C",
+          "K",
+          "A",
+          "D",
+          "E",
+          "E"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "D",
+          "",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "E",
+          "",
+          "L",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "SKYLARK",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "S",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "MARMALADE",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 9,
+          "clue": "Found in nature or a zoo",
+          "softHints": {
+            "startsWith": "M",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "ALBATROSS",
+          "direction": "across",
+          "row": 2,
+          "col": 0,
+          "length": 9,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "A",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "CHICKADEE",
+          "direction": "across",
+          "row": 6,
+          "col": 0,
+          "length": 9,
+          "clue": "Creature in the animal kingdom",
+          "softHints": {
+            "startsWith": "C",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "OWL",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 3,
+          "clue": "Found in nature or a zoo",
+          "softHints": {
+            "startsWith": "O",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "BOA",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 3,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "B",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "EEL",
+          "direction": "down",
+          "row": 6,
+          "col": 7,
+          "length": 3,
+          "clue": "Furry, feathered, or scaled creature",
+          "softHints": {
+            "startsWith": "E",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "A type of animal",
+            "answer": "ALBATROSS",
+            "length": 9
+          },
+          {
+            "number": 5,
+            "clue": "A type of animal",
+            "answer": "SKYLARK",
+            "length": 7
+          },
+          {
+            "number": 6,
+            "clue": "Creature in the animal kingdom",
+            "answer": "CHICKADEE",
+            "length": 9
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Found in nature or a zoo",
+            "answer": "OWL",
+            "length": 3
+          },
+          {
+            "number": 2,
+            "clue": "A type of animal",
+            "answer": "BOA",
+            "length": 3
+          },
+          {
+            "number": 3,
+            "clue": "Found in nature or a zoo",
+            "answer": "MARMALADE",
+            "length": 9
+          },
+          {
+            "number": 7,
+            "clue": "Furry, feathered, or scaled creature",
+            "answer": "EEL",
+            "length": 3
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "animals",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 6,
+        "boardScore": 0.4981
+      }
+    },
+    {
+      "puzzleId": "animals-medium-9x9-0006",
+      "seed": 6,
+      "theme": "animals",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "O",
+          "",
+          "B",
+          "",
+          "M",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "W",
+          "",
+          "O",
+          "",
+          "A",
+          "",
+          "",
+          ""
+        ],
+        [
+          "A",
+          "L",
+          "B",
+          "A",
+          "T",
+          "R",
+          "O",
+          "S",
+          "S"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "M",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "S",
+          "K",
+          "Y",
+          "L",
+          "A",
+          "R",
+          "K",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "L",
+          "",
+          "",
+          ""
+        ],
+        [
+          "C",
+          "H",
+          "I",
+          "C",
+          "K",
+          "A",
+          "D",
+          "E",
+          "E"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "D",
+          "",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "E",
+          "",
+          "L",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "SKYLARK",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "S",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "MARMALADE",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 9,
+          "clue": "Found in nature or a zoo",
+          "softHints": {
+            "startsWith": "M",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "ALBATROSS",
+          "direction": "across",
+          "row": 2,
+          "col": 0,
+          "length": 9,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "A",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "CHICKADEE",
+          "direction": "across",
+          "row": 6,
+          "col": 0,
+          "length": 9,
+          "clue": "Creature in the animal kingdom",
+          "softHints": {
+            "startsWith": "C",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "OWL",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 3,
+          "clue": "Found in nature or a zoo",
+          "softHints": {
+            "startsWith": "O",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "BOA",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 3,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "B",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "EEL",
+          "direction": "down",
+          "row": 6,
+          "col": 7,
+          "length": 3,
+          "clue": "Furry, feathered, or scaled creature",
+          "softHints": {
+            "startsWith": "E",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "A type of animal",
+            "answer": "ALBATROSS",
+            "length": 9
+          },
+          {
+            "number": 5,
+            "clue": "A type of animal",
+            "answer": "SKYLARK",
+            "length": 7
+          },
+          {
+            "number": 6,
+            "clue": "Creature in the animal kingdom",
+            "answer": "CHICKADEE",
+            "length": 9
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Found in nature or a zoo",
+            "answer": "OWL",
+            "length": 3
+          },
+          {
+            "number": 2,
+            "clue": "A type of animal",
+            "answer": "BOA",
+            "length": 3
+          },
+          {
+            "number": 3,
+            "clue": "Found in nature or a zoo",
+            "answer": "MARMALADE",
+            "length": 9
+          },
+          {
+            "number": 7,
+            "clue": "Furry, feathered, or scaled creature",
+            "answer": "EEL",
+            "length": 3
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "animals",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 6,
+        "boardScore": 0.4981
+      }
+    },
+    {
+      "puzzleId": "animals-medium-9x9-0107",
+      "seed": 107,
+      "theme": "animals",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "M",
+          "",
+          "R",
+          "",
+          "",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "A",
+          "",
+          "E",
+          "",
+          "S",
+          "",
+          "L",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "",
+          "T",
+          "",
+          "H",
+          "",
+          "B",
+          ""
+        ],
+        [
+          "",
+          "A",
+          "",
+          "R",
+          "",
+          "E",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "W",
+          "H",
+          "I",
+          "P",
+          "P",
+          "E",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "E",
+          "",
+          "H",
+          "",
+          "R",
+          ""
+        ],
+        [
+          "",
+          "B",
+          "",
+          "V",
+          "",
+          "E",
+          "",
+          "O",
+          ""
+        ],
+        [
+          "D",
+          "O",
+          "V",
+          "E",
+          "",
+          "R",
+          "",
+          "S",
+          ""
+        ],
+        [
+          "",
+          "A",
+          "",
+          "R",
+          "",
+          "D",
+          "",
+          "S",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "WHIPPET",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Creature in the animal kingdom",
+          "softHints": {
+            "startsWith": "W",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "ALBATROSS",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 9,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "A",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "RETRIEVER",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 9,
+          "clue": "Found in nature or a zoo",
+          "softHints": {
+            "startsWith": "R",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "SHEPHERD",
+          "direction": "down",
+          "row": 1,
+          "col": 5,
+          "length": 8,
+          "clue": "Common household pet or wild creature",
+          "softHints": {
+            "startsWith": "S",
+            "length": 8,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "MACAW",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "M",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "DOVE",
+          "direction": "across",
+          "row": 7,
+          "col": 0,
+          "length": 4,
+          "clue": "Creature in the animal kingdom",
+          "softHints": {
+            "startsWith": "D",
+            "length": 4,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "BOA",
+          "direction": "down",
+          "row": 6,
+          "col": 1,
+          "length": 3,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "B",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 5,
+            "clue": "Creature in the animal kingdom",
+            "answer": "WHIPPET",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "Creature in the animal kingdom",
+            "answer": "DOVE",
+            "length": 4
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A type of animal",
+            "answer": "MACAW",
+            "length": 5
+          },
+          {
+            "number": 2,
+            "clue": "Found in nature or a zoo",
+            "answer": "RETRIEVER",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "A type of animal",
+            "answer": "ALBATROSS",
+            "length": 9
+          },
+          {
+            "number": 4,
+            "clue": "Common household pet or wild creature",
+            "answer": "SHEPHERD",
+            "length": 8
+          },
+          {
+            "number": 6,
+            "clue": "A type of animal",
+            "answer": "BOA",
+            "length": 3
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "animals",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 6,
+        "boardScore": 0.5031
+      }
+    },
+    {
+      "puzzleId": "animals-medium-9x9-0108",
+      "seed": 108,
+      "theme": "animals",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "M",
+          "",
+          "R",
+          "",
+          "",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "A",
+          "",
+          "E",
+          "",
+          "S",
+          "",
+          "L",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "",
+          "T",
+          "",
+          "H",
+          "",
+          "B",
+          ""
+        ],
+        [
+          "",
+          "A",
+          "",
+          "R",
+          "",
+          "E",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "W",
+          "H",
+          "I",
+          "P",
+          "P",
+          "E",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "E",
+          "",
+          "H",
+          "",
+          "R",
+          ""
+        ],
+        [
+          "",
+          "B",
+          "",
+          "V",
+          "",
+          "E",
+          "",
+          "O",
+          ""
+        ],
+        [
+          "D",
+          "O",
+          "V",
+          "E",
+          "",
+          "R",
+          "",
+          "S",
+          ""
+        ],
+        [
+          "",
+          "A",
+          "",
+          "R",
+          "",
+          "D",
+          "",
+          "S",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "WHIPPET",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Creature in the animal kingdom",
+          "softHints": {
+            "startsWith": "W",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "ALBATROSS",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 9,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "A",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "RETRIEVER",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 9,
+          "clue": "Found in nature or a zoo",
+          "softHints": {
+            "startsWith": "R",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "SHEPHERD",
+          "direction": "down",
+          "row": 1,
+          "col": 5,
+          "length": 8,
+          "clue": "Common household pet or wild creature",
+          "softHints": {
+            "startsWith": "S",
+            "length": 8,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "MACAW",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "M",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "DOVE",
+          "direction": "across",
+          "row": 7,
+          "col": 0,
+          "length": 4,
+          "clue": "Creature in the animal kingdom",
+          "softHints": {
+            "startsWith": "D",
+            "length": 4,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "BOA",
+          "direction": "down",
+          "row": 6,
+          "col": 1,
+          "length": 3,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "B",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 5,
+            "clue": "Creature in the animal kingdom",
+            "answer": "WHIPPET",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "Creature in the animal kingdom",
+            "answer": "DOVE",
+            "length": 4
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A type of animal",
+            "answer": "MACAW",
+            "length": 5
+          },
+          {
+            "number": 2,
+            "clue": "Found in nature or a zoo",
+            "answer": "RETRIEVER",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "A type of animal",
+            "answer": "ALBATROSS",
+            "length": 9
+          },
+          {
+            "number": 4,
+            "clue": "Common household pet or wild creature",
+            "answer": "SHEPHERD",
+            "length": 8
+          },
+          {
+            "number": 6,
+            "clue": "A type of animal",
+            "answer": "BOA",
+            "length": 3
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "animals",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 6,
+        "boardScore": 0.5031
+      }
+    },
+    {
+      "puzzleId": "animals-medium-9x9-0109",
+      "seed": 109,
+      "theme": "animals",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "M",
+          "",
+          "R",
+          "",
+          "",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "A",
+          "",
+          "E",
+          "",
+          "S",
+          "",
+          "L",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "",
+          "T",
+          "",
+          "H",
+          "",
+          "B",
+          ""
+        ],
+        [
+          "",
+          "A",
+          "",
+          "R",
+          "",
+          "E",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "W",
+          "H",
+          "I",
+          "P",
+          "P",
+          "E",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "E",
+          "",
+          "H",
+          "",
+          "R",
+          ""
+        ],
+        [
+          "",
+          "B",
+          "",
+          "V",
+          "",
+          "E",
+          "",
+          "O",
+          ""
+        ],
+        [
+          "D",
+          "O",
+          "V",
+          "E",
+          "",
+          "R",
+          "",
+          "S",
+          ""
+        ],
+        [
+          "",
+          "A",
+          "",
+          "R",
+          "",
+          "D",
+          "",
+          "S",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "WHIPPET",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Creature in the animal kingdom",
+          "softHints": {
+            "startsWith": "W",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "ALBATROSS",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 9,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "A",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "RETRIEVER",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 9,
+          "clue": "Found in nature or a zoo",
+          "softHints": {
+            "startsWith": "R",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "SHEPHERD",
+          "direction": "down",
+          "row": 1,
+          "col": 5,
+          "length": 8,
+          "clue": "Common household pet or wild creature",
+          "softHints": {
+            "startsWith": "S",
+            "length": 8,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "MACAW",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "M",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "DOVE",
+          "direction": "across",
+          "row": 7,
+          "col": 0,
+          "length": 4,
+          "clue": "Creature in the animal kingdom",
+          "softHints": {
+            "startsWith": "D",
+            "length": 4,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "BOA",
+          "direction": "down",
+          "row": 6,
+          "col": 1,
+          "length": 3,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "B",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 5,
+            "clue": "Creature in the animal kingdom",
+            "answer": "WHIPPET",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "Creature in the animal kingdom",
+            "answer": "DOVE",
+            "length": 4
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A type of animal",
+            "answer": "MACAW",
+            "length": 5
+          },
+          {
+            "number": 2,
+            "clue": "Found in nature or a zoo",
+            "answer": "RETRIEVER",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "A type of animal",
+            "answer": "ALBATROSS",
+            "length": 9
+          },
+          {
+            "number": 4,
+            "clue": "Common household pet or wild creature",
+            "answer": "SHEPHERD",
+            "length": 8
+          },
+          {
+            "number": 6,
+            "clue": "A type of animal",
+            "answer": "BOA",
+            "length": 3
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "animals",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 6,
+        "boardScore": 0.5031
+      }
+    },
+    {
+      "puzzleId": "animals-medium-9x9-0110",
+      "seed": 110,
+      "theme": "animals",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "D",
+          "",
+          "S",
+          "",
+          "R",
+          "",
+          "M",
+          ""
+        ],
+        [
+          "",
+          "A",
+          "",
+          "C",
+          "",
+          "A",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "",
+          "H",
+          "",
+          "Z",
+          "",
+          "C",
+          ""
+        ],
+        [
+          "",
+          "H",
+          "",
+          "N",
+          "",
+          "O",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "S",
+          "P",
+          "A",
+          "R",
+          "R",
+          "O",
+          "W",
+          ""
+        ],
+        [
+          "",
+          "H",
+          "",
+          "U",
+          "",
+          "B",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "U",
+          "",
+          "Z",
+          "",
+          "I",
+          "",
+          "B",
+          ""
+        ],
+        [
+          "",
+          "N",
+          "",
+          "E",
+          "",
+          "L",
+          "O",
+          "O",
+          "N"
+        ],
+        [
+          "",
+          "D",
+          "",
+          "R",
+          "",
+          "L",
+          "",
+          "A",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "SPARROW",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Found in nature or a zoo",
+          "softHints": {
+            "startsWith": "S",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "SCHNAUZER",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 9,
+          "clue": "Common household pet or wild creature",
+          "softHints": {
+            "startsWith": "S",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "DACHSHUND",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 9,
+          "clue": "Creature in the animal kingdom",
+          "softHints": {
+            "startsWith": "D",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "RAZORBILL",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 9,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "R",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "MACAW",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 5,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "M",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "LOON",
+          "direction": "across",
+          "row": 7,
+          "col": 5,
+          "length": 4,
+          "clue": "Furry, feathered, or scaled creature",
+          "softHints": {
+            "startsWith": "L",
+            "length": 4,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "BOA",
+          "direction": "down",
+          "row": 6,
+          "col": 7,
+          "length": 3,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "B",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 5,
+            "clue": "Found in nature or a zoo",
+            "answer": "SPARROW",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "Furry, feathered, or scaled creature",
+            "answer": "LOON",
+            "length": 4
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Creature in the animal kingdom",
+            "answer": "DACHSHUND",
+            "length": 9
+          },
+          {
+            "number": 2,
+            "clue": "Common household pet or wild creature",
+            "answer": "SCHNAUZER",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "A type of animal",
+            "answer": "RAZORBILL",
+            "length": 9
+          },
+          {
+            "number": 4,
+            "clue": "A type of animal",
+            "answer": "MACAW",
+            "length": 5
+          },
+          {
+            "number": 6,
+            "clue": "A type of animal",
+            "answer": "BOA",
+            "length": 3
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "animals",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 6,
+        "boardScore": 0.5056
+      }
+    },
+    {
+      "puzzleId": "animals-medium-9x9-0111",
+      "seed": 111,
+      "theme": "animals",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "",
+          "Q",
+          "",
+          "R",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "U",
+          "",
+          "A",
+          "",
+          ""
+        ],
+        [
+          "S",
+          "C",
+          "H",
+          "N",
+          "A",
+          "U",
+          "Z",
+          "E",
+          "R"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "I",
+          "",
+          "O",
+          "",
+          ""
+        ],
+        [
+          "",
+          "S",
+          "K",
+          "Y",
+          "L",
+          "A",
+          "R",
+          "K",
+          ""
+        ],
+        [
+          "",
+          "T",
+          "",
+          "",
+          "",
+          "",
+          "B",
+          "",
+          ""
+        ],
+        [
+          "W",
+          "O",
+          "L",
+          "V",
+          "E",
+          "R",
+          "I",
+          "N",
+          "E"
+        ],
+        [
+          "",
+          "R",
+          "",
+          "",
+          "E",
+          "",
+          "L",
+          "",
+          ""
+        ],
+        [
+          "",
+          "K",
+          "",
+          "",
+          "L",
+          "",
+          "L",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "SKYLARK",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "S",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "RAZORBILL",
+          "direction": "down",
+          "row": 0,
+          "col": 6,
+          "length": 9,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "R",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "SCHNAUZER",
+          "direction": "across",
+          "row": 2,
+          "col": 0,
+          "length": 9,
+          "clue": "Common household pet or wild creature",
+          "softHints": {
+            "startsWith": "S",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 5,
+          "answer": "WOLVERINE",
+          "direction": "across",
+          "row": 6,
+          "col": 0,
+          "length": 9,
+          "clue": "Common household pet or wild creature",
+          "softHints": {
+            "startsWith": "W",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "STORK",
+          "direction": "down",
+          "row": 4,
+          "col": 1,
+          "length": 5,
+          "clue": "Furry, feathered, or scaled creature",
+          "softHints": {
+            "startsWith": "S",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "QUAIL",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 5,
+          "clue": "Found in nature or a zoo",
+          "softHints": {
+            "startsWith": "Q",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "EEL",
+          "direction": "down",
+          "row": 6,
+          "col": 4,
+          "length": 3,
+          "clue": "Furry, feathered, or scaled creature",
+          "softHints": {
+            "startsWith": "E",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "Common household pet or wild creature",
+            "answer": "SCHNAUZER",
+            "length": 9
+          },
+          {
+            "number": 4,
+            "clue": "A type of animal",
+            "answer": "SKYLARK",
+            "length": 7
+          },
+          {
+            "number": 5,
+            "clue": "Common household pet or wild creature",
+            "answer": "WOLVERINE",
+            "length": 9
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Found in nature or a zoo",
+            "answer": "QUAIL",
+            "length": 5
+          },
+          {
+            "number": 2,
+            "clue": "A type of animal",
+            "answer": "RAZORBILL",
+            "length": 9
+          },
+          {
+            "number": 4,
+            "clue": "Furry, feathered, or scaled creature",
+            "answer": "STORK",
+            "length": 5
+          },
+          {
+            "number": 6,
+            "clue": "Furry, feathered, or scaled creature",
+            "answer": "EEL",
+            "length": 3
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "animals",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 8,
+        "boardScore": 0.5388
+      }
+    },
+    {
+      "puzzleId": "animals-medium-9x9-0112",
+      "seed": 112,
+      "theme": "animals",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "",
+          "Q",
+          "",
+          "R",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "U",
+          "",
+          "A",
+          "",
+          ""
+        ],
+        [
+          "S",
+          "C",
+          "H",
+          "N",
+          "A",
+          "U",
+          "Z",
+          "E",
+          "R"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "I",
+          "",
+          "O",
+          "",
+          ""
+        ],
+        [
+          "",
+          "S",
+          "K",
+          "Y",
+          "L",
+          "A",
+          "R",
+          "K",
+          ""
+        ],
+        [
+          "",
+          "T",
+          "",
+          "",
+          "",
+          "",
+          "B",
+          "",
+          ""
+        ],
+        [
+          "W",
+          "O",
+          "L",
+          "V",
+          "E",
+          "R",
+          "I",
+          "N",
+          "E"
+        ],
+        [
+          "",
+          "R",
+          "",
+          "",
+          "E",
+          "",
+          "L",
+          "",
+          ""
+        ],
+        [
+          "",
+          "K",
+          "",
+          "",
+          "L",
+          "",
+          "L",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "SKYLARK",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "S",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "RAZORBILL",
+          "direction": "down",
+          "row": 0,
+          "col": 6,
+          "length": 9,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "R",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "SCHNAUZER",
+          "direction": "across",
+          "row": 2,
+          "col": 0,
+          "length": 9,
+          "clue": "Common household pet or wild creature",
+          "softHints": {
+            "startsWith": "S",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 5,
+          "answer": "WOLVERINE",
+          "direction": "across",
+          "row": 6,
+          "col": 0,
+          "length": 9,
+          "clue": "Common household pet or wild creature",
+          "softHints": {
+            "startsWith": "W",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "STORK",
+          "direction": "down",
+          "row": 4,
+          "col": 1,
+          "length": 5,
+          "clue": "Furry, feathered, or scaled creature",
+          "softHints": {
+            "startsWith": "S",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "QUAIL",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 5,
+          "clue": "Found in nature or a zoo",
+          "softHints": {
+            "startsWith": "Q",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "EEL",
+          "direction": "down",
+          "row": 6,
+          "col": 4,
+          "length": 3,
+          "clue": "Furry, feathered, or scaled creature",
+          "softHints": {
+            "startsWith": "E",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "Common household pet or wild creature",
+            "answer": "SCHNAUZER",
+            "length": 9
+          },
+          {
+            "number": 4,
+            "clue": "A type of animal",
+            "answer": "SKYLARK",
+            "length": 7
+          },
+          {
+            "number": 5,
+            "clue": "Common household pet or wild creature",
+            "answer": "WOLVERINE",
+            "length": 9
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Found in nature or a zoo",
+            "answer": "QUAIL",
+            "length": 5
+          },
+          {
+            "number": 2,
+            "clue": "A type of animal",
+            "answer": "RAZORBILL",
+            "length": 9
+          },
+          {
+            "number": 4,
+            "clue": "Furry, feathered, or scaled creature",
+            "answer": "STORK",
+            "length": 5
+          },
+          {
+            "number": 6,
+            "clue": "Furry, feathered, or scaled creature",
+            "answer": "EEL",
+            "length": 3
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "animals",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 8,
+        "boardScore": 0.5388
+      }
+    },
+    {
+      "puzzleId": "animals-medium-9x9-0113",
+      "seed": 113,
+      "theme": "animals",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "S",
+          "",
+          "",
+          "R",
+          "",
+          "R",
+          ""
+        ],
+        [
+          "",
+          "",
+          "C",
+          "H",
+          "E",
+          "E",
+          "T",
+          "A",
+          "H"
+        ],
+        [
+          "",
+          "",
+          "H",
+          "",
+          "",
+          "T",
+          "",
+          "Z",
+          ""
+        ],
+        [
+          "",
+          "",
+          "N",
+          "",
+          "",
+          "R",
+          "",
+          "O",
+          ""
+        ],
+        [
+          "",
+          "H",
+          "A",
+          "R",
+          "R",
+          "I",
+          "E",
+          "R",
+          ""
+        ],
+        [
+          "",
+          "",
+          "U",
+          "",
+          "",
+          "E",
+          "",
+          "B",
+          ""
+        ],
+        [
+          "",
+          "",
+          "Z",
+          "",
+          "",
+          "V",
+          "",
+          "I",
+          ""
+        ],
+        [
+          "R",
+          "H",
+          "E",
+          "A",
+          "",
+          "E",
+          "E",
+          "L",
+          ""
+        ],
+        [
+          "",
+          "",
+          "R",
+          "",
+          "",
+          "R",
+          "",
+          "L",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "HARRIER",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Creature in the animal kingdom",
+          "softHints": {
+            "startsWith": "H",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "RETRIEVER",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 9,
+          "clue": "Found in nature or a zoo",
+          "softHints": {
+            "startsWith": "R",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "SCHNAUZER",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 9,
+          "clue": "Common household pet or wild creature",
+          "softHints": {
+            "startsWith": "S",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "RAZORBILL",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 9,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "R",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "CHEETAH",
+          "direction": "across",
+          "row": 1,
+          "col": 2,
+          "length": 7,
+          "clue": "Common household pet or wild creature",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "RHEA",
+          "direction": "across",
+          "row": 7,
+          "col": 0,
+          "length": 4,
+          "clue": "Found in nature or a zoo",
+          "softHints": {
+            "startsWith": "R",
+            "length": 4,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "EEL",
+          "direction": "across",
+          "row": 7,
+          "col": 5,
+          "length": 3,
+          "clue": "Furry, feathered, or scaled creature",
+          "softHints": {
+            "startsWith": "E",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "Common household pet or wild creature",
+            "answer": "CHEETAH",
+            "length": 7
+          },
+          {
+            "number": 5,
+            "clue": "Creature in the animal kingdom",
+            "answer": "HARRIER",
+            "length": 7
+          },
+          {
+            "number": 6,
+            "clue": "Found in nature or a zoo",
+            "answer": "RHEA",
+            "length": 4
+          },
+          {
+            "number": 7,
+            "clue": "Furry, feathered, or scaled creature",
+            "answer": "EEL",
+            "length": 3
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Common household pet or wild creature",
+            "answer": "SCHNAUZER",
+            "length": 9
+          },
+          {
+            "number": 2,
+            "clue": "Found in nature or a zoo",
+            "answer": "RETRIEVER",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "A type of animal",
+            "answer": "RAZORBILL",
+            "length": 9
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "animals",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 9,
+        "boardScore": 0.5388
+      }
+    },
+    {
+      "puzzleId": "animals-medium-9x9-0114",
+      "seed": 114,
+      "theme": "animals",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "S",
+          "",
+          "",
+          "R",
+          "",
+          "R",
+          ""
+        ],
+        [
+          "",
+          "",
+          "C",
+          "H",
+          "E",
+          "E",
+          "T",
+          "A",
+          "H"
+        ],
+        [
+          "",
+          "",
+          "H",
+          "",
+          "",
+          "T",
+          "",
+          "Z",
+          ""
+        ],
+        [
+          "",
+          "",
+          "N",
+          "",
+          "",
+          "R",
+          "",
+          "O",
+          ""
+        ],
+        [
+          "",
+          "H",
+          "A",
+          "R",
+          "R",
+          "I",
+          "E",
+          "R",
+          ""
+        ],
+        [
+          "",
+          "",
+          "U",
+          "",
+          "",
+          "E",
+          "",
+          "B",
+          ""
+        ],
+        [
+          "",
+          "",
+          "Z",
+          "",
+          "",
+          "V",
+          "",
+          "I",
+          ""
+        ],
+        [
+          "R",
+          "H",
+          "E",
+          "A",
+          "",
+          "E",
+          "E",
+          "L",
+          ""
+        ],
+        [
+          "",
+          "",
+          "R",
+          "",
+          "",
+          "R",
+          "",
+          "L",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "HARRIER",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Creature in the animal kingdom",
+          "softHints": {
+            "startsWith": "H",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "RETRIEVER",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 9,
+          "clue": "Found in nature or a zoo",
+          "softHints": {
+            "startsWith": "R",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "SCHNAUZER",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 9,
+          "clue": "Common household pet or wild creature",
+          "softHints": {
+            "startsWith": "S",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "RAZORBILL",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 9,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "R",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "CHEETAH",
+          "direction": "across",
+          "row": 1,
+          "col": 2,
+          "length": 7,
+          "clue": "Common household pet or wild creature",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "RHEA",
+          "direction": "across",
+          "row": 7,
+          "col": 0,
+          "length": 4,
+          "clue": "Found in nature or a zoo",
+          "softHints": {
+            "startsWith": "R",
+            "length": 4,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "EEL",
+          "direction": "across",
+          "row": 7,
+          "col": 5,
+          "length": 3,
+          "clue": "Furry, feathered, or scaled creature",
+          "softHints": {
+            "startsWith": "E",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "Common household pet or wild creature",
+            "answer": "CHEETAH",
+            "length": 7
+          },
+          {
+            "number": 5,
+            "clue": "Creature in the animal kingdom",
+            "answer": "HARRIER",
+            "length": 7
+          },
+          {
+            "number": 6,
+            "clue": "Found in nature or a zoo",
+            "answer": "RHEA",
+            "length": 4
+          },
+          {
+            "number": 7,
+            "clue": "Furry, feathered, or scaled creature",
+            "answer": "EEL",
+            "length": 3
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Common household pet or wild creature",
+            "answer": "SCHNAUZER",
+            "length": 9
+          },
+          {
+            "number": 2,
+            "clue": "Found in nature or a zoo",
+            "answer": "RETRIEVER",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "A type of animal",
+            "answer": "RAZORBILL",
+            "length": 9
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "animals",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 9,
+        "boardScore": 0.5388
+      }
+    },
+    {
+      "puzzleId": "animals-medium-9x9-0115",
+      "seed": 115,
+      "theme": "animals",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "S",
+          "",
+          "",
+          "R",
+          "",
+          "R",
+          ""
+        ],
+        [
+          "",
+          "",
+          "C",
+          "H",
+          "E",
+          "E",
+          "T",
+          "A",
+          "H"
+        ],
+        [
+          "",
+          "",
+          "H",
+          "",
+          "",
+          "T",
+          "",
+          "Z",
+          ""
+        ],
+        [
+          "",
+          "",
+          "N",
+          "",
+          "",
+          "R",
+          "",
+          "O",
+          ""
+        ],
+        [
+          "",
+          "H",
+          "A",
+          "R",
+          "R",
+          "I",
+          "E",
+          "R",
+          ""
+        ],
+        [
+          "",
+          "",
+          "U",
+          "",
+          "",
+          "E",
+          "",
+          "B",
+          ""
+        ],
+        [
+          "",
+          "",
+          "Z",
+          "",
+          "",
+          "V",
+          "",
+          "I",
+          ""
+        ],
+        [
+          "R",
+          "H",
+          "E",
+          "A",
+          "",
+          "E",
+          "E",
+          "L",
+          ""
+        ],
+        [
+          "",
+          "",
+          "R",
+          "",
+          "",
+          "R",
+          "",
+          "L",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "HARRIER",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Creature in the animal kingdom",
+          "softHints": {
+            "startsWith": "H",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "RETRIEVER",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 9,
+          "clue": "Found in nature or a zoo",
+          "softHints": {
+            "startsWith": "R",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "SCHNAUZER",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 9,
+          "clue": "Common household pet or wild creature",
+          "softHints": {
+            "startsWith": "S",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "RAZORBILL",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 9,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "R",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "CHEETAH",
+          "direction": "across",
+          "row": 1,
+          "col": 2,
+          "length": 7,
+          "clue": "Common household pet or wild creature",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "RHEA",
+          "direction": "across",
+          "row": 7,
+          "col": 0,
+          "length": 4,
+          "clue": "Found in nature or a zoo",
+          "softHints": {
+            "startsWith": "R",
+            "length": 4,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "EEL",
+          "direction": "across",
+          "row": 7,
+          "col": 5,
+          "length": 3,
+          "clue": "Furry, feathered, or scaled creature",
+          "softHints": {
+            "startsWith": "E",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "Common household pet or wild creature",
+            "answer": "CHEETAH",
+            "length": 7
+          },
+          {
+            "number": 5,
+            "clue": "Creature in the animal kingdom",
+            "answer": "HARRIER",
+            "length": 7
+          },
+          {
+            "number": 6,
+            "clue": "Found in nature or a zoo",
+            "answer": "RHEA",
+            "length": 4
+          },
+          {
+            "number": 7,
+            "clue": "Furry, feathered, or scaled creature",
+            "answer": "EEL",
+            "length": 3
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Common household pet or wild creature",
+            "answer": "SCHNAUZER",
+            "length": 9
+          },
+          {
+            "number": 2,
+            "clue": "Found in nature or a zoo",
+            "answer": "RETRIEVER",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "A type of animal",
+            "answer": "RAZORBILL",
+            "length": 9
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "animals",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 9,
+        "boardScore": 0.5388
+      }
+    },
+    {
+      "puzzleId": "animals-medium-9x9-0116",
+      "seed": 116,
+      "theme": "animals",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "S",
+          "",
+          "",
+          "R",
+          "",
+          "R",
+          ""
+        ],
+        [
+          "",
+          "",
+          "C",
+          "H",
+          "E",
+          "E",
+          "T",
+          "A",
+          "H"
+        ],
+        [
+          "",
+          "",
+          "H",
+          "",
+          "",
+          "T",
+          "",
+          "Z",
+          ""
+        ],
+        [
+          "",
+          "",
+          "N",
+          "",
+          "",
+          "R",
+          "",
+          "O",
+          ""
+        ],
+        [
+          "",
+          "H",
+          "A",
+          "R",
+          "R",
+          "I",
+          "E",
+          "R",
+          ""
+        ],
+        [
+          "",
+          "",
+          "U",
+          "",
+          "",
+          "E",
+          "",
+          "B",
+          ""
+        ],
+        [
+          "",
+          "",
+          "Z",
+          "",
+          "",
+          "V",
+          "",
+          "I",
+          ""
+        ],
+        [
+          "R",
+          "H",
+          "E",
+          "A",
+          "",
+          "E",
+          "E",
+          "L",
+          ""
+        ],
+        [
+          "",
+          "",
+          "R",
+          "",
+          "",
+          "R",
+          "",
+          "L",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "HARRIER",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Creature in the animal kingdom",
+          "softHints": {
+            "startsWith": "H",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "RETRIEVER",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 9,
+          "clue": "Found in nature or a zoo",
+          "softHints": {
+            "startsWith": "R",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "SCHNAUZER",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 9,
+          "clue": "Common household pet or wild creature",
+          "softHints": {
+            "startsWith": "S",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "RAZORBILL",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 9,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "R",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "CHEETAH",
+          "direction": "across",
+          "row": 1,
+          "col": 2,
+          "length": 7,
+          "clue": "Common household pet or wild creature",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "RHEA",
+          "direction": "across",
+          "row": 7,
+          "col": 0,
+          "length": 4,
+          "clue": "Found in nature or a zoo",
+          "softHints": {
+            "startsWith": "R",
+            "length": 4,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "EEL",
+          "direction": "across",
+          "row": 7,
+          "col": 5,
+          "length": 3,
+          "clue": "Furry, feathered, or scaled creature",
+          "softHints": {
+            "startsWith": "E",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "Common household pet or wild creature",
+            "answer": "CHEETAH",
+            "length": 7
+          },
+          {
+            "number": 5,
+            "clue": "Creature in the animal kingdom",
+            "answer": "HARRIER",
+            "length": 7
+          },
+          {
+            "number": 6,
+            "clue": "Found in nature or a zoo",
+            "answer": "RHEA",
+            "length": 4
+          },
+          {
+            "number": 7,
+            "clue": "Furry, feathered, or scaled creature",
+            "answer": "EEL",
+            "length": 3
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Common household pet or wild creature",
+            "answer": "SCHNAUZER",
+            "length": 9
+          },
+          {
+            "number": 2,
+            "clue": "Found in nature or a zoo",
+            "answer": "RETRIEVER",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "A type of animal",
+            "answer": "RAZORBILL",
+            "length": 9
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "animals",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 9,
+        "boardScore": 0.5388
+      }
+    },
+    {
+      "puzzleId": "animals-medium-9x9-0017",
+      "seed": 17,
+      "theme": "animals",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "M",
+          "",
+          "R",
+          "",
+          "",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "A",
+          "",
+          "E",
+          "",
+          "S",
+          "",
+          "L",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "",
+          "T",
+          "",
+          "H",
+          "",
+          "B",
+          ""
+        ],
+        [
+          "",
+          "A",
+          "",
+          "R",
+          "",
+          "E",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "W",
+          "H",
+          "I",
+          "P",
+          "P",
+          "E",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "E",
+          "",
+          "H",
+          "",
+          "R",
+          ""
+        ],
+        [
+          "",
+          "B",
+          "",
+          "V",
+          "",
+          "E",
+          "",
+          "O",
+          ""
+        ],
+        [
+          "D",
+          "O",
+          "V",
+          "E",
+          "",
+          "R",
+          "",
+          "S",
+          ""
+        ],
+        [
+          "",
+          "A",
+          "",
+          "R",
+          "",
+          "D",
+          "",
+          "S",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "WHIPPET",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Creature in the animal kingdom",
+          "softHints": {
+            "startsWith": "W",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "RETRIEVER",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 9,
+          "clue": "Found in nature or a zoo",
+          "softHints": {
+            "startsWith": "R",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "ALBATROSS",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 9,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "A",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "SHEPHERD",
+          "direction": "down",
+          "row": 1,
+          "col": 5,
+          "length": 8,
+          "clue": "Common household pet or wild creature",
+          "softHints": {
+            "startsWith": "S",
+            "length": 8,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "MACAW",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "M",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "DOVE",
+          "direction": "across",
+          "row": 7,
+          "col": 0,
+          "length": 4,
+          "clue": "Creature in the animal kingdom",
+          "softHints": {
+            "startsWith": "D",
+            "length": 4,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "BOA",
+          "direction": "down",
+          "row": 6,
+          "col": 1,
+          "length": 3,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "B",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 5,
+            "clue": "Creature in the animal kingdom",
+            "answer": "WHIPPET",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "Creature in the animal kingdom",
+            "answer": "DOVE",
+            "length": 4
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A type of animal",
+            "answer": "MACAW",
+            "length": 5
+          },
+          {
+            "number": 2,
+            "clue": "Found in nature or a zoo",
+            "answer": "RETRIEVER",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "A type of animal",
+            "answer": "ALBATROSS",
+            "length": 9
+          },
+          {
+            "number": 4,
+            "clue": "Common household pet or wild creature",
+            "answer": "SHEPHERD",
+            "length": 8
+          },
+          {
+            "number": 6,
+            "clue": "A type of animal",
+            "answer": "BOA",
+            "length": 3
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "animals",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 6,
+        "boardScore": 0.5031
+      }
+    },
+    {
+      "puzzleId": "animals-medium-9x9-0018",
+      "seed": 18,
+      "theme": "animals",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "M",
+          "",
+          "R",
+          "",
+          "",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "A",
+          "",
+          "E",
+          "",
+          "S",
+          "",
+          "L",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "",
+          "T",
+          "",
+          "H",
+          "",
+          "B",
+          ""
+        ],
+        [
+          "",
+          "A",
+          "",
+          "R",
+          "",
+          "E",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "W",
+          "H",
+          "I",
+          "P",
+          "P",
+          "E",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "E",
+          "",
+          "H",
+          "",
+          "R",
+          ""
+        ],
+        [
+          "",
+          "B",
+          "",
+          "V",
+          "",
+          "E",
+          "",
+          "O",
+          ""
+        ],
+        [
+          "D",
+          "O",
+          "V",
+          "E",
+          "",
+          "R",
+          "",
+          "S",
+          ""
+        ],
+        [
+          "",
+          "A",
+          "",
+          "R",
+          "",
+          "D",
+          "",
+          "S",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "WHIPPET",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Creature in the animal kingdom",
+          "softHints": {
+            "startsWith": "W",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "RETRIEVER",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 9,
+          "clue": "Found in nature or a zoo",
+          "softHints": {
+            "startsWith": "R",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "ALBATROSS",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 9,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "A",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "SHEPHERD",
+          "direction": "down",
+          "row": 1,
+          "col": 5,
+          "length": 8,
+          "clue": "Common household pet or wild creature",
+          "softHints": {
+            "startsWith": "S",
+            "length": 8,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "MACAW",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "M",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "DOVE",
+          "direction": "across",
+          "row": 7,
+          "col": 0,
+          "length": 4,
+          "clue": "Creature in the animal kingdom",
+          "softHints": {
+            "startsWith": "D",
+            "length": 4,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "BOA",
+          "direction": "down",
+          "row": 6,
+          "col": 1,
+          "length": 3,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "B",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 5,
+            "clue": "Creature in the animal kingdom",
+            "answer": "WHIPPET",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "Creature in the animal kingdom",
+            "answer": "DOVE",
+            "length": 4
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A type of animal",
+            "answer": "MACAW",
+            "length": 5
+          },
+          {
+            "number": 2,
+            "clue": "Found in nature or a zoo",
+            "answer": "RETRIEVER",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "A type of animal",
+            "answer": "ALBATROSS",
+            "length": 9
+          },
+          {
+            "number": 4,
+            "clue": "Common household pet or wild creature",
+            "answer": "SHEPHERD",
+            "length": 8
+          },
+          {
+            "number": 6,
+            "clue": "A type of animal",
+            "answer": "BOA",
+            "length": 3
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "animals",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 6,
+        "boardScore": 0.5031
+      }
+    },
+    {
+      "puzzleId": "animals-medium-9x9-0019",
+      "seed": 19,
+      "theme": "animals",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "M",
+          "",
+          "R",
+          "",
+          "",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "A",
+          "",
+          "E",
+          "",
+          "S",
+          "",
+          "L",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "",
+          "T",
+          "",
+          "H",
+          "",
+          "B",
+          ""
+        ],
+        [
+          "",
+          "A",
+          "",
+          "R",
+          "",
+          "E",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "W",
+          "H",
+          "I",
+          "P",
+          "P",
+          "E",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "E",
+          "",
+          "H",
+          "",
+          "R",
+          ""
+        ],
+        [
+          "",
+          "B",
+          "",
+          "V",
+          "",
+          "E",
+          "",
+          "O",
+          ""
+        ],
+        [
+          "D",
+          "O",
+          "V",
+          "E",
+          "",
+          "R",
+          "",
+          "S",
+          ""
+        ],
+        [
+          "",
+          "A",
+          "",
+          "R",
+          "",
+          "D",
+          "",
+          "S",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "WHIPPET",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Creature in the animal kingdom",
+          "softHints": {
+            "startsWith": "W",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "RETRIEVER",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 9,
+          "clue": "Found in nature or a zoo",
+          "softHints": {
+            "startsWith": "R",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "ALBATROSS",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 9,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "A",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "SHEPHERD",
+          "direction": "down",
+          "row": 1,
+          "col": 5,
+          "length": 8,
+          "clue": "Common household pet or wild creature",
+          "softHints": {
+            "startsWith": "S",
+            "length": 8,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "MACAW",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "M",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "DOVE",
+          "direction": "across",
+          "row": 7,
+          "col": 0,
+          "length": 4,
+          "clue": "Creature in the animal kingdom",
+          "softHints": {
+            "startsWith": "D",
+            "length": 4,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "BOA",
+          "direction": "down",
+          "row": 6,
+          "col": 1,
+          "length": 3,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "B",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 5,
+            "clue": "Creature in the animal kingdom",
+            "answer": "WHIPPET",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "Creature in the animal kingdom",
+            "answer": "DOVE",
+            "length": 4
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A type of animal",
+            "answer": "MACAW",
+            "length": 5
+          },
+          {
+            "number": 2,
+            "clue": "Found in nature or a zoo",
+            "answer": "RETRIEVER",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "A type of animal",
+            "answer": "ALBATROSS",
+            "length": 9
+          },
+          {
+            "number": 4,
+            "clue": "Common household pet or wild creature",
+            "answer": "SHEPHERD",
+            "length": 8
+          },
+          {
+            "number": 6,
+            "clue": "A type of animal",
+            "answer": "BOA",
+            "length": 3
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "animals",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 6,
+        "boardScore": 0.5031
+      }
+    },
+    {
+      "puzzleId": "animals-medium-9x9-0020",
+      "seed": 20,
+      "theme": "animals",
+      "difficulty": "medium",
+      "rows": 9,
+      "cols": 9,
+      "solutionGrid": [
+        [
+          "",
+          "M",
+          "",
+          "R",
+          "",
+          "",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "A",
+          "",
+          "E",
+          "",
+          "S",
+          "",
+          "L",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "",
+          "T",
+          "",
+          "H",
+          "",
+          "B",
+          ""
+        ],
+        [
+          "",
+          "A",
+          "",
+          "R",
+          "",
+          "E",
+          "",
+          "A",
+          ""
+        ],
+        [
+          "",
+          "W",
+          "H",
+          "I",
+          "P",
+          "P",
+          "E",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "E",
+          "",
+          "H",
+          "",
+          "R",
+          ""
+        ],
+        [
+          "",
+          "B",
+          "",
+          "V",
+          "",
+          "E",
+          "",
+          "O",
+          ""
+        ],
+        [
+          "D",
+          "O",
+          "V",
+          "E",
+          "",
+          "R",
+          "",
+          "S",
+          ""
+        ],
+        [
+          "",
+          "A",
+          "",
+          "R",
+          "",
+          "D",
+          "",
+          "S",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 5,
+          "answer": "WHIPPET",
+          "direction": "across",
+          "row": 4,
+          "col": 1,
+          "length": 7,
+          "clue": "Creature in the animal kingdom",
+          "softHints": {
+            "startsWith": "W",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "answer": "RETRIEVER",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 9,
+          "clue": "Found in nature or a zoo",
+          "softHints": {
+            "startsWith": "R",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "answer": "ALBATROSS",
+          "direction": "down",
+          "row": 0,
+          "col": 7,
+          "length": 9,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "A",
+            "length": 9,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "answer": "SHEPHERD",
+          "direction": "down",
+          "row": 1,
+          "col": 5,
+          "length": 8,
+          "clue": "Common household pet or wild creature",
+          "softHints": {
+            "startsWith": "S",
+            "length": 8,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 1,
+          "answer": "MACAW",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 5,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "M",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "answer": "DOVE",
+          "direction": "across",
+          "row": 7,
+          "col": 0,
+          "length": 4,
+          "clue": "Creature in the animal kingdom",
+          "softHints": {
+            "startsWith": "D",
+            "length": 4,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "answer": "BOA",
+          "direction": "down",
+          "row": 6,
+          "col": 1,
+          "length": 3,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "B",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "medium"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 5,
+            "clue": "Creature in the animal kingdom",
+            "answer": "WHIPPET",
+            "length": 7
+          },
+          {
+            "number": 7,
+            "clue": "Creature in the animal kingdom",
+            "answer": "DOVE",
+            "length": 4
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "A type of animal",
+            "answer": "MACAW",
+            "length": 5
+          },
+          {
+            "number": 2,
+            "clue": "Found in nature or a zoo",
+            "answer": "RETRIEVER",
+            "length": 9
+          },
+          {
+            "number": 3,
+            "clue": "A type of animal",
+            "answer": "ALBATROSS",
+            "length": 9
+          },
+          {
+            "number": 4,
+            "clue": "Common household pet or wild creature",
+            "answer": "SHEPHERD",
+            "length": 8
+          },
+          {
+            "number": 6,
+            "clue": "A type of animal",
+            "answer": "BOA",
+            "length": 3
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "standard",
+        "theme": "animals",
+        "difficulty": "medium"
+      },
+      "stats": {
+        "wordCount": 7,
+        "intersections": 6,
+        "boardScore": 0.5031
+      }
+    }
+  ]
+}

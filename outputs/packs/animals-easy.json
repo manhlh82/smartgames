@@ -1,0 +1,5068 @@
+{
+  "packId": "animals-easy",
+  "title": "Wild Kingdom",
+  "theme": "animals",
+  "difficulty": "easy",
+  "boardSize": "mini",
+  "puzzleCount": 20,
+  "version": "1.0.0",
+  "createdAt": "2026-03-17",
+  "puzzles": [
+    {
+      "puzzleId": "animals-easy-7x7-0001",
+      "seed": 1,
+      "theme": "animals",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "J",
+          "",
+          "",
+          "L",
+          ""
+        ],
+        [
+          "",
+          "M",
+          "A",
+          "R",
+          "T",
+          "I",
+          "N"
+        ],
+        [
+          "",
+          "",
+          "G",
+          "",
+          "",
+          "O",
+          ""
+        ],
+        [
+          "",
+          "H",
+          "U",
+          "M",
+          "A",
+          "N",
+          ""
+        ],
+        [
+          "",
+          "",
+          "A",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "R",
+          "A",
+          "I",
+          "L",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "HUMAN",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Common household pet or wild creature",
+          "softHints": {
+            "startsWith": "H",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "JAGUAR",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 6,
+          "clue": "Creature in the animal kingdom",
+          "softHints": {
+            "startsWith": "J",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "MARTIN",
+          "direction": "across",
+          "row": 1,
+          "col": 1,
+          "length": 6,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "M",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "LION",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 4,
+          "clue": "Found in nature or a zoo",
+          "softHints": {
+            "startsWith": "L",
+            "length": 4,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 5,
+          "answer": "RAIL",
+          "direction": "across",
+          "row": 5,
+          "col": 2,
+          "length": 4,
+          "clue": "Furry, feathered, or scaled creature",
+          "softHints": {
+            "startsWith": "R",
+            "length": 4,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "A type of animal",
+            "answer": "MARTIN",
+            "length": 6
+          },
+          {
+            "number": 4,
+            "clue": "Common household pet or wild creature",
+            "answer": "HUMAN",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "Furry, feathered, or scaled creature",
+            "answer": "RAIL",
+            "length": 4
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Creature in the animal kingdom",
+            "answer": "JAGUAR",
+            "length": 6
+          },
+          {
+            "number": 2,
+            "clue": "Found in nature or a zoo",
+            "answer": "LION",
+            "length": 4
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "animals",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 5,
+        "intersections": 5,
+        "boardScore": 0.4691
+      }
+    },
+    {
+      "puzzleId": "animals-easy-7x7-0002",
+      "seed": 2,
+      "theme": "animals",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "J",
+          "",
+          "",
+          "L",
+          ""
+        ],
+        [
+          "",
+          "M",
+          "A",
+          "R",
+          "T",
+          "I",
+          "N"
+        ],
+        [
+          "",
+          "",
+          "G",
+          "",
+          "",
+          "O",
+          ""
+        ],
+        [
+          "",
+          "H",
+          "U",
+          "M",
+          "A",
+          "N",
+          ""
+        ],
+        [
+          "",
+          "",
+          "A",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "R",
+          "A",
+          "I",
+          "L",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "HUMAN",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Common household pet or wild creature",
+          "softHints": {
+            "startsWith": "H",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "JAGUAR",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 6,
+          "clue": "Creature in the animal kingdom",
+          "softHints": {
+            "startsWith": "J",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "MARTIN",
+          "direction": "across",
+          "row": 1,
+          "col": 1,
+          "length": 6,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "M",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "LION",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 4,
+          "clue": "Found in nature or a zoo",
+          "softHints": {
+            "startsWith": "L",
+            "length": 4,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 5,
+          "answer": "RAIL",
+          "direction": "across",
+          "row": 5,
+          "col": 2,
+          "length": 4,
+          "clue": "Furry, feathered, or scaled creature",
+          "softHints": {
+            "startsWith": "R",
+            "length": 4,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "A type of animal",
+            "answer": "MARTIN",
+            "length": 6
+          },
+          {
+            "number": 4,
+            "clue": "Common household pet or wild creature",
+            "answer": "HUMAN",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "Furry, feathered, or scaled creature",
+            "answer": "RAIL",
+            "length": 4
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Creature in the animal kingdom",
+            "answer": "JAGUAR",
+            "length": 6
+          },
+          {
+            "number": 2,
+            "clue": "Found in nature or a zoo",
+            "answer": "LION",
+            "length": 4
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "animals",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 5,
+        "intersections": 5,
+        "boardScore": 0.4691
+      }
+    },
+    {
+      "puzzleId": "animals-easy-7x7-0003",
+      "seed": 3,
+      "theme": "animals",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "P",
+          "",
+          "",
+          ""
+        ],
+        [
+          "T",
+          "I",
+          "G",
+          "E",
+          "R",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "N",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "E",
+          "A",
+          "G",
+          "L",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "U",
+          "",
+          "",
+          ""
+        ],
+        [
+          "M",
+          "O",
+          "N",
+          "I",
+          "T",
+          "O",
+          "R"
+        ],
+        [
+          "",
+          "",
+          "",
+          "N",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 3,
+          "answer": "EAGLE",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Found in nature or a zoo",
+          "softHints": {
+            "startsWith": "E",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "PENGUIN",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 7,
+          "clue": "Creature in the animal kingdom",
+          "softHints": {
+            "startsWith": "P",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 4,
+          "answer": "MONITOR",
+          "direction": "across",
+          "row": 5,
+          "col": 0,
+          "length": 7,
+          "clue": "Common household pet or wild creature",
+          "softHints": {
+            "startsWith": "M",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "TIGER",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "clue": "Creature in the animal kingdom",
+          "softHints": {
+            "startsWith": "T",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 2,
+            "clue": "Creature in the animal kingdom",
+            "answer": "TIGER",
+            "length": 5
+          },
+          {
+            "number": 3,
+            "clue": "Found in nature or a zoo",
+            "answer": "EAGLE",
+            "length": 5
+          },
+          {
+            "number": 4,
+            "clue": "Common household pet or wild creature",
+            "answer": "MONITOR",
+            "length": 7
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Creature in the animal kingdom",
+            "answer": "PENGUIN",
+            "length": 7
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "animals",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 4,
+        "intersections": 3,
+        "boardScore": 0.3832
+      }
+    },
+    {
+      "puzzleId": "animals-easy-7x7-0004",
+      "seed": 4,
+      "theme": "animals",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "P",
+          "",
+          "C",
+          "",
+          ""
+        ],
+        [
+          "R",
+          "A",
+          "Y",
+          "",
+          "H",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "T",
+          "",
+          "I",
+          "",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "H",
+          "I",
+          "C",
+          "K",
+          ""
+        ],
+        [
+          "",
+          "",
+          "O",
+          "",
+          "K",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "N",
+          "",
+          "E",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "N",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "CHICK",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Furry, feathered, or scaled creature",
+          "softHints": {
+            "startsWith": "C",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "CHICKEN",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "clue": "Creature in the animal kingdom",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "PYTHON",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 6,
+          "clue": "Common household pet or wild creature",
+          "softHints": {
+            "startsWith": "P",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "RAY",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "clue": "Furry, feathered, or scaled creature",
+          "softHints": {
+            "startsWith": "R",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "Furry, feathered, or scaled creature",
+            "answer": "RAY",
+            "length": 3
+          },
+          {
+            "number": 4,
+            "clue": "Furry, feathered, or scaled creature",
+            "answer": "CHICK",
+            "length": 5
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Common household pet or wild creature",
+            "answer": "PYTHON",
+            "length": 6
+          },
+          {
+            "number": 2,
+            "clue": "Creature in the animal kingdom",
+            "answer": "CHICKEN",
+            "length": 7
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "animals",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 4,
+        "intersections": 3,
+        "boardScore": 0.371
+      }
+    },
+    {
+      "puzzleId": "animals-easy-7x7-0005",
+      "seed": 5,
+      "theme": "animals",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "P",
+          "",
+          "",
+          ""
+        ],
+        [
+          "T",
+          "I",
+          "G",
+          "E",
+          "R",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "N",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "E",
+          "A",
+          "G",
+          "L",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "U",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "H",
+          "I",
+          "C",
+          "K",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "N",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 3,
+          "answer": "EAGLE",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Found in nature or a zoo",
+          "softHints": {
+            "startsWith": "E",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "PENGUIN",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 7,
+          "clue": "Creature in the animal kingdom",
+          "softHints": {
+            "startsWith": "P",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 4,
+          "answer": "CHICK",
+          "direction": "across",
+          "row": 5,
+          "col": 1,
+          "length": 5,
+          "clue": "Furry, feathered, or scaled creature",
+          "softHints": {
+            "startsWith": "C",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "TIGER",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "clue": "Creature in the animal kingdom",
+          "softHints": {
+            "startsWith": "T",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 2,
+            "clue": "Creature in the animal kingdom",
+            "answer": "TIGER",
+            "length": 5
+          },
+          {
+            "number": 3,
+            "clue": "Found in nature or a zoo",
+            "answer": "EAGLE",
+            "length": 5
+          },
+          {
+            "number": 4,
+            "clue": "Furry, feathered, or scaled creature",
+            "answer": "CHICK",
+            "length": 5
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Creature in the animal kingdom",
+            "answer": "PENGUIN",
+            "length": 7
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "animals",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 4,
+        "intersections": 3,
+        "boardScore": 0.3751
+      }
+    },
+    {
+      "puzzleId": "animals-easy-7x7-0006",
+      "seed": 6,
+      "theme": "animals",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "P",
+          "",
+          "C",
+          "",
+          ""
+        ],
+        [
+          "J",
+          "A",
+          "Y",
+          "",
+          "H",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "T",
+          "",
+          "I",
+          "",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "H",
+          "I",
+          "C",
+          "K",
+          ""
+        ],
+        [
+          "",
+          "",
+          "O",
+          "",
+          "K",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "N",
+          "",
+          "E",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "N",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "CHICK",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Furry, feathered, or scaled creature",
+          "softHints": {
+            "startsWith": "C",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "CHICKEN",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "clue": "Creature in the animal kingdom",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "PYTHON",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 6,
+          "clue": "Common household pet or wild creature",
+          "softHints": {
+            "startsWith": "P",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "JAY",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "clue": "Furry, feathered, or scaled creature",
+          "softHints": {
+            "startsWith": "J",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "Furry, feathered, or scaled creature",
+            "answer": "JAY",
+            "length": 3
+          },
+          {
+            "number": 4,
+            "clue": "Furry, feathered, or scaled creature",
+            "answer": "CHICK",
+            "length": 5
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Common household pet or wild creature",
+            "answer": "PYTHON",
+            "length": 6
+          },
+          {
+            "number": 2,
+            "clue": "Creature in the animal kingdom",
+            "answer": "CHICKEN",
+            "length": 7
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "animals",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 4,
+        "intersections": 3,
+        "boardScore": 0.371
+      }
+    },
+    {
+      "puzzleId": "animals-easy-7x7-0007",
+      "seed": 7,
+      "theme": "animals",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "P",
+          "",
+          "C",
+          "",
+          ""
+        ],
+        [
+          "J",
+          "A",
+          "Y",
+          "",
+          "H",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "T",
+          "",
+          "I",
+          "",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "H",
+          "I",
+          "C",
+          "K",
+          ""
+        ],
+        [
+          "",
+          "",
+          "O",
+          "",
+          "K",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "N",
+          "",
+          "E",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "N",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "CHICK",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Furry, feathered, or scaled creature",
+          "softHints": {
+            "startsWith": "C",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "CHICKEN",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "clue": "Creature in the animal kingdom",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "PYTHON",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 6,
+          "clue": "Common household pet or wild creature",
+          "softHints": {
+            "startsWith": "P",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "JAY",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "clue": "Furry, feathered, or scaled creature",
+          "softHints": {
+            "startsWith": "J",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "Furry, feathered, or scaled creature",
+            "answer": "JAY",
+            "length": 3
+          },
+          {
+            "number": 4,
+            "clue": "Furry, feathered, or scaled creature",
+            "answer": "CHICK",
+            "length": 5
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Common household pet or wild creature",
+            "answer": "PYTHON",
+            "length": 6
+          },
+          {
+            "number": 2,
+            "clue": "Creature in the animal kingdom",
+            "answer": "CHICKEN",
+            "length": 7
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "animals",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 4,
+        "intersections": 3,
+        "boardScore": 0.371
+      }
+    },
+    {
+      "puzzleId": "animals-easy-7x7-0008",
+      "seed": 8,
+      "theme": "animals",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "J",
+          "",
+          "",
+          "L",
+          ""
+        ],
+        [
+          "",
+          "M",
+          "A",
+          "R",
+          "T",
+          "I",
+          "N"
+        ],
+        [
+          "",
+          "",
+          "G",
+          "",
+          "",
+          "O",
+          ""
+        ],
+        [
+          "",
+          "H",
+          "U",
+          "M",
+          "A",
+          "N",
+          ""
+        ],
+        [
+          "",
+          "",
+          "A",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "T",
+          "U",
+          "R",
+          "K",
+          "E",
+          "Y",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "HUMAN",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Common household pet or wild creature",
+          "softHints": {
+            "startsWith": "H",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "JAGUAR",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 6,
+          "clue": "Creature in the animal kingdom",
+          "softHints": {
+            "startsWith": "J",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 5,
+          "answer": "TURKEY",
+          "direction": "across",
+          "row": 5,
+          "col": 0,
+          "length": 6,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "T",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "MARTIN",
+          "direction": "across",
+          "row": 1,
+          "col": 1,
+          "length": 6,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "M",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "LION",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 4,
+          "clue": "Found in nature or a zoo",
+          "softHints": {
+            "startsWith": "L",
+            "length": 4,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "A type of animal",
+            "answer": "MARTIN",
+            "length": 6
+          },
+          {
+            "number": 4,
+            "clue": "Common household pet or wild creature",
+            "answer": "HUMAN",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "A type of animal",
+            "answer": "TURKEY",
+            "length": 6
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Creature in the animal kingdom",
+            "answer": "JAGUAR",
+            "length": 6
+          },
+          {
+            "number": 2,
+            "clue": "Found in nature or a zoo",
+            "answer": "LION",
+            "length": 4
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "animals",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 5,
+        "intersections": 5,
+        "boardScore": 0.4773
+      }
+    },
+    {
+      "puzzleId": "animals-easy-7x7-0009",
+      "seed": 9,
+      "theme": "animals",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "P",
+          "",
+          "",
+          ""
+        ],
+        [
+          "T",
+          "I",
+          "G",
+          "E",
+          "R",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "N",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "E",
+          "A",
+          "G",
+          "L",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "U",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "S",
+          "W",
+          "I",
+          "F",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "N",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          "",
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 3,
+          "answer": "EAGLE",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Found in nature or a zoo",
+          "softHints": {
+            "startsWith": "E",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "PENGUIN",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 7,
+          "clue": "Creature in the animal kingdom",
+          "softHints": {
+            "startsWith": "P",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 4,
+          "answer": "SWIFT",
+          "direction": "across",
+          "row": 5,
+          "col": 1,
+          "length": 5,
+          "clue": "Found in nature or a zoo",
+          "softHints": {
+            "startsWith": "S",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "TIGER",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 5,
+          "clue": "Creature in the animal kingdom",
+          "softHints": {
+            "startsWith": "T",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 2,
+            "clue": "Creature in the animal kingdom",
+            "answer": "TIGER",
+            "length": 5
+          },
+          {
+            "number": 3,
+            "clue": "Found in nature or a zoo",
+            "answer": "EAGLE",
+            "length": 5
+          },
+          {
+            "number": 4,
+            "clue": "Found in nature or a zoo",
+            "answer": "SWIFT",
+            "length": 5
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Creature in the animal kingdom",
+            "answer": "PENGUIN",
+            "length": 7
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "animals",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 4,
+        "intersections": 3,
+        "boardScore": 0.3751
+      }
+    },
+    {
+      "puzzleId": "animals-easy-7x7-0010",
+      "seed": 10,
+      "theme": "animals",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "P",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "R",
+          "A",
+          "Y",
+          "",
+          "T",
+          "O",
+          "M"
+        ],
+        [
+          "",
+          "",
+          "T",
+          "",
+          "U",
+          "",
+          ""
+        ],
+        [
+          "",
+          "S",
+          "H",
+          "A",
+          "R",
+          "K",
+          ""
+        ],
+        [
+          "",
+          "",
+          "O",
+          "",
+          "K",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "N",
+          "",
+          "E",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "Y",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          null,
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "SHARK",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Creature in the animal kingdom",
+          "softHints": {
+            "startsWith": "S",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "TURKEY",
+          "direction": "down",
+          "row": 1,
+          "col": 4,
+          "length": 6,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "T",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "PYTHON",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 6,
+          "clue": "Common household pet or wild creature",
+          "softHints": {
+            "startsWith": "P",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "TOM",
+          "direction": "across",
+          "row": 1,
+          "col": 4,
+          "length": 3,
+          "clue": "Creature in the animal kingdom",
+          "softHints": {
+            "startsWith": "T",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "RAY",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "clue": "Furry, feathered, or scaled creature",
+          "softHints": {
+            "startsWith": "R",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 2,
+            "clue": "Furry, feathered, or scaled creature",
+            "answer": "RAY",
+            "length": 3
+          },
+          {
+            "number": 3,
+            "clue": "Creature in the animal kingdom",
+            "answer": "TOM",
+            "length": 3
+          },
+          {
+            "number": 4,
+            "clue": "Creature in the animal kingdom",
+            "answer": "SHARK",
+            "length": 5
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Common household pet or wild creature",
+            "answer": "PYTHON",
+            "length": 6
+          },
+          {
+            "number": 3,
+            "clue": "A type of animal",
+            "answer": "TURKEY",
+            "length": 6
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "animals",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 5,
+        "intersections": 4,
+        "boardScore": 0.4151
+      }
+    },
+    {
+      "puzzleId": "animals-easy-7x7-0011",
+      "seed": 11,
+      "theme": "animals",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "P",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "J",
+          "A",
+          "Y",
+          "",
+          "T",
+          "O",
+          "M"
+        ],
+        [
+          "",
+          "",
+          "T",
+          "",
+          "U",
+          "",
+          ""
+        ],
+        [
+          "",
+          "S",
+          "H",
+          "A",
+          "R",
+          "K",
+          ""
+        ],
+        [
+          "",
+          "",
+          "O",
+          "",
+          "K",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "N",
+          "",
+          "E",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "Y",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          null,
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "SHARK",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Creature in the animal kingdom",
+          "softHints": {
+            "startsWith": "S",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "TURKEY",
+          "direction": "down",
+          "row": 1,
+          "col": 4,
+          "length": 6,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "T",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "PYTHON",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 6,
+          "clue": "Common household pet or wild creature",
+          "softHints": {
+            "startsWith": "P",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "TOM",
+          "direction": "across",
+          "row": 1,
+          "col": 4,
+          "length": 3,
+          "clue": "Creature in the animal kingdom",
+          "softHints": {
+            "startsWith": "T",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "JAY",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "clue": "Furry, feathered, or scaled creature",
+          "softHints": {
+            "startsWith": "J",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 2,
+            "clue": "Furry, feathered, or scaled creature",
+            "answer": "JAY",
+            "length": 3
+          },
+          {
+            "number": 3,
+            "clue": "Creature in the animal kingdom",
+            "answer": "TOM",
+            "length": 3
+          },
+          {
+            "number": 4,
+            "clue": "Creature in the animal kingdom",
+            "answer": "SHARK",
+            "length": 5
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Common household pet or wild creature",
+            "answer": "PYTHON",
+            "length": 6
+          },
+          {
+            "number": 3,
+            "clue": "A type of animal",
+            "answer": "TURKEY",
+            "length": 6
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "animals",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 5,
+        "intersections": 4,
+        "boardScore": 0.4151
+      }
+    },
+    {
+      "puzzleId": "animals-easy-7x7-0012",
+      "seed": 12,
+      "theme": "animals",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "C",
+          "",
+          "M",
+          "",
+          "T",
+          ""
+        ],
+        [
+          "",
+          "H",
+          "",
+          "O",
+          "",
+          "U",
+          ""
+        ],
+        [
+          "",
+          "I",
+          "",
+          "N",
+          "",
+          "R",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "H",
+          "I",
+          "C",
+          "K",
+          ""
+        ],
+        [
+          "",
+          "K",
+          "",
+          "T",
+          "",
+          "E",
+          ""
+        ],
+        [
+          "",
+          "E",
+          "",
+          "O",
+          "",
+          "Y",
+          ""
+        ],
+        [
+          "",
+          "N",
+          "",
+          "R",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          null,
+          "",
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "CHICK",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Furry, feathered, or scaled creature",
+          "softHints": {
+            "startsWith": "C",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "MONITOR",
+          "direction": "down",
+          "row": 0,
+          "col": 3,
+          "length": 7,
+          "clue": "Common household pet or wild creature",
+          "softHints": {
+            "startsWith": "M",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "CHICKEN",
+          "direction": "down",
+          "row": 0,
+          "col": 1,
+          "length": 7,
+          "clue": "Creature in the animal kingdom",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "TURKEY",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 6,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "T",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 4,
+            "clue": "Furry, feathered, or scaled creature",
+            "answer": "CHICK",
+            "length": 5
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Creature in the animal kingdom",
+            "answer": "CHICKEN",
+            "length": 7
+          },
+          {
+            "number": 2,
+            "clue": "Common household pet or wild creature",
+            "answer": "MONITOR",
+            "length": 7
+          },
+          {
+            "number": 3,
+            "clue": "A type of animal",
+            "answer": "TURKEY",
+            "length": 6
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "animals",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 4,
+        "intersections": 3,
+        "boardScore": 0.3873
+      }
+    },
+    {
+      "puzzleId": "animals-easy-7x7-0013",
+      "seed": 13,
+      "theme": "animals",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "J",
+          "",
+          "",
+          "L",
+          ""
+        ],
+        [
+          "",
+          "M",
+          "A",
+          "R",
+          "T",
+          "I",
+          "N"
+        ],
+        [
+          "",
+          "",
+          "G",
+          "",
+          "",
+          "O",
+          ""
+        ],
+        [
+          "",
+          "H",
+          "U",
+          "M",
+          "A",
+          "N",
+          ""
+        ],
+        [
+          "",
+          "",
+          "A",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "T",
+          "U",
+          "R",
+          "K",
+          "E",
+          "Y",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "HUMAN",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Common household pet or wild creature",
+          "softHints": {
+            "startsWith": "H",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "JAGUAR",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 6,
+          "clue": "Creature in the animal kingdom",
+          "softHints": {
+            "startsWith": "J",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "MARTIN",
+          "direction": "across",
+          "row": 1,
+          "col": 1,
+          "length": 6,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "M",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 5,
+          "answer": "TURKEY",
+          "direction": "across",
+          "row": 5,
+          "col": 0,
+          "length": 6,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "T",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "LION",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 4,
+          "clue": "Found in nature or a zoo",
+          "softHints": {
+            "startsWith": "L",
+            "length": 4,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "A type of animal",
+            "answer": "MARTIN",
+            "length": 6
+          },
+          {
+            "number": 4,
+            "clue": "Common household pet or wild creature",
+            "answer": "HUMAN",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "A type of animal",
+            "answer": "TURKEY",
+            "length": 6
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Creature in the animal kingdom",
+            "answer": "JAGUAR",
+            "length": 6
+          },
+          {
+            "number": 2,
+            "clue": "Found in nature or a zoo",
+            "answer": "LION",
+            "length": 4
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "animals",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 5,
+        "intersections": 5,
+        "boardScore": 0.4773
+      }
+    },
+    {
+      "puzzleId": "animals-easy-7x7-0014",
+      "seed": 14,
+      "theme": "animals",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "J",
+          "",
+          "",
+          "L",
+          ""
+        ],
+        [
+          "",
+          "M",
+          "A",
+          "R",
+          "T",
+          "I",
+          "N"
+        ],
+        [
+          "",
+          "",
+          "G",
+          "",
+          "",
+          "O",
+          ""
+        ],
+        [
+          "",
+          "H",
+          "U",
+          "M",
+          "A",
+          "N",
+          ""
+        ],
+        [
+          "",
+          "",
+          "A",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "T",
+          "U",
+          "R",
+          "K",
+          "E",
+          "Y",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "HUMAN",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Common household pet or wild creature",
+          "softHints": {
+            "startsWith": "H",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "JAGUAR",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 6,
+          "clue": "Creature in the animal kingdom",
+          "softHints": {
+            "startsWith": "J",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "MARTIN",
+          "direction": "across",
+          "row": 1,
+          "col": 1,
+          "length": 6,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "M",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 5,
+          "answer": "TURKEY",
+          "direction": "across",
+          "row": 5,
+          "col": 0,
+          "length": 6,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "T",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "LION",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 4,
+          "clue": "Found in nature or a zoo",
+          "softHints": {
+            "startsWith": "L",
+            "length": 4,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "A type of animal",
+            "answer": "MARTIN",
+            "length": 6
+          },
+          {
+            "number": 4,
+            "clue": "Common household pet or wild creature",
+            "answer": "HUMAN",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "A type of animal",
+            "answer": "TURKEY",
+            "length": 6
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Creature in the animal kingdom",
+            "answer": "JAGUAR",
+            "length": 6
+          },
+          {
+            "number": 2,
+            "clue": "Found in nature or a zoo",
+            "answer": "LION",
+            "length": 4
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "animals",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 5,
+        "intersections": 5,
+        "boardScore": 0.4773
+      }
+    },
+    {
+      "puzzleId": "animals-easy-7x7-0015",
+      "seed": 15,
+      "theme": "animals",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "",
+          "",
+          "C",
+          "",
+          ""
+        ],
+        [
+          "",
+          "P",
+          "Y",
+          "T",
+          "H",
+          "O",
+          "N"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "I",
+          "",
+          ""
+        ],
+        [
+          "",
+          "C",
+          "H",
+          "I",
+          "C",
+          "K",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "K",
+          "",
+          ""
+        ],
+        [
+          "T",
+          "U",
+          "R",
+          "K",
+          "E",
+          "Y",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "N",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 3,
+          "answer": "CHICK",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Furry, feathered, or scaled creature",
+          "softHints": {
+            "startsWith": "C",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "CHICKEN",
+          "direction": "down",
+          "row": 0,
+          "col": 4,
+          "length": 7,
+          "clue": "Creature in the animal kingdom",
+          "softHints": {
+            "startsWith": "C",
+            "length": 7,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 4,
+          "answer": "TURKEY",
+          "direction": "across",
+          "row": 5,
+          "col": 0,
+          "length": 6,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "T",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "PYTHON",
+          "direction": "across",
+          "row": 1,
+          "col": 1,
+          "length": 6,
+          "clue": "Common household pet or wild creature",
+          "softHints": {
+            "startsWith": "P",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 2,
+            "clue": "Common household pet or wild creature",
+            "answer": "PYTHON",
+            "length": 6
+          },
+          {
+            "number": 3,
+            "clue": "Furry, feathered, or scaled creature",
+            "answer": "CHICK",
+            "length": 5
+          },
+          {
+            "number": 4,
+            "clue": "A type of animal",
+            "answer": "TURKEY",
+            "length": 6
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Creature in the animal kingdom",
+            "answer": "CHICKEN",
+            "length": 7
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "animals",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 4,
+        "intersections": 3,
+        "boardScore": 0.3832
+      }
+    },
+    {
+      "puzzleId": "animals-easy-7x7-0016",
+      "seed": 16,
+      "theme": "animals",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "P",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "J",
+          "A",
+          "Y",
+          "",
+          "M",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "T",
+          "",
+          "A",
+          "",
+          ""
+        ],
+        [
+          "",
+          "S",
+          "H",
+          "A",
+          "R",
+          "K",
+          ""
+        ],
+        [
+          "",
+          "",
+          "O",
+          "",
+          "T",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "N",
+          "",
+          "I",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "N",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "SHARK",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Creature in the animal kingdom",
+          "softHints": {
+            "startsWith": "S",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "PYTHON",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 6,
+          "clue": "Common household pet or wild creature",
+          "softHints": {
+            "startsWith": "P",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "MARTIN",
+          "direction": "down",
+          "row": 1,
+          "col": 4,
+          "length": 6,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "M",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "JAY",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "clue": "Furry, feathered, or scaled creature",
+          "softHints": {
+            "startsWith": "J",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 2,
+            "clue": "Furry, feathered, or scaled creature",
+            "answer": "JAY",
+            "length": 3
+          },
+          {
+            "number": 4,
+            "clue": "Creature in the animal kingdom",
+            "answer": "SHARK",
+            "length": 5
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Common household pet or wild creature",
+            "answer": "PYTHON",
+            "length": 6
+          },
+          {
+            "number": 3,
+            "clue": "A type of animal",
+            "answer": "MARTIN",
+            "length": 6
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "animals",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 4,
+        "intersections": 3,
+        "boardScore": 0.3669
+      }
+    },
+    {
+      "puzzleId": "animals-easy-7x7-0017",
+      "seed": 17,
+      "theme": "animals",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "P",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "J",
+          "A",
+          "Y",
+          "",
+          "M",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "T",
+          "",
+          "A",
+          "",
+          ""
+        ],
+        [
+          "",
+          "S",
+          "H",
+          "A",
+          "R",
+          "K",
+          ""
+        ],
+        [
+          "",
+          "",
+          "O",
+          "",
+          "T",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "N",
+          "",
+          "I",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "N",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "SHARK",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Creature in the animal kingdom",
+          "softHints": {
+            "startsWith": "S",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "PYTHON",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 6,
+          "clue": "Common household pet or wild creature",
+          "softHints": {
+            "startsWith": "P",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "MARTIN",
+          "direction": "down",
+          "row": 1,
+          "col": 4,
+          "length": 6,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "M",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "JAY",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "clue": "Furry, feathered, or scaled creature",
+          "softHints": {
+            "startsWith": "J",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 2,
+            "clue": "Furry, feathered, or scaled creature",
+            "answer": "JAY",
+            "length": 3
+          },
+          {
+            "number": 4,
+            "clue": "Creature in the animal kingdom",
+            "answer": "SHARK",
+            "length": 5
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Common household pet or wild creature",
+            "answer": "PYTHON",
+            "length": 6
+          },
+          {
+            "number": 3,
+            "clue": "A type of animal",
+            "answer": "MARTIN",
+            "length": 6
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "animals",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 4,
+        "intersections": 3,
+        "boardScore": 0.3669
+      }
+    },
+    {
+      "puzzleId": "animals-easy-7x7-0018",
+      "seed": 18,
+      "theme": "animals",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "J",
+          "",
+          "",
+          "L",
+          ""
+        ],
+        [
+          "",
+          "M",
+          "A",
+          "R",
+          "T",
+          "I",
+          "N"
+        ],
+        [
+          "",
+          "",
+          "G",
+          "",
+          "",
+          "O",
+          ""
+        ],
+        [
+          "",
+          "H",
+          "U",
+          "M",
+          "A",
+          "N",
+          ""
+        ],
+        [
+          "",
+          "",
+          "A",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "T",
+          "U",
+          "R",
+          "K",
+          "E",
+          "Y",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          "",
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "HUMAN",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Common household pet or wild creature",
+          "softHints": {
+            "startsWith": "H",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "JAGUAR",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 6,
+          "clue": "Creature in the animal kingdom",
+          "softHints": {
+            "startsWith": "J",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "MARTIN",
+          "direction": "across",
+          "row": 1,
+          "col": 1,
+          "length": 6,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "M",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 5,
+          "answer": "TURKEY",
+          "direction": "across",
+          "row": 5,
+          "col": 0,
+          "length": 6,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "T",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "LION",
+          "direction": "down",
+          "row": 0,
+          "col": 5,
+          "length": 4,
+          "clue": "Found in nature or a zoo",
+          "softHints": {
+            "startsWith": "L",
+            "length": 4,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 3,
+            "clue": "A type of animal",
+            "answer": "MARTIN",
+            "length": 6
+          },
+          {
+            "number": 4,
+            "clue": "Common household pet or wild creature",
+            "answer": "HUMAN",
+            "length": 5
+          },
+          {
+            "number": 5,
+            "clue": "A type of animal",
+            "answer": "TURKEY",
+            "length": 6
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Creature in the animal kingdom",
+            "answer": "JAGUAR",
+            "length": 6
+          },
+          {
+            "number": 2,
+            "clue": "Found in nature or a zoo",
+            "answer": "LION",
+            "length": 4
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "animals",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 5,
+        "intersections": 5,
+        "boardScore": 0.4773
+      }
+    },
+    {
+      "puzzleId": "animals-easy-7x7-0019",
+      "seed": 19,
+      "theme": "animals",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "P",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "J",
+          "A",
+          "Y",
+          "",
+          "M",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "T",
+          "",
+          "A",
+          "",
+          ""
+        ],
+        [
+          "",
+          "S",
+          "H",
+          "A",
+          "R",
+          "K",
+          ""
+        ],
+        [
+          "",
+          "",
+          "O",
+          "",
+          "T",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "N",
+          "",
+          "I",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "N",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "SHARK",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Creature in the animal kingdom",
+          "softHints": {
+            "startsWith": "S",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "PYTHON",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 6,
+          "clue": "Common household pet or wild creature",
+          "softHints": {
+            "startsWith": "P",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "MARTIN",
+          "direction": "down",
+          "row": 1,
+          "col": 4,
+          "length": 6,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "M",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "JAY",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "clue": "Furry, feathered, or scaled creature",
+          "softHints": {
+            "startsWith": "J",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 2,
+            "clue": "Furry, feathered, or scaled creature",
+            "answer": "JAY",
+            "length": 3
+          },
+          {
+            "number": 4,
+            "clue": "Creature in the animal kingdom",
+            "answer": "SHARK",
+            "length": 5
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Common household pet or wild creature",
+            "answer": "PYTHON",
+            "length": 6
+          },
+          {
+            "number": 3,
+            "clue": "A type of animal",
+            "answer": "MARTIN",
+            "length": 6
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "animals",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 4,
+        "intersections": 3,
+        "boardScore": 0.3669
+      }
+    },
+    {
+      "puzzleId": "animals-easy-7x7-0020",
+      "seed": 20,
+      "theme": "animals",
+      "difficulty": "easy",
+      "rows": 7,
+      "cols": 7,
+      "solutionGrid": [
+        [
+          "",
+          "",
+          "P",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "J",
+          "A",
+          "Y",
+          "",
+          "M",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "T",
+          "",
+          "A",
+          "",
+          ""
+        ],
+        [
+          "",
+          "S",
+          "H",
+          "A",
+          "R",
+          "K",
+          ""
+        ],
+        [
+          "",
+          "",
+          "O",
+          "",
+          "T",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "N",
+          "",
+          "I",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "N",
+          "",
+          ""
+        ]
+      ],
+      "playerGrid": [
+        [
+          null,
+          null,
+          "",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "",
+          "",
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          "",
+          "",
+          "",
+          "",
+          "",
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "",
+          null,
+          "",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          "",
+          null,
+          null
+        ]
+      ],
+      "entries": [
+        {
+          "number": 4,
+          "answer": "SHARK",
+          "direction": "across",
+          "row": 3,
+          "col": 1,
+          "length": 5,
+          "clue": "Creature in the animal kingdom",
+          "softHints": {
+            "startsWith": "S",
+            "length": 5,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 1,
+          "answer": "PYTHON",
+          "direction": "down",
+          "row": 0,
+          "col": 2,
+          "length": 6,
+          "clue": "Common household pet or wild creature",
+          "softHints": {
+            "startsWith": "P",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "answer": "MARTIN",
+          "direction": "down",
+          "row": 1,
+          "col": 4,
+          "length": 6,
+          "clue": "A type of animal",
+          "softHints": {
+            "startsWith": "M",
+            "length": 6,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        },
+        {
+          "number": 2,
+          "answer": "JAY",
+          "direction": "across",
+          "row": 1,
+          "col": 0,
+          "length": 3,
+          "clue": "Furry, feathered, or scaled creature",
+          "softHints": {
+            "startsWith": "J",
+            "length": 3,
+            "category": "animals"
+          },
+          "theme": "animals",
+          "difficulty": "easy"
+        }
+      ],
+      "clueGroups": {
+        "across": [
+          {
+            "number": 2,
+            "clue": "Furry, feathered, or scaled creature",
+            "answer": "JAY",
+            "length": 3
+          },
+          {
+            "number": 4,
+            "clue": "Creature in the animal kingdom",
+            "answer": "SHARK",
+            "length": 5
+          }
+        ],
+        "down": [
+          {
+            "number": 1,
+            "clue": "Common household pet or wild creature",
+            "answer": "PYTHON",
+            "length": 6
+          },
+          {
+            "number": 3,
+            "clue": "A type of animal",
+            "answer": "MARTIN",
+            "length": 6
+          }
+        ]
+      },
+      "uiMetadata": {
+        "boardSize": "mini",
+        "theme": "animals",
+        "difficulty": "easy"
+      },
+      "stats": {
+        "wordCount": 4,
+        "intersections": 3,
+        "boardScore": 0.3669
+      }
+    }
+  ]
+}
