@@ -33,4 +33,8 @@ extension AnalyticsEvent {
     static func stack2048Quit(score: Int) -> AnalyticsEvent {
         AnalyticsEvent("stack2048_quit", ["score": score])
     }
+
+    static func stack2048Win(score: Int) -> AnalyticsEvent {
+        AnalyticsEvent("stack2048_win", ["score": score])
+    }
 }

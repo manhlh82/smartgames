@@ -53,6 +53,9 @@ struct Stack2048LobbyView: View {
                     statBadge(label: "Best Score", value: "\(progress.highScore)")
                     statBadge(label: "Best Tile", value: "\(progress.bestTile)")
                     statBadge(label: "Played", value: "\(progress.gamesPlayed)")
+                    if progress.wins > 0 {
+                        statBadge(label: "Wins", value: "\(progress.wins)")
+                    }
                 }
                 .padding(.bottom, 24)
             }
