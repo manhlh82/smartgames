@@ -60,3 +60,7 @@ build/
 data/raw/
 data/processed/
 outputs/puzzles/
+
+# Kaikki raw extract (2.5GB) and compiled lookup (build-time only, not shipped)
+data/raw/kaikki/
+data/kaikki-lookup.json

@@ -15,7 +15,12 @@ def load_pack_definitions(path="pipeline/pack_definitions.json") -> list[dict]:
         return json.load(f)
 
 
-def validate_puzzle(puzzle: dict) -> list[str]:
+_GENERIC_CLUE_PREFIXES = (
+    "a type of", "a kind of", "found in", "related to", "something you",
+)
+
+
+def validate_puzzle(puzzle: dict, strict_clues: bool = True) -> list[str]:
     """Validate a single puzzle dict. Returns list of error strings (empty = valid).
 
     Checks:
@@ -25,6 +30,7 @@ def validate_puzzle(puzzle: dict) -> list[str]:
     - solutionGrid dimensions match rows x cols
     - each entry answer matches solutionGrid letters at position
     - direction is 'across' or 'down'
+    - (strict_clues=True) clue quality: no empty or generic clues
     """
     errors = []
     entries = puzzle.get("entries", [])
@@ -48,6 +54,16 @@ def validate_puzzle(puzzle: dict) -> list[str]:
                 errors.append(
                     f"puzzle '{puzzle.get('puzzleId')}': solutionGrid row {r_idx} has {len(row)} cols, expected {cols}"
                 )
+
+    # Clue quality check (strict mode)
+    if strict_clues:
+        for entry in puzzle.get("entries", []):
+            clue = entry.get("clue", "").strip()
+            answer = entry.get("answer", "")
+            if not clue:
+                errors.append(f"Entry {answer} has empty clue")
+            elif clue.lower().startswith(_GENERIC_CLUE_PREFIXES):
+                errors.append(f"Entry {answer} has generic clue: '{clue}'")
 
     for entry in entries:
         word = entry.get("answer", "")
@@ -123,7 +139,7 @@ def validate_pack(pack: dict) -> list[str]:
 
     # Validate each puzzle
     for puzzle in puzzles:
-        errors.extend(validate_puzzle(puzzle))
+        errors.extend(validate_puzzle(puzzle, strict_clues=True))
 
     return errors
 

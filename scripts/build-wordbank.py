@@ -139,16 +139,27 @@ def load_freq_map(bartmassey_path: Path) -> dict[str, float]:
     return freq_map
 
 
-def load_imsky_words(source: str) -> list[str]:
-    """Load raw words from an imsky category file. Returns empty list if missing."""
+def load_imsky_words(source: str) -> tuple[list[str], str]:
+    """Load raw words from an imsky category file.
+
+    Returns (words, word_source_path) where word_source_path is the
+    provenance string e.g. "imsky/wordlists/nouns/dogs.txt".
+    Returns ([], "") if the source file is missing.
+    """
     category = IMSKY_CATEGORY_MAP.get(source)
     if not category:
-        return []
+        return [], ""
     path = DATA_RAW / "imsky" / f"{category}.txt"
     if not path.exists():
-        return []
-    return [line.strip() for line in path.read_text(encoding="utf-8", errors="ignore").splitlines()
-            if line.strip()]
+        return [], ""
+    # Build human-readable provenance path matching the upstream repo layout
+    word_source_path = f"imsky/wordlists/nouns/{category}.txt"
+    words = [
+        line.strip()
+        for line in path.read_text(encoding="utf-8", errors="ignore").splitlines()
+        if line.strip()
+    ]
+    return words, word_source_path
 
 
 def build_theme(
@@ -166,7 +177,7 @@ def build_theme(
     seen: set[str] = set()
     entries: list[WordEntry] = []
 
-    def process_word(raw: str, source: str, source_type: str) -> None:
+    def process_word(raw: str, source: str, source_type: str, word_source_path: str = "") -> None:
         norm = normalize_word(raw)
         if norm is None:
             return
@@ -197,19 +208,21 @@ def build_theme(
             clueCandidates=[],
             softHints={},
             notes="",
+            wordSource=word_source_path,
+            licenseNotes="MIT",
         ))
 
     # Load from imsky sources
     for source in theme_cfg.get("sources", []):
-        raw_words = load_imsky_words(source)
+        raw_words, word_source_path = load_imsky_words(source)
         for word in raw_words:
-            process_word(word, source, "topic_list")
+            process_word(word, source, "topic_list", word_source_path)
 
     # Apply sparse fallback if fewer than 50 valid words loaded from files
     valid_count = sum(1 for e in entries if e.allowInGame)
     if valid_count < 50 and theme_name in SPARSE_FALLBACKS:
         for word in SPARSE_FALLBACKS[theme_name]:
-            process_word(word, f"fallback/{theme_name}", "topic_list")
+            process_word(word, f"fallback/{theme_name}", "topic_list", f"fallback/{theme_name}")
 
     return entries
 

@@ -24,6 +24,7 @@ struct CrosswordGridView: View {
                             )
                             .frame(width: cellSize, height: cellSize)
                             .onTapGesture { viewModel.selectCell(row: row, col: col) }
+                            .allowsHitTesting(!cell.isBlack)
                         }
                     }
                 }

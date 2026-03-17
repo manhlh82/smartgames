@@ -23,6 +23,9 @@ class WordEntry:
     clueCandidates: list
     softHints: dict
     notes: str
+    # Provenance fields (with defaults for backward compat)
+    wordSource: str = ""       # e.g. "imsky/wordlists/nouns/dogs.txt"
+    licenseNotes: str = "MIT"  # source license
 
     def to_dict(self) -> dict:
         return {
@@ -41,6 +44,8 @@ class WordEntry:
             "clueCandidates": self.clueCandidates,
             "softHints": self.softHints,
             "notes": self.notes,
+            "wordSource": self.wordSource,
+            "licenseNotes": self.licenseNotes,
         }
 
 
@@ -53,9 +58,15 @@ class ClueEntry:
     alternateClues: list
     softHints: dict  # letter-position hints keyed by index
     difficulty: str
-    source: str  # "generated" | "manual" | "override"
+    source: str  # "generated" | "manual" | "override" | "kaikki" | "needs_review"
     reviewFlags: list
     approved: bool
+    # Provenance fields
+    clueSource: str = ""               # "kaikki" | "override" | "needs_review"
+    sourceDefinition: str = ""         # raw definition before cleaning
+    clueGenerationMethod: str = ""     # "dictionary_gloss" | "manual_override" | "excluded"
+    licenseNotes: str = "CC BY-SA 4.0 (Wiktionary via Kaikki.org)"
+    needsReview: bool = False
 
     def to_dict(self) -> dict:
         return {
@@ -67,6 +78,11 @@ class ClueEntry:
             "source": self.source,
             "reviewFlags": self.reviewFlags,
             "approved": self.approved,
+            "clueSource": self.clueSource,
+            "sourceDefinition": self.sourceDefinition,
+            "clueGenerationMethod": self.clueGenerationMethod,
+            "licenseNotes": self.licenseNotes,
+            "needsReview": self.needsReview,
         }
 
 

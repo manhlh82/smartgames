@@ -17,7 +17,8 @@ from pathlib import Path
 ROOT = Path(__file__).parent.parent
 sys.path.insert(0, str(ROOT))
 
-from pipeline.clue_templates import generate_clue
+from pipeline.clue_generator import make_clue_entry
+from pipeline.dictionary import load_lookup
 from pipeline.generator import CrosswordGenerator
 from pipeline.pack_builder import (
     build_pack,
@@ -32,6 +33,16 @@ WORDBANKS_DIR = ROOT / "outputs" / "wordbanks"
 CLUES_DIR     = ROOT / "outputs" / "clues"
 PACKS_DIR     = ROOT / "outputs" / "packs"
 INDEX_PATH    = ROOT / "outputs" / "packs-index.json"
+
+# Load Kaikki lookup once at module level for auto-generated clues
+_kaikki_lookup: dict | None = None
+
+
+def _get_lookup() -> dict:
+    global _kaikki_lookup
+    if _kaikki_lookup is None:
+        _kaikki_lookup = load_lookup()
+    return _kaikki_lookup
 
 # Themes to cycle through for "mixed" packs
 MIXED_THEMES = ["animals", "food", "ocean", "space", "nature"]
@@ -62,13 +73,30 @@ def _load_all_words() -> list[dict]:
 
 
 def load_word_bank(theme: str) -> list[dict]:
-    """Load theme word bank. If fewer than _MIN_WORD_BANK_SIZE words, supplement with all.json."""
+    """Load theme word bank, excluding needsReview words.
+
+    If fewer than _MIN_WORD_BANK_SIZE valid words, supplement with all.json.
+    Words with needsReview=True in the clue file are excluded before generation.
+    """
     path = WORDBANKS_DIR / f"{theme}.json"
     if not path.exists():
         raise FileNotFoundError(f"Word bank not found: {path}")
     with open(path, encoding="utf-8") as f:
         data = json.load(f)
     words = data.get("words", [])
+
+    # Build set of needs_review words from clue file to exclude them
+    needs_review_words: set[str] = set()
+    clue_path = CLUES_DIR / f"{theme}.json"
+    if clue_path.exists():
+        with open(clue_path, encoding="utf-8") as f:
+            clue_data = json.load(f)
+        for entry in clue_data.get("clues", []):
+            if entry.get("needsReview", False):
+                needs_review_words.add(entry["word"])
+
+    # Exclude words flagged as needs_review
+    words = [w for w in words if w.get("word") not in needs_review_words]
 
     if len(words) < _MIN_WORD_BANK_SIZE:
         theme_word_set = {w["word"] for w in words}
@@ -96,12 +124,20 @@ def load_clue_map(theme: str, word_bank: list[dict] | None = None) -> dict[str, 
 
     # Auto-generate entries for any words in the word bank not in the clue map
     if word_bank:
+        lookup = _get_lookup()
         for word_entry in word_bank:
             word = word_entry.get("word", "")
             if word and word not in clue_map:
-                # Use word's own theme if available, else fall back to pack theme
                 word_theme = word_entry.get("theme", theme) or theme
-                clue_map[word] = generate_clue(word_entry, word_theme)
+                difficulty = word_entry.get("difficulty", "medium")
+                word_source = word_entry.get("wordSource", "")
+                clue_map[word] = make_clue_entry(
+                    word=word,
+                    theme=word_theme,
+                    difficulty=difficulty,
+                    lookup=lookup,
+                    word_source=word_source,
+                )
 
     return clue_map
 
